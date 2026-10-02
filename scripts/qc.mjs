@@ -40,6 +40,9 @@ const insufficientIndependentChecks = lessons.filter(l => {
   const modeledItems = !l.model && l.q?.length > 1 ? 1 : 0;
   return l.q.length - modeledItems < 4;
 }).map(l => l.id);
+const requiredScienceOrder = ['s_vocab_rescue_heat', 's_vocab_rescue_transfer', 's_vocab_rescue_resources', 's_vocab_rescue_systems'];
+const scienceOrderActual = D.SCI.lessons.slice(0, 4).map(l => l.id);
+const scienceVocabularyFirst = requiredScienceOrder.every((id, i) => scienceOrderActual[i] === id);
 const multiIssues = [];
 const questionIds = [];
 const positions = [0, 0, 0, 0];
@@ -86,9 +89,11 @@ const report = {
   connectionMissing,
   connectionChecksMissing,
   insufficientIndependentChecks,
+  scienceVocabularyFirst,
+  scienceOrderActual,
   multiIssues
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03);
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03);
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
