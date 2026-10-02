@@ -1,7 +1,7 @@
 # Learn With Ry — Tennessee Grade 6 TCAP Alignment Audit
 
 Audit date: October 2, 2026  
-Build: connected cumulative rebuild v15
+Build: vocabulary-first connected cumulative rebuild v16
 
 ## Honest conclusion
 
@@ -25,7 +25,7 @@ Remaining full-year TCAP gaps: the assessed ecosystem standards (6.LS2.1–5 and
 
 ## Question population and mastery
 
-Build v15 contains 142 lessons, 1,291 selected-response questions, and a constructed-transfer prompt for every lesson. Every non-test lesson now has at least four independently scored post-model opportunities and two explicit connection/application checks. Delayed retrieval is available after 24 hours, and first attempts are preserved.
+Build v16 contains 142 lessons, 1,291 selected-response questions, and a constructed-transfer prompt for every lesson. Science begins with four vocabulary-rescue lessons before corrections or closed-note mastery. Every non-test lesson has at least four independently scored post-model opportunities and two explicit connection/application checks. Delayed retrieval is available after 24 hours, and first attempts are preserved.
 
 This is sufficient as a **practice population for the recovered weekly classroom scope**, but raw volume is not proof of readiness. Mastery still requires at least 90% by objective, a successful constructed transfer, and delayed retrieval. ELA and Science readiness must also be calibrated against Riley's returned tests and item-level errors.
 
