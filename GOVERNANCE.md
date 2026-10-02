@@ -95,6 +95,10 @@ Connections are taught, not assumed. At minimum, the module must repeatedly conn
 - cause/effect, comparison, point of view, tone, and precise vocabulary across texts and subjects;
 - prior Mesopotamia learning to Ancient Canaan through evidence-based comparison.
 
+Every non-test lesson must include two distinct connection checks after the worked model: one that asks Riley to identify or explain the relationship and one that asks her to apply it in a fresh context. Every constructed transfer must name the prior idea, the new idea, what stays the same, what changes, and the evidence that makes the connection valid. A generic sentence such as “this connects to another subject” does not satisfy this rule.
+
+Coverage is counted by objective evidence, not by the total number of questions in the site. Each objective must have at least four independently scored selected-response opportunities after any modeled item, an independently written or constructed transfer, and a later delayed-retrieval opportunity. Repeated wording, retries, supported work, and questions that test only vocabulary recall do not count as separate mastery evidence.
+
 ## 10. Required pre-publish QC
 
 Before publication, the build must pass all of these audits:
@@ -102,6 +106,8 @@ Before publication, the build must pass all of these audits:
 - source-to-objective coverage matrix complete;
 - every required concept and teacher term present;
 - every lesson has teach, model, varied practice, application/transfer, connection, and independent check;
+- every non-test objective has at least four post-model independent checks and two explicit connection/application checks;
+- every constructed transfer requires an evidence-based connection to prior learning;
 - vocabulary appears before closed-note assessment;
 - objective IDs, lesson IDs, and question IDs are unique;
 - correct-answer positions are balanced after display shuffling;

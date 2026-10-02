@@ -18,3 +18,7 @@ Build target: October 2, 2026 reset. Scores and completion start clean; curricul
 - Every current priority has a worked model, varied practice, application, independent check, and delayed retrieval path.
 - Answer positions and keys are audited, including printable forms.
 - Clean storage namespace prevents any old score or completion state from appearing.
+
+## Tennessee TCAP boundary
+
+This weekly cumulative module is aligned to the Tennessee standards that overlap Riley's teacher-assigned units; it is not labeled as a complete full-year TCAP course. Current Grade 6 TCAP Science also assesses ecosystem and weather/climate standards that have not yet appeared in the recovered classroom assignments. Current Grade 6 TCAP ELA requires balanced literary and informational reading, vocabulary, conventions, and two passage-based extended writing responses. Those full-year gaps must be added from teacher materials as they are assigned or in a separately labeled TCAP readiness pathway. See `TCAP_ALIGNMENT_AUDIT.md`.
