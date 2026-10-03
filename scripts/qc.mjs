@@ -5,7 +5,8 @@ const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
 const narrator = fs.readFileSync(new URL('../narrator.js', import.meta.url), 'utf8');
 const practiceHtml = fs.readFileSync(new URL('../ela-unit1-practice.html', import.meta.url), 'utf8');
 const practiceJs = fs.readFileSync(new URL('../ela-unit1-test.js', import.meta.url), 'utf8');
-const match = html.match(/<script>([\s\S]*)<\/script>/);
+const organizer = fs.readFileSync(new URL('../organizer.js', import.meta.url), 'utf8');
+const match = html.match(/<script>([\s\S]*?)<\/script>/);
 if (!match) throw new Error('No application script found');
 
 const storage = new Map([['learnwithry_source_first_index_v1', JSON.stringify({ first: { old: { correct: true } }, lessonDone: { old: true } })]]);
@@ -106,7 +107,19 @@ report.narration = {
   answerSafeBeforeSubmission: /function assessmentNarration\(q\)[\s\S]*?return`\$\{passage\}\$\{q\.prompt\}/.test(practiceJs) && !/function assessmentNarration\(q\)[\s\S]*?q\.(?:answer|why|model)/.test(practiceJs.match(/function assessmentNarration\(q\)[^\n]*/)?.[0] || ''),
   feedbackRequiresOptIn: narrator.includes('if(engaged)speak(text,root)')
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean);
+const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
+report.organization = {
+  organizerLoaded: html.includes('organizer.js?v=20261003'),
+  sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
+  nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
+  weeklyPriorities: organizer.includes('Five clear priorities') && organizer.includes('weeklyItems()'),
+  priorityChoiceCap: organizer.includes('.slice(0,8)'),
+  fullLibraryPreserved: organizer.includes("'Browse all '+lessons.length+' lessons'"),
+  parentToolsSeparated: organizer.includes("PARENT TOOLS") && organizer.includes("simplifyLessonTools"),
+  noAdminHero: !/(Complete Cumulative Rebuild|CLEAN START|No old history is used|Teacher priorities now)/i.test(learnerShell),
+  compactHeader: learnerShell.includes('class="studentHeader"') && !learnerShell.includes('class="hero"')
+};
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean);
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
