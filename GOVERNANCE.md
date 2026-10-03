@@ -54,6 +54,10 @@ Vocabulary recall alone never substitutes for conceptual application.
 - Short, visually separated chunks suitable for an inattentive learner and a mildly dyslexic reader.
 - No speed points or time pressure.
 - Read-aloud-friendly wording and full keyboard support.
+- Every lesson, selected-response practice item, constructed-response prompt, missed-item review, and delayed-retrieval prompt includes in-page narration controls when the browser supports speech synthesis.
+- Narration provides read, pause/resume, stop, and adjustable-rate controls, defaults to a slower learning pace, and stops when the learner changes lessons or questions.
+- A question may narrate its directions, passage, prompt, and choices neutrally. It must never narrate the key, explanation, sample response, or any other answer disclosure before Riley commits her response.
+- Spoken feedback may begin only after a response is submitted and only after Riley has chosen to use narration during that session.
 - Instructions name the exact action and the exact number of selections.
 - Feedback is kind, precise, and never calls an incorrect response correct or “close.”
 - A miss triggers: preserve first response → ask for reasoning → classify the error → brief reteach → new parallel item → delayed recheck.
