@@ -56,6 +56,7 @@ Vocabulary recall alone never substitutes for conceptual application.
 - Read-aloud-friendly wording and full keyboard support.
 - Every lesson, selected-response practice item, constructed-response prompt, missed-item review, and delayed-retrieval prompt includes in-page narration controls when the browser supports speech synthesis.
 - Narration provides read, pause/resume, stop, and adjustable-rate controls, defaults to a slower learning pace, and stops when the learner changes lessons or questions.
+- Narration defaults to the best available natural-sounding U.S.-English female voice, never merely the browser's unspecified default. The learner can preview and select another installed English voice, and that choice persists on the device.
 - A question may narrate its directions, passage, prompt, and choices neutrally. It must never narrate the key, explanation, sample response, or any other answer disclosure before Riley commits her response.
 - Spoken feedback may begin only after a response is submitted and only after Riley has chosen to use narration during that session.
 - The learner view contains only information Riley needs to decide what to do and complete the learning. Internal build names, version/reset notices, governance language, source-management commentary, implementation status, parent records, and teacher-facing summaries never appear in the learner workspace.
