@@ -97,12 +97,36 @@ const report = {
   scienceOrderActual,
   multiIssues
 };
+const voiceStorage = new Map();
+let spokenUtterance = null;
+class TestUtterance { constructor(text){ this.text = text; } }
+const testVoices = [
+  { name: 'Microsoft Mark - English (United States)', lang: 'en-US', default: true },
+  { name: 'Microsoft Aria Online (Natural) - English (United States)', lang: 'en-US', default: false }
+];
+const voiceWindow = {
+  SpeechSynthesisUtterance: TestUtterance,
+  speechSynthesis: { getVoices: () => [...testVoices], cancel(){}, speak(u){ spokenUtterance = u; }, addEventListener(){} },
+  addEventListener(){}
+};
+const voiceSandbox = {
+  window: voiceWindow,
+  SpeechSynthesisUtterance: TestUtterance,
+  localStorage: { getItem:k=>voiceStorage.get(k)||null, setItem:(k,v)=>voiceStorage.set(k,String(v)), removeItem:k=>voiceStorage.delete(k) }
+};
+vm.createContext(voiceSandbox);
+vm.runInContext(narrator, voiceSandbox, { filename: 'narrator.js' });
+voiceWindow.RyNarrator.speak('Voice quality check', { querySelector: () => null });
+
 report.narration = {
-  sharedEngineLoaded: html.includes('narrator.js?v=20261003') && practiceHtml.includes('narrator.js?v=20261003'),
+  sharedEngineLoaded: html.includes('narrator.js?v=20261003-2') && practiceHtml.includes('narrator.js?v=20261003-2'),
   lessonControls: html.includes("'Read this lesson'") && html.includes("'Read question and choices'") && html.includes("'Read writing prompt'"),
   reviewControls: html.includes("'Read review prompt'") && html.includes("'Read retention prompt'"),
   practiceControls: practiceJs.includes("'Read question and choices'") && practiceJs.includes("'Read review question'"),
   transportControls: ['data-ry-read','data-ry-pause','data-ry-stop','data-ry-rate'].every(token => narrator.includes(token)),
+  voiceControls: ['data-ry-voice','data-ry-preview','Natural female (recommended)'].every(token => narrator.includes(token)),
+  femaleVoicePreferred: spokenUtterance?.voice?.name.includes('Aria Online (Natural)'),
+  voiceChoicePersists: narrator.includes("VOICE_KEY='learnwithry_narration_voice_v1'") && narrator.includes('localStorage.setItem(VOICE_KEY'),
   learningPaceDefault: narrator.includes("localStorage.getItem(RATE_KEY)||.85"),
   answerSafeBeforeSubmission: /function assessmentNarration\(q\)[\s\S]*?return`\$\{passage\}\$\{q\.prompt\}/.test(practiceJs) && !/function assessmentNarration\(q\)[\s\S]*?q\.(?:answer|why|model)/.test(practiceJs.match(/function assessmentNarration\(q\)[^\n]*/)?.[0] || ''),
   feedbackRequiresOptIn: narrator.includes('if(engaged)speak(text,root)')
