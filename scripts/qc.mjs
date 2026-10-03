@@ -2,6 +2,9 @@ import fs from 'node:fs';
 import vm from 'node:vm';
 
 const html = fs.readFileSync(new URL('../index.html', import.meta.url), 'utf8');
+const narrator = fs.readFileSync(new URL('../narrator.js', import.meta.url), 'utf8');
+const practiceHtml = fs.readFileSync(new URL('../ela-unit1-practice.html', import.meta.url), 'utf8');
+const practiceJs = fs.readFileSync(new URL('../ela-unit1-test.js', import.meta.url), 'utf8');
 const match = html.match(/<script>([\s\S]*)<\/script>/);
 if (!match) throw new Error('No application script found');
 
@@ -93,7 +96,17 @@ const report = {
   scienceOrderActual,
   multiIssues
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03);
+report.narration = {
+  sharedEngineLoaded: html.includes('narrator.js?v=20261003') && practiceHtml.includes('narrator.js?v=20261003'),
+  lessonControls: html.includes("'Read this lesson'") && html.includes("'Read question and choices'") && html.includes("'Read writing prompt'"),
+  reviewControls: html.includes("'Read review prompt'") && html.includes("'Read retention prompt'"),
+  practiceControls: practiceJs.includes("'Read question and choices'") && practiceJs.includes("'Read review question'"),
+  transportControls: ['data-ry-read','data-ry-pause','data-ry-stop','data-ry-rate'].every(token => narrator.includes(token)),
+  learningPaceDefault: narrator.includes("localStorage.getItem(RATE_KEY)||.85"),
+  answerSafeBeforeSubmission: /function assessmentNarration\(q\)[\s\S]*?return`\$\{passage\}\$\{q\.prompt\}/.test(practiceJs) && !/function assessmentNarration\(q\)[\s\S]*?q\.(?:answer|why|model)/.test(practiceJs.match(/function assessmentNarration\(q\)[^\n]*/)?.[0] || ''),
+  feedbackRequiresOptIn: narrator.includes('if(engaged)speak(text,root)')
+};
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean);
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
