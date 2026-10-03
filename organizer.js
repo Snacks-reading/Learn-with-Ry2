@@ -21,7 +21,7 @@
   function renderModeNav(){modeNav.innerHTML='';Object.entries(modeLabels).forEach(([key,label])=>{const b=document.createElement('button');b.textContent=label;b.className=key===uiMode?'active':'';b.setAttribute('aria-current',key===uiMode?'page':'false');b.onclick=()=>setMode(key);modeNav.appendChild(b)})}
   function setMode(name,scroll=true){uiMode=name;RyNarrator?.stop();Object.entries(views).forEach(([key,el])=>el.classList.toggle('hidden',key!==name));renderModeNav();if(name==='HOME')renderHome();if(name==='PRACTICE')renderPractice();if(name==='REVIEW')renderReviewHub();if(name==='WRITING')renderWritingHub();if(name==='PARENT')renderParent();if(scroll)hero.scrollIntoView({behavior:'smooth',block:'start'})}
   function findLesson(subject,matcher){const lessons=D[subject]?.lessons||[];let index=typeof matcher==='string'?lessons.findIndex(l=>l.id===matcher):lessons.findIndex(l=>matcher.test(l.title));if(index<0)index=0;return{subject,index,lesson:lessons[index]}}
-  function openLesson(subject,matcher){const found=findLesson(subject,matcher);subj=subject;li=found.index;qi=0;save();render();setMode('LEARN');return found}
+  function openLesson(subject,matcher){const found=findLesson(subject,matcher);expandedSubjects[subject]=false;subj=subject;li=found.index;qi=0;save();render();setMode('LEARN');return found}
   function dueCount(){return Object.values(st.retention).filter(t=>Date.now()-new Date(t).getTime()>=86400000).length}
   function waitingCount(){return archive().filter(x=>x.status==='waiting_for_chatgpt').length}
   function weeklyItems(){return[
