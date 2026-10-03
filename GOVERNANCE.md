@@ -58,6 +58,9 @@ Vocabulary recall alone never substitutes for conceptual application.
 - Narration provides read, pause/resume, stop, and adjustable-rate controls, defaults to a slower learning pace, and stops when the learner changes lessons or questions.
 - A question may narrate its directions, passage, prompt, and choices neutrally. It must never narrate the key, explanation, sample response, or any other answer disclosure before Riley commits her response.
 - Spoken feedback may begin only after a response is submitted and only after Riley has chosen to use narration during that session.
+- The learner view contains only information Riley needs to decide what to do and complete the learning. Internal build names, version/reset notices, governance language, source-management commentary, implementation status, parent records, and teacher-facing summaries never appear in the learner workspace.
+- No oversized slogan, decorative hero, promotional copy, or administrative explanation may consume learning space. Branding is limited to a compact header; the first substantial panel must be the next learning action.
+- Parent records, source provenance, exports, backups, and technical notes belong only in a clearly separated Parent Tools view.
 - Instructions name the exact action and the exact number of selections.
 - Feedback is kind, precise, and never calls an incorrect response correct or “close.”
 - A miss triggers: preserve first response → ask for reasoning → classify the error → brief reteach → new parallel item → delayed recheck.
@@ -124,5 +127,12 @@ Before publication, the build must pass all of these audits:
 - every subject and lesson opens; next/previous/review flows work;
 - mobile and desktop screenshots are visually inspected;
 - live GitHub Pages build is opened after publication and compared with the approved local build.
+- the first learner screen identifies one next action without requiring subject or lesson-list interpretation;
+- Home, Learn, Practice, Review, Writing, and Parent Tools are visibly distinct modes;
+- learner lessons display no more than eight priority choices before an explicit “Browse all” action;
+- every lesson remains reachable within three deliberate actions from Home;
+- parent/source/backup controls do not appear in the learner lesson flow;
+- no internal build/reset/governance/status copy or oversized decorative hero appears in the learner view;
+- a 390-pixel mobile viewport and a desktop viewport are both interaction-tested, not merely screenshotted.
 
 If any check fails, the module is not ready to publish.
