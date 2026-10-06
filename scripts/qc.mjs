@@ -154,7 +154,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261003-2'),
+  organizerLoaded: html.includes('organizer.js?v=20261006-1'),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
   weeklyPriorities: organizer.includes('Five clear priorities') && organizer.includes('weeklyItems()'),
