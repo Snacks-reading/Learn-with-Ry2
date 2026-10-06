@@ -14,6 +14,22 @@ Learn With Ry is a specialized middle-school tutoring system for Riley. It must 
 
 Every lesson displays its source. Classroom wording that is simplified or historically/scientifically disputed is identified as classroom wording while Riley is also given an age-appropriate accurate distinction.
 
+### Mandatory independent source recovery and gap closure
+
+This requirement applies to every future request, weekly update, correction, rebuild, and subject. The parent may provide a newsletter or whatever classroom material is readily available; the tutoring system owns the remaining research and integration work.
+
+- Independently recover and read the complete teacher-used resources from existing uploads, prior project materials, exact public originals, publisher/curriculum sources, and authoritative Tennessee materials before building.
+- A filename, link title, screenshot of a resource list, summary, standard, or earlier generated lesson is not the recovered source and cannot count as complete source coverage.
+- Maintain a source ledger that labels each required item **complete**, **partial**, **referenced-only**, or **unavailable**. Only complete sources may support a claim of complete coverage.
+- Extract every teacher-taught term, fact, person, event, map feature, process, formula, text-dependent skill, rubric demand, activity format, and assessment pattern into a source-to-objective matrix.
+- Compare that matrix against the current cumulative curriculum and independently close every instructional, practice, assessment, connection, and delayed-retrieval gap.
+- Never shift source recovery, curriculum organization, gap identification, research, comparison, or quality-control work back to the parent.
+- Ask the parent for material only after exhausting existing uploads, project history, exact-title searches, verified public curriculum matches, and authoritative sources. Any request must identify one specific inaccessible item and why it remains necessary.
+- If a private classroom item remains inaccessible, clearly record the blocker in Parent Tools and limit completeness claims. Never silently substitute a general standards lesson or broad topic summary.
+- Question totals, lesson totals, structural completeness, or standards alignment cannot substitute for line-by-line source coverage.
+
+A build fails governance if the parent must discover a source gap that the source-to-objective audit should have identified.
+
 ## 2. Complete-curriculum rule
 
 New weekly priorities are added to the cumulative curriculum. Older lessons do not disappear after a test. The active path must include every lesson Riley remains responsible for and must deliberately connect prior and current learning.
@@ -111,6 +127,8 @@ Coverage is counted by objective evidence, not by the total number of questions 
 
 Before publication, the build must pass all of these audits:
 
+- independent source recovery completed without shifting research or gap analysis to the parent;
+- every required source has a complete/partial/referenced-only/unavailable status and unresolved non-complete sources are disclosed in Parent Tools;
 - source-to-objective coverage matrix complete;
 - every required concept and teacher term present;
 - every lesson has teach, model, varied practice, application/transfer, connection, and independent check;
