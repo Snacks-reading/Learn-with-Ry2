@@ -25,11 +25,11 @@
   function dueCount(){return Object.values(st.retention).filter(t=>Date.now()-new Date(t).getTime()>=86400000).length}
   function waitingCount(){return archive().filter(x=>x.status==='waiting_for_chatgpt').length}
   function weeklyItems(){return[
-    {day:'1',subject:'ELA',label:'Narrative writing',match:/Narrative Essay Roadmap/},
-    {day:'2',subject:'SCI',label:'Heat and particle vocabulary',match:/SCIENCE VOCAB RESCUE 1/},
-    {day:'3',subject:'MATH',label:'Percent reasoning',match:/CURRENT.*(?:Percent|Percentage)|Percentage Unit/},
-    {day:'4',subject:'SCI',label:'Energy resources',match:/Natural Resources: From Source/},
-    {day:'5',subject:'SS',label:'Canaan and Mesopotamia retrieval',match:/Ancient Canaan Geography Quiz/}
+    {day:'1',subject:'ELA',label:'Unit 1 texts + narrative proof',match:'ela_v19_unit_map'},
+    {day:'2',subject:'MATH',label:'Percent meaning + three unknowns',match:'math_v19_percent_meaning'},
+    {day:'3',subject:'SCI',label:'Particles + heat-transfer mechanisms',match:'science_v19_particles'},
+    {day:'4',subject:'SS',label:'Teacher map + vocabulary network',match:'ss_v19_map'},
+    {day:'5',subject:'SS',label:'People, events + cultural continuity',match:'ss_v19_patriarchs'}
   ].map(x=>({...x,...findLesson(x.subject,x.match)}))}
   function renderHome(){
     const week=weeklyItems(),next=week.find(x=>!st.lessonDone[x.lesson.id])||week[0];
@@ -40,7 +40,7 @@
     document.getElementById('homeRetention').onclick=()=>{setMode('LEARN');retentionReview()};
     document.getElementById('homeWriting').onclick=()=>setMode('WRITING');
   }
-  function priorityIndexes(){const lessons=D[subj].lessons;if(subj==='SCI')return SCIENCE_REQUIRED_ORDER.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);let indexes=lessons.map((l,i)=>/^(CURRENT|DO FIRST|DO SECOND|DO THIRD|DO FOURTH)/.test(l.title)?i:-1).filter(i=>i>=0);if(!indexes.length)indexes=lessons.map((_,i)=>i).slice(0,6);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)}
+  function priorityIndexes(){const lessons=D[subj].lessons;if(subj==='SCI')return SCIENCE_REQUIRED_ORDER.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0).slice(0,8);let indexes=lessons.map((l,i)=>/^(CURRENT|DO FIRST|DO SECOND|DO THIRD|DO FOURTH)/.test(l.title)?i:-1).filter(i=>i>=0);if(!indexes.length)indexes=lessons.map((_,i)=>i).slice(0,6);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)}
   function lessonButton(l,i){let b=document.createElement('button');b.className='lesson '+(i===li?'active ':'')+(st.lessonDone[l.id]?'mastered':'');b.innerHTML=`<b>${i+1}. ${esc(l.title)}</b><small>${st.lessonDone[l.id]?'✓ practice cycle complete':'Teach → practice → apply'}</small>`;b.onclick=()=>{li=i;qi=0;save();renderMain();side()};return b}
   nav=function(){subjectNav.innerHTML='<div class="subjectPrompt"><b>Choose one subject</b><span>Then choose a priority lesson or browse the full library.</span></div>';Object.entries(D).forEach(([key,value])=>{let b=document.createElement('button');b.textContent=value.icon+' '+value.name;b.className=key===subj?'active':'';b.onclick=()=>{subj=key;li=0;qi=0;save();render()};subjectNav.appendChild(b)})};
   side=function(){const box=document.getElementById('side'),lessons=D[subj].lessons,showAll=!!expandedSubjects[subj];box.innerHTML=`<div class="sideHead"><span class="kicker">${showAll?'FULL LIBRARY':'PRIORITY PATH'}</span><b>${esc(D[subj].name)}</b><small>${showAll?lessons.length+' lessons available':'Up to 8 next-step lessons'}</small></div>`;if(showAll){let search=document.createElement('input');search.className='lessonSearch';search.placeholder='Search '+D[subj].name+' lessons';search.setAttribute('aria-label','Search lessons');box.appendChild(search);let list=document.createElement('div');box.appendChild(list);const draw=()=>{let term=search.value.trim().toLowerCase();list.innerHTML='';lessons.forEach((l,i)=>{if(!term||l.title.toLowerCase().includes(term))list.appendChild(lessonButton(l,i))})};search.oninput=draw;draw()}else priorityIndexes().forEach(i=>box.appendChild(lessonButton(lessons[i],i)));let toggle=document.createElement('button');toggle.className='browseAll';toggle.textContent=showAll?'← Show priority path':'Browse all '+lessons.length+' lessons';toggle.onclick=()=>{expandedSubjects[subj]=!showAll;side()};box.appendChild(toggle);setTimeout(()=>box.querySelector('.active')?.scrollIntoView({block:'nearest'}),0)};

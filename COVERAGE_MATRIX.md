@@ -1,6 +1,19 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
-Build target: October 2, 2026 reset. Scores and completion start clean; curriculum remains cumulative.
+## October 6 source-locked rebuild
+
+The live priority path now begins with 20 explicit source-reconciled lessons before the cumulative library: 4 ELA, 4 Math, 4 Science, and 8 Social Studies. Each has direct teaching, a worked model, vocabulary, six authored checks plus two connection/application checks, a constructed transfer, a success criterion, and delayed retrieval through the common engine. See `SOURCE_LEDGER.md` for source status and boundaries.
+
+| Subject | Rebuild sequence | Atomic coverage gate |
+|---|---|---|
+| ELA | Unit 1 text/idea map → evidence/POV/structure → context/figurative/tone/mood → narrative independent proof | All five recovered classroom text anchors plus every photographed study-guide skill and current narrative criteria |
+| Math | Percent meaning → three unknowns → applications/error analysis → next-unit bridge | Below 1%, above 100%, representations, part/rate/whole, percent change, integers, rational ordering, coordinates/reflection/distance |
+| Science | Particles/equilibrium → transfer/materials → acquisition/conversion → tradeoffs/climate/engineering | SCI-01–14 and every named teacher resource/mechanism; mechanism explanations precede tests and correction work |
+| Social Studies | Map → vocabulary → Abraham/Moses → Saul → David → Solomon → divided kingdoms/conquests → cultural continuity | Every legible teacher map label, vocabulary cluster, Walk of Fame leader, and Show What You Know event/practice |
+
+The cumulative lessons remain available; progress keys were not changed.
+
+Prior build target: October 2, 2026 reset. Scores and completion started clean then; v19 preserves that compatible progress while rebuilding the learning path cumulatively.
 
 | Subject | Controlling classroom requirements | Cumulative lessons that remain | New/current application | Independent evidence required |
 |---|---|---|---|---|

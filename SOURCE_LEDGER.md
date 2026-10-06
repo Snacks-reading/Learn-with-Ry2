@@ -1,0 +1,32 @@
+# Learn With Ry — Mandatory Source Ledger
+
+Audit date: October 6, 2026  
+Build: `2026-10-06-source-locked-all-subjects-v19`
+
+Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
+
+| Subject | Source | Status | What the rebuild uses | Remaining boundary |
+|---|---|---|---|---|
+| All | 10/2 teacher newsletter | **complete** | Current deadlines, percent test, science corrections/resource poster, narrative work, Canaan/early Judaism quiz, and next-unit math | None for the visible newsletter |
+| ELA | Photographed Unit 1 study guide | **complete** | Theme, POV, context clues, tone, mood, central idea, figurative language, convey/analyze/compare/contrast, and IXL skill labels | Study guide identifies skills, not protected test questions |
+| ELA | myPerspectives Grade 6 Unit 1 classroom map and prior recovered materials | **partial** | *Brown Girl Dreaming*, Michaela DePrince + *Dancer's Dream*, “Oranges,” “All Summer in a Day,” genre/evidence connections | Full licensed anthology pages are not reproduced |
+| ELA | Current narrative assignment + TN narrative rubric | **partial** | Prompt decoding, situation/POV, sequence, pacing, dialogue, description, transitions, ending, revision, independent proof | Exact current student draft and teacher comments are not in the repository |
+| Math | Teacher percent notes/review/newsletters | **partial** | Percent meaning, models/conversions, below 1/above 100, part-percent-whole, applications, error analysis, October 6 test scope | Exact protected school test is not reproduced |
+| Math | Newsletter next-unit sequence | **complete** | Integers, opposites, absolute value, rational ordering, number lines, coordinates, reflection, distance | Classroom lesson pages will supersede support examples when assigned |
+| Science | Teacher 49-question Heat Transfer/Energy Resources map | **complete** for the recovered objective map | SCI-01–14: particles/temperature/equilibrium, mechanisms/materials, resources/conversion, tradeoffs/climate, engineering | Original protected item wording is not reproduced |
+| Science | STEMscopes/STEMscopedia classroom pages | **referenced-only** | Only concepts independently confirmed by teacher guide/newsletter and public/official support are used | Exact signed-in pages were not accessible; no claim of verbatim use |
+| Science | Test-correction and natural-resource poster directions | **complete** for visible newsletter requirements | Error classification/repair, acquisition, conversion, advantages, disadvantages, reliability, impacts, evidence defense | Ry's returned item-level test marks are not present |
+| Social Studies | Teacher Canaan map/key photographs | **complete** for visible labels | Mediterranean, Canaan, Phoenicia, Israel, Judah, Jordan, Galilee, Dead Sea, Jerusalem, Sinai, Red Sea | None for visible labels; blank-map geometry is represented relationally |
+| Social Studies | Ancient Israel Vocabulary photographs | **partial** | Migration, diaspora, Hebrew/Israelite/Jew, Judaism, monotheism, Tanakh, Torah, captivity, plus recovered practice terms | One photographed page was only partly legible, so public/official corroboration was used for definitions |
+| Social Studies | Walk of Fame photographs | **complete** for visible slides | Abraham, Moses, Saul, David, Solomon; Goliath, Jonathan, Jerusalem, temple, wisdom/Proverbs, monarchy sequence | Dates are used only where visible/corroborated and not overclaimed |
+| Social Studies | Show What You Know photographs | **complete** for visible prompts | Canaan/Promised Land, Judaism/Torah, Exodus, commandments, leaders, rabbis, Sabbath, Sinai, Assyria 722 BCE, diaspora, Chaldeans/Babylonian Captivity | Protected teacher answer-layout is not copied; fresh questions test the same objectives |
+| Social Studies | `OER Ancient Israel (2).pdf` Schoology attachment | **referenced-only** | No unique claim relies solely on the inaccessible file; visible teacher materials and corroborated support control | Exact attachment remains behind the classroom system |
+| All | Current Tennessee standards and 2026–27 TCAP blueprints | **complete** for alignment use | Grade-level rigor, item variety, evidence/reasoning, modeling, writing and assessment boundaries | Does not convert the weekly site into a full-year TCAP course |
+
+## Release result
+
+- Every **complete** or **partial** source target above has at least one explicit live lesson/objective.
+- A **referenced-only** source cannot be counted as used content. It is listed so it cannot silently disappear from future audits.
+- The v19 source-locked rebuild adds 20 explicit current-path lessons: ELA 4, Math 4, Science 4, Social Studies 8.
+- Automated QC fails if any rebuilt lesson disappears, falls below the teaching/practice floor, or loses a required atomic classroom term.
+

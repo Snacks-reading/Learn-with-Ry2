@@ -1,7 +1,7 @@
 # Learn With Ry — Tennessee Grade 6 TCAP Alignment Audit
 
-Audit date: October 2, 2026  
-Build: vocabulary-first connected cumulative rebuild v16
+Audit date: October 6, 2026  
+Build: source-locked all-subject rebuild v19
 
 ## Honest conclusion
 
@@ -25,7 +25,7 @@ Remaining full-year TCAP gaps: the assessed ecosystem standards (6.LS2.1–5 and
 
 ## Question population and mastery
 
-Build v16 contains 142 lessons, 1,291 selected-response questions, and a constructed-transfer prompt for every lesson. Science begins with four vocabulary-rescue lessons before corrections or closed-note mastery. Every non-test lesson has at least four independently scored post-model opportunities and two explicit connection/application checks. Delayed retrieval is available after 24 hours, and first attempts are preserved.
+Build v19 contains 162 lessons and 1,451 selected-response questions, with a constructed-transfer prompt for every lesson. The 20 new source-locked lessons add 160 scored checks after connection/application augmentation. Science begins with the four rebuilt concept pathways before vocabulary rescue, corrections, or closed-note mastery. Every non-test lesson has at least four independently scored post-model opportunities and two explicit connection/application checks. Delayed retrieval is available after 24 hours, and first attempts are preserved.
 
 This is sufficient as a **practice population for the recovered weekly classroom scope**, but raw volume is not proof of readiness. Mastery still requires at least 90% by objective, a successful constructed transfer, and delayed retrieval. ELA and Science readiness must also be calibrated against Riley's returned tests and item-level errors.
 
@@ -33,7 +33,7 @@ This is sufficient as a **practice population for the recovered weekly classroom
 
 Used controlling sources include the Sept. 30 ELA Unit 1 study guide; the newsletters and assignments; Holt/McDougal *All Summer in a Day* source-match material; the teacher 49-question Heat Transfer and Energy Resources guide; the verified public STEMscopes/STEMscopedia unit structure; school percent materials; classroom Mesopotamia/Canaan materials; Tennessee standards, blueprints, and rubrics; and the retained verified public support links.
 
-The exact classroom STEMscopedia pages were not publicly recoverable, so the module does not claim verbatim reproduction. Any resource that cannot be recovered or matched is labeled unknown rather than silently treated as used.
+The exact classroom STEMscopedia pages and the signed-in `OER Ancient Israel (2).pdf` were not publicly recoverable, so the module does not claim verbatim reproduction. Every source is now labeled complete, partial, referenced-only, or unavailable in `SOURCE_LEDGER.md`; a referenced-only title is never counted as used content.
 
 ## Score-driven next evidence
 

@@ -7,8 +7,9 @@ const practiceHtml = fs.readFileSync(new URL('../ela-unit1-practice.html', impor
 const practiceJs = fs.readFileSync(new URL('../ela-unit1-test.js', import.meta.url), 'utf8');
 const organizer = fs.readFileSync(new URL('../organizer.js', import.meta.url), 'utf8');
 const governance = fs.readFileSync(new URL('../GOVERNANCE.md', import.meta.url), 'utf8');
-const match = html.match(/<script>([\s\S]*?)<\/script>/);
-if (!match) throw new Error('No application script found');
+const rebuild = fs.readFileSync(new URL('../subject-rebuild-v19.js', import.meta.url), 'utf8');
+const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
+if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 
 const storage = new Map([['learnwithry_source_first_index_v1', JSON.stringify({ first: { old: { correct: true } }, lessonDone: { old: true } })]]);
 const sandbox = {
@@ -23,7 +24,7 @@ const sandbox = {
   clearTimeout: () => {}
 };
 vm.createContext(sandbox);
-const source = match[1].replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt};';
+const source = inlineScripts[0] + '\n' + rebuild + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
 const { D, BUILD, KEY, ARCH, SCORE_RESET, balancedShuffle, qid, modelText, transferPrompt } = sandbox.__APP;
@@ -45,9 +46,27 @@ const insufficientIndependentChecks = lessons.filter(l => {
   const modeledItems = !l.model && l.q?.length > 1 ? 1 : 0;
   return l.q.length - modeledItems < 4;
 }).map(l => l.id);
-const requiredScienceOrder = ['s_vocab_rescue_heat', 's_vocab_rescue_transfer', 's_vocab_rescue_resources', 's_vocab_rescue_systems'];
+const requiredScienceOrder = ['science_v19_particles', 'science_v19_transfer', 'science_v19_resources', 'science_v19_tradeoffs'];
 const scienceOrderActual = D.SCI.lessons.slice(0, 4).map(l => l.id);
 const scienceVocabularyFirst = requiredScienceOrder.every((id, i) => scienceOrderActual[i] === id);
+const requiredRebuildIds = {
+  ELA: ['ela_v19_unit_map','ela_v19_analysis','ela_v19_language','ela_v19_narrative'],
+  MATH: ['math_v19_percent_meaning','math_v19_three_unknowns','math_v19_applications','math_v19_next_unit'],
+  SCI: ['science_v19_particles','science_v19_transfer','science_v19_resources','science_v19_tradeoffs'],
+  SS: ['ss_v19_map','ss_v19_vocab','ss_v19_patriarchs','ss_v19_saul','ss_v19_david','ss_v19_solomon','ss_v19_conquest','ss_v19_practice']
+};
+const rebuildIdMissing = Object.entries(requiredRebuildIds).flatMap(([subject, required]) => required.filter(id => !D[subject].lessons.some(l => l.id === id)));
+const rebuildLessonIds = Object.values(requiredRebuildIds).flat();
+const rebuildLessons = lessons.filter(l => rebuildLessonIds.includes(l.id));
+const rebuildThin = rebuildLessons.filter(l => !l.model || !l.success || !l.v?.length || l.q.length < 8 || !l.w).map(l => l.id);
+const subjectText = Object.fromEntries(Object.entries(D).map(([subject,group]) => [subject, JSON.stringify(group.lessons).toLowerCase()]));
+const atomicTerms = {
+  ELA:['brown girl dreaming','michaela deprince','dancer\'s dream','oranges','all summer in a day','theme','central idea','point of view','figurative language','tone','mood','narrative'],
+  MATH:['percent','reference whole','0.5%','125%','discount','percent change','absolute value','ordered pair'],
+  SCI:['temperature','thermal energy','thermal equilibrium','conduction','convection','radiation','coal','natural gas','biomass','geothermal','hydropower','wind','solar','greenhouse gas','deforestation'],
+  SS:['mediterranean sea','jordan river','sea of galilee','dead sea','sinai','phoenicia','abraham','moses','exodus','ten commandments','saul','david','solomon','goliath','tanakh','torah','diaspora','captivity','sabbath','rabbi','assyrian','chaldean']
+};
+const atomicTermMissing = Object.entries(atomicTerms).flatMap(([subject,terms]) => terms.filter(term => !subjectText[subject].includes(term)).map(term => `${subject}:${term}`));
 const multiIssues = [];
 const questionIds = [];
 const positions = [0, 0, 0, 0];
@@ -96,6 +115,7 @@ const report = {
   insufficientIndependentChecks,
   scienceVocabularyFirst,
   scienceOrderActual,
+  sourceRebuild: { required: rebuildLessonIds.length, found: rebuildLessons.length, rebuildIdMissing, rebuildThin, atomicTermMissing },
   multiIssues
 };
 const voiceStorage = new Map();
@@ -153,7 +173,7 @@ report.governance = {
   sourceCoverageOverCounts: governance.includes('Question totals, lesson totals, structural completeness, or standards alignment cannot substitute for line-by-line source coverage.'),
   parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean);
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean);
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
