@@ -6,6 +6,7 @@ const narrator = fs.readFileSync(new URL('../narrator.js', import.meta.url), 'ut
 const practiceHtml = fs.readFileSync(new URL('../ela-unit1-practice.html', import.meta.url), 'utf8');
 const practiceJs = fs.readFileSync(new URL('../ela-unit1-test.js', import.meta.url), 'utf8');
 const organizer = fs.readFileSync(new URL('../organizer.js', import.meta.url), 'utf8');
+const governance = fs.readFileSync(new URL('../GOVERNANCE.md', import.meta.url), 'utf8');
 const match = html.match(/<script>([\s\S]*?)<\/script>/);
 if (!match) throw new Error('No application script found');
 
@@ -143,7 +144,16 @@ report.organization = {
   noAdminHero: !/(Complete Cumulative Rebuild|CLEAN START|No old history is used|Teacher priorities now)/i.test(learnerShell),
   compactHeader: learnerShell.includes('class="studentHeader"') && !learnerShell.includes('class="hero"')
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean);
+report.governance = {
+  independentSourceRecoveryMandatory: governance.includes('Mandatory independent source recovery and gap closure'),
+  appliesToEveryFutureRequest: governance.includes('every future request, weekly update, correction, rebuild, and subject'),
+  sourceStatusLedgerRequired: ['complete','partial','referenced-only','unavailable'].every(status => governance.includes(`**${status}**`)),
+  parentBurdenProhibited: governance.includes('Never shift source recovery, curriculum organization, gap identification, research, comparison, or quality-control work back to the parent.'),
+  exactSourceExhaustionRequired: governance.includes('exact-title searches') && governance.includes('one specific inaccessible item'),
+  sourceCoverageOverCounts: governance.includes('Question totals, lesson totals, structural completeness, or standards alignment cannot substitute for line-by-line source coverage.'),
+  parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
+};
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean);
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
