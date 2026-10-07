@@ -7,6 +7,7 @@ const practiceHtml = fs.readFileSync(new URL('../ela-unit1-practice.html', impor
 const practiceJs = fs.readFileSync(new URL('../ela-unit1-test.js', import.meta.url), 'utf8');
 const organizer = fs.readFileSync(new URL('../organizer.js', import.meta.url), 'utf8');
 const governance = fs.readFileSync(new URL('../GOVERNANCE.md', import.meta.url), 'utf8');
+const sourceGate = JSON.parse(fs.readFileSync(new URL('../SOURCE_COMPLETENESS_GATE.json', import.meta.url), 'utf8'));
 const rebuild = fs.readFileSync(new URL('../subject-rebuild-v19.js', import.meta.url), 'utf8');
 const ancientIsraelGuide = fs.readFileSync(new URL('../social-studies-study-guide-v20.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
@@ -65,14 +66,18 @@ const rebuildLessonIds = Object.values(requiredRebuildIds).flat();
 const rebuildLessons = lessons.filter(l => rebuildLessonIds.includes(l.id));
 const rebuildThin = rebuildLessons.filter(l => !l.model || !l.success || !l.v?.length || l.q.length < 8 || !l.w).map(l => l.id);
 const subjectText = Object.fromEntries(Object.entries(D).map(([subject,group]) => [subject, JSON.stringify(group.lessons).toLowerCase()]));
-const atomicTerms = {
-  ELA:['brown girl dreaming','michaela deprince','dancer\'s dream','oranges','all summer in a day','theme','central idea','point of view','figurative language','tone','mood','narrative'],
-  MATH:['percent','reference whole','0.5%','125%','discount','percent change','absolute value','ordered pair'],
-  SCI:['temperature','thermal energy','thermal equilibrium','conduction','convection','radiation','coal','natural gas','biomass','geothermal','hydropower','wind','solar','greenhouse gas','deforestation'],
-  SS:['mediterranean sea','jordan river','sea of galilee','dead sea','sinai','phoenicia','abraham','moses','exodus','ten commandments','saul','david','solomon','goliath','tanakh','torah','diaspora','captivity','sabbath','rabbi','assyrian','chaldean']
-};
-atomicTerms.SS.push('scripture','cyrus the great','persians','539 bce','famine','paleolithic','neolithic','jerusalem remained in judah');
+const atomicTerms = Object.fromEntries(Object.entries(sourceGate.subjects || {}).map(([subject, record]) => [subject, record.requirements || []]));
 const atomicTermMissing = Object.entries(atomicTerms).flatMap(([subject,terms]) => terms.filter(term => !subjectText[subject].includes(term)).map(term => `${subject}:${term}`));
+const sourceGateSubjects = ['ELA','MATH','SCI','SS'];
+const sourceGateMissingSubjects = sourceGateSubjects.filter(subject => !sourceGate.subjects?.[subject]);
+const sourceGateRequirementIds = Object.entries(atomicTerms).flatMap(([subject, terms]) => terms.map(term => `${subject}:${term}`));
+const sourceGateDuplicateRequirements = [...new Set(sourceGateRequirementIds.filter((id, i) => sourceGateRequirementIds.indexOf(id) !== i))];
+const sourceGateIncompleteRecords = Object.entries(sourceGate.subjects || {}).flatMap(([subject, record]) => {
+  const errors = [];
+  if (!Array.isArray(record.controllingSources) || !record.controllingSources.length) errors.push(`${subject}:sources`);
+  if (!Array.isArray(record.requirements) || !record.requirements.length) errors.push(`${subject}:requirements`);
+  return errors;
+});
 const multiIssues = [];
 const questionIds = [];
 const positions = [0, 0, 0, 0];
@@ -123,6 +128,15 @@ const report = {
   scienceOrderActual,
   officialAncientIsraelGuide: {guideFirst,guideOrderActual,masteryQuestions:guideTest?.q?.length||0,all24TargetsRepresented:guideFirst&&(guideTest?.q?.length||0)>=24},
   sourceRebuild: { required: rebuildLessonIds.length, found: rebuildLessons.length, rebuildIdMissing, rebuildThin, atomicTermMissing },
+  sourceCompletenessGate: {
+    buildMatches: sourceGate.build === BUILD,
+    sourceSideRedTeamComplete: sourceGate.sourceSideRedTeamComplete === true,
+    allSubjectsPresent: sourceGateMissingSubjects.length === 0,
+    sourceGateMissingSubjects,
+    duplicateRequirements: sourceGateDuplicateRequirements,
+    incompleteRecords: sourceGateIncompleteRecords,
+    requirementCount: sourceGateRequirementIds.length
+  },
   multiIssues
 };
 const voiceStorage = new Map();
@@ -181,7 +195,8 @@ report.governance = {
   sourceCoverageOverCounts: governance.includes('Question totals, lesson totals, structural completeness, or standards alignment cannot substitute for line-by-line source coverage.'),
   parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
 };
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean);
+report.governance.failClosedSourceGate = governance.includes('Fail-closed source-completeness gate') && governance.includes('SOURCE_COMPLETENESS_GATE.json');
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0;
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
