@@ -6,19 +6,46 @@
   "subjects": {
     "ELA": {
       "controllingSources": ["Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
-      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative"]
+      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative"],
+      "coverageRoutes": [
+        {"lessonId":"ela_v19_unit_map","requirements":["brown girl dreaming","michaela deprince","dancer's dream","oranges","all summer in a day","theme","central idea","point of view"]},
+        {"lessonId":"ela_v19_language","requirements":["figurative language","tone","mood"]},
+        {"lessonId":"ela_v19_narrative","requirements":["narrative"]}
+      ]
     },
     "MATH": {
       "controllingSources": ["Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
-      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair"]
+      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair"],
+      "coverageRoutes": [
+        {"lessonId":"math_v19_percent_meaning","requirements":["percent","reference whole","0.5%","125%"]},
+        {"lessonId":"math_v19_applications","requirements":["discount","percent change"]},
+        {"lessonId":"math_v19_next_unit","requirements":["absolute value","ordered pair"]}
+      ]
     },
     "SCI": {
       "controllingSources": ["Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
-      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation"]
+      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation"],
+      "coverageRoutes": [
+        {"lessonId":"science_v19_particles","requirements":["temperature","thermal energy","thermal equilibrium"]},
+        {"lessonId":"science_v19_transfer","requirements":["conduction","convection","radiation"]},
+        {"lessonId":"science_v19_resources","requirements":["coal","natural gas","biomass","geothermal","hydropower","wind","solar"]},
+        {"lessonId":"science_v19_tradeoffs","requirements":["greenhouse gas","deforestation"]}
+      ]
     },
     "SS": {
       "controllingSources": ["Teacher Ancient Israel test study guide", "Canaan map and migration map", "Ancient Israel vocabulary", "Walk of Fame", "Show What You Know", "Cumulative Mesopotamia materials"],
-      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah"]
+      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah"],
+      "coverageRoutes": [
+        {"lessonId":"ss_v19_map","requirements":["mediterranean sea","jordan river","sea of galilee","dead sea","sinai","phoenicia"]},
+        {"lessonId":"ss_v19_patriarchs","requirements":["abraham","moses","exodus","ten commandments","covenant","famine"]},
+        {"lessonId":"ss_v19_saul","requirements":["saul"]},
+        {"lessonId":"ss_v19_david","requirements":["david","goliath"]},
+        {"lessonId":"ss_v19_solomon","requirements":["solomon"]},
+        {"lessonId":"ss_v19_vocab","requirements":["tanakh","torah","monotheism","diaspora","sabbath","rabbi"]},
+        {"lessonId":"ss_v19_conquest","requirements":["captivity","assyrian","chaldean"]},
+        {"lessonId":"ss_v20_study_guide","requirements":["scripture","paleolithic","neolithic"]},
+        {"lessonId":"ss_v20_kingdom_cyrus","requirements":["cyrus the great","persians","539 bce","jerusalem remained in judah"]}
+      ]
     }
   },
   "evidenceContract": {
