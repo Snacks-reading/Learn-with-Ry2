@@ -1,0 +1,30 @@
+{
+  "build": "2026-10-07-official-ancient-israel-guide-v20",
+  "auditDate": "2026-10-07",
+  "sourceSideRedTeamComplete": true,
+  "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication.",
+  "subjects": {
+    "ELA": {
+      "controllingSources": ["Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
+      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative"]
+    },
+    "MATH": {
+      "controllingSources": ["Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
+      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair"]
+    },
+    "SCI": {
+      "controllingSources": ["Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
+      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation"]
+    },
+    "SS": {
+      "controllingSources": ["Teacher Ancient Israel test study guide", "Canaan map and migration map", "Ancient Israel vocabulary", "Walk of Fame", "Show What You Know", "Cumulative Mesopotamia materials"],
+      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah"]
+    }
+  },
+  "evidenceContract": {
+    "requiredLessonStages": ["teach", "model", "guided check", "varied practice", "apply", "connect", "independent mastery", "delayed retrieval"],
+    "minimumIndependentRecordsPerObjective": 4,
+    "masteryThresholdPercent": 90,
+    "parentMustNotBeGapDetector": true
+  }
+}
