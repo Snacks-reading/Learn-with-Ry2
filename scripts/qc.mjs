@@ -78,6 +78,20 @@ const sourceGateIncompleteRecords = Object.entries(sourceGate.subjects || {}).fl
   if (!Array.isArray(record.requirements) || !record.requirements.length) errors.push(`${subject}:requirements`);
   return errors;
 });
+const sourceGateRouteIssues = Object.entries(sourceGate.subjects || {}).flatMap(([subject, record]) => {
+  const routed = (record.coverageRoutes || []).flatMap(route => (route.requirements || []).map(term => `${subject}:${term}`));
+  const required = (record.requirements || []).map(term => `${subject}:${term}`);
+  const missingRoutes = required.filter(id => !routed.includes(id)).map(id => `${id}:unrouted`);
+  const extraRoutes = routed.filter(id => !required.includes(id)).map(id => `${id}:not-required`);
+  const duplicateRoutes = [...new Set(routed.filter((id, i) => routed.indexOf(id) !== i))].map(id => `${id}:duplicate-route`);
+  const badLessonRoutes = (record.coverageRoutes || []).flatMap(route => {
+    const lesson = D[subject]?.lessons.find(item => item.id === route.lessonId);
+    if (!lesson) return [`${subject}:${route.lessonId}:missing-lesson`];
+    const complete = lesson.teach && lesson.model && lesson.w && lesson.q?.length >= 4 && lesson.connectionChecks >= 2 && transferPrompt(lesson);
+    return complete ? [] : [`${subject}:${route.lessonId}:incomplete-evidence-route`];
+  });
+  return [...missingRoutes, ...extraRoutes, ...duplicateRoutes, ...badLessonRoutes];
+});
 const multiIssues = [];
 const questionIds = [];
 const positions = [0, 0, 0, 0];
@@ -135,6 +149,7 @@ const report = {
     sourceGateMissingSubjects,
     duplicateRequirements: sourceGateDuplicateRequirements,
     incompleteRecords: sourceGateIncompleteRecords,
+    routeIssues: sourceGateRouteIssues,
     requirementCount: sourceGateRequirementIds.length
   },
   multiIssues
@@ -196,7 +211,7 @@ report.governance = {
   parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
 };
 report.governance.failClosedSourceGate = governance.includes('Fail-closed source-completeness gate') && governance.includes('SOURCE_COMPLETENESS_GATE.json');
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0;
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0;
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
