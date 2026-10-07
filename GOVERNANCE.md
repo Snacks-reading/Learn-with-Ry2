@@ -30,6 +30,20 @@ This requirement applies to every future request, weekly update, correction, reb
 
 A build fails governance if the parent must discover a source gap that the source-to-objective audit should have identified.
 
+### Fail-closed source-completeness gate
+
+These controls are mandatory because a written promise, a large question count, and a standards crosswalk did not prevent prior omissions.
+
+1. **Freeze the source bundle before authoring.** Inventory every current upload, teacher page, study guide line, newsletter assignment, rubric, exact classroom resource, and still-active prior lesson. Do not begin lesson authoring until each item has a recovery status and provenance record.
+2. **Atomize from the source, not from the existing site.** Convert every numbered line, heading, caption, diagram label, vocabulary word, person, place, date, process, formula, skill, direction, and teacher question pattern into a separate machine-readable requirement. The existing curriculum is never used as the checklist for its own completeness.
+3. **Require bidirectional traceability.** Every source requirement must point to where it is taught, modeled, practiced, independently assessed, connected, and revisited. Every live lesson must point back to a recovered source or be clearly labeled supplemental.
+4. **Run a source-side red-team audit.** After the build, reread the original sources in their original order and try to find anything absent, thinned, merged beyond recognition, tested before teaching, or represented only by vocabulary recall. This audit is separate from the lesson-structure audit.
+5. **Fail closed.** A missing source row, unresolved requirement, absent evidence stage, inaccessible controlling source, unverified answer key, or unreviewed source change blocks publication. The release report must name the blocker; it may not silently publish and rely on the parent to catch it.
+6. **Reconcile every new upload.** A new teacher source automatically reopens the relevant subject audit. Compare it line by line with the current requirement manifest, add or revise requirements, repair lessons and assessments, rerun all subject and cumulative checks, and only then republish both Riley's site and Rayna's Audio.
+7. **No self-certification by totals.** Lesson counts, question counts, keyword presence, standards alignment, and a passing interface test are supporting checks only. Release requires source-level evidence for every atomic requirement.
+
+The repository must contain a current `SOURCE_COMPLETENESS_GATE.json`. Automated QC fails when the manifest is missing, omits any of the four subjects, contains duplicate requirement IDs, contains a requirement without a source and explicit coverage evidence, or is not tied to the current build.
+
 ## 2. Complete-curriculum rule
 
 New weekly priorities are added to the cumulative curriculum. Older lessons do not disappear after a test. The active path must include every lesson Riley remains responsible for and must deliberately connect prior and current learning.
@@ -130,6 +144,9 @@ Before publication, the build must pass all of these audits:
 - independent source recovery completed without shifting research or gap analysis to the parent;
 - every required source has a complete/partial/referenced-only/unavailable status and unresolved non-complete sources are disclosed in Parent Tools;
 - source-to-objective coverage matrix complete;
+- machine-readable source-completeness manifest matches the current build and includes all four subjects;
+- original-source red-team reread completed after the lessons and assessments were built;
+- every atomic requirement has explicit teach, practice, independent assessment, connection/transfer, and delayed-retrieval evidence or a disclosed blocker that prevents release;
 - every required concept and teacher term present;
 - every lesson has teach, model, varied practice, application/transfer, connection, and independent check;
 - every non-test objective has at least four post-model independent checks and two explicit connection/application checks;
