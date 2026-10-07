@@ -13,6 +13,10 @@ The live priority path now begins with 20 explicit source-reconciled lessons bef
 
 The cumulative lessons remain available; progress keys were not changed.
 
+## October 7 teacher test-guide reconciliation
+
+The photographed 24-item `Study Guide for Ancient Israel Test` is now the controlling Social Studies source. The first four Social Studies choices are: complete guide map; Hebrew migrations and causes; Jerusalem/kingdom breakup/captivity/Cyrus; and a fresh 30-question readiness form. Automated QC requires this order, at least 30 test questions, and explicit coverage of Scripture, Cyrus/Persia/539 BCE, famine, Paleolithic, Neolithic, and Jerusalem in Judah. The earlier Ancient Israel and full Mesopotamia libraries remain available for cumulative retrieval.
+
 Prior build target: October 2, 2026 reset. Scores and completion started clean then; v19 preserves that compatible progress while rebuilding the learning path cumulatively.
 
 | Subject | Controlling classroom requirements | Cumulative lessons that remain | New/current application | Independent evidence required |

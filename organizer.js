@@ -28,8 +28,8 @@
     {day:'1',subject:'ELA',label:'Unit 1 texts + narrative proof',match:'ela_v19_unit_map'},
     {day:'2',subject:'MATH',label:'Percent meaning + three unknowns',match:'math_v19_percent_meaning'},
     {day:'3',subject:'SCI',label:'Particles + heat-transfer mechanisms',match:'science_v19_particles'},
-    {day:'4',subject:'SS',label:'Teacher map + vocabulary network',match:'ss_v19_map'},
-    {day:'5',subject:'SS',label:'People, events + cultural continuity',match:'ss_v19_patriarchs'}
+    {day:'4',subject:'SS',label:'Official 24-item Ancient Israel guide',match:'ss_v20_study_guide'},
+    {day:'5',subject:'SS',label:'Migrations, kingdoms + Cyrus',match:'ss_v20_migrations'}
   ].map(x=>({...x,...findLesson(x.subject,x.match)}))}
   function renderHome(){
     const week=weeklyItems(),next=week.find(x=>!st.lessonDone[x.lesson.id])||week[0];
