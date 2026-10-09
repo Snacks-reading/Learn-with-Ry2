@@ -1,12 +1,17 @@
 # Learn With Ry — Mandatory Source Ledger
 
-Audit date: October 7, 2026
-Build: `2026-10-07-official-ancient-israel-guide-v20`
+Audit date: October 9, 2026
+Build: `2026-10-09-newsletter-all-subjects-v21`
 
 Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
 
 | Subject | Source | Status | What the rebuild uses | Remaining boundary |
 |---|---|---|---|---|
+| All | 10/9 teacher newsletter | **complete** | Fall-break dates; ELA Unit 2 texts/skills and clause work; Math integers, coordinates, and Big 8 facts; Science environments/populations launch; Ancient Israel test date and Ancient Egypt launch | None for the visible two-page newsletter |
+| ELA | District Grade 6 Q2 curriculum map + Savvas Unit 2 public overview | **complete** for sequence/alignment | “Reading Buddies,” *My Life with the Chimpanzees*, compare text/media, central idea, author purpose, objective summary, evidence, paragraph function, independent/dependent clauses | Licensed passages are not reproduced; fresh passages and scenarios teach and assess the same skills |
+| Math | Teacher newsletter + Schoology vocabulary-folder reference | **partial** | Integers, opposites, absolute value, ordering, coordinate graphing, quadrants, distance/reflection, Big 8 benchmark fraction/decimal/percent facts, repeating-ninths pattern | The signed-in vocabulary folder is **referenced-only** and cannot be claimed as recovered content |
+| Science | Teacher newsletter + Tennessee 6.LS2 ecosystem standards | **complete** for assigned launch/alignment | Environment/ecosystem/population/community vocabulary; limiting factors and population change; interactions and food webs; ecosystem health and invasive species | Exact STEMscopes/STEMscopedia pages remain **referenced-only** until accessible |
+| Social Studies | Teacher newsletter + Tennessee Ancient Egypt geography/rule standards | **complete** for assigned launch/alignment | Final Ancient Israel readiness; Nile/delta/cataracts/deserts/seas; Upper/Lower Egypt; unification, Narmer/Menes, pharaoh, dynasty, scribes; geography-to-history reasoning | Michigan Open Book chapter is **referenced-only** because the exact file was not recoverable |
 | All | 10/2 teacher newsletter | **complete** | Current deadlines, percent test, science corrections/resource poster, narrative work, Canaan/early Judaism quiz, and next-unit math | None for the visible newsletter |
 | ELA | Photographed Unit 1 study guide | **complete** | Theme, POV, context clues, tone, mood, central idea, figurative language, convey/analyze/compare/contrast, and IXL skill labels | Study guide identifies skills, not protected test questions |
 | ELA | myPerspectives Grade 6 Unit 1 classroom map and prior recovered materials | **partial** | *Brown Girl Dreaming*, Michaela DePrince + *Dancer's Dream*, “Oranges,” “All Summer in a Day,” genre/evidence connections | Full licensed anthology pages are not reproduced |
@@ -30,5 +35,7 @@ Status definitions follow governance: **complete** means the usable instructiona
 - A **referenced-only** source cannot be counted as used content. It is listed so it cannot silently disappear from future audits.
 - The v19 source-locked rebuild adds 20 explicit current-path lessons: ELA 4, Math 4, Science 4, Social Studies 8.
 - The v20 guide reconciliation adds 3 direct-teaching lessons and a 30-question independent Ancient Israel readiness form; it closes the newly confirmed Scripture, migration-cause, Israel/Judah/Jerusalem, Persian conquest, and Cyrus gaps.
+- The v21 newsletter reconciliation adds 20 current lessons—5 in each subject—including 4 fresh 20-question independent checks. Current lessons teach vocabulary and concepts before testing and connect new work to retained units.
+- The source gate now traces 104 atomic requirements to live lesson IDs and fails closed when a current source, term, route, lesson floor, narration control, or ordering rule is missing.
 - Automated QC fails if any rebuilt lesson disappears, falls below the teaching/practice floor, or loses a required atomic classroom term.
 

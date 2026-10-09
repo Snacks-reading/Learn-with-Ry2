@@ -1,5 +1,18 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
+## October 9 all-subject newsletter rebuild
+
+The current path adds five lessons per subject while retaining all earlier lessons. Every teaching lesson has explicit vocabulary, direct explanation, a worked model, six authored checks plus two connection/application checks, constructed transfer, success criteria, and delayed retrieval. Each subject ends with a fresh 20-question independent check.
+
+| Subject | Current sequence | New-to-prior connections | Independent evidence |
+|---|---|---|---|
+| ELA | Unit 2 map → “Reading Buddies” skills → *My Life with the Chimpanzees* skills → clauses → mastery | Theme/central idea; evidence and paragraph function; text/media comparison; clauses applied in summaries and evidence writing | 4 teaching ladders + 20-question mixed check + objective summary/paragraph-function transfer |
+| Math | Integers → coordinate plane → Big 8 facts → rational application → mastery | Percent/fraction/decimal equivalence; signed quantities; number-line order; ordered pairs, quadrants, reflections, and distances | 4 teaching ladders + 20-question mixed check + modeled/application/error-analysis transfer |
+| Science | Ecosystem vocabulary → population variables → interactions/food webs → health/invasive species → mastery | Energy-resource choices and habitat effects; temperature/resource changes as limiting factors; CER and data interpretation | 4 teaching ladders + 20-question mixed check + food-web/population/CER transfer |
+| Social Studies | Ancient Israel final → Egypt geography → early rule → Nile systems → mastery | Israel/Canaan map/history retained; Egypt compared with Mesopotamia through river systems, surplus, specialization, government, writing, and trade | Ancient Israel retrieval + 3 Egypt teaching ladders + 20-question Egypt entry check + map/cause-effect transfer |
+
+The source-completeness manifest contains 104 atomic requirements with explicit evidence routes. “Referenced-only” materials remain visible in the ledger and are never counted as instructional evidence.
+
 ## October 6 source-locked rebuild
 
 The live priority path now begins with 20 explicit source-reconciled lessons before the cumulative library: 4 ELA, 4 Math, 4 Science, and 8 Social Studies. Each has direct teaching, a worked model, vocabulary, six authored checks plus two connection/application checks, a constructed transfer, a success criterion, and delayed retrieval through the common engine. See `SOURCE_LEDGER.md` for source status and boundaries.

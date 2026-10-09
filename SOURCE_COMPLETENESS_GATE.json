@@ -1,40 +1,50 @@
 {
-  "build": "2026-10-07-official-ancient-israel-guide-v20",
-  "auditDate": "2026-10-07",
+  "build": "2026-10-09-newsletter-all-subjects-v21",
+  "auditDate": "2026-10-09",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication.",
   "subjects": {
     "ELA": {
-      "controllingSources": ["Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
-      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative"],
+      "controllingSources": ["October 9 teacher newsletter", "Williamson County Grade 6 Quarter 2 curriculum map", "Savvas myPerspectives Unit 2", "IXL 6-GG.8", "Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
+      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative", "reading buddies", "my life with the chimpanzees", "author’s purpose", "objective summary", "paragraph function", "independent clause", "dependent clause"],
       "coverageRoutes": [
         {"lessonId":"ela_v19_unit_map","requirements":["brown girl dreaming","michaela deprince","dancer's dream","oranges","all summer in a day","theme","central idea","point of view"]},
         {"lessonId":"ela_v19_language","requirements":["figurative language","tone","mood"]},
-        {"lessonId":"ela_v19_narrative","requirements":["narrative"]}
+        {"lessonId":"ela_v19_narrative","requirements":["narrative"]},
+        {"lessonId":"ela_v21_reading_buddies","requirements":["reading buddies"]},
+        {"lessonId":"ela_v21_chimpanzees","requirements":["my life with the chimpanzees","author’s purpose","objective summary","paragraph function"]},
+        {"lessonId":"ela_v21_clauses","requirements":["independent clause","dependent clause"]}
       ]
     },
     "MATH": {
-      "controllingSources": ["Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
-      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair"],
+      "controllingSources": ["October 9 teacher newsletter", "Schoology vocabulary folder referenced but inaccessible", "Tennessee Grade 6 rational-number support", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
+      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair", "integer", "opposites", "coordinate plane", "quadrant", "reflection", "repeating decimal", "1/8"],
       "coverageRoutes": [
         {"lessonId":"math_v19_percent_meaning","requirements":["percent","reference whole","0.5%","125%"]},
         {"lessonId":"math_v19_applications","requirements":["discount","percent change"]},
-        {"lessonId":"math_v19_next_unit","requirements":["absolute value","ordered pair"]}
+        {"lessonId":"math_v19_next_unit","requirements":["absolute value","ordered pair"]},
+        {"lessonId":"math_v21_integers","requirements":["integer","opposites"]},
+        {"lessonId":"math_v21_coordinates","requirements":["coordinate plane","quadrant","reflection"]},
+        {"lessonId":"math_v21_big8","requirements":["repeating decimal","1/8"]}
       ]
     },
     "SCI": {
-      "controllingSources": ["Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
-      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation"],
+      "controllingSources": ["October 9 teacher newsletter", "Tennessee Grade 6 Science 6.LS2.1-6.LS2.5", "STEMscopes environment and populations pages referenced but inaccessible", "Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
+      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation", "ecosystem", "population", "community", "biotic factor", "abiotic factor", "carrying capacity", "competition", "mutualism", "parasitism", "biodiversity", "invasive species"],
       "coverageRoutes": [
         {"lessonId":"science_v19_particles","requirements":["temperature","thermal energy","thermal equilibrium"]},
         {"lessonId":"science_v19_transfer","requirements":["conduction","convection","radiation"]},
         {"lessonId":"science_v19_resources","requirements":["coal","natural gas","biomass","geothermal","hydropower","wind","solar"]},
-        {"lessonId":"science_v19_tradeoffs","requirements":["greenhouse gas","deforestation"]}
+        {"lessonId":"science_v19_tradeoffs","requirements":["greenhouse gas","deforestation"]},
+        {"lessonId":"science_v21_ecosystem_vocab","requirements":["ecosystem","population","community","biotic factor","abiotic factor"]},
+        {"lessonId":"science_v21_population_variables","requirements":["carrying capacity"]},
+        {"lessonId":"science_v21_interactions","requirements":["competition","mutualism","parasitism"]},
+        {"lessonId":"science_v21_health_invasive","requirements":["biodiversity","invasive species"]}
       ]
     },
     "SS": {
-      "controllingSources": ["Teacher Ancient Israel test study guide", "Canaan map and migration map", "Ancient Israel vocabulary", "Walk of Fame", "Show What You Know", "Cumulative Mesopotamia materials"],
-      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah"],
+      "controllingSources": ["October 9 teacher newsletter", "Tennessee Grade 6 Ancient Egypt 6.13-6.19", "Michigan Open Book Ancient Egypt source identified but exact chapter unrecovered", "Teacher Ancient Israel test study guide", "Canaan map and migration map", "Ancient Israel vocabulary", "Walk of Fame", "Show What You Know", "Cumulative Mesopotamia materials"],
+      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah", "nile river", "nile delta", "upper egypt", "lower egypt", "nubia", "sahara", "narmer", "pharaoh", "dynasty", "silt", "irrigation", "geographic determinism"],
       "coverageRoutes": [
         {"lessonId":"ss_v19_map","requirements":["mediterranean sea","jordan river","sea of galilee","dead sea","sinai","phoenicia"]},
         {"lessonId":"ss_v19_patriarchs","requirements":["abraham","moses","exodus","ten commandments","covenant","famine"]},
@@ -44,7 +54,10 @@
         {"lessonId":"ss_v19_vocab","requirements":["tanakh","torah","monotheism","diaspora","sabbath","rabbi"]},
         {"lessonId":"ss_v19_conquest","requirements":["captivity","assyrian","chaldean"]},
         {"lessonId":"ss_v20_study_guide","requirements":["scripture","paleolithic","neolithic"]},
-        {"lessonId":"ss_v20_kingdom_cyrus","requirements":["cyrus the great","persians","539 bce","jerusalem remained in judah"]}
+        {"lessonId":"ss_v20_kingdom_cyrus","requirements":["cyrus the great","persians","539 bce","jerusalem remained in judah"]},
+        {"lessonId":"ss_v21_egypt_geography","requirements":["nile river","nile delta","upper egypt","lower egypt","nubia","sahara"]},
+        {"lessonId":"ss_v21_egypt_rule","requirements":["narmer","pharaoh","dynasty"]},
+        {"lessonId":"ss_v21_egypt_nile","requirements":["silt","irrigation","geographic determinism"]}
       ]
     }
   },
