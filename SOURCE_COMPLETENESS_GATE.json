@@ -1,36 +1,39 @@
 {
-  "build": "2026-10-09-newsletter-all-subjects-v21",
-  "auditDate": "2026-10-09",
+  "build": "2026-10-17-teacher-source-benchmark-v22",
+  "auditDate": "2026-10-17",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication.",
   "subjects": {
     "ELA": {
-      "controllingSources": ["October 9 teacher newsletter", "Williamson County Grade 6 Quarter 2 curriculum map", "Savvas myPerspectives Unit 2", "IXL 6-GG.8", "Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
-      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative", "reading buddies", "my life with the chimpanzees", "author’s purpose", "objective summary", "paragraph function", "independent clause", "dependent clause"],
+      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Reading Student Score Snapshot", "Williamson County Grade 6 Quarter 2 curriculum map", "Savvas myPerspectives Unit 2", "IXL 6-GG.8", "Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
+      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative", "reading buddies", "my life with the chimpanzees", "author’s purpose", "objective summary", "paragraph function", "independent clause", "dependent clause", "silent reading fluency"],
       "coverageRoutes": [
         {"lessonId":"ela_v19_unit_map","requirements":["brown girl dreaming","michaela deprince","dancer's dream","oranges","all summer in a day","theme","central idea","point of view"]},
         {"lessonId":"ela_v19_language","requirements":["figurative language","tone","mood"]},
         {"lessonId":"ela_v19_narrative","requirements":["narrative"]},
         {"lessonId":"ela_v21_reading_buddies","requirements":["reading buddies"]},
         {"lessonId":"ela_v21_chimpanzees","requirements":["my life with the chimpanzees","author’s purpose","objective summary","paragraph function"]},
-        {"lessonId":"ela_v21_clauses","requirements":["independent clause","dependent clause"]}
+        {"lessonId":"ela_v21_clauses","requirements":["independent clause","dependent clause"]},
+        {"lessonId":"ela_v22_fluency","requirements":["silent reading fluency"]}
       ]
     },
     "MATH": {
-      "controllingSources": ["October 9 teacher newsletter", "Schoology vocabulary folder referenced but inaccessible", "Tennessee Grade 6 rational-number support", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
-      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair", "integer", "opposites", "coordinate plane", "quadrant", "reflection", "repeating decimal", "1/8"],
+      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Math Student Score Snapshot", "Confirmed Math 6th in 6th placement", "Schoology vocabulary folder referenced but inaccessible", "Tennessee Grade 6 rational-number support", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
+      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair", "integer", "opposites", "coordinate plane", "quadrant", "reflection", "repeating decimal", "1/8", "number comparison fluency", "mental computation fluency"],
       "coverageRoutes": [
         {"lessonId":"math_v19_percent_meaning","requirements":["percent","reference whole","0.5%","125%"]},
         {"lessonId":"math_v19_applications","requirements":["discount","percent change"]},
         {"lessonId":"math_v19_next_unit","requirements":["absolute value","ordered pair"]},
         {"lessonId":"math_v21_integers","requirements":["integer","opposites"]},
         {"lessonId":"math_v21_coordinates","requirements":["coordinate plane","quadrant","reflection"]},
-        {"lessonId":"math_v21_big8","requirements":["repeating decimal","1/8"]}
+        {"lessonId":"math_v21_big8","requirements":["repeating decimal","1/8"]},
+        {"lessonId":"math_v22_compare","requirements":["number comparison fluency"]},
+        {"lessonId":"math_v22_mental","requirements":["mental computation fluency"]}
       ]
     },
     "SCI": {
-      "controllingSources": ["October 9 teacher newsletter", "Tennessee Grade 6 Science 6.LS2.1-6.LS2.5", "STEMscopes environment and populations pages referenced but inaccessible", "Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
-      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation", "ecosystem", "population", "community", "biotic factor", "abiotic factor", "carrying capacity", "competition", "mutualism", "parasitism", "biodiversity", "invasive species"],
+      "controllingSources": ["October 9 teacher newsletter", "Teacher-uploaded StudyMate Ecology vocabulary screenshots received October 17", "Teacher-uploaded textbook Section 1 Everything Is Connected pages 46-51 received October 17", "Tennessee Grade 6 Science 6.LS2.1-6.LS2.5", "STEMscopes environment and populations pages referenced but inaccessible", "Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
+      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation", "ecosystem", "population", "community", "biotic factor", "abiotic factor", "carrying capacity", "competition", "mutualism", "parasitism", "biodiversity", "invasive species", "adaptation", "biome", "biosphere", "carnivore", "commensalism", "consumer", "decomposer", "energy pyramid", "food chain", "food web", "herbivore", "host", "limiting factor", "native species", "niche", "omnivore", "organism", "predator", "prey", "producer", "scavenger", "symbiosis", "symbiotic", "tertiary consumer", "ecology", "five levels of environmental organization"],
       "coverageRoutes": [
         {"lessonId":"science_v19_particles","requirements":["temperature","thermal energy","thermal equilibrium"]},
         {"lessonId":"science_v19_transfer","requirements":["conduction","convection","radiation"]},
@@ -39,7 +42,12 @@
         {"lessonId":"science_v21_ecosystem_vocab","requirements":["ecosystem","population","community","biotic factor","abiotic factor"]},
         {"lessonId":"science_v21_population_variables","requirements":["carrying capacity"]},
         {"lessonId":"science_v21_interactions","requirements":["competition","mutualism","parasitism"]},
-        {"lessonId":"science_v21_health_invasive","requirements":["biodiversity","invasive species"]}
+        {"lessonId":"science_v21_health_invasive","requirements":["biodiversity"]},
+        {"lessonId":"science_v22_vocab_core","requirements":["adaptation","biome","biosphere","carnivore","consumer","decomposer","energy pyramid"]},
+        {"lessonId":"science_v22_organization","requirements":["organism","ecology","five levels of environmental organization"]},
+        {"lessonId":"science_v22_energy_roles","requirements":["food chain","food web","herbivore","omnivore","producer","scavenger","tertiary consumer"]},
+        {"lessonId":"science_v22_relationships","requirements":["commensalism","host","predator","prey","symbiosis","symbiotic"]},
+        {"lessonId":"science_v22_limits","requirements":["invasive species","limiting factor","native species","niche"]}
       ]
     },
     "SS": {
