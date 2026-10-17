@@ -1,5 +1,12 @@
 # Learn With Ry — Tennessee Grade 6 TCAP Alignment Audit
 
+## October 17 reconciliation
+
+- **ELA:** The Aimsweb fluency bridge supports efficient reading of grade-level informational passages without replacing text-evidence, central-idea, author-purpose, summary, paragraph-function, language, and writing work.
+- **Math 6th in 6th:** New comparison and mental-computation retrieval strengthens prerequisite fluency while the active pathway remains Grade 6 integers, rational numbers, the coordinate plane, fraction/decimal/percent equivalence, and applications. It is support inside the course, not remediation into a lower grade.
+- **Science:** Teacher StudyMate and textbook content is now taught at source granularity, then extended into models, data/evidence, interaction analysis, food-web consequences, carrying capacity, and invasive-species reasoning aligned to the active Grade 6 ecosystem strand.
+- **Assessment design:** Fresh checks preserve first attempts, rotate displayed answer positions, require exact-count multi-select, include error analysis and constructed transfer, and feed misses into later retrieval.
+
 Audit date: October 6, 2026  
 Build: source-locked all-subject rebuild v19
 
