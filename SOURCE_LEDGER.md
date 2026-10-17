@@ -1,12 +1,16 @@
 # Learn With Ry — Mandatory Source Ledger
 
-Audit date: October 9, 2026
-Build: `2026-10-09-newsletter-all-subjects-v21`
+Audit date: October 17, 2026
+Build: `2026-10-17-teacher-source-benchmark-v22`
 
 Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
 
 | Subject | Source | Status | What the rebuild uses | Remaining boundary |
 |---|---|---|---|---|
+| ELA | Aimsweb Fall 2026 Reading Student Score Snapshot (10/5) | **complete** | Reading comprehension 78th percentile, vocabulary 88th, silent reading fluency 61st, composite 75th; adds meaning-preserving short-passage fluency and evidence-return routines while retaining grade-level Unit 2 work | A benchmark is targeting evidence, not a replacement curriculum |
+| Math | Aimsweb Fall 2026 Math Student Score Snapshot (10/5) + parent confirmation of Math 6th in 6th | **complete** | Number Sense 58th, Number Comparison Fluency 53rd, Mental Computation 64th, Concepts & Applications 80th, composite 72nd; adds mixed rational-number comparison and mental-computation retrieval within the regular Grade 6 path | No placement downgrade; current teacher unit continues to control sequence |
+| Science | Teacher StudyMate Ecology vocabulary screenshots (10/17) | **complete** for all visible terms | All 33 visible terms from abiotic through tertiary consumer, including feeding roles, symbiosis, population limits, niche, native/invasive species, and energy models | “Tertiary” is taught as tertiary consumer to preserve the ecological meaning shown by the teacher definition |
+| Science | Teacher textbook Section 1 “Everything Is Connected,” pp. 46–51 screenshots (10/17) | **complete** for visible pages | Web of life; ecology; biotic/abiotic factors; organism→population→community→ecosystem→biosphere; salt-marsh examples; neighborhood mapping/application; section-review analysis, ecosystem-boundary reasoning, and biosphere-thickness connection | Protected pages are not reproduced; fresh instruction and questions trace every visible objective and review pattern |
 | All | 10/9 teacher newsletter | **complete** | Fall-break dates; ELA Unit 2 texts/skills and clause work; Math integers, coordinates, and Big 8 facts; Science environments/populations launch; Ancient Israel test date and Ancient Egypt launch | None for the visible two-page newsletter |
 | ELA | District Grade 6 Q2 curriculum map + Savvas Unit 2 public overview | **complete** for sequence/alignment | “Reading Buddies,” *My Life with the Chimpanzees*, compare text/media, central idea, author purpose, objective summary, evidence, paragraph function, independent/dependent clauses | Licensed passages are not reproduced; fresh passages and scenarios teach and assess the same skills |
 | Math | Teacher newsletter + Schoology vocabulary-folder reference | **partial** | Integers, opposites, absolute value, ordering, coordinate graphing, quadrants, distance/reflection, Big 8 benchmark fraction/decimal/percent facts, repeating-ninths pattern | The signed-in vocabulary folder is **referenced-only** and cannot be claimed as recovered content |
@@ -36,6 +40,7 @@ Status definitions follow governance: **complete** means the usable instructiona
 - The v19 source-locked rebuild adds 20 explicit current-path lessons: ELA 4, Math 4, Science 4, Social Studies 8.
 - The v20 guide reconciliation adds 3 direct-teaching lessons and a 30-question independent Ancient Israel readiness form; it closes the newly confirmed Scripture, migration-cause, Israel/Judah/Jerusalem, Persian conquest, and Cyrus gaps.
 - The v21 newsletter reconciliation adds 20 current lessons—5 in each subject—including 4 fresh 20-question independent checks. Current lessons teach vocabulary and concepts before testing and connect new work to retained units.
-- The source gate now traces 104 atomic requirements to live lesson IDs and fails closed when a current source, term, route, lesson floor, narration control, or ordering rule is missing.
+- The v22 October 17 reconciliation adds 10 current lessons: one ELA fluency bridge, three Math 6th-in-6th fluency lessons/checks, and six teacher-source Science lessons/checks. It adds 132 fresh questions after required connection checks while preserving every earlier subject pathway.
+- The source gate now traces 133 atomic requirements to live lesson IDs and fails closed when a current source, teacher term, route, lesson floor, narration control, or ordering rule is missing.
 - Automated QC fails if any rebuilt lesson disappears, falls below the teaching/practice floor, or loses a required atomic classroom term.
 
