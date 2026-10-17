@@ -1,5 +1,14 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
+## October 17 teacher-source and benchmark reconciliation
+
+| Subject | New controlling evidence | Targeted instruction | Independent evidence |
+|---|---|---|---|
+| ELA | Aimsweb Reading: comprehension 78th, vocabulary 88th, silent reading fluency 61st, composite 75th | Meaning-preserving short-passage routine: preview task, chunk ideas, name paragraph job, return to exact proof | Eight fresh checks plus constructed passage analysis and delayed retrieval; existing Unit 2 mastery remains active |
+| Math 6th in 6th | Aimsweb Math: number sense 58th, comparison 53rd, mental computation 64th, concepts/applications 80th, composite 72nd; confirmed regular Grade 6 placement | Cross-form rational comparison, signed-number order, compatible-number strategies, fractions/decimals, order of operations, estimation | Two 8-item practice ladders, one fresh 20-item benchmark bridge, error repair, application, and delayed retrieval |
+| Science | Complete visible StudyMate Ecology list and textbook “Everything Is Connected” pp. 46–51 | All teacher terms; five nested levels; biotic/abiotic map; salt-marsh application; feeding roles and energy; predator/prey and symbiosis; niche, limits, native/invasive species | Five 8-item practice ladders, one fresh 32-item teacher-source check, food-web/model construction, CER, cross-subject transfer, delayed retrieval |
+| Social Studies | October 9 newsletter and official Ancient Israel guide already reconciled | Ancient Israel test remains first priority; Egypt launches afterward | Existing 30-question official guide test, map/migration reconstruction, ruler/covenant/kingdom/Cyrus retrieval, and Egypt entry check |
+
 ## October 9 all-subject newsletter rebuild
 
 The current path adds five lessons per subject while retaining all earlier lessons. Every teaching lesson has explicit vocabulary, direct explanation, a worked model, six authored checks plus two connection/application checks, constructed transfer, success criteria, and delayed retrieval. Each subject ends with a fresh 20-question independent check.
@@ -11,7 +20,7 @@ The current path adds five lessons per subject while retaining all earlier lesso
 | Science | Ecosystem vocabulary → population variables → interactions/food webs → health/invasive species → mastery | Energy-resource choices and habitat effects; temperature/resource changes as limiting factors; CER and data interpretation | 4 teaching ladders + 20-question mixed check + food-web/population/CER transfer |
 | Social Studies | Ancient Israel final → Egypt geography → early rule → Nile systems → mastery | Israel/Canaan map/history retained; Egypt compared with Mesopotamia through river systems, surplus, specialization, government, writing, and trade | Ancient Israel retrieval + 3 Egypt teaching ladders + 20-question Egypt entry check + map/cause-effect transfer |
 
-The source-completeness manifest contains 104 atomic requirements with explicit evidence routes. “Referenced-only” materials remain visible in the ledger and are never counted as instructional evidence.
+The source-completeness manifest contains 133 atomic requirements with explicit evidence routes. “Referenced-only” materials remain visible in the ledger and are never counted as instructional evidence.
 
 ## October 6 source-locked rebuild
 
