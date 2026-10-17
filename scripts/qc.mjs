@@ -11,6 +11,7 @@ const sourceGate = JSON.parse(fs.readFileSync(new URL('../SOURCE_COMPLETENESS_GA
 const rebuild = fs.readFileSync(new URL('../subject-rebuild-v19.js', import.meta.url), 'utf8');
 const ancientIsraelGuide = fs.readFileSync(new URL('../social-studies-study-guide-v20.js', import.meta.url), 'utf8');
 const weeklyUpdate = fs.readFileSync(new URL('../weekly-update-v21.js', import.meta.url), 'utf8');
+const sourceReconciliation = fs.readFileSync(new URL('../source-reconciliation-v22.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 
@@ -27,7 +28,7 @@ const sandbox = {
   clearTimeout: () => {}
 };
 vm.createContext(sandbox);
-const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21};';
+const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
 const { D, BUILD, KEY, ARCH, SCORE_RESET, balancedShuffle, qid, modelText, transferPrompt } = sandbox.__APP;
@@ -49,8 +50,8 @@ const insufficientIndependentChecks = lessons.filter(l => {
   const modeledItems = !l.model && l.q?.length > 1 ? 1 : 0;
   return l.q.length - modeledItems < 4;
 }).map(l => l.id);
-const requiredScienceOrder = ['science_v21_ecosystem_vocab','science_v21_population_variables','science_v21_interactions','science_v21_health_invasive'];
-const scienceOrderActual = D.SCI.lessons.slice(0, 4).map(l => l.id);
+const requiredScienceOrder = ['science_v22_vocab_core','science_v22_organization','science_v22_energy_roles','science_v22_relationships','science_v22_limits','science_v22_mastery'];
+const scienceOrderActual = D.SCI.lessons.slice(0, 6).map(l => l.id);
 const scienceVocabularyFirst = requiredScienceOrder.every((id, i) => scienceOrderActual[i] === id);
 const requiredGuideOrder = ['ss_v20_study_guide','ss_v20_migrations','ss_v20_kingdom_cyrus','ss_v20_mastery_test'];
 const guideOrderActual = D.SS.lessons.map(l=>l.id).filter(id=>requiredGuideOrder.includes(id));
@@ -68,6 +69,18 @@ const v21Lessons = lessons.filter(l=>v21LessonIds.includes(l.id));
 const v21Thin = v21Lessons.filter(l=>!l.teach||!l.src||!l.w||!l.connect||!l.success||l.q.length<8).map(l=>l.id);
 const v21Tests = ['ela_v21_mastery','math_v21_mastery','science_v21_mastery','ss_v21_mastery'].map(id=>lessons.find(l=>l.id===id));
 const v21TestIssues = v21Tests.flatMap(l=>!l?[`missing-test`]:(!l.test||l.q.length<20?[`${l.id}:test-floor`]:[]));
+const requiredV22Ids = {
+  ELA:['ela_v22_fluency'],
+  MATH:['math_v22_compare','math_v22_mental','math_v22_fluency_check'],
+  SCI:['science_v22_vocab_core','science_v22_organization','science_v22_energy_roles','science_v22_relationships','science_v22_limits','science_v22_mastery']
+};
+const v22LessonIds = Object.values(requiredV22Ids).flat();
+const v22Lessons = lessons.filter(l=>v22LessonIds.includes(l.id));
+const v22Missing = Object.entries(requiredV22Ids).flatMap(([subject,required])=>required.filter(id=>!D[subject].lessons.some(l=>l.id===id)));
+const v22Thin = v22Lessons.filter(l=>!l.teach||!l.src||!l.w||!l.connect||!l.success||l.q.length<8).map(l=>l.id);
+const teacherEcologyTerms=['abiotic','adaptation','biome','biosphere','biotic','carnivore','carrying capacity','commensalism','community','consumer','decomposer','ecosystem','energy pyramid','food chain','food web','herbivore','host','invasive species','limiting factor','mutualism','native species','niche','omnivore','organism','parasitism','population','predator','prey','producer','scavenger','symbiosis','symbiotic','tertiary'];
+const v22ScienceText=JSON.stringify(D.SCI.lessons.filter(l=>l.id.startsWith('science_v22_'))).toLowerCase();
+const missingTeacherEcologyTerms=teacherEcologyTerms.filter(term=>!v22ScienceText.includes(term));
 const requiredRebuildIds = {
   ELA: ['ela_v19_unit_map','ela_v19_analysis','ela_v19_language','ela_v19_narrative'],
   MATH: ['math_v19_percent_meaning','math_v19_three_unknowns','math_v19_applications','math_v19_next_unit'],
@@ -155,6 +168,7 @@ const report = {
   scienceOrderActual,
   officialAncientIsraelGuide: {guideFirst,guideOrderActual,masteryQuestions:guideTest?.q?.length||0,all24TargetsRepresented:guideFirst&&(guideTest?.q?.length||0)>=24},
   october9Update: {required:v21LessonIds.length,found:v21Lessons.length,v21Missing,v21Thin,v21TestIssues},
+  october17Reconciliation: {required:v22LessonIds.length,found:v22Lessons.length,v22Missing,v22Thin,missingTeacherEcologyTerms},
   sourceRebuild: { required: rebuildLessonIds.length, found: rebuildLessons.length, rebuildIdMissing, rebuildThin, atomicTermMissing },
   sourceCompletenessGate: {
     buildMatches: sourceGate.build === BUILD,
@@ -204,7 +218,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261009-1'),
+  organizerLoaded: html.includes('organizer.js?v=20261017-1'),
   officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
@@ -225,7 +239,7 @@ report.governance = {
   parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
 };
 report.governance.failClosedSourceGate = governance.includes('Fail-closed source-completeness gate') && governance.includes('SOURCE_COMPLETENESS_GATE.json');
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0;
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && v22Missing.length===0 && v22Thin.length===0 && missingTeacherEcologyTerms.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0;
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
