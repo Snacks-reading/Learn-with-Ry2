@@ -1,5 +1,14 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
+## October 18 test-readiness release
+
+| Assessment | Teacher-controlled scope | Preparation now required | Independent evidence |
+|---|---|---|---|
+| Social Studies test — October 21 | All 24 Ancient Israel guide targets; Israelites and migrations maps; vocabulary; Walk of Fame; Show What You Know; cumulative Mesopotamia, Paleolithic, and Neolithic review | Official 24-target teaching guide → migrations lesson → kingdom/Cyrus lesson → map and timeline reconstruction → oral teach-back | Fresh 36-question final simulation plus the existing independent 30-question form; readiness requires 33/36, repair of every miss, 24/24 teach-back, accurate map/timeline, and next-day retrieval |
+| ELA Unit 2 quiz — October 23 | “Reading Buddies”; text/media comparison; central/main idea; author’s purpose; evidence; objective summary; paragraph function; *My Life with the Chimpanzees*; independent/dependent clauses | New integrated 16-item review with a worked comparison model, then prior source lessons and short-passage fluency | Fresh 28-question passage-based simulation using two informational passages and a media description; readiness requires 26/28, corrected misses, written summary/comparison/clause transfer, and delayed retrieval |
+
+The home screen now sequences preparation by date: Social Studies guide Sunday, first simulation Monday, repair and second form Tuesday, ELA integrated review Wednesday, and ELA simulation Thursday. Existing lessons, progress, narration, and cumulative practice remain intact.
+
 ## October 18 every-module teacher-source audit
 
 | Subject | Teacher material checked | Live coverage result | Repair or proof |

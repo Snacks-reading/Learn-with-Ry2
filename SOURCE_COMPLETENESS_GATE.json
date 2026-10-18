@@ -1,5 +1,5 @@
 {
-  "build": "2026-10-18-teacher-source-audit-v24",
+  "build": "2026-10-18-ela-ss-test-readiness-v25",
   "auditDate": "2026-10-18",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
@@ -15,7 +15,8 @@
         {"lessonId":"ela_v21_chimpanzees","requirements":["my life with the chimpanzees","author’s purpose","cite evidence for a claim","objective summary","paragraph function"]},
         {"lessonId":"ela_v21_clauses","requirements":["independent clause","dependent clause"]},
         {"lessonId":"ela_v22_fluency","requirements":["silent reading fluency"]}
-      ]
+      ],
+      "readinessEvidence": {"reviewLessonId":"ela_v25_quiz_review","independentFormId":"ela_v25_quiz_simulation","questionCount":28,"quizDate":"2026-10-23","threshold":"26/28 plus written transfer and delayed retrieval"}
     },
     "MATH": {
       "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Math Student Score Snapshot", "Confirmed Math 6th in 6th placement", "Williamson County Schools Current Middle School Textbooks and Instructional Materials", "Williamson County Schools 2023 Math Adoption", "Tennessee Reveal Math Course 1, Volumes 1 and 2 (McGraw-Hill, 2024)", "Tennessee Reveal Math Course 1 Module 4 family letter", "Schoology vocabulary folder referenced but inaccessible", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
@@ -69,7 +70,8 @@
         {"lessonId":"ss_v21_egypt_geography","requirements":["nile river","nile delta","upper egypt","lower egypt","nubia","sahara"]},
         {"lessonId":"ss_v21_egypt_rule","requirements":["narmer","pharaoh","dynasty"]},
         {"lessonId":"ss_v21_egypt_nile","requirements":["silt","irrigation","geographic determinism"]}
-      ]
+      ],
+      "readinessEvidence": {"officialGuideLessonId":"ss_v20_study_guide","independentFormIds":["ss_v25_final_simulation","ss_v20_mastery_test"],"questionCounts":[36,30],"testDate":"2026-10-21","threshold":"33/36 plus 24/24 oral teach-back, map, timeline, repair, and delayed retrieval"}
     }
   },
   "evidenceContract": {

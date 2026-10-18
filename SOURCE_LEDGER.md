@@ -1,7 +1,7 @@
 # Learn With Ry — Mandatory Source Ledger
 
 Audit date: October 18, 2026
-Build: `2026-10-18-teacher-source-audit-v24`
+Build: `2026-10-18-ela-ss-test-readiness-v25`
 
 Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
 
@@ -41,6 +41,7 @@ Status definitions follow governance: **complete** means the usable instructiona
 - Parent-applied highlighting, circling, underlining, arrows, and annotations are treated as explicit parent direction and audited separately from original teacher markings; marked text cannot be absorbed into a general topic label.
 - The v23 Big 8 correction adds direct memorization instruction, sixteen bidirectional retrieval checks, a shuffled 24-question readiness form, a 24/24 handwritten no-peek production gate, and next-day recheck criteria.
 - The v24 teacher-source audit checks every identified teacher source against live lesson IDs. It closes the exact Reveal Math Module 4 vocabulary gap and the Science textbook-review gap for alligator/gar, cordgrass cause-and-effect, ecosystem boundaries, a changed-abiotic-factor graphic organizer, and the 9 km + 19 km = 28 km biosphere calculation.
+- The v25 readiness release adds a fresh 36-question Ancient Israel simulation covering all 24 teacher targets and a separate 28-question ELA passage-based simulation. ELA also receives a 16-item direct review of central idea, purpose, evidence, objective summary, paragraph function, text/media comparison, and independent/dependent clauses. These supplement—rather than replace—the existing 30-question Social Studies and 20-question ELA forms.
 - A **referenced-only** source cannot be counted as used content. It is listed so it cannot silently disappear from future audits.
 - The v19 source-locked rebuild adds 20 explicit current-path lessons: ELA 4, Math 4, Science 4, Social Studies 8.
 - The v20 guide reconciliation adds 3 direct-teaching lessons and a 30-question independent Ancient Israel readiness form; it closes the newly confirmed Scripture, migration-cause, Israel/Judah/Jerusalem, Persian conquest, and Cyrus gaps.
