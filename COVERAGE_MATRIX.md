@@ -13,6 +13,8 @@
 
 The current path adds five lessons per subject while retaining all earlier lessons. Every teaching lesson has explicit vocabulary, direct explanation, a worked model, six authored checks plus two connection/application checks, constructed transfer, success criteria, and delayed retrieval. Each subject ends with a fresh 20-question independent check.
 
+Teacher-marked content receives priority-level coverage. The yellow-highlight audit explicitly traces every highlighted ELA skill and every highlighted Math fact/rule, including the complete Big 8 list and the repeating numerator-block pattern for denominators 9, 99, and 999.
+
 | Subject | Current sequence | New-to-prior connections | Independent evidence |
 |---|---|---|---|
 | ELA | Unit 2 map → “Reading Buddies” skills → *My Life with the Chimpanzees* skills → clauses → mastery | Theme/central idea; evidence and paragraph function; text/media comparison; clauses applied in summaries and evidence writing | 4 teaching ladders + 20-question mixed check + objective summary/paragraph-function transfer |
