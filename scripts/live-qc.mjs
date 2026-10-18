@@ -14,8 +14,8 @@ for (const viewport of [{name:'desktop',width:1440,height:900},{name:'phone',wid
   const lessonTitle = await page.locator('#main h2').first().textContent();
   const readLesson = await page.getByRole('button', {name:/Read this lesson/}).count();
   const overflow = await page.evaluate(() => document.documentElement.scrollWidth > document.documentElement.clientWidth + 1);
-  const sourceLoaded = await page.evaluate(() => ({rebuild:globalThis.SOURCE_REBUILD_V19,guide:globalThis.SOCIAL_STUDIES_GUIDE_V20,weekly:globalThis.WEEKLY_UPDATE_V21,reconciliation:globalThis.SOURCE_RECONCILIATION_V22,counts:Object.fromEntries(Object.entries(D).map(([k,v])=>[k,v.lessons.length]))}));
-  for (const [subject,id,dateLabel] of [['ELA','ela_v22_fluency','CURRENT OCT. 17'],['MATH','math_v22_compare','CURRENT OCT. 17'],['SCI','science_v22_vocab_core','CURRENT OCT. 17'],['SS','ss_v21_israel_final','CURRENT OCT. 9']]) {
+  const sourceLoaded = await page.evaluate(() => ({rebuild:globalThis.SOURCE_REBUILD_V19,guide:globalThis.SOCIAL_STUDIES_GUIDE_V20,weekly:globalThis.WEEKLY_UPDATE_V21,reconciliation:globalThis.SOURCE_RECONCILIATION_V22,memorization:globalThis.HIGHLIGHT_MEMORIZATION_V23,counts:Object.fromEntries(Object.entries(D).map(([k,v])=>[k,v.lessons.length]))}));
+  for (const [subject,id,dateLabel] of [['ELA','ela_v22_fluency','CURRENT OCT. 17'],['MATH','math_v23_big8_memory','MEMORIZE THE BIG 8'],['SCI','science_v22_vocab_core','CURRENT OCT. 17'],['SS','ss_v21_israel_final','CURRENT OCT. 9']]) {
     await page.evaluate(({subject,id}) => window.__RY_ORGANIZER__.openLesson(subject,id), {subject,id});
     const shown = await page.locator('#main h2').first().textContent();
     if (!shown?.includes(dateLabel)) errors.push(`${subject} did not open current path: ${shown}`);
@@ -24,6 +24,6 @@ for (const viewport of [{name:'desktop',width:1440,height:900},{name:'phone',wid
   await page.close();
 }
 await browser.close();
-const pass = results.every(r => r.modes.length===6 && /CURRENT OCT\. 9/.test(r.firstTitle||'') && /CURRENT OCT\. 9/.test(r.lessonTitle||'') && r.readLesson===1 && !r.overflow && r.errors.length===0 && r.sourceLoaded?.rebuild?.counts?.SS===8 && r.sourceLoaded?.guide?.targets===24 && r.sourceLoaded?.weekly?.counts?.SS===5 && r.sourceLoaded?.reconciliation?.counts?.SCI===6 && r.sourceLoaded?.counts?.ELA===50 && r.sourceLoaded?.counts?.MATH===37 && r.sourceLoaded?.counts?.SCI===53 && r.sourceLoaded?.counts?.SS===53);
+const pass = results.every(r => r.modes.length===6 && /CURRENT OCT\. 9/.test(r.firstTitle||'') && /CURRENT OCT\. 9/.test(r.lessonTitle||'') && r.readLesson===1 && !r.overflow && r.errors.length===0 && r.sourceLoaded?.rebuild?.counts?.SS===8 && r.sourceLoaded?.guide?.targets===24 && r.sourceLoaded?.weekly?.counts?.SS===5 && r.sourceLoaded?.reconciliation?.counts?.SCI===6 && r.sourceLoaded?.memorization?.counts?.MATH===2 && r.sourceLoaded?.counts?.ELA===50 && r.sourceLoaded?.counts?.MATH===39 && r.sourceLoaded?.counts?.SCI===53 && r.sourceLoaded?.counts?.SS===53);
 console.log(JSON.stringify({pass,results},null,2));
 if(!pass) process.exitCode=1;

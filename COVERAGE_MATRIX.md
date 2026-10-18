@@ -13,7 +13,7 @@
 
 The current path adds five lessons per subject while retaining all earlier lessons. Every teaching lesson has explicit vocabulary, direct explanation, a worked model, six authored checks plus two connection/application checks, constructed transfer, success criteria, and delayed retrieval. Each subject ends with a fresh 20-question independent check.
 
-Teacher-marked content receives priority-level coverage. The yellow-highlight audit explicitly traces every highlighted ELA skill and every highlighted Math fact/rule, including the complete Big 8 list and the repeating numerator-block pattern for denominators 9, 99, and 999.
+Parent-highlighted content receives priority-level coverage and remains distinct from original teacher markings. The yellow-highlight audit explicitly traces every highlighted ELA skill and every highlighted Math fact/rule, including the complete Big 8 list and the repeating numerator-block pattern for denominators 9, 99, and 999. Big 8 mastery now requires bidirectional retrieval plus 24/24 no-peek production on two different days; recognition alone does not count as memorization.
 
 | Subject | Current sequence | New-to-prior connections | Independent evidence |
 |---|---|---|---|
