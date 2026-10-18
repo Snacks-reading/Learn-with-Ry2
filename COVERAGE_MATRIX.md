@@ -1,5 +1,16 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
+## October 18 every-module teacher-source audit
+
+| Subject | Teacher material checked | Live coverage result | Repair or proof |
+|---|---|---|---|
+| ELA | Unit 1 photographed study guide; October 9 newsletter; “Reading Buddies”; *My Life with the Chimpanzees*; clause work; current narrative/rubric evidence | **PASS** — every visible study-guide and newsletter target maps to direct teaching, practice, constructed transfer, and independent checks | Existing v19/v21/v22 lessons retained; QC verifies the routed terms and lesson evidence floors |
+| Math 6th in 6th | October newsletter and parent highlights; Aimsweb snapshot; WCS adopted-materials list; Tennessee Reveal Math Course 1 Module 4 family letter | **REPAIRED** — earlier lessons covered the ideas but did not isolate all eight adopted vocabulary terms | New `math_v24_reveal_module4_vocab` explicitly teaches and checks absolute value, integer, negative integer, opposite, positive integer, quadrants, rational number, and reflection; Big 8 no-peek mastery remains first |
+| Science | StudyMate ecology terms; “Everything Is Connected” pp. 46–51; teacher ecology schedule and quiz scope | **REPAIRED** — vocabulary and five levels were strong, but exact review granularity was incomplete | New `science_v24_textbook_review` adds alligator/gar, cordgrass cascade, ecosystem-boundary defense, changed-abiotic-factor organizer, and the exact 9+19=28 km biosphere calculation |
+| Social Studies | Ancient Israel folder screenshot; vocabulary; map; Walk of Fame; Show What You Know; official 24-item test guide | **PASS** — every visible guide target maps to teaching and the 30-question readiness form | Existing v19/v20/v21 sequence retained: map/migrations → leaders/covenant/kingdom → captivity/Cyrus → cumulative Mesopotamia/Paleolithic/Neolithic |
+
+The exact signed-in Math Schoology vocabulary page remains inaccessible and is not falsely marked complete. The district-adopted program and exact publisher-aligned Module 4 family letter provide the independently recovered vocabulary. Any later teacher-only additions must be added as new atomic requirements before publication.
+
 ## October 17 teacher-source and benchmark reconciliation
 
 | Subject | New controlling evidence | Targeted instruction | Independent evidence |

@@ -1,0 +1,54 @@
+(function(){
+  const q=(p,o,a,w)=>[p,o,a,w];
+  const lesson=(id,title,src,teach,model,v,qs,w,connect,success,extra={})=>({id,title,src,teach,model,v,q:qs,w,connect,success,...extra});
+
+  const mathSource='Williamson County Schools adopted curriculum: Tennessee Reveal Math, Course 1, Module 4 “Integers, Rational Numbers, and the Coordinate Plane” family letter • 10/9/2026 teacher newsletter • Math 6th in 6th';
+  const mathLesson=lesson('math_v24_reveal_module4_vocab','CURRENT SOURCE CHECK • REVEAL MATH MODULE 4 VOCABULARY',mathSource,
+    'Learn the exact Module 4 vocabulary before using it. An integer is zero, a positive whole number, or a negative whole number. A positive integer is greater than zero; a negative integer is less than zero. Opposites are the same distance from zero on different sides. Absolute value is distance from zero, so it is never negative. A rational number can be written as a fraction of integers with a nonzero denominator. On the coordinate plane, the x-axis is horizontal, the y-axis is vertical, and the axes divide the plane into four quadrants. A reflection flips a figure across a line while preserving size, shape, and distance from that line.',
+    'MODEL: −4 is a negative integer and rational number because −4=−4/1. Its opposite is 4, a positive integer, and |−4|=4. Point (−4,3) lies in Quadrant II. Reflecting it across the y-axis changes only the x-coordinate, giving (4,3).',
+    [['absolute value','the distance a number is from zero'],['integer','zero, a positive whole number, or a negative whole number'],['negative integer','an integer less than zero'],['opposite','a number the same distance from zero on the other side'],['positive integer','an integer greater than zero'],['quadrants','the four regions formed by the x-axis and y-axis'],['rational number','a number expressible as a fraction of integers with a nonzero denominator'],['reflection','a flip across a line that preserves size, shape, and distance']],
+    [
+      q('Which is a negative integer?',['−7','1/2','0.4','7%'],0,'A negative integer is a whole-number value less than zero.'),
+      q('Which is a positive integer?',['6','0','−6','0.6'],0,'Six is a whole-number value greater than zero.'),
+      q('Which statement about zero is correct?',['Zero is an integer but is neither positive nor negative','Zero is a positive integer','Zero is a negative integer','Zero is not rational'],0,'Zero is an integer and rational number, but it is neither positive nor negative.'),
+      q('What is the opposite of −9?',['9','−9','0','1/9'],0,'Opposites are equally far from zero on different sides.'),
+      q('What is |−9|?',['9','−9','0','18'],0,'Absolute value is distance from zero.'),
+      q('SELECT TWO: Which are rational numbers?',['−3','5/8','π','√2'],[0,1],'−3=−3/1 and 5/8 is already a fraction of integers.'),
+      q('Which description matches Quadrant III?',['x is negative and y is negative','x is positive and y is positive','x is negative and y is positive','x is positive and y is negative'],0,'Quadrant III has the sign pattern (−,−).'),
+      q('Reflect (−5,2) across the y-axis.',['(5,2)','(−5,−2)','(5,−2)','(2,−5)'],0,'A y-axis reflection changes the sign of x only.'),
+      q('A student calls 0.25 an integer. What is the repair?',['It is rational but not an integer because it is not a whole-number value','It is a negative integer','It is irrational','All decimals are integers'],0,'0.25=1/4 is rational, but it is not an integer.'),
+      q('Why are −4 and 4 opposites?',['They are the same distance from zero on different sides','They have the same sign','Their absolute values are negative','Both are in Quadrant I'],0,'The defining relationship is equal distance and opposite sides.'),
+      q('SELECT TWO: Which statements about a reflection are true?',['Corresponding points stay the same distance from the line of reflection','The image keeps the same size and shape','Every coordinate always changes sign','A reflection moves every point into Quadrant I'],[0,1],'A reflection is a rigid transformation and preserves distance from its mirror line.'),
+      q('Point (0,−6) is located where?',['On the y-axis, not in a quadrant','In Quadrant III','In Quadrant IV','On the x-axis'],0,'When x=0, the point lies on the y-axis and is not in any quadrant.')
+    ],
+    'Create a four-column vocabulary map: term, exact meaning, example, and nonexample. Then graph one point in each quadrant, reflect two points, and explain every sign change. CONNECTION: Use positive and negative integers to represent increase and decrease in a Science population.',
+    'Connect exact vocabulary to the Big 8, signed-number comparison, coordinate graphing, and Science quantities.',
+    'I can define, distinguish, model, and apply all eight adopted Module 4 terms without relying on answer choices.');
+
+  const scienceSource='Teacher-uploaded textbook Section 1 “Everything Is Connected,” pp. 46–51 • teacher StudyMate Ecology vocabulary • teacher ecology schedule';
+  const scienceLesson=lesson('science_v24_textbook_review','CURRENT SOURCE CHECK • EVERYTHING IS CONNECTED • EXACT SECTION REVIEW',scienceSource,
+    'Ecology studies connections among organisms and between organisms and their environment—the web of life. Use the five nested levels precisely: one organism; one-species population; interacting populations in a community; the community plus abiotic factors in an ecosystem; and all ecosystems in the biosphere. Ecosystem study boundaries are practical, not sealed: organisms, water, matter, and energy can cross them. In the salt marsh, cordgrass is a producer and living shelter, while salinity, sunlight, water, and temperature are abiotic. If cordgrass dies, food, shelter, populations, and connected feeding relationships can change. The textbook states that the biosphere extends about 9 km above sea level and 19 km below it, so its approximate vertical thickness is 9+19=28 km.',
+    'MODEL: Claim—loss of cordgrass can reduce marsh populations. Evidence—cordgrass supplies food or shelter and begins energy pathways. Reasoning—when that resource disappears, it becomes a limiting factor; consumers lose energy or habitat, and effects can spread through the food web. For the textbook math check, add distances on opposite sides of sea level: 9 km above + 19 km below = 28 km total thickness.',
+    [['web of life','the network of relationships connecting living things and their environment'],['ecology','the study of interactions among organisms and their environment'],['biotic factor','a living or once-living part of an ecosystem'],['abiotic factor','a nonliving physical or chemical part of an ecosystem'],['ecosystem boundary','a practical study limit that can still exchange organisms, matter, and energy']],
+    [
+      q('Which sequence gives the five levels from smallest to largest?',['organism → population → community → ecosystem → biosphere','population → organism → ecosystem → community → biosphere','organism → community → population → biosphere → ecosystem','biosphere → ecosystem → community → population → organism'],0,'The levels expand from one individual to all ecosystems.'),
+      q('One alligator is which level?',['organism','population','community','ecosystem'],0,'One individual living thing is an organism.'),
+      q('All gar of one species in the same marsh are a',['population','community','ecosystem','biosphere'],0,'A population is one species in one area.'),
+      q('Alligator, gar, cordgrass, insects, and bacteria together are part of the marsh',['community','population','abiotic factors only','biosphere only'],0,'Multiple interacting populations form a community.'),
+      q('Which addition changes a community description into an ecosystem description?',['water, salinity, sunlight, and temperature','more individuals of one species only','a second name for one organism','removing every abiotic factor'],0,'An ecosystem includes the community and abiotic environment.'),
+      q('Which is abiotic in a salt marsh?',['salinity','cordgrass','gar','bacteria'],0,'Salinity is a nonliving chemical condition.'),
+      q('Dead cordgrass remains are classified as',['biotic because they were once living','abiotic because they are no longer alive','a population','a biosphere'],0,'Biotic includes living and once-living material.'),
+      q('If cordgrass dies, which prediction is best supported?',['Organisms that use it for food or shelter may decline, causing further food-web changes','Only cordgrass changes because ecosystem parts are independent','Every consumer must increase','All abiotic factors disappear'],0,'Connected resources and feeding relationships can produce indirect effects.'),
+      q('Why can scientists draw different useful ecosystem boundaries?',['The boundary depends on the question, while organisms, matter, and energy may cross it','Every ecosystem is physically sealed','Only political borders define ecosystems','A boundary removes outside influences'],0,'Study boundaries organize investigation but do not seal the system.'),
+      q('The biosphere extends about 9 km above sea level and 19 km below. What is its approximate thickness?',['28 km','10 km','171 km','9 km'],0,'Add the distances on both sides of sea level: 9+19=28.'),
+      q('A graphic organizer starts with “less rainfall.” Which next link is most defensible?',['less available water → plant stress → less food or shelter for some consumers','less rainfall → every population increases','less rainfall → sunlight disappears','less rainfall → the ecosystem stops having boundaries'],0,'The chain shows how one abiotic change can affect biotic factors.'),
+      q('SELECT TWO: Which observations could be evidence in an alligator–gar ecosystem investigation?',['gar counts fall after water levels change','alligator feeding locations shift during the same period','all organisms must be unrelated','the researcher likes alligators'],[0,1],'Counts and observed behavior are evidence; opinions and absolute assumptions are not.')
+    ],
+    'Draw a cause-and-effect graphic organizer beginning with one changed abiotic factor and ending with at least two population effects. Then define a defensible ecosystem boundary, explain what may cross it, and show the 9+19=28 km biosphere calculation. CONNECTION: Write the causal explanation as an ELA claim-evidence-reasoning paragraph.',
+    'Connect the teacher textbook’s marsh system to vocabulary, food webs, limiting factors, Math signed-distance reasoning, and ELA evidence writing.',
+    'I can reconstruct all five levels, classify factors, explain connected effects, defend a study boundary, and solve the textbook biosphere-thickness check.');
+
+  D.MATH.lessons.splice(2,0,mathLesson);
+  D.SCI.lessons.splice(2,0,scienceLesson);
+  globalThis.TEACHER_SOURCE_AUDIT_V24={version:'2026-10-18-teacher-source-audit-v24',counts:{MATH:1,SCI:1}};
+})();

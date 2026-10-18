@@ -1,6 +1,6 @@
 {
-  "build": "2026-10-17-highlight-memorization-v23",
-  "auditDate": "2026-10-17",
+  "build": "2026-10-18-teacher-source-audit-v24",
+  "auditDate": "2026-10-18",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
   "subjects": {
@@ -18,14 +18,15 @@
       ]
     },
     "MATH": {
-      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Math Student Score Snapshot", "Confirmed Math 6th in 6th placement", "Schoology vocabulary folder referenced but inaccessible", "Tennessee Grade 6 rational-number support", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
-      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair", "integer", "opposites", "coordinate plane", "quadrant", "reflection", "1/2 = 0.5 = 50%", "1/3 = 0.333… = 33⅓%", "1/4 = 0.25 = 25%", "1/5 = 0.2 = 20%", "1/8 = 0.125 = 12.5%", "1/9 = 0.111… = 11⅑%", "1/10 = 0.1 = 10%", "2/3 = 0.666… = 66⅔%", "denominators 9, 99, or 999", "no-peek production from memory", "number comparison fluency", "mental computation fluency"],
+      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Math Student Score Snapshot", "Confirmed Math 6th in 6th placement", "Williamson County Schools Current Middle School Textbooks and Instructional Materials", "Williamson County Schools 2023 Math Adoption", "Tennessee Reveal Math Course 1, Volumes 1 and 2 (McGraw-Hill, 2024)", "Tennessee Reveal Math Course 1 Module 4 family letter", "Schoology vocabulary folder referenced but inaccessible", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],
+      "requirements": ["percent", "reference whole", "0.5%", "125%", "discount", "percent change", "absolute value", "ordered pair", "integer", "negative integer", "positive integer", "opposites", "coordinate plane", "quadrant", "quadrants", "rational number", "reflection", "1/2 = 0.5 = 50%", "1/3 = 0.333… = 33⅓%", "1/4 = 0.25 = 25%", "1/5 = 0.2 = 20%", "1/8 = 0.125 = 12.5%", "1/9 = 0.111… = 11⅑%", "1/10 = 0.1 = 10%", "2/3 = 0.666… = 66⅔%", "denominators 9, 99, or 999", "no-peek production from memory", "number comparison fluency", "mental computation fluency"],
       "coverageRoutes": [
         {"lessonId":"math_v19_percent_meaning","requirements":["percent","reference whole","0.5%","125%"]},
         {"lessonId":"math_v19_applications","requirements":["discount","percent change"]},
         {"lessonId":"math_v19_next_unit","requirements":["absolute value","ordered pair"]},
         {"lessonId":"math_v21_integers","requirements":["integer","opposites"]},
         {"lessonId":"math_v21_coordinates","requirements":["coordinate plane","quadrant","reflection"]},
+        {"lessonId":"math_v24_reveal_module4_vocab","requirements":["negative integer","positive integer","quadrants","rational number"]},
         {"lessonId":"math_v23_big8_memory","requirements":["1/2 = 0.5 = 50%","1/3 = 0.333… = 33⅓%","1/4 = 0.25 = 25%","1/5 = 0.2 = 20%","1/8 = 0.125 = 12.5%","1/9 = 0.111… = 11⅑%","1/10 = 0.1 = 10%","2/3 = 0.666… = 66⅔%","no-peek production from memory"]},
         {"lessonId":"math_v21_big8","requirements":["denominators 9, 99, or 999"]},
         {"lessonId":"math_v22_compare","requirements":["number comparison fluency"]},
@@ -34,7 +35,7 @@
     },
     "SCI": {
       "controllingSources": ["October 9 teacher newsletter", "Teacher-uploaded StudyMate Ecology vocabulary screenshots received October 17", "Teacher-uploaded textbook Section 1 Everything Is Connected pages 46-51 received October 17", "Tennessee Grade 6 Science 6.LS2.1-6.LS2.5", "STEMscopes environment and populations pages referenced but inaccessible", "Teacher 49-question Heat Transfer and Energy Resources objective map", "Test-correction and natural-resource poster directions"],
-      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation", "ecosystem", "population", "community", "biotic factor", "abiotic factor", "carrying capacity", "competition", "mutualism", "parasitism", "biodiversity", "invasive species", "adaptation", "biome", "biosphere", "carnivore", "commensalism", "consumer", "decomposer", "energy pyramid", "food chain", "food web", "herbivore", "host", "limiting factor", "native species", "niche", "omnivore", "organism", "predator", "prey", "producer", "scavenger", "symbiosis", "symbiotic", "tertiary consumer", "ecology", "five levels of environmental organization"],
+      "requirements": ["temperature", "thermal energy", "thermal equilibrium", "conduction", "convection", "radiation", "coal", "natural gas", "biomass", "geothermal", "hydropower", "wind", "solar", "greenhouse gas", "deforestation", "ecosystem", "population", "community", "biotic factor", "abiotic factor", "carrying capacity", "competition", "mutualism", "parasitism", "biodiversity", "invasive species", "adaptation", "biome", "biosphere", "carnivore", "commensalism", "consumer", "decomposer", "energy pyramid", "food chain", "food web", "herbivore", "host", "limiting factor", "native species", "niche", "omnivore", "organism", "predator", "prey", "producer", "scavenger", "symbiosis", "symbiotic", "tertiary consumer", "ecology", "five levels of environmental organization", "alligator", "gar", "cordgrass", "ecosystem boundary", "9 km", "19 km", "28 km", "graphic organizer"],
       "coverageRoutes": [
         {"lessonId":"science_v19_particles","requirements":["temperature","thermal energy","thermal equilibrium"]},
         {"lessonId":"science_v19_transfer","requirements":["conduction","convection","radiation"]},
@@ -48,7 +49,8 @@
         {"lessonId":"science_v22_organization","requirements":["organism","ecology","five levels of environmental organization"]},
         {"lessonId":"science_v22_energy_roles","requirements":["food chain","food web","herbivore","omnivore","producer","scavenger","tertiary consumer"]},
         {"lessonId":"science_v22_relationships","requirements":["commensalism","host","predator","prey","symbiosis","symbiotic"]},
-        {"lessonId":"science_v22_limits","requirements":["invasive species","limiting factor","native species","niche"]}
+        {"lessonId":"science_v22_limits","requirements":["invasive species","limiting factor","native species","niche"]},
+        {"lessonId":"science_v24_textbook_review","requirements":["alligator","gar","cordgrass","ecosystem boundary","9 km","19 km","28 km","graphic organizer"]}
       ]
     },
     "SS": {
