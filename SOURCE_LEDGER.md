@@ -63,3 +63,11 @@ Status definitions follow governance: **complete** means the usable instructiona
 
 Source-side red-team reread completed October 19, 2026. No photographed heading, term, numbered rule, plot label, conflict type, ending type, prompt-planning box, rubric domain, or teacher application pattern is represented only by a definition or only by a test item. The October 23 Unit 2 quiz route remains separately preserved in v25 because the newer Gmail invitation identifies its exact scope.
 
+# October 19 Social Studies correction
+
+| Source | Status | Learner-facing route |
+|---|---|---|
+| Teacher’s Ancient Israel Study Guide, Targets 1–24 | complete | Exact numbered order retained in `ss_v20_study_guide`; no compressed replacement path |
+| Israelites Map and Migrations Map | complete | Reconstructed schematic map aid plus location, route, cause, and consequence lesson |
+| Saul, David, and Solomon classroom materials | complete | Dedicated significance lesson with exact king sequence |
+| Divided kingdom, captivity, and Cyrus | complete | Exact three-row repair sequence and independent two-way retrieval |

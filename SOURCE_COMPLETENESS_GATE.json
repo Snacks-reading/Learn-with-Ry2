@@ -1,5 +1,5 @@
 {
-  "build": "2026-10-19-ela-binder-source-reconciliation-v26",
+  "build": "2026-10-19-official-24-target-rebuild-v27",
   "auditDate": "2026-10-19",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
@@ -66,7 +66,7 @@
     },
     "SS": {
       "controllingSources": ["October 9 teacher newsletter", "Tennessee Grade 6 Ancient Egypt 6.13-6.19", "Michigan Open Book Ancient Egypt source identified but exact chapter unrecovered", "Teacher Ancient Israel test study guide", "Canaan map and migration map", "Ancient Israel vocabulary", "Walk of Fame", "Show What You Know", "Cumulative Mesopotamia materials"],
-      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah", "nile river", "nile delta", "upper egypt", "lower egypt", "nubia", "sahara", "narmer", "pharaoh", "dynasty", "silt", "irrigation", "geographic determinism"],
+      "requirements": ["mediterranean sea", "jordan river", "sea of galilee", "dead sea", "sinai", "phoenicia", "abraham", "moses", "exodus", "ten commandments", "saul", "david", "solomon", "goliath", "tanakh", "torah", "covenant", "scripture", "monotheism", "diaspora", "captivity", "sabbath", "rabbi", "assyrian", "chaldean", "cyrus the great", "persians", "539 bce", "famine", "paleolithic", "neolithic", "jerusalem remained in judah", "red sea", "egypt", "mesopotamia", "babylon", "persia", "722 bce", "israel northern kingdom", "judah southern kingdom", "return permitted", "official 24-target order", "nile river", "nile delta", "upper egypt", "lower egypt", "nubia", "sahara", "narmer", "pharaoh", "dynasty", "silt", "irrigation", "geographic determinism"],
       "coverageRoutes": [
         {"lessonId":"ss_v19_map","requirements":["mediterranean sea","jordan river","sea of galilee","dead sea","sinai","phoenicia"]},
         {"lessonId":"ss_v19_patriarchs","requirements":["abraham","moses","exodus","ten commandments","covenant","famine"]},
@@ -77,11 +77,14 @@
         {"lessonId":"ss_v19_conquest","requirements":["captivity","assyrian","chaldean"]},
         {"lessonId":"ss_v20_study_guide","requirements":["scripture","paleolithic","neolithic"]},
         {"lessonId":"ss_v20_kingdom_cyrus","requirements":["cyrus the great","persians","539 bce","jerusalem remained in judah"]},
+        {"lessonId":"ss_v20_maps","requirements":["red sea","egypt","mesopotamia"]},
+        {"lessonId":"ss_v20_kingdom_cyrus","requirements":["babylon","persia","722 bce","israel northern kingdom","judah southern kingdom","return permitted"]},
+        {"lessonId":"ss_v20_study_guide","requirements":["official 24-target order"]},
         {"lessonId":"ss_v21_egypt_geography","requirements":["nile river","nile delta","upper egypt","lower egypt","nubia","sahara"]},
         {"lessonId":"ss_v21_egypt_rule","requirements":["narmer","pharaoh","dynasty"]},
         {"lessonId":"ss_v21_egypt_nile","requirements":["silt","irrigation","geographic determinism"]}
       ],
-      "readinessEvidence": {"officialGuideLessonId":"ss_v20_study_guide","independentFormIds":["ss_v25_final_simulation","ss_v20_mastery_test"],"questionCounts":[36,30],"testDate":"2026-10-21","threshold":"33/36 plus 24/24 oral teach-back, map, timeline, repair, and delayed retrieval"}
+      "readinessEvidence": {"officialGuideLessonId":"ss_v20_study_guide","independentFormIds":["ss_v25_final_simulation","ss_v20_mastery_test"],"questionCounts":[36,48],"testDate":"2026-10-21","threshold":"43/48 plus 24/24 oral teach-back, both maps, the three-row repair sequence, and delayed retrieval"}
     }
   },
   "evidenceContract": {

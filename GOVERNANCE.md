@@ -90,6 +90,7 @@ Vocabulary recall alone never substitutes for conceptual application.
 - A question may narrate its directions, passage, prompt, and choices neutrally. It must never narrate the key, explanation, sample response, or any other answer disclosure before Riley commits her response.
 - Spoken feedback may begin only after a response is submitted and only after Riley has chosen to use narration during that session.
 - The learner view contains only information Riley needs to decide what to do and complete the learning. Internal build names, version/reset notices, governance language, source-management commentary, implementation status, parent records, and teacher-facing summaries never appear in the learner workspace.
+- A teacher-issued numbered study guide remains the controlling learner path in its exact order. Supplemental instruction may expand a target but may not replace, reorder, compress beyond recognition, or hide the official path.
 - No oversized slogan, decorative hero, promotional copy, or administrative explanation may consume learning space. Branding is limited to a compact header; the first substantial panel must be the next learning action.
 - Parent records, source provenance, exports, backups, and technical notes belong only in a clearly separated Parent Tools view.
 - Instructions name the exact action and the exact number of selections.

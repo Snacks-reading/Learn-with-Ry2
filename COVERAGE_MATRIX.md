@@ -93,3 +93,13 @@ This weekly cumulative module is aligned to the Tennessee standards that overlap
 | Plot, conflict, character change | Plot-stage function and four teacher conflict categories | Classification, sequence, error analysis, All Summer and For the Birds transfer | Fresh plot items plus complete evidence-based plot mountain | Common 24-hour retention engine |
 | Seven ending types | Meaning, boundary, effect, and paired examples | 21 classification/boundary items plus seven-ending construction | All Summer evidence defense and source-faithful rewrite | Common 24-hour retention engine |
 | TN narrative rubric | Four-domain teaching and targeted revision model | Domain diagnosis, evidence matching, error analysis, and revision decisions | Independent multi-paragraph narrative with four-domain self-audit | Common 24-hour retention engine |
+# October 19 Ancient Israel 24-target path
+
+| Coverage requirement | Teach | Model | Varied practice | Connection | Independent evidence |
+|---|---|---|---|---|---|
+| Official Targets 1–24 in teacher order | `ss_v20_study_guide` | Target 18 linked response | 8 checks | Earlier/later target links | 24-answer no-peek reconstruction |
+| Maps and migrations | `ss_v20_maps` + `ancient-israel-maps.html` | Anchor-first reconstruction | Location and route checks | Route → cause → consequence | Closed-page map redraw |
+| Abraham, Moses, texts, beliefs | `ss_v20_people_texts` | Scripture → Tanakh → Torah; covenant distinguished | 12 checks | Person → belief/event → significance | Connected paragraph |
+| Saul, David, Solomon | `ss_v20_kings` | Person → action → effect → importance | 8 checks | Monarchy → Jerusalem → split | Three significance responses |
+| Divided kingdom through Cyrus | `ss_v20_kingdom_cyrus` | Three-row chain | 13 checks | Jerusalem links captivity and return | Exact chain in both directions |
+| Final readiness | `ss_v20_mastery_test` | No answer model | 48 independent questions | Miss → target → connected repair | Maps + 24 answers + three-row chain |
