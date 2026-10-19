@@ -16,6 +16,7 @@ const highlightMemorization = fs.readFileSync(new URL('../highlight-memorization
 const teacherSourceAudit = fs.readFileSync(new URL('../teacher-source-audit-v24.js', import.meta.url), 'utf8');
 const testReadiness = fs.readFileSync(new URL('../test-readiness-v25.js', import.meta.url), 'utf8');
 const elaBinder = fs.readFileSync(new URL('../ela-binder-reconciliation-v26.js', import.meta.url), 'utf8');
+const mathBinder = fs.readFileSync(new URL('../math-binder-reconciliation-v28.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 
@@ -32,7 +33,7 @@ const sandbox = {
   clearTimeout: () => {}
 };
 vm.createContext(sandbox);
-const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + elaBinder + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25,ELA_BINDER_V26};';
+const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + elaBinder + '\n' + mathBinder + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25,ELA_BINDER_V26,MATH_BINDER_V28};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
 const { D, BUILD, KEY, ARCH, SCORE_RESET, balancedShuffle, qid, modelText, transferPrompt } = sandbox.__APP;
@@ -93,8 +94,8 @@ const requiredV23Ids = ['math_v23_big8_memory','math_v23_big8_mastery'];
 const v23Lessons = lessons.filter(l=>requiredV23Ids.includes(l.id));
 const v23Missing = requiredV23Ids.filter(id=>!D.MATH.lessons.some(l=>l.id===id));
 const v23Thin = v23Lessons.filter(l=>!l.teach||!l.src||!l.w||!l.connect||!l.success||l.q.length<16).map(l=>l.id);
-const big8PriorityActual = D.MATH.lessons.slice(0,2).map(l=>l.id);
-const big8MemorizationFirst = requiredV23Ids.every((id,i)=>big8PriorityActual[i]===id);
+const big8PriorityActual = D.MATH.lessons.slice(0,8).map(l=>l.id);
+const big8MemorizationFirst = big8PriorityActual[0]==='math_v28_big8_source' && requiredV23Ids.every(id=>big8PriorityActual.includes(id));
 const big8MemoryText = JSON.stringify(v23Lessons).toLowerCase();
 const big8MemoryContract = ['cover–recall–check','no-peek production from memory','24/24','two checks separated by at least one day'].every(term=>big8MemoryText.includes(term));
 const requiredV24Ids = {MATH:['math_v24_reveal_module4_vocab'],SCI:['science_v24_textbook_review']};
