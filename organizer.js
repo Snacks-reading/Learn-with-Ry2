@@ -71,8 +71,15 @@
   function renderWritingHub(){let writing=D.ELA.lessons.map((lesson,index)=>({subject:'ELA',lesson,index})).filter(x=>/(Unit 2|Reading Buddies|Chimpanzees|Clauses|Narrative|Dialogue|Writing|Rubric|Ending|Plot|Prompt|Constructed|Summary|Fluency)/i.test(x.lesson.title)),current=writing.filter(x=>/^BINDER|^FINAL • ELA Binder/.test(x.lesson.title)).slice(0,6);views.WRITING.innerHTML=`<div class="pageIntro"><span class="kicker">WRITING</span><h2>Writing World</h2><p>A distraction-reduced path for planning, evidence, summarizing, drafting, revising, and independent transfer.</p></div><div class="writingSteps"><span>1 • Decode</span><span>2 • Plan</span><span>3 • Draft</span><span>4 • Revise</span><span>5 • Submit</span></div><div class="hubCards">${current.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${writing.length} writing lessons</summary><div class="hubCards">${writing.map(testCard).join('')}</div></details>`;bindLibraryCards(views.WRITING)}
   function renderParent(){stats();views.PARENT.querySelectorAll('.parentPanel').forEach(x=>x.remove());let panel=document.createElement('section');panel.className='parentPanel';panel.innerHTML=`<div class="pageIntro"><span class="kicker">PARENT TOOLS</span><h2>Progress, sources, and records</h2><p>These controls are kept out of Ry’s lesson path. Progress is stored on this device.</p></div><div class="parentActions"><button id="parentExport">Export writing for ChatGPT</button><button id="parentBackup">Backup progress</button><button id="parentRestore">Restore a compatible backup</button><a href="GOVERNANCE.md">Open governance rules</a></div>`;views.PARENT.insertBefore(panel,sourceLibrary);document.getElementById('parentExport').onclick=exportWriting;document.getElementById('parentBackup').onclick=backup;document.getElementById('parentRestore').onclick=restore}
   function simplifyLessonTools(){['exportW','backup','restore'].forEach(id=>document.getElementById(id)?.classList.add('hidden'))}
-  const coreRender=render;render=function(){coreRender();simplifyLessonTools();setMode('LEARN',false)};
+  function bindSubjectStarts(){
+    const first={ELA:'ela_v25_quiz_review',MATH:'math_v28_big8_source',SCI:'science_v22_vocab_core',SS:'ss_v20_study_guide'};
+    [...subjectNav.querySelectorAll('button')].forEach(button=>{
+      const subject=Object.keys(D).find(key=>button.textContent.includes(D[key].name));
+      if(subject&&first[subject])button.onclick=()=>openLesson(subject,first[subject]);
+    });
+  }
+  const coreRender=render;render=function(){coreRender();simplifyLessonTools();bindSubjectStarts();setMode('LEARN',false)};
   const coreRenderMain=renderMain;renderMain=function(){coreRenderMain();simplifyLessonTools()};
-  coreRender();simplifyLessonTools();setMode('HOME',false);
+  coreRender();simplifyLessonTools();bindSubjectStarts();setMode('HOME',false);
   window.__RY_ORGANIZER__={setMode,openLesson,weeklyItems,priorityIndexes};
 })();
