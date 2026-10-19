@@ -50,3 +50,16 @@ Status definitions follow governance: **complete** means the usable instructiona
 - The source gate now traces every listed atomic requirement to live lesson IDs and fails closed when a current source, teacher term, route, lesson floor, narration control, or ordering rule is missing.
 - Automated QC fails if any rebuilt lesson disappears, falls below the teaching/practice floor, or loses a required atomic classroom term.
 
+# October 19 ELA binder reconciliation — v26
+
+| Source | Status | Controlling requirements | Evidence route |
+|---|---|---|---|
+| IMG_0936–IMG_0938 — Sixth Grade ELA Terms | Complete | All 42 terms, including craft/literary concepts, analysis verbs, evidence language, and precision task words | `ela_v26_terms_craft`, `ela_v26_terms_tasks_a`, `ela_v26_terms_tasks_b`, `ela_v26_binder_final` |
+| IMG_0939–IMG_0940 — Punctuating Dialogue notes and practice | Complete | Seven rules: speaker paragraphs, capitalization, tag comma, inside punctuation, question-mark location, split dialogue, narration balance | `ela_v26_dialogue`, `ela_v26_binder_final` |
+| IMG_0941–IMG_0944 — Attack the Prompt and Narrative Scratch Paper | Complete | Read–circle–arrow–number routine; source-based continuation constraints; prompt checklist; five-part plot plan; chosen ending type | `ela_v26_prompt_plan`, `ela_v26_binder_final` |
+| IMG_0945 — TNReady Grades 6–8 Narrative Rubric | Complete | Focus/Organization, Development, Language, Conventions; evidence-based revision | `ela_v26_rubric`, `ela_v26_binder_final` |
+| IMG_0946–IMG_0950 — Elements of Plot, conflict, and application maps | Complete | Plot definition and stages; four teacher-taught conflicts; event function; character change | `ela_v26_plot_conflict`, `ela_v26_binder_final` |
+| IMG_0951–IMG_0954 — Story Endings and All Summer in a Day application | Complete | Explicit, implicit, lesson learned, twist, tie back, unresolved, long view; evidence-based classification; alternative ending | `ela_v26_endings`, `ela_v26_all_summer_end`, `ela_v26_binder_final` |
+
+Source-side red-team reread completed October 19, 2026. No photographed heading, term, numbered rule, plot label, conflict type, ending type, prompt-planning box, rubric domain, or teacher application pattern is represented only by a definition or only by a test item. The October 23 Unit 2 quiz route remains separately preserved in v25 because the newer Gmail invitation identifies its exact scope.
+

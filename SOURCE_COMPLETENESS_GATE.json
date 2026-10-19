@@ -1,12 +1,12 @@
 {
-  "build": "2026-10-18-ela-ss-test-readiness-v25",
-  "auditDate": "2026-10-18",
+  "build": "2026-10-19-ela-binder-source-reconciliation-v26",
+  "auditDate": "2026-10-19",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
   "subjects": {
     "ELA": {
-      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Reading Student Score Snapshot", "Williamson County Grade 6 Quarter 2 curriculum map", "Savvas myPerspectives Unit 2", "IXL 6-GG.8", "Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors"],
-      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative", "reading buddies", "compare a written text with a media source", "my life with the chimpanzees", "author’s purpose", "cite evidence for a claim", "objective summary", "paragraph function", "independent clause", "dependent clause", "silent reading fluency"],
+      "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Reading Student Score Snapshot", "Williamson County Grade 6 Quarter 2 curriculum map", "Savvas myPerspectives Unit 2", "IXL 6-GG.8", "Photographed Unit 1 study guide", "Current narrative assignment and Tennessee narrative rubric", "Recovered classroom text anchors", "October 19 ELA binder photographs IMG_0936–IMG_0954"],
+      "requirements": ["brown girl dreaming", "michaela deprince", "dancer's dream", "oranges", "all summer in a day", "theme", "central idea", "point of view", "figurative language", "tone", "mood", "narrative", "reading buddies", "compare a written text with a media source", "my life with the chimpanzees", "author’s purpose", "cite evidence for a claim", "objective summary", "paragraph function", "independent clause", "dependent clause", "silent reading fluency", "simile", "metaphor", "personification", "hyperbole", "alliteration", "repetition", "onomatopoeia", "convey", "analyze", "compare", "contrast", "infer", "summarize", "evaluate", "justify", "evidence", "significant", "consequence", "factor", "impact", "method", "process", "perspective", "conclude", "determine", "distinguish", "identify", "contribute", "illustrate", "clarify", "emphasize", "formulate", "develop", "relevant", "essential", "emerge", "seven dialogue rules", "new speaker paragraph", "capitalize first word of dialogue", "comma with dialogue tag", "dialogue punctuation inside quotation marks", "question mark placement with dialogue", "interrupted dialogue capitalization", "weave dialogue into narration", "read circle arrow number prompt routine", "narrative scratch-paper plan", "exposition", "rising action", "climax", "falling action", "resolution", "character versus character", "character versus nature", "character versus self", "character versus technology", "character change across plot", "explicit ending", "implicit ending", "lesson learned ending", "twist ending", "tie back ending", "unresolved ending", "long view ending", "all summer in a day unresolved ending evidence", "focus and organization rubric domain", "development rubric domain", "language rubric domain", "conventions rubric domain", "independent source-based narrative"],
       "coverageRoutes": [
         {"lessonId":"ela_v19_unit_map","requirements":["brown girl dreaming","michaela deprince","dancer's dream","oranges","all summer in a day","theme","central idea","point of view"]},
         {"lessonId":"ela_v19_language","requirements":["figurative language","tone","mood"]},
@@ -14,9 +14,19 @@
         {"lessonId":"ela_v21_reading_buddies","requirements":["reading buddies","compare a written text with a media source"]},
         {"lessonId":"ela_v21_chimpanzees","requirements":["my life with the chimpanzees","author’s purpose","cite evidence for a claim","objective summary","paragraph function"]},
         {"lessonId":"ela_v21_clauses","requirements":["independent clause","dependent clause"]},
-        {"lessonId":"ela_v22_fluency","requirements":["silent reading fluency"]}
+        {"lessonId":"ela_v22_fluency","requirements":["silent reading fluency"]},
+        {"lessonId":"ela_v26_terms_craft","requirements":["simile","metaphor","personification","hyperbole","alliteration","repetition","onomatopoeia","convey"]},
+        {"lessonId":"ela_v26_terms_tasks_a","requirements":["analyze","compare","contrast","infer","summarize","evaluate","justify","evidence","significant","consequence","factor","impact","method","process"]},
+        {"lessonId":"ela_v26_terms_tasks_b","requirements":["perspective","conclude","determine","distinguish","identify","contribute","illustrate","clarify","emphasize","formulate","develop","relevant","essential","emerge"]},
+        {"lessonId":"ela_v26_dialogue","requirements":["seven dialogue rules","new speaker paragraph","capitalize first word of dialogue","comma with dialogue tag","dialogue punctuation inside quotation marks","question mark placement with dialogue","interrupted dialogue capitalization","weave dialogue into narration"]},
+        {"lessonId":"ela_v26_prompt_plan","requirements":["read circle arrow number prompt routine","narrative scratch-paper plan"]},
+        {"lessonId":"ela_v26_plot_conflict","requirements":["exposition","rising action","climax","falling action","resolution","character versus character","character versus nature","character versus self","character versus technology","character change across plot"]},
+        {"lessonId":"ela_v26_endings","requirements":["explicit ending","implicit ending","lesson learned ending","twist ending","tie back ending","unresolved ending","long view ending"]},
+        {"lessonId":"ela_v26_all_summer_end","requirements":["all summer in a day unresolved ending evidence"]},
+        {"lessonId":"ela_v26_rubric","requirements":["focus and organization rubric domain","development rubric domain","language rubric domain","conventions rubric domain"]},
+        {"lessonId":"ela_v26_binder_final","requirements":["independent source-based narrative"]}
       ],
-      "readinessEvidence": {"reviewLessonId":"ela_v25_quiz_review","independentFormId":"ela_v25_quiz_simulation","questionCount":28,"quizDate":"2026-10-23","threshold":"26/28 plus written transfer and delayed retrieval"}
+      "readinessEvidence": {"reviewLessonId":"ela_v25_quiz_review","independentFormIds":["ela_v25_quiz_simulation","ela_v26_binder_final"],"questionCounts":[28,56],"quizDate":"2026-10-23","threshold":"26/28 on exact quiz simulation; 51/56 on cumulative binder form; independent narrative and delayed retrieval"}
     },
     "MATH": {
       "controllingSources": ["October 9 teacher newsletter", "Aimsweb Fall 2026 Math Student Score Snapshot", "Confirmed Math 6th in 6th placement", "Williamson County Schools Current Middle School Textbooks and Instructional Materials", "Williamson County Schools 2023 Math Adoption", "Tennessee Reveal Math Course 1, Volumes 1 and 2 (McGraw-Hill, 2024)", "Tennessee Reveal Math Course 1 Module 4 family letter", "Schoology vocabulary folder referenced but inaccessible", "Teacher percent notes and review", "October 2 newsletter next-unit sequence"],

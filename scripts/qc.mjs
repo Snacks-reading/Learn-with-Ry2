@@ -15,6 +15,7 @@ const sourceReconciliation = fs.readFileSync(new URL('../source-reconciliation-v
 const highlightMemorization = fs.readFileSync(new URL('../highlight-memorization-v23.js', import.meta.url), 'utf8');
 const teacherSourceAudit = fs.readFileSync(new URL('../teacher-source-audit-v24.js', import.meta.url), 'utf8');
 const testReadiness = fs.readFileSync(new URL('../test-readiness-v25.js', import.meta.url), 'utf8');
+const elaBinder = fs.readFileSync(new URL('../ela-binder-reconciliation-v26.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 
@@ -31,7 +32,7 @@ const sandbox = {
   clearTimeout: () => {}
 };
 vm.createContext(sandbox);
-const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25};';
+const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + elaBinder + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25,ELA_BINDER_V26};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
 const { D, BUILD, KEY, ARCH, SCORE_RESET, balancedShuffle, qid, modelText, transferPrompt } = sandbox.__APP;
@@ -114,6 +115,18 @@ const missingElaQuizTerms=elaQuizTerms.filter(term=>!elaReadinessText.includes(t
 const ssReadinessTerms=['jerusalem','abraham','moses','tanakh','torah','covenant','scripture','exodus','ten commandments','saul','david','solomon','monotheism','diaspora','babylonian captivity','cyrus the great','mesopotamia','paleolithic','neolithic'];
 const ssReadinessText=JSON.stringify(v25SsTest||{}).toLowerCase();
 const missingSsReadinessTerms=ssReadinessTerms.filter(term=>!ssReadinessText.includes(term));
+const requiredV26Ids=['ela_v26_terms_craft','ela_v26_terms_tasks_a','ela_v26_terms_tasks_b','ela_v26_dialogue','ela_v26_prompt_plan','ela_v26_plot_conflict','ela_v26_endings','ela_v26_all_summer_end','ela_v26_rubric','ela_v26_binder_final'];
+const v26Lessons=lessons.filter(l=>requiredV26Ids.includes(l.id));
+const v26Missing=requiredV26Ids.filter(id=>!D.ELA.lessons.some(l=>l.id===id));
+const v26Thin=v26Lessons.filter(l=>!l.teach||!l.src||!l.w||!l.connect||!l.success||(!l.test&&(!l.model||!l.v?.length||l.q.length<16))||(l.test&&l.q.length<56)).map(l=>l.id);
+const v26Text=JSON.stringify(v26Lessons).toLowerCase();
+const binderTerms=['main idea / central idea','theme','point of view','simile','metaphor','personification','hyperbole','alliteration','repetition','onomatopoeia','tone','mood','author’s purpose','convey','analyze','compare','contrast','infer','summarize','evaluate','justify','evidence','significant','consequence','factor','impact','method','process','perspective','conclude','determine','distinguish','identify','contribute','illustrate','clarify','emphasize','formulate','develop','relevant','essential','emerge'];
+const binderStructures=['seven dialogue rules','read circle arrow number prompt routine','narrative scratch-paper plan','exposition','rising action','climax','falling action','resolution','character versus character','character versus nature','character versus self','character versus technology','explicit ending','implicit ending','lesson learned ending','twist ending','tie back ending','unresolved ending','long view ending','focus and organization rubric domain','development rubric domain','language rubric domain','conventions rubric domain','all summer in a day unresolved ending evidence'];
+const missingBinderTerms=binderTerms.filter(term=>!v26Text.includes(term));
+const missingBinderStructures=binderStructures.filter(term=>!v26Text.includes(term));
+const v26Final=D.ELA.lessons.find(l=>l.id==='ela_v26_binder_final');
+const v26Dialogue=D.ELA.lessons.find(l=>l.id==='ela_v26_dialogue');
+const v26Endings=D.ELA.lessons.find(l=>l.id==='ela_v26_endings');
 const teacherEcologyTerms=['abiotic','adaptation','biome','biosphere','biotic','carnivore','carrying capacity','commensalism','community','consumer','decomposer','ecosystem','energy pyramid','food chain','food web','herbivore','host','invasive species','limiting factor','mutualism','native species','niche','omnivore','organism','parasitism','population','predator','prey','producer','scavenger','symbiosis','symbiotic','tertiary'];
 const v22ScienceText=JSON.stringify(D.SCI.lessons.filter(l=>l.id.startsWith('science_v22_'))).toLowerCase();
 const missingTeacherEcologyTerms=teacherEcologyTerms.filter(term=>!v22ScienceText.includes(term));
@@ -149,7 +162,9 @@ const sourceGateRouteIssues = Object.entries(sourceGate.subjects || {}).flatMap(
   const badLessonRoutes = (record.coverageRoutes || []).flatMap(route => {
     const lesson = D[subject]?.lessons.find(item => item.id === route.lessonId);
     if (!lesson) return [`${subject}:${route.lessonId}:missing-lesson`];
-    const complete = lesson.teach && lesson.model && lesson.w && lesson.q?.length >= 4 && lesson.connectionChecks >= 2 && transferPrompt(lesson);
+    const complete = lesson.test
+      ? lesson.teach && lesson.w && lesson.q?.length >= 4 && transferPrompt(lesson)
+      : lesson.teach && lesson.model && lesson.w && lesson.q?.length >= 4 && lesson.connectionChecks >= 2 && transferPrompt(lesson);
     return complete ? [] : [`${subject}:${route.lessonId}:incomplete-evidence-route`];
   });
   return [...missingRoutes, ...extraRoutes, ...duplicateRoutes, ...badLessonRoutes];
@@ -214,6 +229,7 @@ const report = {
   highlightedBig8Memorization: {required:requiredV23Ids.length,found:v23Lessons.length,v23Missing,v23Thin,big8PriorityActual,big8MemorizationFirst,big8MemoryContract},
   teacherSourceAuditV24: {required:v24LessonIds.length,found:v24Lessons.length,v24Missing,v24Thin,missingRevealModule4Terms,missingScienceExactReviewTerms},
   testReadinessV25: {required:v25LessonIds.length,found:v25Lessons.length,v25Missing,v25Thin,elaQuestions:v25ElaTest?.q?.length||0,ssQuestions:v25SsTest?.q?.length||0,missingElaQuizTerms,missingSsReadinessTerms},
+  elaBinderV26: {required:requiredV26Ids.length,found:v26Lessons.length,v26Missing,v26Thin,missingBinderTerms,missingBinderStructures,dialogueQuestions:v26Dialogue?.q?.length||0,endingQuestions:v26Endings?.q?.length||0,finalQuestions:v26Final?.q?.length||0},
   sourceRebuild: { required: rebuildLessonIds.length, found: rebuildLessons.length, rebuildIdMissing, rebuildThin, atomicTermMissing },
   sourceCompletenessGate: {
     buildMatches: sourceGate.build === BUILD,
@@ -264,7 +280,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261017-2'),
+  organizerLoaded: html.includes('organizer.js?v=20261019-1'),
   officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
@@ -285,7 +301,7 @@ report.governance = {
   parentDiscoveredGapFails: governance.includes('A build fails governance if the parent must discover a source gap')
 };
 report.governance.failClosedSourceGate = governance.includes('Fail-closed source-completeness gate') && governance.includes('SOURCE_COMPLETENESS_GATE.json');
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && big8MemorizationFirst && big8MemoryContract && v23Missing.length===0 && v23Thin.length===0 && v24Missing.length===0 && v24Thin.length===0 && missingRevealModule4Terms.length===0 && missingScienceExactReviewTerms.length===0 && v25Missing.length===0 && v25Thin.length===0 && missingElaQuizTerms.length===0 && missingSsReadinessTerms.length===0 && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && v22Missing.length===0 && v22Thin.length===0 && missingTeacherEcologyTerms.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0 && sourceGateReadinessIssues.length === 0;
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && big8MemorizationFirst && big8MemoryContract && v23Missing.length===0 && v23Thin.length===0 && v24Missing.length===0 && v24Thin.length===0 && missingRevealModule4Terms.length===0 && missingScienceExactReviewTerms.length===0 && v25Missing.length===0 && v25Thin.length===0 && missingElaQuizTerms.length===0 && missingSsReadinessTerms.length===0 && v26Missing.length===0 && v26Thin.length===0 && missingBinderTerms.length===0 && missingBinderStructures.length===0 && (v26Final?.q?.length||0)>=56 && guideFirst && (guideTest?.q?.length||0)>=30 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && v22Missing.length===0 && v22Thin.length===0 && missingTeacherEcologyTerms.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0 && sourceGateReadinessIssues.length === 0;
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;

@@ -83,3 +83,13 @@ Prior build target: October 2, 2026 reset. Scores and completion started clean t
 ## Tennessee TCAP boundary
 
 This weekly cumulative module is aligned to the Tennessee standards that overlap Riley's teacher-assigned units; it is not labeled as a complete full-year TCAP course. Current Grade 6 TCAP Science also assesses ecosystem and weather/climate standards that have not yet appeared in the recovered classroom assignments. Current Grade 6 TCAP ELA requires balanced literary and informational reading, vocabulary, conventions, and two passage-based extended writing responses. Those full-year gaps must be added from teacher materials as they are assigned or in a separately labeled TCAP readiness pathway. See `TCAP_ALIGNMENT_AUDIT.md`.
+# October 19 ELA binder coverage — v26
+
+| Objective cluster | Teach/model | Varied practice | Independent/transfer | Delayed retrieval |
+|---|---|---|---|---|
+| 42 binder terms | Three vocabulary lessons with definitions, boundaries, and modeled evidence | Definition-to-term and fresh-context application for every term | 56-question binder form samples every term; six-term constructed production | Common 24-hour retention engine |
+| Seven dialogue rules | Rule-by-rule teaching and punctuated model | Correction, error analysis, exact-count multi-select, editing, and scene construction | Fresh dialogue items plus independent two-speaker scene | Common 24-hour retention engine |
+| Prompt attack and scratch-paper plan | Teacher’s read–circle–arrow–number routine and five plot boxes | Constraint checks, error analysis, source-fidelity decisions, prompt-specific plans | Independent source-based continuation plan and final narrative | Common 24-hour retention engine |
+| Plot, conflict, character change | Plot-stage function and four teacher conflict categories | Classification, sequence, error analysis, All Summer and For the Birds transfer | Fresh plot items plus complete evidence-based plot mountain | Common 24-hour retention engine |
+| Seven ending types | Meaning, boundary, effect, and paired examples | 21 classification/boundary items plus seven-ending construction | All Summer evidence defense and source-faithful rewrite | Common 24-hour retention engine |
+| TN narrative rubric | Four-domain teaching and targeted revision model | Domain diagnosis, evidence matching, error analysis, and revision decisions | Independent multi-paragraph narrative with four-domain self-audit | Common 24-hour retention engine |
