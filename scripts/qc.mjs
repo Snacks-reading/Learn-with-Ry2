@@ -58,11 +58,15 @@ const insufficientIndependentChecks = lessons.filter(l => {
 const requiredScienceOrder = ['science_v22_vocab_core','science_v22_organization','science_v24_textbook_review','science_v22_energy_roles','science_v22_relationships','science_v22_limits','science_v22_mastery'];
 const scienceOrderActual = D.SCI.lessons.slice(0, 7).map(l => l.id);
 const scienceVocabularyFirst = requiredScienceOrder.every((id, i) => scienceOrderActual[i] === id);
-const requiredGuideOrder = ['ss_v20_study_guide','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test'];
+const requiredGuideOrder = ['ss_v20_study_guide','ss_v20_test_eve','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test'];
 const guideOrderActual = D.SS.lessons.map(l=>l.id).filter(id=>requiredGuideOrder.includes(id));
 const guideFirst = requiredGuideOrder.every((id,i)=>guideOrderActual[i]===id);
 const guideTest = D.SS.lessons.find(l=>l.id==='ss_v20_mastery_test');
 const guidePath = D.SS.lessons.find(l=>l.id==='ss_v20_study_guide');
+const testEve = D.SS.lessons.find(l=>l.id==='ss_v20_test_eve');
+const missingTestEveTargets = Array.from({length:24},(_,i)=>`Target ${i+1}:`).filter(n=>!testEve?.q?.some(item=>String(item[0]).startsWith(n)));
+const guideAnswerPositionCounts=[0,1,2,3].map(position=>guideTest?.q?.filter(item=>!Array.isArray(item[2])&&item[2]===position).length||0);
+const guideAnswerPositionsBalanced=Math.min(...guideAnswerPositionCounts)>=10;
 const missingGuideTargets = Array.from({length:24},(_,i)=>`${i+1}.`).filter(n=>!guidePath?.teach?.includes(n));
 const requiredRepairSequence = ['israel—assyria—722 bce','judah/jerusalem—babylon—captivity','babylon—persia/cyrus—539 bce—return permitted'];
 const guideRepairText = JSON.stringify(D.SS.lessons.filter(l=>['ss_v20_kingdom_cyrus','ss_v20_mastery_test'].includes(l.id))).toLowerCase();
@@ -231,7 +235,7 @@ const report = {
   insufficientIndependentChecks,
   scienceVocabularyFirst,
   scienceOrderActual,
-  officialAncientIsraelGuide: {guideFirst,guideOrderActual,masteryQuestions:guideTest?.q?.length||0,missingGuideTargets,missingRepairSequence,learnerAdminNotes,all24TargetsRepresented:guideFirst&&missingGuideTargets.length===0&&(guideTest?.q?.length||0)>=48},
+  officialAncientIsraelGuide: {guideFirst,guideOrderActual,testEveQuestions:testEve?.q?.length||0,missingTestEveTargets,masteryQuestions:guideTest?.q?.length||0,guideAnswerPositionCounts,guideAnswerPositionsBalanced,missingGuideTargets,missingRepairSequence,learnerAdminNotes,all24TargetsRepresented:guideFirst&&missingGuideTargets.length===0&&missingTestEveTargets.length===0&&(guideTest?.q?.length||0)>=48},
   october9Update: {required:v21LessonIds.length,found:v21Lessons.length,v21Missing,v21Thin,v21TestIssues},
   october17Reconciliation: {required:v22LessonIds.length,found:v22Lessons.length,v22Missing,v22Thin,missingTeacherEcologyTerms},
   highlightedBig8Memorization: {required:requiredV23Ids.length,found:v23Lessons.length,v23Missing,v23Thin,big8PriorityActual,big8MemorizationFirst,big8MemoryContract},
@@ -288,7 +292,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261019-2'),
+  organizerLoaded: html.includes('organizer.js?v=20261020-1'),
   officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
@@ -311,7 +315,7 @@ report.governance = {
 report.governance.failClosedSourceGate = governance.includes('Fail-closed source-completeness gate') && governance.includes('SOURCE_COMPLETENESS_GATE.json');
 report.governance.officialStudyGuideOrderRequired = governance.includes('teacher-issued numbered study guide remains the controlling learner path in its exact order');
 report.governance.noLearnerFacingAdminNotes = learnerAdminNotes.length===0;
-report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && big8MemorizationFirst && big8MemoryContract && v23Missing.length===0 && v23Thin.length===0 && v24Missing.length===0 && v24Thin.length===0 && missingRevealModule4Terms.length===0 && missingScienceExactReviewTerms.length===0 && v25Missing.length===0 && v25Thin.length===0 && missingElaQuizTerms.length===0 && missingSsReadinessTerms.length===0 && v26Missing.length===0 && v26Thin.length===0 && missingBinderTerms.length===0 && missingBinderStructures.length===0 && (v26Final?.q?.length||0)>=56 && guideFirst && missingGuideTargets.length===0 && missingRepairSequence.length===0 && learnerAdminNotes.length===0 && (guideTest?.q?.length||0)>=48 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && v22Missing.length===0 && v22Thin.length===0 && missingTeacherEcologyTerms.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0 && sourceGateReadinessIssues.length === 0;
+report.pass = duplicateIds.length === 0 && duplicateObjectiveIds.length === 0 && duplicateQuestionIds.length === 0 && badLessons.length === 0 && incompleteCurrent.length === 0 && testLeak.length === 0 && transferMissing.length === 0 && connectionMissing.length === 0 && connectionChecksMissing.length === 0 && insufficientIndependentChecks.length === 0 && scienceVocabularyFirst && big8MemorizationFirst && big8MemoryContract && v23Missing.length===0 && v23Thin.length===0 && v24Missing.length===0 && v24Thin.length===0 && missingRevealModule4Terms.length===0 && missingScienceExactReviewTerms.length===0 && v25Missing.length===0 && v25Thin.length===0 && missingElaQuizTerms.length===0 && missingSsReadinessTerms.length===0 && v26Missing.length===0 && v26Thin.length===0 && missingBinderTerms.length===0 && missingBinderStructures.length===0 && (v26Final?.q?.length||0)>=56 && guideFirst && (testEve?.q?.length||0)>=24 && missingTestEveTargets.length===0 && guideAnswerPositionsBalanced && missingGuideTargets.length===0 && missingRepairSequence.length===0 && learnerAdminNotes.length===0 && (guideTest?.q?.length||0)>=48 && rebuildIdMissing.length === 0 && rebuildThin.length === 0 && v21Missing.length===0 && v21Thin.length===0 && v21TestIssues.length===0 && v22Missing.length===0 && v22Thin.length===0 && missingTeacherEcologyTerms.length===0 && atomicTermMissing.length === 0 && multiIssues.length === 0 && report.storage.oldKeyIgnored && max - min <= Math.ceil(questionIds.length * 0.03) && Object.values(report.narration).every(Boolean) && Object.values(report.organization).every(Boolean) && Object.values(report.governance).every(Boolean) && report.sourceCompletenessGate.buildMatches && report.sourceCompletenessGate.sourceSideRedTeamComplete && report.sourceCompletenessGate.allSubjectsPresent && sourceGateDuplicateRequirements.length === 0 && sourceGateIncompleteRecords.length === 0 && sourceGateRouteIssues.length === 0 && sourceGateReadinessIssues.length === 0;
 
 console.log(JSON.stringify(report, null, 2));
 if (!report.pass) process.exitCode = 1;
