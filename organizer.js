@@ -25,9 +25,9 @@
   function dueCount(){return Object.values(st.retention).filter(t=>Date.now()-new Date(t).getTime()>=86400000).length}
   function waitingCount(){return archive().filter(x=>x.status==='waiting_for_chatgpt').length}
   function weeklyItems(){return[
-    {day:'MON 10/19',subject:'SS',label:'Follow the official 24-target path and reconstruct both maps',match:'ss_v20_study_guide'},
-    {day:'MON 10/19',subject:'SS',label:'Take the 36-question final simulation',match:'ss_v25_final_simulation'},
-    {day:'TUE 10/20',subject:'SS',label:'Rebuild the divided-kingdom chain + take the 48-question check',match:'ss_v20_kingdom_cyrus'},
+    {day:'TUE 10/20',subject:'SS',label:'Test eve: complete the 24-target closed-note recall',match:'ss_v20_test_eve'},
+    {day:'TUE 10/20',subject:'SS',label:'Redraw both maps and every migration route from memory',match:'ss_v20_maps'},
+    {day:'TUE 10/20',subject:'SS',label:'Finish with the 48-question independent readiness check',match:'ss_v20_mastery_test'},
     {day:'WED–THU',subject:'ELA',label:'Review exact quiz skills, media comparison + clauses',match:'ela_v25_quiz_review'},
     {day:'THU 10/22',subject:'ELA',label:'Take the 28-question passage-based simulation',match:'ela_v25_quiz_simulation'}
   ].map(x=>({...x,...findLesson(x.subject,x.match)}))}
@@ -55,7 +55,7 @@
       let indexes=order.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
     }
     if(subj==='SS'){
-      const guide=['ss_v20_study_guide','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test','ss_v25_final_simulation','ss_v21_israel_final'];
+      const guide=['ss_v20_study_guide','ss_v20_test_eve','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test','ss_v25_final_simulation','ss_v21_israel_final'];
       let ordered=guide.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!ordered.includes(li))ordered.unshift(li);return[...new Set(ordered)].slice(0,8)
     }
     let indexes=lessons.map((l,i)=>/^(CURRENT|DO FIRST|DO SECOND|DO THIRD|DO FOURTH)/.test(l.title)?i:-1).filter(i=>i>=0);if(!indexes.length)indexes=lessons.map((_,i)=>i).slice(0,6);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
