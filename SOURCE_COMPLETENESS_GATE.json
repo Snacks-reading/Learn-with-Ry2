@@ -88,7 +88,7 @@
         {"lessonId":"ss_v21_egypt_rule","requirements":["narmer","pharaoh","dynasty"]},
         {"lessonId":"ss_v21_egypt_nile","requirements":["silt","irrigation","geographic determinism"]}
       ],
-      "readinessEvidence": {"officialGuideLessonId":"ss_v20_study_guide","independentFormIds":["ss_v25_final_simulation","ss_v20_mastery_test"],"questionCounts":[36,48],"testDate":"2026-10-21","threshold":"43/48 plus 24/24 oral teach-back, both maps, the three-row repair sequence, and delayed retrieval"}
+      "readinessEvidence": {"officialGuideLessonId":"ss_v20_study_guide","independentFormIds":["ss_v20_test_eve","ss_v25_final_simulation","ss_v20_mastery_test"],"questionCounts":[24,36,48],"testDate":"2026-10-21","threshold":"24/24 target recall and 43/48 plus both maps, the three-row repair sequence, and delayed retrieval"}
     }
   },
   "evidenceContract": {
