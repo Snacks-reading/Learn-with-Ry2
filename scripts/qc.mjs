@@ -288,7 +288,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261019-1'),
+  organizerLoaded: html.includes('organizer.js?v=20261019-2'),
   officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
