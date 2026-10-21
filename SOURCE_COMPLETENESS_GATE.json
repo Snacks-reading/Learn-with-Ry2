@@ -1,6 +1,41 @@
 {
   "build": "2026-10-21-teaching-resources-v30",
   "auditDate": "2026-10-21",
+  "urgentElaPracticeRelease": {
+    "scope":"ELA verified practice only; no Science/Math draft activation or whole-quarter completeness claim",
+    "source":"Schoology Intro to Jane Goodall, https://wcschools.schoology.com/external_tool/3573938304/launch",
+    "recovery":"Five teacher prompts recovered from completed review without editing school responses. Video transcript and assigned autobiography excerpt remain partial/unrecovered.",
+    "lessonId":"ela_v31_goodall_intro",
+    "requirements":["prior knowledge 1–2 sentences","discovery reaction and astounded","inquisitive viewpoint contrasted with apathetic/indifferent/jaded","interest in Gombe 2–3 sentences","Animal Allies relationship explanation 3–4 sentences","actual source evidence versus original parallel scenarios"],
+    "evidence":"teach and vocabulary; original bird-observer worked model; ten original independent questions plus connection checks; source-return constructed responses; next-session new observer analysis",
+    "progressProtection":"All existing ELA question prompts retain stored question IDs; new lesson has an additive ID. Existing storage keys unchanged.",
+    "status":"local validation passed; live verification pending"
+  },
+  "readingBuddiesPhotoReconciliation": {
+    "date": "2026-10-21",
+    "status": "local revision; publication verification pending",
+    "sources": ["IMG_070F076D-FE6A-4BD7-B6C7-041EE2613CCC.jpeg", "IMG_3CCF908D-BED9-446B-9804-D3180A8327A2.jpeg"],
+    "recovery": "Photographs read directly. Paragraph 5 opening is clipped; a public matching transcription corroborates the unhurried, nonjudgmental listener explanation. No full licensed passage is republished.",
+    "corroboration": "https://www.scribd.com/document/796338880/Reading-Buddies",
+    "remainingGap": "Exact teacher-assigned companion media is not supplied or identified. The opening photo is available for an actual print-image comparison; invented video scenes are not represented as classroom evidence.",
+    "lessonId": "ela_v21_reading_buddies",
+    "reviewId": "ela_v25_quiz_review",
+    "atomicRequirements": [
+      {"id":"RB-P1","source":"paragraph 1 and photograph","requirement":"boy, Theo, relaxed partnership; opening question introduces explanation; still-image limits","evidence":"teach paragraph map; photo model; opening-function and photo-limit questions; print/photo writing comparison"},
+      {"id":"RB-P2","source":"paragraph 2","requirement":"five-year-old border collie; reported 2300-plus dogs; Utah 1999; handlers; schools/libraries; skills and attitudes","evidence":"teach paragraph map; program-background question; evidence organizer; word network"},
+      {"id":"RB-P3","source":"paragraph 3","requirement":"learning disabilities, boredom, new to English, no appealing book; multiple causes","evidence":"teach paragraph map; paragraphs 3–4 relationship question; next-day paragraph-function retrieval"},
+      {"id":"RB-P4","source":"paragraph 4","requirement":"confidence and anxiety explanation; animal versus human listener; avoid universal diagnosis","evidence":"teach paragraph map and caveat; worked claim-evidence-reasoning; paragraphs 3–4 question"},
+      {"id":"RB-P5","source":"paragraph 5, clipped opening corroborated publicly","requirement":"pace, no interruption, no ridicule or judgment, attention on book rather than performance","evidence":"teach paragraph map; two-detail multi-select; review explanation/example question"},
+      {"id":"RB-P6","source":"paragraph 6","requirement":"ten-year-old, first-grade level, shy, little practice, weeks, completion, pride; concrete example not universal proof","evidence":"teach paragraph map; worked model; paragraph-6 function question; review; next-day retrieval"},
+      {"id":"RB-P7","source":"paragraph 7","requirement":"practice, time for listening, nervousness, mistakes and self-correction","evidence":"teach paragraph map; practice/self-correction question; shuffled role-card reconstruction"},
+      {"id":"RB-P8","source":"paragraph 8","requirement":"Arizona shelter; volunteers; dogs and cats awaiting adoption; calm, comfort, adjustment; shift to animal benefits","evidence":"teach paragraph map; model; paragraph-8 function and whole-summary questions; community-center transfer; next-day retrieval"},
+      {"id":"RB-P9","source":"paragraph 9","requirement":"people and animals help each other meet challenges; whole-text two-sided central idea","evidence":"teach and summary model; central-idea question; separate review item; new summary next day"},
+      {"id":"RB-WORDS","source":"Word Network for Animal Allies","requirement":"participated, handlers, well-adjusted; add animal-human relationship words through unit","evidence":"vocabulary with context/non-examples; word-network multi-select; original sentences; new-context review; next-day retrieval"},
+      {"id":"RB-GENRE","source":"Launch Text informative/explanatory sidebar","requirement":"facts/details explain topic/process; mark introduction and explanation of ideas; mentor for informative writing","evidence":"teach genre and paragraph map; worked evidence organizer; original objective summary and two evidence explanations"}
+    ],
+    "delayedRetrieval": "Lesson writing task: new summary, paragraph 3/6/8 functions, all three network terms, photo claim limit, next session without map.",
+    "parentSync": "Generated lesson-library.js from the same canonical data; existing IDs and progress storage retained."
+  },
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
   "subjects": {

@@ -43,7 +43,7 @@
   function priorityIndexes(){
     const lessons=D[subj].lessons;
     if(subj==='ELA'){
-      const order=['ela_v29_main_idea_song','ela_v29_clause_video','ela_v25_quiz_review','ela_v25_quiz_simulation','ela_v26_terms_craft','ela_v26_dialogue','ela_v26_prompt_plan','ela_v26_binder_final'];
+      const order=['ela_v21_reading_buddies','ela_v31_goodall_intro','ela_v21_chimpanzees','ela_v21_clauses','ela_v25_quiz_review','ela_v25_quiz_simulation','ela_v29_main_idea_song','ela_v29_clause_video'];
       let indexes=order.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
     }
     if(subj==='MATH'){
@@ -82,4 +82,6 @@
   const coreRenderMain=renderMain;renderMain=function(){coreRenderMain();simplifyLessonTools()};
   coreRender();simplifyLessonTools();bindSubjectStarts();setMode('HOME',false);
   window.__RY_ORGANIZER__={setMode,openLesson,weeklyItems,priorityIndexes};
+  const entry=new URLSearchParams(location.search),entrySubject=entry.get('subject'),entryLesson=entry.get('lesson');
+  if(entrySubject&&entryLesson&&D[entrySubject]?.lessons.some(l=>l.id===entryLesson))openLesson(entrySubject,entryLesson);
 })();

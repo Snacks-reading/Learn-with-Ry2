@@ -18,7 +18,9 @@ const testReadiness = fs.readFileSync(new URL('../test-readiness-v25.js', import
 const elaBinder = fs.readFileSync(new URL('../ela-binder-reconciliation-v26.js', import.meta.url), 'utf8');
 const mathBinder = fs.readFileSync(new URL('../math-binder-reconciliation-v28.js', import.meta.url), 'utf8');
 const mediaEnrichment = fs.readFileSync(new URL('../media-enrichment-v29.js', import.meta.url), 'utf8');
-const teachingResources = fs.readFileSync(new URL('../learning-resources-v30.js', import.meta.url), 'utf8');
+let teachingResources = fs.readFileSync(new URL('../learning-resources-v30.js', import.meta.url), 'utf8');
+const classroomPractice = fs.readFileSync(new URL('../classroom-practice-v31.js', import.meta.url), 'utf8');
+teachingResources += '\n' + classroomPractice;
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 

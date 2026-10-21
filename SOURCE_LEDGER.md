@@ -76,6 +76,22 @@ Source-side red-team reread completed October 19, 2026. No photographed heading,
 | Saul, David, and Solomon classroom materials | complete | Dedicated significance lesson with exact king sequence |
 | Divided kingdom, captivity, and Cyrus | complete | Exact three-row repair sequence and independent two-way retrieval |
 
+## October 21: urgent ELA practice release
+
+Release scope is ELA only. The teacher-assigned Intro to Jane Goodall in Schoology was opened in its completed review view without changing school responses. Its five prompts establish prior knowledge, discovery reaction/perspective, interest in Gombe, viewpoint vocabulary, and the Animal Allies essential-question connection. The 2:11 video itself has not been fully reviewed, so this is complete prompt recovery but partial media recovery. Original parallel scenarios in `ela_v31_goodall_intro` are explicitly labeled and are not a transcript or invented classroom evidence. Existing autobiography teaching still directs the learner to the actual assigned excerpt.
+
+Reading Buddies adds actual paragraph-based practice, a word network, paragraph-role cards, evidence organizers, and next-session recall. The ELA review adds source-specific questions; the existing fresh 28-question simulation remains unchanged. New questions retain prior question IDs through explicit ID order maps. New Jane Goodall questions have a new lesson ID. ELA priority navigation and safe direct lesson links are added. Parent audio is regenerated from the same canonical teaching data. Local QC and DOM tests pass; live deployment must be verified separately.
+
+Other subjects are not part of this urgent release. The exact Environments and Populations STEMscopedia launch and Listen control were located; retrieved text is not a completed exercise/audio audit. The Egypt quarter folder contains the full OER chapter, vocabulary assignment, and 2:26 video hook. Chapter retrieval hit a browser URL-policy blocker; the full chapter is not marked recovered. Science and Math draft content in the new source file is gated off and is not an active lesson. Published full-quarter availability is not equivalent to full recovery or full teaching coverage.
+
+## October 21: Reading Buddies classroom-page reconciliation
+
+The two classroom photos `IMG_070F076D-FE6A-4BD7-B6C7-041EE2613CCC.jpeg` and `IMG_3CCF908D-BED9-446B-9804-D3180A8327A2.jpeg` were read directly. They recover paragraphs 1–4 and 6–9, the visible remainder of paragraph 5, the informative/explanatory sidebar, opening photograph, and word-network directions. The clipped opening of paragraph 5 was corroborated against a matching [public transcription](https://www.scribd.com/document/796338880/Reading-Buddies), not treated as visible in the upload. This is a third-party corroboration, not a publisher-authenticated edition. The original photos remain the controlling source. Full licensed text/images are not copied into the public repository.
+
+`SOURCE_COMPLETENESS_GATE.json` records eleven source-side requirements covering every paragraph, sidebar, photograph, and word-network heading. `ela_v21_reading_buddies` now teaches the actual passage rather than a generic program model: two-sided central idea, paragraph roles, evidence, reported program facts, reading difficulties, confidence/practice/self-correction, shelter dogs AND cats, and participated/handlers/well-adjusted. Added paragraph-role reconstruction, evidence organizer, word network, photo/print comparison, fresh animal-care transfer, and next-session recall. Four additional source-specific review items are in `ela_v25_quiz_review`; the fresh 28-question transfer simulation remains unchanged.
+
+The teacher-assigned companion media is still unidentified; no invented scene is presented as observed media. The available opening photograph supports a real print/image comparison but does not substitute for that assignment. Existing lesson IDs, progress keys, prior questions, and all four subject paths are retained. Parent audio teaching is regenerated from the same canonical lessons. Local revision only until publication and live checks are completed.
+
 ## October 21: resources beyond songs and videos
 
 `TEACHING_RESOURCES.json` records recovery, access, use, and limitations. The original photographed 24-target guide was reread, including a visual check; order is unchanged. No new resource replaces classroom sources or removes prior lessons or progress.
