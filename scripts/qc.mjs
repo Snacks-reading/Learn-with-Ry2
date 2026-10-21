@@ -21,6 +21,7 @@ const mediaEnrichment = fs.readFileSync(new URL('../media-enrichment-v29.js', im
 let teachingResources = fs.readFileSync(new URL('../learning-resources-v30.js', import.meta.url), 'utf8');
 const classroomPractice = fs.readFileSync(new URL('../classroom-practice-v31.js', import.meta.url), 'utf8');
 teachingResources += '\n' + classroomPractice;
+teachingResources += '\n' + fs.readFileSync(new URL('../ela-learner-copy-v32.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 
@@ -79,7 +80,7 @@ const currentSocialLessons = D.SS.lessons.filter(l=>l.id.startsWith('ss_v20_'));
 const learnerAdminNotes = currentSocialLessons.filter(l=>/(source-first|clean start|governance|publication note|build v\d|version \d|internal qc)/i.test([l.title,l.teach,l.model,l.connect,l.w].join(' '))).map(l=>l.id);
 const requiredMediaIds=['ela_v29_main_idea_song','ela_v29_clause_video','math_v29_coordinate_song','science_v29_ecology_song','ss_v20_israelites_song'];
 const mediaMissing=requiredMediaIds.filter(id=>!lessons.some(l=>l.id===id));
-const mediaBoundaryIssues=lessons.filter(l=>requiredMediaIds.includes(l.id)&&(!l.link||!/does not replace|not replace|not the study guide|does not adequately/i.test(l.teach)||!/turn (?:the video|it) off|without replaying|video off/i.test(`${l.teach} ${l.success} ${l.w}`)||l.q.length<8)).map(l=>l.id);
+const mediaBoundaryIssues=lessons.filter(l=>requiredMediaIds.includes(l.id)&&(!l.link||!(l.mediaRole==='supplemental'||/does not replace|not replace|not the study guide|does not adequately/i.test(l.teach))||!/turn (?:the video|it) off|without replaying|video off|close it/i.test(`${l.teach} ${l.success} ${l.w}`)||l.q.length<8)).map(l=>l.id);
 const requiredV21Ids = {
   ELA:['ela_v21_unit2_map','ela_v21_reading_buddies','ela_v21_chimpanzees','ela_v21_clauses','ela_v21_mastery'],
   MATH:['math_v21_integers','math_v21_coordinates','math_v21_big8','math_v21_rational_apply','math_v21_mastery'],
@@ -312,7 +313,7 @@ report.narration = {
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
 report.organization = {
-  organizerLoaded: html.includes('organizer.js?v=20261021-30'),
+  organizerLoaded: /<script src="organizer\.js\?v=[^"]+"><\/script>/.test(html),
   officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),

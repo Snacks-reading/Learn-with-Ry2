@@ -7,6 +7,9 @@
   const sourceLibrary=app.querySelector('.sources');
   const expandedSubjects={};
   let uiMode='HOME';
+  const lessonStyle=document.createElement('style');
+  lessonStyle.textContent='.elaLesson .teach,.elaLesson .stage p{white-space:pre-line}.elaLesson .pathway{display:block}.elaLesson .pathway .stage{margin:12px 0}.elaLesson .teach,.elaLesson .stage{max-width:78ch}';
+  document.head.appendChild(lessonStyle);
 
   const modeNav=document.createElement('nav');
   modeNav.id='modeNav';modeNav.className='modeNav';modeNav.setAttribute('aria-label','Learning modes');
@@ -68,9 +71,26 @@
   function bindLibraryCards(root){root.querySelectorAll('[data-subject][data-id]').forEach(b=>b.onclick=()=>openLesson(b.dataset.subject,b.dataset.id))}
   function renderPractice(){const featured=testItems(true).slice(0,8),all=testItems(false);views.PRACTICE.innerHTML=`<div class="pageIntro"><span class="kicker">PRACTICE</span><h2>Choose the kind of practice</h2><p>Practice is separate from teaching. Use Learn first when vocabulary or ideas are unfamiliar.</p></div><div class="hubCards">${featured.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${all.length} independent checks and prior forms</summary><div class="hubCards"><a class="hubCard" href="ela-unit1-practice.html"><span>ELA • PRIOR UNIT 1</span><b>Unit 1 guided practice forms</b><small>Preserved for cumulative retrieval</small></a>${all.map(testCard).join('')}</div></details>`;bindLibraryCards(views.PRACTICE)}
   function renderReviewHub(){views.REVIEW.innerHTML=`<div class="pageIntro"><span class="kicker">REVIEW</span><h2>Repair, then retrieve later</h2><p>First-attempt scores stay honest. Corrected work shows learning without erasing the original evidence.</p></div><div class="choiceCards"><button id="openMissed"><b>${st.missed.length}</b><span>Review missed ideas</span><small>Recall first → reveal choices → explain the repair</small></button><button id="openRetention"><b>${dueCount()}</b><span>Delayed checks due</span><small>Return after 24+ hours in a fresh format</small></button></div>`;document.getElementById('openMissed').onclick=()=>{setMode('LEARN');reviewMissed()};document.getElementById('openRetention').onclick=()=>{setMode('LEARN');retentionReview()}}
-  function renderWritingHub(){let writing=D.ELA.lessons.map((lesson,index)=>({subject:'ELA',lesson,index})).filter(x=>/(Unit 2|Reading Buddies|Chimpanzees|Clauses|Narrative|Dialogue|Writing|Rubric|Ending|Plot|Prompt|Constructed|Summary|Fluency)/i.test(x.lesson.title)),current=writing.filter(x=>/^BINDER|^FINAL • ELA Binder/.test(x.lesson.title)).slice(0,6);views.WRITING.innerHTML=`<div class="pageIntro"><span class="kicker">WRITING</span><h2>Writing World</h2><p>A distraction-reduced path for planning, evidence, summarizing, drafting, revising, and independent transfer.</p></div><div class="writingSteps"><span>1 • Decode</span><span>2 • Plan</span><span>3 • Draft</span><span>4 • Revise</span><span>5 • Submit</span></div><div class="hubCards">${current.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${writing.length} writing lessons</summary><div class="hubCards">${writing.map(testCard).join('')}</div></details>`;bindLibraryCards(views.WRITING)}
+  function renderWritingHub(){let writing=D.ELA.lessons.map((lesson,index)=>({subject:'ELA',lesson,index})).filter(x=>/(Unit 2|Reading Buddies|Chimpanzees|Clauses|Narrative|Dialogue|Writing|Rubric|Ending|Plot|Prompt|Constructed|Summary|Fluency)/i.test(x.lesson.title)),current=writing.filter(x=>x.lesson.id.startsWith('ela_v26_')).slice(0,6);views.WRITING.innerHTML=`<div class="pageIntro"><span class="kicker">WRITING</span><h2>Writing World</h2><p>A distraction-reduced path for planning, evidence, summarizing, drafting, revising, and independent transfer.</p></div><div class="writingSteps"><span>1 • Decode</span><span>2 • Plan</span><span>3 • Draft</span><span>4 • Revise</span><span>5 • Submit</span></div><div class="hubCards">${current.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${writing.length} writing lessons</summary><div class="hubCards">${writing.map(testCard).join('')}</div></details>`;bindLibraryCards(views.WRITING)}
   function renderParent(){stats();views.PARENT.querySelectorAll('.parentPanel').forEach(x=>x.remove());let panel=document.createElement('section');panel.className='parentPanel';panel.innerHTML=`<div class="pageIntro"><span class="kicker">PARENT TOOLS</span><h2>Progress, sources, and records</h2><p>These controls are kept out of Ry’s lesson path. Progress is stored on this device.</p></div><div class="parentActions"><button id="parentExport">Export writing for ChatGPT</button><button id="parentBackup">Backup progress</button><button id="parentRestore">Restore a compatible backup</button><a href="rayna-audio.html">Open Rayna’s Audio</a><a href="learning-tools.html">Open recall activities</a><a href="TEACHING_RESOURCES.json">Teaching-resource review</a><a href="GOVERNANCE.md">Open governance rules</a></div>`;views.PARENT.insertBefore(panel,sourceLibrary);document.getElementById('parentExport').onclick=exportWriting;document.getElementById('parentBackup').onclick=backup;document.getElementById('parentRestore').onclick=restore}
-  function simplifyLessonTools(){['exportW','backup','restore'].forEach(id=>document.getElementById(id)?.classList.add('hidden'))}
+  function simplifyLessonTools(){
+    ['exportW','backup','restore'].forEach(id=>document.getElementById(id)?.classList.add('hidden'));
+    const main=document.getElementById('main');main?.classList.toggle('elaLesson',subj==='ELA');
+    if(subj==='ELA'){
+      main?.querySelector('.source')?.remove();
+      const labels=['Learn','Example','Practice','Connect','Check your understanding'];
+      main?.querySelectorAll('.teach > b,.pathway > .stage > b').forEach((b,i)=>{b.textContent=labels[i]||b.textContent});
+    }
+  }
+  const parentWithRecords=renderParent;
+  renderParent=function(){
+    parentWithRecords();
+    const records=document.createElement('details');records.className='parentPanel';
+    const summary=document.createElement('summary');summary.textContent='ELA lesson sources';records.appendChild(summary);
+    const list=document.createElement('ul');
+    D.ELA.lessons.forEach(l=>{const item=document.createElement('li');item.textContent=l.title+' — '+l.src;list.appendChild(item)});
+    records.appendChild(list);views.PARENT.appendChild(records);
+  };
   function bindSubjectStarts(){
     const first={ELA:'ela_v25_quiz_review',MATH:'math_v28_big8_source',SCI:'science_v22_vocab_core',SS:'ss_v20_study_guide'};
     [...subjectNav.querySelectorAll('button')].forEach(button=>{

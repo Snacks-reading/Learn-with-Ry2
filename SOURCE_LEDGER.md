@@ -76,6 +76,14 @@ Source-side red-team reread completed October 19, 2026. No photographed heading,
 | Saul, David, and Solomon classroom materials | complete | Dedicated significance lesson with exact king sequence |
 | Divided kingdom, captivity, and Cyrus | complete | Exact three-row repair sequence and independent two-way retrieval |
 
+## October 21: ELA learner-copy correction and pre-publication review
+
+Reviewed all 65 active ELA lesson views. Removed third-person coaching about Riley, source-recovery and curriculum-planning commentary, and the learner-facing assessment comparison in the fluency lesson. Rewrote the affected lessons as direct explanations with examples and actions for the learner. Replaced the generic Unit 2 overview with instruction in central idea, purpose, summary, and paragraph roles. The task-word lessons now have different worked examples suited to their vocabulary.
+
+Source citations are available in Parent Tools and Rayna's Audio source details. ELA lesson pages no longer render the source-management line. Four narrow explanation columns are replaced by vertically stacked sections, and intentional paragraph breaks are preserved. Core reading, vocabulary, written tasks, practice, narration, and existing lesson IDs remain available.
+
+Before publication, an interaction review opened all 65 ELA lessons and their practice. It checked for the reported editorial language, source records appearing only in Parent Tools, writing-priority navigation, and no revealed selected-response answer before submission. Compared all 866 existing ELA questions against the prior release: stored question IDs, question wording, and keyed answer text are unchanged. This is a preservation check, not a new claim of independent source recovery for every legacy question. Canonical curriculum QC and student/parent teaching synchronization also pass. Live verification follows deployment.
+
 ## October 21: urgent ELA practice release
 
 Release scope is ELA only. The teacher-assigned Intro to Jane Goodall in Schoology was opened in its completed review view without changing school responses. Its five prompts establish prior knowledge, discovery reaction/perspective, interest in Gombe, viewpoint vocabulary, and the Animal Allies essential-question connection. The 2:11 video itself has not been fully reviewed, so this is complete prompt recovery but partial media recovery. Original parallel scenarios in `ela_v31_goodall_intro` are explicitly labeled and are not a transcript or invented classroom evidence. Existing autobiography teaching still directs the learner to the actual assigned excerpt.

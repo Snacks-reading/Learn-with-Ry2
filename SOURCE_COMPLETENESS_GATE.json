@@ -1,6 +1,14 @@
 {
   "build": "2026-10-21-teaching-resources-v30",
   "auditDate": "2026-10-21",
+  "elaLearnerCopyReview": {
+    "date":"2026-10-21",
+    "scope":"All 65 active ELA lesson views and practice openings",
+    "correction":"Direct learner explanations replace editorial coaching and personal assessment commentary. Source records are in Parent Tools. Stacked lesson sections preserve paragraph breaks.",
+    "prepublicationChecks":{"lessonViews":65,"existingQuestionIdsAndKeyedAnswersPreserved":866,"editorialCopyAbsent":true,"sourceRecordsInParentTools":true,"noAnswerRevealedBeforeSubmission":true,"writingPrioritiesPreserved":true,"parentTeachingSynchronized":true},
+    "limit":"Question preservation does not establish new source recovery or a new independent semantic validation of every legacy question.",
+    "deployment":"Pending live verification"
+  },
   "urgentElaPracticeRelease": {
     "scope":"ELA verified practice only; no Science/Math draft activation or whole-quarter completeness claim",
     "source":"Schoology Intro to Jane Goodall, https://wcschools.schoology.com/external_tool/3573938304/launch",

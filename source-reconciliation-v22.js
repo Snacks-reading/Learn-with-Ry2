@@ -8,7 +8,7 @@
 
   const ela=[
     lesson('ela_v22_fluency','CURRENT OCT. 17 • ELA • Short-Passage Fluency Without Rushing',elaSource,
-      'Riley’s reading comprehension and vocabulary are above average; the relative need is silent reading fluency—reading a short section efficiently while keeping the meaning. Fluency is not racing. Use a three-pass routine: preview the question, read the short passage in meaningful chunks, then return to the exact sentence that proves the answer. Mark transition words such as however, because, therefore, and for example. After each paragraph, state its job in five to eight words. This directly supports Unit 2 central idea, author’s purpose, objective summary, and paragraph function.',
+      'Silent reading fluency means reading smoothly while keeping the meaning. Preview the question, read the passage in meaningful chunks, and return to the sentence that supports your answer. Notice transition words such as however, because, therefore, and for example. After each paragraph, explain its main point in your own words.',
       'MODEL: Passage—“Dogs in one reading program first learn to sit quietly beside children. Because the dogs do not correct mistakes, hesitant readers often continue longer.” Paragraph job: explain why the setting feels safe. Evidence for the result: “do not correct mistakes” and “continue longer.” A fast guess might choose “dogs learn commands,” but the question asks about readers.',
       [['meaningful chunk','a phrase or clause read as one idea'],['transition','a word that signals a relationship between ideas'],['paragraph job','what a paragraph contributes to the whole text'],['evidence return','rereading the exact line that supports an answer']],
       [
