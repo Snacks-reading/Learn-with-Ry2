@@ -1,8 +1,8 @@
 # Learn With Ry: completed teaching-resource update
 
-Prepared October 21, 2026. Local commit: `2712ec4`. Destination approved by Rayna: `Snacks-reading/Learn-with-Ry2`, branch `main`.
+Prepared October 21, 2026. Published curriculum commit: `49e0b414594da35d8ee426a3857107c324ef7042`. Destination approved by Rayna: `Snacks-reading/Learn-with-Ry2`, branch `main`.
 
-Rayna explicitly approved publication to this repository on main. This approved release preserves the existing classroom scope and adds the teaching-resource activities described below.
+Rayna explicitly approved publication to this repository on main. The approved curriculum files are now committed on main; GitHub Pages deployment and browser verification are being completed. This approved release preserves the existing classroom scope and adds the teaching-resource activities described below.
 
 ## What changes for Riley
 
