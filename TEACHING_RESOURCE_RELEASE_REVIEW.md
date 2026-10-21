@@ -66,3 +66,5 @@ Publication was explicitly approved for the existing public `Snacks-reading/Lear
 
 
 Deployment requested through the signed-in repository owner session for the approved main-branch curriculum and existing GitHub Pages site.
+
+Urgent ELA release: Reading Buddies paragraph-based practice, Jane Goodall perspective practice, direct lesson links, and synchronized parent teaching are committed in 9e241b892fd85f2c60b5501d8eef25048e8b774a. Local checks pass.
