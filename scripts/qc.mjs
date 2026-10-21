@@ -22,6 +22,7 @@ let teachingResources = fs.readFileSync(new URL('../learning-resources-v30.js', 
 const classroomPractice = fs.readFileSync(new URL('../classroom-practice-v31.js', import.meta.url), 'utf8');
 teachingResources += '\n' + classroomPractice;
 teachingResources += '\n' + fs.readFileSync(new URL('../ela-learner-copy-v32.js', import.meta.url), 'utf8');
+teachingResources += '\n' + fs.readFileSync(new URL('../ela-quiz-extra-v33.js', import.meta.url), 'utf8');
 const inlineScripts = [...html.matchAll(/<script>([\s\S]*?)<\/script>/g)].map(match => match[1]);
 if (inlineScripts.length < 2) throw new Error('Expected application scripts around source rebuild');
 

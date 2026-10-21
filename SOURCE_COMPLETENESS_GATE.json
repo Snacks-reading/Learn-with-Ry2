@@ -1,4 +1,67 @@
 {
+  "elaExtraPractice20261021": {
+    "scope": "Additive ELA quiz practice only; existing lessons, stored question IDs, and answer keys preserved.",
+    "sourceBundleFrozen": [
+      "Teacher October 23 detailed quiz scope: Reading Buddies, text/media comparison, main idea, author purpose, objective summary, My Life with the Chimpanzees, evidence, paragraph function, independent/dependent clauses",
+      "Uploaded Reading Buddies photographs, paragraphs 1–9, already reconciled",
+      "Original heron account and original shelter print/video pair, included in each dependent question",
+      "Purdue OWL clause guidance: https://owl.purdue.edu/owl/general_writing/punctuation/independent_and_dependent_clauses/index.html",
+      "ReadWriteThink Compare and Contrast Chart: https://www.readwritethink.org/classroom-resources/printouts/compare-contrast-chart"
+    ],
+    "limits": "Assigned autobiography excerpt and full assigned media remain unrecovered. Original transfer passages are explicitly labeled; no claim that this replaces their exact-text study.",
+    "lessons": [
+      "ela_v33_reading_challenge",
+      "ela_v33_mixed_challenge"
+    ],
+    "requirements": [
+      {
+        "id": "ELA33-READ",
+        "scope": "main idea, summary, purpose, evidence, paragraph contribution, first-person perspective",
+        "teach": "Practice A teach/model/vocabulary",
+        "practice": "A1–A12; B9–B14",
+        "independent": "Practice B",
+        "construct": "A writing 1,2,4",
+        "delayed": "A next-session paragraph roles and new claims"
+      },
+      {
+        "id": "ELA33-MEDIA",
+        "scope": "shared idea, evidence from both forms, effect of medium, evidence limits",
+        "teach": "Practice A teach/model and original paired sources",
+        "practice": "A13–A16",
+        "independent": "B15–B16",
+        "construct": "A writing 3; B writing 2",
+        "delayed": "A next-session observed/inferred claim"
+      },
+      {
+        "id": "ELA33-CLAUSE",
+        "scope": "independent/dependent clause, phrase contrast, comma placement, fragment repair",
+        "teach": "Existing ela_v21_clauses and verified Purdue guidance",
+        "practice": "B1–B8",
+        "independent": "Practice B",
+        "construct": "B writing 1",
+        "delayed": "B four fresh word groups after one day"
+      }
+    ],
+    "resourceReview": {
+      "selected": "ReadWriteThink printable comparison chart; paper three-column adaptation used in A",
+      "access": "Public HTML instructions recovered; no legacy Flash tool assigned",
+      "task": "Organize print evidence/shared idea/media evidence, close chart, answer fresh pair",
+      "omissionRepair": "Chart alone does not teach causal limits; explicit model and questions add that distinction"
+    },
+    "semanticReview": "All 32 authored items read against source details and every distractor. Phrase/clause structure and punctuation checked. Answer explanations identify support and reject overclaims.",
+    "status": "Prepublication checks passed; live deployment pending",
+    "localChecks": {
+      "pass": true,
+      "newAuthoredSelectedResponseItems": 32,
+      "newConnectionChecks": 2,
+      "constructedTasks": 6,
+      "allElaViewsChecked": 67,
+      "existingElaQuestionIdsAndKeysPreserved": 866,
+      "allLessonViewsOpen": 230,
+      "parentAudioTeachingSynchronized": true,
+      "semanticKeyReview": true
+    }
+  },
   "build": "2026-10-21-teaching-resources-v30",
   "auditDate": "2026-10-21",
   "elaLearnerCopyReview": {
