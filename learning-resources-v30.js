@@ -1,0 +1,15 @@
+(function(){
+  const routes={
+    ELA:{ids:['ela_v29_main_idea_song','ela_v29_clause_video','ela_v25_quiz_review','ela_v21_reading_buddies','ela_v21_chimpanzees','ela_v21_clauses'],cue:'Read → gather evidence → explain the effect → close and retrieve.',task:'Use the evidence organizer or clause sort. Then close the tool and answer a new passage question.',apply:'State a central idea, give two relevant details, and explain what a paragraph contributes. Compare one shared idea across the assigned text and media.',delayed:'Tomorrow, use a different paragraph and explain the idea, evidence, purpose, and one clause without reopening today’s chart.'},
+    MATH:{ids:['math_v28_big8_source','math_v29_coordinate_song','math_v28_integer_rational','math_v28_coordinate_graph','math_v28_distance','math_v23_big8_memory'],cue:'Predict → model → explain → rebuild without looking.',task:'Use the number line, a blank coordinate grid, or Big Eight recall cards. Read the scale before plotting.',apply:'Compare -12/25 and -0.51, plot (-2.5,1.5), reflect it across each axis, then explain one distance as an absolute difference.',delayed:'Tomorrow, rebuild all 24 Big Eight forms on blank paper and solve fresh fraction-coordinate examples.'},
+    SCI:{ids:['science_v22_vocab_core','science_v22_organization','science_v29_ecology_song','science_v24_textbook_review','science_v22_energy_roles','science_v22_relationships','science_v22_limits'],cue:'Build the relationship → change one factor → trace the consequence.',task:'Sort organism cards, build food-web arrows, then explain a disturbance. Use +/+, +/0, and +/- to retrieve symbiosis outcomes.',apply:'Return to the teacher’s alligator, gar, and cordgrass examples. Name the changed factor, trace a justified effect, and identify a model limitation.',delayed:'Tomorrow, draw a different food web and use six teacher vocabulary terms to explain a new limiting factor.'},
+    SS:{ids:['ss_v20_study_guide','ss_v20_israelites_song','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus'],cue:'Place → person → cause → movement → result.',task:'Use map reconstruction, timeline sorting, and the teacher’s 24 ordered recall cards. Keep the teacher’s order.',apply:'Draw the geographic anchors; explain each migration’s cause and result; rebuild all three conquest-and-return rows from memory.',delayed:'Tomorrow, redraw the maps and explain the conquest sequence backward as well as forward.'}
+  };
+  for(const [subject,route] of Object.entries(routes))for(const id of route.ids){
+    const lesson=D[subject].lessons.find(l=>l.id===id);if(!lesson)throw new Error('Missing teaching-resource route: '+id);
+    lesson.learningTools={url:'learning-tools.html#'+subject,cue:route.cue,task:route.task,apply:route.apply,delayed:route.delayed};
+  }
+  const math=D.MATH.lessons.find(l=>l.id==='math_v29_coordinate_song');
+  math.link='https://numberock.com/lessons/coordinate-plane-4-quadrants/';
+  globalThis.LEARNING_RESOURCES_V30={version:'2026-10-21-teaching-resources-v30',subjects:4,routes};
+})();

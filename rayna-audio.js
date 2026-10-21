@@ -1,0 +1,20 @@
+(function(){
+  const data=RY_LESSON_LIBRARY.subjects,key='rayna_audio_tracks_v1';let state;try{state=JSON.parse(localStorage.getItem(key)||'{}')}catch{state={}}state.listened||={};state.notes||={};
+  let subject=data[state.subject]?state.subject:'SS';const root=document.getElementById('parentPlayer');
+  const esc=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+  const first={ELA:'ela_v25_quiz_review',MATH:'math_v28_big8_source',SCI:'science_v22_vocab_core',SS:'ss_v20_study_guide'};
+  const save=()=>localStorage.setItem(key,JSON.stringify(state));
+  function render(){
+    RyNarrator.stop();const lessons=data[subject].lessons,id=state[subject]||first[subject],index=Math.max(0,lessons.findIndex(l=>l.id===id)),l=lessons[index];state.subject=subject;state[subject]=l.id;save();
+    const paras=text=>String(text||'').split(/\n+/).map(p=>`<p>${esc(p)}</p>`).join('');
+    root.innerHTML=`<nav class="actions" aria-label="Parent subject tracks">${Object.entries(data).map(([k,s])=>`<button data-parent-subject="${k}" aria-pressed="${k===subject}" class="${k===subject?'selected':''}">${s.name}</button>`).join('')}</nav><label for="parentChapter">Choose a lesson</label><select id="parentChapter">${lessons.map(x=>`<option value="${x.id}" ${x.id===l.id?'selected':''}>${state.listened[x.id]?'✓ ':''}${esc(x.title)}</option>`).join('')}</select><article class="parentChapter"><h2>${esc(l.title)}</h2><div id="parentNarration"></div><h3>Learn the idea</h3>${paras(l.teach)}${l.v?.length?`<details><summary>Vocabulary and meanings</summary><dl>${l.v.map(([w,d])=>`<dt><b>${esc(w)}</b></dt><dd>${esc(d)}</dd>`).join('')}</dl></details>`:''}${l.model?`<h3>Work through an example</h3>${paras(l.model)}`:''}<h3>Connect it</h3>${paras(l.connect)}<h3>Pause and teach it back</h3>${paras(l.w||l.success)}${l.learningTools?`<p><a href="${l.learningTools.url}">Use the matching recall and application activities</a></p><p>${esc(l.learningTools.delayed)}</p>`:''}<label for="parentNote">Your explanation or question</label><textarea id="parentNote">${esc(state.notes[l.id]||'')}</textarea><p id="parentSaved" role="status"></p><div class="actions"><button id="parentListened">${state.listened[l.id]?'Listened ✓':'Mark listened'}</button><button id="parentPrevious" ${index===0?'disabled':''}>← Previous lesson</button><button id="parentNext" ${index===lessons.length-1?'disabled':''}>Next lesson →</button></div><details><summary>Source and coverage</summary><p>${esc(l.src)}</p><p>Aligned with the same classroom-controlled lesson in Riley’s path. A listened marker records your progress; it does not score Riley or establish mastery.</p>${l.link?`<a target="_blank" rel="noopener" href="${esc(l.link)}">Open the lesson resource</a>`:''}<p><a href="SOURCE_LEDGER.md">Source ledger and unresolved classroom-source gaps</a> · <a href="TEACHING_RESOURCES.json">Teaching-resource review</a></p></details></article>`;
+    root.querySelectorAll('[data-parent-subject]').forEach(b=>b.onclick=()=>{subject=b.dataset.parentSubject;render()});
+    document.getElementById('parentChapter').onchange=e=>{state[subject]=e.target.value;render()};
+    const speech=[l.title,'Learn the idea.',l.teach,'Vocabulary.',...(l.v||[]).map(([w,d])=>w+'. '+d),'Worked example.',l.model,'Connect it.',l.connect,'Pause and teach it back.',l.w||l.success].filter(Boolean).join('\n');
+    const audio=document.getElementById('parentNarration');audio.innerHTML=RyNarrator.toolbar('Play this parent lesson');RyNarrator.bind(audio,()=>speech);
+    document.getElementById('parentNote').oninput=e=>{state.notes[l.id]=e.target.value;save();document.getElementById('parentSaved').textContent='Saved on this device.'};
+    document.getElementById('parentListened').onclick=()=>{state.listened[l.id]=new Date().toISOString();save();render()};
+    document.getElementById('parentPrevious').onclick=()=>{if(index>0){state[subject]=lessons[index-1].id;render()}};
+    document.getElementById('parentNext').onclick=()=>{if(index<lessons.length-1){state[subject]=lessons[index+1].id;render()}};
+  }render();
+})();

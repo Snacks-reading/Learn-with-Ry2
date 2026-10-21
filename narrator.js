@@ -4,7 +4,7 @@
   const VOICE_KEY='learnwithry_narration_voice_v1';
   const FEMALE_NAMES=['aria','jenny','ava','emma','michelle','sonia','samantha','victoria','karen','moira','tessa','fiona','susan','hazel','zira','salli','joanna','kimberly','kendra','ivy','amy','nicole','olivia','google us english','google uk english female'];
   const MALE_NAMES=['david','mark','guy','andrew','ryan','brian','joey','matthew','justin','eric','christopher','roger','arthur','george','daniel','james'];
-  let utterance=null,engaged=false;
+  let utterance=null,engaged=false,playToken=0;
   const supported='speechSynthesis' in window&&'SpeechSynthesisUtterance' in window;
   const rate=()=>{const n=Number(localStorage.getItem(RATE_KEY)||.85);return Number.isFinite(n)?Math.min(1.1,Math.max(.65,n)):.85};
   const availableVoices=()=>supported?window.speechSynthesis.getVoices().filter(v=>/^en(?:-|_)/i.test(v.lang||'')):[];
@@ -23,19 +23,28 @@
     return voices.sort((a,b)=>voiceScore(b)-voiceScore(a)||a.name.localeCompare(b.name))[0]||null;
   }
   function setStatus(root,message){const node=root?.querySelector('[data-ry-narration-status]');if(node)node.textContent=message}
-  function stop(root){if(supported)window.speechSynthesis.cancel();utterance=null;setStatus(root,'Narration stopped.')}
+  function stop(root){playToken++;if(supported)window.speechSynthesis.cancel();utterance=null;setStatus(root,'Narration stopped.')}
   function speak(text,root){
     const clean=String(text||'').replace(/\s+/g,' ').trim();
     if(!supported){setStatus(root,'Read aloud is not available in this browser.');return}
     if(!clean){setStatus(root,'There is nothing to read here yet.');return}
-    engaged=true;window.speechSynthesis.cancel();
-    utterance=new SpeechSynthesisUtterance(clean);
-    const voice=preferredVoice();
-    utterance.lang=voice?.lang||'en-US';utterance.voice=voice;utterance.rate=rate();utterance.pitch=1;
-    utterance.onstart=()=>setStatus(root,'Reading aloud.');
-    utterance.onend=()=>{utterance=null;setStatus(root,'Narration finished.')};
-    utterance.onerror=e=>{utterance=null;setStatus(root,e.error==='canceled'?'Narration stopped.':'Narration could not continue.')};
-    window.speechSynthesis.speak(utterance);
+    engaged=true;const token=++playToken;window.speechSynthesis.cancel();
+    const chunks=[];let remaining=clean;
+    while(remaining.length>360){let cut=remaining.lastIndexOf(' ',360);if(cut<80)cut=360;chunks.push(remaining.slice(0,cut));remaining=remaining.slice(cut).trimStart()}
+    if(remaining)chunks.push(remaining);
+    let index=0;
+    function next(){
+      if(token!==playToken)return;
+      if(index>=chunks.length){utterance=null;setStatus(root,'Narration finished.');return}
+      utterance=new SpeechSynthesisUtterance(chunks[index++]);
+      const voice=preferredVoice();
+      utterance.lang=voice?.lang||'en-US';utterance.voice=voice;utterance.rate=rate();utterance.pitch=1;
+      utterance.onstart=()=>{if(token===playToken)setStatus(root,'Reading aloud.')};
+      utterance.onend=()=>{if(token===playToken)setTimeout(next,0)};
+      utterance.onerror=e=>{if(token!==playToken)return;playToken++;utterance=null;setStatus(root,e.error==='canceled'?'Narration stopped.':'Narration could not continue.')};
+      window.speechSynthesis.speak(utterance);
+    }
+    next();
   }
   function pauseResume(root){
     if(!supported)return setStatus(root,'Read aloud is not available in this browser.');

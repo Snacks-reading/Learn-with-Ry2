@@ -1,12 +1,16 @@
 # Learn With Ry — Mandatory Source Ledger
 
-Audit date: October 18, 2026
-Build: `2026-10-18-ela-ss-test-readiness-v25`
+Audit date: October 21, 2026
+Build: `2026-10-21-teaching-resources-v30`
 
 Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
 
 | Subject | Source | Status | What the rebuild uses | Remaining boundary |
 |---|---|---|---|---|
+| ELA | Flocabulary “Main Idea” video + independent/dependent clause practice video | **partial**: titles and clause scope corroborated; full main-idea transcript not recovered | Memorable central-idea and clause cues followed by video-off retrieval and exact-skill application | Does not replace assigned texts, teacher notes, purpose, summary, paragraph-function, evidence, or text/media-comparison work |
+| Math | NUMBEROCK four-quadrant coordinate-plane song | **complete** for public supplemental content | Reinforces x-then-y and quadrant signs before rational-coordinate plotting, reflections, and distance | Does not replace Big Eight memorization, rational comparison, grid scale, reflections, or distance |
+| Science | Mr. Parr Ecology Song | **complete** for public supplemental content | Reinforces ecology, competition, and symbiosis before exact 33-term retrieval and system application | Does not replace “Everything Is Connected,” food webs, organization levels, limiting factors, carrying capacity, or native/invasive species |
+| Social Studies | Mr. Nicky “THE ISRAELITES” song | **partial**: candidate teacher match; current full-content access not independently verified | Strongest match to Riley’s reported class song; reinforces the Ancient Israel narrative before 24-target retrieval | Teacher-posted link is not visible; the song thins map proof and the required 722 BCE and 539 BCE sequence, which the lesson restores |
 | ELA | Aimsweb Fall 2026 Reading Student Score Snapshot (10/5) | **complete** | Reading comprehension 78th percentile, vocabulary 88th, silent reading fluency 61st, composite 75th; adds meaning-preserving short-passage fluency and evidence-return routines while retaining grade-level Unit 2 work | A benchmark is targeting evidence, not a replacement curriculum |
 | Math | Aimsweb Fall 2026 Math Student Score Snapshot (10/5) + parent confirmation of Math 6th in 6th | **complete** | Number Sense 58th, Number Comparison Fluency 53rd, Mental Computation 64th, Concepts & Applications 80th, composite 72nd; adds mixed rational-number comparison and mental-computation retrieval within the regular Grade 6 path | No placement downgrade; current teacher unit continues to control sequence |
 | Math | WCS current instructional-materials list + 2023 math adoption | **complete** | Confirms Tennessee Reveal Math, McGraw-Hill, copyright 2024; Grade 6 uses Course 1 Volume 1 (ISBN 9781266127885) and Volume 2 (ISBN 9781266127939) | District adoption identifies the exact core program; teacher assignments still control day-to-day sequence |
@@ -71,3 +75,18 @@ Source-side red-team reread completed October 19, 2026. No photographed heading,
 | Israelites Map and Migrations Map | complete | Reconstructed schematic map aid plus location, route, cause, and consequence lesson |
 | Saul, David, and Solomon classroom materials | complete | Dedicated significance lesson with exact king sequence |
 | Divided kingdom, captivity, and Cyrus | complete | Exact three-row repair sequence and independent two-way retrieval |
+
+## October 21: resources beyond songs and videos
+
+`TEACHING_RESOURCES.json` records recovery, access, use, and limitations. The original photographed 24-target guide was reread, including a visual check; order is unchanged. No new resource replaces classroom sources or removes prior lessons or progress.
+
+| Subject | Resource and recovery | Integrated activity | Independent return |
+|---|---|---|---|
+| ELA | NCTE / ReadWriteThink Focused Reading and Viewing Guide PDF: complete; Grade 6 evidence/effect extension is original | Text / medium / effect organizer; clause sorting; vocabulary retrieval cards | Actual assigned text and media, fresh passage check, then next-day retrieval |
+| Math | PhET Number Line: Integers official page: partial; external execution not device-verified. NUMBEROCK creator page verified; old Math with Mr. J URL was mislabeled and is corrected | Local number-line model, Big Eight bidirectional cards, rational-coordinate sketch and reflection example | Blank-paper 24-form table, fresh rational examples, next-day recheck |
+| Science | HHMI food-chain/web activity and student worksheet: complete. Northwestern Wolf Sheep Predation documentation: complete; external execution optional | Original organism cards and arrow construction; disturbance prediction; controlled-comparison simulation guide | Teacher salt-marsh examples, exact vocabulary, a new food-web change |
+| Social Studies | Original teacher 24-target guide: complete | Ordered recall cards, label-hiding maps, migration cause/result explanations, conquest-row reconstruction | Existing 24/36/48-question checks and blank-map proof |
+
+Annenberg Learner's official homepage says the program is permanently closed, so old Ecology Lab links were excluded. Legacy Flash interactives were excluded. The British Museum Cyrus page returned 403 and is not counted as recovered content. Flocabulary's indexed main-idea title alone does not establish a fully recovered transcript; its clip remains optional and all instruction is supplied by the classroom-linked local lesson. The Ancient Israel song remains an unconfirmed candidate for Riley's class song.
+
+Rayna's Audio now uses generated teaching chapters from the same cumulative student lesson data. All four earlier overviews remain available. Chapter selection, notes, and listened markers use persistent additive lesson IDs; listening and self-rated recall do not create student mastery evidence.

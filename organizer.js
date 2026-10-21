@@ -25,9 +25,9 @@
   function dueCount(){return Object.values(st.retention).filter(t=>Date.now()-new Date(t).getTime()>=86400000).length}
   function waitingCount(){return archive().filter(x=>x.status==='waiting_for_chatgpt').length}
   function weeklyItems(){return[
-    {day:'TUE 10/20',subject:'SS',label:'Test eve: complete the 24-target closed-note recall',match:'ss_v20_test_eve'},
-    {day:'TUE 10/20',subject:'SS',label:'Redraw both maps and every migration route from memory',match:'ss_v20_maps'},
-    {day:'TUE 10/20',subject:'SS',label:'Finish with the 48-question independent readiness check',match:'ss_v20_mastery_test'},
+    {day:'WED 10/21',subject:'SS',label:'Ancient Israel: begin with the teacher’s 24 targets',match:'ss_v20_study_guide'},
+    {day:'WED 10/21',subject:'SS',label:'Complete the 24-target closed-note recall',match:'ss_v20_test_eve'},
+    {day:'WED 10/21',subject:'SS',label:'Redraw both maps and every migration route from memory',match:'ss_v20_maps'},
     {day:'WED–THU',subject:'ELA',label:'Review exact quiz skills, media comparison + clauses',match:'ela_v25_quiz_review'},
     {day:'THU 10/22',subject:'ELA',label:'Take the 28-question passage-based simulation',match:'ela_v25_quiz_simulation'}
   ].map(x=>({...x,...findLesson(x.subject,x.match)}))}
@@ -43,19 +43,19 @@
   function priorityIndexes(){
     const lessons=D[subj].lessons;
     if(subj==='ELA'){
-      const order=['ela_v25_quiz_review','ela_v25_quiz_simulation','ela_v26_terms_craft','ela_v26_dialogue','ela_v26_prompt_plan','ela_v26_plot_conflict','ela_v26_endings','ela_v26_binder_final'];
+      const order=['ela_v29_main_idea_song','ela_v29_clause_video','ela_v25_quiz_review','ela_v25_quiz_simulation','ela_v26_terms_craft','ela_v26_dialogue','ela_v26_prompt_plan','ela_v26_binder_final'];
       let indexes=order.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
     }
     if(subj==='MATH'){
-      const order=['math_v28_big8_source','math_v28_integer_rational','math_v28_coordinate_graph','math_v28_distance','math_v28_binder_final','math_v23_big8_memory','math_v23_big8_mastery','math_v24_reveal_module4_vocab'];
+      const order=['math_v28_big8_source','math_v29_coordinate_song','math_v28_integer_rational','math_v28_coordinate_graph','math_v28_distance','math_v28_binder_final','math_v23_big8_memory','math_v23_big8_mastery'];
       let indexes=order.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
     }
     if(subj==='SCI'){
-      const order=['science_v22_vocab_core','science_v22_organization','science_v24_textbook_review','science_v22_energy_roles','science_v22_relationships','science_v22_limits','science_v22_mastery','science_v21_population_variables'];
+      const order=['science_v22_vocab_core','science_v22_organization','science_v29_ecology_song','science_v24_textbook_review','science_v22_energy_roles','science_v22_relationships','science_v22_limits','science_v22_mastery'];
       let indexes=order.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
     }
     if(subj==='SS'){
-      const guide=['ss_v20_study_guide','ss_v20_test_eve','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test','ss_v25_final_simulation','ss_v21_israel_final'];
+      const guide=['ss_v20_study_guide','ss_v20_israelites_song','ss_v20_test_eve','ss_v20_maps','ss_v20_people_texts','ss_v20_migrations','ss_v20_kings','ss_v20_kingdom_cyrus','ss_v20_mastery_test','ss_v25_final_simulation','ss_v21_israel_final'];
       let ordered=guide.map(id=>lessons.findIndex(l=>l.id===id)).filter(i=>i>=0);if(!ordered.includes(li))ordered.unshift(li);return[...new Set(ordered)].slice(0,8)
     }
     let indexes=lessons.map((l,i)=>/^(CURRENT|DO FIRST|DO SECOND|DO THIRD|DO FOURTH)/.test(l.title)?i:-1).filter(i=>i>=0);if(!indexes.length)indexes=lessons.map((_,i)=>i).slice(0,6);if(!indexes.includes(li))indexes.unshift(li);return[...new Set(indexes)].slice(0,8)
@@ -69,7 +69,7 @@
   function renderPractice(){const featured=testItems(true).slice(0,8),all=testItems(false);views.PRACTICE.innerHTML=`<div class="pageIntro"><span class="kicker">PRACTICE</span><h2>Choose the kind of practice</h2><p>Practice is separate from teaching. Use Learn first when vocabulary or ideas are unfamiliar.</p></div><div class="hubCards">${featured.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${all.length} independent checks and prior forms</summary><div class="hubCards"><a class="hubCard" href="ela-unit1-practice.html"><span>ELA • PRIOR UNIT 1</span><b>Unit 1 guided practice forms</b><small>Preserved for cumulative retrieval</small></a>${all.map(testCard).join('')}</div></details>`;bindLibraryCards(views.PRACTICE)}
   function renderReviewHub(){views.REVIEW.innerHTML=`<div class="pageIntro"><span class="kicker">REVIEW</span><h2>Repair, then retrieve later</h2><p>First-attempt scores stay honest. Corrected work shows learning without erasing the original evidence.</p></div><div class="choiceCards"><button id="openMissed"><b>${st.missed.length}</b><span>Review missed ideas</span><small>Recall first → reveal choices → explain the repair</small></button><button id="openRetention"><b>${dueCount()}</b><span>Delayed checks due</span><small>Return after 24+ hours in a fresh format</small></button></div>`;document.getElementById('openMissed').onclick=()=>{setMode('LEARN');reviewMissed()};document.getElementById('openRetention').onclick=()=>{setMode('LEARN');retentionReview()}}
   function renderWritingHub(){let writing=D.ELA.lessons.map((lesson,index)=>({subject:'ELA',lesson,index})).filter(x=>/(Unit 2|Reading Buddies|Chimpanzees|Clauses|Narrative|Dialogue|Writing|Rubric|Ending|Plot|Prompt|Constructed|Summary|Fluency)/i.test(x.lesson.title)),current=writing.filter(x=>/^BINDER|^FINAL • ELA Binder/.test(x.lesson.title)).slice(0,6);views.WRITING.innerHTML=`<div class="pageIntro"><span class="kicker">WRITING</span><h2>Writing World</h2><p>A distraction-reduced path for planning, evidence, summarizing, drafting, revising, and independent transfer.</p></div><div class="writingSteps"><span>1 • Decode</span><span>2 • Plan</span><span>3 • Draft</span><span>4 • Revise</span><span>5 • Submit</span></div><div class="hubCards">${current.map(testCard).join('')}</div><details class="allLibrary"><summary>Browse all ${writing.length} writing lessons</summary><div class="hubCards">${writing.map(testCard).join('')}</div></details>`;bindLibraryCards(views.WRITING)}
-  function renderParent(){stats();views.PARENT.querySelectorAll('.parentPanel').forEach(x=>x.remove());let panel=document.createElement('section');panel.className='parentPanel';panel.innerHTML=`<div class="pageIntro"><span class="kicker">PARENT TOOLS</span><h2>Progress, sources, and records</h2><p>These controls are kept out of Ry’s lesson path. Progress is stored on this device.</p></div><div class="parentActions"><button id="parentExport">Export writing for ChatGPT</button><button id="parentBackup">Backup progress</button><button id="parentRestore">Restore a compatible backup</button><a href="GOVERNANCE.md">Open governance rules</a></div>`;views.PARENT.insertBefore(panel,sourceLibrary);document.getElementById('parentExport').onclick=exportWriting;document.getElementById('parentBackup').onclick=backup;document.getElementById('parentRestore').onclick=restore}
+  function renderParent(){stats();views.PARENT.querySelectorAll('.parentPanel').forEach(x=>x.remove());let panel=document.createElement('section');panel.className='parentPanel';panel.innerHTML=`<div class="pageIntro"><span class="kicker">PARENT TOOLS</span><h2>Progress, sources, and records</h2><p>These controls are kept out of Ry’s lesson path. Progress is stored on this device.</p></div><div class="parentActions"><button id="parentExport">Export writing for ChatGPT</button><button id="parentBackup">Backup progress</button><button id="parentRestore">Restore a compatible backup</button><a href="rayna-audio.html">Open Rayna’s Audio</a><a href="learning-tools.html">Open recall activities</a><a href="TEACHING_RESOURCES.json">Teaching-resource review</a><a href="GOVERNANCE.md">Open governance rules</a></div>`;views.PARENT.insertBefore(panel,sourceLibrary);document.getElementById('parentExport').onclick=exportWriting;document.getElementById('parentBackup').onclick=backup;document.getElementById('parentRestore').onclick=restore}
   function simplifyLessonTools(){['exportW','backup','restore'].forEach(id=>document.getElementById(id)?.classList.add('hidden'))}
   function bindSubjectStarts(){
     const first={ELA:'ela_v25_quiz_review',MATH:'math_v28_big8_source',SCI:'science_v22_vocab_core',SS:'ss_v20_study_guide'};

@@ -1,0 +1,230 @@
+{
+  "build": "2026-10-21-teaching-resources-v30",
+  "parentAudioSync": {
+    "parentSyncIssues": [],
+    "matched": true
+  },
+  "teachingResources": {
+    "nonVideoSubjectGaps": [],
+    "resourceRouteGaps": []
+  },
+  "scoreReset": "2026-10-02T00:00:00-05:00",
+  "storage": {
+    "key": "learnwithry_vocabulary_first_v16",
+    "archive": "learnwithry_vocabulary_first_writing_v16",
+    "oldKeyIgnored": true
+  },
+  "subjects": [
+    {
+      "key": "ELA",
+      "name": "ELA",
+      "lessons": 64
+    },
+    {
+      "key": "MATH",
+      "name": "Math",
+      "lessons": 46
+    },
+    {
+      "key": "SCI",
+      "name": "Science",
+      "lessons": 55
+    },
+    {
+      "key": "SS",
+      "name": "Social Studies",
+      "lessons": 59
+    },
+    {
+      "key": "CONNECTIONS",
+      "name": "Connections",
+      "lessons": 3
+    }
+  ],
+  "totals": {
+    "lessons": 227,
+    "questions": 2504,
+    "explicitWrittenPrompts": 227,
+    "generatedOrExplicitTransferPrompts": 227
+  },
+  "answerPositions": {
+    "A": 590,
+    "B": 584,
+    "C": 600,
+    "D": 589,
+    "spread": 16
+  },
+  "duplicateIds": [],
+  "duplicateObjectiveIds": [],
+  "duplicateQuestionIds": [],
+  "badLessons": [],
+  "incompleteCurrent": [],
+  "testLeak": [],
+  "transferMissing": [],
+  "connectionMissing": [],
+  "connectionChecksMissing": [],
+  "insufficientIndependentChecks": [],
+  "scienceVocabularyFirst": true,
+  "scienceOrderActual": [
+    "science_v22_vocab_core",
+    "science_v22_organization",
+    "science_v24_textbook_review",
+    "science_v22_energy_roles",
+    "science_v22_relationships",
+    "science_v22_limits",
+    "science_v22_mastery"
+  ],
+  "officialAncientIsraelGuide": {
+    "guideFirst": true,
+    "guideOrderActual": [
+      "ss_v20_study_guide",
+      "ss_v20_israelites_song",
+      "ss_v20_test_eve",
+      "ss_v20_maps",
+      "ss_v20_people_texts",
+      "ss_v20_migrations",
+      "ss_v20_kings",
+      "ss_v20_kingdom_cyrus",
+      "ss_v20_mastery_test"
+    ],
+    "testEveQuestions": 26,
+    "missingTestEveTargets": [],
+    "masteryQuestions": 48,
+    "guideAnswerPositionCounts": [
+      11,
+      12,
+      11,
+      11
+    ],
+    "guideAnswerPositionsBalanced": true,
+    "missingGuideTargets": [],
+    "missingRepairSequence": [],
+    "learnerAdminNotes": [],
+    "all24TargetsRepresented": true
+  },
+  "instructionalMedia": {
+    "required": 5,
+    "mediaMissing": [],
+    "mediaBoundaryIssues": [],
+    "allFourSubjects": true
+  },
+  "october9Update": {
+    "required": 20,
+    "found": 20,
+    "v21Missing": [],
+    "v21Thin": [],
+    "v21TestIssues": []
+  },
+  "october17Reconciliation": {
+    "required": 10,
+    "found": 10,
+    "v22Missing": [],
+    "v22Thin": [],
+    "missingTeacherEcologyTerms": []
+  },
+  "highlightedBig8Memorization": {
+    "required": 2,
+    "found": 2,
+    "v23Missing": [],
+    "v23Thin": [],
+    "big8PriorityActual": [
+      "math_v28_big8_source",
+      "math_v29_coordinate_song",
+      "math_v28_integer_rational",
+      "math_v28_coordinate_graph",
+      "math_v28_distance",
+      "math_v28_binder_final",
+      "math_v23_big8_memory",
+      "math_v23_big8_mastery"
+    ],
+    "big8MemorizationFirst": true,
+    "big8MemoryContract": true
+  },
+  "teacherSourceAuditV24": {
+    "required": 2,
+    "found": 2,
+    "v24Missing": [],
+    "v24Thin": [],
+    "missingRevealModule4Terms": [],
+    "missingScienceExactReviewTerms": []
+  },
+  "testReadinessV25": {
+    "required": 3,
+    "found": 3,
+    "v25Missing": [],
+    "v25Thin": [],
+    "elaQuestions": 28,
+    "ssQuestions": 36,
+    "missingElaQuizTerms": [],
+    "missingSsReadinessTerms": []
+  },
+  "elaBinderV26": {
+    "required": 10,
+    "found": 10,
+    "v26Missing": [],
+    "v26Thin": [],
+    "missingBinderTerms": [],
+    "missingBinderStructures": [],
+    "dialogueQuestions": 23,
+    "endingQuestions": 23,
+    "finalQuestions": 56
+  },
+  "sourceRebuild": {
+    "required": 20,
+    "found": 20,
+    "rebuildIdMissing": [],
+    "rebuildThin": [],
+    "atomicTermMissing": []
+  },
+  "sourceCompletenessGate": {
+    "buildMatches": true,
+    "sourceSideRedTeamComplete": true,
+    "allSubjectsPresent": true,
+    "sourceGateMissingSubjects": [],
+    "duplicateRequirements": [],
+    "incompleteRecords": [],
+    "routeIssues": [],
+    "readinessIssues": [],
+    "requirementCount": 242
+  },
+  "multiIssues": [],
+  "narration": {
+    "sharedEngineLoaded": true,
+    "lessonControls": true,
+    "reviewControls": true,
+    "practiceControls": true,
+    "transportControls": true,
+    "voiceControls": true,
+    "femaleVoicePreferred": true,
+    "voiceChoicePersists": true,
+    "learningPaceDefault": true,
+    "answerSafeBeforeSubmission": true,
+    "feedbackRequiresOptIn": true
+  },
+  "organization": {
+    "organizerLoaded": true,
+    "officialGuideAndTestPrioritized": true,
+    "sixModes": true,
+    "nextActionFirst": true,
+    "weeklyPriorities": true,
+    "priorityChoiceCap": true,
+    "fullLibraryPreserved": true,
+    "parentToolsSeparated": true,
+    "noAdminHero": true,
+    "compactHeader": true
+  },
+  "governance": {
+    "independentSourceRecoveryMandatory": true,
+    "appliesToEveryFutureRequest": true,
+    "sourceStatusLedgerRequired": true,
+    "parentBurdenProhibited": true,
+    "exactSourceExhaustionRequired": true,
+    "sourceCoverageOverCounts": true,
+    "parentDiscoveredGapFails": true,
+    "instructionalMediaDiscoveryMandatory": true,
+    "failClosedSourceGate": true,
+    "officialStudyGuideOrderRequired": true,
+    "noLearnerFacingAdminNotes": true
+  },
+  "pass": true
+}

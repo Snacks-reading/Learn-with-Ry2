@@ -1,6 +1,6 @@
 {
-  "build": "2026-10-19-math-binder-reconciliation-v28",
-  "auditDate": "2026-10-19",
+  "build": "2026-10-21-teaching-resources-v30",
+  "auditDate": "2026-10-21",
   "sourceSideRedTeamComplete": true,
   "policy": "Every new teacher source must be atomized here before authoring; every requirement must be traceable to instruction and evidence before publication. When the parent highlights, circles, underlines, arrows, or annotates an uploaded classroom source, treat the markup as explicit parent direction and distinguish it from original teacher markings. Each marked item must receive an explicit teaching route, varied practice, independent evidence, and delayed retrieval.",
   "subjects": {
@@ -96,5 +96,6 @@
     "minimumIndependentRecordsPerObjective": 4,
     "masteryThresholdPercent": 90,
     "parentMustNotBeGapDetector": true
-  }
+  },
+  "supplementalResourceReview": {"manifest": "TEACHING_RESOURCES.json", "lessonRoutes": "learning-resources-v30.js", "parentTeaching": "lesson-library.js", "teacherScopeChanged": false, "preservesPriorProgress": true, "sourceGapsRemainDisclosed": true}
 }

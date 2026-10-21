@@ -103,3 +103,7 @@ This weekly cumulative module is aligned to the Tennessee standards that overlap
 | Saul, David, Solomon | `ss_v20_kings` | Person → action → effect → importance | 8 checks | Monarchy → Jerusalem → split | Three significance responses |
 | Divided kingdom through Cyrus | `ss_v20_kingdom_cyrus` | Three-row chain | 13 checks | Jerusalem links captivity and return | Exact chain in both directions |
 | Final readiness | `ss_v20_mastery_test` | No answer model | 48 independent questions | Miss → target → connected repair | Maps + 24 answers + three-row chain |
+
+## October 21 resource integration
+
+The existing classroom requirement routes remain controlling. `learning-resources-v30.js` attaches specific build/recall/application/delayed tasks to 26 existing teaching lessons across all four subjects. `learning-tools.html` supplies the reading/media evidence organizer, four-clause sort, rational number-line model, 24 Big Eight form cards, ecology cards and disturbance explanation, ordered Ancient Israel retrieval, and blank-map reconstruction. The same teaching text generates Rayna's Audio chapters through `scripts/build-parent.mjs`; `TEACHING_RESOURCES.json` records external access and omissions. No lesson or independent assessment is removed. Self-check activities use separate storage and cannot modify first-attempt mastery records.

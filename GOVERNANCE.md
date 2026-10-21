@@ -30,6 +30,20 @@ This requirement applies to every future request, weekly update, correction, reb
 
 A build fails governance if the parent must discover a source gap that the source-to-objective audit should have identified.
 
+### Mandatory instructional-media discovery
+
+For every new unit, weekly update, rebuild, and subject, the tutoring system must proactively search for current, memorable, age-appropriate songs, short videos, visual mnemonics, simulations, interactive models, readable explanations, diagrams, maps, graphic organizers, worked examples, card sorts, hands-on activities, and retrieval resources that match the exact classroom objectives. This research is required even when the parent does not supply a link.
+
+- Search by the exact topic, teacher or series name when known, adopted program title, and grade level. Prefer the exact teacher-used resource, then reputable curriculum publishers, educators, museums, universities, and government sources.
+- Record the title, creator, working URL, exact objectives supported, accessibility status, and every important omission or oversimplification.
+- Reject weak, misleading, inaccessible, age-inappropriate, or merely entertaining matches. If no strong match exists, create an internal mnemonic and disclose that no suitable external resource was found.
+- Media is supplemental and never replaces the controlling teacher material. Every selected resource must be paired with video-off retrieval, exact classroom-language practice, fresh application, and explicit repair of what the resource omits.
+- Resource discovery must include useful non-video formats in every subject. A resource must have a specific lesson task and a closed-resource application; a directory of links is insufficient. Check actual titles, access, grade fit, and working formats. Do not assign obsolete Flash tools or count search metadata as a fully recovered source.
+- Passive viewing is never mastery evidence. Riley must explain, retrieve, and apply the idea independently after the media is stopped.
+- Audit all four subjects during each weekly cycle and synchronize selected resources with Riley’s lesson path and Rayna’s Audio.
+
+A build fails governance if the parent or Riley must discover a useful teacher-aligned media resource that a reasonable exact-topic search should have found.
+
 ### Fail-closed source-completeness gate
 
 These controls are mandatory because a written promise, a large question count, and a standards crosswalk did not prevent prior omissions.
@@ -143,6 +157,7 @@ Coverage is counted by objective evidence, not by the total number of questions 
 Before publication, the build must pass all of these audits:
 
 - independent source recovery completed without shifting research or gap analysis to the parent;
+- instructional-media discovery completed for every active subject; each selected resource has a verified link, exact objective mapping, omission analysis, video-off retrieval, and fresh application;
 - every required source has a complete/partial/referenced-only/unavailable status and unresolved non-complete sources are disclosed in Parent Tools;
 - source-to-objective coverage matrix complete;
 - machine-readable source-completeness manifest matches the current build and includes all four subjects;
