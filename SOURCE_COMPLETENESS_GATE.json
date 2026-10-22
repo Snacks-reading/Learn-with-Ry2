@@ -22,7 +22,7 @@
       "parentOrderAndChapterPreservation": true,
       "sourceAndAnswersPreserved": true
     },
-    "status": "Local QC passed; deployed-site verification pending"
+    "status": "Passed: deployed app a807e303716d3ef9b52c2f466b389dc01bc4316a verified live; four subject routes, numbered ELA Next controls, and Home next-task cards confirmed."
   },
   "elaExtraPractice20261021": {
     "scope": "Additive ELA quiz practice only; existing lessons, stored question IDs, and answer keys preserved.",

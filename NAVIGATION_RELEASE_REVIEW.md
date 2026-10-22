@@ -17,3 +17,7 @@ Current paths: ELA Animal Allies quiz preparation; Math rational numbers and coo
 - All 198 parent teaching chapters are retained and ordered from the same unit map. Notes, listened markers, full narration chunks, and Stop behavior are preserved.
 - The official 24-target recall sequence and all four interactive activities remain available.
 - Full curriculum QC and whitespace checks pass before publication. Live deployment is verified separately after the Pages build.
+
+## Live verification
+
+GitHub Pages deployment of app commit `a807e303716d3ef9b52c2f466b389dc01bc4316a` succeeded (workflow run 39698908897). The live Home displays four next-task cards. ELA advances from Step 1 to Reading Buddies, then names Jane Goodall as the following lesson. Math, Science, and Social Studies buttons each open their configured first unfinished step. Screenshot proof was inspected; no student answers were entered during live verification.
