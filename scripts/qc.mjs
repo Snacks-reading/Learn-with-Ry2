@@ -313,12 +313,15 @@ report.narration = {
   feedbackRequiresOptIn: narrator.includes('if(engaged)speak(text,root)')
 };
 const learnerShell = html.slice(0, html.indexOf('<script src="narrator.js'));
+const pathText=fs.readFileSync(new URL('../learning-paths.js',import.meta.url),'utf8');
+const pathSandbox={};vm.createContext(pathSandbox);vm.runInContext(pathText,pathSandbox);const orderedPaths=pathSandbox.RY_LEARNING_PATHS;
 report.organization = {
   organizerLoaded: /<script src="organizer\.js\?v=[^"]+"><\/script>/.test(html),
-  officialGuideAndTestPrioritized: organizer.includes("'ss_v20_mastery_test'") && organizer.includes("'ss_v20_study_guide'") && organizer.includes("'ss_v21_israel_final'"),
+  officialGuideAndTestPrioritized: ['ss_v20_mastery_test','ss_v20_study_guide','ss_v21_israel_final'].every(id=>orderedPaths.SS.find(u=>u.id==='israel').steps.some(s=>s[0]===id)),
   sixModes: ['HOME','LEARN','PRACTICE','REVIEW','WRITING','PARENT'].every(mode => organizer.includes(mode)),
   nextActionFirst: organizer.includes('START HERE') && organizer.includes('Start my next step'),
-  weeklyPriorities: organizer.includes('Five clear priorities') && organizer.includes('weeklyItems()'),
+  explicitSubjectPaths: ['ELA','MATH','SCI','SS'].every(subject=>orderedPaths[subject]?.length&&orderedPaths[subject].every(unit=>unit.steps.length&&new Set(unit.steps.map(s=>s[0])).size===unit.steps.length&&unit.steps.every(([id])=>D[subject].lessons.some(l=>l.id===id)))),
+  explicitNextTask: ['nextInSubject','renderFlow','startPractice','moveLesson','st.lessonRead','st.pathUnits'].every(term=>organizer.includes(term)),
   priorityChoiceCap: organizer.includes('.slice(0,8)'),
   fullLibraryPreserved: organizer.includes("'Browse all '+lessons.length+' lessons'"),
   parentToolsSeparated: organizer.includes("PARENT TOOLS") && organizer.includes("simplifyLessonTools"),

@@ -188,3 +188,9 @@ Before publication, the build must pass all of these audits:
 - a 390-pixel mobile viewport and a desktop viewport are both interaction-tested, not merely screenshotted.
 
 If any check fails, the module is not ready to publish.
+
+## 11. One ordered learning path per unit
+
+`learning-paths.js` is the shared navigation order for the student Home, subject entry, numbered sidebar steps, Previous/Next, and Rayna’s Audio teaching chapters. Weekly additions must be placed deliberately after prerequisites and before the appropriate independent check. Never use insertion order or the full-library index as the learner sequence. Prior units and all older lessons remain accessible. The official 24-target Ancient Israel guide retains its exact internal order.
+
+Each lesson must state the next action: read/listen, resume unanswered practice, repair missed questions, write/save the constructed response, then continue to the next ordered lesson. Practice completion alone must not mark writing or mastery complete. Preserve saved first attempts and supported/independent distinctions. Home must show the next unfinished task in every subject, and the phone layout must expose that task before an expanded lesson menu.

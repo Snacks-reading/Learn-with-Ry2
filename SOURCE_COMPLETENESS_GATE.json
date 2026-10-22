@@ -1,4 +1,29 @@
 {
+  "learningPathReview": {
+    "scope": "Navigation and activity sequencing only; all existing source content, questions, keys, and stable IDs unchanged.",
+    "sharedOrder": "learning-paths.js controls Home, subjects, sidebar, Previous/Next, and parent chapter order.",
+    "subjects": [
+      "ELA",
+      "MATH",
+      "SCI",
+      "SS"
+    ],
+    "completion": "Read/listen, unanswered practice, repair, written response, then next lesson. Saved writing remains pending review; activity completion never asserts mastery.",
+    "preservation": "All 230 lesson data objects unchanged. Official 24-target order retained in the Ancient Israel review unit. All 198 parent teaching chapters and notes retained.",
+    "checks": {
+      "orderedNextPreviousPairs": 49,
+      "allLessonsReachable": 230,
+      "partialPracticeResume": true,
+      "deepLinks": true,
+      "multiSelectRepair": true,
+      "firstAttemptPreserved": true,
+      "writingHandoff": true,
+      "mobile390MenuInteraction": true,
+      "parentOrderAndChapterPreservation": true,
+      "sourceAndAnswersPreserved": true
+    },
+    "status": "Local QC passed; deployed-site verification pending"
+  },
   "elaExtraPractice20261021": {
     "scope": "Additive ELA quiz practice only; existing lessons, stored question IDs, and answer keys preserved.",
     "sourceBundleFrozen": [
