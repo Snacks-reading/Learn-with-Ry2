@@ -1,5 +1,17 @@
 # Learn With Ry — Cumulative Source and Coverage Matrix
 
+## October 26-30 current-week release
+
+| Subject | Teacher-controlled requirement | Student-path evidence | Parent-path evidence | Remaining gap |
+|---|---|---|---|---|
+| ELA | *My Life with the Chimpanzees*: main idea, point of view, purpose, section structure; November 2 test; compound/complex sentences; IXL GG.9 and written spiral due October 30 | `ela_v34_chimp_structure` and `ela_v34_compound_complex`: explicit distinctions, worked models, 16 varied questions, source-return writing, and later transfer | Same two canonical lessons are first in Rayna’s ordered ELA path and fully narrated | October 26 Schoology study guide and exact spiral prompts remain referenced-only |
+| Math | Big 8 automatic recall and application; integers and coordinate graphing test October 30; practice test October 26 | `math_v34_big8_test`: Big 8 derivation, signed-number comparison, reflections, axis points, distance, 10 fresh questions, no-peek reconstruction | Same canonical lesson is first in Rayna’s Math path | Exact teacher practice test remains referenced-only |
+| Science | October 27 quiz on eight ecology terms and five levels; food chains/webs/energy pyramids; STEMscopedia guided notes due October 30 | `science_v34_levels_quiz` and `science_v34_food_web_energy`: 16 varied questions, nested-level model, arrow reasoning, web-change transfer, packet-directed homework reminder | Same two canonical lessons are first in Rayna’s Science path | Exact STEMscopedia guided-note pages and exercises remain referenced-only |
+| Social Studies | Ancient Egyptian geography, irrigation, pharaohs, architecture, life in antiquity; Thursday geography quiz | `ss_v34_egypt_quiz`: map reasoning, condition-response-consequence model, 8 varied questions, labeled-map and written transfer | Same canonical lesson is first in Rayna’s Social Studies path | Exact quiz review materials remain inaccessible |
+
+**Assessment calendar:** Science quiz Tuesday, October 27; Social Studies geography quiz Thursday, October 29; Math test and ELA sentence quiz Friday, October 30; ELA *My Life with the Chimpanzees* test Monday, November 2. Dates come from the October 23 teacher newsletter. Monday, October 26 is a late start with homeroom at 8:35.
+
+
 ## October 18 test-readiness release
 
 | Assessment | Teacher-controlled scope | Preparation now required | Independent evidence |
