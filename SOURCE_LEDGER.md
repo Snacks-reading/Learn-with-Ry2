@@ -1,9 +1,19 @@
 # Learn With Ry — Mandatory Source Ledger
 
-Audit date: October 21, 2026
-Build: `2026-10-21-teaching-resources-v30`
+Audit date: October 25, 2026
+Build: `2026-10-25-newsletter-v34`
 
 Status definitions follow governance: **complete** means the usable instructional content was recovered; **partial** means substantive content was recovered but some original pages are inaccessible; **referenced-only** means a title/link is known but its instructional content was not available; **unavailable** means recovery attempts found no usable copy. Teacher-assigned material controls scope. Tennessee standards and blueprints are alignment and assessment-design checks, not replacements for classroom content.
+
+## October 23 newsletter recovery
+
+| Subject | Source | Status | Recovered requirements | Remaining boundary |
+|---|---|---|---|---|
+| All | Sunset Middle School 6th grade newsletter dated October 23, 2026 | **complete** for both visible pages | October 26 late start; current-week scope, assessment dates, assigned-resource names, and deadlines across all four subjects | Schoology course folders were not accessible on October 25 because the WCS Microsoft session required the student password |
+| ELA | Newsletter current-week directions | **complete** | Continue *My Life with the Chimpanzees*; main idea, point of view, author purpose, and section structure; November 2 text test; compound/complex sentence quiz and IXL GG.9 due October 30; spiral with written component due October 30 | The October 26 Schoology study guide and exact spiral prompts are **referenced-only** until authenticated access is restored |
+| Math | Newsletter Grade 6 directions | **complete** | Big 8 pop quizzes throughout Quarter 2; application including 5/8 = 0.625; integers and coordinate graphing test October 30; practice test October 26 | Exact Schoology practice-test questions are **referenced-only**; fresh parallel problems are used without representing them as the teacher test |
+| Science | Newsletter current-week directions | **complete** | October 27 quiz on ecology, biotic, abiotic, organism, population, community, ecosystem, and biosphere; food chains, food webs, energy pyramids; STEMscopedia Matter and Energy in Food Webs guided notes due October 30 | Exact guided-notes pages and exercises are **referenced-only** until Schoology access is restored |
+| Social Studies | Newsletter current-week directions | **complete** | Ancient Egyptian architecture, irrigation, pharaohs, life in antiquity, geography influence, and Thursday geography quiz | Exact quiz materials and any newly posted course exercises remain inaccessible; no teacher-only questions were inferred |
 
 | Subject | Source | Status | What the rebuild uses | Remaining boundary |
 |---|---|---|---|---|
