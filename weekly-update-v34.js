@@ -1,5 +1,4 @@
 (function(){
-  const D=globalThis.LEARN_WITH_RY;
   if(!D||!D.ELA||!D.MATH||!D.SCI||!D.SS)return;
   const q=(p,o,a,w)=>[p,o,a,w];
   const lesson=(id,title,src,teach,model,v,qs,w,connect,success,extra={})=>({id,title,src,teach,model,v,q:qs,w,connect,success,...extra});
