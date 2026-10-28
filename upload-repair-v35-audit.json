@@ -1,0 +1,347 @@
+{
+  "version": "2026-10-27-upload-practice-v35",
+  "publicationStatus": "VERIFIED_SUPPLEMENTAL_RELEASE_AUTHORIZED",
+  "sourceStatus": {
+    "mapChecklist": "complete",
+    "studentMap": "complete photograph; not an answer key",
+    "egyptVocabulary": "complete visible sheets",
+    "journalQuestions": "All 20 prompts visible; exact matching program identified and full public transcript read; recognition errors corrected using uploaded wording and museum references.",
+    "environmentsNotes": "visible uploaded sequence transcribed; printed factual errors identified",
+    "foodWebNotes": "Uploaded pages complete as received, with an absent producer/consumer continuation. This release teaches verified biological concepts and corrects visible errors; it does not reconstruct or claim complete coverage of the missing page."
+  },
+  "journalRequirements": [
+    [
+      "What is menhed?",
+      "matched-resource-concept-checked",
+      "A writing kit with brushes, palette and ink."
+    ],
+    [
+      "What is the red land?",
+      "matched-resource-concept-checked",
+      "The dry desert beyond the fertile Nile land."
+    ],
+    [
+      "What is Kemet?",
+      "matched-resource-concept-checked",
+      "Black land: fertile dark soil."
+    ],
+    [
+      "Where is Kemet located?",
+      "matched-resource-concept-checked",
+      "Along the Nile banks and fertile delta."
+    ],
+    [
+      "How long is the Nile?",
+      "matched-resource-concept-checked",
+      "The video says nearly 4,000 miles; an approximation."
+    ],
+    [
+      "What were ditches and canals used for?",
+      "matched-resource-concept-checked",
+      "To retain floodwater and direct it to fields."
+    ],
+    [
+      "How did Egyptians predict floods?",
+      "matched-resource-concept-checked",
+      "They observed the Moon and stars and developed a calendar."
+    ],
+    [
+      "When was ancient Egypt's new year?",
+      "matched-resource-concept-checked",
+      "The video links it to flood onset and Sirius; calendars drifted over time."
+    ],
+    [
+      "What is Akhet?",
+      "matched-resource-concept-checked",
+      "Flooding season."
+    ],
+    [
+      "What is Shemu?",
+      "matched-resource-concept-checked",
+      "Harvest and heat season."
+    ],
+    [
+      "What crops did Egyptians grow?",
+      "matched-resource-concept-checked",
+      "Barley, wheat, flax, vegetables and fruits."
+    ],
+    [
+      "What is a scribe?",
+      "matched-resource-concept-checked",
+      "A trained reader, writer and record keeper."
+    ],
+    [
+      "What are hieroglyphs?",
+      "matched-resource-concept-checked",
+      "Egyptian signs used for formal and religious writing; signs convey sounds and meanings."
+    ],
+    [
+      "What is papyrus?",
+      "matched-resource-concept-checked",
+      "A Nile wetland plant, also made into writing material."
+    ],
+    [
+      "What was papyrus used for?",
+      "matched-resource-concept-checked",
+      "Food, boats, fuel, sandals and writing scrolls."
+    ],
+    [
+      "Animals represent many _____.",
+      "matched-resource-concept-checked",
+      "Gods; animal forms represented particular deities."
+    ],
+    [
+      "Who was the first pharaoh?",
+      "matched-resource-concept-checked",
+      "Narmer in this video; Menes is a traditional first-king name with uncertain identification."
+    ],
+    [
+      "What were the two kingdoms along the Nile?",
+      "matched-resource-concept-checked",
+      "Upper Egypt and Lower Egypt."
+    ],
+    [
+      "Upper Egypt is south near Thebes: true or false?",
+      "matched-resource-concept-checked",
+      "True: southern and upstream."
+    ],
+    [
+      "Narmer did not unify Upper and Lower Egypt: true or false?",
+      "matched-resource-concept-checked",
+      "False in the video: Narmer united the kingdoms."
+    ]
+  ],
+  "mapRequirements": [
+    {
+      "name": "Upper Egypt",
+      "location": "The southern, upstream Nile region; Thebes is in Upper Egypt.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Lower Egypt",
+      "location": "The northern, downstream region around the Nile Delta.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Nile Delta",
+      "location": "The branching river-mouth region at the Mediterranean Sea.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Sinai Peninsula",
+      "location": "The triangular land east of the Nile Delta, between the Gulf of Suez and Gulf of Aqaba.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Western Sahara Desert",
+      "location": "On this teacher map: the desert west of the Nile. Do not confuse it with the modern Western Sahara territory in northwestern Africa.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Nubia",
+      "location": "The region south of Egypt along the Nile, with its own societies and political traditions.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Mediterranean Sea",
+      "location": "The sea north of Egypt into which the Nile flows.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Nile River",
+      "location": "The river flowing north through Egypt to the Mediterranean Sea.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Red Sea",
+      "location": "The sea east of Egypt, south of the Sinai Peninsula.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Memphis",
+      "location": "An ancient capital near the southern edge of the Nile Delta, south of modern Cairo.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Thebes",
+      "location": "An ancient city in Upper Egypt, around modern Luxor.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Alexandria",
+      "location": "A city on Egypt's Mediterranean coast at the western side of the delta.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Pyramids at Giza",
+      "location": "A pyramid complex west of the Nile, near modern Cairo and north of Memphis.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    },
+    {
+      "name": "Valley of the Kings",
+      "location": "A royal burial area on the west bank of the Nile opposite ancient Thebes.",
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
+    }
+  ],
+  "lessons": [
+    {
+      "subject": "SS",
+      "id": "ss_v35_egypt_map14",
+      "requirements": [
+        "Upper Egypt",
+        "Lower Egypt",
+        "Nile Delta",
+        "Sinai Peninsula",
+        "Western Sahara Desert",
+        "Nubia",
+        "Mediterranean Sea",
+        "Nile River",
+        "Red Sea",
+        "Memphis",
+        "Thebes",
+        "Alexandria",
+        "Pyramids at Giza",
+        "Valley of the Kings"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 14,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SS",
+      "id": "ss_v35_egypt_vocab23",
+      "requirements": [
+        "delta",
+        "pharaoh",
+        "dynasty",
+        "mummy",
+        "cataracts",
+        "social class",
+        "occupation",
+        "bureaucracy",
+        "afterlife",
+        "mummification",
+        "pyramids",
+        "artifacts",
+        "hieroglyphics",
+        "papyrus",
+        "Sphinx",
+        "cultural diffusion",
+        "commerce",
+        "Menes",
+        "Khufu",
+        "Hyksos",
+        "Queen Hatshepsut",
+        "Tutankhamun",
+        "Ramses the Great"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 23,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SCI",
+      "id": "science_v35_notes_environment",
+      "requirements": [
+        "ecosystem",
+        "population",
+        "photosynthesis",
+        "irrigation",
+        "food web",
+        "browser",
+        "population density",
+        "carrying capacity",
+        "marine",
+        "freshwater",
+        "terrestrial",
+        "abiotic factors",
+        "biotic factors",
+        "limiting factor",
+        "adaptation",
+        "predator",
+        "prey",
+        "competition",
+        "niche",
+        "interspecific competition",
+        "intraspecific competition"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 21,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SCI",
+      "id": "science_v35_notes_foodweb",
+      "requirements": [
+        "producer",
+        "consumer",
+        "primary consumer",
+        "secondary consumer",
+        "tertiary consumer",
+        "quaternary consumer",
+        "decomposer",
+        "phytoplankton",
+        "zooplankton",
+        "predation",
+        "symbiosis",
+        "mutualism",
+        "parasitism",
+        "parasite",
+        "host"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 15,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    }
+  ],
+  "releaseBlockers": [],
+  "preservation": "Additive draft only; no existing question IDs, scores, or official 24-target order changed.",
+  "scopeLimitations": [
+    "Assigned private Goodall study guide and exact math practice test have not been recovered. Parallel practice supplements their verified newsletter scope; it does not certify assigned-test completeness.",
+    "Missing Science producer/consumer continuation is not represented as recovered. Standard feeding-level instruction supplements the visible notes.",
+    "No Riley response evidence has been received in this release. Materials available; readiness not measured."
+  ],
+  "sourceRecovery": [
+    {
+      "query": "Journals Through Time Egypt",
+      "result": "Correct source family is Journals Through History; exact Menhed and Kemet wording matches Land of Abundance."
+    },
+    {
+      "url": "https://app.discoveryeducation.com/learn/videos/9e04baba-6d0c-4be5-beab-91339217b6b6/",
+      "status": "Publisher identity and program description verified; full player sign-in required."
+    },
+    {
+      "url": "https://www.teachertube.com/videos/journals-through-history-egypt-land-of-abundance-461038",
+      "status": "Full public transcript read, matching all twenty prompts; machine-transcription spellings not copied."
+    },
+    {
+      "url": "https://giza.fas.harvard.edu/faq/",
+      "status": "Full FAQ read for geography, rule, writing and burial concepts."
+    },
+    {
+      "url": "https://www.globalegyptianmuseum.org/attachments/GEM_Imhotep.pdf",
+      "status": "Map on PDF page 6 visually inspected for relative location; narrative oversimplifications excluded."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/560805",
+      "status": "Scribe palette object record read."
+    },
+    {
+      "url": "https://www.globalegyptianmuseum.org/glossary.aspx?id=359",
+      "status": "Sothis/Sirius and calendar qualification verified."
+    }
+  ],
+  "authorization": "Rayna explicitly directed Resolve and publish, including additional upcoming-assessment practice. Release is limited to verified teaching and clearly labeled original parallel practice; no overall source-completeness or readiness certification."
+}

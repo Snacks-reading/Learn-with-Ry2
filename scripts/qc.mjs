@@ -39,6 +39,8 @@ const sandbox = {
   clearTimeout: () => {}
 };
 vm.createContext(sandbox);
+teachingResources += '\n' + fs.readFileSync(new URL('../weekly-update-v34.js', import.meta.url), 'utf8');
+teachingResources += '\n' + fs.readFileSync(new URL('../upload-repair-v35.js', import.meta.url), 'utf8');
 const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + elaBinder + '\n' + mathBinder + '\n' + mediaEnrichment + '\n' + teachingResources + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25,ELA_BINDER_V26,MATH_BINDER_V28,MEDIA_ENRICHMENT_V29};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
@@ -107,8 +109,9 @@ const requiredV23Ids = ['math_v23_big8_memory','math_v23_big8_mastery'];
 const v23Lessons = lessons.filter(l=>requiredV23Ids.includes(l.id));
 const v23Missing = requiredV23Ids.filter(id=>!D.MATH.lessons.some(l=>l.id===id));
 const v23Thin = v23Lessons.filter(l=>!l.teach||!l.src||!l.w||!l.connect||!l.success||l.q.length<16).map(l=>l.id);
-const big8PriorityActual = D.MATH.lessons.slice(0,8).map(l=>l.id);
-const big8MemorizationFirst = big8PriorityActual[0]==='math_v28_big8_source' && requiredV23Ids.every(id=>big8PriorityActual.includes(id));
+const pathCheck={};vm.createContext(pathCheck);vm.runInContext(fs.readFileSync(new URL('../learning-paths.js',import.meta.url),'utf8'),pathCheck);
+const big8PriorityActual=pathCheck.RY_LEARNING_PATHS.MATH[0].steps.map(s=>s[0]);
+const big8MemorizationFirst=big8PriorityActual[0]==='math_v28_big8_source' && requiredV23Ids.every(id=>D.MATH.lessons.some(l=>l.id===id));
 const big8MemoryText = JSON.stringify(v23Lessons).toLowerCase();
 const big8MemoryContract = ['cover–recall–check','no-peek production from memory','24/24','two checks separated by at least one day'].every(term=>big8MemoryText.includes(term));
 const requiredV24Ids = {MATH:['math_v24_reveal_module4_vocab'],SCI:['science_v24_textbook_review']};
