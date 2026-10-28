@@ -1,0 +1,38 @@
+{
+  "build": "2026-10-27-results-repairs-v36",
+  "viewports": [
+    {
+      "width": 390,
+      "coreScore": "1/3 = 33%",
+      "focusedScore": "1/2 = 50%",
+      "legacyScore": "31/32 = 97%",
+      "separateMapForms": true,
+      "pendingWritingNotZero": true,
+      "writtenMissGetsTeaching": true,
+      "missGetsFreshPractice": true,
+      "failedRepairGetsAnotherCycle": true,
+      "typedNumericPartialCredit": true,
+      "firstAnswersPreserved": true,
+      "earlyDelayedCheckNotOffered": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "coreScore": "1/3 = 33%",
+      "focusedScore": "1/2 = 50%",
+      "legacyScore": "31/32 = 97%",
+      "separateMapForms": true,
+      "pendingWritingNotZero": true,
+      "writtenMissGetsTeaching": true,
+      "missGetsFreshPractice": true,
+      "failedRepairGetsAnotherCycle": true,
+      "typedNumericPartialCredit": true,
+      "firstAnswersPreserved": true,
+      "earlyDelayedCheckNotOffered": true,
+      "noOverflow": true
+    }
+  ],
+  "importPreservesLocalFirstAnswers": true,
+  "runtimeErrors": [],
+  "pass": true
+}

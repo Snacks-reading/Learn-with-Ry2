@@ -28,7 +28,7 @@
     "scope": "Additive ELA quiz practice only; existing lessons, stored question IDs, and answer keys preserved.",
     "sourceBundleFrozen": [
       "Teacher October 23 detailed quiz scope: Reading Buddies, text/media comparison, main idea, author purpose, objective summary, My Life with the Chimpanzees, evidence, paragraph function, independent/dependent clauses",
-      "Uploaded Reading Buddies photographs, paragraphs 1–9, already reconciled",
+      "Uploaded Reading Buddies photographs, paragraphs 1\u20139, already reconciled",
       "Original heron account and original shelter print/video pair, included in each dependent question",
       "Purdue OWL clause guidance: https://owl.purdue.edu/owl/general_writing/punctuation/independent_and_dependent_clauses/index.html",
       "ReadWriteThink Compare and Contrast Chart: https://www.readwritethink.org/classroom-resources/printouts/compare-contrast-chart"
@@ -43,7 +43,7 @@
         "id": "ELA33-READ",
         "scope": "main idea, summary, purpose, evidence, paragraph contribution, first-person perspective",
         "teach": "Practice A teach/model/vocabulary",
-        "practice": "A1–A12; B9–B14",
+        "practice": "A1\u2013A12; B9\u2013B14",
         "independent": "Practice B",
         "construct": "A writing 1,2,4",
         "delayed": "A next-session paragraph roles and new claims"
@@ -52,8 +52,8 @@
         "id": "ELA33-MEDIA",
         "scope": "shared idea, evidence from both forms, effect of medium, evidence limits",
         "teach": "Practice A teach/model and original paired sources",
-        "practice": "A13–A16",
-        "independent": "B15–B16",
+        "practice": "A13\u2013A16",
+        "independent": "B15\u2013B16",
         "construct": "A writing 3; B writing 2",
         "delayed": "A next-session observed/inferred claim"
       },
@@ -61,7 +61,7 @@
         "id": "ELA33-CLAUSE",
         "scope": "independent/dependent clause, phrase contrast, comma placement, fragment repair",
         "teach": "Existing ela_v21_clauses and verified Purdue guidance",
-        "practice": "B1–B8",
+        "practice": "B1\u2013B8",
         "independent": "Practice B",
         "construct": "B writing 1",
         "delayed": "B four fresh word groups after one day"
@@ -87,7 +87,7 @@
       "semanticKeyReview": true
     }
   },
-  "build": "2026-10-27-upload-practice-v35",
+  "build": "2026-10-27-results-repairs-v36",
   "auditDate": "2026-10-27",
   "elaLearnerCopyReview": {
     "date": "2026-10-21",
@@ -111,11 +111,11 @@
     "recovery": "Five teacher prompts recovered from completed review without editing school responses. Video transcript and assigned autobiography excerpt remain partial/unrecovered.",
     "lessonId": "ela_v31_goodall_intro",
     "requirements": [
-      "prior knowledge 1–2 sentences",
+      "prior knowledge 1\u20132 sentences",
       "discovery reaction and astounded",
       "inquisitive viewpoint contrasted with apathetic/indifferent/jaded",
-      "interest in Gombe 2–3 sentences",
-      "Animal Allies relationship explanation 3–4 sentences",
+      "interest in Gombe 2\u20133 sentences",
+      "Animal Allies relationship explanation 3\u20134 sentences",
       "actual source evidence versus original parallel scenarios"
     ],
     "evidence": "teach and vocabulary; original bird-observer worked model; ten original independent questions plus connection checks; source-return constructed responses; next-session new observer analysis",
@@ -151,13 +151,13 @@
         "id": "RB-P3",
         "source": "paragraph 3",
         "requirement": "learning disabilities, boredom, new to English, no appealing book; multiple causes",
-        "evidence": "teach paragraph map; paragraphs 3–4 relationship question; next-day paragraph-function retrieval"
+        "evidence": "teach paragraph map; paragraphs 3\u20134 relationship question; next-day paragraph-function retrieval"
       },
       {
         "id": "RB-P4",
         "source": "paragraph 4",
         "requirement": "confidence and anxiety explanation; animal versus human listener; avoid universal diagnosis",
-        "evidence": "teach paragraph map and caveat; worked claim-evidence-reasoning; paragraphs 3–4 question"
+        "evidence": "teach paragraph map and caveat; worked claim-evidence-reasoning; paragraphs 3\u20134 question"
       },
       {
         "id": "RB-P5",
@@ -218,7 +218,7 @@
         "Photographed Unit 1 study guide",
         "Current narrative assignment and Tennessee narrative rubric",
         "Recovered classroom text anchors",
-        "October 19 ELA binder photographs IMG_0936–IMG_0954"
+        "October 19 ELA binder photographs IMG_0936\u2013IMG_0954"
       ],
       "requirements": [
         "brown girl dreaming",
@@ -236,7 +236,7 @@
         "reading buddies",
         "compare a written text with a media source",
         "my life with the chimpanzees",
-        "author’s purpose",
+        "author\u2019s purpose",
         "cite evidence for a claim",
         "objective summary",
         "paragraph function",
@@ -352,7 +352,7 @@
           "lessonId": "ela_v21_chimpanzees",
           "requirements": [
             "my life with the chimpanzees",
-            "author’s purpose",
+            "author\u2019s purpose",
             "cite evidence for a claim",
             "objective summary",
             "paragraph function"
@@ -546,13 +546,13 @@
         "vertical distance",
         "fractional and decimal coordinates",
         "1/2 = 0.5 = 50%",
-        "1/3 = 0.333… = 33⅓%",
+        "1/3 = 0.333\u2026 = 33\u2153%",
         "1/4 = 0.25 = 25%",
         "1/5 = 0.2 = 20%",
         "1/8 = 0.125 = 12.5%",
-        "1/9 = 0.111… = 11⅑%",
+        "1/9 = 0.111\u2026 = 11\u2151%",
         "1/10 = 0.1 = 10%",
-        "2/3 = 0.666… = 66⅔%",
+        "2/3 = 0.666\u2026 = 66\u2154%",
         "denominators 9, 99, or 999",
         "no-peek production from memory",
         "number comparison fluency",
@@ -610,13 +610,13 @@
           "lessonId": "math_v23_big8_memory",
           "requirements": [
             "1/2 = 0.5 = 50%",
-            "1/3 = 0.333… = 33⅓%",
+            "1/3 = 0.333\u2026 = 33\u2153%",
             "1/4 = 0.25 = 25%",
             "1/5 = 0.2 = 20%",
             "1/8 = 0.125 = 12.5%",
-            "1/9 = 0.111… = 11⅑%",
+            "1/9 = 0.111\u2026 = 11\u2151%",
             "1/10 = 0.1 = 10%",
-            "2/3 = 0.666… = 66⅔%",
+            "2/3 = 0.666\u2026 = 66\u2154%",
             "no-peek production from memory"
           ]
         },
@@ -1133,5 +1133,17 @@
     "maps": "14 required locations, four formats",
     "atomicManifest": "UPLOAD_SOURCE_REQUIREMENTS_V35.json",
     "instructionalCoverageStatus": "verified supplemental material; broader private-source completeness remains unresolved"
+  },
+  "practiceResultsReview": {
+    "scope": "Scores, original-response reporting and repair workflow; no curriculum questions removed or rekeyed",
+    "preservesExistingStorageKeys": true,
+    "firstResponsePolicy": "Never overwrite original answers or correctness with repair results",
+    "writtenPolicy": "Pending until reviewed; separate from selected-response score",
+    "repairPolicy": "Specific teaching and fresh practice after every incorrect current response; further repair after a failed check",
+    "readiness": "No new student evidence inferred from the interface update",
+    "releaseReview": "RESULTS_AND_REPAIR_V36.md",
+    "contentQC": "v36-content-qc.json",
+    "browserQC": "v36-browser-qc.json",
+    "crossDevice": "Explicit export/import snapshots; no automatic sync claim"
   }
 }

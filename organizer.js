@@ -68,7 +68,7 @@
   const originalWritten=showWritten;showWritten=function(){originalWritten();const button=document.getElementById('saveW'),handler=button?.onclick;if(button)button.onclick=()=>{handler();renderFlow();side()}};
   const coreRenderMain=renderMain;renderMain=function(){coreRenderMain();simplifyLessonTools()};
   render=function(){nav();side();renderMain();stats();setMode('LEARN',false)};
-  nav();side();renderMain();stats();setMode('HOME',false);
+  nav();side();renderMain();stats();setMode(entry.has('results')?'PARENT':'HOME',false);
   window.__RY_ORGANIZER__={setMode,openLesson,openNext,priorityIndexes,nextInSubject,progress,displayTitle,selectedUnit,unitLessons};
   const entrySubject=entry.get('subject'),entryLesson=entry.get('lesson');if(entrySubject&&entryLesson&&getLesson(entrySubject,entryLesson))openLesson(entrySubject,entryLesson);
 })();

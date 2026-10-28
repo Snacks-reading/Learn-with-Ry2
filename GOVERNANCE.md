@@ -234,3 +234,13 @@ Audit the newly uploaded Egypt vocabulary and all 20 Journals Through Time quest
 - End each preparation update with concrete evidence: what was recovered, what was taught/practiced and delivered, what Riley independently demonstrated, the remaining weakest skills, and the next assigned preparation step. Do not describe planned or locally drafted work as published or completed.
 
 A preparation cycle fails governance if a reasonably discoverable teacher-source clue was ignored, an assigned requirement was omitted, practice was too narrow to reveal the misconception, a known error was left uncorrected, or readiness was asserted without independent evidence.
+
+## 13. Visible practice results and required repair teaching
+
+Every practice must have an obvious results entry point during and after work. Report each set or saved attempt separately: correct/answered selected-response score and percentage, answered/total and incomplete status, independent versus supported or unknown-independence responses, written work awaiting review, and reviewed writing separately. An unanswered practice has no score; it is not 0%. Do not label a mixed or supported score independent.
+
+For each incorrect first response, show the original prompt, Riley’s saved answer, the correct answer, the explanation, repair status and a direct teaching/practice action. Preserve the first response and original score permanently; later correct practice is separate evidence. Each incorrect current response automatically assigns specific reteaching with a worked explanation and a fresh parallel application or constructed example. A repeated original question alone is not sufficient. A missed repair receives further teaching and another practice opportunity. Written work marked incorrect or needs work follows the same cycle; unreviewed writing is pending, never automatically scored correct. Normal narration must be available for teaching and new practice without reading the new key before a response.
+
+A supported repair, written repair awaiting review and a fresh independent delayed success are distinct states. A later check must wait at least 24 hours, use a prompt not already answered, and preserve its own independence flag. Do not remove a historical incorrect answer from the results report when practice improves.
+
+Existing device-local records must remain readable. Explain where the data resides and provide explicit export/import for another device without overwriting local first responses. QC must exercise nonzero correct and incorrect records, unfinished sets, multi-select, legacy records, written review, every map form, repair failures, fresh repair success, cross-device import and phone layout. Empty storage alone is not a valid results test.
