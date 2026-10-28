@@ -194,3 +194,43 @@ If any check fails, the module is not ready to publish.
 `learning-paths.js` is the shared navigation order for the student Home, subject entry, numbered sidebar steps, Previous/Next, and Rayna’s Audio teaching chapters. Weekly additions must be placed deliberately after prerequisites and before the appropriate independent check. Never use insertion order or the full-library index as the learner sequence. Prior units and all older lessons remain accessible. The official 24-target Ancient Israel guide retains its exact internal order.
 
 Each lesson must state the next action: read/listen, resume unanswered practice, repair missed questions, write/save the constructed response, then continue to the next ordered lesson. Practice completion alone must not mark writing or mastery complete. Preserve saved first attempts and supported/independent distinctions. Home must show the next unfinished task in every subject, and the phone layout must expose that task before an expanded lesson menu.
+
+
+## 12. Proactive exam preparation and readiness ownership
+
+Rayna's directive: "Preparation means you get her ready for these exams." The tutoring system owns preparation from source discovery through demonstrated independent application. A newsletter summary, resource list, uploaded packet, or question count does not fulfill this responsibility. Do not wait for Rayna or Riley to identify missing content, find the teacher's resources, request more practice, or discover that a required map location was omitted.
+
+### Start from the assessment and investigate known source clues
+
+- Maintain an assessment register for every announced ELA, Math, Science, and Social Studies quiz/exam: verified date, controlling scope, teacher-used source identities, required question formats, preparation sequence, coverage gaps, and evidence still needed. Distinguish confirmed scope from likely supplemental material.
+- Use everything already known about classroom materials as search leads: exact titles and headings, publisher, series, edition, page and worksheet numbers, copyright/footer, vocabulary lists, map outlines, distinctive question wording, textbook references, assignment links, and embedded media. Follow those clues to the actual matching resource and its relevant companion pages, exercises, diagrams, audio, and review materials.
+- Examples of actionable source identities include STEMscopedia / STEMscopes Tennessee, "Environments and Populations," "Matter and Energy in Food Webs," Evan-Moor EMC 3706 Ancient Egypt / Pocket 1, "Journals Through Time-Egypt," and the assigned "My Life with the Chimpanzees" selection. A title match alone does not verify edition or content.
+- Reconstruct multipage packets in order. Detect duplicate uploads, missing pages, clipped continuations, incomplete diagrams, and handwriting that differs from printed text. Read captions, maps, tables, questions, and directions as requirements, not decoration.
+- Inspect authorized Schoology resources on the agreed schedule: Sundays, Mondays, and Wednesdays at 4:30 p.m. America/Chicago. Use those checks to prepare ahead of deadlines. New uploads and explicit requests may be processed when received; they do not authorize extra recurring Schoology checks. Preserve this cadence unless Rayna changes it.
+- Recover sources independently through available uploads, authorized classroom access, exact public originals, and primary publisher or institutional resources. Log actual attempts and unresolved gaps. Never claim recovery from search snippets or replace the assigned passage with a retelling while claiming exact preparation.
+
+### Convert recovered material into exam preparation
+
+1. Audit each teacher requirement against teaching, a worked model, varied practice, fresh independent application, and later retrieval. Reconcile the original source against the checklist, not the existing app against itself.
+2. Prioritize the nearest assessment and weakest prerequisite. Teach missing vocabulary and concepts before testing them. Use short, accessible sessions without speed pressure; preserve required accommodations and narration.
+3. Provide enough distinct practice to expose misconceptions: exact-count multi-select, map identification, diagram/data interpretation, mixed calculations, editing, error analysis, and constructed explanations as appropriate. Model the teacher's cognitive demand and response format using verified or original parallel items.
+4. For every text-dependent response, include the exact named source and paragraph/page labels; place the required passage, diagram, or media description beside the prompt. A clearly labeled supplemental passage may practice a skill but cannot establish readiness on an unrecovered assigned text.
+5. Review uploaded student answers independently. Distinguish a student misconception, a blank/incomplete response, ambiguous teacher wording, and a factual error in printed material. Preserve classroom expectations while explicitly teaching the accurate boundary. Never copy incorrect notes into a key.
+6. After a miss, preserve the first response, diagnose the reasoning, reteach briefly, give a fresh parallel item, then recheck after a delay. Repeating the same question or recognizing a remembered answer is not transfer.
+7. Prepare both printable practice with separately verified keys/rubrics and corresponding student-path practice; synchronize Rayna's Audio with the verified teaching changes. Preserve earlier lessons and progress. Follow existing source-completeness and publication gates.
+
+### Mandatory map and packet coverage protection
+
+The uploaded Ancient Egypt map checklist has 14 required locations: Upper Egypt, Lower Egypt, Nile Delta, Sinai Peninsula, Western Sahara Desert (teacher wording; distinguish it from the modern Western Sahara territory), Nubia, Mediterranean Sea, Nile River, Red Sea, Memphis, Thebes, Alexandria, Pyramids at Giza, and Valley of the Kings. Each needs accurate location teaching, a visual model, independent identification, and delayed reconstruction. An eight-location practice map cannot count as complete coverage. Check student placements against a reliable reference; do not use handwriting as the key.
+
+Audit the newly uploaded Egypt vocabulary and all 20 Journals Through Time questions individually. In Science, reconcile the actual guided notes and their diagrams across abiotic/biotic factors, limiting factors, photosynthesis, predator-prey interactions, niches, competition, population density, carrying capacity, food chains/webs, producer/consumer levels, decomposers, aquatic/terrestrial systems, conservation, and ecosystem relationships. This is a source-recovery checklist, not a claim that every item belongs to the same quiz. Confirm each assessment's boundaries.
+
+### Readiness must be earned and reported honestly
+
+- Apply the existing independent mastery standard to all four subjects: at least 90% accuracy, sufficient distinct evidence per objective, unfamiliar transfer, and delayed retrieval. Report the weakest objective and written/constructed performance separately; a high overall average may not conceal a required-skill gap.
+- Use separate states: sources recovered; coverage taught; practice completed; independent readiness demonstrated; unresolved or unverified. Neither published lessons nor completed worksheets establish Riley's readiness.
+- Without Riley's responses, report "preparation materials available; readiness not yet measured." With incomplete controlling sources, report the exact coverage limitation. Never promise a grade or call her prepared solely from content presence.
+- If time before an exam is short, immediately provide the best verified priority work, identify missing scope, and continue closing recoverable gaps. Do not stop at a disclaimer or transfer the preparation burden to Rayna.
+- End each preparation update with concrete evidence: what was recovered, what was taught/practiced and delivered, what Riley independently demonstrated, the remaining weakest skills, and the next assigned preparation step. Do not describe planned or locally drafted work as published or completed.
+
+A preparation cycle fails governance if a reasonably discoverable teacher-source clue was ignored, an assigned requirement was omitted, practice was too narrow to reveal the misconception, a known error was left uncorrected, or readiness was asserted without independent evidence.
