@@ -1,0 +1,317 @@
+{
+  "version": "upload-repair-v35",
+  "publicationStatus": "DRAFT_BLOCKED",
+  "sourceStatus": {
+    "mapChecklist": "complete",
+    "studentMap": "complete photograph; not an answer key",
+    "egyptVocabulary": "complete visible sheets",
+    "journalQuestions": "20 visible prompts; assigned source answers partly unverified",
+    "environmentsNotes": "visible uploaded sequence transcribed; printed factual errors identified",
+    "foodWebNotes": "partial; producer/consumer continuation not recovered; some arrows inconsistent with biology"
+  },
+  "journalRequirements": [
+    [
+      "What is menhed?",
+      "unverified",
+      "Exact term and expected answer require recovery of the assigned Journals Through Time resource; do not certify the student's answer."
+    ],
+    [
+      "What is the red land?",
+      "verified-concept",
+      "Desert land beyond the fertile Nile floodplain."
+    ],
+    [
+      "What is Kemet?",
+      "verified-concept",
+      "An ancient Egyptian name meaning black land, referring to fertile dark soil."
+    ],
+    [
+      "Where is Kemet located?",
+      "verified-concept",
+      "Along the Nile's fertile valley and delta."
+    ],
+    [
+      "How long is the Nile?",
+      "approximate-classroom",
+      "The student's roughly 4,000-mile answer is an approximation; do not grade a source-specific number until the assigned source is checked."
+    ],
+    [
+      "What were ditches and canals used for?",
+      "verified-concept",
+      "To manage and direct water for irrigation."
+    ],
+    [
+      "How did Egyptians predict floods?",
+      "source-specific-unverified",
+      "Recover the assigned resource for its expected wording; distinguish observing seasonal/celestial patterns from guaranteeing flood size."
+    ],
+    [
+      "When was ancient Egypt's new year?",
+      "source-specific-unverified",
+      "Calendar period and source wording need verification; do not certify simply first day of flood."
+    ],
+    [
+      "What is Akhet?",
+      "verified-concept",
+      "The inundation or flood season."
+    ],
+    [
+      "What is Shemu?",
+      "verified-concept",
+      "The harvest season."
+    ],
+    [
+      "What crops did Egyptians grow?",
+      "verified-concept",
+      "Examples include wheat, barley, flax, and various fruits and vegetables."
+    ],
+    [
+      "What is a scribe?",
+      "verified-concept",
+      "A trained writer and record keeper."
+    ],
+    [
+      "What are hieroglyphs?",
+      "verified-concept",
+      "Signs in an Egyptian writing system, representing sounds and meanings."
+    ],
+    [
+      "What is papyrus?",
+      "verified-concept",
+      "A wetland plant growing along the Nile; its stems could be made into writing sheets."
+    ],
+    [
+      "What was papyrus used for?",
+      "verified-concept",
+      "Writing material and products such as mats, sandals and boats; check the assigned source before scoring its complete expected list."
+    ],
+    [
+      "Animals represent many _____.",
+      "source-wording",
+      "The visible response is gods; teach that animal forms/features were associated with particular deities rather than all animals being gods."
+    ],
+    [
+      "Who was the first pharaoh?",
+      "classroom-plus-boundary",
+      "The journal uses Narmer; Menes is a traditional first-king name with disputed identification."
+    ],
+    [
+      "What were the two kingdoms along the Nile?",
+      "verified-concept",
+      "Upper Egypt and Lower Egypt."
+    ],
+    [
+      "Upper Egypt is south near Thebes: true or false?",
+      "verified-concept",
+      "True."
+    ],
+    [
+      "Narmer did not unify Upper and Lower Egypt: true or false?",
+      "classroom-plus-boundary",
+      "False under the classroom convention associating Narmer with unification."
+    ]
+  ],
+  "mapRequirements": [
+    {
+      "name": "Upper Egypt",
+      "location": "The southern, upstream Nile region; Thebes is in Upper Egypt.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Lower Egypt",
+      "location": "The northern, downstream region around the Nile Delta.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Nile Delta",
+      "location": "The branching river-mouth region at the Mediterranean Sea.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Sinai Peninsula",
+      "location": "The triangular land east of the Nile Delta, between the Gulf of Suez and Gulf of Aqaba.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Western Sahara Desert",
+      "location": "On this teacher map: the desert west of the Nile. Do not confuse it with the modern Western Sahara territory in northwestern Africa.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Nubia",
+      "location": "The region south of Egypt along the Nile, with its own societies and political traditions.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Mediterranean Sea",
+      "location": "The sea north of Egypt into which the Nile flows.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Nile River",
+      "location": "The river flowing north through Egypt to the Mediterranean Sea.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Red Sea",
+      "location": "The sea east of Egypt, south of the Sinai Peninsula.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Memphis",
+      "location": "An ancient capital near the southern edge of the Nile Delta, south of modern Cairo.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Thebes",
+      "location": "An ancient city in Upper Egypt, around modern Luxor.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Alexandria",
+      "location": "A city on Egypt's Mediterranean coast at the western side of the delta.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Pyramids at Giza",
+      "location": "A pyramid complex west of the Nile, near modern Cairo and north of Memphis.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    },
+    {
+      "name": "Valley of the Kings",
+      "location": "A royal burial area on the west bank of the Nile opposite ancient Thebes.",
+      "status": "teaching drafted; visual map checks and independent visual items pending"
+    }
+  ],
+  "lessons": [
+    {
+      "subject": "SS",
+      "id": "ss_v35_egypt_map14",
+      "requirements": [
+        "Upper Egypt",
+        "Lower Egypt",
+        "Nile Delta",
+        "Sinai Peninsula",
+        "Western Sahara Desert",
+        "Nubia",
+        "Mediterranean Sea",
+        "Nile River",
+        "Red Sea",
+        "Memphis",
+        "Thebes",
+        "Alexandria",
+        "Pyramids at Giza",
+        "Valley of the Kings"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 14,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SS",
+      "id": "ss_v35_egypt_vocab23",
+      "requirements": [
+        "delta",
+        "pharaoh",
+        "dynasty",
+        "mummy",
+        "cataracts",
+        "social class",
+        "occupation",
+        "bureaucracy",
+        "afterlife",
+        "mummification",
+        "pyramids",
+        "artifacts",
+        "hieroglyphics",
+        "papyrus",
+        "Sphinx",
+        "cultural diffusion",
+        "commerce",
+        "Menes",
+        "Khufu",
+        "Hyksos",
+        "Queen Hatshepsut",
+        "Tutankhamun",
+        "Ramses the Great"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 23,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SCI",
+      "id": "science_v35_notes_environment",
+      "requirements": [
+        "ecosystem",
+        "population",
+        "photosynthesis",
+        "irrigation",
+        "food web",
+        "browser",
+        "population density",
+        "carrying capacity",
+        "marine",
+        "freshwater",
+        "terrestrial",
+        "abiotic factors",
+        "biotic factors",
+        "limiting factor",
+        "adaptation",
+        "predator",
+        "prey",
+        "competition",
+        "niche",
+        "interspecific competition",
+        "intraspecific competition"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 21,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    },
+    {
+      "subject": "SCI",
+      "id": "science_v35_notes_foodweb",
+      "requirements": [
+        "producer",
+        "consumer",
+        "primary consumer",
+        "secondary consumer",
+        "tertiary consumer",
+        "quaternary consumer",
+        "decomposer",
+        "phytoplankton",
+        "zooplankton",
+        "predation",
+        "symbiosis",
+        "mutualism",
+        "parasitism",
+        "parasite",
+        "host"
+      ],
+      "teach": true,
+      "model": true,
+      "recognitionItems": 15,
+      "constructedTransfer": true,
+      "delayedPrompt": true,
+      "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
+    }
+  ],
+  "releaseBlockers": [
+    "Recover assigned journal source for prompts 1, 5, 7, 8 and source-specific expected wording.",
+    "Recover omitted producer/consumer continuation; check original aquatic and terrestrial diagrams instead of inferring contradictory arrows.",
+    "Add accurate visual 14-feature map practice; relational text questions alone are insufficient.",
+    "Add varied fresh and delayed items per objective and source-side audit; these draft definition questions are not complete assessment preparation.",
+    "Run student/parent render, progress-preservation, mobile/narration and key QC before any main-branch activation."
+  ],
+  "preservation": "Additive draft only; no existing question IDs, scores, or official 24-target order changed."
+}
