@@ -5,6 +5,14 @@ globalThis.RY_LEARNING_PATHS={
       "title": "Animal Allies · current reading & sentence work",
       "steps": [
         [
+          "ela_v37_assigned_close_read",
+          "Goodall: repetition, contrast and punctuation"
+        ],
+        [
+          "ela_v37_assigned_arc",
+          "Goodall: follow the whole memoir arc"
+        ],
+        [
           "ela_v34_compound_complex",
           "Compound & complex sentences + spiral writing"
         ],
@@ -103,6 +111,18 @@ globalThis.RY_LEARNING_PATHS={
           "Fraction, decimal & percent equivalents"
         ],
         [
+          "math_v37_scale",
+          "Graph distance: read the scale before counting"
+        ],
+        [
+          "math_v37_signs",
+          "Opposites, absolute value and rational-number order"
+        ],
+        [
+          "math_v37_reflect",
+          "Reflect without swapping coordinates"
+        ],
+        [
           "math_v28_integer_rational",
           "Integers, opposites, absolute value & order"
         ],
@@ -176,6 +196,10 @@ globalThis.RY_LEARNING_PATHS={
       "id": "ecology",
       "title": "Environments, populations & ecology",
       "steps": [
+        [
+          "science_v37_biosphere",
+          "Biotic describes; biosphere names a level"
+        ],
         [
           "science_v34_levels_quiz",
           "Five levels + living and nonliving quiz"

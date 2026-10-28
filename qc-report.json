@@ -1,5 +1,5 @@
 {
-  "build": "2026-10-27-results-repairs-v36",
+  "build": "2026-10-28-schoology-review-v37",
   "parentAudioSync": {
     "parentSyncIssues": [],
     "matched": true
@@ -18,17 +18,17 @@
     {
       "key": "ELA",
       "name": "ELA",
-      "lessons": 71
+      "lessons": 73
     },
     {
       "key": "MATH",
       "name": "Math",
-      "lessons": 49
+      "lessons": 52
     },
     {
       "key": "SCI",
       "name": "Science",
-      "lessons": 59
+      "lessons": 60
     },
     {
       "key": "SS",
@@ -42,16 +42,16 @@
     }
   ],
   "totals": {
-    "lessons": 247,
-    "questions": 2798,
-    "explicitWrittenPrompts": 247,
-    "generatedOrExplicitTransferPrompts": 247
+    "lessons": 253,
+    "questions": 2858,
+    "explicitWrittenPrompts": 253,
+    "generatedOrExplicitTransferPrompts": 253
   },
   "answerPositions": {
-    "A": 661,
-    "B": 653,
-    "C": 666,
-    "D": 656,
+    "A": 675,
+    "B": 668,
+    "C": 681,
+    "D": 669,
     "spread": 13
   },
   "duplicateIds": [],
@@ -129,6 +129,9 @@
     "v23Thin": [],
     "big8PriorityActual": [
       "math_v28_big8_source",
+      "math_v37_scale",
+      "math_v37_signs",
+      "math_v37_reflect",
       "math_v28_integer_rational",
       "math_v28_coordinate_graph",
       "math_v28_distance",
@@ -231,7 +234,7 @@
   },
   "pass": true,
   "elaLearnerCopy": {
-    "lessonsChecked": 71,
+    "lessonsChecked": 73,
     "issues": []
   }
 }

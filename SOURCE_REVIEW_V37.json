@@ -1,0 +1,161 @@
+{
+  "checked": "2026-10-28",
+  "releaseScope": "Verified priority additions; incomplete controlling sources remain disclosed. No readiness claim.",
+  "sources": [
+    {
+      "id": "goodall-assigned-pdf",
+      "status": "complete",
+      "scope": "Savvas pages101-110, paragraphs1-61 and four close-read boxes",
+      "provenance": "Schoology ELA Animal Allies/My Life folder; PDF downloaded through authorized UI, read all text and reviewed all10 pages visually."
+    },
+    {
+      "id": "goodall-teacher-guide",
+      "status": "unavailable",
+      "scope": "Separate teacher study guide",
+      "blocker": "Linked Google document gives account-access error; connected Drive fetch404. Guide prompts not recovered."
+    },
+    {
+      "id": "compare-contrast-handout",
+      "status": "unavailable",
+      "blocker": "Schoology My Document iframe Access Denied."
+    },
+    {
+      "id": "math-released-practice",
+      "status": "partial",
+      "scope": "22 released items; some graphs/table values unreadable",
+      "blocker": "No complete key asserted for unrecovered diagram subparts."
+    },
+    {
+      "id": "math-reflections-released-review",
+      "status": "complete",
+      "scope": "10 released items; graphs5-9 visually read and item10 coordinate pairs read; no live test started."
+    },
+    {
+      "id": "ecology-released-review",
+      "status": "complete",
+      "scope": "13 released questions including six-term matching and five-level ordering; no private student records in this manifest."
+    },
+    {
+      "id": "science-notes-continuation",
+      "status": "unavailable",
+      "blocker": "Missing producer/consumer continuation from uploaded packet remains unrecovered."
+    },
+    {
+      "id": "egypt-quarter",
+      "status": "referenced-only",
+      "scope": "Five published quarter resources identified; full OER, Two Lands and project slides not recovered in this pass."
+    }
+  ],
+  "objectiveRoutes": [
+    {
+      "lessonId": "math_v37_scale",
+      "requirements": [
+        "units per grid space",
+        "intervals rather than endpoints",
+        "same-x vertical distance",
+        "same-y horizontal distance",
+        "scaled error analysis",
+        "quarter-unit transfer",
+        "graph/map scale connection"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    },
+    {
+      "lessonId": "math_v37_signs",
+      "requirements": [
+        "outside negative versus absolute value",
+        "opposite versus reciprocal",
+        "negative mixed-number order",
+        "fraction versus decimal comparison",
+        "equal opposite changes",
+        "select-all verification"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    },
+    {
+      "lessonId": "math_v37_reflect",
+      "requirements": [
+        "x-axis invariant",
+        "y-axis invariant",
+        "two-axis transformation",
+        "quadrant signs",
+        "cross-zero distance",
+        "same-side distance",
+        "rational coordinates"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    },
+    {
+      "lessonId": "science_v37_biosphere",
+      "requirements": [
+        "biotic adjective",
+        "biosphere organization level",
+        "five levels",
+        "ecosystem/community boundary",
+        "global/local scale"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    },
+    {
+      "lessonId": "ela_v37_assigned_close_read",
+      "requirements": [
+        "paragraph8 repetition",
+        "paragraph17 chimp/baboon contrast",
+        "paragraph32 punctuation and reaction",
+        "paragraphs48-49 individual description",
+        "first-person perspective",
+        "nine vocabulary terms"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    },
+    {
+      "lessonId": "ela_v37_assigned_arc",
+      "requirements": [
+        "paragraphs1-7 arrival",
+        "paragraphs8-17 setbacks",
+        "paragraphs18-30 environment and support",
+        "paragraphs31-39 trust and tools",
+        "paragraphs40-46 danger and records",
+        "paragraphs47-59 individuality and society",
+        "paragraphs60-61 research growth"
+      ],
+      "teach": "lesson.teach and vocabulary",
+      "model": "lesson.model",
+      "practice": "lesson.q original items0-7; focused bank mirrors same checks, not additional independent evidence",
+      "connection": "lesson.q items6-7 plus normalized connection checks and lesson.w",
+      "transfer": "lesson.w; written result pending parent review",
+      "delayed": "lesson.learningTools.delayed plus existing >=24h repair recheck",
+      "firstResponses": "Existing results/repair system preserves originals. School records stay separate and private."
+    }
+  ]
+}

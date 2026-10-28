@@ -1,0 +1,183 @@
+{
+  "checked": "2026-10-28",
+  "timezone": "America/Chicago",
+  "items": [
+    {
+      "id": "ss-egypt-vocab",
+      "subject": "SS",
+      "title": "Ancient Egypt vocabulary",
+      "date": "2026-10-28",
+      "time": null,
+      "source": "Schoology calendar event; no time supplied",
+      "lesson": "ss_v35_egypt_vocab23",
+      "action": "Verify the paper vocabulary is ready to turn in."
+    },
+    {
+      "id": "ss-egypt-quiz",
+      "subject": "SS",
+      "title": "Ancient Egypt geography quiz",
+      "date": "2026-10-29",
+      "time": null,
+      "source": "Schoology calendar event",
+      "lesson": "ss_v35_egypt_map14",
+      "action": "Complete a fresh 14-location map form and explain Upper/Lower Egypt."
+    },
+    {
+      "id": "ss-egypt-map",
+      "subject": "SS",
+      "title": "Ancient Egypt map due",
+      "date": "2026-10-29",
+      "time": null,
+      "source": "Schoology calendar event",
+      "lesson": "ss_v35_egypt_map14",
+      "action": "Check all 14 locations, water outlines and city/burial symbols."
+    },
+    {
+      "id": "ela-compare",
+      "subject": "ELA",
+      "title": "Compare + Contrast handout",
+      "date": "2026-10-29",
+      "time": "15:00",
+      "source": "Schoology assignment",
+      "lesson": "ela_v37_assigned_close_read",
+      "action": "Compare chimps and baboons with paragraph evidence; turn in the assigned handout."
+    },
+    {
+      "id": "ela-spiral",
+      "subject": "ELA",
+      "title": "Spiral Week October 26–30",
+      "date": "2026-10-30",
+      "time": "15:00",
+      "source": "Schoology assessment; acceptance closes at 08:00 despite 15:00 due time",
+      "lesson": "ela_v34_compound_complex",
+      "action": "Finish before 8:00 a.m. Friday; include the required written work.",
+      "closeTime": "08:00"
+    },
+    {
+      "id": "ela-grammar",
+      "subject": "ELA",
+      "title": "Compound and complex sentence quiz + IXL GG.9",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "October 23 teacher newsletter; no exact time supplied",
+      "lesson": "ela_v34_compound_complex",
+      "action": "Identify each clause and explain sentence punctuation."
+    },
+    {
+      "id": "math-test",
+      "subject": "MATH",
+      "title": "Integers and coordinate graphing test",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 announcement: test Friday",
+      "lesson": "math_v37_scale",
+      "action": "Read graph scale, repair signed-number errors, then solve fresh mixed problems."
+    },
+    {
+      "id": "math-reflect",
+      "subject": "MATH",
+      "title": "Reflections and Distance Practice",
+      "date": "2026-10-30",
+      "time": "23:59",
+      "source": "Schoology assessment",
+      "lesson": "math_v37_scale",
+      "action": "Complete the teacher-assigned work; use the distance lesson for preparation."
+    },
+    {
+      "id": "math-computation",
+      "subject": "MATH",
+      "title": "Computation 11",
+      "date": "2026-10-30",
+      "time": "23:59",
+      "source": "Schoology assessment and paper directions",
+      "lesson": "math_v34_big8_test",
+      "action": "Check answers online, round repeating decimals to hundredths for the checker, show all work and submit on paper."
+    },
+    {
+      "id": "math-reflection",
+      "subject": "MATH",
+      "title": "Practice Test Reflection",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 announcement; no time supplied",
+      "lesson": "math_v37_signs",
+      "action": "Explain each correction and the method, then complete the teacher reflection."
+    },
+    {
+      "id": "math-ixl-fst",
+      "subject": "MATH",
+      "title": "IXL FST · Coordinate Plane Mixed Practice · SS80",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 announcement",
+      "lesson": "math_v37_reflect",
+      "action": "Reach the assigned SmartScore 80 in IXL."
+    },
+    {
+      "id": "math-ixl-32s",
+      "subject": "MATH",
+      "title": "IXL 32S · Reflect a point over an axis · SS80",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 announcement",
+      "lesson": "math_v37_reflect",
+      "action": "Reach the assigned SmartScore 80 in IXL."
+    },
+    {
+      "id": "math-ixl-a7p",
+      "subject": "MATH",
+      "title": "IXL A7P · Distance between two points · SS80",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 announcement",
+      "lesson": "math_v37_scale",
+      "action": "Reach the assigned SmartScore 80 in IXL."
+    },
+    {
+      "id": "science-packet",
+      "subject": "SCI",
+      "title": "Matter and Energy in Food Webs STEMscopedia notes",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "October 23 newsletter and Week 11 Monday homework",
+      "lesson": "science_v34_food_web_energy",
+      "action": "Finish the assigned guided notes and check food-web arrows and consumer pathways."
+    },
+    {
+      "id": "science-env",
+      "subject": "SCI",
+      "title": "Environments and Populations notes · date needs confirmation",
+      "date": "2026-10-30",
+      "time": null,
+      "source": "Week 11 copied daily directions say Friday; embedded October 21/22/24 labels conflict with folder dates",
+      "lesson": "science_v35_notes_environment",
+      "action": "Check both ecology packets. The newsletter specifically names Matter and Energy; this extra packet date is provisional.",
+      "provisional": true
+    },
+    {
+      "id": "ela-goodall",
+      "subject": "ELA",
+      "title": "My Life with the Chimpanzees test",
+      "date": "2026-11-02",
+      "time": null,
+      "source": "October 23 teacher newsletter; no exact time supplied",
+      "lesson": "ela_v37_assigned_close_read",
+      "action": "Study all pp.101–110 and the teacher guide; practice the close-read and whole-memoir lessons."
+    },
+    {
+      "id": "ss-project",
+      "subject": "SS",
+      "title": "Ancient Egypt major project",
+      "date": "2026-12-02",
+      "time": null,
+      "source": "Schoology calendar event",
+      "lesson": "ss_v35_egypt_vocab23",
+      "action": "Read the assigned Student Version Egypt Project slides and rubric before planning. Exact project requirements remain unrecovered."
+    }
+  ],
+  "limitations": [
+    "Dates and source status are not student completion evidence.",
+    "Gradebook rows are incomplete in several courses.",
+    "Private grades and submission statuses are not stored in this public file."
+  ]
+}

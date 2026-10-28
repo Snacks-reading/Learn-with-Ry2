@@ -1,0 +1,26 @@
+{
+  "build": "2026-10-28-schoology-review-v37",
+  "viewports": [
+    {
+      "width": 390,
+      "sixLessonsOpen": true,
+      "deadlineConflictVisible": true,
+      "scaleGraphVisible": true,
+      "scoreAndMissVisible": true,
+      "missRequiresFreshTeaching": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "sixLessonsOpen": true,
+      "deadlineConflictVisible": true,
+      "scaleGraphVisible": true,
+      "scoreAndMissVisible": true,
+      "missRequiresFreshTeaching": true,
+      "noOverflow": true
+    }
+  ],
+  "parentAudioNewChaptersVisible": true,
+  "runtimeErrors": [],
+  "pass": true
+}
