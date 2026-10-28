@@ -5,6 +5,10 @@ globalThis.RY_LEARNING_PATHS={
       "title": "Animal Allies · current reading & sentence work",
       "steps": [
         [
+          "ela_v38_spiral_writing",
+          "Spiral writing · speech, perspective and revision"
+        ],
+        [
           "ela_v37_assigned_close_read",
           "Goodall: repetition, contrast and punctuation"
         ],

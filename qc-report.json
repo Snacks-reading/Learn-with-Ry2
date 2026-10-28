@@ -1,5 +1,5 @@
 {
-  "build": "2026-10-28-schoology-review-v37",
+  "build": "2026-10-28-spiral-coach-v38",
   "parentAudioSync": {
     "parentSyncIssues": [],
     "matched": true
@@ -18,7 +18,7 @@
     {
       "key": "ELA",
       "name": "ELA",
-      "lessons": 73
+      "lessons": 74
     },
     {
       "key": "MATH",
@@ -42,17 +42,17 @@
     }
   ],
   "totals": {
-    "lessons": 253,
-    "questions": 2858,
-    "explicitWrittenPrompts": 253,
-    "generatedOrExplicitTransferPrompts": 253
+    "lessons": 254,
+    "questions": 2868,
+    "explicitWrittenPrompts": 254,
+    "generatedOrExplicitTransferPrompts": 254
   },
   "answerPositions": {
-    "A": 675,
-    "B": 668,
-    "C": 681,
-    "D": 669,
-    "spread": 13
+    "A": 678,
+    "B": 670,
+    "C": 684,
+    "D": 671,
+    "spread": 14
   },
   "duplicateIds": [],
   "duplicateObjectiveIds": [],
@@ -234,7 +234,7 @@
   },
   "pass": true,
   "elaLearnerCopy": {
-    "lessonsChecked": 73,
+    "lessonsChecked": 74,
     "issues": []
   }
 }

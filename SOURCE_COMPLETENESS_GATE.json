@@ -87,7 +87,7 @@
       "semanticKeyReview": true
     }
   },
-  "build": "2026-10-28-schoology-review-v37",
+  "build": "2026-10-28-spiral-coach-v38",
   "auditDate": "2026-10-27",
   "elaLearnerCopyReview": {
     "date": "2026-10-21",
@@ -1161,5 +1161,19 @@
       "math_v37_reflect",
       "science_v37_biosphere"
     ]
+  },
+  "spiralCoachReview": {
+    "source": "Released October19-23 passage, directions and full four-row rubric read through authorized Schoology UI.",
+    "currentSpiral": "Questions/rubric hidden before starting attempt; no attempt started. Exact current scope remains unverified.",
+    "lesson": "ela_v38_spiral_writing",
+    "sourceCoverage": [
+      "first-person narrator",
+      "source-consistent section and sequence",
+      "dialogue amount and punctuation",
+      "plot clarity",
+      "1–2 pieces of figurative language"
+    ],
+    "delivered": "Original rehearsal scene, worked different-scene model, 8 selected checks, planning/speech/draft/revision/fresh writing, same parent chapter. Original scores preserved.",
+    "privacy": "No private response, score, account identifier or full licensed source stored in public release."
   }
 }

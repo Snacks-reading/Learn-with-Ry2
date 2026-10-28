@@ -1,0 +1,26 @@
+{
+  "build": "2026-10-28-spiral-coach-v38",
+  "previousLessonsPreserved": 253,
+  "views": [
+    {
+      "width": 390,
+      "coachFirst": true,
+      "missRequiresTeaching": true,
+      "sourceVisible": true,
+      "scaffoldWritingSavedPending": true,
+      "parentAudioAligned": true,
+      "noOverflow": true
+    },
+    {
+      "width": 1440,
+      "coachFirst": true,
+      "missRequiresTeaching": true,
+      "sourceVisible": true,
+      "scaffoldWritingSavedPending": true,
+      "parentAudioAligned": true,
+      "noOverflow": true
+    }
+  ],
+  "runtimeErrors": [],
+  "pass": true
+}

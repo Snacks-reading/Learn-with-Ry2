@@ -42,6 +42,7 @@ vm.createContext(sandbox);
 teachingResources += '\n' + fs.readFileSync(new URL('../weekly-update-v34.js', import.meta.url), 'utf8');
 teachingResources += '\n' + fs.readFileSync(new URL('../upload-repair-v35.js', import.meta.url), 'utf8');
 teachingResources += '\n' + fs.readFileSync(new URL('../schoology-lessons-v37.js', import.meta.url), 'utf8');
+teachingResources += '\n' + fs.readFileSync(new URL('../spiral-coach-v38.js', import.meta.url), 'utf8');
 const source = inlineScripts[0] + '\n' + rebuild + '\n' + ancientIsraelGuide + '\n' + weeklyUpdate + '\n' + sourceReconciliation + '\n' + highlightMemorization + '\n' + teacherSourceAudit + '\n' + testReadiness + '\n' + elaBinder + '\n' + mathBinder + '\n' + mediaEnrichment + '\n' + teachingResources + '\n' + inlineScripts.slice(1).join('\n').replace(/\brender\(\);\s*$/, '') + '\n;globalThis.__APP={D,BUILD,KEY,ARCH,SCORE_RESET,balancedShuffle,qid,modelText,transferPrompt,SOURCE_REBUILD_V19,SOCIAL_STUDIES_GUIDE_V20,WEEKLY_UPDATE_V21,SOURCE_RECONCILIATION_V22,HIGHLIGHT_MEMORIZATION_V23,TEACHER_SOURCE_AUDIT_V24,TEST_READINESS_V25,ELA_BINDER_V26,MATH_BINDER_V28,MEDIA_ENRICHMENT_V29};';
 vm.runInContext(source, sandbox, { filename: 'index.html' });
 
