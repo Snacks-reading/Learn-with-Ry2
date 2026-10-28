@@ -1,5 +1,5 @@
 {
-  "build": "2026-10-21-teaching-resources-v30",
+  "build": "2026-10-27-upload-practice-v35",
   "parentAudioSync": {
     "parentSyncIssues": [],
     "matched": true
@@ -18,22 +18,22 @@
     {
       "key": "ELA",
       "name": "ELA",
-      "lessons": 64
+      "lessons": 71
     },
     {
       "key": "MATH",
       "name": "Math",
-      "lessons": 46
+      "lessons": 49
     },
     {
       "key": "SCI",
       "name": "Science",
-      "lessons": 55
+      "lessons": 59
     },
     {
       "key": "SS",
       "name": "Social Studies",
-      "lessons": 59
+      "lessons": 65
     },
     {
       "key": "CONNECTIONS",
@@ -42,17 +42,17 @@
     }
   ],
   "totals": {
-    "lessons": 227,
-    "questions": 2504,
-    "explicitWrittenPrompts": 227,
-    "generatedOrExplicitTransferPrompts": 227
+    "lessons": 247,
+    "questions": 2798,
+    "explicitWrittenPrompts": 247,
+    "generatedOrExplicitTransferPrompts": 247
   },
   "answerPositions": {
-    "A": 590,
-    "B": 584,
-    "C": 600,
-    "D": 589,
-    "spread": 16
+    "A": 661,
+    "B": 653,
+    "C": 666,
+    "D": 656,
+    "spread": 13
   },
   "duplicateIds": [],
   "duplicateObjectiveIds": [],
@@ -129,13 +129,15 @@
     "v23Thin": [],
     "big8PriorityActual": [
       "math_v28_big8_source",
-      "math_v29_coordinate_song",
       "math_v28_integer_rational",
       "math_v28_coordinate_graph",
       "math_v28_distance",
-      "math_v28_binder_final",
-      "math_v23_big8_memory",
-      "math_v23_big8_mastery"
+      "extra_v35_math_a",
+      "extra_v35_math_b",
+      "math_v34_big8_test",
+      "math_v22_compare",
+      "math_v22_mental",
+      "math_v28_binder_final"
     ],
     "big8MemorizationFirst": true,
     "big8MemoryContract": true
@@ -206,7 +208,8 @@
     "officialGuideAndTestPrioritized": true,
     "sixModes": true,
     "nextActionFirst": true,
-    "weeklyPriorities": true,
+    "explicitSubjectPaths": true,
+    "explicitNextTask": true,
     "priorityChoiceCap": true,
     "fullLibraryPreserved": true,
     "parentToolsSeparated": true,
@@ -226,5 +229,9 @@
     "officialStudyGuideOrderRequired": true,
     "noLearnerFacingAdminNotes": true
   },
-  "pass": true
+  "pass": true,
+  "elaLearnerCopy": {
+    "lessonsChecked": 71,
+    "issues": []
+  }
 }

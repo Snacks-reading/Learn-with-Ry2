@@ -1,186 +1,186 @@
 {
-  "version": "upload-repair-v35",
-  "publicationStatus": "DRAFT_BLOCKED",
+  "version": "2026-10-27-upload-practice-v35",
+  "publicationStatus": "VERIFIED_SUPPLEMENTAL_RELEASE_AUTHORIZED",
   "sourceStatus": {
     "mapChecklist": "complete",
     "studentMap": "complete photograph; not an answer key",
     "egyptVocabulary": "complete visible sheets",
-    "journalQuestions": "20 visible prompts; assigned source answers partly unverified",
+    "journalQuestions": "All 20 prompts visible; exact matching program identified and full public transcript read; recognition errors corrected using uploaded wording and museum references.",
     "environmentsNotes": "visible uploaded sequence transcribed; printed factual errors identified",
-    "foodWebNotes": "partial; producer/consumer continuation not recovered; some arrows inconsistent with biology"
+    "foodWebNotes": "Uploaded pages complete as received, with an absent producer/consumer continuation. This release teaches verified biological concepts and corrects visible errors; it does not reconstruct or claim complete coverage of the missing page."
   },
   "journalRequirements": [
     [
       "What is menhed?",
-      "unverified",
-      "Exact term and expected answer require recovery of the assigned Journals Through Time resource; do not certify the student's answer."
+      "matched-resource-concept-checked",
+      "A writing kit with brushes, palette and ink."
     ],
     [
       "What is the red land?",
-      "verified-concept",
-      "Desert land beyond the fertile Nile floodplain."
+      "matched-resource-concept-checked",
+      "The dry desert beyond the fertile Nile land."
     ],
     [
       "What is Kemet?",
-      "verified-concept",
-      "An ancient Egyptian name meaning black land, referring to fertile dark soil."
+      "matched-resource-concept-checked",
+      "Black land: fertile dark soil."
     ],
     [
       "Where is Kemet located?",
-      "verified-concept",
-      "Along the Nile's fertile valley and delta."
+      "matched-resource-concept-checked",
+      "Along the Nile banks and fertile delta."
     ],
     [
       "How long is the Nile?",
-      "approximate-classroom",
-      "The student's roughly 4,000-mile answer is an approximation; do not grade a source-specific number until the assigned source is checked."
+      "matched-resource-concept-checked",
+      "The video says nearly 4,000 miles; an approximation."
     ],
     [
       "What were ditches and canals used for?",
-      "verified-concept",
-      "To manage and direct water for irrigation."
+      "matched-resource-concept-checked",
+      "To retain floodwater and direct it to fields."
     ],
     [
       "How did Egyptians predict floods?",
-      "source-specific-unverified",
-      "Recover the assigned resource for its expected wording; distinguish observing seasonal/celestial patterns from guaranteeing flood size."
+      "matched-resource-concept-checked",
+      "They observed the Moon and stars and developed a calendar."
     ],
     [
       "When was ancient Egypt's new year?",
-      "source-specific-unverified",
-      "Calendar period and source wording need verification; do not certify simply first day of flood."
+      "matched-resource-concept-checked",
+      "The video links it to flood onset and Sirius; calendars drifted over time."
     ],
     [
       "What is Akhet?",
-      "verified-concept",
-      "The inundation or flood season."
+      "matched-resource-concept-checked",
+      "Flooding season."
     ],
     [
       "What is Shemu?",
-      "verified-concept",
-      "The harvest season."
+      "matched-resource-concept-checked",
+      "Harvest and heat season."
     ],
     [
       "What crops did Egyptians grow?",
-      "verified-concept",
-      "Examples include wheat, barley, flax, and various fruits and vegetables."
+      "matched-resource-concept-checked",
+      "Barley, wheat, flax, vegetables and fruits."
     ],
     [
       "What is a scribe?",
-      "verified-concept",
-      "A trained writer and record keeper."
+      "matched-resource-concept-checked",
+      "A trained reader, writer and record keeper."
     ],
     [
       "What are hieroglyphs?",
-      "verified-concept",
-      "Signs in an Egyptian writing system, representing sounds and meanings."
+      "matched-resource-concept-checked",
+      "Egyptian signs used for formal and religious writing; signs convey sounds and meanings."
     ],
     [
       "What is papyrus?",
-      "verified-concept",
-      "A wetland plant growing along the Nile; its stems could be made into writing sheets."
+      "matched-resource-concept-checked",
+      "A Nile wetland plant, also made into writing material."
     ],
     [
       "What was papyrus used for?",
-      "verified-concept",
-      "Writing material and products such as mats, sandals and boats; check the assigned source before scoring its complete expected list."
+      "matched-resource-concept-checked",
+      "Food, boats, fuel, sandals and writing scrolls."
     ],
     [
       "Animals represent many _____.",
-      "source-wording",
-      "The visible response is gods; teach that animal forms/features were associated with particular deities rather than all animals being gods."
+      "matched-resource-concept-checked",
+      "Gods; animal forms represented particular deities."
     ],
     [
       "Who was the first pharaoh?",
-      "classroom-plus-boundary",
-      "The journal uses Narmer; Menes is a traditional first-king name with disputed identification."
+      "matched-resource-concept-checked",
+      "Narmer in this video; Menes is a traditional first-king name with uncertain identification."
     ],
     [
       "What were the two kingdoms along the Nile?",
-      "verified-concept",
+      "matched-resource-concept-checked",
       "Upper Egypt and Lower Egypt."
     ],
     [
       "Upper Egypt is south near Thebes: true or false?",
-      "verified-concept",
-      "True."
+      "matched-resource-concept-checked",
+      "True: southern and upstream."
     ],
     [
       "Narmer did not unify Upper and Lower Egypt: true or false?",
-      "classroom-plus-boundary",
-      "False under the classroom convention associating Narmer with unification."
+      "matched-resource-concept-checked",
+      "False in the video: Narmer united the kingdoms."
     ]
   ],
   "mapRequirements": [
     {
       "name": "Upper Egypt",
       "location": "The southern, upstream Nile region; Thebes is in Upper Egypt.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Lower Egypt",
       "location": "The northern, downstream region around the Nile Delta.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Nile Delta",
       "location": "The branching river-mouth region at the Mediterranean Sea.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Sinai Peninsula",
       "location": "The triangular land east of the Nile Delta, between the Gulf of Suez and Gulf of Aqaba.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Western Sahara Desert",
       "location": "On this teacher map: the desert west of the Nile. Do not confuse it with the modern Western Sahara territory in northwestern Africa.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Nubia",
       "location": "The region south of Egypt along the Nile, with its own societies and political traditions.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Mediterranean Sea",
       "location": "The sea north of Egypt into which the Nile flows.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Nile River",
       "location": "The river flowing north through Egypt to the Mediterranean Sea.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Red Sea",
       "location": "The sea east of Egypt, south of the Sinai Peninsula.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Memphis",
       "location": "An ancient capital near the southern edge of the Nile Delta, south of modern Cairo.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Thebes",
       "location": "An ancient city in Upper Egypt, around modern Luxor.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Alexandria",
       "location": "A city on Egypt's Mediterranean coast at the western side of the delta.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Pyramids at Giza",
       "location": "A pyramid complex west of the Nile, near modern Cairo and north of Memphis.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     },
     {
       "name": "Valley of the Kings",
       "location": "A royal burial area on the west bank of the Nile opposite ancient Thebes.",
-      "status": "teaching drafted; visual map checks and independent visual items pending"
+      "status": "Teaching + numbered visual model + four practice formats + later reconstruction; 14/14 represented."
     }
   ],
   "lessons": [
@@ -306,12 +306,42 @@
       "independentEvidencePerObjective": "NOT YET four distinct opportunities; no mastery claim"
     }
   ],
-  "releaseBlockers": [
-    "Recover assigned journal source for prompts 1, 5, 7, 8 and source-specific expected wording.",
-    "Recover omitted producer/consumer continuation; check original aquatic and terrestrial diagrams instead of inferring contradictory arrows.",
-    "Add accurate visual 14-feature map practice; relational text questions alone are insufficient.",
-    "Add varied fresh and delayed items per objective and source-side audit; these draft definition questions are not complete assessment preparation.",
-    "Run student/parent render, progress-preservation, mobile/narration and key QC before any main-branch activation."
+  "releaseBlockers": [],
+  "preservation": "Additive draft only; no existing question IDs, scores, or official 24-target order changed.",
+  "scopeLimitations": [
+    "Assigned private Goodall study guide and exact math practice test have not been recovered. Parallel practice supplements their verified newsletter scope; it does not certify assigned-test completeness.",
+    "Missing Science producer/consumer continuation is not represented as recovered. Standard feeding-level instruction supplements the visible notes.",
+    "No Riley response evidence has been received in this release. Materials available; readiness not measured."
   ],
-  "preservation": "Additive draft only; no existing question IDs, scores, or official 24-target order changed."
+  "sourceRecovery": [
+    {
+      "query": "Journals Through Time Egypt",
+      "result": "Correct source family is Journals Through History; exact Menhed and Kemet wording matches Land of Abundance."
+    },
+    {
+      "url": "https://app.discoveryeducation.com/learn/videos/9e04baba-6d0c-4be5-beab-91339217b6b6/",
+      "status": "Publisher identity and program description verified; full player sign-in required."
+    },
+    {
+      "url": "https://www.teachertube.com/videos/journals-through-history-egypt-land-of-abundance-461038",
+      "status": "Full public transcript read, matching all twenty prompts; machine-transcription spellings not copied."
+    },
+    {
+      "url": "https://giza.fas.harvard.edu/faq/",
+      "status": "Full FAQ read for geography, rule, writing and burial concepts."
+    },
+    {
+      "url": "https://www.globalegyptianmuseum.org/attachments/GEM_Imhotep.pdf",
+      "status": "Map on PDF page 6 visually inspected for relative location; narrative oversimplifications excluded."
+    },
+    {
+      "url": "https://www.metmuseum.org/art/collection/search/560805",
+      "status": "Scribe palette object record read."
+    },
+    {
+      "url": "https://www.globalegyptianmuseum.org/glossary.aspx?id=359",
+      "status": "Sothis/Sirius and calendar qualification verified."
+    }
+  ],
+  "authorization": "Rayna explicitly directed Resolve and publish, including additional upcoming-assessment practice. Release is limited to verified teaching and clearly labeled original parallel practice; no overall source-completeness or readiness certification."
 }

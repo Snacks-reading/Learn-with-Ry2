@@ -1,0 +1,3415 @@
+{
+  "build": "2026-10-27-upload-practice-v35",
+  "scope": "Recovered upload concepts and original parallel practice; incomplete private resources explicitly excluded from completeness certification",
+  "subjects": [
+    "ELA",
+    "MATH",
+    "SCI",
+    "SS"
+  ],
+  "requirements": [
+    {
+      "id": "ss_v35_egypt_map14_term_1",
+      "subject": "SS",
+      "requirement": "Upper Egypt",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 0
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The southern, upstream Nile region; Thebes is in Upper Egypt."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_2",
+      "subject": "SS",
+      "requirement": "Lower Egypt",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 1
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The northern, downstream region around the Nile Delta."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_3",
+      "subject": "SS",
+      "requirement": "Nile Delta",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 2
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The branching river-mouth region at the Mediterranean Sea."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_4",
+      "subject": "SS",
+      "requirement": "Sinai Peninsula",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 3
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The triangular land east of the Nile Delta, between the Gulf of Suez and Gulf of Aqaba."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_5",
+      "subject": "SS",
+      "requirement": "Western Sahara Desert",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 4
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "On this teacher map: the desert west of the Nile. Do not confuse it with the modern Western Sahara territory in northwestern Africa."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_6",
+      "subject": "SS",
+      "requirement": "Nubia",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 5
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The region south of Egypt along the Nile, with its own societies and political traditions."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_7",
+      "subject": "SS",
+      "requirement": "Mediterranean Sea",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 6
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The sea north of Egypt into which the Nile flows."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_8",
+      "subject": "SS",
+      "requirement": "Nile River",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 7
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The river flowing north through Egypt to the Mediterranean Sea."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_9",
+      "subject": "SS",
+      "requirement": "Red Sea",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 8
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The sea east of Egypt, south of the Sinai Peninsula."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_10",
+      "subject": "SS",
+      "requirement": "Memphis",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 9
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An ancient capital near the southern edge of the Nile Delta, south of modern Cairo."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_11",
+      "subject": "SS",
+      "requirement": "Thebes",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 10
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An ancient city in Upper Egypt, around modern Luxor."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_12",
+      "subject": "SS",
+      "requirement": "Alexandria",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 11
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A city on Egypt's Mediterranean coast at the western side of the delta."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_13",
+      "subject": "SS",
+      "requirement": "Pyramids at Giza",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 12
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A pyramid complex west of the Nile, near modern Cairo and north of Memphis."
+    },
+    {
+      "id": "ss_v35_egypt_map14_term_14",
+      "subject": "SS",
+      "requirement": "Valley of the Kings",
+      "source": "Uploaded 14-location teacher checklist and Evan-Moor EMC 3706 Pocket 1 map; Harvard Digital Giza and university Egypt maps support placements. Original schematic, not to scale.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "v",
+        "index": 13
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_map14",
+        "format": "exam-practice.js: four visual/spatial/reconstruction forms"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_map14",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A royal burial area on the west bank of the Nile opposite ancient Thebes."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_1",
+      "subject": "SS",
+      "requirement": "delta",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 0
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Land formed by sediment deposited near a river's mouth."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_2",
+      "subject": "SS",
+      "requirement": "pharaoh",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 1
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An ancient Egyptian ruler with political and religious authority."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_3",
+      "subject": "SS",
+      "requirement": "dynasty",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 2
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A sequence of rulers belonging to the same family."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_4",
+      "subject": "SS",
+      "requirement": "mummy",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 3
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A body preserved after death."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_5",
+      "subject": "SS",
+      "requirement": "cataracts",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 4
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Rocky river rapids that can hinder navigation."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_6",
+      "subject": "SS",
+      "requirement": "social class",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 5
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A grouping associated with social position, status, or economic circumstances."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_7",
+      "subject": "SS",
+      "requirement": "occupation",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 6
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A person's work or job; it is not necessarily hereditary."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_8",
+      "subject": "SS",
+      "requirement": "bureaucracy",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 7
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A system of officials and offices that administer government."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_9",
+      "subject": "SS",
+      "requirement": "afterlife",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 8
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An existence believed to follow death."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_10",
+      "subject": "SS",
+      "requirement": "mummification",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 9
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The process of preserving a body after death."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_11",
+      "subject": "SS",
+      "requirement": "pyramids",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 10
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Monumental structures with sloping triangular faces; several served as royal tombs in Egypt."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_12",
+      "subject": "SS",
+      "requirement": "artifacts",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 11
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Objects made or modified by humans that provide evidence about the past."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_13",
+      "subject": "SS",
+      "requirement": "hieroglyphics",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 12
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An Egyptian writing system whose signs can represent sounds and meanings."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_14",
+      "subject": "SS",
+      "requirement": "papyrus",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 13
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A wetland plant, also the writing material made from its stems."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_15",
+      "subject": "SS",
+      "requirement": "Sphinx",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 14
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An Egyptian composite figure, commonly with a lion's body and a human head."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_16",
+      "subject": "SS",
+      "requirement": "cultural diffusion",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 15
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The spread of cultural ideas, practices, or technologies between groups."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_17",
+      "subject": "SS",
+      "requirement": "commerce",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 16
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The buying, selling, and exchange of goods and services."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_18",
+      "subject": "SS",
+      "requirement": "Menes",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 17
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A traditional name for Egypt's first king; identification with Narmer or Aha is uncertain."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_19",
+      "subject": "SS",
+      "requirement": "Khufu",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 18
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An Old Kingdom pharaoh associated with the Great Pyramid at Giza."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_20",
+      "subject": "SS",
+      "requirement": "Hyksos",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 19
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Rulers of West Asian origin who controlled part of Egypt during the Second Intermediate Period."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_21",
+      "subject": "SS",
+      "requirement": "Queen Hatshepsut",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 20
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An important female pharaoh known for major building projects and trade; not Egypt's first female leader."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_22",
+      "subject": "SS",
+      "requirement": "Tutankhamun",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 21
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A New Kingdom pharaoh whose largely intact tomb became famous after its discovery."
+    },
+    {
+      "id": "ss_v35_egypt_vocab23_term_23",
+      "subject": "SS",
+      "requirement": "Ramses the Great",
+      "source": "Uploaded Egypt Vocabulary and Journals Through Time-Egypt vocabulary sheets; checked institutional definitions with unresolved source-specific wording flagged",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "v",
+        "index": 22
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_egypt_vocab23",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_egypt_vocab23",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Ramesses II, a long-reigning New Kingdom pharaoh known for monuments and military campaigns."
+    },
+    {
+      "id": "ss_v35_journal20_term_1",
+      "subject": "SS",
+      "requirement": "menhed",
+      "source": "Uploaded Journals Through Time-Egypt prompts matched to Discovery Education, Journals Through History: Ancient Egypt\u2014Land of Abundance (2006); public transcript match, with museum-supported qualifications.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "v",
+        "index": 0
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A scribal writing kit."
+    },
+    {
+      "id": "ss_v35_journal20_term_2",
+      "subject": "SS",
+      "requirement": "Kemet",
+      "source": "Uploaded Journals Through Time-Egypt prompts matched to Discovery Education, Journals Through History: Ancient Egypt\u2014Land of Abundance (2006); public transcript match, with museum-supported qualifications.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "v",
+        "index": 1
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Black land: the fertile Nile land."
+    },
+    {
+      "id": "ss_v35_journal20_term_3",
+      "subject": "SS",
+      "requirement": "Akhet",
+      "source": "Uploaded Journals Through Time-Egypt prompts matched to Discovery Education, Journals Through History: Ancient Egypt\u2014Land of Abundance (2006); public transcript match, with museum-supported qualifications.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "v",
+        "index": 2
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The inundation season."
+    },
+    {
+      "id": "ss_v35_journal20_term_4",
+      "subject": "SS",
+      "requirement": "Shemu",
+      "source": "Uploaded Journals Through Time-Egypt prompts matched to Discovery Education, Journals Through History: Ancient Egypt\u2014Land of Abundance (2006); public transcript match, with museum-supported qualifications.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "v",
+        "index": 3
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "ss_v35_journal20",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The harvest season."
+    },
+    {
+      "id": "science_v35_notes_environment_term_1",
+      "subject": "SCI",
+      "requirement": "ecosystem",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 0
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Interacting organisms and their nonliving surroundings."
+    },
+    {
+      "id": "science_v35_notes_environment_term_2",
+      "subject": "SCI",
+      "requirement": "population",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 1
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Members of the same species in a particular area."
+    },
+    {
+      "id": "science_v35_notes_environment_term_3",
+      "subject": "SCI",
+      "requirement": "photosynthesis",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 2
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Using light energy to make sugars from carbon dioxide and water, releasing oxygen in oxygenic photosynthesis."
+    },
+    {
+      "id": "science_v35_notes_environment_term_4",
+      "subject": "SCI",
+      "requirement": "irrigation",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 3
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Supplying water to soil or crops through a managed system."
+    },
+    {
+      "id": "science_v35_notes_environment_term_5",
+      "subject": "SCI",
+      "requirement": "food web",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 4
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A model of connected feeding relationships."
+    },
+    {
+      "id": "science_v35_notes_environment_term_6",
+      "subject": "SCI",
+      "requirement": "browser",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 5
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An animal that eats leaves and shoots of woody plants; giraffes are browsers."
+    },
+    {
+      "id": "science_v35_notes_environment_term_7",
+      "subject": "SCI",
+      "requirement": "population density",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 6
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The number of individuals per unit area or volume."
+    },
+    {
+      "id": "science_v35_notes_environment_term_8",
+      "subject": "SCI",
+      "requirement": "carrying capacity",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 7
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "The population of a particular species an environment can sustain under specified resource conditions; it can change."
+    },
+    {
+      "id": "science_v35_notes_environment_term_9",
+      "subject": "SCI",
+      "requirement": "marine",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 8
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Related to saltwater environments."
+    },
+    {
+      "id": "science_v35_notes_environment_term_10",
+      "subject": "SCI",
+      "requirement": "freshwater",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 9
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Water environments with low salt concentration."
+    },
+    {
+      "id": "science_v35_notes_environment_term_11",
+      "subject": "SCI",
+      "requirement": "terrestrial",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 10
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Related to land environments."
+    },
+    {
+      "id": "science_v35_notes_environment_term_12",
+      "subject": "SCI",
+      "requirement": "abiotic factors",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 11
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Nonliving physical and chemical conditions such as light, water, temperature, and mineral composition."
+    },
+    {
+      "id": "science_v35_notes_environment_term_13",
+      "subject": "SCI",
+      "requirement": "biotic factors",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 12
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Organisms and their biological interactions; living and once-living material in the classroom classification."
+    },
+    {
+      "id": "science_v35_notes_environment_term_14",
+      "subject": "SCI",
+      "requirement": "limiting factor",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 13
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A condition or resource that restricts population growth or survival."
+    },
+    {
+      "id": "science_v35_notes_environment_term_15",
+      "subject": "SCI",
+      "requirement": "adaptation",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 14
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An inherited characteristic that can improve survival or reproduction in a particular environment."
+    },
+    {
+      "id": "science_v35_notes_environment_term_16",
+      "subject": "SCI",
+      "requirement": "predator",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 15
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism that hunts and eats another organism."
+    },
+    {
+      "id": "science_v35_notes_environment_term_17",
+      "subject": "SCI",
+      "requirement": "prey",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 16
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism hunted and eaten by a predator."
+    },
+    {
+      "id": "science_v35_notes_environment_term_18",
+      "subject": "SCI",
+      "requirement": "competition",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 17
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Organisms using the same limited resource."
+    },
+    {
+      "id": "science_v35_notes_environment_term_19",
+      "subject": "SCI",
+      "requirement": "niche",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 18
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism's ecological role, resource use, and relationships."
+    },
+    {
+      "id": "science_v35_notes_environment_term_20",
+      "subject": "SCI",
+      "requirement": "interspecific competition",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 19
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Competition between members of different species."
+    },
+    {
+      "id": "science_v35_notes_environment_term_21",
+      "subject": "SCI",
+      "requirement": "intraspecific competition",
+      "source": "Uploaded Environments and Populations Guided Notes; corrected explanations checked against biological definitions. Original parallel application items.",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "v",
+        "index": 20
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_environment",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_environment",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Competition between members of the same species."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_1",
+      "subject": "SCI",
+      "requirement": "producer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 0
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism that builds organic food from inorganic materials using an energy source."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_2",
+      "subject": "SCI",
+      "requirement": "consumer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 1
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism that obtains energy by eating other organisms or organic material."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_3",
+      "subject": "SCI",
+      "requirement": "primary consumer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 2
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer feeding directly on a producer in the specified pathway."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_4",
+      "subject": "SCI",
+      "requirement": "secondary consumer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 3
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer feeding on a primary consumer in the specified pathway."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_5",
+      "subject": "SCI",
+      "requirement": "tertiary consumer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 4
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer feeding on a secondary consumer in the specified pathway."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_6",
+      "subject": "SCI",
+      "requirement": "quaternary consumer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 5
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer feeding on a tertiary consumer in the specified pathway."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_7",
+      "subject": "SCI",
+      "requirement": "decomposer",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 6
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism such as certain fungi or bacteria that breaks down dead material or waste and recycles nutrients."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_8",
+      "subject": "SCI",
+      "requirement": "phytoplankton",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 7
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Microscopic photosynthetic organisms that form an important aquatic producer base; not all are plants."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_9",
+      "subject": "SCI",
+      "requirement": "zooplankton",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 8
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "Drifting aquatic consumers; many eat phytoplankton, but their diets vary."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_10",
+      "subject": "SCI",
+      "requirement": "predation",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 9
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A feeding interaction in which a predator eats prey."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_11",
+      "subject": "SCI",
+      "requirement": "symbiosis",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 10
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A close, long-term relationship between different species."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_12",
+      "subject": "SCI",
+      "requirement": "mutualism",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 11
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A relationship in which both species benefit."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_13",
+      "subject": "SCI",
+      "requirement": "parasitism",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 12
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A relationship in which a parasite benefits while harming its host."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_14",
+      "subject": "SCI",
+      "requirement": "parasite",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 13
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism that obtains resources from a host and harms it."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_15",
+      "subject": "SCI",
+      "requirement": "host",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 14
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An organism on or in which a parasite lives or feeds."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_16",
+      "subject": "SCI",
+      "requirement": "autotroph",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 15
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A producer that builds organic food from inorganic materials using light or chemical energy."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_17",
+      "subject": "SCI",
+      "requirement": "herbivore",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 16
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer that eats plants or other producers."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_18",
+      "subject": "SCI",
+      "requirement": "carnivore",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 17
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer that eats animals."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_19",
+      "subject": "SCI",
+      "requirement": "omnivore",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 18
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "A consumer that eats both producer material and animals."
+    },
+    {
+      "id": "science_v35_notes_foodweb_term_20",
+      "subject": "SCI",
+      "requirement": "invertebrate",
+      "source": "Uploaded Matter and Energy in Food Webs and Relationships within Ecosystems pages; packet has a missing producer/consumer continuation and ambiguous printed food-web arrows, so full packet coverage remains partial",
+      "teach": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "v",
+        "index": 19
+      },
+      "model": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "model"
+      },
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "science_v35_notes_foodweb",
+        "format": "Recognition practice plus grouped concept/application checks; not four independent records for every term"
+      },
+      "transfer": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "w",
+        "status": "opportunity available; response not received"
+      },
+      "delayed": {
+        "file": "upload-repair-v35.js",
+        "lessonId": "science_v35_notes_foodweb",
+        "field": "learningTools.delayed",
+        "status": "later-session opportunity; evidence not received"
+      },
+      "readiness": "not measured",
+      "meaning": "An animal without a backbone; many small aquatic consumers are invertebrates."
+    },
+    {
+      "id": "journal35_source_1",
+      "subject": "SS",
+      "requirement": "What is menhed?",
+      "source": "Uploaded Journals Through Time-Egypt, question 1; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_1"
+      },
+      "key": "A writing kit with brushes, palette and ink.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_2",
+      "subject": "SS",
+      "requirement": "What is the red land?",
+      "source": "Uploaded Journals Through Time-Egypt, question 2; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_2"
+      },
+      "key": "The dry desert beyond the fertile Nile land.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_3",
+      "subject": "SS",
+      "requirement": "What is Kemet?",
+      "source": "Uploaded Journals Through Time-Egypt, question 3; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_3"
+      },
+      "key": "Black land: fertile dark soil.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_4",
+      "subject": "SS",
+      "requirement": "Where is Kemet located?",
+      "source": "Uploaded Journals Through Time-Egypt, question 4; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_4"
+      },
+      "key": "Along the Nile banks and fertile delta.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_5",
+      "subject": "SS",
+      "requirement": "How long is the Nile?",
+      "source": "Uploaded Journals Through Time-Egypt, question 5; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_5"
+      },
+      "key": "The video says nearly 4,000 miles; an approximation.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_6",
+      "subject": "SS",
+      "requirement": "What were ditches and canals used for?",
+      "source": "Uploaded Journals Through Time-Egypt, question 6; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_6"
+      },
+      "key": "To retain floodwater and direct it to fields.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_7",
+      "subject": "SS",
+      "requirement": "How did Egyptians predict floods?",
+      "source": "Uploaded Journals Through Time-Egypt, question 7; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_7"
+      },
+      "key": "They observed the Moon and stars and developed a calendar.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_8",
+      "subject": "SS",
+      "requirement": "When was ancient Egypt's new year?",
+      "source": "Uploaded Journals Through Time-Egypt, question 8; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_8"
+      },
+      "key": "The video links it to flood onset and Sirius; calendars drifted over time.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_9",
+      "subject": "SS",
+      "requirement": "What is Akhet?",
+      "source": "Uploaded Journals Through Time-Egypt, question 9; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_9"
+      },
+      "key": "Flooding season.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_10",
+      "subject": "SS",
+      "requirement": "What is Shemu?",
+      "source": "Uploaded Journals Through Time-Egypt, question 10; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_10"
+      },
+      "key": "Harvest and heat season.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_11",
+      "subject": "SS",
+      "requirement": "What crops did Egyptians grow?",
+      "source": "Uploaded Journals Through Time-Egypt, question 11; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_11"
+      },
+      "key": "Barley, wheat, flax, vegetables and fruits.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_12",
+      "subject": "SS",
+      "requirement": "What is a scribe?",
+      "source": "Uploaded Journals Through Time-Egypt, question 12; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_12"
+      },
+      "key": "A trained reader, writer and record keeper.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_13",
+      "subject": "SS",
+      "requirement": "What are hieroglyphs?",
+      "source": "Uploaded Journals Through Time-Egypt, question 13; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_13"
+      },
+      "key": "Egyptian signs used for formal and religious writing; signs convey sounds and meanings.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_14",
+      "subject": "SS",
+      "requirement": "What is papyrus?",
+      "source": "Uploaded Journals Through Time-Egypt, question 14; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_14"
+      },
+      "key": "A Nile wetland plant, also made into writing material.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_15",
+      "subject": "SS",
+      "requirement": "What was papyrus used for?",
+      "source": "Uploaded Journals Through Time-Egypt, question 15; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_15"
+      },
+      "key": "Food, boats, fuel, sandals and writing scrolls.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_16",
+      "subject": "SS",
+      "requirement": "Animals represent many _____.",
+      "source": "Uploaded Journals Through Time-Egypt, question 16; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_16"
+      },
+      "key": "Gods; animal forms represented particular deities.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_17",
+      "subject": "SS",
+      "requirement": "Who was the first pharaoh?",
+      "source": "Uploaded Journals Through Time-Egypt, question 17; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_17"
+      },
+      "key": "Narmer in this video; Menes is a traditional first-king name with uncertain identification.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_18",
+      "subject": "SS",
+      "requirement": "What were the two kingdoms along the Nile?",
+      "source": "Uploaded Journals Through Time-Egypt, question 18; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_18"
+      },
+      "key": "Upper Egypt and Lower Egypt.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_19",
+      "subject": "SS",
+      "requirement": "Upper Egypt is south near Thebes: true or false?",
+      "source": "Uploaded Journals Through Time-Egypt, question 19; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_19"
+      },
+      "key": "True: southern and upstream.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "journal35_source_20",
+      "subject": "SS",
+      "requirement": "Narmer did not unify Upper and Lower Egypt: true or false?",
+      "source": "Uploaded Journals Through Time-Egypt, question 20; matched public Discovery Education program transcript",
+      "teach": "Egypt map/vocabulary lessons and journal teaching",
+      "practice": {
+        "file": "exam-practice-data.js",
+        "set": "ss_v35_journal20",
+        "item": "journal35_20"
+      },
+      "key": "False in the video: Narmer united the kingdoms.",
+      "transfer": "ss_v35_journal20.w",
+      "delayed": "ss_v35_journal20.learningTools.delayed",
+      "readiness": "written review and delayed evidence pending"
+    },
+    {
+      "id": "science35_diagram_caption_0",
+      "subject": "SCI",
+      "requirement": "survival needs, light and activity cycles, water, shelter, temperature ranges and soil composition",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_1",
+      "subject": "SCI",
+      "requirement": "cactus and kangaroo-rat adaptations; archaea extreme temperature example",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_2",
+      "subject": "SCI",
+      "requirement": "photosynthesis diagram inputs, outputs and energy transformation",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_3",
+      "subject": "SCI",
+      "requirement": "predator\u2013prey changes and competition as resources change",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_4",
+      "subject": "SCI",
+      "requirement": "density calculation and changing species-specific carrying capacity",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_5",
+      "subject": "SCI",
+      "requirement": "garden planning: rain, irrigation, soil, light and herbivory",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_environment.teach / .model",
+      "practice": "science_v35_notes_environment.q",
+      "transfer": "science_v35_notes_environment.w",
+      "delayed": "science_v35_notes_environment.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_6",
+      "subject": "SCI",
+      "requirement": "terrestrial and aquatic examples; marine/freshwater distinction",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_foodweb.teach / .model",
+      "practice": "science_v35_notes_foodweb.q",
+      "transfer": "science_v35_notes_foodweb.w",
+      "delayed": "science_v35_notes_foodweb.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_7",
+      "subject": "SCI",
+      "requirement": "consumer levels vary with diet and the specified path",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_foodweb.teach / .model",
+      "practice": "science_v35_notes_foodweb.q",
+      "transfer": "science_v35_notes_foodweb.w",
+      "delayed": "science_v35_notes_foodweb.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_8",
+      "subject": "SCI",
+      "requirement": "decomposers at all levels; matter recycling and energy dispersal",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_foodweb.teach / .model",
+      "practice": "science_v35_notes_foodweb.q",
+      "transfer": "science_v35_notes_foodweb.w",
+      "delayed": "science_v35_notes_foodweb.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_9",
+      "subject": "SCI",
+      "requirement": "food-web conservation, direct/indirect effects and alternative prey",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_foodweb.teach / .model",
+      "practice": "science_v35_notes_foodweb.q",
+      "transfer": "science_v35_notes_foodweb.w",
+      "delayed": "science_v35_notes_foodweb.learningTools.delayed",
+      "readiness": "not measured"
+    },
+    {
+      "id": "science35_diagram_caption_10",
+      "subject": "SCI",
+      "requirement": "printed diagram errors and caption boundaries",
+      "source": "Visible uploaded guided-note paragraphs, diagrams and captions",
+      "teach": "science_v35_notes_foodweb.teach / .model",
+      "practice": "science_v35_notes_foodweb.q",
+      "transfer": "science_v35_notes_foodweb.w",
+      "delayed": "science_v35_notes_foodweb.learningTools.delayed",
+      "readiness": "not measured"
+    }
+  ],
+  "assessmentRegister": "PREPARATION_RELEASE_V35.md",
+  "sourceAudit": "upload-repair-v35-audit.json",
+  "readiness": "not measured",
+  "independentEvidenceContract": "At least four distinct independent records per objective, >=90%, transfer and delayed retrieval are required before readiness. Available recognition items alone do not meet it.",
+  "releaseQC": {
+    "content": "v35-content-qc.json",
+    "browser": "v35-browser-qc.json",
+    "cumulative": "qc-report.json",
+    "semanticReview": "Uploaded map locations, journal prompts, vocabulary and note topics reread against PREPARATION_RELEASE_V35.md; source-specific limitations retained."
+  }
+}

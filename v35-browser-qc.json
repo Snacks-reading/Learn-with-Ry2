@@ -1,0 +1,31 @@
+{
+  "build": "2026-10-27-upload-practice-v35",
+  "viewports": [
+    {
+      "viewport": "390×844",
+      "lessonNavigation": 11,
+      "parentChapters": 11,
+      "allFourMapForms": "14 locations each",
+      "readingPassageBesidePrompt": true,
+      "firstResponsePreserved": true,
+      "writtenAnswerHiddenUntilSaved": true,
+      "writtenScoringPending": true,
+      "printStudentCopy": true,
+      "noOverflow": true,
+      "runtimeErrors": []
+    },
+    {
+      "viewport": "1440×900",
+      "lessonNavigation": 11,
+      "parentChapters": 11,
+      "allFourMapForms": "14 locations each",
+      "readingPassageBesidePrompt": true,
+      "firstResponsePreserved": true,
+      "writtenAnswerHiddenUntilSaved": true,
+      "writtenScoringPending": true,
+      "printStudentCopy": true,
+      "noOverflow": true,
+      "runtimeErrors": []
+    }
+  ]
+}
