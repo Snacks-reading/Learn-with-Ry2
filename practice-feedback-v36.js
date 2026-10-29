@@ -23,6 +23,18 @@ function spiralRepair(ctx,n){
  const key=(n+prompt.length)%4,correct=options.shift();options.splice(key,0,correct);return {p:stem,options,key,why,model};
 }
 function make(ctx,attempt=0){
+ if(String(ctx.id||'').includes('ela_v39_friday_sentences')||ctx.lesson?.id==='ela_v39_friday_sentences'){
+ const name=['Ava','Leah','Nora','Maya','Lena','Tara','Iris','June'][attempt%8], obj=['ribbon','poster','model','sleeve','banner','sketch','costume','display'][Math.floor(attempt/8)%8];
+ const ex=[
+ [name+' measured the '+obj+' and trimmed the edge.','Simple','One subject performs two actions. And joins verbs, not complete clauses.'],
+ [name+' measured the '+obj+', and Jo trimmed the edge.','Compound','Two independent clauses, no dependent clause; use comma before and.'],
+ ['After '+name+' measured the '+obj+', Jo trimmed the edge.','Complex','An opening dependent after clause needs a comma before the main clause.'],
+ ['After '+name+' measured the '+obj+', Jo trimmed the edge, and Sam checked it.','Compound-complex','One dependent clause and two independent clauses.']
+ ][attempt%4];
+ if(!ctx.item?.options)return {p:'NEW TOPIC: a school art display. Write one simple sentence with two actions, one compound sentence and one complex sentence. Label every clause and explain comma placement.',written:true,model:'Different model: After the bus stopped, we climbed aboard. The opening after clause depends on the main clause; use a comma after stopped.',why:'Review clause counts, complete thoughts and punctuation separately. Written repair needs review.',answer:'Require three correct sentence types and explanations. Do not infer correct work from saving.'};
+ const labels=['Simple','Compound','Complex','Compound-complex'];const k=(attempt+1)%4;const o=labels.filter(x=>x!==ex[1]);o.splice(k,0,ex[1]);return mc('NEW sentence: '+ex[0]+' Classify it.',o,k,ex[2],'Count clauses, not verbs or the word and. Model: Because the road flooded, we waited. Because the road flooded is dependent; we waited is independent. One of each makes a complex sentence.');
+ }
+
  if(String(ctx.id||'').includes('ela_v38_spiral_writing')||ctx.lesson?.id==='ela_v38_spiral_writing')return spiralRepair(ctx,attempt);
  const r=ctx.item,b=ctx.lesson||{},text=(r.p+' '+r.why+' '+(r.answer||'')).toLowerCase(),seed=hash(ctx.id)+attempt*29,n=3+seed%6,m=2+(seed>>>3)%5,alternate=attempt%2;
  if(r.mapIndex!=null&&ctx.mapVocabulary){const v=ctx.mapVocabulary,i=r.mapIndex,name=v[i][0],def=v[i][1],other=[(i+3)%14,(i+6)%14,(i+11)%14];return alternate?mc('A visitor reads this new guide: '+def+' Which location should the visitor mark?',[name,...other.map(j=>v[j][0])],0,def,'Use the relationship to identify the location. Changing marker numbers does not change the geography.'):mc('New task: which guide would help a visitor locate '+name+'?', [def,...other.map(j=>v[j][1])],0,def,'Use a nearby river, sea or known city as an anchor. Explain the spatial relationship rather than memorizing a marker number.');}

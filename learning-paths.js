@@ -2,11 +2,15 @@ globalThis.RY_LEARNING_PATHS={
   "ELA": [
     {
       "id": "animal-allies",
-      "title": "Animal Allies · current reading & sentence work",
+      "title": "Animal Allies \u00b7 current reading & sentence work",
       "steps": [
         [
+          "ela_v39_friday_sentences",
+          "Friday quiz \u00b7 clauses, sentence types and commas"
+        ],
+        [
           "ela_v38_spiral_writing",
-          "Spiral writing · speech, perspective and revision"
+          "Spiral writing \u00b7 speech, perspective and revision"
         ],
         [
           "ela_v37_assigned_close_read",
@@ -22,15 +26,15 @@ globalThis.RY_LEARNING_PATHS={
         ],
         [
           "ela_v34_chimp_structure",
-          "My Life with the Chimpanzees · meaning, viewpoint & structure"
+          "My Life with the Chimpanzees \u00b7 meaning, viewpoint & structure"
         ],
         [
           "extra_v35_ela_a",
-          "Reading, evidence and sentences · practice A"
+          "Reading, evidence and sentences \u00b7 practice A"
         ],
         [
           "extra_v35_ela_b",
-          "Reading, evidence and sentences · practice B"
+          "Reading, evidence and sentences \u00b7 practice B"
         ],
         [
           "ela_v21_unit2_map",
@@ -58,11 +62,11 @@ globalThis.RY_LEARNING_PATHS={
         ],
         [
           "ela_v33_reading_challenge",
-          "Practice A · evidence, summary & media"
+          "Practice A \u00b7 evidence, summary & media"
         ],
         [
           "ela_v33_mixed_challenge",
-          "Practice B · mixed challenge"
+          "Practice B \u00b7 mixed challenge"
         ],
         [
           "ela_v25_quiz_simulation",
@@ -72,7 +76,7 @@ globalThis.RY_LEARNING_PATHS={
     },
     {
       "id": "narrative",
-      "title": "Narrative writing · earlier learning",
+      "title": "Narrative writing \u00b7 earlier learning",
       "steps": [
         [
           "ela_v26_prompt_plan",
@@ -140,11 +144,11 @@ globalThis.RY_LEARNING_PATHS={
         ],
         [
           "extra_v35_math_a",
-          "Big 8, integers and coordinates · practice A"
+          "Big 8, integers and coordinates \u00b7 practice A"
         ],
         [
           "extra_v35_math_b",
-          "Big 8, integers and coordinates · practice B"
+          "Big 8, integers and coordinates \u00b7 practice B"
         ],
         [
           "math_v34_big8_test",
@@ -166,7 +170,7 @@ globalThis.RY_LEARNING_PATHS={
     },
     {
       "id": "percent",
-      "title": "Ratios & percents · earlier learning",
+      "title": "Ratios & percents \u00b7 earlier learning",
       "steps": [
         [
           "m_ratio",
@@ -252,7 +256,7 @@ globalThis.RY_LEARNING_PATHS={
     },
     {
       "id": "energy",
-      "title": "Heat & energy · earlier learning",
+      "title": "Heat & energy \u00b7 earlier learning",
       "steps": [
         [
           "science_v19_particles",
@@ -292,15 +296,15 @@ globalThis.RY_LEARNING_PATHS={
         ],
         [
           "ss_v35_journal20",
-          "Egypt journal · all 20 classroom questions"
+          "Egypt journal \u00b7 all 20 classroom questions"
         ],
         [
           "extra_v35_ss_a",
-          "Egypt geography and explanations · practice A"
+          "Egypt geography and explanations \u00b7 practice A"
         ],
         [
           "extra_v35_ss_b",
-          "Egypt geography and explanations · practice B"
+          "Egypt geography and explanations \u00b7 practice B"
         ],
         [
           "ss_v34_egypt_quiz",
@@ -312,7 +316,7 @@ globalThis.RY_LEARNING_PATHS={
         ],
         [
           "ss_v21_egypt_nile",
-          "Explain the Nile’s influence"
+          "Explain the Nile\u2019s influence"
         ],
         [
           "ss_v21_egypt_rule",
@@ -326,7 +330,7 @@ globalThis.RY_LEARNING_PATHS={
     },
     {
       "id": "israel",
-      "title": "Ancient Israel · official 24-target review",
+      "title": "Ancient Israel \u00b7 official 24-target review",
       "steps": [
         [
           "ss_v20_study_guide",
