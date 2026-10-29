@@ -5,6 +5,10 @@ globalThis.RY_LEARNING_PATHS={
       "title": "Animal Allies \u00b7 current reading & sentence work",
       "steps": [
         [
+          "ela_v40_sentence_types",
+          "Sentence types \u00b7 simple, compound, complex, compound-complex"
+        ],
+        [
           "ela_v39_friday_sentences",
           "Friday quiz \u00b7 clauses, sentence types and commas"
         ],
