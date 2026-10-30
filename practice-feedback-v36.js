@@ -23,7 +23,7 @@ function spiralRepair(ctx,n){
  const key=(n+prompt.length)%4,correct=options.shift();options.splice(key,0,correct);return {p:stem,options,key,why,model};
 }
 function make(ctx,attempt=0){
- if(/ela_v(39_friday_sentences|40_sentence_types)/.test(String(ctx.id||''))||['ela_v39_friday_sentences','ela_v40_sentence_types'].includes(ctx.lesson?.id)){
+ if(/ela_v(39_friday_sentences|40_sentence_types|41_start_here)/.test(String(ctx.id||''))||['ela_v39_friday_sentences','ela_v40_sentence_types','ela_v41_start_here'].includes(ctx.lesson?.id)){
  const name=['Ava','Leah','Nora','Maya','Lena','Tara','Iris','June'][attempt%8], obj=['ribbon','poster','model','sleeve','banner','sketch','costume','display'][Math.floor(attempt/8)%8];
  const ex=[
  [name+' measured the '+obj+' and trimmed the edge.','Simple','One subject performs two actions. And joins verbs, not complete clauses.'],
