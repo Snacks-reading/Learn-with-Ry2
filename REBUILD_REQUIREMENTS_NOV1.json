@@ -1,0 +1,64 @@
+{
+  "decisionDate": "2026-11-01",
+  "state": "specification; not released instruction",
+  "freshStart": {
+    "carryPriorScores": false,
+    "carryPriorCompletion": false,
+    "carryPriorMastery": false,
+    "priorEvidenceUse": "instructional hypotheses only",
+    "newNamespaceRequired": true
+  },
+  "priorCurrentFutureLinksRequired": true,
+  "realLifeApplicationRequiredWhereAccurate": true,
+  "reasoningProof": [
+    "mechanism and cause",
+    "evidence versus assumption",
+    "alternative explanation",
+    "consequences and tradeoffs",
+    "what would change the conclusion"
+  ],
+  "languageStrands": [
+    "spelling concepts",
+    "spelling transfer",
+    "grammar and sentence construction",
+    "weekly and classroom vocabulary",
+    "comprehension",
+    "oral and written communication"
+  ],
+  "parentReview": {
+    "generateOnCompletion": true,
+    "autoDelivery": "not implemented; private connection required",
+    "publicStudentData": false,
+    "focusCardLimit": 3
+  },
+  "planning": {
+    "days": [
+      "Sunday",
+      "Monday",
+      "Tuesday",
+      "Wednesday",
+      "Thursday"
+    ],
+    "readingMinutes": [
+      15,
+      30
+    ],
+    "pianoMinutes": [
+      15,
+      20
+    ],
+    "privateAppointments": "held outside public repository",
+    "reconcileDaily": true
+  },
+  "releaseRequirements": [
+    "actual classroom source audit",
+    "fresh diagnostic",
+    "complete teaching/models/varied practice",
+    "independent proof and transfer",
+    "fresh delayed checks",
+    "private report delivery verified",
+    "mobile scoring and saved-record QC",
+    "Rayna Audio aligned"
+  ],
+  "accessBlocker": "November 1 fresh Schoology check reached WCS Microsoft password screen; no new classroom sources verified this turn"
+}

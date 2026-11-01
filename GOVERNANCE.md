@@ -62,7 +62,7 @@ The repository must contain a current `SOURCE_COMPLETENESS_GATE.json`. Automated
 
 New weekly priorities are added to the cumulative curriculum. Older lessons do not disappear after a test. The active path must include every lesson Riley remains responsible for and must deliberately connect prior and current learning.
 
-A new build starts with a clean score and progress state when the parent requests a reset. Old browser history, scores, completion flags, and writing queues must not affect the new build.
+A new build starts with a clean score and progress state when the parent requests a reset. Old browser history, scores, completion flags, and writing queues must not affect the new build. Rayna explicitly requested a fresh start on November 1, 2026: prior responses may inform instructional hypotheses only; do not carry scores, mastery, completion or waiting-review counts into the rebuilt path. Use a new isolated learner record namespace; reject accidental legacy imports into current scoring. Do not delete school records or source evidence. Historical material, if retained for diagnosis, stays outside active learner results.
 
 ## 3. Required lesson architecture
 
@@ -252,3 +252,36 @@ Every authorized Schoology review must audit all visible course grade-report ent
 Explicitly distinguish: teacher-marked missing; posted numeric zero; past due with submission status unverified; unattempted but not yet due; submitted and scored; submitted awaiting grading; exempt; inaccessible/unknown. Zero attempts is not a grade of zero. N/A, dashes, blank categories and grading-period weights such as (0%) do not establish missing work or a zero. Calendar events and paper tasks cannot prove online non-submission is missing. A partial gradebook cannot support an all-clear. Record every course checked and the exact visibility gap. Check earlier grading periods when accessible.
 
 For each confirmed missing or zero item, privately report course, exact assignment, due date, evidence, submission state, earned/possible points and next concrete action. Add preparation or recovery teaching for every known incorrect response; preserve original marks and separate supported repair from independent recheck. Never start or submit school attempts during review. Never publish student answers, scores, missing-work records or credentials to the public repository. Deliver the private parent report separately; public materials contain teaching and assignment information only. Carry these rules into the existing scheduled update without changing its Sunday/Monday/Wednesday4:30p.m. America/Chicago cadence.
+
+
+## 15. November 1 rebuild: reasoning, language foundations and family workflow
+
+This directive supersedes conflicting older score/progress carry-forward requirements for the new path. A reset is not evidence that the prerequisite has been learned. Start fresh diagnosis without repeating every old question. Maintain the new path separately from the inadequate previous page; no cosmetic relabeling or automatic migration of old completion.
+
+### Big-picture critical thinking
+
+Every instructional objective has three concrete links: a prerequisite from earlier learning, its current use, and a later application. Each link names the actual concept and explains the relationship; related titles alone are insufficient. Use accurate real-life applications whenever possible. Ask Riley to explain mechanisms and causes, distinguish evidence from assumptions, compare alternatives and perspectives, consider consequences and tradeoffs, identify limitations, and say what new evidence would change her conclusion. Require unfamiliar application, not rehearsed labels. Do not inflate cognitive load by attaching an unrelated essay to every small task. Scaffold oral rehearsal into concise written explanation.
+
+### Dedicated Language Foundations strand
+
+Maintain an identifiable strand covering spelling concepts and spelling; grammar and sentence construction; academic and school vocabulary; reading comprehension; and oral/written communication. Diagnose strands separately and build from the demonstrated weakest prerequisite while preserving access to grade-level ideas. Use age-respectful instruction, explicit modeling, word analysis and morphology where appropriate, decoding/spelling transfer, context and non-examples, evidence-supported comprehension, clear explanations and audience-aware communication. A matching game alone cannot establish any of these skills.
+
+Integrate Riley's verified weekly-word rotation AND current classroom vocabulary. Keep word provenance, dates, meaning, pronunciation, spelling pattern/morphemes, correct examples and non-examples. Retrieve words in reading, listening, spelling without visual target, meaningful writing and speaking, then revisit after delays. Do not force irrelevant words into every answer. Do not invent teacher-assigned lists or silently substitute Harper's Grade 5 words. Previously taught words remain in spaced retrieval.
+
+No inline spelling/grammar/punctuation flags while Riley drafts; preserve her opportunity to self-correct. After she commits, evaluate only announced objectives and separate ideas/reasoning from conventions. Objective practice may be auto-scored with verified keys; spelling must not accept unintended homophones, and open explanations/writing require rubric review rather than keyword-based automatic mastery.
+
+### Parent review and focus cards
+
+At the end of completed work generate a PRIVATE parent review from the actual new-path evidence: activity/date, completed versus incomplete, correct/answered and percentage, independent/supported distinction, pending written review, exact misconceptions, repair teaching, and scheduled fresh rechecks. Unanswered work is unscored, not zero; corrections never rewrite first responses. Completed activity is not automatically mastered or submitted schoolwork.
+
+Create concise parent focus cards, at most three immediate priorities, each containing: the objective; exact evidence/response; what to say in a two-minute reteach; one fresh proof question; rubric or expected reasoning; supports allowed; a real-life or prior/current/future connection; and next retrieval date. Label anticipatory cards as plans, not observed weaknesses. Keep answers apart from the learner question.
+
+Rayna requests delivery after completion. Treat delivery as a separate acceptance requirement: completed activity must yield a review and a private durable delivery mechanism must be implemented and verified before claiming automatic delivery. Browser-local storage cannot notify ChatGPT by itself. Do not publish child responses or performance to a public GitHub repo or treat UI report generation as successful message delivery. Until a supported private connection is operational, report the exact limitation and provide a private review/export route. Do not silently replace event-triggered delivery with polling.
+
+### Planning and completion reconciliation
+
+Provide practical Sunday–Thursday daily study plans incorporating reading 15–30 minutes; piano 15–20 minutes; friend conversation; schoolwork and project milestones; breaks, meals and travel buffers; and a daily calendar/to-do/completion reconciliation. Keep the child's specific recurring personal appointments and private performance outside the public repository. Use authorized private schedule settings for fixed commitments. Do not invent dismissal, commute, dinner or bedtime. Preserve sleep and reduce discretionary extra drills when assigned work/tutoring fills the available time.
+
+Prioritize nearest confirmed deadline and weakest prerequisite. Work backward from due date, include an internal finish/check milestone, distinguish available/coming-home date from due date and submission closure, reserve revision time, and carry unfinished work forward. Never count a timer, checked box or completed site practice as classroom submission. Reconcile against available real evidence; unresolved completion remains unverified. Future lessons may be previewed without asserting mastery. Use short daily retrieval of prior material and schedule later checks roughly 1, 3, 7, 14 and 30 days after learning, adjusting for evidence and workload.
+
+Schedule delivery clarification: Rayna wants a written Sunday–Thursday schedule, not automated tasks, reminders, or calendar changes. Do not create schedule automations or alter her calendar for this request. Parent completion reviews remain a separate requested feature.
