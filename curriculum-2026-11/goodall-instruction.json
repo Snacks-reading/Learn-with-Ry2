@@ -1,0 +1,209 @@
+{
+  "title": "My Life With the Chimpanzees · learn it, explain it, apply it",
+  "sections": [
+    {
+      "id": "read",
+      "title": "Read with a question in mind",
+      "teach": [
+        "First read the whole memoir to understand what happened. On your second reading, ask: What did Goodall try? What did she observe? How did her thinking or her work change?",
+        "An observation is what someone noticed. An inference is an explanation drawn from observations. Goodall watching a chimp alter a twig is an observation; explaining why that action matters requires reasoning.",
+        "To answer a question about the text, find the relevant paragraph, read the sentences around it, and explain the detail in your own words. Use the paragraph number to help your reader find the evidence."
+      ],
+      "where": "Readings → My Life With the Chimpanzees → PDF pages 1–10 (textbook pp101–110). The memoir has paragraphs 1–61.",
+      "example": {
+        "prompt": "How can I reread strategically instead of searching for one matching word?",
+        "thinking": "I identify the question’s idea first. For a question about how her approach changes, I compare the early difficulty with her later method, rather than choosing any sentence about a chimp.",
+        "answer": "I would reread paragraphs 8–13, then compare them with paragraphs 34–39. The earlier paragraphs describe difficulty observing the chimps; the later ones show growing trust and new discoveries.",
+        "why": "The response names an appropriate place to look and explains what the comparison can reveal."
+      },
+      "tryPrompt": "Where would you look for evidence about the lasting result of her research, and why?",
+      "tryAnswer": "Paragraphs 60–61, on PDF page10, describe expanding knowledge and the research center. They help explain what the early work eventually became."
+    },
+    {
+      "id": "main",
+      "title": "Explain the central idea and how it develops",
+      "teach": [
+        "A topic is the subject: Goodall’s research. A central idea is the larger point the author develops about that subject. A useful central idea covers the beginning, middle, and ending.",
+        "Trace a chain: early difficulty → patient observation and growing trust → discoveries → lasting research. Each part adds to the larger idea. A central idea should be broad enough to connect important events but specific enough to fit this memoir.",
+        "A paragraph’s function is its job in that chain. Ask what would be lost if the paragraph disappeared: a problem, a discovery, an explanation of significance, or a result?"
+      ],
+      "where": "Readings → PDF page2, paragraphs8–10; page3, paragraphs11–17; page6, paragraphs38–39; page10, paragraphs60–61.",
+      "example": {
+        "prompt": "How does the ending develop an idea introduced by the early setbacks?",
+        "thinking": "I connect events from different parts of the account. I avoid a topic-only answer such as “It is about chimps.” Then I explain the change from struggling to observe to building lasting research.",
+        "answer": "Goodall’s account shows how patient, persistent observation and support from others can turn setbacks into important discoveries. Early on, the chimps flee from observers in paragraphs8–11. By paragraph61, the work has grown into a research center. The contrast shows how continued effort produces a lasting result.",
+        "why": "It gives a central idea, uses evidence from two parts, and explains how the ending develops the idea."
+      },
+      "tryPrompt": "What job does paragraph39 do after the tool observations in paragraph38?",
+      "tryAnswer": "It explains the scientific significance of the observation. Without it, a reader could know what the chimp did without understanding why the discovery challenged an earlier human-only assumption."
+    },
+    {
+      "id": "words",
+      "title": "Understand and use all six margin words",
+      "teach": [
+        "Use context: read the sentence, predict a meaning, substitute it, and check that the sentence still makes sense. A familiar-looking word part can help, but the surrounding situation must support your meaning.",
+        "Vanished means disappeared. If the chimps vanish into vegetation, the observers can no longer see them. Miserable means very unhappy or uncomfortable; hardship and wet conditions help establish the feeling.",
+        "Irritable means easily annoyed. Threateningly means in a way that signals possible harm or aggression. An irritable animal is not automatically attacking; a threatening action is a stronger signal.",
+        "Impetuous means acting suddenly without enough thought about consequences. Dominate means control or have power over. Neither word automatically means “kind,” “large,” or “intelligent.”",
+        "To show a word is yours, define it, explain the context clue, distinguish a near miss, and use it in a new situation. In science, a dominant individual’s social power is different from simply being physically large.",
+        "Example — vanished: “The deer vanished into thick bushes, and I could no longer see it.” The second part proves that vanished means disappeared; it does not mean the animal stopped existing.",
+        "Example — miserable: “Rain soaked my coat, and the cold made the wait miserable.” The discomfort supports very unhappy or uncomfortable.",
+        "Example — irritable: “After little sleep, Ava was irritable and snapped at a small interruption.” Her reaction to a minor annoyance shows the meaning; it does not establish that she is always unkind.",
+        "Example — threateningly: “The dog growled threateningly as the stranger approached.” The growl signals possible harm. Compare this with a playful bark before deciding the effect.",
+        "Example — impetuous: “In an impetuous rush, I glued the pieces before checking the pattern.” Acting before checking demonstrates too little thought about consequences.",
+        "Example — dominate: “One speaker tried to dominate the discussion by interrupting everyone else.” Controlling participation demonstrates power over the discussion; speaking once would not establish domination."
+      ],
+      "where": "Readings → PDF page2: vanished; page7: miserable, irritable, threateningly; page8: impetuous; page9: dominate. Read the whole sentence around each margin word.",
+      "example": {
+        "prompt": "Use “impetuous” precisely in a sentence about designing a costume.",
+        "thinking": "I need an action that happens before careful thought, with a possible consequence. “The impetuous fabric was blue” does not show the meaning.",
+        "answer": "In an impetuous rush, I cut the expensive fabric before checking the pattern, so the sleeve was too short.",
+        "why": "The unplanned action and its consequence demonstrate the meaning instead of merely placing the word in a sentence."
+      },
+      "tryPrompt": "Explain the difference between an irritable dog and a dog behaving threateningly.",
+      "tryAnswer": "An irritable dog is easily annoyed. A dog behaving threateningly signals possible harm, for example by growling and baring its teeth. Annoyance alone does not prove that threat."
+    },
+    {
+      "id": "commas",
+      "title": "Use commas by proving the sentence’s structure",
+      "teach": [
+        "Find the subject and verb first. An independent clause can stand alone. A dependent clause has a subject and verb but begins in a way that makes it depend on another clause, such as “although the rain continued.” A phrase lacks a complete subject–verb unit.",
+        "Two independent clauses joined by a coordinating conjunction use a comma before that conjunction: “The microphone failed, but Nia continued.” Proof: “The microphone failed” and “Nia continued” can each stand alone.",
+        "A shared subject can have two actions without making two independent clauses: “Nia checked the cable and restarted the microphone.” Nia performs both actions. The word “and” alone is not a reason to insert a comma.",
+        "Put a comma after an introductory dependent clause: “Because the stage was crowded, Nia waited.” Put a comma after a long introductory phrase: “After several minutes behind the curtain, Nia stepped forward.” The second opening is a phrase; it has no subject–verb unit.",
+        "Set off introductory transitions: “For example, the notes include the time of each observation.” “After all, reliable evidence needs context.” These words show how ideas connect; they do not automatically make a dependent clause.",
+        "Use commas between three or more items: “She packed a notebook, pencils, and a flashlight.” In these exercises, use the serial comma before the final “and.” Do not insert a comma between a subject and its verb."
+      ],
+      "where": "Use the teacher’s comma rules in the study guide. For sentence examples in the memoir, open Readings and inspect complete sentences; the examples below are original teaching examples.",
+      "example": {
+        "prompt": "Explain the comma in “Although the clay cracked, I repaired the sculpture.”",
+        "thinking": "“The clay cracked” has a subject and verb, but “although” makes the opening depend on another clause. “I repaired the sculpture” is a complete main clause. I identify the boundary before deciding on punctuation.",
+        "answer": "The comma follows the introductory dependent clause “Although the clay cracked.” The main clause is “I repaired the sculpture.” The whole sentence is complex: one dependent clause and one independent clause.",
+        "why": "The explanation names the actual clauses, identifies the dependent signal, and connects the comma to the boundary."
+      },
+      "tryPrompt": "Punctuate and prove: “The costume tore but Maya repaired it before rehearsal.” Then compare “Maya repaired the costume and checked the seams.”",
+      "tryAnswer": "“The costume tore, but Maya repaired it before rehearsal.” Both sides of “but” are independent clauses. “Maya repaired the costume and checked the seams” has a shared subject and two actions; no comma is required before “and.”"
+    },
+    {
+      "id": "purpose",
+      "title": "Explain the author’s purpose using a writing choice",
+      "teach": [
+        "Purpose asks why the author wrote the account and presented the events this way. Topic asks what it is about. “Chimpanzees” is a topic, not a purpose.",
+        "Goodall informs readers about research and discoveries through remembered personal experiences. She also reflects on their meaning. A memoir can inform, engage, and reflect at the same time.",
+        "Support purpose with a choice: explaining why a discovery mattered informs readers about its significance; describing feelings helps readers understand the experience. Avoid claiming that an engaging scene means the entire memoir was written only to entertain."
+      ],
+      "where": "Readings → PDF page6, paragraphs38–39; page10, paragraphs60–61. Compare what happened with the explanation of why it mattered.",
+      "example": {
+        "prompt": "How does explaining the importance of toolmaking develop Goodall’s purpose?",
+        "thinking": "I separate the event from the explanation. The event tells what David did. The explanation helps a reader understand its effect on an earlier scientific belief.",
+        "answer": "Goodall informs readers about what her research revealed. In paragraphs38–39, she describes a chimp modifying material into a tool and explains why that mattered to an earlier belief about humans. That explanation helps readers understand the importance of the discovery, rather than only picturing an interesting action.",
+        "why": "It names the purpose, points to a writing choice, and explains that choice’s effect on the reader."
+      },
+      "tryPrompt": "Why is “to entertain because the leopard scene is exciting” incomplete as a purpose for the entire memoir?",
+      "tryAnswer": "It accounts for one scene but not the research observations, their significance, or the lasting work described at the end. A whole-text purpose must explain more than a single exciting moment."
+    },
+    {
+      "id": "discoveries",
+      "title": "Distinguish a discovery from its significance",
+      "teach": [
+        "Describe what Goodall learned, then explain how the details support that learning. Keep the inference within the evidence.",
+        "David uses material to obtain termites and modifies a twig into a useful tool. Using an object and changing material to make a tool are related but distinct observations.",
+        "Goodall recognizes individuals and family relationships, observes care and learning, and records gestures and calls. These findings show complex social behavior. They do not establish that chimp communication is identical to human language.",
+        "New observations can revise an old explanation. That reasoning also appears in a science investigation: claim → observation → revised explanation. A striking detail becomes powerful when you explain what it changes."
+      ],
+      "where": "Readings → PDF page6, paragraphs38–39 (tools); page8, paragraphs48–54 (individuals and family); page9, paragraphs55–56 (learning, calls and gestures).",
+      "example": {
+        "prompt": "What did Goodall learn about communication, and what is the limit of the claim?",
+        "thinking": "I locate the communication paragraph and state both what it supports and what it does not support. I avoid turning similarity into identity.",
+        "answer": "In paragraph56, Goodall describes calls and gestures that convey information to other chimps. Some gestures resemble human actions. This supports the idea that chimps communicate socially, but the account distinguishes their calls from words forming a human language.",
+        "why": "It explains a discovery and its boundary, using a specific place in the memoir."
+      },
+      "tryPrompt": "Explain why “David got food” is a weaker discovery statement than an explanation about toolmaking.",
+      "tryAnswer": "Getting food describes an outcome. Explaining that David altered a twig into a tool identifies the important action and shows why the observation challenged an earlier assumption."
+    },
+    {
+      "id": "traits",
+      "title": "Prove a personality trait and explain success",
+      "teach": [
+        "A trait is a pattern in how a person thinks or acts. Name a trait, select a revealing action, and explain why that action supports the trait. “She is smart” without a detail is only a claim.",
+        "Persistence means continuing despite setbacks. Patience means tolerating delay without forcing the result. Careful recordkeeping supports diligence. These traits overlap, but your explanation should fit the action you cite.",
+        "Success is not proof that someone never feels fear or never needs help. Goodall describes fear and uncertainty, and the work involves her mother, local helpers, and later collaborators. Explain both her decisions and the contributions of others."
+      ],
+      "where": "Readings → PDF pages2–3, paragraphs8–17 (setbacks and adjusted observation); page7, paragraphs45–46 (reflection and records); page10, paragraph61 (collaboration and research center).",
+      "example": {
+        "prompt": "Which trait does Goodall’s recordkeeping support?",
+        "thinking": "I first choose a concrete action, not a compliment. Rewriting observations while memories are fresh preserves useful detail. Then I connect that action to a defensible trait.",
+        "answer": "Goodall is diligent. In paragraph46, she describes expanding her notes after her observations while she can still remember the details. Preserving those details supports diligence because reliable research depends on careful records, not simply exciting discoveries.",
+        "why": "The claim, specific action, and explanation form a complete evidence chain. It does not overclaim perfect memory."
+      },
+      "tryPrompt": "How would you strengthen “Goodall was successful because she was brave”?",
+      "tryAnswer": "Name a particular action and explain how it helped. For example, persistence and a less intrusive observation method helped her continue learning despite early difficulty. A fuller response also acknowledges help from other people."
+    },
+    {
+      "id": "memoir",
+      "title": "Prove that this nonfiction account is a memoir",
+      "teach": [
+        "A memoir is nonfiction that recalls selected personal experiences and reflects on them. The writer usually participates in the events and looks back on what they meant.",
+        "First-person narration is a clue, not sufficient proof. A fictional narrator can also say “I.” Combine first person with real personal experience, a selected part of life, and reflection.",
+        "A memoir often focuses on a meaningful period or theme. An autobiography usually has a broader life scope. This selection recalls Goodall’s research experiences rather than telling every event from birth onward."
+      ],
+      "where": "Readings → PDF page1, paragraphs1–4 (time, place and participant); page3, paragraph17 (looking back); page10, paragraphs60–61 (later meaning and result).",
+      "example": {
+        "prompt": "Why is this selection a memoir rather than simply any first-person story?",
+        "thinking": "I check several genre features and connect each one to this account. I do not rely on pronouns alone.",
+        "answer": "The selection is a memoir because Goodall recalls her own real research experiences and reflects on what she learned. She places herself at Gombe in paragraph1, describes her changing understanding, and looks back at the growth of the research in paragraphs60–61. The focus on a meaningful period of her life, with reflection, supports the genre.",
+        "why": "It uses multiple memoir features, matches them to the selection, and explains why first person alone is insufficient."
+      },
+      "tryPrompt": "Could a made-up first-person adventure be a memoir? Explain the deciding feature.",
+      "tryAnswer": "First person alone would not make it a memoir. A memoir presents real personal experiences as nonfiction and reflects on them; a made-up adventure is fiction."
+    },
+    {
+      "id": "response",
+      "title": "Build an answer that makes the reasoning visible",
+      "teach": [
+        "Start with a direct answer to the question. Add a precise detail in your own words and identify the paragraph. Then explain how that detail supports your answer. If the question asks for two details, develop both.",
+        "Evidence is not self-explanatory. After each detail, ask “How does this prove my point?” A strong response explains a connection, a change, or a cause instead of repeating the same claim.",
+        "Check the limits: does the detail support this claim, or a narrower one? Could another detail complicate it? Careful thinkers revise absolute claims such as “always,” “never,” or “all” when the evidence does not justify them."
+      ],
+      "where": "Use the relevant paragraph locations listed in each lesson section. Keep Readings open in a separate tab while drafting a text-dependent response.",
+      "example": {
+        "prompt": "Explain how Goodall’s methods helped her learn, using two details.",
+        "thinking": "I choose actions that have a clear effect: observing at a distance reduces disturbance; expanding notes preserves detail. Then I explain each effect, rather than listing traits.",
+        "answer": "Goodall’s methods made her observations more useful. In paragraph13, she watches from a distance instead of forcing a close approach. This gives the chimps a chance to behave without immediately fleeing. In paragraph46, she expands her notes while the experiences are fresh. That preserves detail for later study. Together, the choices show that patient observation and careful records support reliable research.",
+        "why": "The response answers the question, uses two distinct details, and explains how each method helps. Its final connection follows from the evidence."
+      },
+      "tryPrompt": "Improve this answer without inventing evidence: “She learned because she was good at it.”",
+      "tryAnswer": "Replace the general claim with a method, locate an actual detail, and explain the effect. For example: she watches from a distance in paragraph13, which helps her observe without immediately driving the chimps away."
+    }
+  ],
+  "chapterSections": {
+    "fresh_ela_goodall_guide": [
+      "read",
+      "main",
+      "words",
+      "commas",
+      "purpose",
+      "discoveries",
+      "traits",
+      "memoir",
+      "response"
+    ],
+    "fresh_ela_goodall_structure": [
+      "main",
+      "response"
+    ],
+    "fresh_ela_goodall_evidence": [
+      "discoveries",
+      "response"
+    ],
+    "fresh_ela_goodall_craft": [
+      "purpose",
+      "traits",
+      "memoir"
+    ],
+    "fresh_ela_goodall_words": [
+      "words",
+      "response"
+    ]
+  }
+}
