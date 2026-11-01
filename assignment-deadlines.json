@@ -1,5 +1,5 @@
 {
-  "checked": "2026-10-28",
+  "checked": "2026-10-31",
   "timezone": "America/Chicago",
   "items": [
     {
@@ -35,17 +35,27 @@
     {
       "id": "ela-compare",
       "subject": "ELA",
-      "title": "Compare + Contrast handout",
+      "title": "CW Compare + Contrast",
       "date": "2026-10-29",
       "time": "15:00",
-      "source": "Schoology assignment",
+      "source": "Schoology assignment 8629293466, inspected October 31",
       "lesson": "ela_v37_assigned_close_read",
-      "action": "Compare chimps and baboons with paragraph evidence; turn in the assigned handout."
+      "action": "Use My Life with the Chimpanzees and What Koko Taught Us. Compare the two assigned texts using concrete evidence; verify the classroom submission separately."
+    },
+    {
+      "id": "math-dynamic-module4",
+      "subject": "MATH",
+      "title": "Dynamic Module 4 Practice (RM C1)",
+      "date": "2026-10-29",
+      "time": "23:59",
+      "source": "Math Week 11 external tool, inspected October 31",
+      "lesson": "math_v37_scale",
+      "action": "Check the assigned McGraw Hill activity; a passed date alone is not a missing flag."
     },
     {
       "id": "ela-spiral",
       "subject": "ELA",
-      "title": "Spiral Week October 26–30",
+      "title": "Spiral Week October 26\u201330",
       "date": "2026-10-30",
       "time": "15:00",
       "source": "Schoology assessment; acceptance closes at 08:00 despite 15:00 due time",
@@ -68,8 +78,8 @@
       "subject": "MATH",
       "title": "Integers and coordinate graphing test",
       "date": "2026-10-30",
-      "time": null,
-      "source": "Week 11 announcement: test Friday",
+      "time": "23:59",
+      "source": "Schoology assessment 8622897591, inspected October 31",
       "lesson": "math_v37_scale",
       "action": "Read graph scale, repair signed-number errors, then solve fresh mixed problems."
     },
@@ -106,7 +116,7 @@
     {
       "id": "math-ixl-fst",
       "subject": "MATH",
-      "title": "IXL FST · Coordinate Plane Mixed Practice · SS80",
+      "title": "IXL FST \u00b7 Coordinate Plane Mixed Practice \u00b7 SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -116,7 +126,7 @@
     {
       "id": "math-ixl-32s",
       "subject": "MATH",
-      "title": "IXL 32S · Reflect a point over an axis · SS80",
+      "title": "IXL 32S \u00b7 Reflect a point over an axis \u00b7 SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -126,7 +136,7 @@
     {
       "id": "math-ixl-a7p",
       "subject": "MATH",
-      "title": "IXL A7P · Distance between two points · SS80",
+      "title": "IXL A7P \u00b7 Distance between two points \u00b7 SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -146,7 +156,7 @@
     {
       "id": "science-env",
       "subject": "SCI",
-      "title": "Environments and Populations notes · date needs confirmation",
+      "title": "Environments and Populations notes \u00b7 date needs confirmation",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 copied daily directions say Friday; embedded October 21/22/24 labels conflict with folder dates",
@@ -155,14 +165,44 @@
       "provisional": true
     },
     {
+      "id": "ela-quote",
+      "subject": "ELA",
+      "title": "Quote Drag + Drop",
+      "date": "2026-10-30",
+      "time": "15:00",
+      "source": "Schoology assignment 8630836787, inspected October 31",
+      "lesson": "ela_v37_assigned_close_read",
+      "action": "Check the classroom document and recorded submission status. This is a separate task from compare-and-contrast."
+    },
+    {
+      "id": "science-whodunnit",
+      "subject": "SCI",
+      "title": "WhoDunnit Clue Game",
+      "date": "2026-10-30",
+      "time": "23:59",
+      "source": "Science discussion 8631398354, inspected October 31",
+      "lesson": "science_v21_interactions",
+      "action": "Teacher says the game must be shared with them so they can see it. Verify sharing and completion; do not infer missing work solely from an empty discussion."
+    },
+    {
       "id": "ela-goodall",
       "subject": "ELA",
       "title": "My Life with the Chimpanzees test",
       "date": "2026-11-02",
       "time": null,
-      "source": "October 23 teacher newsletter; no exact time supplied",
-      "lesson": "ela_v37_assigned_close_read",
-      "action": "Study all pp.101–110 and the teacher guide; practice the close-read and whole-memoir lessons."
+      "source": "October 23 teacher newsletter: Monday November 2; not listed as a dated Schoology item during October 31 review. Confirm any teacher changes.",
+      "lesson": "ela_v37_assigned_arc",
+      "action": "Read the complete assigned memoir pp.101\u2013110. Explain important events with paragraph evidence, then complete the whole-memoir and close-reading lessons. Saving practice does not establish readiness."
+    },
+    {
+      "id": "ss-social-pyramid",
+      "subject": "SS",
+      "title": "Ancient Egypt Social Class Pyramid",
+      "date": "2026-11-05",
+      "time": null,
+      "source": "Schoology event 8630098231 plus instruction image 8630097165, both read October 31",
+      "lesson": "ss_v42_pyramid",
+      "action": "Use OER pp.15\u201318 and orange textbook p.149. Label each level on the left; explain every job/role and three contributions on the right; draw colored pictures in each level; show neat effort. Classwork grade."
     },
     {
       "id": "ss-project",
@@ -179,5 +219,19 @@
     "Dates and source status are not student completion evidence.",
     "Gradebook rows are incomplete in several courses.",
     "Private grades and submission statuses are not stored in this public file."
+  ],
+  "notices": [
+    {
+      "subject": "SCI",
+      "title": "Week 12 Interactions in an Ecosystem STEMscopedia + Ecology Terms quiz",
+      "date": null,
+      "detail": "Week 12 folder (November 2\u20136) says STEMscopedia is due Thursday, but daily titles retain October 27\u201330 and quiz text says Tuesday 11/4. Those labels conflict with 2026. Exact due/quiz dates are unconfirmed. Prepare the interactions and symbiosis content; confirm the teacher date."
+    },
+    {
+      "subject": "MATH",
+      "title": "Next Math week",
+      "date": null,
+      "detail": "No later Math week or new future Math deadline was visible in the current materials at this review."
+    }
   ]
 }

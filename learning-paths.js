@@ -5,6 +5,10 @@ globalThis.RY_LEARNING_PATHS={
       "title": "Animal Allies \u00b7 current reading & sentence work",
       "steps": [
         [
+          "ela_v37_assigned_arc",
+          "Goodall: follow the whole memoir arc"
+        ],
+        [
           "ela_v41_start_here",
           "START HERE \u2014 New Sentence Types Practice"
         ],
@@ -23,10 +27,6 @@ globalThis.RY_LEARNING_PATHS={
         [
           "ela_v37_assigned_close_read",
           "Goodall: repetition, contrast and punctuation"
-        ],
-        [
-          "ela_v37_assigned_arc",
-          "Goodall: follow the whole memoir arc"
         ],
         [
           "ela_v34_compound_complex",
@@ -294,6 +294,10 @@ globalThis.RY_LEARNING_PATHS={
       "id": "egypt",
       "title": "Ancient Egypt",
       "steps": [
+        [
+          "ss_v42_pyramid",
+          "DUE NOV 5 \u00b7 Egypt social class pyramid"
+        ],
         [
           "ss_v35_egypt_map14",
           "Ancient Egypt: all 14 teacher map locations"
