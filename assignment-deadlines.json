@@ -55,7 +55,7 @@
     {
       "id": "ela-spiral",
       "subject": "ELA",
-      "title": "Spiral Week October 26\u201330",
+      "title": "Spiral Week October 26–30",
       "date": "2026-10-30",
       "time": "15:00",
       "source": "Schoology assessment; acceptance closes at 08:00 despite 15:00 due time",
@@ -116,7 +116,7 @@
     {
       "id": "math-ixl-fst",
       "subject": "MATH",
-      "title": "IXL FST \u00b7 Coordinate Plane Mixed Practice \u00b7 SS80",
+      "title": "IXL FST · Coordinate Plane Mixed Practice · SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -126,7 +126,7 @@
     {
       "id": "math-ixl-32s",
       "subject": "MATH",
-      "title": "IXL 32S \u00b7 Reflect a point over an axis \u00b7 SS80",
+      "title": "IXL 32S · Reflect a point over an axis · SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -136,7 +136,7 @@
     {
       "id": "math-ixl-a7p",
       "subject": "MATH",
-      "title": "IXL A7P \u00b7 Distance between two points \u00b7 SS80",
+      "title": "IXL A7P · Distance between two points · SS80",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 announcement",
@@ -156,7 +156,7 @@
     {
       "id": "science-env",
       "subject": "SCI",
-      "title": "Environments and Populations notes \u00b7 date needs confirmation",
+      "title": "Environments and Populations notes · date needs confirmation",
       "date": "2026-10-30",
       "time": null,
       "source": "Week 11 copied daily directions say Friday; embedded October 21/22/24 labels conflict with folder dates",
@@ -192,7 +192,7 @@
       "time": null,
       "source": "October 30 sixth-grade newsletter, supplied November 1: test Monday November 2.",
       "lesson": "ela_v37_assigned_arc",
-      "action": "Read the complete assigned memoir pp.101\u2013110. Explain important events with paragraph evidence, then complete the whole-memoir and close-reading lessons. Saving practice does not establish readiness."
+      "action": "Read the complete assigned memoir pp.101–110. Explain important events with paragraph evidence, then complete the whole-memoir and close-reading lessons. Saving practice does not establish readiness."
     },
     {
       "id": "ss-social-pyramid",
@@ -202,7 +202,7 @@
       "time": null,
       "source": "Schoology event 8630098231 plus instruction image 8630097165, both read October 31",
       "lesson": "ss_v42_pyramid",
-      "action": "Use OER pp.15\u201318 and orange textbook p.149. Label each level on the left; explain every job/role and three contributions on the right; draw colored pictures in each level; show neat effort. Classwork grade."
+      "action": "Use OER pp.15–18 and orange textbook p.149. Label each level on the left; explain every job/role and three contributions on the right; draw colored pictures in each level; show neat effort. Classwork grade."
     },
     {
       "id": "ss-egypt-history-quiz",
@@ -222,7 +222,7 @@
       "time": null,
       "source": "October 30 sixth-grade newsletter: assigned Monday, due Friday, two attempts",
       "lesson": "ela_v38_spiral_writing",
-      "action": "Open the actual November 2\u20136 spiral directions. Two attempts are allowed. Complete the written component; review the actual rubric. Earlier spiral rehearsal is supplemental, not the exact assignment.",
+      "action": "Open the actual November 2–6 spiral directions. Two attempts are allowed. Complete the written component; review the actual rubric. Earlier spiral rehearsal is supplemental, not the exact assignment.",
       "availableDate": "2026-11-02"
     },
     {
@@ -236,6 +236,60 @@
       "action": "Complete the guided-notes packet from the STEMscopes Interactions in an Ecosystem chapter."
     },
     {
+      "id": "math-week12-1",
+      "subject": "MATH",
+      "title": "Problem Solving Practice 12",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-02",
+      "availableBy": "2026-11-01",
+      "source": "Week 12 teacher announcement 8632078642; checked November 1. Assigned date and online availability are separate.",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+      "lesson": null,
+      "studioLesson": "fresh_math_spiral12",
+      "action": "Open the teacher PDF, show the required work, and follow the teacher’s submission instructions."
+    },
+    {
+      "id": "math-week12-2",
+      "subject": "MATH",
+      "title": "Lesson 5-1 Practice",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-02",
+      "source": "Week 12 teacher announcement 8632078642; checked November 1. Assigned date and online availability are separate.",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+      "lesson": null,
+      "studioLesson": "fresh_math_expressions",
+      "action": "Check the Week 12 folder on the assigned date; the announcement confirms this task, but its activity was not yet listed at the check."
+    },
+    {
+      "id": "math-week12-3",
+      "subject": "MATH",
+      "title": "Order of Operations and Rational Numbers Practice",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-02",
+      "availableBy": "2026-11-01",
+      "source": "Week 12 teacher announcement 8632078642; checked November 1. Assigned date and online availability are separate.",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078863",
+      "lesson": null,
+      "studioLesson": "fresh_math_order_powers",
+      "action": "Open the teacher PDF, show the required work, and follow the teacher’s submission instructions."
+    },
+    {
+      "id": "math-week12-4",
+      "subject": "MATH",
+      "title": "Lesson 5-2 Dynamic Practice",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-04",
+      "source": "Week 12 teacher announcement 8632078642; checked November 1. Assigned date and online availability are separate.",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+      "lesson": null,
+      "studioLesson": "fresh_math_expressions",
+      "action": "Check the Week 12 folder on the assigned date; the announcement confirms this task, but its activity was not yet listed at the check."
+    },
+    {
       "id": "science-ecology-nov10",
       "subject": "SCI",
       "title": "Ecology Vocabulary Quiz",
@@ -244,6 +298,20 @@
       "source": "October 30 newsletter explicitly states Tuesday November 10; supersedes copied Tuesday 11/4 wording",
       "lesson": "science_v21_ecosystem_vocab",
       "action": "Study ALL terms in the Ecology Study Mate in Schoology. Explain each term and apply it to new examples; do not limit review to the two earlier misses."
+    },
+    {
+      "id": "math-week12-5",
+      "subject": "MATH",
+      "title": "Expressions Pumpkin",
+      "date": "2026-11-11",
+      "time": null,
+      "assignedDate": "2026-11-06",
+      "availableBy": "2026-11-01",
+      "source": "Week 12 teacher announcement 8632078642; checked November 1. Assigned date and online availability are separate.",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865",
+      "lesson": null,
+      "studioLesson": "fresh_math_order_powers",
+      "action": "Open the teacher PDF, show the required work, and follow the teacher’s submission instructions."
     },
     {
       "id": "ss-project",
@@ -266,13 +334,19 @@
       "subject": "MATH",
       "title": "Sixth-grade Math: Expressions unit",
       "date": null,
-      "detail": "October 30 newsletter: start Expressions; make vocabulary cards using class notes, definitions and illustrations. Continue Big 8 preparation. No new sixth-grade Math due date is supplied. Blend and seventh-grade dates do not apply to Riley\u2019s verified sixth-grade course."
+      "detail": "Week 12 teacher announcement confirms four tasks due November 6 and Expressions Pumpkin due November 11. Assigned dates and PDF availability are listed separately. Make Expressions vocabulary cards using class notes, definitions, and illustrations; continue Big 8 preparation. Blend and seventh-grade Math dates do not apply."
     },
     {
       "subject": "ELA",
       "title": "Next reading: Hachiko: The True Story of a Loyal Dog",
       "date": null,
       "detail": "Focus: main idea, theme, author point of view, and paragraph function within the whole text. No selection-test date is given in this newsletter. Recover the assigned selection before claiming full coverage."
+    },
+    {
+      "subject": "SCHOOL",
+      "title": "Yearbook photo date needs confirmation",
+      "date": "2026-11-09",
+      "detail": "The event date is November 9 at 8 AM, but its description says late-start Monday. The newsletter identifies November 2 as late start. Confirm the photo date with the school."
     }
   ],
   "schoolEvents": [
@@ -293,13 +367,16 @@
     },
     {
       "date": "2026-11-09",
-      "time": null,
-      "title": "Yearbook club photo"
+      "time": "08:00",
+      "title": "Yearbook club photo",
+      "sourceUrl": "https://wcschools.schoology.com/event/8631352121/profile",
+      "conflict": "The event date is November 9 at 8 AM, but its description says late-start Monday. The newsletter identifies November 2 as late start. Confirm the photo date with the school."
     }
   ],
   "availabilityNotes": [
     "Ancient Egypt major-project slides and social-class pyramid materials were already available in Schoology on October31; no exact release/coming-home date was verified.",
     "Goodall study guide and Ecology Study Mate are already linked in Schoology; no exact release date was verified.",
-    "Hachiko and Expressions begin during the week of November2; newsletter supplies no precise material-release or due date."
+    "Math Week 12 PDFs for Problem Solving Practice 12, Order of Operations/Rational Numbers, and Expressions Pumpkin were available by November 1. Teacher-assigned dates are November 2, November 2, and November 6 respectively; online availability does not establish a paper coming-home date.",
+    "Hachiko begins during the week of November 2; the exact assigned selection, release date, and test date remain unverified."
   ]
 }
