@@ -1,15 +1,11 @@
-# Goodall · complete teaching and mastery path
+# Goodall study guide · Grade 6
 
-Open https://ry-learning-studio.raynastover.chatgpt.site and choose **Learn → ELA → START HERE · Goodall complete lesson and three practice tests**.
+Open https://ry-learning-studio.raynastover.chatgpt.site → Learn → ELA → **START HERE · Goodall study guide · Grade 6**.
 
-**Readings** is a separate area containing the exact assigned memoir and page narration. Keep it open in another tab for text-dependent responses. Lesson source locations identify PDF pages and paragraph numbers.
+The lesson teaches only the eight teacher study-guide targets: rereading, main idea, six margin words, comma rules, author’s purpose, chimp discoveries, Jane’s personality and success, and memoir features.
 
-The complete lesson teaches the eight teacher-guide targets through nine sections. Each includes explicit explanation, a worked response, the reasoning behind it, why it is strong, and a short learner try. Governance and parent review policy are not learner teaching content.
+Each target has a short explanation, an example, a strong answer, and a short try in sixth-grade language. Readings stays separate, with the exact assigned memoir and paragraph directions. Governance and parent policy are not lesson content.
 
-After the walkthrough, open Practice test A (19 questions), B (15), and C (18). Each includes all six margin words. C includes multi-select tasks; every question requires reasoning. Misses lead to teaching and a distinct follow-up. First responses are preserved, with separate per-form scores and parent reviews.
+Three practice forms have19,16,and15questions, including all six margin words. Questions and choices are randomized per learner and form. Incorrect answers lead to teaching and a new follow-up. The written check asks for short answers about the guide.
 
-Question order and choices are randomized per learner and form; reloads preserve that order. Server scoring remaps keys, including multi-select and repair keys. Source code is not a student assessment page.
-
-Mastery still requires independent evidence, reviewed explanation/transfer, and delayed retrieval. Completing the walkthrough alone is not mastery.
-
-Teaching/content rendering, scoring integration, answer-order preservation, narration regression, and TypeScript checks passed. Final visual browser retesting remains limited by the approval-service usage block.
+Content, scoring, shuffled answer keys, and TypeScript checks passed. Final visual browser retesting remains blocked by the approval-service usage limit.
