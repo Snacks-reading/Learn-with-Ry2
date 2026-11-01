@@ -285,3 +285,14 @@ Provide practical Sunday–Thursday daily study plans incorporating reading 15�
 Prioritize nearest confirmed deadline and weakest prerequisite. Work backward from due date, include an internal finish/check milestone, distinguish available/coming-home date from due date and submission closure, reserve revision time, and carry unfinished work forward. Never count a timer, checked box or completed site practice as classroom submission. Reconcile against available real evidence; unresolved completion remains unverified. Future lessons may be previewed without asserting mastery. Use short daily retrieval of prior material and schedule later checks roughly 1, 3, 7, 14 and 30 days after learning, adjusting for evidence and workload.
 
 Schedule delivery clarification: Rayna wants a written Sunday–Thursday schedule, not automated tasks, reminders, or calendar changes. Do not create schedule automations or alter her calendar for this request. Parent completion reviews remain a separate requested feature.
+
+
+## 16. Mandatory complete classroom-source census · November 1, 2026
+
+Every reconciliation must open every student-visible folder and material in ELA, Science, Social Studies, Math and Theatre, recursively following nested folders and teacher-linked resources. Include textbooks, readings, notes, slides, videos, songs, study guides, rubrics, assignment directions, and available released reviews. Keep prior units for retention and connections without reusing the old student lesson pages.
+
+Maintain a per-file source ledger: subject, course, folder, exact source URL, type, opened status, actual content-read status, source version/check date, available/assigned/due/close dates, curriculum coverage, and any unresolved access issue. A folder listing, title, wrapper, summary or existing lesson never proves that the underlying file was read. Distinguish course discovery, file opening, content verification, teaching coverage and demonstrated student mastery.
+
+Recover the exact classroom source before considering a substitute. Use authorized school/provider sign-in and ask Rayna for the specific handoff or permission when necessary. Never silently replace an accessible assigned text. Preserve factual source discrepancies in a private parent note; teacher-published practice keys are not automatically correct. Do not bypass browser security or approval rejections. Record blocked/unread items explicitly and continue unaffected sources. A course audit remains incomplete while any discovered material is unresolved.
+
+Keep student answers, grades, private routines and licensed full documents out of public GitHub. Every public completion claim must match the ledger; new-path scores begin unmeasured.
