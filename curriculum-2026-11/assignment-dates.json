@@ -1,0 +1,122 @@
+{
+  "checked": "2026-11-02",
+  "timezone": "America/Chicago",
+  "note": "ELA spiral8AM and Math5-1/5-2 11:59PM confirmed live November2; other entries retain their listed teacher-source verification.",
+  "assignments": [
+    {
+      "id": "ela-goodall",
+      "subject": "ELA",
+      "title": "My Life with the Chimpanzees test",
+      "date": "2026-11-02",
+      "time": null,
+      "source": "October 30 sixth-grade newsletter, supplied November 1: test Monday November 2."
+    },
+    {
+      "id": "ss-social-pyramid",
+      "subject": "SS",
+      "title": "Ancient Egypt Social Class Pyramid",
+      "date": "2026-11-05",
+      "time": null,
+      "source": "Schoology event 8630098231 plus instruction image 8630097165, both read October 31"
+    },
+    {
+      "id": "ss-egypt-history-quiz",
+      "subject": "SS",
+      "title": "Ancient Egypt quiz: history, social structure, politics and religion",
+      "date": "2026-11-05",
+      "time": null,
+      "source": "October 30 sixth-grade newsletter: next Thursday"
+    },
+    {
+      "id": "ela-nov2-spiral",
+      "subject": "ELA",
+      "title": "ELA weekly spiral including written response",
+      "date": "2026-11-06",
+      "time": "08:00",
+      "source": "Schoology assessment8633178839, read November2: posted7:47AM; accepts submissions until November6 at8AM.",
+      "availableDate": "2026-11-02",
+      "postedAt": "2026-11-02T07:47:00-06:00",
+      "sourceUrl": "https://wcschools.schoology.com/assignment/8633178839/assessment"
+    },
+    {
+      "id": "science-interactions-notes",
+      "subject": "SCI",
+      "title": "Interactions in an Ecosystem guided notes",
+      "date": "2026-11-06",
+      "time": null,
+      "source": "October 30 newsletter explicitly states Friday November 6; supersedes copied Thursday wording"
+    },
+    {
+      "id": "science-ecology-nov10",
+      "subject": "SCI",
+      "title": "Ecology Vocabulary Quiz",
+      "date": "2026-11-10",
+      "time": null,
+      "source": "October 30 newsletter explicitly states Tuesday November 10; supersedes copied Tuesday 11/4 wording"
+    },
+    {
+      "id": "ss-project",
+      "subject": "SS",
+      "title": "Ancient Egypt major project",
+      "date": "2026-12-02",
+      "time": null,
+      "source": "Schoology calendar event",
+      "assignedDate": "2026-10-28"
+    },
+    {
+      "id": "math-week12-1",
+      "subject": "MATH",
+      "title": "Problem Solving Practice 12",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-02",
+      "availableBy": "2026-11-01",
+      "source": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864"
+    },
+    {
+      "id": "math-week12-2",
+      "subject": "MATH",
+      "title": "Lesson 5-1 Practice",
+      "date": "2026-11-06",
+      "time": "23:59",
+      "assignedDate": "2026-11-02",
+      "availableBy": "2026-11-02",
+      "source": "Schoology Week12 folder, read November2; exact deadline November6 at11:59PM.",
+      "sourceUrl": "https://wcschools.schoology.com/external_tool/3580914057/launch"
+    },
+    {
+      "id": "math-week12-3",
+      "subject": "MATH",
+      "title": "Order of Operations and Rational Numbers Practice",
+      "date": "2026-11-06",
+      "time": null,
+      "assignedDate": "2026-11-02",
+      "availableBy": "2026-11-01",
+      "source": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078863",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078863"
+    },
+    {
+      "id": "math-week12-4",
+      "subject": "MATH",
+      "title": "Lesson 5-2 Dynamic Practice",
+      "date": "2026-11-06",
+      "time": "23:59",
+      "assignedDate": "2026-11-04",
+      "availableBy": "2026-11-02",
+      "source": "Schoology Week12 folder, read November2; exact deadline November6 at11:59PM.",
+      "sourceUrl": "https://wcschools.schoology.com/external_tool/3580914062/launch"
+    },
+    {
+      "id": "math-week12-5",
+      "subject": "MATH",
+      "title": "Expressions Pumpkin",
+      "date": "2026-11-11",
+      "time": null,
+      "assignedDate": "2026-11-06",
+      "availableBy": "2026-11-01",
+      "source": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865",
+      "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865"
+    }
+  ]
+}
