@@ -62,3 +62,7 @@ The GitHub homepage now offers direct chapter links, assigned-reading access and
 ## Social Studies format update
 
 Social Studies learner tries, practice, fresh application and delayed checks are multiple choice only. Typed explanations and written proof are not required in Social Studies. Fresh application uses a complete independent choice form at90% or better; overall independent accuracy, sufficient objective evidence and delayed retrieval remain required. This measures multiple-choice evidence, not constructed writing. Prior responses remain preserved. This format directive supersedes earlier references to required Social Studies written proof.
+
+## Social Studies withdrawal — supersedes earlier release claims
+
+Generated Social Studies lessons, schematic maps, practice and parent narration are withdrawn pending exact classroom-source recovery and a new source-to-question review. Existing source JSON is retained as historical development material, not approved teaching. No current Social Studies readiness claim is supported by those materials. Source recovery requires the authorized ClassLink login used by WCS Schoology. Student records are preserved. Replacements must use precise assigned maps, clear sixth-grade wording and multiple-choice-only responses.
