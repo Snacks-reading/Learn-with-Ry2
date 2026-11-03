@@ -51,3 +51,10 @@ The exact assigned Goodall PDF is served privately inside the ELA reader. Licens
 ## Verification and limits
 
 Curriculum, scoring/mastery logic, record persistence, and panel rendering checks passed, as did the production build. The source ledger remains incomplete: opening an assignment page does not verify every attachment, reading, video, or provider resource. Full five-subject source completion and full-year TCAP coverage are not claimed.
+
+
+## November 2 Social Studies update
+
+All ten Egypt JSON lessons now match Studio source commit `5065efba744a6a0be9563e205cd4f1c6e37ee00b`. Teaching is organized into idea → worked example → learner try. Each of the fourteen map locations has its own teaching topic. Corrected delayed keys and concept-specific follow-ups are included. Rayna’s Audio prepends these same chapters while preserving earlier lessons.
+
+The GitHub homepage now offers direct chapter links, assigned-reading access and clearly separated parent navigation. The authenticated Studio retains scoring and private response storage. [Scope, QC and unresolved source access](SOCIAL-STUDIES-QC.md).
