@@ -1,1 +1,668 @@
-{"id":"fresh_ss_egypt_power_belief","subject":"SS","title":"Egypt: authority, belief and historical evidence","teach":["Egyptian power connected government, social roles, and religious beliefs. To explain a decision, ask who held authority, what people believed, and how work and resources supported the kingdom.","A dynasty is a sequence of rulers from the same family. The label describes succession, not whether the rulers were fair or powerful. One individual ruler alone is not a dynasty.","A pharaoh’s role joined government and religion. Egyptian royal authority was connected to beliefs about divine order, while officials and workers carried out the state’s tasks. Describe what Egyptians believed as a historical belief, not as a claim everyone must accept today.","Belief in an afterlife helped shape burial practices. Mummification preserves a body; a pyramid is a structure, and several served as royal tombs. They are related ideas but not interchangeable terms.","An artifact is evidence, but its meaning needs context. A ruler’s monument may present an ideal image of rule rather than a complete account of ordinary life. Compare artifact, written record, map and later interpretation; ask whose viewpoint each represents."],"model":{"prompt":"Original parallel: A school poster says its club is “the best.” What can a historian of the school infer from that poster?","reasoning":"Identify source and purpose: club promotion. Supported claim: the club wanted to present itself positively. Unsupported claim: every student agreed it was best. Additional evidence: membership records, student accounts and other clubs’ materials.","answer":"The poster supports a claim about the club’s intended public image, not universal agreement. Other records and accounts are needed to investigate actual experience."},"guided":{"prompt":"A source made to praise a leader should first be examined for what?","options":["Creator, audience, purpose and supported claims.","Only the prettiest color.","Whether it confirms every belief.","A guarantee that it is complete."],"answer":0,"rationale":"Source purpose helps determine what it can and cannot establish."},"practice":[{"id":"EP1","prompt":"Which statement accurately connects political and religious authority in ancient Egypt?","options":["The pharaoh was only a merchant.","All Egyptians held identical power.","Religion had no relationship to kingship.","Royal rule was associated with religious beliefs as well as government."],"answer":3,"rationale":"The ruler’s authority had political and religious dimensions; actual daily administration involved many roles.","repair":{"id":"fresh_ss_egypt_power_belief_repair_1","teach":"A pharaoh’s authority included government and religious roles; officials helped carry out the government’s work.","prompt":"A king leads a religious ceremony and orders officials to collect grain. What relationship do these actions show?","options":["Royal authority connected religious responsibilities with government.","A pharaoh had no role in government.","Grain collection was a writing system.","Religious ceremonies made all social groups equally powerful."],"answer":0,"rationale":"A pharaoh’s authority included government and religious roles; officials helped carry out the government’s work.","supported":true},"objectiveId":"fresh_ss_egypt_power_belief"},{"id":"EP2","prompt":"Which pair is correctly distinguished?","options":["Afterlife means a tax record; dynasty means a boat.","Mummification is preservation of a body; a pyramid is a structure that could serve as a tomb.","Every tomb is necessarily a pyramid.","Mummification is a building; a pyramid is a preserved body."],"answer":1,"rationale":"A process and a structure can connect through burial beliefs without being synonyms.","repair":{"id":"fresh_ss_egypt_power_belief_repair_2","teach":"Separate the object, process and structure: mummy is a preserved body, mummification is preservation, and a tomb is a burial place.","prompt":"A museum labels a preserved body and the treatments used to preserve it. Which labels fit?","options":["Mummy names the body; mummification names the process.","Mummy names the process; mummification names the coffin.","Both terms mean a pyramid.","A dynasty is the preserved body."],"answer":0,"rationale":"Separate the object, process and structure: mummy is a preserved body, mummification is preservation, and a tomb is a burial place.","supported":true},"objectiveId":"fresh_ss_egypt_power_belief"},{"id":"EP3","prompt":"A monument praises a ruler. Which claim needs more evidence?","options":["The source presents a viewpoint.","Every person living under that ruler was satisfied.","The monument praises the ruler.","Someone commissioned a positive portrayal."],"answer":1,"rationale":"A commissioned message cannot establish the experience of an entire population.","repair":{"id":"fresh_ss_egypt_power_belief_repair_3","teach":"An ideal image can show what its makers wanted to present. It cannot establish how all households lived.","prompt":"A palace painting shows plentiful food. Which claim requires evidence from beyond that painting?","options":["Every household always had enough to eat.","The painting includes food.","Someone chose to show plentiful food.","The painting presents a positive image."],"answer":0,"rationale":"An ideal image can show what its makers wanted to present. It cannot establish how all households lived.","supported":true},"objectiveId":"fresh_ss_egypt_power_belief"},{"id":"EP4","prompt":"Which is the strongest historical explanation?","options":["List several names without explaining relationships.","Assume beliefs never affected actions.","Identify the belief, connect it to a practice, and cite a source while acknowledging limits.","Treat a modern opinion as an ancient source."],"answer":2,"rationale":"Explanation requires supported connections and awareness of evidence boundaries.","repair":{"id":"fresh_ss_egypt_power_belief_repair_4","teach":"Explanation requires supported connections and awareness of evidence boundaries. Identify the specific action, relationship or evidence in the case before choosing.","prompt":"A public image presents a ruler as powerful. What is not established by that image alone?","options":["The symbols included.","How every person experienced that ruler’s government.","How the ruler wanted to appear.","That someone created the representation."],"answer":1,"rationale":"One public representation cannot speak for everyone.","supported":true},"objectiveId":"fresh_ss_egypt_power_belief"}],"independentCheck":[{"id":"fresh_ss_egypt_power_belief_B1","prompt":"Which phrasing treats an ancient belief accurately as historical evidence?","options":["Many Egyptians believed in an afterlife, which influenced burial practices.","Beliefs cannot influence actions.","All ancient people held exactly the same beliefs.","Every modern reader must share the belief."],"answer":0,"rationale":"Describe the belief and its historical consequences without requiring agreement.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"Which sentence treats an ancient belief as historical evidence without demanding agreement?","options":["Evidence of afterlife beliefs can help explain burial practices.","Every modern person must accept the same belief.","Beliefs cannot influence historical actions.","All ancient people held one identical view."],"answer":0,"rationale":"A historian can study the effects of beliefs without endorsing them or universalizing them.","supported":true,"id":"fresh_ss_egypt_power_belief_B1-qc-fresh-repair","teach":"Describe the belief and its historical consequences without requiring agreement. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_B2","prompt":"Which source is especially useful for studying a ruler’s public image?","options":["An unrelated game score.","A modern shopping list.","A weather forecast for tomorrow.","A royal monument commissioned to praise the ruler."],"answer":3,"rationale":"A commissioned monument can reveal the public image the patron wanted to present.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"A royal relief presents a ruler as powerful. What question is it especially useful for investigating?","options":["The private beliefs of every person alive.","How the ruler’s public image was presented.","The date of a future modern event.","Exactly how every worker felt."],"answer":1,"rationale":"A public representation reveals a selected image, not everyone’s experience.","supported":true,"id":"fresh_ss_egypt_power_belief_B2-qc-fresh-repair","teach":"A commissioned monument can reveal the public image the patron wanted to present. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_B3","prompt":"What does a dynasty describe?","options":["One particular building.","A river’s mouth.","A sequence of rulers from a family.","The process of preserving a body."],"answer":2,"rationale":"Dynasty concerns succession, not a structure or burial process.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"A timeline groups several successive rulers from one family. Which term describes that grouping?","options":["Mummification","Delta","Dynasty","Cataract"],"answer":2,"rationale":"Dynasty concerns a succession of rulers in a ruling family, not a burial procedure or landform.","supported":true,"id":"fresh_ss_egypt_power_belief_B3-qc-fresh-repair","teach":"Dynasty concerns succession, not a structure or burial process. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_B4","prompt":"What most strengthens a claim about daily life beyond a royal message?","options":["Repeating that same message.","Removing dates from the source.","Making the claim more confident.","Comparing records or artifacts reflecting several roles and contexts."],"answer":3,"rationale":"Different evidence can reveal experiences a royal message omits.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"What would strengthen a claim about ordinary life beyond a ruler’s praise inscription?","options":["Comparing material and written evidence from several social roles.","Assuming omitted people had no experiences.","Repeating the same inscription more often.","Removing the source’s context and purpose."],"answer":0,"rationale":"Different sources can reveal aspects and perspectives a royal message leaves out.","supported":true,"id":"fresh_ss_egypt_power_belief_B4-qc-fresh-repair","teach":"Different evidence can reveal experiences a royal message omits. Identify the specific action, relationship or evidence in the case before choosing."}}],"delayed":[{"id":"fresh_ss_egypt_power_belief_D1","prompt":"An artifact depicts a ruler beside a deity. What can it help investigate?","options":["The personal beliefs of every modern viewer.","The exact feelings of every worker.","Tomorrow’s election results.","How the ruler’s image connected authority and religious belief."],"answer":3,"rationale":"The representation can support a limited claim about public imagery and belief.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"An original artifact shows a ruler receiving support from a deity. What can it help investigate?","options":["How the public image connected authority and religion.","The personal beliefs of every modern viewer.","Every worker’s exact feelings about the ruler.","The outcome of tomorrow’s election."],"answer":0,"rationale":"The representation can support a limited claim about imagery and beliefs.","supported":true,"id":"fresh_ss_egypt_power_belief_D1-qc-fresh-repair","teach":"The representation can support a limited claim about public imagery and belief. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_D2","prompt":"Why compare several types of historical sources?","options":["Different sources can reveal different aspects and biases.","More sources always remove every uncertainty.","Every source is identical.","Maps can answer every question alone."],"answer":0,"rationale":"Comparisons can widen evidence while uncertainty may remain.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"Why compare an administrative record with a monument?","options":["They may preserve different purposes, perspectives and aspects of society.","One map can answer every historical question alone.","Every source gives identical information.","More sources automatically remove every uncertainty."],"answer":0,"rationale":"Comparison can widen evidence while remaining alert to each source’s limits.","supported":true,"id":"fresh_ss_egypt_power_belief_D2-qc-fresh-repair","teach":"Comparisons can widen evidence while uncertainty may remain. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_D3","prompt":"A preserved body and a royal tomb relate to which topic most directly?","options":["Modern airline schedules.","Burial practices and beliefs about death.","Only military formations.","Algebra coefficients."],"answer":1,"rationale":"The objects connect to death and burial practices.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"A preserved body and a tomb are most directly relevant to which investigation?","options":["Burial practices and beliefs concerning death.","Only mathematical coefficients.","Only methods for modern air travel.","Only the operation of a waterwheel."],"answer":0,"rationale":"Distinguish the preserved body from its surrounding structure while explaining their related historical context.","supported":true,"id":"fresh_ss_egypt_power_belief_D3-qc-fresh-repair","teach":"The objects connect to death and burial practices. Identify the specific action, relationship or evidence in the case before choosing."}},{"id":"fresh_ss_egypt_power_belief_D4","prompt":"Which phrasing distinguishes belief from fact about a belief?","options":["The evidence indicates a belief influenced a practice; that does not require the historian to share it.","Everyone today shares ancient beliefs.","Beliefs never shape choices.","Every belief must be scientifically proven before it affected history."],"answer":0,"rationale":"Historical explanation can examine effects of beliefs without endorsing them.","objectiveId":"fresh_ss_egypt_power_belief","repair":{"type":"single","prompt":"Which explanation separates a historical belief’s influence from endorsing that belief?","options":["Religious beliefs never influence political decisions.","Every modern reader holds all ancient beliefs.","The evidence links the belief to an action; the historian need not share the belief to explain that link.","A belief cannot affect behavior unless scientifically proven."],"answer":2,"rationale":"Historical analysis examines what people believed and how those beliefs related to their actions.","supported":true,"id":"fresh_ss_egypt_power_belief_D4-qc-fresh-repair","teach":"Historical explanation can examine effects of beliefs without endorsing them. Identify the specific action, relationship or evidence in the case before choosing."}}],"proof":{"prompt":"Explain one connection between Egyptian beliefs and a political or burial practice. Use two different source details. Then identify whose perspective a royal source may leave out and one additional source you would seek. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.","criteria":["Answers every part of the task with accurate historical terms and relationships.","Uses at least two relevant details from the assigned source or map.","Explains how each detail supports the claim instead of listing facts.","Applies the idea to the new case and explains a reasonable limit."]},"links":{"prior":"Retrieve Egypt: belief, preserved bodies and royal symbols. Explain one connection with this lesson and one difference.","current":"Use the assigned Egypt reading to explain check a source’s viewpoint. Name evidence and explain how it supports your answer.","future":"Next: Egypt: unification, evidence and the Old Kingdom. Carry an idea or source detail forward and explain how it helps.","realLife":"Advertising and social-media posts reveal what creators want audiences to believe; compare with independent evidence. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.","priorLessonId":"fresh_ss_egypt_faith","futureLessonId":"fresh_ss_egypt_early","bridge":{"prompt":"Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.","explanation":"A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."},"laterApplication":"Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."},"sources":[{"title":"Assigned WCS Ancient Egypt OER · exact classroom source","url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022","status":"51-page source text read; lesson-specific pages identified"},{"title":"Uploaded Egypt map checklist, 23 vocabulary terms, Journals Through Time20 questions","url":"","status":"complete"},{"title":"October30 sixth-grade newsletter","url":"","status":"complete"},{"title":"OpenStax World History §3.3 Ancient Egypt","url":"https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt","status":"complete"},{"title":"Metropolitan Museum, Kings and Queens of Egypt","url":"https://www.metmuseum.org/essays/kings-and-queens-of-egypt","status":"complete"}],"vocabulary":[{"word":"artifact","meaning":"An object made or modified by people that provides evidence about the past.","cue":"Object plus context.","example":"A carved royal monument is an artifact.","nonexample":"A guess about the past is not itself an ancient artifact."},{"word":"dynasty","meaning":"A sequence of rulers belonging to the same family.","cue":"Family succession.","example":"A family’s rulers succeed one another.","nonexample":"A pyramid is a structure,not a dynasty."},{"word":"afterlife","meaning":"An existence believed to follow death.","cue":"A belief about what follows life.","example":"Burial evidence can help investigate afterlife beliefs.","nonexample":"A historical explanation of a belief does not require sharing it."},{"word":"mummification","meaning":"The process of preserving a body after death.","cue":"Process,not building.","example":"Treatment preserves a body.","nonexample":"A pyramid is a structure,not the preservation process."}],"media":[{"title":"The Egyptian Book of the Dead: A guidebook for the underworld","url":"https://www.youtube.com/watch?v=1yv_MXNYbAo","status":"Transcript reviewed; playback not verified","task":"Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani’s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.","verification":{"content":"Complete official authored/unspecified English captions exported and read0:06–4:10; player duration4:32","publisherPage":"https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala","browserPlayback":"Player and animation metadata loaded; full moving/audio playback not verified","access":"Public transcript opened via description → Show transcript; no login needed"},"omissions":["One13th-century-BCE scribe is not all Egyptians or all periods","Mummification details are simplified; procedures varied","Does not replace the full history, social structure, politics and religion teacher quiz scope"]},{"title":"Kings and Queens of Egypt","url":"https://www.metmuseum.org/essays/kings-and-queens-of-egypt","status":"Content reviewed","task":"Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office’s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people’s lives.","verification":{"content":"Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect","browserPlayback":null,"access":"Public readable essay and artifact images; no login"},"omissions":["Not the assigned orange textbook page or exact classroom pyramid chart","Main essay focuses on royalty, not all social roles/contributions","Historical succession was more complicated than an always-father-to-son rule"]},{"title":"Religion and gods in ancient Egypt","url":"https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/","status":"Content reviewed","task":"Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.","verification":{"content":"Complete main article read, including deity sections, artifact captions and variation across places/classes/time","browserPlayback":null,"access":"Public readable text and images; linked3D viewer not interaction-tested"},"omissions":["Not the exact teacher source; selected paragraphs only for this task","Linked3D model has not been tested and is not counted as verified interaction","Do not generalize every deity association to every period"]}],"scopeStatus":"verified-source support; exact school-test readiness not asserted","retentionProofs":[{"day":3,"prompt":"A museum object depicts a ruler in a powerful pose. State a supported claim about public image and an unsupported claim about ordinary life.","criteria":["Accurate concept or calculation.","Evidence/reasoning links the details to the conclusion.","Valid limitation, contrast or application as requested."],"minutes":3,"reviewRequired":true},{"day":7,"prompt":"A historical source connects a belief to a burial practice. Explain the connection without asserting every person held an identical belief.","criteria":["Accurate concept or calculation.","Evidence/reasoning links the details to the conclusion.","Valid limitation, contrast or application as requested."],"minutes":3,"reviewRequired":true},{"day":14,"prompt":"A royal account and worker account differ. Explain why their purposes or experiences may differ and what additional evidence helps.","criteria":["Accurate concept or calculation.","Evidence/reasoning links the details to the conclusion.","Valid limitation, contrast or application as requested."],"minutes":3,"reviewRequired":true},{"day":30,"prompt":"Choose a new historical artifact. Identify creator/context if supplied, make a limited claim, and explain what the source cannot show alone.","criteria":["Accurate concept or calculation.","Evidence/reasoning links the details to the conclusion.","Valid limitation, contrast or application as requested."],"minutes":3,"reviewRequired":true}],"memoryCue":"Role → action → contribution → dependence → evidence. Rank is not human worth.","proofRepair":{"prompt":"A royal statue presents a king beside a god, and a separate tax record lists grain deliveries. Explain what each source supports about authority and what neither source proves on its own.","criteria":["Statue supports an inference about presented religious/royal authority.","Tax record supports an inference about administration.","Neither alone establishes universal obedience or the literal truth of a religious belief."],"reviewRequired":true},"nextLessonId":"fresh_ss_egypt_early","gameVersion":"ddd2bbf7","contentVersion":"ss-alignment-qc-2026-11-02-v2","sourceCoverage":{"classroomSource":"Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.","limits":"Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."},"readingLocation":{"where":"OER section 6.3, PDF pages15–18, and section 6.4, pages20–27. Compare the source’s purpose with the claim you make.","startPage":15,"endPage":27,"url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"},"teachingSections":[{"id":"power_belief_system","title":"Check a source’s viewpoint","teach":["Egyptian power connected government, social roles, and religious beliefs. To explain a decision, ask who held authority, what people believed, and how work and resources supported the kingdom.","A dynasty is a sequence of rulers from the same family. The label describes succession, not whether the rulers were fair or powerful. One individual ruler alone is not a dynasty.","A pharaoh’s role joined government and religion. Egyptian royal authority was connected to beliefs about divine order, while officials and workers carried out the state’s tasks. Describe what Egyptians believed as a historical belief, not as a claim everyone must accept today.","Belief in an afterlife helped shape burial practices. Mummification preserves a body; a pyramid is a structure, and several served as royal tombs. They are related ideas but not interchangeable terms."],"where":"OER section 6.3, PDF pages15–18, and section 6.4, pages20–27. Compare the source’s purpose with the claim you make.","example":{"prompt":"A royal monument says a king is a perfect ruler. Does it prove all workers agreed?","thinking":"Separate the message’s purpose from what it proves about everyone.","answer":"The monument shows how the king wanted to be presented. It does not prove every worker agreed. Records or objects from other people’s lives could help investigate their experiences.","why":"It uses the source without treating promotion as everyone’s opinion."},"tryPrompt":"Connect an afterlife belief to one burial practice using a source detail.","tryAnswer":"Preserved bodies and tomb provisions can support the explanation that people prepared for continued existence after death.","tryChoices":["Preserved bodies and tomb provisions can support the explanation that people prepared for continued existence after death.","The pharaoh was only a merchant.","All Egyptians held identical power."],"tryAnswerIndex":0},{"id":"power_belief1","title":"dynasty","teach":["A sequence of rulers belonging to the same family.","Family succession.","A pyramid is a structure,not a dynasty."],"where":"OER section 6.3, PDF pages15–18, and section 6.4, pages20–27. Compare the source’s purpose with the claim you make.","example":{"prompt":"A family’s rulers succeed one another. Explain which idea this illustrates.","thinking":"Look for the clue that defines dynasty. Separate it from a similar term.","answer":"dynasty: A sequence of rulers belonging to the same family. A family’s rulers succeed one another.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A ruler’s child becomes ruler. A farmer’s child becomes a farmer. Which example concerns a dynasty, and why?","tryAnswer":"The royal succession concerns a dynasty because it links rulers in a ruling family. A family continuing an occupation is not therefore a dynasty.","tryChoices":["Afterlife means a tax record; dynasty means a boat.","Every tomb is necessarily a pyramid.","The royal succession concerns a dynasty because it links rulers in a ruling family. A family continuing an occupation is not therefore a dynasty."],"tryAnswerIndex":2},{"id":"power_belief2","title":"afterlife","teach":["An existence believed to follow death.","A belief about what follows life.","A historical explanation of a belief does not require sharing it."],"where":"OER section 6.3, PDF pages15–18, and section 6.4, pages20–27. Compare the source’s purpose with the claim you make.","example":{"prompt":"Burial evidence can help investigate afterlife beliefs. Explain which idea this illustrates.","thinking":"Look for the clue that defines afterlife. Separate it from a similar term.","answer":"afterlife: An existence believed to follow death. Burial evidence can help investigate afterlife beliefs.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"How could food placed in a burial help a historian investigate belief?","tryAnswer":"Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.","tryChoices":["The monument praises the ruler.","Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.","The source presents a viewpoint."],"tryAnswerIndex":1},{"id":"power_belief3","title":"mummification","teach":["The process of preserving a body after death.","Process,not building.","A pyramid is a structure,not the preservation process."],"where":"OER section 6.3, PDF pages15–18, and section 6.4, pages20–27. Compare the source’s purpose with the claim you make.","example":{"prompt":"Treatment preserves a body. Explain which idea this illustrates.","thinking":"Look for the clue that defines mummification. Separate it from a similar term.","answer":"mummification: The process of preserving a body after death. Treatment preserves a body.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A student calls a pyramid “mummification.” Repair the sentence using all three terms: tomb, mummy and mummification.","tryAnswer":"A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.","tryChoices":["A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.","List several names without explaining relationships.","Assume beliefs never affected actions."],"tryAnswerIndex":0}],"assessmentFormat":"multiple-choice-only"}
+{
+  "id": "fresh_ss_egypt_power_belief",
+  "subject": "SS",
+  "title": "Egypt: authority, belief and historical evidence",
+  "teach": [
+    "Egyptian power connected government, social roles, and religious beliefs. To explain a decision, ask who held authority, what people believed, and how work and resources supported the kingdom.",
+    "A dynasty is a sequence of rulers from the same family. The label describes succession, not whether the rulers were fair or powerful. One individual ruler alone is not a dynasty.",
+    "A pharaoh\u2019s role joined government and religion. Egyptian royal authority was connected to beliefs about divine order, while officials and workers carried out the state\u2019s tasks. Describe what Egyptians believed as a historical belief, not as a claim everyone must accept today.",
+    "Belief in an afterlife helped shape burial practices. Mummification preserves a body; a pyramid is a structure, and several served as royal tombs. They are related ideas but not interchangeable terms.",
+    "An artifact is evidence, but its meaning needs context. A ruler\u2019s monument may present an ideal image of rule rather than a complete account of ordinary life. Compare artifact, written record, map and later interpretation; ask whose viewpoint each represents."
+  ],
+  "model": {
+    "prompt": "Original parallel: A school poster says its club is \u201cthe best.\u201d What can a historian of the school infer from that poster?",
+    "reasoning": "Identify source and purpose: club promotion. Supported claim: the club wanted to present itself positively. Unsupported claim: every student agreed it was best. Additional evidence: membership records, student accounts and other clubs\u2019 materials.",
+    "answer": "The poster supports a claim about the club\u2019s intended public image, not universal agreement. Other records and accounts are needed to investigate actual experience."
+  },
+  "guided": {
+    "prompt": "A source made to praise a leader should first be examined for what?",
+    "options": [
+      "Creator, audience, purpose and supported claims.",
+      "Only the prettiest color.",
+      "Whether it confirms every belief.",
+      "A guarantee that it is complete."
+    ],
+    "answer": 0,
+    "rationale": "Source purpose helps determine what it can and cannot establish."
+  },
+  "practice": [
+    {
+      "id": "EP1",
+      "prompt": "Which statement accurately connects political and religious authority in ancient Egypt?",
+      "options": [
+        "The pharaoh was only a merchant.",
+        "All Egyptians held identical power.",
+        "Religion had no relationship to kingship.",
+        "Royal rule was associated with religious beliefs as well as government."
+      ],
+      "answer": 3,
+      "rationale": "The ruler\u2019s authority had political and religious dimensions; actual daily administration involved many roles.",
+      "repair": {
+        "id": "fresh_ss_egypt_power_belief_repair_1",
+        "teach": "A pharaoh\u2019s authority included government and religious roles; officials helped carry out the government\u2019s work.",
+        "prompt": "A king leads a religious ceremony and orders officials to collect grain. What relationship do these actions show?",
+        "options": [
+          "Royal authority connected religious responsibilities with government.",
+          "A pharaoh had no role in government.",
+          "Grain collection was a writing system.",
+          "Religious ceremonies made all social groups equally powerful."
+        ],
+        "answer": 0,
+        "rationale": "A pharaoh\u2019s authority included government and religious roles; officials helped carry out the government\u2019s work.",
+        "supported": true
+      },
+      "objectiveId": "fresh_ss_egypt_power_belief"
+    },
+    {
+      "id": "EP2",
+      "prompt": "Which pair is correctly distinguished?",
+      "options": [
+        "Afterlife means a tax record; dynasty means a boat.",
+        "Mummification is preservation of a body; a pyramid is a structure that could serve as a tomb.",
+        "Every tomb is necessarily a pyramid.",
+        "Mummification is a building; a pyramid is a preserved body."
+      ],
+      "answer": 1,
+      "rationale": "A process and a structure can connect through burial beliefs without being synonyms.",
+      "repair": {
+        "id": "fresh_ss_egypt_power_belief_repair_2",
+        "teach": "Separate the object, process and structure: mummy is a preserved body, mummification is preservation, and a tomb is a burial place.",
+        "prompt": "A museum labels a preserved body and the treatments used to preserve it. Which labels fit?",
+        "options": [
+          "Mummy names the body; mummification names the process.",
+          "Mummy names the process; mummification names the coffin.",
+          "Both terms mean a pyramid.",
+          "A dynasty is the preserved body."
+        ],
+        "answer": 0,
+        "rationale": "Separate the object, process and structure: mummy is a preserved body, mummification is preservation, and a tomb is a burial place.",
+        "supported": true
+      },
+      "objectiveId": "fresh_ss_egypt_power_belief"
+    },
+    {
+      "id": "EP3",
+      "prompt": "A monument praises a ruler. Which claim needs more evidence?",
+      "options": [
+        "The source presents a viewpoint.",
+        "Every person living under that ruler was satisfied.",
+        "The monument praises the ruler.",
+        "Someone commissioned a positive portrayal."
+      ],
+      "answer": 1,
+      "rationale": "A commissioned message cannot establish the experience of an entire population.",
+      "repair": {
+        "id": "fresh_ss_egypt_power_belief_repair_3",
+        "teach": "An ideal image can show what its makers wanted to present. It cannot establish how all households lived.",
+        "prompt": "A palace painting shows plentiful food. Which claim requires evidence from beyond that painting?",
+        "options": [
+          "Every household always had enough to eat.",
+          "The painting includes food.",
+          "Someone chose to show plentiful food.",
+          "The painting presents a positive image."
+        ],
+        "answer": 0,
+        "rationale": "An ideal image can show what its makers wanted to present. It cannot establish how all households lived.",
+        "supported": true
+      },
+      "objectiveId": "fresh_ss_egypt_power_belief"
+    },
+    {
+      "id": "EP4",
+      "prompt": "Which is the strongest historical explanation?",
+      "options": [
+        "List several names without explaining relationships.",
+        "Assume beliefs never affected actions.",
+        "Identify the belief, connect it to a practice, and cite a source while acknowledging limits.",
+        "Treat a modern opinion as an ancient source."
+      ],
+      "answer": 2,
+      "rationale": "Explanation requires supported connections and awareness of evidence boundaries.",
+      "repair": {
+        "id": "fresh_ss_egypt_power_belief_repair_4",
+        "teach": "Explanation requires supported connections and awareness of evidence boundaries. Identify the specific action, relationship or evidence in the case before choosing.",
+        "prompt": "A public image presents a ruler as powerful. What is not established by that image alone?",
+        "options": [
+          "The symbols included.",
+          "How every person experienced that ruler\u2019s government.",
+          "How the ruler wanted to appear.",
+          "That someone created the representation."
+        ],
+        "answer": 1,
+        "rationale": "One public representation cannot speak for everyone.",
+        "supported": true
+      },
+      "objectiveId": "fresh_ss_egypt_power_belief"
+    }
+  ],
+  "independentCheck": [
+    {
+      "id": "fresh_ss_egypt_power_belief_B1",
+      "prompt": "Which phrasing treats an ancient belief accurately as historical evidence?",
+      "options": [
+        "Many Egyptians believed in an afterlife, which influenced burial practices.",
+        "Beliefs cannot influence actions.",
+        "All ancient people held exactly the same beliefs.",
+        "Every modern reader must share the belief."
+      ],
+      "answer": 0,
+      "rationale": "Describe the belief and its historical consequences without requiring agreement.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "Which sentence treats an ancient belief as historical evidence without demanding agreement?",
+        "options": [
+          "Evidence of afterlife beliefs can help explain burial practices.",
+          "Every modern person must accept the same belief.",
+          "Beliefs cannot influence historical actions.",
+          "All ancient people held one identical view."
+        ],
+        "answer": 0,
+        "rationale": "A historian can study the effects of beliefs without endorsing them or universalizing them.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_B1-qc-fresh-repair",
+        "teach": "Describe the belief and its historical consequences without requiring agreement. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_B2",
+      "prompt": "Which source is especially useful for studying a ruler\u2019s public image?",
+      "options": [
+        "An unrelated game score.",
+        "A modern shopping list.",
+        "A weather forecast for tomorrow.",
+        "A royal monument commissioned to praise the ruler."
+      ],
+      "answer": 3,
+      "rationale": "A commissioned monument can reveal the public image the patron wanted to present.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "A royal relief presents a ruler as powerful. What question is it especially useful for investigating?",
+        "options": [
+          "The private beliefs of every person alive.",
+          "How the ruler\u2019s public image was presented.",
+          "The date of a future modern event.",
+          "Exactly how every worker felt."
+        ],
+        "answer": 1,
+        "rationale": "A public representation reveals a selected image, not everyone\u2019s experience.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_B2-qc-fresh-repair",
+        "teach": "A commissioned monument can reveal the public image the patron wanted to present. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_B3",
+      "prompt": "What does a dynasty describe?",
+      "options": [
+        "One particular building.",
+        "A river\u2019s mouth.",
+        "A sequence of rulers from a family.",
+        "The process of preserving a body."
+      ],
+      "answer": 2,
+      "rationale": "Dynasty concerns succession, not a structure or burial process.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "A timeline groups several successive rulers from one family. Which term describes that grouping?",
+        "options": [
+          "Mummification",
+          "Delta",
+          "Dynasty",
+          "Cataract"
+        ],
+        "answer": 2,
+        "rationale": "Dynasty concerns a succession of rulers in a ruling family, not a burial procedure or landform.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_B3-qc-fresh-repair",
+        "teach": "Dynasty concerns succession, not a structure or burial process. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_B4",
+      "prompt": "What most strengthens a claim about daily life beyond a royal message?",
+      "options": [
+        "Repeating that same message.",
+        "Removing dates from the source.",
+        "Making the claim more confident.",
+        "Comparing records or artifacts reflecting several roles and contexts."
+      ],
+      "answer": 3,
+      "rationale": "Different evidence can reveal experiences a royal message omits.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "What would strengthen a claim about ordinary life beyond a ruler\u2019s praise inscription?",
+        "options": [
+          "Comparing material and written evidence from several social roles.",
+          "Assuming omitted people had no experiences.",
+          "Repeating the same inscription more often.",
+          "Removing the source\u2019s context and purpose."
+        ],
+        "answer": 0,
+        "rationale": "Different sources can reveal aspects and perspectives a royal message leaves out.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_B4-qc-fresh-repair",
+        "teach": "Different evidence can reveal experiences a royal message omits. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "id": "fresh_ss_egypt_power_belief_D1",
+      "prompt": "An artifact depicts a ruler beside a deity. What can it help investigate?",
+      "options": [
+        "The personal beliefs of every modern viewer.",
+        "The exact feelings of every worker.",
+        "Tomorrow\u2019s election results.",
+        "How the ruler\u2019s image connected authority and religious belief."
+      ],
+      "answer": 3,
+      "rationale": "The representation can support a limited claim about public imagery and belief.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "An original artifact shows a ruler receiving support from a deity. What can it help investigate?",
+        "options": [
+          "How the public image connected authority and religion.",
+          "The personal beliefs of every modern viewer.",
+          "Every worker\u2019s exact feelings about the ruler.",
+          "The outcome of tomorrow\u2019s election."
+        ],
+        "answer": 0,
+        "rationale": "The representation can support a limited claim about imagery and beliefs.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_D1-qc-fresh-repair",
+        "teach": "The representation can support a limited claim about public imagery and belief. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_D2",
+      "prompt": "Why compare several types of historical sources?",
+      "options": [
+        "Different sources can reveal different aspects and biases.",
+        "More sources always remove every uncertainty.",
+        "Every source is identical.",
+        "Maps can answer every question alone."
+      ],
+      "answer": 0,
+      "rationale": "Comparisons can widen evidence while uncertainty may remain.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "Why compare an administrative record with a monument?",
+        "options": [
+          "They may preserve different purposes, perspectives and aspects of society.",
+          "One map can answer every historical question alone.",
+          "Every source gives identical information.",
+          "More sources automatically remove every uncertainty."
+        ],
+        "answer": 0,
+        "rationale": "Comparison can widen evidence while remaining alert to each source\u2019s limits.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_D2-qc-fresh-repair",
+        "teach": "Comparisons can widen evidence while uncertainty may remain. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_D3",
+      "prompt": "A preserved body and a royal tomb relate to which topic most directly?",
+      "options": [
+        "Modern airline schedules.",
+        "Burial practices and beliefs about death.",
+        "Only military formations.",
+        "Algebra coefficients."
+      ],
+      "answer": 1,
+      "rationale": "The objects connect to death and burial practices.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "A preserved body and a tomb are most directly relevant to which investigation?",
+        "options": [
+          "Burial practices and beliefs concerning death.",
+          "Only mathematical coefficients.",
+          "Only methods for modern air travel.",
+          "Only the operation of a waterwheel."
+        ],
+        "answer": 0,
+        "rationale": "Distinguish the preserved body from its surrounding structure while explaining their related historical context.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_D3-qc-fresh-repair",
+        "teach": "The objects connect to death and burial practices. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    },
+    {
+      "id": "fresh_ss_egypt_power_belief_D4",
+      "prompt": "Which phrasing distinguishes belief from fact about a belief?",
+      "options": [
+        "The evidence indicates a belief influenced a practice; that does not require the historian to share it.",
+        "Everyone today shares ancient beliefs.",
+        "Beliefs never shape choices.",
+        "Every belief must be scientifically proven before it affected history."
+      ],
+      "answer": 0,
+      "rationale": "Historical explanation can examine effects of beliefs without endorsing them.",
+      "objectiveId": "fresh_ss_egypt_power_belief",
+      "repair": {
+        "type": "single",
+        "prompt": "Which explanation separates a historical belief\u2019s influence from endorsing that belief?",
+        "options": [
+          "Religious beliefs never influence political decisions.",
+          "Every modern reader holds all ancient beliefs.",
+          "The evidence links the belief to an action; the historian need not share the belief to explain that link.",
+          "A belief cannot affect behavior unless scientifically proven."
+        ],
+        "answer": 2,
+        "rationale": "Historical analysis examines what people believed and how those beliefs related to their actions.",
+        "supported": true,
+        "id": "fresh_ss_egypt_power_belief_D4-qc-fresh-repair",
+        "teach": "Historical explanation can examine effects of beliefs without endorsing them. Identify the specific action, relationship or evidence in the case before choosing."
+      }
+    }
+  ],
+  "proof": {
+    "prompt": "Explain one connection between Egyptian beliefs and a political or burial practice. Use two different source details. Then identify whose perspective a royal source may leave out and one additional source you would seek. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.",
+    "criteria": [
+      "Answers every part of the task with accurate historical terms and relationships.",
+      "Uses at least two relevant details from the assigned source or map.",
+      "Explains how each detail supports the claim instead of listing facts.",
+      "Applies the idea to the new case and explains a reasonable limit."
+    ]
+  },
+  "links": {
+    "prior": "Retrieve Egypt: belief, preserved bodies and royal symbols. Explain one connection with this lesson and one difference.",
+    "current": "Use the assigned Egypt reading to explain check a source\u2019s viewpoint. Name evidence and explain how it supports your answer.",
+    "future": "Next: Egypt: unification, evidence and the Old Kingdom. Carry an idea or source detail forward and explain how it helps.",
+    "realLife": "Advertising and social-media posts reveal what creators want audiences to believe; compare with independent evidence. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.",
+    "priorLessonId": "fresh_ss_egypt_faith",
+    "futureLessonId": "fresh_ss_egypt_early",
+    "bridge": {
+      "prompt": "Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.",
+      "explanation": "A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."
+    },
+    "laterApplication": "Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."
+  },
+  "sources": [
+    {
+      "title": "Assigned WCS Ancient Egypt OER \u00b7 exact classroom source",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "status": "51-page source text read; lesson-specific pages identified"
+    },
+    {
+      "title": "Uploaded Egypt map checklist, 23 vocabulary terms, Journals Through Time20 questions",
+      "url": "",
+      "status": "complete"
+    },
+    {
+      "title": "October30 sixth-grade newsletter",
+      "url": "",
+      "status": "complete"
+    },
+    {
+      "title": "OpenStax World History \u00a73.3 Ancient Egypt",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt",
+      "status": "complete"
+    },
+    {
+      "title": "Metropolitan Museum, Kings and Queens of Egypt",
+      "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+      "status": "complete"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "artifact",
+      "meaning": "An object made or modified by people that provides evidence about the past.",
+      "cue": "Object plus context.",
+      "example": "A carved royal monument is an artifact.",
+      "nonexample": "A guess about the past is not itself an ancient artifact."
+    },
+    {
+      "word": "dynasty",
+      "meaning": "A sequence of rulers belonging to the same family.",
+      "cue": "Family succession.",
+      "example": "A family\u2019s rulers succeed one another.",
+      "nonexample": "A pyramid is a structure,not a dynasty."
+    },
+    {
+      "word": "afterlife",
+      "meaning": "An existence believed to follow death.",
+      "cue": "A belief about what follows life.",
+      "example": "Burial evidence can help investigate afterlife beliefs.",
+      "nonexample": "A historical explanation of a belief does not require sharing it."
+    },
+    {
+      "word": "mummification",
+      "meaning": "The process of preserving a body after death.",
+      "cue": "Process,not building.",
+      "example": "Treatment preserves a body.",
+      "nonexample": "A pyramid is a structure,not the preservation process."
+    }
+  ],
+  "media": [
+    {
+      "title": "The Egyptian Book of the Dead: A guidebook for the underworld",
+      "url": "https://www.youtube.com/watch?v=1yv_MXNYbAo",
+      "status": "Transcript reviewed; playback not verified",
+      "task": "Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani\u2019s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.",
+      "verification": {
+        "content": "Complete official authored/unspecified English captions exported and read0:06\u20134:10; player duration4:32",
+        "publisherPage": "https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala",
+        "browserPlayback": "Player and animation metadata loaded; full moving/audio playback not verified",
+        "access": "Public transcript opened via description \u2192 Show transcript; no login needed"
+      },
+      "omissions": [
+        "One13th-century-BCE scribe is not all Egyptians or all periods",
+        "Mummification details are simplified; procedures varied",
+        "Does not replace the full history, social structure, politics and religion teacher quiz scope"
+      ]
+    },
+    {
+      "title": "Kings and Queens of Egypt",
+      "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+      "status": "Content reviewed",
+      "task": "Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office\u2019s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people\u2019s lives.",
+      "verification": {
+        "content": "Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect",
+        "browserPlayback": null,
+        "access": "Public readable essay and artifact images; no login"
+      },
+      "omissions": [
+        "Not the assigned orange textbook page or exact classroom pyramid chart",
+        "Main essay focuses on royalty, not all social roles/contributions",
+        "Historical succession was more complicated than an always-father-to-son rule"
+      ]
+    },
+    {
+      "title": "Religion and gods in ancient Egypt",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/",
+      "status": "Content reviewed",
+      "task": "Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.",
+      "verification": {
+        "content": "Complete main article read, including deity sections, artifact captions and variation across places/classes/time",
+        "browserPlayback": null,
+        "access": "Public readable text and images; linked3D viewer not interaction-tested"
+      },
+      "omissions": [
+        "Not the exact teacher source; selected paragraphs only for this task",
+        "Linked3D model has not been tested and is not counted as verified interaction",
+        "Do not generalize every deity association to every period"
+      ]
+    }
+  ],
+  "scopeStatus": "verified-source support; exact school-test readiness not asserted",
+  "retentionProofs": [
+    {
+      "day": 3,
+      "prompt": "A museum object depicts a ruler in a powerful pose. State a supported claim about public image and an unsupported claim about ordinary life.",
+      "criteria": [
+        "Accurate concept or calculation.",
+        "Evidence/reasoning links the details to the conclusion.",
+        "Valid limitation, contrast or application as requested."
+      ],
+      "minutes": 3,
+      "reviewRequired": true
+    },
+    {
+      "day": 7,
+      "prompt": "A historical source connects a belief to a burial practice. Explain the connection without asserting every person held an identical belief.",
+      "criteria": [
+        "Accurate concept or calculation.",
+        "Evidence/reasoning links the details to the conclusion.",
+        "Valid limitation, contrast or application as requested."
+      ],
+      "minutes": 3,
+      "reviewRequired": true
+    },
+    {
+      "day": 14,
+      "prompt": "A royal account and worker account differ. Explain why their purposes or experiences may differ and what additional evidence helps.",
+      "criteria": [
+        "Accurate concept or calculation.",
+        "Evidence/reasoning links the details to the conclusion.",
+        "Valid limitation, contrast or application as requested."
+      ],
+      "minutes": 3,
+      "reviewRequired": true
+    },
+    {
+      "day": 30,
+      "prompt": "Choose a new historical artifact. Identify creator/context if supplied, make a limited claim, and explain what the source cannot show alone.",
+      "criteria": [
+        "Accurate concept or calculation.",
+        "Evidence/reasoning links the details to the conclusion.",
+        "Valid limitation, contrast or application as requested."
+      ],
+      "minutes": 3,
+      "reviewRequired": true
+    }
+  ],
+  "memoryCue": "Role \u2192 action \u2192 contribution \u2192 dependence \u2192 evidence. Rank is not human worth.",
+  "proofRepair": {
+    "prompt": "A royal statue presents a king beside a god, and a separate tax record lists grain deliveries. Explain what each source supports about authority and what neither source proves on its own.",
+    "criteria": [
+      "Statue supports an inference about presented religious/royal authority.",
+      "Tax record supports an inference about administration.",
+      "Neither alone establishes universal obedience or the literal truth of a religious belief."
+    ],
+    "reviewRequired": true
+  },
+  "nextLessonId": "fresh_ss_egypt_early",
+  "gameVersion": "ddd2bbf7",
+  "contentVersion": "ss-alignment-qc-2026-11-02-v2",
+  "sourceCoverage": {
+    "classroomSource": "Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.",
+    "limits": "Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."
+  },
+  "readingLocation": {
+    "where": "OER section 6.3, PDF pages15\u201318, and section 6.4, pages20\u201327. Compare the source\u2019s purpose with the claim you make.",
+    "startPage": 15,
+    "endPage": 27,
+    "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"
+  },
+  "teachingSections": [
+    {
+      "id": "power_belief_system",
+      "title": "Check a source\u2019s viewpoint",
+      "teach": [
+        "Egyptian power connected government, social roles, and religious beliefs. To explain a decision, ask who held authority, what people believed, and how work and resources supported the kingdom.",
+        "A dynasty is a sequence of rulers from the same family. The label describes succession, not whether the rulers were fair or powerful. One individual ruler alone is not a dynasty.",
+        "A pharaoh\u2019s role joined government and religion. Egyptian royal authority was connected to beliefs about divine order, while officials and workers carried out the state\u2019s tasks. Describe what Egyptians believed as a historical belief, not as a claim everyone must accept today.",
+        "Belief in an afterlife helped shape burial practices. Mummification preserves a body; a pyramid is a structure, and several served as royal tombs. They are related ideas but not interchangeable terms."
+      ],
+      "where": "OER section 6.3, PDF pages15\u201318, and section 6.4, pages20\u201327. Compare the source\u2019s purpose with the claim you make.",
+      "example": {
+        "prompt": "A royal monument says a king is a perfect ruler. Does it prove all workers agreed?",
+        "thinking": "Separate the message\u2019s purpose from what it proves about everyone.",
+        "answer": "The monument shows how the king wanted to be presented. It does not prove every worker agreed. Records or objects from other people\u2019s lives could help investigate their experiences.",
+        "why": "It uses the source without treating promotion as everyone\u2019s opinion."
+      },
+      "tryPrompt": "Connect an afterlife belief to one burial practice using a source detail.",
+      "tryAnswer": "Preserved bodies and tomb provisions can support the explanation that people prepared for continued existence after death.",
+      "tryChoices": [
+        "Preserved bodies and tomb provisions can support the explanation that people prepared for continued existence after death.",
+        "The pharaoh was only a merchant.",
+        "All Egyptians held identical power."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "power_belief1",
+      "title": "dynasty",
+      "teach": [
+        "A sequence of rulers belonging to the same family.",
+        "Family succession.",
+        "A pyramid is a structure,not a dynasty."
+      ],
+      "where": "OER section 6.3, PDF pages15\u201318, and section 6.4, pages20\u201327. Compare the source\u2019s purpose with the claim you make.",
+      "example": {
+        "prompt": "A family\u2019s rulers succeed one another. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines dynasty. Separate it from a similar term.",
+        "answer": "dynasty: A sequence of rulers belonging to the same family. A family\u2019s rulers succeed one another.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A ruler\u2019s child becomes ruler. A farmer\u2019s child becomes a farmer. Which example concerns a dynasty, and why?",
+      "tryAnswer": "The royal succession concerns a dynasty because it links rulers in a ruling family. A family continuing an occupation is not therefore a dynasty.",
+      "tryChoices": [
+        "Afterlife means a tax record; dynasty means a boat.",
+        "Every tomb is necessarily a pyramid.",
+        "The royal succession concerns a dynasty because it links rulers in a ruling family. A family continuing an occupation is not therefore a dynasty."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "power_belief2",
+      "title": "afterlife",
+      "teach": [
+        "An existence believed to follow death.",
+        "A belief about what follows life.",
+        "A historical explanation of a belief does not require sharing it."
+      ],
+      "where": "OER section 6.3, PDF pages15\u201318, and section 6.4, pages20\u201327. Compare the source\u2019s purpose with the claim you make.",
+      "example": {
+        "prompt": "Burial evidence can help investigate afterlife beliefs. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines afterlife. Separate it from a similar term.",
+        "answer": "afterlife: An existence believed to follow death. Burial evidence can help investigate afterlife beliefs.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "How could food placed in a burial help a historian investigate belief?",
+      "tryAnswer": "Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.",
+      "tryChoices": [
+        "The monument praises the ruler.",
+        "Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.",
+        "The source presents a viewpoint."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "power_belief3",
+      "title": "mummification",
+      "teach": [
+        "The process of preserving a body after death.",
+        "Process,not building.",
+        "A pyramid is a structure,not the preservation process."
+      ],
+      "where": "OER section 6.3, PDF pages15\u201318, and section 6.4, pages20\u201327. Compare the source\u2019s purpose with the claim you make.",
+      "example": {
+        "prompt": "Treatment preserves a body. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines mummification. Separate it from a similar term.",
+        "answer": "mummification: The process of preserving a body after death. Treatment preserves a body.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A student calls a pyramid \u201cmummification.\u201d Repair the sentence using all three terms: tomb, mummy and mummification.",
+      "tryAnswer": "A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.",
+      "tryChoices": [
+        "A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.",
+        "List several names without explaining relationships.",
+        "Assume beliefs never affected actions."
+      ],
+      "tryAnswerIndex": 0
+    }
+  ],
+  "assessmentFormat": "multiple-choice-only",
+  "archived": true,
+  "releaseStatus": "Withdrawn. Historical development content; do not assign, assess or narrate."
+}

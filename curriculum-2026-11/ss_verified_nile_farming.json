@@ -1,0 +1,444 @@
+{
+  "id": "ss_verified_nile_farming",
+  "subject": "SS",
+  "title": "Nile flooding and farming",
+  "contentVersion": "schoology-reset-1",
+  "verifiedReplacement": true,
+  "objectiveIds": [
+    "ss_verified_nile_farming"
+  ],
+  "objectiveLabels": {
+    "ss_verified_nile_farming": "2. Nile flooding and farming"
+  },
+  "teach": [
+    "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land.",
+    "Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen.",
+    "Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions."
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "title": "Assigned OER Ancient Egypt",
+      "pages": [
+        5,
+        9,
+        10,
+        11
+      ],
+      "status": "Named pages content-read; full course audit incomplete"
+    }
+  ],
+  "readingLocation": {
+    "startPage": 5,
+    "endPage": 11,
+    "where": "Assigned OER PDF, pages 5, 9, 10, 11"
+  },
+  "teachingSections": [
+    {
+      "id": "ss_verified_nile_farming_teach",
+      "title": "Nile flooding and farming",
+      "where": "Read the assigned OER PDF, pages 5, 9, 10, 11.",
+      "sourceUrl": "/?reading=egypt&page=5",
+      "teach": [
+        "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land.",
+        "Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen.",
+        "Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions."
+      ],
+      "example": {
+        "prompt": "A field is too far from the river for water to reach it. Which change could help?",
+        "thinking": "The crop needs water. A channel can carry water from the river to the field.",
+        "answer": "Build an irrigation channel.",
+        "why": "Irrigation moves water to crops. Silt improves soil, but it does not replace the need for water."
+      },
+      "tryPrompt": "What did Nile floods leave that helped farmland?",
+      "tryChoices": [
+        "Silt",
+        "Salt crystals from the Red Sea",
+        "Stone blocks for temples"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions."
+    }
+  ],
+  "practice": [
+    {
+      "prompt": "What does irrigation do?",
+      "options": [
+        "Directs water to crops",
+        "Turns flax into linen",
+        "Counts the population"
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q1",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Directs water to crops. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "Which material helped enrich fields after Nile flooding?",
+        "options": [
+          "Fine soil carried by the river",
+          "Linen cloth carried by traders",
+          "Stone cut for royal tombs"
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair1",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Fine soil carried by the river. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which pair describes Black Land and Red Land?",
+      "options": [
+        "Fertile river land and surrounding desert",
+        "Northern Egypt and southern Egypt",
+        "Land owned by priests and land owned by farmers"
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q2",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Fertile river land and surrounding desert. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "What does Red Land describe?",
+        "options": [
+          "Desert near the fertile Nile land",
+          "Every field in Upper Egypt",
+          "The soil deposited by floods"
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair2",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Desert near the fertile Nile land. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "After floodwater recedes, a field has a new layer of fine soil. How can this help farmers?",
+      "options": [
+        "The deposited silt helps make the soil fertile.",
+        "The silt removes the need for water.",
+        "The silt turns grain into cloth."
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q3",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: The deposited silt helps make the soil fertile.. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "Why could a canal help a farmer?",
+        "options": [
+          "It carries water to a field.",
+          "It writes the harvest record.",
+          "It makes a field need no water."
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair3",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: It carries water to a field.. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [],
+  "delayed": [
+    {
+      "prompt": "A village digs ditches from the river to its fields. What is it building?",
+      "options": [
+        "An irrigation system",
+        "A system for writing records",
+        "A boundary between Upper and Lower Egypt"
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q4",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: An irrigation system. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "A farmer stores floodwater in a basin for later use. What is the basin helping with?",
+        "options": [
+          "Irrigation",
+          "Mummification",
+          "A census"
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair4",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Irrigation. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      },
+      "retrievalDay": 1
+    },
+    {
+      "prompt": "A family needs fiber for linen cloth. Which crop would meet that need?",
+      "options": [
+        "Flax",
+        "Wheat",
+        "Barley"
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q5",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Flax. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "Which product comes from flax fiber?",
+        "options": [
+          "Linen",
+          "Wheat grain",
+          "Pottery"
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair5",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Linen. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      },
+      "retrievalDay": 3
+    },
+    {
+      "prompt": "A field has fertile soil but receives too little water. Which action addresses the water problem?",
+      "options": [
+        "Repair the channel that carries water to it.",
+        "Replace its flax with a temple record.",
+        "Rename the field Black Land."
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q6",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Repair the channel that carries water to it.. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "What is the difference between silt and an irrigation ditch?",
+        "options": [
+          "Silt is deposited soil; the ditch carries water.",
+          "Silt carries written records; the ditch stores grain.",
+          "Silt is a crop; the ditch is a type of cloth."
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair6",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Silt is deposited soil; the ditch carries water.. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      },
+      "retrievalDay": 7
+    },
+    {
+      "prompt": "Which chain explains one benefit of Nile flooding?",
+      "options": [
+        "Floodwater deposits silt \u2192 fertile soil supports crops.",
+        "Floodwater deposits silt \u2192 crops no longer need water.",
+        "Floodwater deposits silt \u2192 farmland becomes desert."
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q7",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Floodwater deposits silt \u2192 fertile soil supports crops.. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "Why did settlements benefit from fertile land near the Nile?",
+        "options": [
+          "Farmers could grow food there.",
+          "Farmers could grow crops without any water.",
+          "Farmers no longer needed to plant or harvest."
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair7",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Farmers could grow food there.. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      },
+      "retrievalDay": 14
+    },
+    {
+      "prompt": "A student labels all southern Egypt Red Land and all northern Egypt Black Land. What should change?",
+      "options": [
+        "Use Black Land for fertile Nile land and Red Land for desert.",
+        "Use Black Land only for the delta\u2019s cities.",
+        "Use Red Land only for farmland upstream."
+      ],
+      "answer": 0,
+      "id": "ss_verified_nile_farming_q8",
+      "objectiveId": "ss_verified_nile_farming",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          5,
+          9,
+          10,
+          11
+        ]
+      },
+      "rationale": "Correct: Use Black Land for fertile Nile land and Red Land for desert.. See Assigned OER Ancient Egypt, pages 5, 9, 10, 11.",
+      "repair": {
+        "prompt": "Which statement can be true in both Upper and Lower Egypt?",
+        "options": [
+          "Fertile Black Land lies beside the Nile.",
+          "All the land is desert with no farms.",
+          "Red Land means only the southern kingdom."
+        ],
+        "answer": 0,
+        "id": "ss_verified_nile_farming_repair8",
+        "objectiveId": "ss_verified_nile_farming",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ]
+        },
+        "teach": "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "rationale": "Correct: Fertile Black Land lies beside the Nile.. Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land. Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen. Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions.",
+        "supported": true
+      },
+      "retrievalDay": 30
+    }
+  ],
+  "proof": {
+    "prompt": "Multiple-choice application is assessed in check B.",
+    "criteria": []
+  },
+  "vocabulary": [],
+  "links": {
+    "prior": "Upper and Lower Egypt",
+    "current": "Use water and fertile soil to explain farming, then connect food production with different jobs.",
+    "future": "Reading the social pyramid",
+    "realLife": "A garden hose carries water to plants, like an irrigation channel. A hose does not deposit the same flood silt as a river.",
+    "priorLessonId": "ss_verified_two_lands",
+    "futureLessonId": "ss_verified_social_pyramid"
+  },
+  "nextLessonId": "ss_verified_social_pyramid",
+  "draft": true,
+  "releaseStatus": "Unreleased draft. Source-completeness and final instructional/visual QC gates remain open."
+}

@@ -9,7 +9,7 @@
 
   const save=()=>localStorage.setItem(key,JSON.stringify(state));
   function render(){
-    if(subject==='SS'){RyNarrator.stop();root.innerHTML='<h2>Social Studies</h2><p>The studio teaching is being checked against the assigned classroom materials.</p><p><a href="https://wcschools.schoology.com/course/8432932378/materials?f=1049255702">Open the teacher’s Egypt folder ↗</a></p><div class="actions"><button data-reset-subject="ELA">ELA</button><button data-reset-subject="MATH">Math</button><button data-reset-subject="SCI">Science</button></div>';root.querySelectorAll('[data-reset-subject]').forEach(b=>b.onclick=()=>{subject=b.dataset.resetSubject;render()});return;}
+    if(subject==='SS'){RyNarrator.stop();root.innerHTML='<h2>Social Studies</h2><p>Social Studies narration remains withdrawn while the source-completeness gate is unresolved. Six replacement chapters are drafts, not released lessons.</p><p><a href="https://ry-learning-studio.raynastover.chatgpt.site/audio">Open current Social Studies audio in the private Studio ↗</a></p><p><a href="https://wcschools.schoology.com/course/8432932378/materials?f=1049255702">Open the teacher’s Egypt folder ↗</a></p><div class="actions"><button data-reset-subject="ELA">ELA</button><button data-reset-subject="MATH">Math</button><button data-reset-subject="SCI">Science</button></div>';root.querySelectorAll('[data-reset-subject]').forEach(b=>b.onclick=()=>{subject=b.dataset.resetSubject;render()});return;}
 
     RyNarrator.stop();const lessons=orderedLessons(subject),id=state[subject]||first[subject],index=Math.max(0,lessons.findIndex(l=>l.id===id)),l=lessons[index];state.subject=subject;state[subject]=l.id;save();
     const paras=text=>String(text||'').split(/\n+/).map(p=>`<p>${esc(p)}</p>`).join('');

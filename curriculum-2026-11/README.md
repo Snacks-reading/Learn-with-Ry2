@@ -66,3 +66,7 @@ Social Studies learner tries, practice, fresh application and delayed checks are
 ## Social Studies withdrawal — supersedes earlier release claims
 
 Generated Social Studies lessons, schematic maps, practice and parent narration are withdrawn pending exact classroom-source recovery and a new source-to-question review. Existing source JSON is retained as historical development material, not approved teaching. No current Social Studies readiness claim is supported by those materials. Source recovery requires the authorized ClassLink login used by WCS Schoology. Student records are preserved. Replacements must use precise assigned maps, clear sixth-grade wording and multiple-choice-only responses.
+
+## Source-checked Social Studies replacement
+
+Six UNRELEASED DRAFT `ss_verified_*.json` chapters are being prepared to replace the withdrawn `fresh_ss_*` development content. They contain original teaching and multiple-choice questions with per-item source/page references. The private Studio continues to show teacher materials only; draft teaching and scoring are blocked. The complete course audit remains unfinished. The release manifest lists unreleased areas. The old files remain archived for development history and must not be assigned or narrated. Licensed source files and all student records are excluded.

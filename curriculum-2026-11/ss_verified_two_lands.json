@@ -1,0 +1,423 @@
+{
+  "id": "ss_verified_two_lands",
+  "subject": "SS",
+  "title": "Upper and Lower Egypt",
+  "contentVersion": "schoology-reset-1",
+  "verifiedReplacement": true,
+  "objectiveIds": [
+    "ss_verified_two_lands"
+  ],
+  "objectiveLabels": {
+    "ss_verified_two_lands": "1. Upper and Lower Egypt"
+  },
+  "teach": [
+    "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta.",
+    "Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream.",
+    "Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta."
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "title": "Assigned OER Ancient Egypt",
+      "pages": [
+        4,
+        7
+      ],
+      "status": "Named pages content-read; full course audit incomplete"
+    },
+    {
+      "sourceId": "two-lands",
+      "title": "The Two Lands of Ancient Egypt",
+      "url": "https://wcschools.schoology.com/assignment/8624027660/info",
+      "pages": [
+        1,
+        2
+      ],
+      "status": "Both pages visually read; worksheet\u2019s Black/Red Land generalization is not used as a key"
+    }
+  ],
+  "readingLocation": {
+    "startPage": 4,
+    "endPage": 7,
+    "where": "Assigned OER PDF, pages 4, 7"
+  },
+  "teachingSections": [
+    {
+      "id": "ss_verified_two_lands_teach",
+      "title": "Upper and Lower Egypt",
+      "where": "Read the assigned OER PDF, pages 4, 7.",
+      "sourceUrl": "/?reading=egypt&page=4",
+      "teach": [
+        "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta.",
+        "Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream.",
+        "Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta."
+      ],
+      "example": {
+        "prompt": "A traveler follows the Nile north toward the delta. Which part of Egypt is the traveler approaching?",
+        "thinking": "North follows the river downstream toward its mouth. Lower Egypt is the downstream region.",
+        "answer": "Lower Egypt.",
+        "why": "The region is named for its downstream position, even though it appears above Upper Egypt on a north-up map."
+      },
+      "tryPrompt": "Which pair correctly describes Upper Egypt?",
+      "tryChoices": [
+        "South and upstream",
+        "North and downstream",
+        "North and upstream"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta."
+    }
+  ],
+  "practice": [
+    {
+      "prompt": "Where was Lower Egypt?",
+      "options": [
+        "In the north, near the Nile Delta",
+        "In the south, upstream from Upper Egypt",
+        "Along the Red Sea, away from the Nile"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q1",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: In the north, near the Nile Delta. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "Which region was farther upstream: Upper or Lower Egypt?",
+        "options": [
+          "Upper Egypt",
+          "Lower Egypt",
+          "Both were at the river\u2019s mouth"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair1",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: Upper Egypt. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Why was the southern region called Upper Egypt?",
+      "options": [
+        "It was upstream along the Nile",
+        "It was at the top of every map",
+        "It was north of the Nile Delta"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q2",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: It was upstream along the Nile. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "At which end of Egypt was the Nile Delta?",
+        "options": [
+          "The northern end",
+          "The southern end",
+          "The western desert"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair2",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: The northern end. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "A boat travels downstream from Upper Egypt toward the sea. Which region will it reach?",
+      "options": [
+        "Lower Egypt",
+        "A region south of Upper Egypt",
+        "The Nile\u2019s source before the delta"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q3",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: Lower Egypt. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "A traveler starts near the delta and moves south along the Nile. Where is the traveler heading?",
+        "options": [
+          "Toward Upper Egypt",
+          "Farther downstream",
+          "Toward the Mediterranean Sea"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair3",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: Toward Upper Egypt. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [],
+  "delayed": [
+    {
+      "prompt": "In which direction does the Nile flow through Egypt?",
+      "options": [
+        "North toward the Mediterranean Sea",
+        "South toward Upper Egypt",
+        "East toward the Red Sea"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q4",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: North toward the Mediterranean Sea. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "Which sea receives the Nile\u2019s water?",
+        "options": [
+          "Mediterranean Sea",
+          "Red Sea",
+          "Arabian Sea"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair4",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: Mediterranean Sea. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      },
+      "retrievalDay": 1
+    },
+    {
+      "prompt": "A map has north at the top. Upper Egypt appears below Lower Egypt. Is this a mistake?",
+      "options": [
+        "No. Upper Egypt is upstream in the south.",
+        "Yes. Upper Egypt must always be at the top.",
+        "Yes. Upper Egypt is east of Lower Egypt."
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q5",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: No. Upper Egypt is upstream in the south.. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "What should you follow to understand the names Upper and Lower Egypt?",
+        "options": [
+          "The direction of the river\u2019s flow",
+          "The height of the printed labels",
+          "The size of each city\u2019s name"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair5",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: The direction of the river\u2019s flow. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      },
+      "retrievalDay": 3
+    },
+    {
+      "prompt": "Which location would belong to Lower Egypt?",
+      "options": [
+        "A settlement near the Nile\u2019s mouth in the north",
+        "A settlement far upstream in southern Egypt",
+        "A settlement at the Nile\u2019s southern source"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q6",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: A settlement near the Nile\u2019s mouth in the north. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "Which description places a village in Upper Egypt?",
+        "options": [
+          "South of Lower Egypt, upstream along the Nile",
+          "North of Lower Egypt, at the sea",
+          "East of the Nile, at its Mediterranean mouth"
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair6",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: South of Lower Egypt, upstream along the Nile. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      },
+      "retrievalDay": 7
+    },
+    {
+      "prompt": "Two regions are labeled upstream and downstream. Which pairing fits ancient Egypt?",
+      "options": [
+        "Upper = upstream; Lower = downstream",
+        "Upper = downstream; Lower = upstream",
+        "Both Upper and Lower = the river\u2019s mouth"
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q7",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: Upper = upstream; Lower = downstream. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "Which statement connects direction and flow correctly?",
+        "options": [
+          "Moving north along Egypt\u2019s Nile is moving downstream.",
+          "Moving south along Egypt\u2019s Nile is moving downstream.",
+          "The Nile flows toward both seas at once."
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair7",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: Moving north along Egypt\u2019s Nile is moving downstream.. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      },
+      "retrievalDay": 14
+    },
+    {
+      "prompt": "A student says Lower Egypt was south because it is lower on the page. Which correction is accurate?",
+      "options": [
+        "Lower Egypt was north, downstream toward the delta.",
+        "Lower Egypt was south, at the river\u2019s source.",
+        "Lower Egypt was west, beyond the river."
+      ],
+      "answer": 0,
+      "id": "ss_verified_two_lands_q8",
+      "objectiveId": "ss_verified_two_lands",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7
+        ]
+      },
+      "rationale": "Correct: Lower Egypt was north, downstream toward the delta.. See Assigned OER Ancient Egypt, pages 4, 7.",
+      "repair": {
+        "prompt": "Why can Lower Egypt appear higher on a north-up map?",
+        "options": [
+          "North is at the top, and Lower Egypt is in the north.",
+          "Lower Egypt is upstream in the south.",
+          "The label Lower Egypt means higher elevation."
+        ],
+        "answer": 0,
+        "id": "ss_verified_two_lands_repair8",
+        "objectiveId": "ss_verified_two_lands",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7
+          ]
+        },
+        "teach": "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "rationale": "Correct: North is at the top, and Lower Egypt is in the north.. The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta. Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream. Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta.",
+        "supported": true
+      },
+      "retrievalDay": 30
+    }
+  ],
+  "proof": {
+    "prompt": "Multiple-choice application is assessed in check B.",
+    "criteria": []
+  },
+  "vocabulary": [],
+  "links": {
+    "prior": "Follow north and south, then use the river\u2019s flow to understand upstream and downstream.",
+    "current": "The Nile flows north. Next, connect its water and silt to farming.",
+    "future": "Nile flooding and farming",
+    "realLife": "Read river directions on a modern map. Upstream and downstream follow water flow; they do not always match north and south.",
+    "priorLessonId": "ss_verified_two_lands",
+    "futureLessonId": "ss_verified_nile_farming"
+  },
+  "mapModel": {
+    "kind": "assigned-satellite"
+  },
+  "nextLessonId": "ss_verified_nile_farming",
+  "draft": true,
+  "releaseStatus": "Unreleased draft. Source-completeness and final instructional/visual QC gates remain open."
+}

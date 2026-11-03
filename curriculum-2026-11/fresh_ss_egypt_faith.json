@@ -1,1 +1,1114 @@
-{"id":"fresh_ss_egypt_faith","subject":"SS","title":"Egypt: belief, preserved bodies and royal symbols","teach":["Describe beliefs respectfully as beliefs. Burial goods and preservation can support an inference that Egyptians prepared for an afterlife; they do not scientifically establish what happens after death.","Mummy is the preserved body; mummification is the process; a coffin is a container. A pyramid is a form of structure, and major Egyptian royal examples served as tombs. Not every person or pharaoh received the same treatment.","A human-headed lion sphinx could symbolize a ruler’s authority. Animal and combined forms also represented many gods. Interpret the context; not every animal image is a deity or literal record of a living species.","Connect government with religion while keeping categories clear: royal monuments could express political authority and religious beliefs at the same time. A powerful image is evidence of how power was presented, not automatic proof of every royal claim.","mummy: A body preserved after death rather than decaying in the usual way. Example: A carefully preserved ancient body is displayed respectfully as human remains. Boundary: A mummy is the body, while mummification names the preservation process.","afterlife: A life or existence believed to continue after death. Example: A burial includes provisions intended for use after death. Boundary: An artifact can show a belief without scientifically proving the belief true.","mummification: The process of preserving a body after death, often through deliberate treatment. Example: Specialists prepare and preserve a body before burial. Boundary: Mummification is the process; mummy is its resulting preserved body.","pyramids: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Example: Khufu's Great Pyramid was built as a royal tomb. Boundary: Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","Sphinx: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. Example: A sculpture portrays Hatshepsut as a human-headed lion. Boundary: A sphinx is not a living species or a writing surface.","animal symbols and gods: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. Example: An image gives a deity an animal head with a human body. Boundary: This does not mean every animal picture represents a god or every god has one fixed animal form."],"model":{"prompt":"A burial contains a preserved body in a coffin and offerings for the dead. What does each object support, and what remains a belief rather than a scientific finding?","reasoning":"Separate body, container and purpose. State inference and its limit.","answer":"The body is a mummy, the coffin holds it, and the offerings support an inference that people prepared for continuing needs after death. These finds provide evidence about beliefs and practices; they cannot scientifically prove the afterlife itself."},"guided":{"id":"fresh_ss_egypt_faith_guided","prompt":"A tomb contains food offerings intended for a dead person. Which conclusion is supported?","options":["The people certainly had no religious beliefs.","Every Egyptian burial must contain exactly the same objects.","The objects scientifically prove the afterlife exists.","The offerings support an inference that people prepared for needs they believed would continue after death."],"answer":3,"rationale":"Evidence supports an inference about beliefs and practices; it does not experimentally verify the belief itself."},"practice":[{"id":"egypt_mummy_meaning","prompt":"Explain the classroom term “mummy”: which meaning is accurate?","options":["A mummy is simply any empty decorated coffin.","A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment."],"answer":2,"rationale":"Use the defining feature, then test a boundary. A mummy is the body, while mummification names the preservation process.","objectiveId":"egypt_mummy","repair":{"id":"egypt_mummy_meaning_ssqc_repair","objectiveId":"egypt_mummy","teach":"A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.","prompt":"A museum separates preserved human remains from their surrounding coffin. Which explanation fits this evidence?","options":["A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: A body preserved after death rather than decaying in the usual way.","supported":true}},{"id":"egypt_mummy_apply","prompt":"A carefully preserved ancient body is displayed respectfully as human remains. Which explanation is best supported?","options":["A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Connect the concrete details to the defining feature. A body preserved after death rather than decaying in the usual way.","objectiveId":"egypt_mummy","repair":{"id":"egypt_mummy_apply_ssqc_repair","objectiveId":"egypt_mummy","teach":"A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.","prompt":"A burial contains a preserved body inside a wooden container. Which explanation fits this evidence?","options":["A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: A body preserved after death rather than decaying in the usual way.","supported":true}},{"id":"egypt_afterlife_meaning","prompt":"Explain the classroom term “afterlife”: which meaning is accurate?","options":["A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","A body preserved after death rather than decaying in the usual way.","Finding an offering scientifically proves exactly what happens after death."],"answer":0,"rationale":"Use the defining feature, then test a boundary. An artifact can show a belief without scientifically proving the belief true.","objectiveId":"egypt_afterlife","repair":{"id":"egypt_afterlife_meaning_ssqc_repair","objectiveId":"egypt_afterlife","teach":"A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.","prompt":"Offerings are placed in a tomb for needs believed to continue after death. Which explanation fits this evidence?","options":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: A life or existence believed to continue after death.","supported":true}},{"id":"egypt_afterlife_apply","prompt":"A burial includes provisions intended for use after death. Which explanation is best supported?","options":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Connect the concrete details to the defining feature. A life or existence believed to continue after death.","objectiveId":"egypt_afterlife","repair":{"id":"egypt_afterlife_apply_ssqc_repair","objectiveId":"egypt_afterlife","teach":"A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.","prompt":"Burial goods were intended for a person’s existence beyond death. Which explanation fits this evidence?","options":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: A life or existence believed to continue after death.","supported":true}},{"id":"egypt_mummification_meaning","prompt":"Explain the classroom term “mummification”: which meaning is accurate?","options":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","Mummification is the name of the finished coffin.","The process of preserving a body after death, often through deliberate treatment."],"answer":3,"rationale":"Use the defining feature, then test a boundary. Mummification is the process; mummy is its resulting preserved body.","objectiveId":"egypt_mummification","repair":{"id":"egypt_mummification_meaning_ssqc_repair","objectiveId":"egypt_mummification","teach":"The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.","prompt":"Specialists treat a body to preserve it before burial. Which explanation fits this evidence?","options":["The process of preserving a body after death, often through deliberate treatment.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: The process of preserving a body after death, often through deliberate treatment.","supported":true}},{"id":"egypt_mummification_apply","prompt":"Specialists prepare and preserve a body before burial. Which explanation is best supported?","options":["The process of preserving a body after death, often through deliberate treatment.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Connect the concrete details to the defining feature. The process of preserving a body after death, often through deliberate treatment.","objectiveId":"egypt_mummification","repair":{"id":"egypt_mummification_apply_ssqc_repair","objectiveId":"egypt_mummification","teach":"The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.","prompt":"A diagram shows a sequence of body-preservation treatments. Which explanation fits this evidence?","options":["The process of preserving a body after death, often through deliberate treatment.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"Match the details of this case with the defining idea: The process of preserving a body after death, often through deliberate treatment.","supported":true}},{"id":"egypt_pyramids_meaning","prompt":"Explain the classroom term “pyramids”: which meaning is accurate?","options":["A body preserved after death rather than decaying in the usual way.","All pharaohs were buried inside Khufu's pyramid.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","A life or existence believed to continue after death."],"answer":2,"rationale":"Use the defining feature, then test a boundary. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","objectiveId":"egypt_pyramids","repair":{"id":"egypt_pyramids_meaning_ssqc_repair","objectiveId":"egypt_pyramids","teach":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","prompt":"A royal tomb has a broad base and triangular faces meeting at a point. Which explanation fits this evidence?","options":["Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","supported":true}},{"id":"egypt_pyramids_apply","prompt":"Khufu's Great Pyramid was built as a royal tomb. Which explanation is best supported?","options":["Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","objectiveId":"egypt_pyramids","repair":{"id":"egypt_pyramids_apply_ssqc_repair","objectiveId":"egypt_pyramids","teach":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","prompt":"A visitor studies Khufu’s pointed monumental tomb at Giza. Which explanation fits this evidence?","options":["Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","supported":true}},{"id":"egypt_sphinx_meaning","prompt":"Explain the classroom term “Sphinx”: which meaning is accurate?","options":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","A sphinx proves that human-headed lions once lived as a natural species."],"answer":0,"rationale":"Use the defining feature, then test a boundary. A sphinx is not a living species or a writing surface.","objectiveId":"egypt_sphinx","repair":{"id":"egypt_sphinx_meaning_ssqc_repair","objectiveId":"egypt_sphinx","teach":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.","prompt":"A royal sculpture combines a human head and lion body. Which explanation fits this evidence?","options":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","supported":true}},{"id":"egypt_sphinx_apply","prompt":"A sculpture portrays Hatshepsut as a human-headed lion. Which explanation is best supported?","options":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Connect the concrete details to the defining feature. In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","objectiveId":"egypt_sphinx","repair":{"id":"egypt_sphinx_apply_ssqc_repair","objectiveId":"egypt_sphinx","teach":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.","prompt":"A ruler’s face appears on a statue with the body of a lion. Which explanation fits this evidence?","options":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","supported":true}},{"id":"egypt_animal_symbols_and_gods_meaning","prompt":"Explain the classroom term “animal symbols and gods”: which meaning is accurate?","options":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","Every animal drawing must be a portrait of a pharaoh."],"answer":0,"rationale":"Use the defining feature, then test a boundary. This does not mean every animal picture represents a god or every god has one fixed animal form.","objectiveId":"egypt_animal_symbols_and_gods","repair":{"id":"egypt_animal_symbols_and_gods_meaning_ssqc_repair","objectiveId":"egypt_animal_symbols_and_gods","teach":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.","prompt":"A temple image combines an animal head and a human body to represent a deity. Which explanation fits this evidence?","options":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","supported":true}},{"id":"egypt_animal_symbols_and_gods_apply","prompt":"An image gives a deity an animal head with a human body. Which explanation is best supported?","options":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","objectiveId":"egypt_animal_symbols_and_gods","repair":{"id":"egypt_animal_symbols_and_gods_apply_ssqc_repair","objectiveId":"egypt_animal_symbols_and_gods","teach":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.","prompt":"A museum explains the religious meaning of a falcon-associated divine image. Which explanation fits this evidence?","options":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Match the details of this case with the defining idea: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","supported":true}}],"independentCheck":[{"id":"egypt_mummy_transfer","prompt":"A museum distinguishes a preserved person from the decorated coffin surrounding them. Which inference is most defensible?","options":["The preserved body is the mummy; the container is a different object.","This proves that every ancient Egyptian had the same job, power and beliefs.","A mummy is simply any empty decorated coffin.","No conclusions can be drawn from any evidence about the past."],"answer":0,"rationale":"The preserved body is the mummy; the container is a different object. A mummy is the body, while mummification names the preservation process.","objectiveId":"egypt_mummy","repair":{"id":"egypt_mummy_transfer_ssqc_repair","objectiveId":"egypt_mummy","teach":"A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.","prompt":"An empty coffin is found with no body. Should it be labeled a mummy?","options":["No. The coffin is a container; a mummy is a preserved body.","Yes. Every empty coffin is a mummy.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"No. The coffin is a container; a mummy is a preserved body.","supported":true}},{"id":"egypt_afterlife_transfer","prompt":"An archaeologist finds offerings intended for a dead person's continuing needs. Which inference is most defensible?","options":["The offerings can support an inference about afterlife beliefs.","Finding an offering scientifically proves exactly what happens after death.","No conclusions can be drawn from any evidence about the past.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":0,"rationale":"The offerings can support an inference about afterlife beliefs. An artifact can show a belief without scientifically proving the belief true.","objectiveId":"egypt_afterlife","repair":{"id":"egypt_afterlife_transfer_ssqc_repair","objectiveId":"egypt_afterlife","teach":"A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.","prompt":"Why can a historian explain tomb provisions without sharing ancient beliefs?","options":["Evidence can show how a belief influenced behavior.","A belief affected behavior only if every modern reader accepts it.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Evidence can show how a belief influenced behavior.","supported":true}},{"id":"egypt_mummification_transfer","prompt":"A museum sequence shows preservation treatments before wrapping and burial. Which inference is most defensible?","options":["This proves that every ancient Egyptian had the same job, power and beliefs.","The sequence depicts mummification, rather than a title for a ruler.","No conclusions can be drawn from any evidence about the past.","Mummification is the name of the finished coffin."],"answer":1,"rationale":"The sequence depicts mummification, rather than a title for a ruler. Mummification is the process; mummy is its resulting preserved body.","objectiveId":"egypt_mummification","repair":{"id":"egypt_mummification_transfer_ssqc_repair","objectiveId":"egypt_mummification","teach":"The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.","prompt":"A label calls wrapping and preservation treatments “a mummy.” What is the clearer label for those actions?","options":["Mummification names the process; mummy names the preserved body.","Pyramid names every preservation treatment.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Mummification names the process; mummy names the preserved body.","supported":true}},{"id":"egypt_pyramids_transfer","prompt":"A student compares an Old Kingdom pyramid tomb with Tutankhamun's rock-cut tomb. Which inference is most defensible?","options":["No conclusions can be drawn from any evidence about the past.","All pharaohs were buried inside Khufu's pyramid.","Burial forms changed; one famous pyramid does not describe every royal burial.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":2,"rationale":"Burial forms changed; one famous pyramid does not describe every royal burial. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","objectiveId":"egypt_pyramids","repair":{"id":"egypt_pyramids_transfer_ssqc_repair","objectiveId":"egypt_pyramids","teach":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","prompt":"A royal rock-cut tomb is compared with Khufu’s tomb. What should the comparison avoid?","options":["Assuming that every royal tomb had a pyramid form.","Recognizing that tomb structures can differ.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Assuming that every royal tomb had a pyramid form.","supported":true}},{"id":"egypt_sphinx_transfer","prompt":"A museum shows a ruler's face combined with a powerful lion body. Which inference is most defensible?","options":["No conclusions can be drawn from any evidence about the past.","The combination can communicate royal power symbolically.","A sphinx proves that human-headed lions once lived as a natural species.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":1,"rationale":"The combination can communicate royal power symbolically. A sphinx is not a living species or a writing surface.","objectiveId":"egypt_sphinx","repair":{"id":"egypt_sphinx_transfer_ssqc_repair","objectiveId":"egypt_sphinx","teach":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.","prompt":"Why does a human-headed lion statue not establish that such an animal once lived?","options":["It is a symbolic artistic combination, not biological evidence of a natural species.","Every ancient sculpture is a photograph of an animal.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"It is a symbolic artistic combination, not biological evidence of a natural species.","supported":true}},{"id":"egypt_animal_symbols_and_gods_transfer","prompt":"A museum label identifies a falcon-associated divine representation. Which inference is most defensible?","options":["The animal form can communicate religious meaning, rather than literal zoology.","This proves that every ancient Egyptian had the same job, power and beliefs.","Every animal drawing must be a portrait of a pharaoh.","No conclusions can be drawn from any evidence about the past."],"answer":0,"rationale":"The animal form can communicate religious meaning, rather than literal zoology. This does not mean every animal picture represents a god or every god has one fixed animal form.","objectiveId":"egypt_animal_symbols_and_gods","repair":{"id":"egypt_animal_symbols_and_gods_transfer_ssqc_repair","objectiveId":"egypt_animal_symbols_and_gods","teach":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.","prompt":"Why should an animal image be interpreted with its temple setting?","options":["Context can help distinguish religious symbolism from an ordinary animal picture.","Every animal picture everywhere has one fixed religious meaning.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Context can help distinguish religious symbolism from an ordinary animal picture.","supported":true}}],"delayed":[{"id":"egypt_mummy_boundary","prompt":"A classmate claims: “A mummy is simply any empty decorated coffin.” Which response shows an accurate limit?","options":["A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.","objectiveId":"egypt_mummy","repair":{"id":"egypt_mummy_boundary_ssqc_repair","objectiveId":"egypt_mummy","teach":"A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.","prompt":"A museum asks you to distinguish mummy from a related idea. Which evidence-and-explanation pair would help?","options":["A carefully preserved ancient body is displayed respectfully as human remains. This fits because A body preserved after death rather than decaying in the usual way.","A mummy is the body, while mummification names the preservation process. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"A body preserved after death rather than decaying in the usual way. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_afterlife_boundary","prompt":"A classmate claims: “Finding an offering scientifically proves exactly what happens after death.” Which response shows an accurate limit?","options":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.","objectiveId":"egypt_afterlife","repair":{"id":"egypt_afterlife_boundary_ssqc_repair","objectiveId":"egypt_afterlife","teach":"A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.","prompt":"A museum asks you to distinguish afterlife from a related idea. Which evidence-and-explanation pair would help?","options":["A burial includes provisions intended for use after death. This fits because A life or existence believed to continue after death.","An artifact can show a belief without scientifically proving the belief true. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"A life or existence believed to continue after death. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_mummification_boundary","prompt":"A classmate claims: “Mummification is the name of the finished coffin.” Which response shows an accurate limit?","options":["The process of preserving a body after death, often through deliberate treatment.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."],"answer":0,"rationale":"The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.","objectiveId":"egypt_mummification","repair":{"id":"egypt_mummification_boundary_ssqc_repair","objectiveId":"egypt_mummification","teach":"The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.","prompt":"A museum asks you to distinguish mummification from a related idea. Which evidence-and-explanation pair would help?","options":["Specialists prepare and preserve a body before burial. This fits because The process of preserving a body after death, often through deliberate treatment.","Mummification is the process; mummy is its resulting preserved body. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"The process of preserving a body after death, often through deliberate treatment. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_pyramids_boundary","prompt":"A classmate claims: “All pharaohs were buried inside Khufu's pyramid.” Which response shows an accurate limit?","options":["Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","objectiveId":"egypt_pyramids","repair":{"id":"egypt_pyramids_boundary_ssqc_repair","objectiveId":"egypt_pyramids","teach":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","prompt":"A museum asks you to distinguish pyramids from a related idea. Which evidence-and-explanation pair would help?","options":["Khufu's Great Pyramid was built as a royal tomb. This fits because Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_sphinx_boundary","prompt":"A classmate claims: “A sphinx proves that human-headed lions once lived as a natural species.” Which response shows an accurate limit?","options":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.","objectiveId":"egypt_sphinx","repair":{"id":"egypt_sphinx_boundary_ssqc_repair","objectiveId":"egypt_sphinx","teach":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.","prompt":"A museum asks you to distinguish Sphinx from a related idea. Which evidence-and-explanation pair would help?","options":["A sculpture portrays Hatshepsut as a human-headed lion. This fits because In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","A sphinx is not a living species or a writing surface. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_animal_symbols_and_gods_boundary","prompt":"A classmate claims: “Every animal drawing must be a portrait of a pharaoh.” Which response shows an accurate limit?","options":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","A body preserved after death rather than decaying in the usual way.","A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment."],"answer":0,"rationale":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.","objectiveId":"egypt_animal_symbols_and_gods","repair":{"id":"egypt_animal_symbols_and_gods_boundary_ssqc_repair","objectiveId":"egypt_animal_symbols_and_gods","teach":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.","prompt":"A museum asks you to distinguish animal symbols and gods from a related idea. Which evidence-and-explanation pair would help?","options":["An image gives a deity an animal head with a human body. This fits because Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","This does not mean every animal picture represents a god or every god has one fixed animal form. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. Explain the actual clue and the distinction.","supported":true}}],"proof":{"prompt":"A museum displays a royal sphinx and a coffin containing a mummy. Explain two different kinds of evidence, connect one with authority and one with belief, and state a limit. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.","criteria":["Answers every part of the task with accurate historical terms and relationships.","Uses at least two relevant details from the assigned source or map.","Explains how each detail supports the claim instead of listing facts.","Applies the idea to the new case and explains a reasonable limit."]},"proofRepair":{"prompt":"A visitor calls an empty coffin “a mummy” and says its decorations prove an afterlife. Explain the two distinctions using evidence and belief.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"reviewRequired":true},"retentionProofs":[{"day":3,"prompt":"A tomb has no pyramid above it. Explain why that does not prove it cannot be a royal tomb, using a contrasting named burial example. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":7,"prompt":"A sculptor gives a ruler a lion body. Explain the intended power message and why it is not evidence of a natural animal species. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":14,"prompt":"Compare a preserved body with an image of a preserved body. What can each show directly, and what requires further evidence? Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":30,"prompt":"Design a respectful museum label that distinguishes mummy, mummification, coffin and afterlife without treating the belief as an experimentally proven fact. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true}],"links":{"prior":"Retrieve Egypt: writing, materials and evidence. Explain one connection with this lesson and one difference.","current":"Use the assigned Egypt reading to explain explain belief through a practice. Name evidence and explain how it supports your answer.","future":"Next: Egypt: authority, belief and historical evidence. Carry an idea or source detail forward and explain how it helps.","realLife":"Museum interpretation requires respectful description and a separation of evidence from belief. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.","priorLessonId":"fresh_ss_egypt_writing","futureLessonId":"fresh_ss_egypt_power_belief","bridge":{"prompt":"Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.","explanation":"A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."},"laterApplication":"Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."},"sources":[{"title":"Assigned WCS Ancient Egypt OER · exact classroom source","url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022","status":"51-page source text read; lesson-specific pages identified"},{"title":"Smithsonian NMNH: Eternal Life in Ancient Egypt","url":"https://naturalhistory.si.edu/exhibits/eternal-life-ancient-egypt","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Ministry: The Netherworld","url":"https://egymonuments.gov.eg/collections/the-netherworld/","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Met: Sphinx of Hatshepsut","url":"https://www.metmuseum.org/art/collection/search/544442","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Ministry: Great Pyramid of Khufu","url":"https://egymonuments.gov.eg/monuments/the-great-pyramid/","status":"Relevant source reviewed; exact teacher materials may have additional requirements"}],"vocabulary":[{"word":"mummy","meaning":"A body preserved after death rather than decaying in the usual way.","cue":"Mummy names the preserved body.","example":"A carefully preserved ancient body is displayed respectfully as human remains.","nonexample":"A mummy is the body, while mummification names the preservation process.","objectiveId":"egypt_mummy"},{"word":"afterlife","meaning":"A life or existence believed to continue after death.","cue":"Afterlife is a belief about what follows death.","example":"A burial includes provisions intended for use after death.","nonexample":"An artifact can show a belief without scientifically proving the belief true.","objectiveId":"egypt_afterlife"},{"word":"mummification","meaning":"The process of preserving a body after death, often through deliberate treatment.","cue":"The -ification ending signals a process.","example":"Specialists prepare and preserve a body before burial.","nonexample":"Mummification is the process; mummy is its resulting preserved body.","objectiveId":"egypt_mummification"},{"word":"pyramids","meaning":"Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","cue":"Shape plus purpose; ask which pyramid, when, for whom.","example":"Khufu's Great Pyramid was built as a royal tomb.","nonexample":"Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.","objectiveId":"egypt_pyramids"},{"word":"Sphinx","meaning":"In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","cue":"Human head plus lion's body signals royal power.","example":"A sculpture portrays Hatshepsut as a human-headed lion.","nonexample":"A sphinx is not a living species or a writing surface.","objectiveId":"egypt_sphinx"},{"word":"animal symbols and gods","meaning":"Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","cue":"Image, belief and living animal are different categories.","example":"An image gives a deity an animal head with a human body.","nonexample":"This does not mean every animal picture represents a god or every god has one fixed animal form.","objectiveId":"egypt_animal_symbols_and_gods"}],"media":[{"title":"The Egyptian Book of the Dead: A guidebook for the underworld","url":"https://www.youtube.com/watch?v=1yv_MXNYbAo","status":"Transcript reviewed; playback not verified","task":"Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani’s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.","verification":{"content":"Complete official authored/unspecified English captions exported and read0:06–4:10; player duration4:32","publisherPage":"https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala","browserPlayback":"Player and animation metadata loaded; full moving/audio playback not verified","access":"Public transcript opened via description → Show transcript; no login needed"},"omissions":["One13th-century-BCE scribe is not all Egyptians or all periods","Mummification details are simplified; procedures varied","Does not replace the full history, social structure, politics and religion teacher quiz scope"]},{"title":"Kings and Queens of Egypt","url":"https://www.metmuseum.org/essays/kings-and-queens-of-egypt","status":"Content reviewed","task":"Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office’s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people’s lives.","verification":{"content":"Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect","browserPlayback":null,"access":"Public readable essay and artifact images; no login"},"omissions":["Not the assigned orange textbook page or exact classroom pyramid chart","Main essay focuses on royalty, not all social roles/contributions","Historical succession was more complicated than an always-father-to-son rule"]},{"title":"Religion and gods in ancient Egypt","url":"https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/","status":"Content reviewed","task":"Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.","verification":{"content":"Complete main article read, including deity sections, artifact captions and variation across places/classes/time","browserPlayback":null,"access":"Public readable text and images; linked3D viewer not interaction-tested"},"omissions":["Not the exact teacher source; selected paragraphs only for this task","Linked3D model has not been tested and is not counted as verified interaction","Do not generalize every deity association to every period"]}],"memoryCue":"Body, process, container, belief, symbol.","nextLessonId":"fresh_ss_egypt_power_belief","gameVersion":"b75cc6a2","contentVersion":"ss-alignment-qc-2026-11-02-v2","sourceCoverage":{"classroomSource":"Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.","limits":"Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."},"readingLocation":{"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","startPage":20,"endPage":27,"url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"},"teachingSections":[{"id":"faith_system","title":"Explain belief through a practice","teach":["Describe beliefs respectfully as beliefs. Burial goods and preservation can support an inference that Egyptians prepared for an afterlife; they do not scientifically establish what happens after death.","Mummy is the preserved body; mummification is the process; a coffin is a container. A pyramid is a form of structure, and major Egyptian royal examples served as tombs. Not every person or pharaoh received the same treatment.","A human-headed lion sphinx could symbolize a ruler’s authority. Animal and combined forms also represented many gods. Interpret the context; not every animal image is a deity or literal record of a living species.","Connect government with religion while keeping categories clear: royal monuments could express political authority and religious beliefs at the same time. A powerful image is evidence of how power was presented, not automatic proof of every royal claim."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"Why might a tomb contain food and a preserved body?","thinking":"Name the belief, describe the objects and connect belief to action.","answer":"Many Egyptians believed life continued after death. Preserving a body and placing provisions in a tomb fit preparation for that afterlife. The objects help us study their beliefs and actions.","why":"It explains the connection without requiring the reader to share the belief."},"tryPrompt":"Separate mummy, mummification and tomb in one explanation.","tryAnswer":"A mummy is a preserved body. Mummification is the preservation process. A tomb is the burial place.","tryChoices":["A mummy is a preserved body. Mummification is the preservation process. A tomb is the burial place.","A mummy is simply any empty decorated coffin.","A life or existence believed to continue after death."],"tryAnswerIndex":0},{"id":"egypt_mummy","title":"mummy","teach":["A body preserved after death rather than decaying in the usual way.","Mummy names the preserved body.","A mummy is the body, while mummification names the preservation process."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"A carefully preserved ancient body is displayed respectfully as human remains. Explain which idea this illustrates.","thinking":"Look for the clue that defines mummy. Separate it from a similar term.","answer":"mummy: A body preserved after death rather than decaying in the usual way. A carefully preserved ancient body is displayed respectfully as human remains.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A museum label says “mummy found inside a tomb.” Identify the body and the burial place.","tryAnswer":"The mummy is the preserved body; the tomb is the burial place. The preservation process is mummification.","tryChoices":["A life or existence believed to continue after death.","The process of preserving a body after death, often through deliberate treatment.","The mummy is the preserved body; the tomb is the burial place. The preservation process is mummification."],"tryAnswerIndex":2},{"id":"egypt_afterlife","title":"afterlife","teach":["A life or existence believed to continue after death.","Afterlife is a belief about what follows death.","An artifact can show a belief without scientifically proving the belief true."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"A burial includes provisions intended for use after death. Explain which idea this illustrates.","thinking":"Look for the clue that defines afterlife. Separate it from a similar term.","answer":"afterlife: A life or existence believed to continue after death. A burial includes provisions intended for use after death.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"How could food placed in a burial help a historian investigate belief?","tryAnswer":"Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.","tryChoices":["A body preserved after death rather than decaying in the usual way.","Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.","The process of preserving a body after death, often through deliberate treatment."],"tryAnswerIndex":1},{"id":"egypt_mummification","title":"mummification","teach":["The process of preserving a body after death, often through deliberate treatment.","The -ification ending signals a process.","Mummification is the process; mummy is its resulting preserved body."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"Specialists prepare and preserve a body before burial. Explain which idea this illustrates.","thinking":"Look for the clue that defines mummification. Separate it from a similar term.","answer":"mummification: The process of preserving a body after death, often through deliberate treatment. Specialists prepare and preserve a body before burial.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A student calls a pyramid “mummification.” Repair the sentence using all three terms: tomb, mummy and mummification.","tryAnswer":"A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.","tryChoices":["A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.","A body preserved after death rather than decaying in the usual way.","The process of preserving a body after death, often through deliberate treatment."],"tryAnswerIndex":0},{"id":"egypt_pyramids","title":"pyramids","teach":["Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.","Shape plus purpose; ask which pyramid, when, for whom.","Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"Khufu's Great Pyramid was built as a royal tomb. Explain which idea this illustrates.","thinking":"Look for the clue that defines pyramids. Separate it from a similar term.","answer":"pyramids: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Khufu's Great Pyramid was built as a royal tomb.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Why is “all royal burials were in pyramids” too broad a claim? Use two places from your map.","tryAnswer":"Giza is known for royal pyramids, while the Valley of the Kings near Thebes contains royal rock-cut tombs. Burial practices changed across periods.","tryChoices":["A life or existence believed to continue after death.","A body preserved after death rather than decaying in the usual way.","Giza is known for royal pyramids, while the Valley of the Kings near Thebes contains royal rock-cut tombs. Burial practices changed across periods."],"tryAnswerIndex":2},{"id":"egypt_sphinx","title":"Sphinx","teach":["In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.","Human head plus lion's body signals royal power.","A sphinx is not a living species or a writing surface."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"A sculpture portrays Hatshepsut as a human-headed lion. Explain which idea this illustrates.","thinking":"Look for the clue that defines Sphinx. Separate it from a similar term.","answer":"Sphinx: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sculpture portrays Hatshepsut as a human-headed lion.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"What can a ruler’s face on a lion-bodied sculpture suggest, and what cannot be concluded?","tryAnswer":"A sphinx could symbolize royal power. It does not mean the ruler literally had an animal body or that every sphinx portrays the same ruler.","tryChoices":["A life or existence believed to continue after death.","A sphinx could symbolize royal power. It does not mean the ruler literally had an animal body or that every sphinx portrays the same ruler.","A body preserved after death rather than decaying in the usual way."],"tryAnswerIndex":1},{"id":"egypt_animal_symbols_and_gods","title":"animal symbols and gods","teach":["Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.","Image, belief and living animal are different categories.","This does not mean every animal picture represents a god or every god has one fixed animal form."],"where":"OER section 6.4, PDF pages20–27. Look for beliefs, mummification, tombs and religious images.","example":{"prompt":"An image gives a deity an animal head with a human body. Explain which idea this illustrates.","thinking":"Look for the clue that defines animal symbols and gods. Separate it from a similar term.","answer":"animal symbols and gods: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. An image gives a deity an animal head with a human body.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Why should you explain an animal feature in a religious image using the source’s beliefs?","tryAnswer":"The feature can carry symbolic meaning associated with a deity. Appearance alone does not establish what every Egyptian believed; use context from the source.","tryChoices":["The feature can carry symbolic meaning associated with a deity. Appearance alone does not establish what every Egyptian believed; use context from the source.","A body preserved after death rather than decaying in the usual way.","All pharaohs were buried inside Khufu's pyramid."],"tryAnswerIndex":0}],"assessmentFormat":"multiple-choice-only"}
+{
+  "id": "fresh_ss_egypt_faith",
+  "subject": "SS",
+  "title": "Egypt: belief, preserved bodies and royal symbols",
+  "teach": [
+    "Describe beliefs respectfully as beliefs. Burial goods and preservation can support an inference that Egyptians prepared for an afterlife; they do not scientifically establish what happens after death.",
+    "Mummy is the preserved body; mummification is the process; a coffin is a container. A pyramid is a form of structure, and major Egyptian royal examples served as tombs. Not every person or pharaoh received the same treatment.",
+    "A human-headed lion sphinx could symbolize a ruler\u2019s authority. Animal and combined forms also represented many gods. Interpret the context; not every animal image is a deity or literal record of a living species.",
+    "Connect government with religion while keeping categories clear: royal monuments could express political authority and religious beliefs at the same time. A powerful image is evidence of how power was presented, not automatic proof of every royal claim.",
+    "mummy: A body preserved after death rather than decaying in the usual way. Example: A carefully preserved ancient body is displayed respectfully as human remains. Boundary: A mummy is the body, while mummification names the preservation process.",
+    "afterlife: A life or existence believed to continue after death. Example: A burial includes provisions intended for use after death. Boundary: An artifact can show a belief without scientifically proving the belief true.",
+    "mummification: The process of preserving a body after death, often through deliberate treatment. Example: Specialists prepare and preserve a body before burial. Boundary: Mummification is the process; mummy is its resulting preserved body.",
+    "pyramids: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Example: Khufu's Great Pyramid was built as a royal tomb. Boundary: Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+    "Sphinx: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. Example: A sculpture portrays Hatshepsut as a human-headed lion. Boundary: A sphinx is not a living species or a writing surface.",
+    "animal symbols and gods: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. Example: An image gives a deity an animal head with a human body. Boundary: This does not mean every animal picture represents a god or every god has one fixed animal form."
+  ],
+  "model": {
+    "prompt": "A burial contains a preserved body in a coffin and offerings for the dead. What does each object support, and what remains a belief rather than a scientific finding?",
+    "reasoning": "Separate body, container and purpose. State inference and its limit.",
+    "answer": "The body is a mummy, the coffin holds it, and the offerings support an inference that people prepared for continuing needs after death. These finds provide evidence about beliefs and practices; they cannot scientifically prove the afterlife itself."
+  },
+  "guided": {
+    "id": "fresh_ss_egypt_faith_guided",
+    "prompt": "A tomb contains food offerings intended for a dead person. Which conclusion is supported?",
+    "options": [
+      "The people certainly had no religious beliefs.",
+      "Every Egyptian burial must contain exactly the same objects.",
+      "The objects scientifically prove the afterlife exists.",
+      "The offerings support an inference that people prepared for needs they believed would continue after death."
+    ],
+    "answer": 3,
+    "rationale": "Evidence supports an inference about beliefs and practices; it does not experimentally verify the belief itself."
+  },
+  "practice": [
+    {
+      "id": "egypt_mummy_meaning",
+      "prompt": "Explain the classroom term \u201cmummy\u201d: which meaning is accurate?",
+      "options": [
+        "A mummy is simply any empty decorated coffin.",
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 2,
+      "rationale": "Use the defining feature, then test a boundary. A mummy is the body, while mummification names the preservation process.",
+      "objectiveId": "egypt_mummy",
+      "repair": {
+        "id": "egypt_mummy_meaning_ssqc_repair",
+        "objectiveId": "egypt_mummy",
+        "teach": "A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.",
+        "prompt": "A museum separates preserved human remains from their surrounding coffin. Which explanation fits this evidence?",
+        "options": [
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A body preserved after death rather than decaying in the usual way.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_mummy_apply",
+      "prompt": "A carefully preserved ancient body is displayed respectfully as human remains. Which explanation is best supported?",
+      "options": [
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. A body preserved after death rather than decaying in the usual way.",
+      "objectiveId": "egypt_mummy",
+      "repair": {
+        "id": "egypt_mummy_apply_ssqc_repair",
+        "objectiveId": "egypt_mummy",
+        "teach": "A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.",
+        "prompt": "A burial contains a preserved body inside a wooden container. Which explanation fits this evidence?",
+        "options": [
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A body preserved after death rather than decaying in the usual way.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_afterlife_meaning",
+      "prompt": "Explain the classroom term \u201cafterlife\u201d: which meaning is accurate?",
+      "options": [
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "Finding an offering scientifically proves exactly what happens after death."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. An artifact can show a belief without scientifically proving the belief true.",
+      "objectiveId": "egypt_afterlife",
+      "repair": {
+        "id": "egypt_afterlife_meaning_ssqc_repair",
+        "objectiveId": "egypt_afterlife",
+        "teach": "A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.",
+        "prompt": "Offerings are placed in a tomb for needs believed to continue after death. Which explanation fits this evidence?",
+        "options": [
+          "A life or existence believed to continue after death.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A life or existence believed to continue after death.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_afterlife_apply",
+      "prompt": "A burial includes provisions intended for use after death. Which explanation is best supported?",
+      "options": [
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. A life or existence believed to continue after death.",
+      "objectiveId": "egypt_afterlife",
+      "repair": {
+        "id": "egypt_afterlife_apply_ssqc_repair",
+        "objectiveId": "egypt_afterlife",
+        "teach": "A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.",
+        "prompt": "Burial goods were intended for a person\u2019s existence beyond death. Which explanation fits this evidence?",
+        "options": [
+          "A life or existence believed to continue after death.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A life or existence believed to continue after death.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_mummification_meaning",
+      "prompt": "Explain the classroom term \u201cmummification\u201d: which meaning is accurate?",
+      "options": [
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "Mummification is the name of the finished coffin.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 3,
+      "rationale": "Use the defining feature, then test a boundary. Mummification is the process; mummy is its resulting preserved body.",
+      "objectiveId": "egypt_mummification",
+      "repair": {
+        "id": "egypt_mummification_meaning_ssqc_repair",
+        "objectiveId": "egypt_mummification",
+        "teach": "The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.",
+        "prompt": "Specialists treat a body to preserve it before burial. Which explanation fits this evidence?",
+        "options": [
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: The process of preserving a body after death, often through deliberate treatment.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_mummification_apply",
+      "prompt": "Specialists prepare and preserve a body before burial. Which explanation is best supported?",
+      "options": [
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. The process of preserving a body after death, often through deliberate treatment.",
+      "objectiveId": "egypt_mummification",
+      "repair": {
+        "id": "egypt_mummification_apply_ssqc_repair",
+        "objectiveId": "egypt_mummification",
+        "teach": "The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.",
+        "prompt": "A diagram shows a sequence of body-preservation treatments. Which explanation fits this evidence?",
+        "options": [
+          "The process of preserving a body after death, often through deliberate treatment.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: The process of preserving a body after death, often through deliberate treatment.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_pyramids_meaning",
+      "prompt": "Explain the classroom term \u201cpyramids\u201d: which meaning is accurate?",
+      "options": [
+        "A body preserved after death rather than decaying in the usual way.",
+        "All pharaohs were buried inside Khufu's pyramid.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "A life or existence believed to continue after death."
+      ],
+      "answer": 2,
+      "rationale": "Use the defining feature, then test a boundary. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+      "objectiveId": "egypt_pyramids",
+      "repair": {
+        "id": "egypt_pyramids_meaning_ssqc_repair",
+        "objectiveId": "egypt_pyramids",
+        "teach": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+        "prompt": "A royal tomb has a broad base and triangular faces meeting at a point. Which explanation fits this evidence?",
+        "options": [
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_pyramids_apply",
+      "prompt": "Khufu's Great Pyramid was built as a royal tomb. Which explanation is best supported?",
+      "options": [
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+      "objectiveId": "egypt_pyramids",
+      "repair": {
+        "id": "egypt_pyramids_apply_ssqc_repair",
+        "objectiveId": "egypt_pyramids",
+        "teach": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+        "prompt": "A visitor studies Khufu\u2019s pointed monumental tomb at Giza. Which explanation fits this evidence?",
+        "options": [
+          "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_sphinx_meaning",
+      "prompt": "Explain the classroom term \u201cSphinx\u201d: which meaning is accurate?",
+      "options": [
+        "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A sphinx proves that human-headed lions once lived as a natural species."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. A sphinx is not a living species or a writing surface.",
+      "objectiveId": "egypt_sphinx",
+      "repair": {
+        "id": "egypt_sphinx_meaning_ssqc_repair",
+        "objectiveId": "egypt_sphinx",
+        "teach": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.",
+        "prompt": "A royal sculpture combines a human head and lion body. Which explanation fits this evidence?",
+        "options": [
+          "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_sphinx_apply",
+      "prompt": "A sculpture portrays Hatshepsut as a human-headed lion. Which explanation is best supported?",
+      "options": [
+        "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+      "objectiveId": "egypt_sphinx",
+      "repair": {
+        "id": "egypt_sphinx_apply_ssqc_repair",
+        "objectiveId": "egypt_sphinx",
+        "teach": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.",
+        "prompt": "A ruler\u2019s face appears on a statue with the body of a lion. Which explanation fits this evidence?",
+        "options": [
+          "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_animal_symbols_and_gods_meaning",
+      "prompt": "Explain the classroom term \u201canimal symbols and gods\u201d: which meaning is accurate?",
+      "options": [
+        "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "Every animal drawing must be a portrait of a pharaoh."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+      "objectiveId": "egypt_animal_symbols_and_gods",
+      "repair": {
+        "id": "egypt_animal_symbols_and_gods_meaning_ssqc_repair",
+        "objectiveId": "egypt_animal_symbols_and_gods",
+        "teach": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+        "prompt": "A temple image combines an animal head and a human body to represent a deity. Which explanation fits this evidence?",
+        "options": [
+          "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_animal_symbols_and_gods_apply",
+      "prompt": "An image gives a deity an animal head with a human body. Which explanation is best supported?",
+      "options": [
+        "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+      "objectiveId": "egypt_animal_symbols_and_gods",
+      "repair": {
+        "id": "egypt_animal_symbols_and_gods_apply_ssqc_repair",
+        "objectiveId": "egypt_animal_symbols_and_gods",
+        "teach": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+        "prompt": "A museum explains the religious meaning of a falcon-associated divine image. Which explanation fits this evidence?",
+        "options": [
+          "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+          "A body preserved after death rather than decaying in the usual way.",
+          "A life or existence believed to continue after death.",
+          "The process of preserving a body after death, often through deliberate treatment."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "id": "egypt_mummy_transfer",
+      "prompt": "A museum distinguishes a preserved person from the decorated coffin surrounding them. Which inference is most defensible?",
+      "options": [
+        "The preserved body is the mummy; the container is a different object.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "A mummy is simply any empty decorated coffin.",
+        "No conclusions can be drawn from any evidence about the past."
+      ],
+      "answer": 0,
+      "rationale": "The preserved body is the mummy; the container is a different object. A mummy is the body, while mummification names the preservation process.",
+      "objectiveId": "egypt_mummy",
+      "repair": {
+        "id": "egypt_mummy_transfer_ssqc_repair",
+        "objectiveId": "egypt_mummy",
+        "teach": "A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.",
+        "prompt": "An empty coffin is found with no body. Should it be labeled a mummy?",
+        "options": [
+          "No. The coffin is a container; a mummy is a preserved body.",
+          "Yes. Every empty coffin is a mummy.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "No. The coffin is a container; a mummy is a preserved body.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_afterlife_transfer",
+      "prompt": "An archaeologist finds offerings intended for a dead person's continuing needs. Which inference is most defensible?",
+      "options": [
+        "The offerings can support an inference about afterlife beliefs.",
+        "Finding an offering scientifically proves exactly what happens after death.",
+        "No conclusions can be drawn from any evidence about the past.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 0,
+      "rationale": "The offerings can support an inference about afterlife beliefs. An artifact can show a belief without scientifically proving the belief true.",
+      "objectiveId": "egypt_afterlife",
+      "repair": {
+        "id": "egypt_afterlife_transfer_ssqc_repair",
+        "objectiveId": "egypt_afterlife",
+        "teach": "A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.",
+        "prompt": "Why can a historian explain tomb provisions without sharing ancient beliefs?",
+        "options": [
+          "Evidence can show how a belief influenced behavior.",
+          "A belief affected behavior only if every modern reader accepts it.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Evidence can show how a belief influenced behavior.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_mummification_transfer",
+      "prompt": "A museum sequence shows preservation treatments before wrapping and burial. Which inference is most defensible?",
+      "options": [
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "The sequence depicts mummification, rather than a title for a ruler.",
+        "No conclusions can be drawn from any evidence about the past.",
+        "Mummification is the name of the finished coffin."
+      ],
+      "answer": 1,
+      "rationale": "The sequence depicts mummification, rather than a title for a ruler. Mummification is the process; mummy is its resulting preserved body.",
+      "objectiveId": "egypt_mummification",
+      "repair": {
+        "id": "egypt_mummification_transfer_ssqc_repair",
+        "objectiveId": "egypt_mummification",
+        "teach": "The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.",
+        "prompt": "A label calls wrapping and preservation treatments \u201ca mummy.\u201d What is the clearer label for those actions?",
+        "options": [
+          "Mummification names the process; mummy names the preserved body.",
+          "Pyramid names every preservation treatment.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Mummification names the process; mummy names the preserved body.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_pyramids_transfer",
+      "prompt": "A student compares an Old Kingdom pyramid tomb with Tutankhamun's rock-cut tomb. Which inference is most defensible?",
+      "options": [
+        "No conclusions can be drawn from any evidence about the past.",
+        "All pharaohs were buried inside Khufu's pyramid.",
+        "Burial forms changed; one famous pyramid does not describe every royal burial.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 2,
+      "rationale": "Burial forms changed; one famous pyramid does not describe every royal burial. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+      "objectiveId": "egypt_pyramids",
+      "repair": {
+        "id": "egypt_pyramids_transfer_ssqc_repair",
+        "objectiveId": "egypt_pyramids",
+        "teach": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+        "prompt": "A royal rock-cut tomb is compared with Khufu\u2019s tomb. What should the comparison avoid?",
+        "options": [
+          "Assuming that every royal tomb had a pyramid form.",
+          "Recognizing that tomb structures can differ.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Assuming that every royal tomb had a pyramid form.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_sphinx_transfer",
+      "prompt": "A museum shows a ruler's face combined with a powerful lion body. Which inference is most defensible?",
+      "options": [
+        "No conclusions can be drawn from any evidence about the past.",
+        "The combination can communicate royal power symbolically.",
+        "A sphinx proves that human-headed lions once lived as a natural species.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 1,
+      "rationale": "The combination can communicate royal power symbolically. A sphinx is not a living species or a writing surface.",
+      "objectiveId": "egypt_sphinx",
+      "repair": {
+        "id": "egypt_sphinx_transfer_ssqc_repair",
+        "objectiveId": "egypt_sphinx",
+        "teach": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.",
+        "prompt": "Why does a human-headed lion statue not establish that such an animal once lived?",
+        "options": [
+          "It is a symbolic artistic combination, not biological evidence of a natural species.",
+          "Every ancient sculpture is a photograph of an animal.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "It is a symbolic artistic combination, not biological evidence of a natural species.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_animal_symbols_and_gods_transfer",
+      "prompt": "A museum label identifies a falcon-associated divine representation. Which inference is most defensible?",
+      "options": [
+        "The animal form can communicate religious meaning, rather than literal zoology.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "Every animal drawing must be a portrait of a pharaoh.",
+        "No conclusions can be drawn from any evidence about the past."
+      ],
+      "answer": 0,
+      "rationale": "The animal form can communicate religious meaning, rather than literal zoology. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+      "objectiveId": "egypt_animal_symbols_and_gods",
+      "repair": {
+        "id": "egypt_animal_symbols_and_gods_transfer_ssqc_repair",
+        "objectiveId": "egypt_animal_symbols_and_gods",
+        "teach": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+        "prompt": "Why should an animal image be interpreted with its temple setting?",
+        "options": [
+          "Context can help distinguish religious symbolism from an ordinary animal picture.",
+          "Every animal picture everywhere has one fixed religious meaning.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Context can help distinguish religious symbolism from an ordinary animal picture.",
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "id": "egypt_mummy_boundary",
+      "prompt": "A classmate claims: \u201cA mummy is simply any empty decorated coffin.\u201d Which response shows an accurate limit?",
+      "options": [
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.",
+      "objectiveId": "egypt_mummy",
+      "repair": {
+        "id": "egypt_mummy_boundary_ssqc_repair",
+        "objectiveId": "egypt_mummy",
+        "teach": "A body preserved after death rather than decaying in the usual way. A mummy is the body, while mummification names the preservation process.",
+        "prompt": "A museum asks you to distinguish mummy from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A carefully preserved ancient body is displayed respectfully as human remains. This fits because A body preserved after death rather than decaying in the usual way.",
+          "A mummy is the body, while mummification names the preservation process. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "A body preserved after death rather than decaying in the usual way. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_afterlife_boundary",
+      "prompt": "A classmate claims: \u201cFinding an offering scientifically proves exactly what happens after death.\u201d Which response shows an accurate limit?",
+      "options": [
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.",
+      "objectiveId": "egypt_afterlife",
+      "repair": {
+        "id": "egypt_afterlife_boundary_ssqc_repair",
+        "objectiveId": "egypt_afterlife",
+        "teach": "A life or existence believed to continue after death. An artifact can show a belief without scientifically proving the belief true.",
+        "prompt": "A museum asks you to distinguish afterlife from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A burial includes provisions intended for use after death. This fits because A life or existence believed to continue after death.",
+          "An artifact can show a belief without scientifically proving the belief true. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "A life or existence believed to continue after death. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_mummification_boundary",
+      "prompt": "A classmate claims: \u201cMummification is the name of the finished coffin.\u201d Which response shows an accurate limit?",
+      "options": [
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs."
+      ],
+      "answer": 0,
+      "rationale": "The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.",
+      "objectiveId": "egypt_mummification",
+      "repair": {
+        "id": "egypt_mummification_boundary_ssqc_repair",
+        "objectiveId": "egypt_mummification",
+        "teach": "The process of preserving a body after death, often through deliberate treatment. Mummification is the process; mummy is its resulting preserved body.",
+        "prompt": "A museum asks you to distinguish mummification from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "Specialists prepare and preserve a body before burial. This fits because The process of preserving a body after death, often through deliberate treatment.",
+          "Mummification is the process; mummy is its resulting preserved body. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "The process of preserving a body after death, often through deliberate treatment. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_pyramids_boundary",
+      "prompt": "A classmate claims: \u201cAll pharaohs were buried inside Khufu's pyramid.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+      "objectiveId": "egypt_pyramids",
+      "repair": {
+        "id": "egypt_pyramids_boundary_ssqc_repair",
+        "objectiveId": "egypt_pyramids",
+        "teach": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+        "prompt": "A museum asks you to distinguish pyramids from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "Khufu's Great Pyramid was built as a royal tomb. This fits because Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+          "Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_sphinx_boundary",
+      "prompt": "A classmate claims: \u201cA sphinx proves that human-headed lions once lived as a natural species.\u201d Which response shows an accurate limit?",
+      "options": [
+        "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.",
+      "objectiveId": "egypt_sphinx",
+      "repair": {
+        "id": "egypt_sphinx_boundary_ssqc_repair",
+        "objectiveId": "egypt_sphinx",
+        "teach": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sphinx is not a living species or a writing surface.",
+        "prompt": "A museum asks you to distinguish Sphinx from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A sculpture portrays Hatshepsut as a human-headed lion. This fits because In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+          "A sphinx is not a living species or a writing surface. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_animal_symbols_and_gods_boundary",
+      "prompt": "A classmate claims: \u201cEvery animal drawing must be a portrait of a pharaoh.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "answer": 0,
+      "rationale": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+      "objectiveId": "egypt_animal_symbols_and_gods",
+      "repair": {
+        "id": "egypt_animal_symbols_and_gods_boundary_ssqc_repair",
+        "objectiveId": "egypt_animal_symbols_and_gods",
+        "teach": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. This does not mean every animal picture represents a god or every god has one fixed animal form.",
+        "prompt": "A museum asks you to distinguish animal symbols and gods from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "An image gives a deity an animal head with a human body. This fits because Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+          "This does not mean every animal picture represents a god or every god has one fixed animal form. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    }
+  ],
+  "proof": {
+    "prompt": "A museum displays a royal sphinx and a coffin containing a mummy. Explain two different kinds of evidence, connect one with authority and one with belief, and state a limit. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.",
+    "criteria": [
+      "Answers every part of the task with accurate historical terms and relationships.",
+      "Uses at least two relevant details from the assigned source or map.",
+      "Explains how each detail supports the claim instead of listing facts.",
+      "Applies the idea to the new case and explains a reasonable limit."
+    ]
+  },
+  "proofRepair": {
+    "prompt": "A visitor calls an empty coffin \u201ca mummy\u201d and says its decorations prove an afterlife. Explain the two distinctions using evidence and belief.",
+    "criteria": [
+      "Uses accurate names and definitions for every requested term.",
+      "Explains at least one cause, relationship or evidentiary connection.",
+      "Uses the supplied evidence and distinguishes inference from certainty.",
+      "Rejects a relevant misconception and states the limit without unsupported absolutes."
+    ],
+    "reviewRequired": true
+  },
+  "retentionProofs": [
+    {
+      "day": 3,
+      "prompt": "A tomb has no pyramid above it. Explain why that does not prove it cannot be a royal tomb, using a contrasting named burial example. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 7,
+      "prompt": "A sculptor gives a ruler a lion body. Explain the intended power message and why it is not evidence of a natural animal species. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 14,
+      "prompt": "Compare a preserved body with an image of a preserved body. What can each show directly, and what requires further evidence? Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 30,
+      "prompt": "Design a respectful museum label that distinguishes mummy, mummification, coffin and afterlife without treating the belief as an experimentally proven fact. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    }
+  ],
+  "links": {
+    "prior": "Retrieve Egypt: writing, materials and evidence. Explain one connection with this lesson and one difference.",
+    "current": "Use the assigned Egypt reading to explain explain belief through a practice. Name evidence and explain how it supports your answer.",
+    "future": "Next: Egypt: authority, belief and historical evidence. Carry an idea or source detail forward and explain how it helps.",
+    "realLife": "Museum interpretation requires respectful description and a separation of evidence from belief. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.",
+    "priorLessonId": "fresh_ss_egypt_writing",
+    "futureLessonId": "fresh_ss_egypt_power_belief",
+    "bridge": {
+      "prompt": "Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.",
+      "explanation": "A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."
+    },
+    "laterApplication": "Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."
+  },
+  "sources": [
+    {
+      "title": "Assigned WCS Ancient Egypt OER \u00b7 exact classroom source",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "status": "51-page source text read; lesson-specific pages identified"
+    },
+    {
+      "title": "Smithsonian NMNH: Eternal Life in Ancient Egypt",
+      "url": "https://naturalhistory.si.edu/exhibits/eternal-life-ancient-egypt",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Ministry: The Netherworld",
+      "url": "https://egymonuments.gov.eg/collections/the-netherworld/",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Met: Sphinx of Hatshepsut",
+      "url": "https://www.metmuseum.org/art/collection/search/544442",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Ministry: Great Pyramid of Khufu",
+      "url": "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "mummy",
+      "meaning": "A body preserved after death rather than decaying in the usual way.",
+      "cue": "Mummy names the preserved body.",
+      "example": "A carefully preserved ancient body is displayed respectfully as human remains.",
+      "nonexample": "A mummy is the body, while mummification names the preservation process.",
+      "objectiveId": "egypt_mummy"
+    },
+    {
+      "word": "afterlife",
+      "meaning": "A life or existence believed to continue after death.",
+      "cue": "Afterlife is a belief about what follows death.",
+      "example": "A burial includes provisions intended for use after death.",
+      "nonexample": "An artifact can show a belief without scientifically proving the belief true.",
+      "objectiveId": "egypt_afterlife"
+    },
+    {
+      "word": "mummification",
+      "meaning": "The process of preserving a body after death, often through deliberate treatment.",
+      "cue": "The -ification ending signals a process.",
+      "example": "Specialists prepare and preserve a body before burial.",
+      "nonexample": "Mummification is the process; mummy is its resulting preserved body.",
+      "objectiveId": "egypt_mummification"
+    },
+    {
+      "word": "pyramids",
+      "meaning": "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+      "cue": "Shape plus purpose; ask which pyramid, when, for whom.",
+      "example": "Khufu's Great Pyramid was built as a royal tomb.",
+      "nonexample": "Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid.",
+      "objectiveId": "egypt_pyramids"
+    },
+    {
+      "word": "Sphinx",
+      "meaning": "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+      "cue": "Human head plus lion's body signals royal power.",
+      "example": "A sculpture portrays Hatshepsut as a human-headed lion.",
+      "nonexample": "A sphinx is not a living species or a writing surface.",
+      "objectiveId": "egypt_sphinx"
+    },
+    {
+      "word": "animal symbols and gods",
+      "meaning": "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+      "cue": "Image, belief and living animal are different categories.",
+      "example": "An image gives a deity an animal head with a human body.",
+      "nonexample": "This does not mean every animal picture represents a god or every god has one fixed animal form.",
+      "objectiveId": "egypt_animal_symbols_and_gods"
+    }
+  ],
+  "media": [
+    {
+      "title": "The Egyptian Book of the Dead: A guidebook for the underworld",
+      "url": "https://www.youtube.com/watch?v=1yv_MXNYbAo",
+      "status": "Transcript reviewed; playback not verified",
+      "task": "Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani\u2019s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.",
+      "verification": {
+        "content": "Complete official authored/unspecified English captions exported and read0:06\u20134:10; player duration4:32",
+        "publisherPage": "https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala",
+        "browserPlayback": "Player and animation metadata loaded; full moving/audio playback not verified",
+        "access": "Public transcript opened via description \u2192 Show transcript; no login needed"
+      },
+      "omissions": [
+        "One13th-century-BCE scribe is not all Egyptians or all periods",
+        "Mummification details are simplified; procedures varied",
+        "Does not replace the full history, social structure, politics and religion teacher quiz scope"
+      ]
+    },
+    {
+      "title": "Kings and Queens of Egypt",
+      "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+      "status": "Content reviewed",
+      "task": "Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office\u2019s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people\u2019s lives.",
+      "verification": {
+        "content": "Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect",
+        "browserPlayback": null,
+        "access": "Public readable essay and artifact images; no login"
+      },
+      "omissions": [
+        "Not the assigned orange textbook page or exact classroom pyramid chart",
+        "Main essay focuses on royalty, not all social roles/contributions",
+        "Historical succession was more complicated than an always-father-to-son rule"
+      ]
+    },
+    {
+      "title": "Religion and gods in ancient Egypt",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/",
+      "status": "Content reviewed",
+      "task": "Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.",
+      "verification": {
+        "content": "Complete main article read, including deity sections, artifact captions and variation across places/classes/time",
+        "browserPlayback": null,
+        "access": "Public readable text and images; linked3D viewer not interaction-tested"
+      },
+      "omissions": [
+        "Not the exact teacher source; selected paragraphs only for this task",
+        "Linked3D model has not been tested and is not counted as verified interaction",
+        "Do not generalize every deity association to every period"
+      ]
+    }
+  ],
+  "memoryCue": "Body, process, container, belief, symbol.",
+  "nextLessonId": "fresh_ss_egypt_power_belief",
+  "gameVersion": "b75cc6a2",
+  "contentVersion": "ss-alignment-qc-2026-11-02-v2",
+  "sourceCoverage": {
+    "classroomSource": "Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.",
+    "limits": "Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."
+  },
+  "readingLocation": {
+    "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+    "startPage": 20,
+    "endPage": 27,
+    "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"
+  },
+  "teachingSections": [
+    {
+      "id": "faith_system",
+      "title": "Explain belief through a practice",
+      "teach": [
+        "Describe beliefs respectfully as beliefs. Burial goods and preservation can support an inference that Egyptians prepared for an afterlife; they do not scientifically establish what happens after death.",
+        "Mummy is the preserved body; mummification is the process; a coffin is a container. A pyramid is a form of structure, and major Egyptian royal examples served as tombs. Not every person or pharaoh received the same treatment.",
+        "A human-headed lion sphinx could symbolize a ruler\u2019s authority. Animal and combined forms also represented many gods. Interpret the context; not every animal image is a deity or literal record of a living species.",
+        "Connect government with religion while keeping categories clear: royal monuments could express political authority and religious beliefs at the same time. A powerful image is evidence of how power was presented, not automatic proof of every royal claim."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "Why might a tomb contain food and a preserved body?",
+        "thinking": "Name the belief, describe the objects and connect belief to action.",
+        "answer": "Many Egyptians believed life continued after death. Preserving a body and placing provisions in a tomb fit preparation for that afterlife. The objects help us study their beliefs and actions.",
+        "why": "It explains the connection without requiring the reader to share the belief."
+      },
+      "tryPrompt": "Separate mummy, mummification and tomb in one explanation.",
+      "tryAnswer": "A mummy is a preserved body. Mummification is the preservation process. A tomb is the burial place.",
+      "tryChoices": [
+        "A mummy is a preserved body. Mummification is the preservation process. A tomb is the burial place.",
+        "A mummy is simply any empty decorated coffin.",
+        "A life or existence believed to continue after death."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "egypt_mummy",
+      "title": "mummy",
+      "teach": [
+        "A body preserved after death rather than decaying in the usual way.",
+        "Mummy names the preserved body.",
+        "A mummy is the body, while mummification names the preservation process."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "A carefully preserved ancient body is displayed respectfully as human remains. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines mummy. Separate it from a similar term.",
+        "answer": "mummy: A body preserved after death rather than decaying in the usual way. A carefully preserved ancient body is displayed respectfully as human remains.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A museum label says \u201cmummy found inside a tomb.\u201d Identify the body and the burial place.",
+      "tryAnswer": "The mummy is the preserved body; the tomb is the burial place. The preservation process is mummification.",
+      "tryChoices": [
+        "A life or existence believed to continue after death.",
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "The mummy is the preserved body; the tomb is the burial place. The preservation process is mummification."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "egypt_afterlife",
+      "title": "afterlife",
+      "teach": [
+        "A life or existence believed to continue after death.",
+        "Afterlife is a belief about what follows death.",
+        "An artifact can show a belief without scientifically proving the belief true."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "A burial includes provisions intended for use after death. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines afterlife. Separate it from a similar term.",
+        "answer": "afterlife: A life or existence believed to continue after death. A burial includes provisions intended for use after death.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "How could food placed in a burial help a historian investigate belief?",
+      "tryAnswer": "Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.",
+      "tryChoices": [
+        "A body preserved after death rather than decaying in the usual way.",
+        "Food intended for use after death can be evidence of afterlife beliefs. Explain the practice as evidence of belief, rather than scientific proof of an afterlife.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "egypt_mummification",
+      "title": "mummification",
+      "teach": [
+        "The process of preserving a body after death, often through deliberate treatment.",
+        "The -ification ending signals a process.",
+        "Mummification is the process; mummy is its resulting preserved body."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "Specialists prepare and preserve a body before burial. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines mummification. Separate it from a similar term.",
+        "answer": "mummification: The process of preserving a body after death, often through deliberate treatment. Specialists prepare and preserve a body before burial.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A student calls a pyramid \u201cmummification.\u201d Repair the sentence using all three terms: tomb, mummy and mummification.",
+      "tryAnswer": "A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.",
+      "tryChoices": [
+        "A pyramid could serve as a royal tomb. A mummy is a preserved body, and mummification is the process used to preserve it.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "The process of preserving a body after death, often through deliberate treatment."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "egypt_pyramids",
+      "title": "pyramids",
+      "teach": [
+        "Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs.",
+        "Shape plus purpose; ask which pyramid, when, for whom.",
+        "Not every Egyptian ruler had a pyramid tomb and not every triangle is a pyramid."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "Khufu's Great Pyramid was built as a royal tomb. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines pyramids. Separate it from a similar term.",
+        "answer": "pyramids: Structures with triangular sides meeting at an apex; major Egyptian royal examples served as tombs. Khufu's Great Pyramid was built as a royal tomb.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Why is \u201call royal burials were in pyramids\u201d too broad a claim? Use two places from your map.",
+      "tryAnswer": "Giza is known for royal pyramids, while the Valley of the Kings near Thebes contains royal rock-cut tombs. Burial practices changed across periods.",
+      "tryChoices": [
+        "A life or existence believed to continue after death.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "Giza is known for royal pyramids, while the Valley of the Kings near Thebes contains royal rock-cut tombs. Burial practices changed across periods."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "egypt_sphinx",
+      "title": "Sphinx",
+      "teach": [
+        "In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler.",
+        "Human head plus lion's body signals royal power.",
+        "A sphinx is not a living species or a writing surface."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "A sculpture portrays Hatshepsut as a human-headed lion. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Sphinx. Separate it from a similar term.",
+        "answer": "Sphinx: In the familiar Egyptian form, a lion-bodied figure with a human head, often representing a ruler. A sculpture portrays Hatshepsut as a human-headed lion.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "What can a ruler\u2019s face on a lion-bodied sculpture suggest, and what cannot be concluded?",
+      "tryAnswer": "A sphinx could symbolize royal power. It does not mean the ruler literally had an animal body or that every sphinx portrays the same ruler.",
+      "tryChoices": [
+        "A life or existence believed to continue after death.",
+        "A sphinx could symbolize royal power. It does not mean the ruler literally had an animal body or that every sphinx portrays the same ruler.",
+        "A body preserved after death rather than decaying in the usual way."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "egypt_animal_symbols_and_gods",
+      "title": "animal symbols and gods",
+      "teach": [
+        "Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism.",
+        "Image, belief and living animal are different categories.",
+        "This does not mean every animal picture represents a god or every god has one fixed animal form."
+      ],
+      "where": "OER section 6.4, PDF pages20\u201327. Look for beliefs, mummification, tombs and religious images.",
+      "example": {
+        "prompt": "An image gives a deity an animal head with a human body. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines animal symbols and gods. Separate it from a similar term.",
+        "answer": "animal symbols and gods: Many Egyptian gods could be represented using animal or combined human-animal forms; this is religious symbolism. An image gives a deity an animal head with a human body.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Why should you explain an animal feature in a religious image using the source\u2019s beliefs?",
+      "tryAnswer": "The feature can carry symbolic meaning associated with a deity. Appearance alone does not establish what every Egyptian believed; use context from the source.",
+      "tryChoices": [
+        "The feature can carry symbolic meaning associated with a deity. Appearance alone does not establish what every Egyptian believed; use context from the source.",
+        "A body preserved after death rather than decaying in the usual way.",
+        "All pharaohs were buried inside Khufu's pyramid."
+      ],
+      "tryAnswerIndex": 0
+    }
+  ],
+  "assessmentFormat": "multiple-choice-only",
+  "archived": true,
+  "releaseStatus": "Withdrawn. Historical development content; do not assign, assess or narrate."
+}

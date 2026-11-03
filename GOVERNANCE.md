@@ -296,3 +296,8 @@ Maintain a per-file source ledger: subject, course, folder, exact source URL, ty
 Recover the exact classroom source before considering a substitute. Use authorized school/provider sign-in and ask Rayna for the specific handoff or permission when necessary. Never silently replace an accessible assigned text. Preserve factual source discrepancies in a private parent note; teacher-published practice keys are not automatically correct. Do not bypass browser security or approval rejections. Record blocked/unread items explicitly and continue unaffected sources. A course audit remains incomplete while any discovered material is unresolved.
 
 Keep student answers, grades, private routines and licensed full documents out of public GitHub. Every public completion claim must match the ledger; new-path scores begin unmeasured.
+
+
+## 17. Social Studies assessment exception — parent direction
+
+Social Studies uses multiple choice only for guided checks, practice, independent application, repair and all scheduled retrieval. Do not require typed reasoning, written proof or an oral constructed response. This explicit direction supersedes conflicting format requirements for Social Studies; it does not waive source completeness, factual accuracy, fresh evidence, privacy, independence or delayed retrieval. Withdrawn IDs never transfer scores or mastery to replacements.

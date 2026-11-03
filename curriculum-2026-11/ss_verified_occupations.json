@@ -1,0 +1,427 @@
+{
+  "id": "ss_verified_occupations",
+  "subject": "SS",
+  "title": "Jobs and contributions",
+  "contentVersion": "schoology-reset-1",
+  "verifiedReplacement": true,
+  "objectiveIds": [
+    "ss_verified_occupations"
+  ],
+  "objectiveLabels": {
+    "ss_verified_occupations": "4. Jobs and contributions"
+  },
+  "teach": [
+    "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need.",
+    "Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry.",
+    "Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work."
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "title": "Assigned OER Ancient Egypt",
+      "pages": [
+        15,
+        16,
+        17
+      ],
+      "status": "Named pages content-read; full course audit incomplete"
+    }
+  ],
+  "readingLocation": {
+    "startPage": 15,
+    "endPage": 17,
+    "where": "Assigned OER PDF, pages 15, 16, 17"
+  },
+  "teachingSections": [
+    {
+      "id": "ss_verified_occupations_teach",
+      "title": "Jobs and contributions",
+      "where": "Read the assigned OER PDF, pages 15, 16, 17.",
+      "sourceUrl": "/?reading=egypt&page=15",
+      "teach": [
+        "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need.",
+        "Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry.",
+        "Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work."
+      ],
+      "example": {
+        "prompt": "A scribe records how much wheat people pay in taxes. How does this work help the government?",
+        "thinking": "The task is record keeping, not growing wheat. The record tells officials what has been collected.",
+        "answer": "The scribe\u2019s written record helps officials keep track of taxes.",
+        "why": "This connects the worker\u2019s action to a useful result."
+      },
+      "tryPrompt": "Which worker makes pottery as a skilled craft?",
+      "tryChoices": [
+        "An artisan",
+        "A farmer",
+        "A tax collector"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work."
+    }
+  ],
+  "practice": [
+    {
+      "prompt": "Which occupation kept written tax records?",
+      "options": [
+        "Scribe",
+        "Farmer",
+        "Potter"
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q1",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Scribe. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Who would most likely write down the number of soldiers in an army?",
+        "options": [
+          "A scribe",
+          "A herder",
+          "A potter"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair1",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: A scribe. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "What is a census?",
+      "options": [
+        "A count of the population",
+        "A storehouse for grain",
+        "A tool for cutting stone"
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q2",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: A count of the population. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Which record would help officials know how many people lived in an area?",
+        "options": [
+          "A census",
+          "A list of temple building materials only",
+          "A calendar of flood seasons only"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair2",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: A census. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "A farmer produces more food than the household needs. What is the extra food called?",
+      "options": [
+        "Surplus",
+        "Census",
+        "Bureaucracy"
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q3",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Surplus. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "A harvest leaves grain after current food needs are met. Which term fits the extra grain?",
+        "options": [
+          "Surplus",
+          "Occupation",
+          "Cataract"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair3",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: Surplus. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [],
+  "delayed": [
+    {
+      "prompt": "A workshop makes baskets and furniture. Which occupation best fits its workers?",
+      "options": [
+        "Artisans",
+        "Priests performing temple rituals",
+        "Scribes counting the population"
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q4",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Artisans. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Which worker\u2019s contribution is a finished piece of furniture?",
+        "options": [
+          "An artisan\u2019s",
+          "A census taker\u2019s",
+          "A priest\u2019s temple ritual"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair4",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: An artisan\u2019s. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      },
+      "retrievalDay": 1
+    },
+    {
+      "prompt": "How could a food surplus help a person become a craftsperson?",
+      "options": [
+        "Other farmers could supply food while that person learned a craft.",
+        "Everyone could stop producing food.",
+        "A census would automatically teach the craft."
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q5",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Other farmers could supply food while that person learned a craft.. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Why could food production support jobs beyond farming?",
+        "options": [
+          "Extra food could feed people doing other work.",
+          "Extra food meant no one needed water.",
+          "Extra food meant every person had to become a farmer."
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair5",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: Extra food could feed people doing other work.. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      },
+      "retrievalDay": 3
+    },
+    {
+      "prompt": "Which answer connects a farmer\u2019s job with a contribution to society?",
+      "options": [
+        "Growing grain supplies food for other people.",
+        "Growing grain records every court case.",
+        "Growing grain makes the farmer a chief judge."
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q6",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Growing grain supplies food for other people.. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Which is a contribution made by herders?",
+        "options": [
+          "Raising animals that people use",
+          "Writing the pharaoh\u2019s laws",
+          "Judging court cases"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair6",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: Raising animals that people use. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      },
+      "retrievalDay": 7
+    },
+    {
+      "prompt": "An official needs an accurate population count. Which task would a scribe perform?",
+      "options": [
+        "Record a census",
+        "Shape a clay jar",
+        "Raise a herd of goats"
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q7",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Record a census. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "Which activity shows a scribe using a specialized skill?",
+        "options": [
+          "Writing a record of taxes collected",
+          "Digging an irrigation ditch",
+          "Shaping a basket by hand"
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair7",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: Writing a record of taxes collected. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      },
+      "retrievalDay": 14
+    },
+    {
+      "prompt": "Why did different occupations depend on one another?",
+      "options": [
+        "Farmers supplied food while other workers supplied goods and services.",
+        "Each worker made everything alone.",
+        "Only scribes needed food and supplies."
+      ],
+      "answer": 0,
+      "id": "ss_verified_occupations_q8",
+      "objectiveId": "ss_verified_occupations",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16,
+          17
+        ]
+      },
+      "rationale": "Correct: Farmers supplied food while other workers supplied goods and services.. See Assigned OER Ancient Egypt, pages 15, 16, 17.",
+      "repair": {
+        "prompt": "A potter needs food, and a farmer needs a storage jar. What does this example show?",
+        "options": [
+          "Different jobs can meet one another\u2019s needs.",
+          "Farmers and potters perform identical tasks.",
+          "A farmer must have a higher social rank than every potter."
+        ],
+        "answer": 0,
+        "id": "ss_verified_occupations_repair8",
+        "objectiveId": "ss_verified_occupations",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16,
+            17
+          ]
+        },
+        "teach": "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "rationale": "Correct: Different jobs can meet one another\u2019s needs.. An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need. Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry. Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work.",
+        "supported": true
+      },
+      "retrievalDay": 30
+    }
+  ],
+  "proof": {
+    "prompt": "Multiple-choice application is assessed in check B.",
+    "criteria": []
+  },
+  "vocabulary": [],
+  "links": {
+    "prior": "Reading the social pyramid",
+    "current": "Connect a job with what it provides, then identify the government offices that use those services.",
+    "future": "Pharaoh and government officials",
+    "realLife": "A grocer needs food from growers, and growers need goods and services. Modern workers do not have the same social classes as ancient Egyptians.",
+    "priorLessonId": "ss_verified_social_pyramid",
+    "futureLessonId": "ss_verified_government"
+  },
+  "nextLessonId": "ss_verified_government",
+  "draft": true,
+  "releaseStatus": "Unreleased draft. Source-completeness and final instructional/visual QC gates remain open."
+}

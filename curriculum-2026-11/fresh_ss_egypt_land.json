@@ -1,1 +1,1124 @@
-{"id":"fresh_ss_egypt_land","subject":"SS","title":"Egypt: Nile land, farming and the calendar","teach":["Trace a system rather than memorize detached facts: river water and deposited soil support farming; surplus food supports work beyond farming; officials can organize water, labor and grain. A weak or excessive flood can disrupt this system.","Kemet, the Black Land, names fertile land associated with the Nile. Red Land names the surrounding desert. These do not mean Upper and Lower Egypt. A delta forms from river-mouth sediment; cataracts are rocky river rapids that can interrupt navigation.","The agricultural cycle includes Akhet (inundation), Peret (emergence/growing), and Shemu (harvest/dry season). Astronomy, including Sirius rising, helped mark seasonal patterns. The civil calendar drifted relative to the solar year; do not insist New Year always fell on the actual first flood day.","The Nile is commonly measured at about 6,650 kilometers, or 4,132 miles. Rounded measurements depend on units and conventions. A number without its unit cannot tell you a river’s length. On a map, identify the source, route and mouth before interpreting a distance.","delta: A sediment-built area at a river mouth, often with branching channels. Example: A river slows near the sea and leaves sediment that builds land. Boundary: A cataract is a rocky rapid, not a river-mouth deposit.","cataracts: Rocky rapids or stretches of rough water in a river. Example: A boat crew must unload at rocky rapids on the Nile. Boundary: Cataracts are not pyramids or ordinary river-mouth branches.","Black Land and Red Land: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. Example: A farmer depends on the dark fertile strip beside a river bordered by desert. Boundary: The color labels do not mean Lower Egypt and Upper Egypt.","irrigation and crops: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Example: Workers direct river water through a channel to farmland. Boundary: A canal can deliver irrigation water; it is not built to create hieroglyphs.","Akhet and Shemu: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Example: A calendar names the Nile flooding period Akhet. Boundary: Shemu is not the name of the flooding season; Peret is emergence or growing.","flood prediction and New Year: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Example: Observers associate Sirius becoming visible again with the seasonal flood. Boundary: A 365-day civil calendar drifted; New Year was not always on the actual first flood day."],"model":{"prompt":"A canal brings Nile water to flax fields. Officials record the harvest. Explain two links in the system and one possible disruption.","reasoning":"Identify the water-to-crop mechanism. Connect crops with work or administration. Make a conditional prediction rather than guaranteeing one outcome.","answer":"Canal water helps grow flax, which can become linen. Harvest records help officials manage resources. If the canal fails, less water may reduce the crop and the linen available; the effect depends on other water and stored supplies."},"guided":{"id":"fresh_ss_egypt_land_guided","prompt":"A village gets less floodwater and its crop shrinks. What is the most reasonable chain of effects?","options":["Less available food may affect people in other occupations, depending on stored food and other resources.","The flood reduction can affect farmers only because nobody else uses food.","Less floodwater guarantees that every person immediately abandons every occupation.","A smaller crop proves that the village had no bureaucracy."],"answer":0,"rationale":"Connect the resource change to people who depend on the crop, then state conditions instead of guaranteeing an outcome."},"practice":[{"id":"egypt_delta_meaning","prompt":"Explain the classroom term “delta”: which meaning is accurate?","options":["Every triangular patch of desert is a river delta.","Rocky rapids or stretches of rough water in a river.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":2,"rationale":"Use the defining feature, then test a boundary. A cataract is a rocky rapid, not a river-mouth deposit.","objectiveId":"egypt_delta","repair":{"id":"egypt_delta_meaning_ssqc_repair","objectiveId":"egypt_delta","teach":"A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.","prompt":"A river splits into channels near the coast and deposits mud. Which explanation fits this evidence?","options":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: A sediment-built area at a river mouth, often with branching channels.","supported":true}},{"id":"egypt_delta_apply","prompt":"A river slows near the sea and leaves sediment that builds land. Which explanation is best supported?","options":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Connect the concrete details to the defining feature. A sediment-built area at a river mouth, often with branching channels.","objectiveId":"egypt_delta","repair":{"id":"egypt_delta_apply_ssqc_repair","objectiveId":"egypt_delta","teach":"A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.","prompt":"A coastal map shows new land built by sediment at a river mouth. Which explanation fits this evidence?","options":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: A sediment-built area at a river mouth, often with branching channels.","supported":true}},{"id":"egypt_cataracts_meaning","prompt":"Explain the classroom term “cataracts”: which meaning is accurate?","options":["Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Cataracts are always calm pools ideal for docking.","A sediment-built area at a river mouth, often with branching channels."],"answer":0,"rationale":"Use the defining feature, then test a boundary. Cataracts are not pyramids or ordinary river-mouth branches.","objectiveId":"egypt_cataracts","repair":{"id":"egypt_cataracts_meaning_ssqc_repair","objectiveId":"egypt_cataracts","teach":"Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.","prompt":"A river crew carries goods around a stretch of exposed rocks and rushing water. Which explanation fits this evidence?","options":["Rocky rapids or stretches of rough water in a river.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: Rocky rapids or stretches of rough water in a river.","supported":true}},{"id":"egypt_cataracts_apply","prompt":"A boat crew must unload at rocky rapids on the Nile. Which explanation is best supported?","options":["Rocky rapids or stretches of rough water in a river.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Rocky rapids or stretches of rough water in a river.","objectiveId":"egypt_cataracts","repair":{"id":"egypt_cataracts_apply_ssqc_repair","objectiveId":"egypt_cataracts","teach":"Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.","prompt":"A travel account describes rough rocky rapids upstream. Which explanation fits this evidence?","options":["Rocky rapids or stretches of rough water in a river.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: Rocky rapids or stretches of rough water in a river.","supported":true}},{"id":"egypt_black_land_and_red_land_meaning","prompt":"Explain the classroom term “Black Land and Red Land”: which meaning is accurate?","options":["A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Rocky rapids or stretches of rough water in a river.","Kemet means only Lower Egypt, while Red Land means Upper Egypt."],"answer":1,"rationale":"Use the defining feature, then test a boundary. The color labels do not mean Lower Egypt and Upper Egypt.","objectiveId":"egypt_black_land_and_red_land","repair":{"id":"egypt_black_land_and_red_land_meaning_ssqc_repair","objectiveId":"egypt_black_land_and_red_land","teach":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.","prompt":"A soil sample from the fertile Nile strip is compared with nearby dry desert. Which explanation fits this evidence?","options":["Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","supported":true}},{"id":"egypt_black_land_and_red_land_apply","prompt":"A farmer depends on the dark fertile strip beside a river bordered by desert. Which explanation is best supported?","options":["Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","objectiveId":"egypt_black_land_and_red_land","repair":{"id":"egypt_black_land_and_red_land_apply_ssqc_repair","objectiveId":"egypt_black_land_and_red_land","teach":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.","prompt":"A farmer calls the dark river soil Kemet and distinguishes it from desert. Which explanation fits this evidence?","options":["Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Match the details of this case with the defining idea: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","supported":true}},{"id":"egypt_irrigation_and_crops_meaning","prompt":"Explain the classroom term “irrigation and crops”: which meaning is accurate?","options":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","Flax is an animal, and irrigation means removing every water source.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river."],"answer":0,"rationale":"Use the defining feature, then test a boundary. A canal can deliver irrigation water; it is not built to create hieroglyphs.","objectiveId":"egypt_irrigation_and_crops","repair":{"id":"egypt_irrigation_and_crops_meaning_ssqc_repair","objectiveId":"egypt_irrigation_and_crops","teach":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.","prompt":"A village directs water through ditches to grow wheat and flax. Which explanation fits this evidence?","options":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","supported":true}},{"id":"egypt_irrigation_and_crops_apply","prompt":"Workers direct river water through a channel to farmland. Which explanation is best supported?","options":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","objectiveId":"egypt_irrigation_and_crops","repair":{"id":"egypt_irrigation_and_crops_apply_ssqc_repair","objectiveId":"egypt_irrigation_and_crops","teach":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.","prompt":"A canal supplies fields where barley is harvested for food. Which explanation fits this evidence?","options":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","supported":true}},{"id":"egypt_akhet_and_shemu_meaning","prompt":"Explain the classroom term “Akhet and Shemu”: which meaning is accurate?","options":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Akhet means harvest and Shemu means flood.","Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle."],"answer":3,"rationale":"Use the defining feature, then test a boundary. Shemu is not the name of the flooding season; Peret is emergence or growing.","objectiveId":"egypt_akhet_and_shemu","repair":{"id":"egypt_akhet_and_shemu_meaning_ssqc_repair","objectiveId":"egypt_akhet_and_shemu","teach":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.","prompt":"A farm calendar puts inundation before planting, then harvest in the dry season. Which explanation fits this evidence?","options":["Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","supported":true}},{"id":"egypt_akhet_and_shemu_apply","prompt":"A calendar names the Nile flooding period Akhet. Which explanation is best supported?","options":["Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","objectiveId":"egypt_akhet_and_shemu","repair":{"id":"egypt_akhet_and_shemu_apply_ssqc_repair","objectiveId":"egypt_akhet_and_shemu","teach":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.","prompt":"A student labels flood time Akhet and harvest time Shemu. Which explanation fits this evidence?","options":["Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","supported":true}},{"id":"egypt_flood_prediction_and_new_year_meaning","prompt":"Explain the classroom term “flood prediction and New Year”: which meaning is accurate?","options":["Rocky rapids or stretches of rough water in a river.","The civil calendar always matched the actual first flood day without any drift.","Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A sediment-built area at a river mouth, often with branching channels."],"answer":2,"rationale":"Use the defining feature, then test a boundary. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","objectiveId":"egypt_flood_prediction_and_new_year","repair":{"id":"egypt_flood_prediction_and_new_year_meaning_ssqc_repair","objectiveId":"egypt_flood_prediction_and_new_year","teach":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","prompt":"Observers track Sirius and seasonal river changes; a fixed calendar slowly falls out of step. Which explanation fits this evidence?","options":["Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","supported":true}},{"id":"egypt_flood_prediction_and_new_year_apply","prompt":"Observers associate Sirius becoming visible again with the seasonal flood. Which explanation is best supported?","options":["Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","objectiveId":"egypt_flood_prediction_and_new_year","repair":{"id":"egypt_flood_prediction_and_new_year_apply_ssqc_repair","objectiveId":"egypt_flood_prediction_and_new_year","teach":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","prompt":"A 365-day calendar is compared with a solar year that is slightly longer. Which explanation fits this evidence?","options":["Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Match the details of this case with the defining idea: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","supported":true}}],"independentCheck":[{"id":"egypt_delta_transfer","prompt":"A harbor planner maps new sediment and splitting channels where a river meets the sea. Which inference is most defensible?","options":["The planner is describing delta formation at the mouth.","This proves that every ancient Egyptian had the same job, power and beliefs.","Every triangular patch of desert is a river delta.","No conclusions can be drawn from any evidence about the past."],"answer":0,"rationale":"The planner is describing delta formation at the mouth. A cataract is a rocky rapid, not a river-mouth deposit.","objectiveId":"egypt_delta","repair":{"id":"egypt_delta_transfer_ssqc_repair","objectiveId":"egypt_delta","teach":"A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.","prompt":"A river has deposited sediment near its mouth for years. Why might a map need updating?","options":["Deposition can build land and change the river-mouth channels.","The sea must turn into a rocky cataract.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Deposition can build land and change the river-mouth channels.","supported":true}},{"id":"egypt_cataracts_transfer","prompt":"A cargo captain explains why boats cannot safely pass a rough, rocky river section. Which inference is most defensible?","options":["No conclusions can be drawn from any evidence about the past.","A cataract can obstruct navigation and affect trade routes.","Cataracts are always calm pools ideal for docking.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":1,"rationale":"A cataract can obstruct navigation and affect trade routes. Cataracts are not pyramids or ordinary river-mouth branches.","objectiveId":"egypt_cataracts","repair":{"id":"egypt_cataracts_transfer_ssqc_repair","objectiveId":"egypt_cataracts","teach":"Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.","prompt":"Why might a merchant unload goods before a rough rocky river stretch?","options":["Rapids can interrupt safe boat travel and require another way around.","A cataract is a calm harbor at a river mouth.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Rapids can interrupt safe boat travel and require another way around.","supported":true}},{"id":"egypt_black_land_and_red_land_transfer","prompt":"A field map separates fertile riverbank soil from surrounding dry desert. Which inference is most defensible?","options":["No conclusions can be drawn from any evidence about the past.","Kemet means only Lower Egypt, while Red Land means Upper Egypt.","Land fertility, not north-versus-south position, explains the contrast.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":2,"rationale":"Land fertility, not north-versus-south position, explains the contrast. The color labels do not mean Lower Egypt and Upper Egypt.","objectiveId":"egypt_black_land_and_red_land","repair":{"id":"egypt_black_land_and_red_land_transfer_ssqc_repair","objectiveId":"egypt_black_land_and_red_land","teach":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.","prompt":"Could a strip of Black Land exist in southern Upper Egypt?","options":["Yes. Fertile soil and political region describe different features.","No. Black Land is another name for northern Lower Egypt only.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Yes. Fertile soil and political region describe different features.","supported":true}},{"id":"egypt_irrigation_and_crops_transfer","prompt":"A settlement grows flax for linen and barley for food using directed river water. Which inference is most defensible?","options":["Flax is an animal, and irrigation means removing every water source.","No conclusions can be drawn from any evidence about the past.","This proves that every ancient Egyptian had the same job, power and beliefs.","Its farming links controlled water with food and useful plant materials."],"answer":3,"rationale":"Its farming links controlled water with food and useful plant materials. A canal can deliver irrigation water; it is not built to create hieroglyphs.","objectiveId":"egypt_irrigation_and_crops","repair":{"id":"egypt_irrigation_and_crops_transfer_ssqc_repair","objectiveId":"egypt_irrigation_and_crops","teach":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.","prompt":"A repaired ditch brings water to flax fields. How can that support a weaver?","options":["Flax supplies fiber that can be made into linen.","The ditch writes the weaver’s tax records.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Flax supplies fiber that can be made into linen.","supported":true}},{"id":"egypt_akhet_and_shemu_transfer","prompt":"A class sorts the stages flood, growth, harvest into a cycle. Which inference is most defensible?","options":["No conclusions can be drawn from any evidence about the past.","This proves that every ancient Egyptian had the same job, power and beliefs.","Akhet means harvest and Shemu means flood.","Flood corresponds to Akhet and harvest to Shemu; they are different stages."],"answer":3,"rationale":"Flood corresponds to Akhet and harvest to Shemu; they are different stages. Shemu is not the name of the flooding season; Peret is emergence or growing.","objectiveId":"egypt_akhet_and_shemu","repair":{"id":"egypt_akhet_and_shemu_transfer_ssqc_repair","objectiveId":"egypt_akhet_and_shemu","teach":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.","prompt":"Why should a farm calendar separate Akhet from Shemu?","options":["Flooding and harvesting are different stages with different work.","Both words mean the same harvest day.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Flooding and harvesting are different stages with different work.","supported":true}},{"id":"egypt_flood_prediction_and_new_year_transfer","prompt":"An old calendar repeats 365 days while the solar year is about a quarter day longer. Which inference is most defensible?","options":["Calendar dates gradually shift relative to seasonal events unless adjusted.","No conclusions can be drawn from any evidence about the past.","The civil calendar always matched the actual first flood day without any drift.","This proves that every ancient Egyptian had the same job, power and beliefs."],"answer":0,"rationale":"Calendar dates gradually shift relative to seasonal events unless adjusted. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","objectiveId":"egypt_flood_prediction_and_new_year","repair":{"id":"egypt_flood_prediction_and_new_year_transfer_ssqc_repair","objectiveId":"egypt_flood_prediction_and_new_year","teach":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","prompt":"Why compare a calendar date with an observed seasonal sign?","options":["A fixed 365-day calendar can drift relative to the solar year.","Every calendar always stays on the actual first flood day.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"A fixed 365-day calendar can drift relative to the solar year.","supported":true}}],"delayed":[{"id":"egypt_delta_boundary","prompt":"A classmate claims: “Every triangular patch of desert is a river delta.” Which response shows an accurate limit?","options":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.","objectiveId":"egypt_delta","repair":{"id":"egypt_delta_boundary_ssqc_repair","objectiveId":"egypt_delta","teach":"A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.","prompt":"A museum asks you to distinguish delta from a related idea. Which evidence-and-explanation pair would help?","options":["A river slows near the sea and leaves sediment that builds land. This fits because A sediment-built area at a river mouth, often with branching channels.","A cataract is a rocky rapid, not a river-mouth deposit. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"A sediment-built area at a river mouth, often with branching channels. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_cataracts_boundary","prompt":"A classmate claims: “Cataracts are always calm pools ideal for docking.” Which response shows an accurate limit?","options":["Rocky rapids or stretches of rough water in a river.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.","objectiveId":"egypt_cataracts","repair":{"id":"egypt_cataracts_boundary_ssqc_repair","objectiveId":"egypt_cataracts","teach":"Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.","prompt":"A museum asks you to distinguish cataracts from a related idea. Which evidence-and-explanation pair would help?","options":["A boat crew must unload at rocky rapids on the Nile. This fits because Rocky rapids or stretches of rough water in a river.","Cataracts are not pyramids or ordinary river-mouth branches. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Rocky rapids or stretches of rough water in a river. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_black_land_and_red_land_boundary","prompt":"A classmate claims: “Kemet means only Lower Egypt, while Red Land means Upper Egypt.” Which response shows an accurate limit?","options":["Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."],"answer":0,"rationale":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.","objectiveId":"egypt_black_land_and_red_land","repair":{"id":"egypt_black_land_and_red_land_boundary_ssqc_repair","objectiveId":"egypt_black_land_and_red_land","teach":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.","prompt":"A museum asks you to distinguish Black Land and Red Land from a related idea. Which evidence-and-explanation pair would help?","options":["A farmer depends on the dark fertile strip beside a river bordered by desert. This fits because Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","The color labels do not mean Lower Egypt and Upper Egypt. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_irrigation_and_crops_boundary","prompt":"A classmate claims: “Flax is an animal, and irrigation means removing every water source.” Which response shows an accurate limit?","options":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.","objectiveId":"egypt_irrigation_and_crops","repair":{"id":"egypt_irrigation_and_crops_boundary_ssqc_repair","objectiveId":"egypt_irrigation_and_crops","teach":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.","prompt":"A museum asks you to distinguish irrigation and crops from a related idea. Which evidence-and-explanation pair would help?","options":["Workers direct river water through a channel to farmland. This fits because Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","A canal can deliver irrigation water; it is not built to create hieroglyphs. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_akhet_and_shemu_boundary","prompt":"A classmate claims: “Akhet means harvest and Shemu means flood.” Which response shows an accurate limit?","options":["Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.","objectiveId":"egypt_akhet_and_shemu","repair":{"id":"egypt_akhet_and_shemu_boundary_ssqc_repair","objectiveId":"egypt_akhet_and_shemu","teach":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.","prompt":"A museum asks you to distinguish Akhet and Shemu from a related idea. Which evidence-and-explanation pair would help?","options":["A calendar names the Nile flooding period Akhet. This fits because Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","Shemu is not the name of the flooding season; Peret is emergence or growing. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_flood_prediction_and_new_year_boundary","prompt":"A classmate claims: “The civil calendar always matched the actual first flood day without any drift.” Which response shows an accurate limit?","options":["Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"answer":0,"rationale":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","objectiveId":"egypt_flood_prediction_and_new_year","repair":{"id":"egypt_flood_prediction_and_new_year_boundary_ssqc_repair","objectiveId":"egypt_flood_prediction_and_new_year","teach":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","prompt":"A museum asks you to distinguish flood prediction and New Year from a related idea. Which evidence-and-explanation pair would help?","options":["Observers associate Sirius becoming visible again with the seasonal flood. This fits because Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","A 365-day civil calendar drifted; New Year was not always on the actual first flood day. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Explain the actual clue and the distinction.","supported":true}}],"proof":{"prompt":"A village has one low flood and less grain. Explain a chain of effects on two occupations, propose one response, and distinguish Akhet from Shemu. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.","criteria":["Answers every part of the task with accurate historical terms and relationships.","Uses at least two relevant details from the assigned source or map.","Explains how each detail supports the claim instead of listing facts.","Applies the idea to the new case and explains a reasonable limit."]},"proofRepair":{"prompt":"A second village has water in the river but its field channel is blocked. Explain why river water alone does not guarantee a harvest, and describe one repair and one possible limit.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"reviewRequired":true},"retentionProofs":[{"day":3,"prompt":"A farm has fertile soil but little water. Use delta, irrigation and harvest to explain what can and cannot be inferred about its crop. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":7,"prompt":"A calendar falls behind the solar seasons. Explain why a named Akhet date alone may not prove that flooding had begun that day. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":14,"prompt":"A merchant must pass rocky rapids to reach a grain market. Explain a navigation constraint and an economic consequence without assuming trade stops entirely. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":30,"prompt":"Compare an Egyptian water-management decision with a modern school garden watering plan. Identify a shared mechanism and a historical difference. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true}],"links":{"prior":"Recall how farming, rivers and specialized jobs connected in Mesopotamia. Use what you know, then check which details differ in Egypt.","current":"Use the assigned Egypt reading to explain explain a chain, not a list. Name evidence and explain how it supports your answer.","future":"Next: Egypt: explain routes, places and historical map labels. Carry an idea or source detail forward and explain how it helps.","realLife":"Water and food systems affect community planning. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.","priorLessonId":"lf_comprehension_evidence","futureLessonId":"fresh_ss_egypt_map","bridge":{"prompt":"Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.","explanation":"A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."},"laterApplication":"Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."},"sources":[{"title":"Assigned WCS Ancient Egypt OER · exact classroom source","url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022","status":"51-page source text read; lesson-specific pages identified"},{"title":"OpenStax: Ancient Egypt","url":"https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Met: Telling Time in Ancient Egypt","url":"https://www.metmuseum.org/essays/telling-time-in-ancient-egypt","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Harvard Digital Giza: geography and Nile FAQ","url":"https://giza.fas.harvard.edu/faq/","status":"public-institutional-source-relevant-sections-read"},{"title":"Smithsonian: Down the Nile Valley","url":"https://forces.si.edu/soils/02_08_03.html","status":"public-institutional-source-read"},{"title":"NASA MODIS: Nile length and satellite view","url":"https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-02-07","status":"official-agency-targeted-source-result-verified"},{"title":"USGS: longest rivers and measurement caveats","url":"https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers","status":"official-agency-targeted-source-result-verified"}],"vocabulary":[{"word":"delta","meaning":"A sediment-built area at a river mouth, often with branching channels.","cue":"D for deposits where a river divides.","example":"A river slows near the sea and leaves sediment that builds land.","nonexample":"A cataract is a rocky rapid, not a river-mouth deposit.","objectiveId":"egypt_delta"},{"word":"cataracts","meaning":"Rocky rapids or stretches of rough water in a river.","cue":"Cataracts can complicate canoe travel.","example":"A boat crew must unload at rocky rapids on the Nile.","nonexample":"Cataracts are not pyramids or ordinary river-mouth branches.","objectiveId":"egypt_cataracts"},{"word":"Black Land and Red Land","meaning":"Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","cue":"Black soil and red desert are contrasts, not kingdoms.","example":"A farmer depends on the dark fertile strip beside a river bordered by desert.","nonexample":"The color labels do not mean Lower Egypt and Upper Egypt.","objectiveId":"egypt_black_land_and_red_land"},{"word":"irrigation and crops","meaning":"Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","cue":"Water access supports harvest and specialization.","example":"Workers direct river water through a channel to farmland.","nonexample":"A canal can deliver irrigation water; it is not built to create hieroglyphs.","objectiveId":"egypt_irrigation_and_crops"},{"word":"Akhet and Shemu","meaning":"Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","cue":"Akhet adds water; Shemu gathers crops.","example":"A calendar names the Nile flooding period Akhet.","nonexample":"Shemu is not the name of the flooding season; Peret is emergence or growing.","objectiveId":"egypt_akhet_and_shemu"},{"word":"flood prediction and New Year","meaning":"Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","cue":"Observe patterns, then compare the calendar with nature.","example":"Observers associate Sirius becoming visible again with the seasonal flood.","nonexample":"A 365-day civil calendar drifted; New Year was not always on the actual first flood day.","objectiveId":"egypt_flood_prediction_and_new_year"}],"media":[{"title":"The Egyptian Book of the Dead: A guidebook for the underworld","url":"https://www.youtube.com/watch?v=1yv_MXNYbAo","status":"Transcript reviewed; playback not verified","task":"Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani’s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.","verification":{"content":"Complete official authored/unspecified English captions exported and read0:06–4:10; player duration4:32","publisherPage":"https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala","browserPlayback":"Player and animation metadata loaded; full moving/audio playback not verified","access":"Public transcript opened via description → Show transcript; no login needed"},"omissions":["One13th-century-BCE scribe is not all Egyptians or all periods","Mummification details are simplified; procedures varied","Does not replace the full history, social structure, politics and religion teacher quiz scope"]},{"title":"Kings and Queens of Egypt","url":"https://www.metmuseum.org/essays/kings-and-queens-of-egypt","status":"Content reviewed","task":"Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office’s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people’s lives.","verification":{"content":"Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect","browserPlayback":null,"access":"Public readable essay and artifact images; no login"},"omissions":["Not the assigned orange textbook page or exact classroom pyramid chart","Main essay focuses on royalty, not all social roles/contributions","Historical succession was more complicated than an always-father-to-son rule"]},{"title":"Religion and gods in ancient Egypt","url":"https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/","status":"Content reviewed","task":"Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.","verification":{"content":"Complete main article read, including deity sections, artifact captions and variation across places/classes/time","browserPlayback":null,"access":"Public readable text and images; linked3D viewer not interaction-tested"},"omissions":["Not the exact teacher source; selected paragraphs only for this task","Linked3D model has not been tested and is not counted as verified interaction","Do not generalize every deity association to every period"]}],"memoryCue":"Land → water → crop → work; Akhet floods, Shemu harvests.","nextLessonId":"fresh_ss_egypt_map","gameVersion":"84e6e14d","contentVersion":"ss-alignment-qc-2026-11-02-v2","sourceCoverage":{"classroomSource":"Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.","limits":"Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."},"readingLocation":{"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","startPage":3,"endPage":14,"url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"},"teachingSections":[{"id":"land_system","title":"Explain a chain, not a list","teach":["Trace a system rather than memorize detached facts: river water and deposited soil support farming; surplus food supports work beyond farming; officials can organize water, labor and grain. A weak or excessive flood can disrupt this system.","Kemet, the Black Land, names fertile land associated with the Nile. Red Land names the surrounding desert. These do not mean Upper and Lower Egypt. A delta forms from river-mouth sediment; cataracts are rocky river rapids that can interrupt navigation.","The agricultural cycle includes Akhet (inundation), Peret (emergence/growing), and Shemu (harvest/dry season). Astronomy, including Sirius rising, helped mark seasonal patterns. The civil calendar drifted relative to the solar year; do not insist New Year always fell on the actual first flood day.","The Nile is commonly measured at about 6,650 kilometers, or 4,132 miles. Rounded measurements depend on units and conventions. A number without its unit cannot tell you a river’s length. On a map, identify the source, route and mouth before interpreting a distance."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"Can a low flood affect a potter as well as a farmer?","thinking":"Trace food first. Then ask who depends on it and what other supplies exist.","answer":"A low flood may reduce grain. Farmers may have less food to exchange for jars, so potters may lose customers. Stored grain could reduce the effect.","why":"It connects two jobs through a specific resource and gives a condition."},"tryPrompt":"How might a damaged canal affect a linen maker?","tryAnswer":"Less water may reduce flax, which supplies fiber for linen. Other fields or stored fiber could soften the effect.","tryChoices":["Less water may reduce flax, which supplies fiber for linen. Other fields or stored fiber could soften the effect.","Every triangular patch of desert is a river delta.","Rocky rapids or stretches of rough water in a river."],"tryAnswerIndex":0},{"id":"egypt_delta","title":"delta","teach":["A sediment-built area at a river mouth, often with branching channels.","D for deposits where a river divides.","A cataract is a rocky rapid, not a river-mouth deposit."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"A river slows near the sea and leaves sediment that builds land. Explain which idea this illustrates.","thinking":"Look for the clue that defines delta. Separate it from a similar term.","answer":"delta: A sediment-built area at a river mouth, often with branching channels. A river slows near the sea and leaves sediment that builds land.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A river branches near its mouth. What evidence would help you decide whether this land is a delta?","tryAnswer":"Look for deposited sediment that builds land at the river mouth. Branching channels are a clue, but explain the sediment and location too.","tryChoices":["Rocky rapids or stretches of rough water in a river.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Look for deposited sediment that builds land at the river mouth. Branching channels are a clue, but explain the sediment and location too."],"tryAnswerIndex":2},{"id":"egypt_cataracts","title":"cataracts","teach":["Rocky rapids or stretches of rough water in a river.","Cataracts can complicate canoe travel.","Cataracts are not pyramids or ordinary river-mouth branches."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"A boat crew must unload at rocky rapids on the Nile. Explain which idea this illustrates.","thinking":"Look for the clue that defines cataracts. Separate it from a similar term.","answer":"cataracts: Rocky rapids or stretches of rough water in a river. A boat crew must unload at rocky rapids on the Nile.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A trader meets rocky rapids while carrying grain by boat. Explain one difficulty and a possible response.","tryAnswer":"The rough water can interrupt navigation. The crew might unload and carry goods around the obstacle before continuing. This is a cataract, not a delta.","tryChoices":["Cataracts are always calm pools ideal for docking.","The rough water can interrupt navigation. The crew might unload and carry goods around the obstacle before continuing. This is a cataract, not a delta.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"tryAnswerIndex":1},{"id":"egypt_black_land_and_red_land","title":"Black Land and Red Land","teach":["Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.","Black soil and red desert are contrasts, not kingdoms.","The color labels do not mean Lower Egypt and Upper Egypt."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"A farmer depends on the dark fertile strip beside a river bordered by desert. Explain which idea this illustrates.","thinking":"Look for the clue that defines Black Land and Red Land. Separate it from a similar term.","answer":"Black Land and Red Land: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. A farmer depends on the dark fertile strip beside a river bordered by desert.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A traveler walks from a fertile riverside field into dry desert. Explain why the two areas have different names.","tryAnswer":"Black Land refers to the fertile soil beside the Nile; Red Land refers to surrounding desert. These names describe land conditions, while Upper and Lower Egypt describe river regions.","tryChoices":["Black Land refers to the fertile soil beside the Nile; Red Land refers to surrounding desert. These names describe land conditions, while Upper and Lower Egypt describe river regions.","A sediment-built area at a river mouth, often with branching channels.","Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."],"tryAnswerIndex":0},{"id":"egypt_irrigation_and_crops","title":"irrigation and crops","teach":["Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.","Water access supports harvest and specialization.","A canal can deliver irrigation water; it is not built to create hieroglyphs."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"Workers direct river water through a channel to farmland. Explain which idea this illustrates.","thinking":"Look for the clue that defines irrigation and crops. Separate it from a similar term.","answer":"irrigation and crops: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Workers direct river water through a channel to farmland.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"A field is close to the Nile but receives too little water. Explain a solution and how it could help a linen maker.","tryAnswer":"A channel can direct river water to the field. Better water access can support flax, which can be made into linen. Irrigation links farming with another occupation.","tryChoices":["A sediment-built area at a river mouth, often with branching channels.","Rocky rapids or stretches of rough water in a river.","A channel can direct river water to the field. Better water access can support flax, which can be made into linen. Irrigation links farming with another occupation."],"tryAnswerIndex":2},{"id":"egypt_akhet_and_shemu","title":"Akhet and Shemu","teach":["Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.","Akhet adds water; Shemu gathers crops.","Shemu is not the name of the flooding season; Peret is emergence or growing."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"A calendar names the Nile flooding period Akhet. Explain which idea this illustrates.","thinking":"Look for the clue that defines Akhet and Shemu. Separate it from a similar term.","answer":"Akhet and Shemu: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. A calendar names the Nile flooding period Akhet.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Put flooding, growing and harvesting in order. Explain why harvesting cannot come first.","tryAnswer":"Akhet brings inundation; Peret is the growing period; Shemu is harvest and the dry season. Crops must grow before they can be harvested.","tryChoices":["Rocky rapids or stretches of rough water in a river.","Akhet brings inundation; Peret is the growing period; Shemu is harvest and the dry season. Crops must grow before they can be harvested.","A sediment-built area at a river mouth, often with branching channels."],"tryAnswerIndex":1},{"id":"egypt_flood_prediction_and_new_year","title":"flood prediction and New Year","teach":["Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.","Observe patterns, then compare the calendar with nature.","A 365-day civil calendar drifted; New Year was not always on the actual first flood day."],"where":"OER section 6.1, PDF pages3–8; section 6.2, pages9–14. Use the Two Lands assignment for the political regions.","example":{"prompt":"Observers associate Sirius becoming visible again with the seasonal flood. Explain which idea this illustrates.","thinking":"Look for the clue that defines flood prediction and New Year. Separate it from a similar term.","answer":"flood prediction and New Year: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Observers associate Sirius becoming visible again with the seasonal flood.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Why might observations of Sirius help farmers plan, without proving the flood always arrived on one fixed date?","tryAnswer":"Sirius was a seasonal signal. It helped people anticipate the cycle, but the civil calendar drifted and natural flooding varied.","tryChoices":["Sirius was a seasonal signal. It helped people anticipate the cycle, but the civil calendar drifted and natural flooding varied.","Flax is an animal, and irrigation means removing every water source.","A sediment-built area at a river mouth, often with branching channels."],"tryAnswerIndex":0}],"assessmentFormat":"multiple-choice-only"}
+{
+  "id": "fresh_ss_egypt_land",
+  "subject": "SS",
+  "title": "Egypt: Nile land, farming and the calendar",
+  "teach": [
+    "Trace a system rather than memorize detached facts: river water and deposited soil support farming; surplus food supports work beyond farming; officials can organize water, labor and grain. A weak or excessive flood can disrupt this system.",
+    "Kemet, the Black Land, names fertile land associated with the Nile. Red Land names the surrounding desert. These do not mean Upper and Lower Egypt. A delta forms from river-mouth sediment; cataracts are rocky river rapids that can interrupt navigation.",
+    "The agricultural cycle includes Akhet (inundation), Peret (emergence/growing), and Shemu (harvest/dry season). Astronomy, including Sirius rising, helped mark seasonal patterns. The civil calendar drifted relative to the solar year; do not insist New Year always fell on the actual first flood day.",
+    "The Nile is commonly measured at about 6,650 kilometers, or 4,132 miles. Rounded measurements depend on units and conventions. A number without its unit cannot tell you a river\u2019s length. On a map, identify the source, route and mouth before interpreting a distance.",
+    "delta: A sediment-built area at a river mouth, often with branching channels. Example: A river slows near the sea and leaves sediment that builds land. Boundary: A cataract is a rocky rapid, not a river-mouth deposit.",
+    "cataracts: Rocky rapids or stretches of rough water in a river. Example: A boat crew must unload at rocky rapids on the Nile. Boundary: Cataracts are not pyramids or ordinary river-mouth branches.",
+    "Black Land and Red Land: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. Example: A farmer depends on the dark fertile strip beside a river bordered by desert. Boundary: The color labels do not mean Lower Egypt and Upper Egypt.",
+    "irrigation and crops: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Example: Workers direct river water through a channel to farmland. Boundary: A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+    "Akhet and Shemu: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Example: A calendar names the Nile flooding period Akhet. Boundary: Shemu is not the name of the flooding season; Peret is emergence or growing.",
+    "flood prediction and New Year: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Example: Observers associate Sirius becoming visible again with the seasonal flood. Boundary: A 365-day civil calendar drifted; New Year was not always on the actual first flood day."
+  ],
+  "model": {
+    "prompt": "A canal brings Nile water to flax fields. Officials record the harvest. Explain two links in the system and one possible disruption.",
+    "reasoning": "Identify the water-to-crop mechanism. Connect crops with work or administration. Make a conditional prediction rather than guaranteeing one outcome.",
+    "answer": "Canal water helps grow flax, which can become linen. Harvest records help officials manage resources. If the canal fails, less water may reduce the crop and the linen available; the effect depends on other water and stored supplies."
+  },
+  "guided": {
+    "id": "fresh_ss_egypt_land_guided",
+    "prompt": "A village gets less floodwater and its crop shrinks. What is the most reasonable chain of effects?",
+    "options": [
+      "Less available food may affect people in other occupations, depending on stored food and other resources.",
+      "The flood reduction can affect farmers only because nobody else uses food.",
+      "Less floodwater guarantees that every person immediately abandons every occupation.",
+      "A smaller crop proves that the village had no bureaucracy."
+    ],
+    "answer": 0,
+    "rationale": "Connect the resource change to people who depend on the crop, then state conditions instead of guaranteeing an outcome."
+  },
+  "practice": [
+    {
+      "id": "egypt_delta_meaning",
+      "prompt": "Explain the classroom term \u201cdelta\u201d: which meaning is accurate?",
+      "options": [
+        "Every triangular patch of desert is a river delta.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 2,
+      "rationale": "Use the defining feature, then test a boundary. A cataract is a rocky rapid, not a river-mouth deposit.",
+      "objectiveId": "egypt_delta",
+      "repair": {
+        "id": "egypt_delta_meaning_ssqc_repair",
+        "objectiveId": "egypt_delta",
+        "teach": "A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.",
+        "prompt": "A river splits into channels near the coast and deposits mud. Which explanation fits this evidence?",
+        "options": [
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A sediment-built area at a river mouth, often with branching channels.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_delta_apply",
+      "prompt": "A river slows near the sea and leaves sediment that builds land. Which explanation is best supported?",
+      "options": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. A sediment-built area at a river mouth, often with branching channels.",
+      "objectiveId": "egypt_delta",
+      "repair": {
+        "id": "egypt_delta_apply_ssqc_repair",
+        "objectiveId": "egypt_delta",
+        "teach": "A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.",
+        "prompt": "A coastal map shows new land built by sediment at a river mouth. Which explanation fits this evidence?",
+        "options": [
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: A sediment-built area at a river mouth, often with branching channels.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_cataracts_meaning",
+      "prompt": "Explain the classroom term \u201ccataracts\u201d: which meaning is accurate?",
+      "options": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Cataracts are always calm pools ideal for docking.",
+        "A sediment-built area at a river mouth, often with branching channels."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. Cataracts are not pyramids or ordinary river-mouth branches.",
+      "objectiveId": "egypt_cataracts",
+      "repair": {
+        "id": "egypt_cataracts_meaning_ssqc_repair",
+        "objectiveId": "egypt_cataracts",
+        "teach": "Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.",
+        "prompt": "A river crew carries goods around a stretch of exposed rocks and rushing water. Which explanation fits this evidence?",
+        "options": [
+          "Rocky rapids or stretches of rough water in a river.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Rocky rapids or stretches of rough water in a river.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_cataracts_apply",
+      "prompt": "A boat crew must unload at rocky rapids on the Nile. Which explanation is best supported?",
+      "options": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Rocky rapids or stretches of rough water in a river.",
+      "objectiveId": "egypt_cataracts",
+      "repair": {
+        "id": "egypt_cataracts_apply_ssqc_repair",
+        "objectiveId": "egypt_cataracts",
+        "teach": "Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.",
+        "prompt": "A travel account describes rough rocky rapids upstream. Which explanation fits this evidence?",
+        "options": [
+          "Rocky rapids or stretches of rough water in a river.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Rocky rapids or stretches of rough water in a river.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_black_land_and_red_land_meaning",
+      "prompt": "Explain the classroom term \u201cBlack Land and Red Land\u201d: which meaning is accurate?",
+      "options": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means only Lower Egypt, while Red Land means Upper Egypt."
+      ],
+      "answer": 1,
+      "rationale": "Use the defining feature, then test a boundary. The color labels do not mean Lower Egypt and Upper Egypt.",
+      "objectiveId": "egypt_black_land_and_red_land",
+      "repair": {
+        "id": "egypt_black_land_and_red_land_meaning_ssqc_repair",
+        "objectiveId": "egypt_black_land_and_red_land",
+        "teach": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.",
+        "prompt": "A soil sample from the fertile Nile strip is compared with nearby dry desert. Which explanation fits this evidence?",
+        "options": [
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_black_land_and_red_land_apply",
+      "prompt": "A farmer depends on the dark fertile strip beside a river bordered by desert. Which explanation is best supported?",
+      "options": [
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+      "objectiveId": "egypt_black_land_and_red_land",
+      "repair": {
+        "id": "egypt_black_land_and_red_land_apply_ssqc_repair",
+        "objectiveId": "egypt_black_land_and_red_land",
+        "teach": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.",
+        "prompt": "A farmer calls the dark river soil Kemet and distinguishes it from desert. Which explanation fits this evidence?",
+        "options": [
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_irrigation_and_crops_meaning",
+      "prompt": "Explain the classroom term \u201cirrigation and crops\u201d: which meaning is accurate?",
+      "options": [
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "Flax is an animal, and irrigation means removing every water source.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+      "objectiveId": "egypt_irrigation_and_crops",
+      "repair": {
+        "id": "egypt_irrigation_and_crops_meaning_ssqc_repair",
+        "objectiveId": "egypt_irrigation_and_crops",
+        "teach": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+        "prompt": "A village directs water through ditches to grow wheat and flax. Which explanation fits this evidence?",
+        "options": [
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_irrigation_and_crops_apply",
+      "prompt": "Workers direct river water through a channel to farmland. Which explanation is best supported?",
+      "options": [
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+      "objectiveId": "egypt_irrigation_and_crops",
+      "repair": {
+        "id": "egypt_irrigation_and_crops_apply_ssqc_repair",
+        "objectiveId": "egypt_irrigation_and_crops",
+        "teach": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+        "prompt": "A canal supplies fields where barley is harvested for food. Which explanation fits this evidence?",
+        "options": [
+          "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_akhet_and_shemu_meaning",
+      "prompt": "Explain the classroom term \u201cAkhet and Shemu\u201d: which meaning is accurate?",
+      "options": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Akhet means harvest and Shemu means flood.",
+        "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle."
+      ],
+      "answer": 3,
+      "rationale": "Use the defining feature, then test a boundary. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+      "objectiveId": "egypt_akhet_and_shemu",
+      "repair": {
+        "id": "egypt_akhet_and_shemu_meaning_ssqc_repair",
+        "objectiveId": "egypt_akhet_and_shemu",
+        "teach": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+        "prompt": "A farm calendar puts inundation before planting, then harvest in the dry season. Which explanation fits this evidence?",
+        "options": [
+          "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_akhet_and_shemu_apply",
+      "prompt": "A calendar names the Nile flooding period Akhet. Which explanation is best supported?",
+      "options": [
+        "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+      "objectiveId": "egypt_akhet_and_shemu",
+      "repair": {
+        "id": "egypt_akhet_and_shemu_apply_ssqc_repair",
+        "objectiveId": "egypt_akhet_and_shemu",
+        "teach": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+        "prompt": "A student labels flood time Akhet and harvest time Shemu. Which explanation fits this evidence?",
+        "options": [
+          "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_flood_prediction_and_new_year_meaning",
+      "prompt": "Explain the classroom term \u201cflood prediction and New Year\u201d: which meaning is accurate?",
+      "options": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "The civil calendar always matched the actual first flood day without any drift.",
+        "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "A sediment-built area at a river mouth, often with branching channels."
+      ],
+      "answer": 2,
+      "rationale": "Use the defining feature, then test a boundary. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+      "objectiveId": "egypt_flood_prediction_and_new_year",
+      "repair": {
+        "id": "egypt_flood_prediction_and_new_year_meaning_ssqc_repair",
+        "objectiveId": "egypt_flood_prediction_and_new_year",
+        "teach": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+        "prompt": "Observers track Sirius and seasonal river changes; a fixed calendar slowly falls out of step. Which explanation fits this evidence?",
+        "options": [
+          "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_flood_prediction_and_new_year_apply",
+      "prompt": "Observers associate Sirius becoming visible again with the seasonal flood. Which explanation is best supported?",
+      "options": [
+        "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+      "objectiveId": "egypt_flood_prediction_and_new_year",
+      "repair": {
+        "id": "egypt_flood_prediction_and_new_year_apply_ssqc_repair",
+        "objectiveId": "egypt_flood_prediction_and_new_year",
+        "teach": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+        "prompt": "A 365-day calendar is compared with a solar year that is slightly longer. Which explanation fits this evidence?",
+        "options": [
+          "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+          "A sediment-built area at a river mouth, often with branching channels.",
+          "Rocky rapids or stretches of rough water in a river.",
+          "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "id": "egypt_delta_transfer",
+      "prompt": "A harbor planner maps new sediment and splitting channels where a river meets the sea. Which inference is most defensible?",
+      "options": [
+        "The planner is describing delta formation at the mouth.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "Every triangular patch of desert is a river delta.",
+        "No conclusions can be drawn from any evidence about the past."
+      ],
+      "answer": 0,
+      "rationale": "The planner is describing delta formation at the mouth. A cataract is a rocky rapid, not a river-mouth deposit.",
+      "objectiveId": "egypt_delta",
+      "repair": {
+        "id": "egypt_delta_transfer_ssqc_repair",
+        "objectiveId": "egypt_delta",
+        "teach": "A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.",
+        "prompt": "A river has deposited sediment near its mouth for years. Why might a map need updating?",
+        "options": [
+          "Deposition can build land and change the river-mouth channels.",
+          "The sea must turn into a rocky cataract.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Deposition can build land and change the river-mouth channels.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_cataracts_transfer",
+      "prompt": "A cargo captain explains why boats cannot safely pass a rough, rocky river section. Which inference is most defensible?",
+      "options": [
+        "No conclusions can be drawn from any evidence about the past.",
+        "A cataract can obstruct navigation and affect trade routes.",
+        "Cataracts are always calm pools ideal for docking.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 1,
+      "rationale": "A cataract can obstruct navigation and affect trade routes. Cataracts are not pyramids or ordinary river-mouth branches.",
+      "objectiveId": "egypt_cataracts",
+      "repair": {
+        "id": "egypt_cataracts_transfer_ssqc_repair",
+        "objectiveId": "egypt_cataracts",
+        "teach": "Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.",
+        "prompt": "Why might a merchant unload goods before a rough rocky river stretch?",
+        "options": [
+          "Rapids can interrupt safe boat travel and require another way around.",
+          "A cataract is a calm harbor at a river mouth.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Rapids can interrupt safe boat travel and require another way around.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_black_land_and_red_land_transfer",
+      "prompt": "A field map separates fertile riverbank soil from surrounding dry desert. Which inference is most defensible?",
+      "options": [
+        "No conclusions can be drawn from any evidence about the past.",
+        "Kemet means only Lower Egypt, while Red Land means Upper Egypt.",
+        "Land fertility, not north-versus-south position, explains the contrast.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 2,
+      "rationale": "Land fertility, not north-versus-south position, explains the contrast. The color labels do not mean Lower Egypt and Upper Egypt.",
+      "objectiveId": "egypt_black_land_and_red_land",
+      "repair": {
+        "id": "egypt_black_land_and_red_land_transfer_ssqc_repair",
+        "objectiveId": "egypt_black_land_and_red_land",
+        "teach": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.",
+        "prompt": "Could a strip of Black Land exist in southern Upper Egypt?",
+        "options": [
+          "Yes. Fertile soil and political region describe different features.",
+          "No. Black Land is another name for northern Lower Egypt only.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Yes. Fertile soil and political region describe different features.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_irrigation_and_crops_transfer",
+      "prompt": "A settlement grows flax for linen and barley for food using directed river water. Which inference is most defensible?",
+      "options": [
+        "Flax is an animal, and irrigation means removing every water source.",
+        "No conclusions can be drawn from any evidence about the past.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "Its farming links controlled water with food and useful plant materials."
+      ],
+      "answer": 3,
+      "rationale": "Its farming links controlled water with food and useful plant materials. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+      "objectiveId": "egypt_irrigation_and_crops",
+      "repair": {
+        "id": "egypt_irrigation_and_crops_transfer_ssqc_repair",
+        "objectiveId": "egypt_irrigation_and_crops",
+        "teach": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+        "prompt": "A repaired ditch brings water to flax fields. How can that support a weaver?",
+        "options": [
+          "Flax supplies fiber that can be made into linen.",
+          "The ditch writes the weaver\u2019s tax records.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Flax supplies fiber that can be made into linen.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_akhet_and_shemu_transfer",
+      "prompt": "A class sorts the stages flood, growth, harvest into a cycle. Which inference is most defensible?",
+      "options": [
+        "No conclusions can be drawn from any evidence about the past.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "Akhet means harvest and Shemu means flood.",
+        "Flood corresponds to Akhet and harvest to Shemu; they are different stages."
+      ],
+      "answer": 3,
+      "rationale": "Flood corresponds to Akhet and harvest to Shemu; they are different stages. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+      "objectiveId": "egypt_akhet_and_shemu",
+      "repair": {
+        "id": "egypt_akhet_and_shemu_transfer_ssqc_repair",
+        "objectiveId": "egypt_akhet_and_shemu",
+        "teach": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+        "prompt": "Why should a farm calendar separate Akhet from Shemu?",
+        "options": [
+          "Flooding and harvesting are different stages with different work.",
+          "Both words mean the same harvest day.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Flooding and harvesting are different stages with different work.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_flood_prediction_and_new_year_transfer",
+      "prompt": "An old calendar repeats 365 days while the solar year is about a quarter day longer. Which inference is most defensible?",
+      "options": [
+        "Calendar dates gradually shift relative to seasonal events unless adjusted.",
+        "No conclusions can be drawn from any evidence about the past.",
+        "The civil calendar always matched the actual first flood day without any drift.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs."
+      ],
+      "answer": 0,
+      "rationale": "Calendar dates gradually shift relative to seasonal events unless adjusted. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+      "objectiveId": "egypt_flood_prediction_and_new_year",
+      "repair": {
+        "id": "egypt_flood_prediction_and_new_year_transfer_ssqc_repair",
+        "objectiveId": "egypt_flood_prediction_and_new_year",
+        "teach": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+        "prompt": "Why compare a calendar date with an observed seasonal sign?",
+        "options": [
+          "A fixed 365-day calendar can drift relative to the solar year.",
+          "Every calendar always stays on the actual first flood day.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "A fixed 365-day calendar can drift relative to the solar year.",
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "id": "egypt_delta_boundary",
+      "prompt": "A classmate claims: \u201cEvery triangular patch of desert is a river delta.\u201d Which response shows an accurate limit?",
+      "options": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.",
+      "objectiveId": "egypt_delta",
+      "repair": {
+        "id": "egypt_delta_boundary_ssqc_repair",
+        "objectiveId": "egypt_delta",
+        "teach": "A sediment-built area at a river mouth, often with branching channels. A cataract is a rocky rapid, not a river-mouth deposit.",
+        "prompt": "A museum asks you to distinguish delta from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A river slows near the sea and leaves sediment that builds land. This fits because A sediment-built area at a river mouth, often with branching channels.",
+          "A cataract is a rocky rapid, not a river-mouth deposit. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "A sediment-built area at a river mouth, often with branching channels. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_cataracts_boundary",
+      "prompt": "A classmate claims: \u201cCataracts are always calm pools ideal for docking.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.",
+      "objectiveId": "egypt_cataracts",
+      "repair": {
+        "id": "egypt_cataracts_boundary_ssqc_repair",
+        "objectiveId": "egypt_cataracts",
+        "teach": "Rocky rapids or stretches of rough water in a river. Cataracts are not pyramids or ordinary river-mouth branches.",
+        "prompt": "A museum asks you to distinguish cataracts from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A boat crew must unload at rocky rapids on the Nile. This fits because Rocky rapids or stretches of rough water in a river.",
+          "Cataracts are not pyramids or ordinary river-mouth branches. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Rocky rapids or stretches of rough water in a river. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_black_land_and_red_land_boundary",
+      "prompt": "A classmate claims: \u201cKemet means only Lower Egypt, while Red Land means Upper Egypt.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber."
+      ],
+      "answer": 0,
+      "rationale": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.",
+      "objectiveId": "egypt_black_land_and_red_land",
+      "repair": {
+        "id": "egypt_black_land_and_red_land_boundary_ssqc_repair",
+        "objectiveId": "egypt_black_land_and_red_land",
+        "teach": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. The color labels do not mean Lower Egypt and Upper Egypt.",
+        "prompt": "A museum asks you to distinguish Black Land and Red Land from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A farmer depends on the dark fertile strip beside a river bordered by desert. This fits because Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+          "The color labels do not mean Lower Egypt and Upper Egypt. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_irrigation_and_crops_boundary",
+      "prompt": "A classmate claims: \u201cFlax is an animal, and irrigation means removing every water source.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+      "objectiveId": "egypt_irrigation_and_crops",
+      "repair": {
+        "id": "egypt_irrigation_and_crops_boundary_ssqc_repair",
+        "objectiveId": "egypt_irrigation_and_crops",
+        "teach": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+        "prompt": "A museum asks you to distinguish irrigation and crops from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "Workers direct river water through a channel to farmland. This fits because Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+          "A canal can deliver irrigation water; it is not built to create hieroglyphs. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_akhet_and_shemu_boundary",
+      "prompt": "A classmate claims: \u201cAkhet means harvest and Shemu means flood.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+      "objectiveId": "egypt_akhet_and_shemu",
+      "repair": {
+        "id": "egypt_akhet_and_shemu_boundary_ssqc_repair",
+        "objectiveId": "egypt_akhet_and_shemu",
+        "teach": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Shemu is not the name of the flooding season; Peret is emergence or growing.",
+        "prompt": "A museum asks you to distinguish Akhet and Shemu from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A calendar names the Nile flooding period Akhet. This fits because Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+          "Shemu is not the name of the flooding season; Peret is emergence or growing. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_flood_prediction_and_new_year_boundary",
+      "prompt": "A classmate claims: \u201cThe civil calendar always matched the actual first flood day without any drift.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "answer": 0,
+      "rationale": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+      "objectiveId": "egypt_flood_prediction_and_new_year",
+      "repair": {
+        "id": "egypt_flood_prediction_and_new_year_boundary_ssqc_repair",
+        "objectiveId": "egypt_flood_prediction_and_new_year",
+        "teach": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+        "prompt": "A museum asks you to distinguish flood prediction and New Year from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "Observers associate Sirius becoming visible again with the seasonal flood. This fits because Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+          "A 365-day civil calendar drifted; New Year was not always on the actual first flood day. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    }
+  ],
+  "proof": {
+    "prompt": "A village has one low flood and less grain. Explain a chain of effects on two occupations, propose one response, and distinguish Akhet from Shemu. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.",
+    "criteria": [
+      "Answers every part of the task with accurate historical terms and relationships.",
+      "Uses at least two relevant details from the assigned source or map.",
+      "Explains how each detail supports the claim instead of listing facts.",
+      "Applies the idea to the new case and explains a reasonable limit."
+    ]
+  },
+  "proofRepair": {
+    "prompt": "A second village has water in the river but its field channel is blocked. Explain why river water alone does not guarantee a harvest, and describe one repair and one possible limit.",
+    "criteria": [
+      "Uses accurate names and definitions for every requested term.",
+      "Explains at least one cause, relationship or evidentiary connection.",
+      "Uses the supplied evidence and distinguishes inference from certainty.",
+      "Rejects a relevant misconception and states the limit without unsupported absolutes."
+    ],
+    "reviewRequired": true
+  },
+  "retentionProofs": [
+    {
+      "day": 3,
+      "prompt": "A farm has fertile soil but little water. Use delta, irrigation and harvest to explain what can and cannot be inferred about its crop. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 7,
+      "prompt": "A calendar falls behind the solar seasons. Explain why a named Akhet date alone may not prove that flooding had begun that day. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 14,
+      "prompt": "A merchant must pass rocky rapids to reach a grain market. Explain a navigation constraint and an economic consequence without assuming trade stops entirely. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 30,
+      "prompt": "Compare an Egyptian water-management decision with a modern school garden watering plan. Identify a shared mechanism and a historical difference. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    }
+  ],
+  "links": {
+    "prior": "Recall how farming, rivers and specialized jobs connected in Mesopotamia. Use what you know, then check which details differ in Egypt.",
+    "current": "Use the assigned Egypt reading to explain explain a chain, not a list. Name evidence and explain how it supports your answer.",
+    "future": "Next: Egypt: explain routes, places and historical map labels. Carry an idea or source detail forward and explain how it helps.",
+    "realLife": "Water and food systems affect community planning. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.",
+    "priorLessonId": "lf_comprehension_evidence",
+    "futureLessonId": "fresh_ss_egypt_map",
+    "bridge": {
+      "prompt": "Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.",
+      "explanation": "A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."
+    },
+    "laterApplication": "Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."
+  },
+  "sources": [
+    {
+      "title": "Assigned WCS Ancient Egypt OER \u00b7 exact classroom source",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "status": "51-page source text read; lesson-specific pages identified"
+    },
+    {
+      "title": "OpenStax: Ancient Egypt",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Met: Telling Time in Ancient Egypt",
+      "url": "https://www.metmuseum.org/essays/telling-time-in-ancient-egypt",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Harvard Digital Giza: geography and Nile FAQ",
+      "url": "https://giza.fas.harvard.edu/faq/",
+      "status": "public-institutional-source-relevant-sections-read"
+    },
+    {
+      "title": "Smithsonian: Down the Nile Valley",
+      "url": "https://forces.si.edu/soils/02_08_03.html",
+      "status": "public-institutional-source-read"
+    },
+    {
+      "title": "NASA MODIS: Nile length and satellite view",
+      "url": "https://modis.gsfc.nasa.gov/gallery/individual.php?db_date=2026-02-07",
+      "status": "official-agency-targeted-source-result-verified"
+    },
+    {
+      "title": "USGS: longest rivers and measurement caveats",
+      "url": "https://www.usgs.gov/water-science-school/science/rivers-world-worlds-longest-rivers",
+      "status": "official-agency-targeted-source-result-verified"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "delta",
+      "meaning": "A sediment-built area at a river mouth, often with branching channels.",
+      "cue": "D for deposits where a river divides.",
+      "example": "A river slows near the sea and leaves sediment that builds land.",
+      "nonexample": "A cataract is a rocky rapid, not a river-mouth deposit.",
+      "objectiveId": "egypt_delta"
+    },
+    {
+      "word": "cataracts",
+      "meaning": "Rocky rapids or stretches of rough water in a river.",
+      "cue": "Cataracts can complicate canoe travel.",
+      "example": "A boat crew must unload at rocky rapids on the Nile.",
+      "nonexample": "Cataracts are not pyramids or ordinary river-mouth branches.",
+      "objectiveId": "egypt_cataracts"
+    },
+    {
+      "word": "Black Land and Red Land",
+      "meaning": "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+      "cue": "Black soil and red desert are contrasts, not kingdoms.",
+      "example": "A farmer depends on the dark fertile strip beside a river bordered by desert.",
+      "nonexample": "The color labels do not mean Lower Egypt and Upper Egypt.",
+      "objectiveId": "egypt_black_land_and_red_land"
+    },
+    {
+      "word": "irrigation and crops",
+      "meaning": "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+      "cue": "Water access supports harvest and specialization.",
+      "example": "Workers direct river water through a channel to farmland.",
+      "nonexample": "A canal can deliver irrigation water; it is not built to create hieroglyphs.",
+      "objectiveId": "egypt_irrigation_and_crops"
+    },
+    {
+      "word": "Akhet and Shemu",
+      "meaning": "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+      "cue": "Akhet adds water; Shemu gathers crops.",
+      "example": "A calendar names the Nile flooding period Akhet.",
+      "nonexample": "Shemu is not the name of the flooding season; Peret is emergence or growing.",
+      "objectiveId": "egypt_akhet_and_shemu"
+    },
+    {
+      "word": "flood prediction and New Year",
+      "meaning": "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+      "cue": "Observe patterns, then compare the calendar with nature.",
+      "example": "Observers associate Sirius becoming visible again with the seasonal flood.",
+      "nonexample": "A 365-day civil calendar drifted; New Year was not always on the actual first flood day.",
+      "objectiveId": "egypt_flood_prediction_and_new_year"
+    }
+  ],
+  "media": [
+    {
+      "title": "The Egyptian Book of the Dead: A guidebook for the underworld",
+      "url": "https://www.youtube.com/watch?v=1yv_MXNYbAo",
+      "status": "Transcript reviewed; playback not verified",
+      "task": "Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani\u2019s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.",
+      "verification": {
+        "content": "Complete official authored/unspecified English captions exported and read0:06\u20134:10; player duration4:32",
+        "publisherPage": "https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala",
+        "browserPlayback": "Player and animation metadata loaded; full moving/audio playback not verified",
+        "access": "Public transcript opened via description \u2192 Show transcript; no login needed"
+      },
+      "omissions": [
+        "One13th-century-BCE scribe is not all Egyptians or all periods",
+        "Mummification details are simplified; procedures varied",
+        "Does not replace the full history, social structure, politics and religion teacher quiz scope"
+      ]
+    },
+    {
+      "title": "Kings and Queens of Egypt",
+      "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+      "status": "Content reviewed",
+      "task": "Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office\u2019s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people\u2019s lives.",
+      "verification": {
+        "content": "Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect",
+        "browserPlayback": null,
+        "access": "Public readable essay and artifact images; no login"
+      },
+      "omissions": [
+        "Not the assigned orange textbook page or exact classroom pyramid chart",
+        "Main essay focuses on royalty, not all social roles/contributions",
+        "Historical succession was more complicated than an always-father-to-son rule"
+      ]
+    },
+    {
+      "title": "Religion and gods in ancient Egypt",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/",
+      "status": "Content reviewed",
+      "task": "Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.",
+      "verification": {
+        "content": "Complete main article read, including deity sections, artifact captions and variation across places/classes/time",
+        "browserPlayback": null,
+        "access": "Public readable text and images; linked3D viewer not interaction-tested"
+      },
+      "omissions": [
+        "Not the exact teacher source; selected paragraphs only for this task",
+        "Linked3D model has not been tested and is not counted as verified interaction",
+        "Do not generalize every deity association to every period"
+      ]
+    }
+  ],
+  "memoryCue": "Land \u2192 water \u2192 crop \u2192 work; Akhet floods, Shemu harvests.",
+  "nextLessonId": "fresh_ss_egypt_map",
+  "gameVersion": "84e6e14d",
+  "contentVersion": "ss-alignment-qc-2026-11-02-v2",
+  "sourceCoverage": {
+    "classroomSource": "Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.",
+    "limits": "Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."
+  },
+  "readingLocation": {
+    "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+    "startPage": 3,
+    "endPage": 14,
+    "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"
+  },
+  "teachingSections": [
+    {
+      "id": "land_system",
+      "title": "Explain a chain, not a list",
+      "teach": [
+        "Trace a system rather than memorize detached facts: river water and deposited soil support farming; surplus food supports work beyond farming; officials can organize water, labor and grain. A weak or excessive flood can disrupt this system.",
+        "Kemet, the Black Land, names fertile land associated with the Nile. Red Land names the surrounding desert. These do not mean Upper and Lower Egypt. A delta forms from river-mouth sediment; cataracts are rocky river rapids that can interrupt navigation.",
+        "The agricultural cycle includes Akhet (inundation), Peret (emergence/growing), and Shemu (harvest/dry season). Astronomy, including Sirius rising, helped mark seasonal patterns. The civil calendar drifted relative to the solar year; do not insist New Year always fell on the actual first flood day.",
+        "The Nile is commonly measured at about 6,650 kilometers, or 4,132 miles. Rounded measurements depend on units and conventions. A number without its unit cannot tell you a river\u2019s length. On a map, identify the source, route and mouth before interpreting a distance."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "Can a low flood affect a potter as well as a farmer?",
+        "thinking": "Trace food first. Then ask who depends on it and what other supplies exist.",
+        "answer": "A low flood may reduce grain. Farmers may have less food to exchange for jars, so potters may lose customers. Stored grain could reduce the effect.",
+        "why": "It connects two jobs through a specific resource and gives a condition."
+      },
+      "tryPrompt": "How might a damaged canal affect a linen maker?",
+      "tryAnswer": "Less water may reduce flax, which supplies fiber for linen. Other fields or stored fiber could soften the effect.",
+      "tryChoices": [
+        "Less water may reduce flax, which supplies fiber for linen. Other fields or stored fiber could soften the effect.",
+        "Every triangular patch of desert is a river delta.",
+        "Rocky rapids or stretches of rough water in a river."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "egypt_delta",
+      "title": "delta",
+      "teach": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "D for deposits where a river divides.",
+        "A cataract is a rocky rapid, not a river-mouth deposit."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "A river slows near the sea and leaves sediment that builds land. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines delta. Separate it from a similar term.",
+        "answer": "delta: A sediment-built area at a river mouth, often with branching channels. A river slows near the sea and leaves sediment that builds land.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A river branches near its mouth. What evidence would help you decide whether this land is a delta?",
+      "tryAnswer": "Look for deposited sediment that builds land at the river mouth. Branching channels are a clue, but explain the sediment and location too.",
+      "tryChoices": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Look for deposited sediment that builds land at the river mouth. Branching channels are a clue, but explain the sediment and location too."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "egypt_cataracts",
+      "title": "cataracts",
+      "teach": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "Cataracts can complicate canoe travel.",
+        "Cataracts are not pyramids or ordinary river-mouth branches."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "A boat crew must unload at rocky rapids on the Nile. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines cataracts. Separate it from a similar term.",
+        "answer": "cataracts: Rocky rapids or stretches of rough water in a river. A boat crew must unload at rocky rapids on the Nile.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A trader meets rocky rapids while carrying grain by boat. Explain one difficulty and a possible response.",
+      "tryAnswer": "The rough water can interrupt navigation. The crew might unload and carry goods around the obstacle before continuing. This is a cataract, not a delta.",
+      "tryChoices": [
+        "Cataracts are always calm pools ideal for docking.",
+        "The rough water can interrupt navigation. The crew might unload and carry goods around the obstacle before continuing. This is a cataract, not a delta.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "egypt_black_land_and_red_land",
+      "title": "Black Land and Red Land",
+      "teach": [
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert.",
+        "Black soil and red desert are contrasts, not kingdoms.",
+        "The color labels do not mean Lower Egypt and Upper Egypt."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "A farmer depends on the dark fertile strip beside a river bordered by desert. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Black Land and Red Land. Separate it from a similar term.",
+        "answer": "Black Land and Red Land: Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert. A farmer depends on the dark fertile strip beside a river bordered by desert.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A traveler walks from a fertile riverside field into dry desert. Explain why the two areas have different names.",
+      "tryAnswer": "Black Land refers to the fertile soil beside the Nile; Red Land refers to surrounding desert. These names describe land conditions, while Upper and Lower Egypt describe river regions.",
+      "tryChoices": [
+        "Black Land refers to the fertile soil beside the Nile; Red Land refers to surrounding desert. These names describe land conditions, while Upper and Lower Egypt describe river regions.",
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Kemet means Black Land and refers to the fertile Nile-land; Red Land refers to desert."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "egypt_irrigation_and_crops",
+      "title": "irrigation and crops",
+      "teach": [
+        "Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber.",
+        "Water access supports harvest and specialization.",
+        "A canal can deliver irrigation water; it is not built to create hieroglyphs."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "Workers direct river water through a channel to farmland. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines irrigation and crops. Separate it from a similar term.",
+        "answer": "irrigation and crops: Canals and ditches direct water to crops; wheat and barley were important grains, and flax supplied fiber. Workers direct river water through a channel to farmland.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "A field is close to the Nile but receives too little water. Explain a solution and how it could help a linen maker.",
+      "tryAnswer": "A channel can direct river water to the field. Better water access can support flax, which can be made into linen. Irrigation links farming with another occupation.",
+      "tryChoices": [
+        "A sediment-built area at a river mouth, often with branching channels.",
+        "Rocky rapids or stretches of rough water in a river.",
+        "A channel can direct river water to the field. Better water access can support flax, which can be made into linen. Irrigation links farming with another occupation."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "egypt_akhet_and_shemu",
+      "title": "Akhet and Shemu",
+      "teach": [
+        "Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle.",
+        "Akhet adds water; Shemu gathers crops.",
+        "Shemu is not the name of the flooding season; Peret is emergence or growing."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "A calendar names the Nile flooding period Akhet. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Akhet and Shemu. Separate it from a similar term.",
+        "answer": "Akhet and Shemu: Akhet is the inundation season; Shemu is harvest and the drier season in the traditional agricultural cycle. A calendar names the Nile flooding period Akhet.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Put flooding, growing and harvesting in order. Explain why harvesting cannot come first.",
+      "tryAnswer": "Akhet brings inundation; Peret is the growing period; Shemu is harvest and the dry season. Crops must grow before they can be harvested.",
+      "tryChoices": [
+        "Rocky rapids or stretches of rough water in a river.",
+        "Akhet brings inundation; Peret is the growing period; Shemu is harvest and the dry season. Crops must grow before they can be harvested.",
+        "A sediment-built area at a river mouth, often with branching channels."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "egypt_flood_prediction_and_new_year",
+      "title": "flood prediction and New Year",
+      "teach": [
+        "Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year.",
+        "Observe patterns, then compare the calendar with nature.",
+        "A 365-day civil calendar drifted; New Year was not always on the actual first flood day."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138; section 6.2, pages9\u201314. Use the Two Lands assignment for the political regions.",
+      "example": {
+        "prompt": "Observers associate Sirius becoming visible again with the seasonal flood. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines flood prediction and New Year. Separate it from a similar term.",
+        "answer": "flood prediction and New Year: Astronomical and seasonal observations helped calendar keeping; Sirius rising was linked to the coming flood and originally to New Year. Observers associate Sirius becoming visible again with the seasonal flood.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Why might observations of Sirius help farmers plan, without proving the flood always arrived on one fixed date?",
+      "tryAnswer": "Sirius was a seasonal signal. It helped people anticipate the cycle, but the civil calendar drifted and natural flooding varied.",
+      "tryChoices": [
+        "Sirius was a seasonal signal. It helped people anticipate the cycle, but the civil calendar drifted and natural flooding varied.",
+        "Flax is an animal, and irrigation means removing every water source.",
+        "A sediment-built area at a river mouth, often with branching channels."
+      ],
+      "tryAnswerIndex": 0
+    }
+  ],
+  "assessmentFormat": "multiple-choice-only",
+  "archived": true,
+  "releaseStatus": "Withdrawn. Historical development content; do not assign, assess or narrate."
+}

@@ -1,1 +1,684 @@
-{"id":"fresh_ss_egypt_map","subject":"SS","title":"Egypt: explain routes, places and historical map labels","teach":["Trace the Nile north: Upper Egypt is upstream in the south; Lower Egypt is the downstream northern Delta. “Upper” does not mean the top of a north-up map. Thebes is in the south; Memphis is near the Delta head; Alexandria is on the Mediterranean coast and belongs to a much later historical founding.","The Mediterranean is north of Egypt; the Red Sea is east. The Sinai Peninsula connects northeastern Egypt with southwest Asia. Nubia is to the south along the Nile. Use directional relationships to explain travel, exchange and constraints.","The uploaded map list says Western Sahara Desert, but that classroom position means desert west of the Nile, often called Egypt’s Western Desert. Do not confuse this with the modern territory named Western Sahara far to the west in northwest Africa.","Giza pyramids and the Valley of the Kings near Thebes are different burial areas with different major historical contexts. Place and period both matter. Draw the outline from memory, then compare with the assigned map; do not claim precise blank-map mastery from text questions alone.","Upper and Lower Egypt: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Example: A traveler follows the Nile from Thebes toward the Delta. Boundary: The traveler moves downstream toward Lower Egypt, despite moving north on a map.","Egypt map connections: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Example: A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Boundary: The Red Sea is not west of the Nile, and the Nile is not a sea.","Egypt cities and burial sites: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Example: A map marks Giza near Memphis and the Valley of the Kings near Thebes. Boundary: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign."],"model":{"prompt":"A boat travels from Thebes to the Nile Delta, then toward the Mediterranean. Explain direction, Upper/Lower naming and a possible trade connection.","reasoning":"Follow river flow. Separate elevation/upstream language from page position.","answer":"The boat travels generally north and downstream from southern Upper Egypt toward northern Lower Egypt. The Delta opens toward the Mediterranean, creating a possible sea-trade connection. The route still depends on safe navigation and local conditions."},"guided":{"id":"fresh_ss_egypt_map_guided","prompt":"On a north-up map, a boat follows the Nile from Thebes toward the Delta. Which explanation is correct?","options":["It moves south and upstream into Lower Egypt.","Upper Egypt is always wherever the top of the page happens to be.","It moves generally north and downstream from Upper toward Lower Egypt.","Thebes and the Delta are the same place, so no direction can be stated."],"answer":2,"rationale":"Upper and Lower reflect upstream and downstream position, not page orientation."},"practice":[{"id":"egypt_upper_and_lower_egypt_meaning","prompt":"Explain the classroom term “Upper and Lower Egypt”: which meaning is accurate?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Upper Egypt is the northern Delta because north is at the top of a map."],"answer":1,"rationale":"Use the defining feature, then test a boundary. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","objectiveId":"egypt_upper_and_lower_egypt","repair":{"id":"egypt_upper_and_lower_egypt_meaning_ssqc_repair","objectiveId":"egypt_upper_and_lower_egypt","teach":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","prompt":"A boat heads from the southern upstream kingdom toward the northern Delta. Which explanation fits this evidence?","options":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","supported":true}},{"id":"egypt_upper_and_lower_egypt_apply","prompt":"A traveler follows the Nile from Thebes toward the Delta. Which explanation is best supported?","options":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","objectiveId":"egypt_upper_and_lower_egypt","repair":{"id":"egypt_upper_and_lower_egypt_apply_ssqc_repair","objectiveId":"egypt_upper_and_lower_egypt","teach":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","prompt":"A student follows the Nile north from Upper Egypt to Lower Egypt. Which explanation fits this evidence?","options":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","supported":true}},{"id":"egypt_egypt_map_connections_meaning","prompt":"Explain the classroom term “Egypt map connections”: which meaning is accurate?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","The Mediterranean, Nile and Red Sea are all names for the same body of water.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."],"answer":0,"rationale":"Use the defining feature, then test a boundary. The Red Sea is not west of the Nile, and the Nile is not a sea.","objectiveId":"egypt_egypt_map_connections","repair":{"id":"egypt_egypt_map_connections_meaning_ssqc_repair","objectiveId":"egypt_egypt_map_connections","teach":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.","prompt":"A route links the northern Mediterranean coast, eastern Red Sea and southern Nubia. Which explanation fits this evidence?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","supported":true}},{"id":"egypt_egypt_map_connections_apply","prompt":"A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Which explanation is best supported?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Connect the concrete details to the defining feature. The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","objectiveId":"egypt_egypt_map_connections","repair":{"id":"egypt_egypt_map_connections_apply_ssqc_repair","objectiveId":"egypt_egypt_map_connections","teach":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.","prompt":"A traveler distinguishes Sinai northeast of Egypt from Nubia farther south. Which explanation fits this evidence?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","supported":true}},{"id":"egypt_egypt_cities_and_burial_sites_meaning","prompt":"Explain the classroom term “Egypt cities and burial sites”: which meaning is accurate?","options":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Giza and the Valley of the Kings are two names for the exact same tomb.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."],"answer":3,"rationale":"Use the defining feature, then test a boundary. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","objectiveId":"egypt_egypt_cities_and_burial_sites","repair":{"id":"egypt_egypt_cities_and_burial_sites_meaning_ssqc_repair","objectiveId":"egypt_egypt_cities_and_burial_sites","teach":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","prompt":"An itinerary needs one stop at Giza and another at royal tombs near Thebes. Which explanation fits this evidence?","options":["Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","supported":true}},{"id":"egypt_egypt_cities_and_burial_sites_apply","prompt":"A map marks Giza near Memphis and the Valley of the Kings near Thebes. Which explanation is best supported?","options":["Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Connect the concrete details to the defining feature. Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","objectiveId":"egypt_egypt_cities_and_burial_sites","repair":{"id":"egypt_egypt_cities_and_burial_sites_apply_ssqc_repair","objectiveId":"egypt_egypt_cities_and_burial_sites","teach":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","prompt":"A museum places Memphis near the Delta head and the Valley of the Kings near Thebes. Which explanation fits this evidence?","options":["Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Match the details of this case with the defining idea: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","supported":true}}],"independentCheck":[{"id":"egypt_upper_and_lower_egypt_transfer","prompt":"A boat leaves southern Upper Egypt for the Mediterranean coast. Which inference is most defensible?","options":["The trip generally follows the Nile north toward Lower Egypt and the river mouth.","This proves that every ancient Egyptian had the same job, power and beliefs.","Upper Egypt is the northern Delta because north is at the top of a map.","No conclusions can be drawn from any evidence about the past."],"answer":0,"rationale":"The trip generally follows the Nile north toward Lower Egypt and the river mouth. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","objectiveId":"egypt_upper_and_lower_egypt","repair":{"id":"egypt_upper_and_lower_egypt_transfer_ssqc_repair","objectiveId":"egypt_upper_and_lower_egypt","teach":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","prompt":"A river journey runs north from Thebes. Why can it head toward Lower Egypt?","options":["Lower Egypt lies downstream near the northern river mouth.","Lower Egypt means the bottom of every north-up map.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"Lower Egypt lies downstream near the northern river mouth.","supported":true}},{"id":"egypt_egypt_map_connections_transfer","prompt":"A merchant compares a northbound Delta port route with an eastward route toward the Red Sea. Which inference is most defensible?","options":["Different waterways and landforms create different travel connections and constraints.","This proves that every ancient Egyptian had the same job, power and beliefs.","The Mediterranean, Nile and Red Sea are all names for the same body of water.","No conclusions can be drawn from any evidence about the past."],"answer":0,"rationale":"Different waterways and landforms create different travel connections and constraints. The Red Sea is not west of the Nile, and the Nile is not a sea.","objectiveId":"egypt_egypt_map_connections","repair":{"id":"egypt_egypt_map_connections_transfer_ssqc_repair","objectiveId":"egypt_egypt_map_connections","teach":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.","prompt":"A route goes northeast through Sinai instead of south toward Nubia. Why does the distinction matter?","options":["The routes connect different neighboring regions and face different geography.","Sinai and Nubia are names for the same place.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"The routes connect different neighboring regions and face different geography.","supported":true}},{"id":"egypt_egypt_cities_and_burial_sites_transfer","prompt":"A visitor plans to compare Giza pyramids with royal tombs near Thebes. Which inference is most defensible?","options":["This proves that every ancient Egyptian had the same job, power and beliefs.","No conclusions can be drawn from any evidence about the past.","The visitor needs two locations; famous Egyptian burial places are not all one site.","Giza and the Valley of the Kings are two names for the exact same tomb."],"answer":2,"rationale":"The visitor needs two locations; famous Egyptian burial places are not all one site. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","objectiveId":"egypt_egypt_cities_and_burial_sites","repair":{"id":"egypt_egypt_cities_and_burial_sites_transfer_ssqc_repair","objectiveId":"egypt_egypt_cities_and_burial_sites","teach":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","prompt":"Why would one stop near Thebes not cover a visit to the pyramids at Giza?","options":["The sites are in different places along Egypt’s geography and have different contexts.","Every Egyptian burial site is beside the same city.","The evidence supports only a different term with no connection to this case.","The conclusion can be made without considering any details."],"answer":0,"rationale":"The sites are in different places along Egypt’s geography and have different contexts.","supported":true}}],"delayed":[{"id":"egypt_upper_and_lower_egypt_boundary","prompt":"A classmate claims: “Upper Egypt is the northern Delta because north is at the top of a map.” Which response shows an accurate limit?","options":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","objectiveId":"egypt_upper_and_lower_egypt","repair":{"id":"egypt_upper_and_lower_egypt_boundary_ssqc_repair","objectiveId":"egypt_upper_and_lower_egypt","teach":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.","prompt":"A museum asks you to distinguish Upper and Lower Egypt from a related idea. Which evidence-and-explanation pair would help?","options":["A traveler follows the Nile from Thebes toward the Delta. This fits because Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The traveler moves downstream toward Lower Egypt, despite moving north on a map. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_egypt_map_connections_boundary","prompt":"A classmate claims: “The Mediterranean, Nile and Red Sea are all names for the same body of water.” Which response shows an accurate limit?","options":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.","objectiveId":"egypt_egypt_map_connections","repair":{"id":"egypt_egypt_map_connections_boundary_ssqc_repair","objectiveId":"egypt_egypt_map_connections","teach":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.","prompt":"A museum asks you to distinguish Egypt map connections from a related idea. Which evidence-and-explanation pair would help?","options":["A route leaves the Delta for the Mediterranean; another travels south toward Nubia. This fits because The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","The Red Sea is not west of the Nile, and the Nile is not a sea. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Explain the actual clue and the distinction.","supported":true}},{"id":"egypt_egypt_cities_and_burial_sites_boundary","prompt":"A classmate claims: “Giza and the Valley of the Kings are two names for the exact same tomb.” Which response shows an accurate limit?","options":["Giza and the Valley of the Kings are different burial areas: Giza is near Memphis, and the Valley of the Kings is near Thebes.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","A sequence of rulers in a ruling family."],"answer":0,"rationale":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","objectiveId":"egypt_egypt_cities_and_burial_sites","repair":{"id":"egypt_egypt_cities_and_burial_sites_boundary_ssqc_repair","objectiveId":"egypt_egypt_cities_and_burial_sites","teach":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","prompt":"A museum asks you to distinguish Egypt cities and burial sites from a related idea. Which evidence-and-explanation pair would help?","options":["A map marks Giza near Memphis and the Valley of the Kings near Thebes. This fits because Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign. Therefore every related word has exactly the same meaning.","Ignore the object, setting and date; choose a familiar word.","Use a famous ruler’s name as proof without connecting it to the evidence."],"answer":0,"rationale":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Explain the actual clue and the distinction.","supported":true}}],"proof":{"prompt":"Draw a memory map locating the Nile, Mediterranean, Red Sea, Upper/Lower Egypt, Sinai and Nubia. Add Memphis, Thebes, Alexandria, Giza and Valley of the Kings. Explain two route relationships and check all14 assigned labels against the uploaded map. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.","criteria":["Answers every part of the task with accurate historical terms and relationships.","Uses at least two relevant details from the assigned source or map.","Explains how each detail supports the claim instead of listing facts.","Applies the idea to the new case and explains a reasonable limit."]},"proofRepair":{"prompt":"A visitor thinks Upper Egypt is north and that Giza and the Valley of the Kings are the same place. Explain the river-flow naming and distinguish the two burial areas.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"reviewRequired":true},"retentionProofs":[{"day":3,"prompt":"Plan a route from Thebes to the Delta. Explain north/downstream and identify the two regional names in order. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":7,"prompt":"A tourist wants to see both Khufu’s pyramid and Tutankhamun’s tomb in one single burial complex. Explain the geographic and historical correction. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":14,"prompt":"A map labels Egypt’s desert west of the Nile as the modern territory Western Sahara. Explain why the name creates a geographic error. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true},{"day":30,"prompt":"Use a new blank sketch to place all14 assigned labels. Explain one water route and one land connection; score each position separately rather than using an overall memory impression. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.","criteria":["Uses accurate names and definitions for every requested term.","Explains at least one cause, relationship or evidentiary connection.","Uses the supplied evidence and distinguishes inference from certainty.","Rejects a relevant misconception and states the limit without unsupported absolutes."],"minutes":5,"reviewRequired":true,"samplingDoesNotCertifyUnsampledTerms":true}],"links":{"prior":"Retrieve Egypt: Nile land, farming and the calendar. Explain one connection with this lesson and one difference.","current":"Use the assigned Egypt reading to explain follow the water. Name evidence and explain how it supports your answer.","future":"Next: Egypt map studio: locate all 14 places and explain the relationships. Carry an idea or source detail forward and explain how it helps.","realLife":"Route planning requires relationships among places, not isolated labels. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.","priorLessonId":"fresh_ss_egypt_land","futureLessonId":"fresh_ss_egypt_map14_visual","bridge":{"prompt":"Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.","explanation":"A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."},"laterApplication":"Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."},"sources":[{"title":"Assigned WCS Ancient Egypt OER · exact classroom source","url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022","status":"51-page source text read; lesson-specific pages identified"},{"title":"OpenStax: Ancient Egypt","url":"https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Ministry: Great Pyramid of Khufu","url":"https://egymonuments.gov.eg/monuments/the-great-pyramid/","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Ministry: Tomb of Tutankhamun","url":"https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun","status":"Relevant source reviewed; exact teacher materials may have additional requirements"},{"title":"Assigned Egypt Quarter 2 resources","url":"https://wcschools.schoology.com/course/8432932378/materials?f=1049255702","status":"assigned-reference-only"},{"title":"Harvard Digital Giza: geography and Nile FAQ","url":"https://giza.fas.harvard.edu/faq/","status":"public-institutional-source-relevant-sections-read"}],"vocabulary":[{"word":"Upper and Lower Egypt","meaning":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","cue":"Upper follows upstream, not the top of a page.","example":"A traveler follows the Nile from Thebes toward the Delta.","nonexample":"The traveler moves downstream toward Lower Egypt, despite moving north on a map.","objectiveId":"egypt_upper_and_lower_egypt"},{"word":"Egypt map connections","meaning":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","cue":"Use water, direction and neighbors to explain routes.","example":"A route leaves the Delta for the Mediterranean; another travels south toward Nubia.","nonexample":"The Red Sea is not west of the Nile, and the Nile is not a sea.","objectiveId":"egypt_egypt_map_connections"},{"word":"Egypt cities and burial sites","meaning":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","cue":"Locate before linking a place with a period or purpose.","example":"A map marks Giza near Memphis and the Valley of the Kings near Thebes.","nonexample":"Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","objectiveId":"egypt_egypt_cities_and_burial_sites"}],"media":[{"title":"The Egyptian Book of the Dead: A guidebook for the underworld","url":"https://www.youtube.com/watch?v=1yv_MXNYbAo","status":"Transcript reviewed; playback not verified","task":"Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani’s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.","verification":{"content":"Complete official authored/unspecified English captions exported and read0:06–4:10; player duration4:32","publisherPage":"https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala","browserPlayback":"Player and animation metadata loaded; full moving/audio playback not verified","access":"Public transcript opened via description → Show transcript; no login needed"},"omissions":["One13th-century-BCE scribe is not all Egyptians or all periods","Mummification details are simplified; procedures varied","Does not replace the full history, social structure, politics and religion teacher quiz scope"]},{"title":"Kings and Queens of Egypt","url":"https://www.metmuseum.org/essays/kings-and-queens-of-egypt","status":"Content reviewed","task":"Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office’s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people’s lives.","verification":{"content":"Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect","browserPlayback":null,"access":"Public readable essay and artifact images; no login"},"omissions":["Not the assigned orange textbook page or exact classroom pyramid chart","Main essay focuses on royalty, not all social roles/contributions","Historical succession was more complicated than an always-father-to-son rule"]},{"title":"Religion and gods in ancient Egypt","url":"https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/","status":"Content reviewed","task":"Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.","verification":{"content":"Complete main article read, including deity sections, artifact captions and variation across places/classes/time","browserPlayback":null,"access":"Public readable text and images; linked3D viewer not interaction-tested"},"omissions":["Not the exact teacher source; selected paragraphs only for this task","Linked3D model has not been tested and is not counted as verified interaction","Do not generalize every deity association to every period"]}],"memoryCue":"Upper upstream south; Lower downstream north.","nextLessonId":"fresh_ss_egypt_map14_visual","gameVersion":"3a2e324d","contentVersion":"ss-alignment-qc-2026-11-02-v2","sourceCoverage":{"classroomSource":"Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.","limits":"Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."},"readingLocation":{"where":"OER section 6.1, PDF pages3–8. Compare the assigned Ancient Egypt map and its fourteen-place checklist.","startPage":3,"endPage":8,"url":"https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"},"teachingSections":[{"id":"map_system","title":"Follow the water","teach":["Trace the Nile north: Upper Egypt is upstream in the south; Lower Egypt is the downstream northern Delta. “Upper” does not mean the top of a north-up map. Thebes is in the south; Memphis is near the Delta head; Alexandria is on the Mediterranean coast and belongs to a much later historical founding.","The Mediterranean is north of Egypt; the Red Sea is east. The Sinai Peninsula connects northeastern Egypt with southwest Asia. Nubia is to the south along the Nile. Use directional relationships to explain travel, exchange and constraints.","The uploaded map list says Western Sahara Desert, but that classroom position means desert west of the Nile, often called Egypt’s Western Desert. Do not confuse this with the modern territory named Western Sahara far to the west in northwest Africa.","Giza and the Valley of the Kings near Thebes are different burial areas from different historical settings. Find each on the assigned map. Explain both where it is and why that location matters."],"where":"OER section 6.1, PDF pages3–8. Compare the assigned Ancient Egypt map and its fourteen-place checklist.","example":{"prompt":"Explain a boat trip from Thebes to the Delta.","thinking":"Start south, trace the river north and use upstream/downstream language.","answer":"Thebes is in southern Upper Egypt. The boat travels generally north and downstream toward Lower Egypt and the Delta. Upper refers to upstream, not the top of a map.","why":"It connects direction, river flow and the regional names."},"tryPrompt":"Why does visiting Giza not mean you have visited the Valley of the Kings?","tryAnswer":"They are different burial areas. Giza is near Memphis; the Valley of the Kings is near Thebes farther south.","tryChoices":["They are different burial areas. Giza is near Memphis; the Valley of the Kings is near Thebes farther south.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."],"tryAnswerIndex":0},{"id":"egypt_upper_and_lower_egypt","title":"Upper and Lower Egypt","teach":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Upper follows upstream, not the top of a page.","The traveler moves downstream toward Lower Egypt, despite moving north on a map."],"where":"OER section 6.1, PDF pages3–8. Compare the assigned Ancient Egypt map and its fourteen-place checklist.","example":{"prompt":"A traveler follows the Nile from Thebes toward the Delta. Explain which idea this illustrates.","thinking":"Look for the clue that defines Upper and Lower Egypt. Separate it from a similar term.","answer":"Upper and Lower Egypt: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. A traveler follows the Nile from Thebes toward the Delta.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Explain Upper and Lower Egypt in your own words, give a different example, and show how it differs from a related idea.","tryAnswer":"Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Compare your example with this distinction: The traveler moves downstream toward Lower Egypt, despite moving north on a map.","tryChoices":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Compare your example with this distinction: The traveler moves downstream toward Lower Egypt, despite moving north on a map."],"tryAnswerIndex":2},{"id":"egypt_egypt_map_connections","title":"Egypt map connections","teach":["The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.","Use water, direction and neighbors to explain routes.","The Red Sea is not west of the Nile, and the Nile is not a sea."],"where":"OER section 6.1, PDF pages3–8. Compare the assigned Ancient Egypt map and its fourteen-place checklist.","example":{"prompt":"A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Explain which idea this illustrates.","thinking":"Look for the clue that defines Egypt map connections. Separate it from a similar term.","answer":"Egypt map connections: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. A route leaves the Delta for the Mediterranean; another travels south toward Nubia.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Explain Egypt map connections in your own words, give a different example, and show how it differs from a related idea.","tryAnswer":"The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Compare your example with this distinction: The Red Sea is not west of the Nile, and the Nile is not a sea.","tryChoices":["Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Compare your example with this distinction: The Red Sea is not west of the Nile, and the Nile is not a sea.","The Mediterranean, Nile and Red Sea are all names for the same body of water."],"tryAnswerIndex":1},{"id":"egypt_egypt_cities_and_burial_sites","title":"Egypt cities and burial sites","teach":["Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.","Locate before linking a place with a period or purpose.","Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign."],"where":"OER section 6.1, PDF pages3–8. Compare the assigned Ancient Egypt map and its fourteen-place checklist.","example":{"prompt":"A map marks Giza near Memphis and the Valley of the Kings near Thebes. Explain which idea this illustrates.","thinking":"Look for the clue that defines Egypt cities and burial sites. Separate it from a similar term.","answer":"Egypt cities and burial sites: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. A map marks Giza near Memphis and the Valley of the Kings near Thebes.","why":"It names the idea and links the specific example to its meaning."},"tryPrompt":"Explain Egypt cities and burial sites in your own words, give a different example, and show how it differs from a related idea.","tryAnswer":"Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Compare your example with this distinction: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","tryChoices":["Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Compare your example with this distinction: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh’s reign.","Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.","Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."],"tryAnswerIndex":0}],"assessmentFormat":"multiple-choice-only"}
+{
+  "id": "fresh_ss_egypt_map",
+  "subject": "SS",
+  "title": "Egypt: explain routes, places and historical map labels",
+  "teach": [
+    "Trace the Nile north: Upper Egypt is upstream in the south; Lower Egypt is the downstream northern Delta. \u201cUpper\u201d does not mean the top of a north-up map. Thebes is in the south; Memphis is near the Delta head; Alexandria is on the Mediterranean coast and belongs to a much later historical founding.",
+    "The Mediterranean is north of Egypt; the Red Sea is east. The Sinai Peninsula connects northeastern Egypt with southwest Asia. Nubia is to the south along the Nile. Use directional relationships to explain travel, exchange and constraints.",
+    "The uploaded map list says Western Sahara Desert, but that classroom position means desert west of the Nile, often called Egypt\u2019s Western Desert. Do not confuse this with the modern territory named Western Sahara far to the west in northwest Africa.",
+    "Giza pyramids and the Valley of the Kings near Thebes are different burial areas with different major historical contexts. Place and period both matter. Draw the outline from memory, then compare with the assigned map; do not claim precise blank-map mastery from text questions alone.",
+    "Upper and Lower Egypt: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Example: A traveler follows the Nile from Thebes toward the Delta. Boundary: The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+    "Egypt map connections: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Example: A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Boundary: The Red Sea is not west of the Nile, and the Nile is not a sea.",
+    "Egypt cities and burial sites: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Example: A map marks Giza near Memphis and the Valley of the Kings near Thebes. Boundary: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign."
+  ],
+  "model": {
+    "prompt": "A boat travels from Thebes to the Nile Delta, then toward the Mediterranean. Explain direction, Upper/Lower naming and a possible trade connection.",
+    "reasoning": "Follow river flow. Separate elevation/upstream language from page position.",
+    "answer": "The boat travels generally north and downstream from southern Upper Egypt toward northern Lower Egypt. The Delta opens toward the Mediterranean, creating a possible sea-trade connection. The route still depends on safe navigation and local conditions."
+  },
+  "guided": {
+    "id": "fresh_ss_egypt_map_guided",
+    "prompt": "On a north-up map, a boat follows the Nile from Thebes toward the Delta. Which explanation is correct?",
+    "options": [
+      "It moves south and upstream into Lower Egypt.",
+      "Upper Egypt is always wherever the top of the page happens to be.",
+      "It moves generally north and downstream from Upper toward Lower Egypt.",
+      "Thebes and the Delta are the same place, so no direction can be stated."
+    ],
+    "answer": 2,
+    "rationale": "Upper and Lower reflect upstream and downstream position, not page orientation."
+  },
+  "practice": [
+    {
+      "id": "egypt_upper_and_lower_egypt_meaning",
+      "prompt": "Explain the classroom term \u201cUpper and Lower Egypt\u201d: which meaning is accurate?",
+      "options": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "Upper Egypt is the northern Delta because north is at the top of a map."
+      ],
+      "answer": 1,
+      "rationale": "Use the defining feature, then test a boundary. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+      "objectiveId": "egypt_upper_and_lower_egypt",
+      "repair": {
+        "id": "egypt_upper_and_lower_egypt_meaning_ssqc_repair",
+        "objectiveId": "egypt_upper_and_lower_egypt",
+        "teach": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+        "prompt": "A boat heads from the southern upstream kingdom toward the northern Delta. Which explanation fits this evidence?",
+        "options": [
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_upper_and_lower_egypt_apply",
+      "prompt": "A traveler follows the Nile from Thebes toward the Delta. Which explanation is best supported?",
+      "options": [
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+      "objectiveId": "egypt_upper_and_lower_egypt",
+      "repair": {
+        "id": "egypt_upper_and_lower_egypt_apply_ssqc_repair",
+        "objectiveId": "egypt_upper_and_lower_egypt",
+        "teach": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+        "prompt": "A student follows the Nile north from Upper Egypt to Lower Egypt. Which explanation fits this evidence?",
+        "options": [
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_map_connections_meaning",
+      "prompt": "Explain the classroom term \u201cEgypt map connections\u201d: which meaning is accurate?",
+      "options": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "The Mediterranean, Nile and Red Sea are all names for the same body of water.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."
+      ],
+      "answer": 0,
+      "rationale": "Use the defining feature, then test a boundary. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+      "objectiveId": "egypt_egypt_map_connections",
+      "repair": {
+        "id": "egypt_egypt_map_connections_meaning_ssqc_repair",
+        "objectiveId": "egypt_egypt_map_connections",
+        "teach": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+        "prompt": "A route links the northern Mediterranean coast, eastern Red Sea and southern Nubia. Which explanation fits this evidence?",
+        "options": [
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_map_connections_apply",
+      "prompt": "A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Which explanation is best supported?",
+      "options": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+      "objectiveId": "egypt_egypt_map_connections",
+      "repair": {
+        "id": "egypt_egypt_map_connections_apply_ssqc_repair",
+        "objectiveId": "egypt_egypt_map_connections",
+        "teach": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+        "prompt": "A traveler distinguishes Sinai northeast of Egypt from Nubia farther south. Which explanation fits this evidence?",
+        "options": [
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_cities_and_burial_sites_meaning",
+      "prompt": "Explain the classroom term \u201cEgypt cities and burial sites\u201d: which meaning is accurate?",
+      "options": [
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Giza and the Valley of the Kings are two names for the exact same tomb.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."
+      ],
+      "answer": 3,
+      "rationale": "Use the defining feature, then test a boundary. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+      "objectiveId": "egypt_egypt_cities_and_burial_sites",
+      "repair": {
+        "id": "egypt_egypt_cities_and_burial_sites_meaning_ssqc_repair",
+        "objectiveId": "egypt_egypt_cities_and_burial_sites",
+        "teach": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+        "prompt": "An itinerary needs one stop at Giza and another at royal tombs near Thebes. Which explanation fits this evidence?",
+        "options": [
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_cities_and_burial_sites_apply",
+      "prompt": "A map marks Giza near Memphis and the Valley of the Kings near Thebes. Which explanation is best supported?",
+      "options": [
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "Connect the concrete details to the defining feature. Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+      "objectiveId": "egypt_egypt_cities_and_burial_sites",
+      "repair": {
+        "id": "egypt_egypt_cities_and_burial_sites_apply_ssqc_repair",
+        "objectiveId": "egypt_egypt_cities_and_burial_sites",
+        "teach": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+        "prompt": "A museum places Memphis near the Delta head and the Valley of the Kings near Thebes. Which explanation fits this evidence?",
+        "options": [
+          "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "A sequence of rulers in a ruling family."
+        ],
+        "answer": 0,
+        "rationale": "Match the details of this case with the defining idea: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "id": "egypt_upper_and_lower_egypt_transfer",
+      "prompt": "A boat leaves southern Upper Egypt for the Mediterranean coast. Which inference is most defensible?",
+      "options": [
+        "The trip generally follows the Nile north toward Lower Egypt and the river mouth.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "Upper Egypt is the northern Delta because north is at the top of a map.",
+        "No conclusions can be drawn from any evidence about the past."
+      ],
+      "answer": 0,
+      "rationale": "The trip generally follows the Nile north toward Lower Egypt and the river mouth. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+      "objectiveId": "egypt_upper_and_lower_egypt",
+      "repair": {
+        "id": "egypt_upper_and_lower_egypt_transfer_ssqc_repair",
+        "objectiveId": "egypt_upper_and_lower_egypt",
+        "teach": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+        "prompt": "A river journey runs north from Thebes. Why can it head toward Lower Egypt?",
+        "options": [
+          "Lower Egypt lies downstream near the northern river mouth.",
+          "Lower Egypt means the bottom of every north-up map.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "Lower Egypt lies downstream near the northern river mouth.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_map_connections_transfer",
+      "prompt": "A merchant compares a northbound Delta port route with an eastward route toward the Red Sea. Which inference is most defensible?",
+      "options": [
+        "Different waterways and landforms create different travel connections and constraints.",
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "The Mediterranean, Nile and Red Sea are all names for the same body of water.",
+        "No conclusions can be drawn from any evidence about the past."
+      ],
+      "answer": 0,
+      "rationale": "Different waterways and landforms create different travel connections and constraints. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+      "objectiveId": "egypt_egypt_map_connections",
+      "repair": {
+        "id": "egypt_egypt_map_connections_transfer_ssqc_repair",
+        "objectiveId": "egypt_egypt_map_connections",
+        "teach": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+        "prompt": "A route goes northeast through Sinai instead of south toward Nubia. Why does the distinction matter?",
+        "options": [
+          "The routes connect different neighboring regions and face different geography.",
+          "Sinai and Nubia are names for the same place.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "The routes connect different neighboring regions and face different geography.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_cities_and_burial_sites_transfer",
+      "prompt": "A visitor plans to compare Giza pyramids with royal tombs near Thebes. Which inference is most defensible?",
+      "options": [
+        "This proves that every ancient Egyptian had the same job, power and beliefs.",
+        "No conclusions can be drawn from any evidence about the past.",
+        "The visitor needs two locations; famous Egyptian burial places are not all one site.",
+        "Giza and the Valley of the Kings are two names for the exact same tomb."
+      ],
+      "answer": 2,
+      "rationale": "The visitor needs two locations; famous Egyptian burial places are not all one site. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+      "objectiveId": "egypt_egypt_cities_and_burial_sites",
+      "repair": {
+        "id": "egypt_egypt_cities_and_burial_sites_transfer_ssqc_repair",
+        "objectiveId": "egypt_egypt_cities_and_burial_sites",
+        "teach": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+        "prompt": "Why would one stop near Thebes not cover a visit to the pyramids at Giza?",
+        "options": [
+          "The sites are in different places along Egypt\u2019s geography and have different contexts.",
+          "Every Egyptian burial site is beside the same city.",
+          "The evidence supports only a different term with no connection to this case.",
+          "The conclusion can be made without considering any details."
+        ],
+        "answer": 0,
+        "rationale": "The sites are in different places along Egypt\u2019s geography and have different contexts.",
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "id": "egypt_upper_and_lower_egypt_boundary",
+      "prompt": "A classmate claims: \u201cUpper Egypt is the northern Delta because north is at the top of a map.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+      "objectiveId": "egypt_upper_and_lower_egypt",
+      "repair": {
+        "id": "egypt_upper_and_lower_egypt_boundary_ssqc_repair",
+        "objectiveId": "egypt_upper_and_lower_egypt",
+        "teach": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+        "prompt": "A museum asks you to distinguish Upper and Lower Egypt from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A traveler follows the Nile from Thebes toward the Delta. This fits because Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+          "The traveler moves downstream toward Lower Egypt, despite moving north on a map. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_map_connections_boundary",
+      "prompt": "A classmate claims: \u201cThe Mediterranean, Nile and Red Sea are all names for the same body of water.\u201d Which response shows an accurate limit?",
+      "options": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+      "objectiveId": "egypt_egypt_map_connections",
+      "repair": {
+        "id": "egypt_egypt_map_connections_boundary_ssqc_repair",
+        "objectiveId": "egypt_egypt_map_connections",
+        "teach": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. The Red Sea is not west of the Nile, and the Nile is not a sea.",
+        "prompt": "A museum asks you to distinguish Egypt map connections from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A route leaves the Delta for the Mediterranean; another travels south toward Nubia. This fits because The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+          "The Red Sea is not west of the Nile, and the Nile is not a sea. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    },
+    {
+      "id": "egypt_egypt_cities_and_burial_sites_boundary",
+      "prompt": "A classmate claims: \u201cGiza and the Valley of the Kings are two names for the exact same tomb.\u201d Which response shows an accurate limit?",
+      "options": [
+        "Giza and the Valley of the Kings are different burial areas: Giza is near Memphis, and the Valley of the Kings is near Thebes.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "A sequence of rulers in a ruling family."
+      ],
+      "answer": 0,
+      "rationale": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+      "objectiveId": "egypt_egypt_cities_and_burial_sites",
+      "repair": {
+        "id": "egypt_egypt_cities_and_burial_sites_boundary_ssqc_repair",
+        "objectiveId": "egypt_egypt_cities_and_burial_sites",
+        "teach": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+        "prompt": "A museum asks you to distinguish Egypt cities and burial sites from a related idea. Which evidence-and-explanation pair would help?",
+        "options": [
+          "A map marks Giza near Memphis and the Valley of the Kings near Thebes. This fits because Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+          "Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign. Therefore every related word has exactly the same meaning.",
+          "Ignore the object, setting and date; choose a familiar word.",
+          "Use a famous ruler\u2019s name as proof without connecting it to the evidence."
+        ],
+        "answer": 0,
+        "rationale": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Explain the actual clue and the distinction.",
+        "supported": true
+      }
+    }
+  ],
+  "proof": {
+    "prompt": "Draw a memory map locating the Nile, Mediterranean, Red Sea, Upper/Lower Egypt, Sinai and Nubia. Add Memphis, Thebes, Alexandria, Giza and Valley of the Kings. Explain two route relationships and check all14 assigned labels against the uploaded map. Use at least two details from the assigned source or map and explain how each supports your answer. Connect this with an earlier idea and explain one limit to that comparison.",
+    "criteria": [
+      "Answers every part of the task with accurate historical terms and relationships.",
+      "Uses at least two relevant details from the assigned source or map.",
+      "Explains how each detail supports the claim instead of listing facts.",
+      "Applies the idea to the new case and explains a reasonable limit."
+    ]
+  },
+  "proofRepair": {
+    "prompt": "A visitor thinks Upper Egypt is north and that Giza and the Valley of the Kings are the same place. Explain the river-flow naming and distinguish the two burial areas.",
+    "criteria": [
+      "Uses accurate names and definitions for every requested term.",
+      "Explains at least one cause, relationship or evidentiary connection.",
+      "Uses the supplied evidence and distinguishes inference from certainty.",
+      "Rejects a relevant misconception and states the limit without unsupported absolutes."
+    ],
+    "reviewRequired": true
+  },
+  "retentionProofs": [
+    {
+      "day": 3,
+      "prompt": "Plan a route from Thebes to the Delta. Explain north/downstream and identify the two regional names in order. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 7,
+      "prompt": "A tourist wants to see both Khufu\u2019s pyramid and Tutankhamun\u2019s tomb in one single burial complex. Explain the geographic and historical correction. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 14,
+      "prompt": "A map labels Egypt\u2019s desert west of the Nile as the modern territory Western Sahara. Explain why the name creates a geographic error. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    },
+    {
+      "day": 30,
+      "prompt": "Use a new blank sketch to place all14 assigned labels. Explain one water route and one land connection; score each position separately rather than using an overall memory impression. Retrieve the needed terms without looking; parent/tutor checks the explanation. Rotate any untested terms from this group on another retrieval.",
+      "criteria": [
+        "Uses accurate names and definitions for every requested term.",
+        "Explains at least one cause, relationship or evidentiary connection.",
+        "Uses the supplied evidence and distinguishes inference from certainty.",
+        "Rejects a relevant misconception and states the limit without unsupported absolutes."
+      ],
+      "minutes": 5,
+      "reviewRequired": true,
+      "samplingDoesNotCertifyUnsampledTerms": true
+    }
+  ],
+  "links": {
+    "prior": "Retrieve Egypt: Nile land, farming and the calendar. Explain one connection with this lesson and one difference.",
+    "current": "Use the assigned Egypt reading to explain follow the water. Name evidence and explain how it supports your answer.",
+    "future": "Next: Egypt map studio: locate all 14 places and explain the relationships. Carry an idea or source detail forward and explain how it helps.",
+    "realLife": "Route planning requires relationships among places, not isolated labels. Explain one similarity and one important difference; ancient social rank is not the same as a modern job title.",
+    "priorLessonId": "fresh_ss_egypt_land",
+    "futureLessonId": "fresh_ss_egypt_map14_visual",
+    "bridge": {
+      "prompt": "Retrieve Mesopotamia: how can irrigation and a food surplus support specialization? Apply the relationship to Egypt, then explain why the two civilizations need not have identical governments.",
+      "explanation": "A reliable surplus can support specialized jobs; storage, distribution and records require coordination. The Nile and Mesopotamian rivers present different settings, and people make political choices. Shared resource needs do not make the societies identical."
+    },
+    "laterApplication": "Use this idea again without notes after 1, 3, 7, 14 and 30 days. Explain a new example and a limit; familiar wording alone does not prove understanding."
+  },
+  "sources": [
+    {
+      "title": "Assigned WCS Ancient Egypt OER \u00b7 exact classroom source",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "status": "51-page source text read; lesson-specific pages identified"
+    },
+    {
+      "title": "OpenStax: Ancient Egypt",
+      "url": "https://openstax.org/books/world-history-volume-1/pages/3-3-ancient-egypt",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Ministry: Great Pyramid of Khufu",
+      "url": "https://egymonuments.gov.eg/monuments/the-great-pyramid/",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Ministry: Tomb of Tutankhamun",
+      "url": "https://egymonuments.gov.eg/en/monuments/tomb-of-tutankhamun",
+      "status": "Relevant source reviewed; exact teacher materials may have additional requirements"
+    },
+    {
+      "title": "Assigned Egypt Quarter 2 resources",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials?f=1049255702",
+      "status": "assigned-reference-only"
+    },
+    {
+      "title": "Harvard Digital Giza: geography and Nile FAQ",
+      "url": "https://giza.fas.harvard.edu/faq/",
+      "status": "public-institutional-source-relevant-sections-read"
+    }
+  ],
+  "vocabulary": [
+    {
+      "word": "Upper and Lower Egypt",
+      "meaning": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+      "cue": "Upper follows upstream, not the top of a page.",
+      "example": "A traveler follows the Nile from Thebes toward the Delta.",
+      "nonexample": "The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+      "objectiveId": "egypt_upper_and_lower_egypt"
+    },
+    {
+      "word": "Egypt map connections",
+      "meaning": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+      "cue": "Use water, direction and neighbors to explain routes.",
+      "example": "A route leaves the Delta for the Mediterranean; another travels south toward Nubia.",
+      "nonexample": "The Red Sea is not west of the Nile, and the Nile is not a sea.",
+      "objectiveId": "egypt_egypt_map_connections"
+    },
+    {
+      "word": "Egypt cities and burial sites",
+      "meaning": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+      "cue": "Locate before linking a place with a period or purpose.",
+      "example": "A map marks Giza near Memphis and the Valley of the Kings near Thebes.",
+      "nonexample": "Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+      "objectiveId": "egypt_egypt_cities_and_burial_sites"
+    }
+  ],
+  "media": [
+    {
+      "title": "The Egyptian Book of the Dead: A guidebook for the underworld",
+      "url": "https://www.youtube.com/watch?v=1yv_MXNYbAo",
+      "status": "Transcript reviewed; playback not verified",
+      "task": "Watch/read the short animation. Make a three-part visual sequence: physical artifact, beliefs it represents, what historians can infer. Treat the narrated journey as an account of belief rather than a report that the underworld was observed. Close the resource: Close it. Explain how Ani\u2019s role, written scroll and preparation connect social position, writing and religion. Name one belief and the artifact evidence for studying it. New application: A museum displays an inscribed amulet from a different period. Give a careful claim about what the object might show, one limit, and another source you would seek before generalizing to all Egyptians.",
+      "verification": {
+        "content": "Complete official authored/unspecified English captions exported and read0:06\u20134:10; player duration4:32",
+        "publisherPage": "https://ed.ted.com/lessons/the-egyptian-book-of-the-dead-tejal-gala",
+        "browserPlayback": "Player and animation metadata loaded; full moving/audio playback not verified",
+        "access": "Public transcript opened via description \u2192 Show transcript; no login needed"
+      },
+      "omissions": [
+        "One13th-century-BCE scribe is not all Egyptians or all periods",
+        "Mummification details are simplified; procedures varied",
+        "Does not replace the full history, social structure, politics and religion teacher quiz scope"
+      ]
+    },
+    {
+      "title": "Kings and Queens of Egypt",
+      "url": "https://www.metmuseum.org/essays/kings-and-queens-of-egypt",
+      "status": "Content reviewed",
+      "task": "Read the main essay in short chunks. Select one pictured royal object and connect its caption/date with one claim from the text. Build a cause/role map linking authority, responsibility, belief and succession. Close the resource: Close the essay. Explain two responsibilities of kingship and how religious and political roles connect; distinguish an office\u2019s divine status from a claim that an individual ruler could not die. New application: Design a museum label for a hypothetical royal crown. Explain how it could communicate rule over Upper and Lower Egypt, then state what the object alone cannot tell you about ordinary people\u2019s lives.",
+      "verification": {
+        "content": "Complete main essay read plus object captions; verified English canonical URL after old TOAH redirect",
+        "browserPlayback": null,
+        "access": "Public readable essay and artifact images; no login"
+      },
+      "omissions": [
+        "Not the assigned orange textbook page or exact classroom pyramid chart",
+        "Main essay focuses on royalty, not all social roles/contributions",
+        "Historical succession was more complicated than an always-father-to-son rule"
+      ]
+    },
+    {
+      "title": "Religion and gods in ancient Egypt",
+      "url": "https://australian.museum/learn/cultures/international-collection/ancient-egyptian/religion-and-gods-in-ancient-egypt/",
+      "status": "Content reviewed",
+      "task": "Read Religion and the first Gods paragraphs, then inspect two captioned objects. Make a compare card: visible feature / religious role described / evidence limit. Do not require memorizing every deity on the page. Close the resource: Close the article. Explain why beliefs should not be treated as identical across every city and century. Retrieve one accurate object-to-belief connection. New application: Compare two hypothetical objects from different places or dates. Explain why different imagery need not mean one source is wrong; identify what context you would check.",
+      "verification": {
+        "content": "Complete main article read, including deity sections, artifact captions and variation across places/classes/time",
+        "browserPlayback": null,
+        "access": "Public readable text and images; linked3D viewer not interaction-tested"
+      },
+      "omissions": [
+        "Not the exact teacher source; selected paragraphs only for this task",
+        "Linked3D model has not been tested and is not counted as verified interaction",
+        "Do not generalize every deity association to every period"
+      ]
+    }
+  ],
+  "memoryCue": "Upper upstream south; Lower downstream north.",
+  "nextLessonId": "fresh_ss_egypt_map14_visual",
+  "gameVersion": "3a2e324d",
+  "contentVersion": "ss-alignment-qc-2026-11-02-v2",
+  "sourceCoverage": {
+    "classroomSource": "Exact51-page AncientEgyptOER read November1; assigned societyhandout and12-slide project also read.",
+    "limits": "Some course materials and orangebookp149 still pending. Textbook factual errors are not adopted as scientific or historical keys."
+  },
+  "readingLocation": {
+    "where": "OER section 6.1, PDF pages3\u20138. Compare the assigned Ancient Egypt map and its fourteen-place checklist.",
+    "startPage": 3,
+    "endPage": 8,
+    "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022"
+  },
+  "teachingSections": [
+    {
+      "id": "map_system",
+      "title": "Follow the water",
+      "teach": [
+        "Trace the Nile north: Upper Egypt is upstream in the south; Lower Egypt is the downstream northern Delta. \u201cUpper\u201d does not mean the top of a north-up map. Thebes is in the south; Memphis is near the Delta head; Alexandria is on the Mediterranean coast and belongs to a much later historical founding.",
+        "The Mediterranean is north of Egypt; the Red Sea is east. The Sinai Peninsula connects northeastern Egypt with southwest Asia. Nubia is to the south along the Nile. Use directional relationships to explain travel, exchange and constraints.",
+        "The uploaded map list says Western Sahara Desert, but that classroom position means desert west of the Nile, often called Egypt\u2019s Western Desert. Do not confuse this with the modern territory named Western Sahara far to the west in northwest Africa.",
+        "Giza and the Valley of the Kings near Thebes are different burial areas from different historical settings. Find each on the assigned map. Explain both where it is and why that location matters."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138. Compare the assigned Ancient Egypt map and its fourteen-place checklist.",
+      "example": {
+        "prompt": "Explain a boat trip from Thebes to the Delta.",
+        "thinking": "Start south, trace the river north and use upstream/downstream language.",
+        "answer": "Thebes is in southern Upper Egypt. The boat travels generally north and downstream toward Lower Egypt and the Delta. Upper refers to upstream, not the top of a map.",
+        "why": "It connects direction, river flow and the regional names."
+      },
+      "tryPrompt": "Why does visiting Giza not mean you have visited the Valley of the Kings?",
+      "tryAnswer": "They are different burial areas. Giza is near Memphis; the Valley of the Kings is near Thebes farther south.",
+      "tryChoices": [
+        "They are different burial areas. Giza is near Memphis; the Valley of the Kings is near Thebes farther south.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."
+      ],
+      "tryAnswerIndex": 0
+    },
+    {
+      "id": "egypt_upper_and_lower_egypt",
+      "title": "Upper and Lower Egypt",
+      "teach": [
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Upper follows upstream, not the top of a page.",
+        "The traveler moves downstream toward Lower Egypt, despite moving north on a map."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138. Compare the assigned Ancient Egypt map and its fourteen-place checklist.",
+      "example": {
+        "prompt": "A traveler follows the Nile from Thebes toward the Delta. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Upper and Lower Egypt. Separate it from a similar term.",
+        "answer": "Upper and Lower Egypt: Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. A traveler follows the Nile from Thebes toward the Delta.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Explain Upper and Lower Egypt in your own words, give a different example, and show how it differs from a related idea.",
+      "tryAnswer": "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Compare your example with this distinction: The traveler moves downstream toward Lower Egypt, despite moving north on a map.",
+      "tryChoices": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north. Compare your example with this distinction: The traveler moves downstream toward Lower Egypt, despite moving north on a map."
+      ],
+      "tryAnswerIndex": 2
+    },
+    {
+      "id": "egypt_egypt_map_connections",
+      "title": "Egypt map connections",
+      "teach": [
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile.",
+        "Use water, direction and neighbors to explain routes.",
+        "The Red Sea is not west of the Nile, and the Nile is not a sea."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138. Compare the assigned Ancient Egypt map and its fourteen-place checklist.",
+      "example": {
+        "prompt": "A route leaves the Delta for the Mediterranean; another travels south toward Nubia. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Egypt map connections. Separate it from a similar term.",
+        "answer": "Egypt map connections: The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. A route leaves the Delta for the Mediterranean; another travels south toward Nubia.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Explain Egypt map connections in your own words, give a different example, and show how it differs from a related idea.",
+      "tryAnswer": "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Compare your example with this distinction: The Red Sea is not west of the Nile, and the Nile is not a sea.",
+      "tryChoices": [
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "The Mediterranean lies north, Red Sea east, Sinai between Egypt and southwest Asia, and Nubia south along the Nile. Compare your example with this distinction: The Red Sea is not west of the Nile, and the Nile is not a sea.",
+        "The Mediterranean, Nile and Red Sea are all names for the same body of water."
+      ],
+      "tryAnswerIndex": 1
+    },
+    {
+      "id": "egypt_egypt_cities_and_burial_sites",
+      "title": "Egypt cities and burial sites",
+      "teach": [
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas.",
+        "Locate before linking a place with a period or purpose.",
+        "Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign."
+      ],
+      "where": "OER section 6.1, PDF pages3\u20138. Compare the assigned Ancient Egypt map and its fourteen-place checklist.",
+      "example": {
+        "prompt": "A map marks Giza near Memphis and the Valley of the Kings near Thebes. Explain which idea this illustrates.",
+        "thinking": "Look for the clue that defines Egypt cities and burial sites. Separate it from a similar term.",
+        "answer": "Egypt cities and burial sites: Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. A map marks Giza near Memphis and the Valley of the Kings near Thebes.",
+        "why": "It names the idea and links the specific example to its meaning."
+      },
+      "tryPrompt": "Explain Egypt cities and burial sites in your own words, give a different example, and show how it differs from a related idea.",
+      "tryAnswer": "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Compare your example with this distinction: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+      "tryChoices": [
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas. Compare your example with this distinction: Alexandria is a later city and should not be treated as the capital in every earlier pharaoh\u2019s reign.",
+        "Upper Egypt is upstream in the south; Lower Egypt is downstream in the northern Delta; the Nile flows north.",
+        "Memphis lies near the Delta head; Alexandria is on the Mediterranean; Thebes is farther south; Giza and the Valley of the Kings are different burial areas."
+      ],
+      "tryAnswerIndex": 0
+    }
+  ],
+  "assessmentFormat": "multiple-choice-only",
+  "archived": true,
+  "releaseStatus": "Withdrawn. Historical development content; do not assign, assess or narrate."
+}

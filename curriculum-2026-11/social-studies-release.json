@@ -1,1 +1,28 @@
-{"held":true,"reason":"Reset requested: maps, question clarity and classroom-source alignment require verification.","replacementStatus":"Not yet verified against current Schoology files","assessmentFormat":"multiple-choice-only","preserveRecords":true}
+{
+  "held": true,
+  "partial": true,
+  "replacementStatus": "Six draft chapters; NOT released for student use",
+  "assessmentFormat": "multiple-choice-only",
+  "preserveRecords": true,
+  "unreleased": [
+    "Remaining history and ruler vocabulary",
+    "Religion and burial beyond the verified priest roles",
+    "Achievements and Nubia/trade",
+    "Orange textbook pages149\u2013151",
+    "Project rubric images and video playback"
+  ],
+  "withdrawnLessonIds": [
+    "fresh_ss_egypt_land",
+    "fresh_ss_egypt_map",
+    "fresh_ss_egypt_map14_visual",
+    "fresh_ss_egypt_state",
+    "fresh_ss_egypt_system",
+    "fresh_ss_egypt_writing",
+    "fresh_ss_egypt_faith",
+    "fresh_ss_egypt_power_belief",
+    "fresh_ss_egypt_early",
+    "fresh_ss_egypt_later"
+  ],
+  "reason": "Governance fail-closed gate: incomplete source census, source-to-objective coverage and final mobile/media QC.",
+  "releaseApproved": false
+}
