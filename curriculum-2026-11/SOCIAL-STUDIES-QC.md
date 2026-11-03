@@ -39,3 +39,9 @@ Teacher documents and the exact satellite image stay on authenticated private ro
 ## Final release decision
 
 **BLOCKED.** Governance’s fail-closed rule states: “A missing source row, unresolved requirement, absent evidence stage, inaccessible controlling source, unverified answer key, or unreviewed source change blocks publication.” The current source manifest is explicitly blocked. Automated component/backend checks are supporting evidence, not source completeness. The student path and Rayna’s Audio continue to show teacher materials; draft assessment is rejected server-side. Also unfinished: source-side atomic coverage and red-team reread, two explicit connection/application checks per objective, final phone visual/interaction review and full playback review. No claim of completed Social Studies or five-subject QC is made.
+
+## Final teacher-materials interface check
+
+After browser recovery, the final held-release teacher-materials desk was checked on desktop and in the390px child viewport (375px content width after the scrollbar). Document width matched viewport width: no horizontal document overflow. The phone’s Social Studies entry action opened the six material cards. This verifies the source-only desk, not the unreleased lesson/assessment phone flow. The published private URL still enforces ChatGPT sign-in.
+
+![Isolated preview of the teacher-materials desk](../qc/ry-teacher-materials-qc.jpg)
