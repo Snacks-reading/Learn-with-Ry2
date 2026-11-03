@@ -1,0 +1,1345 @@
+{
+  "id": "ss_verified_kingdoms",
+  "subject": "SS",
+  "title": "Old, Middle and New Kingdoms",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "objectiveIds": [
+    "ss_verified_kingdoms_khufu",
+    "ss_verified_kingdoms_mentuhotep",
+    "ss_verified_kingdoms_hyksos_ahmose",
+    "ss_term_khufu",
+    "ss_term_mentuhotep_ii",
+    "ss_term_hyksos",
+    "ss_term_ahmose"
+  ],
+  "objectiveLabels": {
+    "ss_verified_kingdoms_khufu": "Khufu and the Old Kingdom",
+    "ss_verified_kingdoms_mentuhotep": "Mentuhotep II and reunification",
+    "ss_verified_kingdoms_hyksos_ahmose": "Hyksos rule and Ahmose",
+    "ss_term_khufu": "Khufu",
+    "ss_term_mentuhotep_ii": "Mentuhotep II",
+    "ss_term_hyksos": "Hyksos",
+    "ss_term_ahmose": "Ahmose"
+  },
+  "teach": [
+    "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza.",
+    "Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power.",
+    "Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+    "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom.",
+    "Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification.",
+    "Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+    "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names.",
+    "Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom.",
+    "Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_kingdoms_khufu",
+      "title": "Khufu and the Old Kingdom",
+      "where": "Assigned Egypt OER PDF pages 30, 31.",
+      "sourceUrl": "/?reading=egypt&page=30",
+      "teach": [
+        "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza.",
+        "Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power.",
+        "Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid."
+      ],
+      "example": {
+        "prompt": "A question names the Great Pyramid at Giza. Which pharaoh belongs with it?",
+        "thinking": "I match the specific monument with its ruler, not just any famous pharaoh.",
+        "answer": "Khufu.",
+        "why": "A name from the New Kingdom would not fit this Old Kingdom monument."
+      },
+      "tryPrompt": "Which kingdom is often connected with Egypt’s great pyramid-building age?",
+      "tryChoices": [
+        "Old Kingdom",
+        "New Kingdom",
+        "Roman rule"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Old Kingdom. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza.",
+      "connections": [
+        {
+          "id": "ss_verified_kingdoms_khufu_connection_0",
+          "prompt": "How did farming connect with a large building project?",
+          "options": [
+            "Food supplies supported the people doing construction work.",
+            "A building project made every future harvest unnecessary.",
+            "A pyramid removed the need for anyone to grow crops."
+          ],
+          "answer": 0,
+          "rationale": "Food supplies supported the people doing construction work. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event."
+        },
+        {
+          "id": "ss_verified_kingdoms_khufu_connection_1",
+          "prompt": "A modern construction project needs supplies and specialists. Which limit should a comparison with Khufu’s project keep?",
+          "options": [
+            "Both need organization, but their tools, jobs and political systems differ.",
+            "Both were ordered by the same Old Kingdom pharaoh.",
+            "Both prove the project leader personally did every task."
+          ],
+          "answer": 0,
+          "rationale": "Both need organization, but their tools, jobs and political systems differ. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_kingdoms_mentuhotep",
+      "title": "Mentuhotep II and reunification",
+      "where": "Assigned Egypt OER PDF pages 32.",
+      "sourceUrl": "/?reading=egypt&page=32",
+      "teach": [
+        "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom.",
+        "Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification.",
+        "Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom."
+      ],
+      "example": {
+        "prompt": "A question says Egypt was brought together again after divided rule. Which ruler fits?",
+        "thinking": "The word again points to later reunification, not the early Menes account.",
+        "answer": "Mentuhotep II.",
+        "why": "This connects the ruler to a specific change in government."
+      },
+      "tryPrompt": "Which ruler is linked to the start of the Middle Kingdom?",
+      "tryChoices": [
+        "Mentuhotep II",
+        "Khufu",
+        "Ramses II"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Mentuhotep II. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom.",
+      "connections": [
+        {
+          "id": "ss_verified_kingdoms_mentuhotep_connection_0",
+          "prompt": "Why are Menes and Mentuhotep II connected but not interchangeable?",
+          "options": [
+            "Both relate to unity, but the accounts place them in different periods.",
+            "Both are names for the same royal tomb at Giza.",
+            "Both ruled together at the start of the New Kingdom."
+          ],
+          "answer": 0,
+          "rationale": "Both relate to unity, but the accounts place them in different periods. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event."
+        },
+        {
+          "id": "ss_verified_kingdoms_mentuhotep_connection_1",
+          "prompt": "A team splits and later joins again. Which part of that example helps explain reunification?",
+          "options": [
+            "Joining again after division",
+            "Using a symbol with no earlier meaning",
+            "Changing every member’s occupation"
+          ],
+          "answer": 0,
+          "rationale": "Joining again after division. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_kingdoms_hyksos_ahmose",
+      "title": "Hyksos rule and Ahmose",
+      "where": "Assigned Egypt OER PDF pages 32, 33.",
+      "sourceUrl": "/?reading=egypt&page=32",
+      "teach": [
+        "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names.",
+        "Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom.",
+        "Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim."
+      ],
+      "example": {
+        "prompt": "A question asks who helped end Hyksos rule. Which name should you choose?",
+        "thinking": "I match the ruler to the event. Khufu built the Great Pyramid; Ahmose ended Hyksos rule.",
+        "answer": "Ahmose I.",
+        "why": "Different famous rulers accomplished different things."
+      },
+      "tryPrompt": "Which group ruled northern Egypt before Ahmose defeated its rule?",
+      "tryChoices": [
+        "Hyksos",
+        "Hittites under Ramses II",
+        "Roman senators"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Hyksos. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names.",
+      "connections": [
+        {
+          "id": "ss_verified_kingdoms_hyksos_ahmose_connection_0",
+          "prompt": "How does Ahmose connect Hyksos rule with the New Kingdom?",
+          "options": [
+            "His defeat of their rule helped begin the New Kingdom.",
+            "His Great Pyramid began the Old Kingdom.",
+            "His census invented the Nile’s river mouth."
+          ],
+          "answer": 0,
+          "rationale": "His defeat of their rule helped begin the New Kingdom. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event."
+        },
+        {
+          "id": "ss_verified_kingdoms_hyksos_ahmose_connection_1",
+          "prompt": "A timeline shows outside rule followed by a new local ruling line. What should a comparison with Ahmose preserve?",
+          "options": [
+            "The order of the change, without assuming the societies were identical",
+            "A claim that every change of ruler ends all conflict",
+            "A claim that both events happened in the same year"
+          ],
+          "answer": 0,
+          "rationale": "The order of the change, without assuming the societies were identical. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+    },
+    {
+      "sourceId": "kingdom-evidence",
+      "title": "Second Intermediate Period — UCL Digital Egypt",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+      "status": "Primary-source factual cross-check",
+      "pages": []
+    }
+  ],
+  "readingLocation": {
+    "startPage": 30,
+    "endPage": 33,
+    "where": "Assigned Egypt OER PDF pages 30, 31, 32, 33"
+  },
+  "links": {
+    "prior": "Early unification and dynasties explain the start of shared rule. Later periods involve new divisions, reunifications and rulers.",
+    "current": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+    "future": "New Kingdom rulers and their evidence: A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+    "realLife": "A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+    "priorLessonId": "ss_verified_union",
+    "futureLessonId": "ss_verified_new_rulers"
+  },
+  "vocabulary": [
+    {
+      "word": "Khufu",
+      "definition": "An Old Kingdom pharaoh associated with the Great Pyramid at Giza.",
+      "example": "Match Khufu with the Great Pyramid.",
+      "nonExample": "Do not match him with Ahmose’s defeat of Hyksos rule.",
+      "objectiveId": "ss_term_khufu"
+    },
+    {
+      "word": "Mentuhotep II",
+      "definition": "The ruler associated with reunification at the start of the Middle Kingdom.",
+      "example": "Divided rule is followed by Mentuhotep II’s reunification.",
+      "nonExample": "He is not the early unifier named Menes.",
+      "objectiveId": "ss_term_mentuhotep_ii"
+    },
+    {
+      "word": "Hyksos",
+      "definition": "Rulers of western Asian origin who controlled northern Egypt for a period.",
+      "example": "Ahmose helped end Hyksos rule.",
+      "nonExample": "Hyksos names a group, not a pyramid or writing material.",
+      "objectiveId": "ss_term_hyksos"
+    },
+    {
+      "word": "Ahmose",
+      "definition": "The ruler who helped defeat Hyksos rule and begin the New Kingdom.",
+      "example": "Match Ahmose with the end of Hyksos control.",
+      "nonExample": "Do not match him with Khufu’s Great Pyramid.",
+      "objectiveId": "ss_term_ahmose"
+    }
+  ],
+  "proof": {
+    "prompt": "Use the multiple-choice independent application.",
+    "criteria": []
+  },
+  "practice": [
+    {
+      "prompt": "Which pharaoh is associated with the Great Pyramid at Giza?",
+      "options": [
+        "Khufu",
+        "Ahmose",
+        "Ramses II"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Khufu. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+      "id": "ss_verified_kingdoms_khufu_item1",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "repair": {
+        "prompt": "Which pair correctly matches Khufu with a monument?",
+        "options": [
+          "Khufu—Great Pyramid",
+          "Khufu—expulsion of the Hyksos",
+          "Khufu—Abu Simbel"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Khufu—Great Pyramid. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "id": "ss_verified_kingdoms_khufu_repair1",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31
+          ]
+        },
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "supported": true
+      },
+      "terms": [
+        "Khufu"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ]
+    },
+    {
+      "prompt": "A huge royal tomb needed food, tools and skilled workers. What does this show?",
+      "options": [
+        "Large projects required organization and resources.",
+        "The ruler did every job alone.",
+        "Building required no farming or transport."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Large projects required organization and resources. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+      "id": "ss_verified_kingdoms_khufu_item2",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "repair": {
+        "prompt": "Why did a pyramid project need people in different occupations?",
+        "options": [
+          "Different jobs provided supplies, skills and labor.",
+          "Every worker performed the same task.",
+          "Only the ruler needed food."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Different jobs provided supplies, skills and labor. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "id": "ss_verified_kingdoms_khufu_repair2",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31
+          ]
+        },
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "supported": true
+      },
+      "terms": [
+        "Khufu"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ]
+    },
+    {
+      "prompt": "What is Mentuhotep II known for in this unit?",
+      "options": [
+        "Reuniting Egypt at the beginning of the Middle Kingdom",
+        "Building the Great Pyramid",
+        "Ruling after the Romans"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Reuniting Egypt at the beginning of the Middle Kingdom. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+      "id": "ss_verified_kingdoms_mentuhotep_item1",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "repair": {
+        "prompt": "Which event belongs with Mentuhotep II?",
+        "options": [
+          "Bringing divided Egypt together again",
+          "Inventing the river delta",
+          "Discovering King Tut’s tomb"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Bringing divided Egypt together again. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "id": "ss_verified_kingdoms_mentuhotep_repair1",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32
+          ]
+        },
+        "teach": "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "supported": true
+      },
+      "terms": [
+        "Mentuhotep II"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ]
+    },
+    {
+      "prompt": "Why does reunification suggest a period of divided rule came before it?",
+      "options": [
+        "Reuniting means joining again.",
+        "Reuniting means inventing a writing sheet.",
+        "Reuniting means moving a river’s mouth."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Reuniting means joining again. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+      "id": "ss_verified_kingdoms_mentuhotep_item2",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "repair": {
+        "prompt": "What does the prefix re- add to reunite?",
+        "options": [
+          "Again",
+          "Before every event",
+          "Without a ruler"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Again. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "id": "ss_verified_kingdoms_mentuhotep_repair2",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32
+          ]
+        },
+        "teach": "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "supported": true
+      },
+      "terms": [
+        "Mentuhotep II"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ]
+    },
+    {
+      "prompt": "Who helped drive the Hyksos out of Egypt?",
+      "options": [
+        "Ahmose I",
+        "Khufu",
+        "Menes"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Ahmose I. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+      "id": "ss_verified_kingdoms_hyksos_ahmose_item1",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "prompt": "Which ruler is linked with ending Hyksos rule?",
+        "options": [
+          "Ahmose I",
+          "Mentuhotep II",
+          "Ramses II"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Ahmose I. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "id": "ss_verified_kingdoms_hyksos_ahmose_repair1",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32,
+            33
+          ]
+        },
+        "teach": "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "supported": true
+      },
+      "terms": [
+        "Ahmose"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_ahmose"
+      ]
+    },
+    {
+      "prompt": "Which statement describes the Hyksos in this unit?",
+      "options": [
+        "A ruling group of western Asian origin that controlled northern Egypt",
+        "A type of Egyptian coffin",
+        "The family that built every Egyptian pyramid"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A ruling group of western Asian origin that controlled northern Egypt. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+      "id": "ss_verified_kingdoms_hyksos_ahmose_item2",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "prompt": "Which pair describes a political conflict?",
+        "options": [
+          "Hyksos rule and Ahmose’s campaign",
+          "Papyrus sheets and ink",
+          "Delta soil and flax fiber"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Hyksos rule and Ahmose’s campaign. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "id": "ss_verified_kingdoms_hyksos_ahmose_repair2",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32,
+            33
+          ]
+        },
+        "teach": "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "supported": true
+      },
+      "terms": [
+        "Hyksos"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos"
+      ]
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "Which event belongs before Hatshepsut and Ramses II in the kingdom sequence?",
+      "options": [
+        "Khufu’s pyramid building",
+        "The New Kingdom’s expansion",
+        "Ramses II’s treaty"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Khufu’s pyramid building. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+      "id": "ss_verified_kingdoms_khufu_item3",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "repair": {
+        "prompt": "Which ruler belongs to the Old Kingdom?",
+        "options": [
+          "Khufu",
+          "Tutankhamun",
+          "Hatshepsut"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Khufu. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "id": "ss_verified_kingdoms_khufu_repair3",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31
+          ]
+        },
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "supported": true
+      },
+      "terms": [
+        "Khufu"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ]
+    },
+    {
+      "prompt": "Which sequence is correct?",
+      "options": [
+        "Old Kingdom → Middle Kingdom → New Kingdom",
+        "New Kingdom → Old Kingdom → Middle Kingdom",
+        "Middle Kingdom → New Kingdom → Old Kingdom"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Old Kingdom → Middle Kingdom → New Kingdom. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+      "id": "ss_verified_kingdoms_mentuhotep_item3",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "repair": {
+        "prompt": "Which period followed the Old Kingdom in the three-kingdom sequence?",
+        "options": [
+          "Middle Kingdom",
+          "New Kingdom",
+          "RomanEmpire"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Middle Kingdom. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "id": "ss_verified_kingdoms_mentuhotep_repair3",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32
+          ]
+        },
+        "teach": "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "supported": true
+      },
+      "terms": [
+        "Mentuhotep II"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ]
+    },
+    {
+      "prompt": "Which kingdom is associated with Ahmose’s reunification?",
+      "options": [
+        "New Kingdom",
+        "Old Kingdom",
+        "The first dynasty under Menes"
+      ],
+      "answer": 0,
+      "rationale": "Correct: New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+      "id": "ss_verified_kingdoms_hyksos_ahmose_item3",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "prompt": "Which event helps mark the start of the New Kingdom?",
+        "options": [
+          "Defeat of Hyksos rule",
+          "Khufu’s pyramid building",
+          "Creation of the Nile Delta"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Defeat of Hyksos rule. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "id": "ss_verified_kingdoms_hyksos_ahmose_repair3",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32,
+            33
+          ]
+        },
+        "teach": "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "supported": true
+      },
+      "terms": [
+        "Ahmose"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_ahmose"
+      ]
+    }
+  ],
+  "masteryCheck": [
+    {
+      "prompt": "A classmate assigns Khufu’s pyramid to Ahmose. Which fact corrects the match?",
+      "options": [
+        "Khufu is linked to the Great Pyramid; Ahmose to ending Hyksos rule.",
+        "Both rulers are names for one building.",
+        "Ahmose built every Egyptian pyramid."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Khufu is linked to the Great Pyramid; Ahmose to ending Hyksos rule. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+      "id": "ss_verified_kingdoms_khufu_item4",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "repair": {
+        "prompt": "Which clue points to Khufu?",
+        "options": [
+          "The Great Pyramid at Giza",
+          "A New Kingdom trade expedition",
+          "The founding of Meroe"
+        ],
+        "answer": 0,
+        "rationale": "Correct: The Great Pyramid at Giza. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "id": "ss_verified_kingdoms_khufu_repair4",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31
+          ]
+        },
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "supported": true
+      },
+      "terms": [
+        "Khufu"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ]
+    },
+    {
+      "prompt": "A classmate confuses Menes and Mentuhotep II. Which distinction helps?",
+      "options": [
+        "Menes is the early unifier in the text; Mentuhotep II reunited Egypt later.",
+        "Both names mean the same social class.",
+        "Mentuhotep II is the name of a pyramid."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Menes is the early unifier in the text; Mentuhotep II reunited Egypt later. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+      "id": "ss_verified_kingdoms_mentuhotep_item4",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "repair": {
+        "prompt": "Which clue distinguishes Mentuhotep II from Menes?",
+        "options": [
+          "Reunification connected with the Middle Kingdom",
+          "Early unification in the assigned Two Lands account",
+          "An early capital at Memphis"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Reunification connected with the Middle Kingdom. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "id": "ss_verified_kingdoms_mentuhotep_repair4",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32
+          ]
+        },
+        "teach": "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "supported": true
+      },
+      "terms": [
+        "Mentuhotep II"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ]
+    },
+    {
+      "prompt": "A classmate says Hyksos is the name of a pharaoh who built Abu Simbel. Which correction fits?",
+      "options": [
+        "Hyksos names a ruling group; Abu Simbel is associated with Ramses II.",
+        "Hyksos and Ramses II are the same personal name.",
+        "Abu Simbel is a type of river rapid."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hyksos names a ruling group; Abu Simbel is associated with Ramses II. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+      "id": "ss_verified_kingdoms_hyksos_ahmose_item4",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "prompt": "Which item is a group rather than a single ruler?",
+        "options": [
+          "Hyksos",
+          "Ahmose I",
+          "Khufu"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Hyksos. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "id": "ss_verified_kingdoms_hyksos_ahmose_repair4",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32,
+            33
+          ]
+        },
+        "teach": "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "supported": true
+      },
+      "terms": [
+        "Hyksos"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos"
+      ]
+    },
+    {
+      "id": "ss_verified_kingdoms_target_3",
+      "prompt": "Which pair correctly describes the change connected with Ahmose?",
+      "options": [
+        "Hyksos rule in northern Egypt was defeated by Ahmose.",
+        "Ahmose built Khufu’s Great Pyramid during Hyksos rule.",
+        "Hyksos is another name for Mentuhotep II."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "rationale": "Correct: Hyksos rule in northern Egypt was defeated by Ahmose. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "terms": [
+        "Hyksos",
+        "Ahmose"
+      ],
+      "repair": {
+        "id": "ss_verified_kingdoms_target_3_repair",
+        "prompt": "A timeline puts Ahmose after the end of Hyksos control. What relationship should it explain?",
+        "options": [
+          "Ahmose helped defeat that rule and begin the New Kingdom.",
+          "Ahmose and the Hyksos are one person.",
+          "The Hyksos were a kind of royal coffin."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "rationale": "Correct: Ahmose helped defeat that rule and begin the New Kingdom. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_hyksos",
+        "ss_term_ahmose"
+      ]
+    },
+    {
+      "id": "ss_verified_kingdoms_evidence_ss_term_hyksos",
+      "prompt": "Why is Hyksos rule part of Egypt’s political history?",
+      "options": [
+        "It concerns who controlled northern Egypt.",
+        "It names the material used for writing sheets.",
+        "It describes every Egyptian burial container."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_hyksos"
+      ],
+      "rationale": "Correct: It concerns who controlled northern Egypt. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "terms": [
+        "Hyksos"
+      ],
+      "repair": {
+        "id": "ss_verified_kingdoms_evidence_ss_term_hyksos_repair",
+        "prompt": "Which statement concerns the Hyksos as rulers rather than a material or place?",
+        "options": [
+          "They controlled northern Egypt for a period.",
+          "They were sheets made from Nile plants.",
+          "They were rocky rapids near a river mouth."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "rationale": "Correct: They controlled northern Egypt for a period. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_kingdoms_evidence_ss_term_ahmose",
+      "prompt": "Why can Ahmose’s victory serve as a marker for a new historical period?",
+      "options": [
+        "It connects a major change in rulers with the New Kingdom.",
+        "It marks the building of Khufu’s Old Kingdom pyramid.",
+        "It proves Egypt had no rulers before him."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_ahmose"
+      ],
+      "rationale": "Correct: It connects a major change in rulers with the New Kingdom. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "terms": [
+        "Ahmose"
+      ],
+      "repair": {
+        "id": "ss_verified_kingdoms_evidence_ss_term_ahmose_repair",
+        "prompt": "Which change is the strongest reason to connect Ahmose with the New Kingdom?",
+        "options": [
+          "The defeat of Hyksos rule and reunification",
+          "The first use of the traditional name Menes",
+          "The construction of the Great Pyramid"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "rationale": "Correct: The defeat of Hyksos rule and reunification. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "prompt": "Which is a sound use of pyramid evidence?",
+      "options": [
+        "It can show royal power and organized work.",
+        "It proves every worker had the same social rank.",
+        "It proves one ruler built it without help."
+      ],
+      "answer": 0,
+      "rationale": "Correct: It can show royal power and organized work. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+      "id": "ss_verified_kingdoms_khufu_item5",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "repair": {
+        "prompt": "Which conclusion goes beyond the monument evidence?",
+        "options": [
+          "One ruler personally did all construction work.",
+          "The project needed planning.",
+          "Different skilled tasks were involved."
+        ],
+        "answer": 0,
+        "rationale": "Correct: One ruler personally did all construction work. The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "id": "ss_verified_kingdoms_khufu_repair5",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31
+          ]
+        },
+        "teach": "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza. Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power. Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser’s earlier Step Pyramid. The textbook’s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Khufu"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ]
+    },
+    {
+      "prompt": "Which heading best fits a paragraph about Mentuhotep II bringing divided Egypt under one ruler?",
+      "options": [
+        "Reunification and the Middle Kingdom",
+        "Papyrus and writing",
+        "Ramses II at Abu Simbel"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Reunification and the Middle Kingdom. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+      "id": "ss_verified_kingdoms_mentuhotep_item5",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "repair": {
+        "prompt": "If a reading says a ruler restored unity, what should you look for?",
+        "options": [
+          "Evidence of divided rule followed by shared rule",
+          "Evidence that the Nile changed direction",
+          "Evidence that all occupations disappeared."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Evidence of divided rule followed by shared rule. After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "id": "ss_verified_kingdoms_mentuhotep_repair5",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32
+          ]
+        },
+        "teach": "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom. Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification. Learn the order rather than the textbook’s conflicting date ranges: Old Kingdom → divided rule → Mentuhotep II and the Middle Kingdom.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Mentuhotep II"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ]
+    },
+    {
+      "prompt": "Which order fits the assigned history?",
+      "options": [
+        "Hyksos rule → Ahmose’s victory → New Kingdom",
+        "New Kingdom → Khufu’s pyramid → Hyksos rule",
+        "Ahmose’s victory → Menes’s early unification → Old Kingdom"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hyksos rule → Ahmose’s victory → New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+      "id": "ss_verified_kingdoms_hyksos_ahmose_item5",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "prompt": "Why should you connect Ahmose to an event, not only memorize his name?",
+        "options": [
+          "The event explains his role in the change to New Kingdom rule.",
+          "His name tells you the Nile’s length.",
+          "Every ruler had exactly the same role."
+        ],
+        "answer": 0,
+        "rationale": "Correct: The event explains his role in the change to New Kingdom rule. The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "id": "ss_verified_kingdoms_hyksos_ahmose_repair5",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            32,
+            33
+          ]
+        },
+        "teach": "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt’s three kingdom names. Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom. Remember the change: Hyksos rule in the north → Ahmose defeats their rule → New Kingdom. The textbook’s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Ahmose",
+        "Hyksos"
+      ],
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos",
+        "ss_term_ahmose"
+      ]
+    },
+    {
+      "prompt": "Which match is accurate?",
+      "options": [
+        "Mentuhotep II—Middle Kingdom reunification",
+        "Khufu—expulsion of Hyksos",
+        "Ahmose—Great Pyramid"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Mentuhotep II—Middle Kingdom reunification. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "id": "ss_verified_kingdoms_day3",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "retrievalDay": 3,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_kingdoms_day3_repair",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "prompt": "A student links the Middle Kingdom to Khufu. Which name corrects the reunification match?",
+        "options": [
+          "Mentuhotep II",
+          "Tutankhamun",
+          "Ramses II"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Mentuhotep II. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Why does a timeline help distinguish Khufu and Ahmose?",
+      "options": [
+        "It connects their events with different periods.",
+        "It makes the two rulers identical.",
+        "It replaces the need to read the events."
+      ],
+      "answer": 0,
+      "rationale": "Correct: It connects their events with different periods. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "id": "ss_verified_kingdoms_day7",
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "retrievalDay": 7,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_kingdoms_day7_repair",
+        "objectiveId": "ss_verified_kingdoms_mentuhotep",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "prompt": "A historian compares an Old Kingdom pyramid with a New Kingdom temple. What should the comparison preserve?",
+        "options": [
+          "Their different periods and purposes",
+          "A claim that they were built by the same ruler",
+          "A claim that every monument was a pyramid"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Their different periods and purposes. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which change follows Ahmose’s victory in this unit?",
+      "options": [
+        "New Kingdom rule",
+        "Khufu’s Old Kingdom pyramid building",
+        "The first use of Menes’s traditional name"
+      ],
+      "answer": 0,
+      "rationale": "Correct: New Kingdom rule. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "id": "ss_verified_kingdoms_day14",
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "retrievalDay": 14,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_kingdoms_day14_repair",
+        "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "prompt": "Which ruler belongs between Hyksos control and the New Kingdom in the sequence?",
+        "options": [
+          "Ahmose I",
+          "Khufu",
+          "Menes"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Ahmose I. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which statement is a better historical explanation?",
+      "options": [
+        "Different rulers gained power under different conditions.",
+        "Every pharaoh ruled at the same time.",
+        "All major monuments were built by one ruler."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Different rulers gained power under different conditions. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+      "id": "ss_verified_kingdoms_day30",
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "retrievalDay": 30,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31,
+          32,
+          33
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_kingdoms_day30_repair",
+        "objectiveId": "ss_verified_kingdoms_khufu",
+        "teach": "Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "prompt": "Why is building one pyramid not a complete account of Egyptian history?",
+        "options": [
+          "Egyptian history includes many rulers, periods and kinds of evidence.",
+          "Every ruler lived in Khufu’s lifetime.",
+          "All rulers had the same accomplishments."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Egyptian history includes many rulers, periods and kinds of evidence. Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event. A modern timeline also needs order; matching two people to the same general word does not prove they lived at the same time.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            30,
+            31,
+            32,
+            33
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "nextLessonId": "ss_verified_new_rulers",
+  "memoryCue": "Khufu—Great Pyramid; Mentuhotep—Middle Kingdom; Ahmose—after Hyksos rule."
+}

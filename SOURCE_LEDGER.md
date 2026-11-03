@@ -130,3 +130,8 @@ Rayna's Audio now uses generated teaching chapters from the same cumulative stud
 Additive Practice A (16 original selected-response items plus two connection checks) and Practice B (16 fresh mixed items), with six constructed tasks. Reading Buddies questions are grounded in the reconciled uploaded paragraphs. The heron first-person account and shelter media pair are original, explicitly labeled, and embedded with every dependent question. They practice the assigned autobiography/media skills without inventing Goodall excerpt details. Exact autobiography and assigned full-video gaps remain open.
 
 Purdue OWL independent/dependent clause guidance and ReadWriteThink’s printable Compare and Contrast Chart were recovered from their official pages on October 21. The chart is adapted as a paper evidence organizer; a legacy Flash interactive was not assigned. Close-chart retrieval and evidence-limit questions repair the organizer’s omissions. New original grammar items were checked for subject/verb structure, dependence, punctuation, and one defensible keyed response (or exactly two selections). Existing question identities and first-attempt storage remain unchanged.
+
+
+## November3 current Egypt release — supersedes earlier Egypt recovery/hold notes
+
+The exact51-page OER text, all24 vocabulary terms, seven-page pyramid, two-page Two Lands, six-page mystery, instructions image,12 project slides and rubric images2–3 were recovered/reviewed. Current13-chapter teaching and MC practice are deployed privately. See curriculum-2026-11/SOCIAL-STUDIES-QC.md and the source/term matrix. Orange-book149–151, older course underlying files and full teacher-media playback remain incomplete. No complete historical-course/yearlong audit is claimed.

@@ -1,0 +1,1388 @@
+{
+  "id": "ss_verified_burial",
+  "subject": "SS",
+  "title": "Mummies, tombs and preserving the body",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "objectiveIds": [
+    "ss_verified_burial_mummy_process",
+    "ss_verified_burial_burial_objects",
+    "ss_term_mummy",
+    "ss_term_mummification",
+    "ss_term_pyramids"
+  ],
+  "objectiveLabels": {
+    "ss_verified_burial_mummy_process": "Mummy and mummification",
+    "ss_verified_burial_burial_objects": "Canopic jars, coffins and pyramids",
+    "ss_term_mummy": "mummy",
+    "ss_term_mummification": "mummification",
+    "ss_term_pyramids": "pyramids"
+  },
+  "teach": [
+    "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay.",
+    "In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history.",
+    "Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+    "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb.",
+    "A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid.",
+    "Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_burial_mummy_process",
+      "title": "Mummy and mummification",
+      "where": "Assigned Egypt OER PDF pages 22, 23, 24, 26.",
+      "sourceUrl": "/?reading=egypt&page=22",
+      "teach": [
+        "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay.",
+        "In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history.",
+        "Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered."
+      ],
+      "example": {
+        "prompt": "Is mummy the name of a person’s job, a preserved body or a process?",
+        "thinking": "The ending of the words helps me keep the result separate from the process.",
+        "answer": "Mummy means the preserved body. Mummification is the process.",
+        "why": "A task asking for the process needs mummification, not mummy."
+      },
+      "tryPrompt": "Which word names the preservation process?",
+      "tryChoices": [
+        "Mummification",
+        "Mummy",
+        "Pharaoh"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Mummification. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay.",
+      "connections": [
+        {
+          "id": "ss_verified_burial_mummy_process_connection_0",
+          "prompt": "How did afterlife beliefs connect with mummification?",
+          "options": [
+            "People wanted a preserved body as part of preparations for an afterlife.",
+            "Preserving a body changed the direction of the Nile.",
+            "Every person became a pharaoh after mummification."
+          ],
+          "answer": 0,
+          "rationale": "People wanted a preserved body as part of preparations for an afterlife. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose."
+        },
+        {
+          "id": "ss_verified_burial_mummy_process_connection_1",
+          "prompt": "A class compares a finished object with the process that made it. Which pair uses that distinction?",
+          "options": [
+            "Mummy is the preserved body; mummification is the process.",
+            "Both mummy and mummification mean the same government office.",
+            "Mummy is a river rapid; mummification is its mouth."
+          ],
+          "answer": 0,
+          "rationale": "Mummy is the preserved body; mummification is the process. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_burial_burial_objects",
+      "title": "Canopic jars, coffins and pyramids",
+      "where": "Assigned Egypt OER PDF pages 24, 25, 26, 41, 42.",
+      "sourceUrl": "/?reading=egypt&page=24",
+      "teach": [
+        "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb.",
+        "A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid.",
+        "Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site."
+      ],
+      "example": {
+        "prompt": "A question asks which container held certain organs. Should I choose a canopic jar or a sarcophagus?",
+        "thinking": "I match the container to what it held. An organ jar is different from an outer coffin.",
+        "answer": "Canopic jar.",
+        "why": "Precise object names help explain different parts of a burial."
+      },
+      "tryPrompt": "Which object is an outer coffin?",
+      "tryChoices": [
+        "Sarcophagus",
+        "Canopic jar",
+        "Papyrus sheet"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Sarcophagus. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb.",
+      "connections": [
+        {
+          "id": "ss_verified_burial_burial_objects_connection_0",
+          "prompt": "How did pyramid building connect government with religion?",
+          "options": [
+            "Royal power organized a tomb linked with afterlife beliefs.",
+            "The tomb made laws and officials unnecessary.",
+            "Every worker received an identical royal tomb."
+          ],
+          "answer": 0,
+          "rationale": "Royal power organized a tomb linked with afterlife beliefs. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose."
+        },
+        {
+          "id": "ss_verified_burial_burial_objects_connection_1",
+          "prompt": "A historian compares an organ jar and a coffin. Which method gives the clearest comparison?",
+          "options": [
+            "Compare what each object held and how it was used.",
+            "Call both objects the whole Valley of the Kings.",
+            "Assume both held exactly the same thing."
+          ],
+          "answer": 0,
+          "rationale": "Compare what each object held and how it was used. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+    },
+    {
+      "sourceId": "tomb-evidence",
+      "title": "Tomb of Tutankhamun — Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/monuments/tomb-of-tutankhamun/",
+      "status": "Primary-source factual cross-check",
+      "pages": []
+    }
+  ],
+  "readingLocation": {
+    "startPage": 22,
+    "endPage": 42,
+    "where": "Assigned Egypt OER PDF pages 22, 23, 24, 25, 26, 41, 42"
+  },
+  "links": {
+    "prior": "Beliefs about an afterlife influenced preparation for death. Now distinguish a preserved body, its preparation process and burial objects.",
+    "current": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+    "future": "Upper and Lower Egypt: The Nile flows north. Next, connect its water and silt to farming.",
+    "realLife": "Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+    "priorLessonId": "ss_verified_beliefs",
+    "futureLessonId": "ss_verified_two_lands"
+  },
+  "vocabulary": [
+    {
+      "word": "mummy",
+      "definition": "A preserved body.",
+      "example": "A prepared and wrapped body can be a mummy.",
+      "nonExample": "Mummy names the result, not all the preservation steps.",
+      "objectiveId": "ss_term_mummy"
+    },
+    {
+      "word": "mummification",
+      "definition": "The process of preserving a body for burial.",
+      "example": "Drying and wrapping are steps in the described process.",
+      "nonExample": "It is not a system for counting people.",
+      "objectiveId": "ss_term_mummification"
+    },
+    {
+      "word": "pyramids",
+      "definition": "Monumental structures used as royal tombs in ancient Egypt.",
+      "example": "Khufu’s Great Pyramid stands at Giza.",
+      "nonExample": "Not every Egyptian was buried in a pyramid.",
+      "objectiveId": "ss_term_pyramids"
+    }
+  ],
+  "proof": {
+    "prompt": "Use the multiple-choice independent application.",
+    "criteria": []
+  },
+  "practice": [
+    {
+      "prompt": "Which term names a preserved body?",
+      "options": [
+        "Mummy",
+        "Mummification",
+        "Bureaucracy"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Mummy. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+      "id": "ss_verified_burial_mummy_process_item1",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          26
+        ]
+      },
+      "repair": {
+        "prompt": "Which word names the result rather than the preparation process?",
+        "options": [
+          "Mummy",
+          "Embalming",
+          "Mummification"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Mummy. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "id": "ss_verified_burial_mummy_process_repair1",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            26
+          ]
+        },
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "supported": true
+      },
+      "terms": [
+        "mummy"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummy"
+      ]
+    },
+    {
+      "prompt": "What was the purpose of mummification?",
+      "options": [
+        "Preserving a body for burial, connected with afterlife beliefs",
+        "Moving water to fields",
+        "Counting people for government records"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Preserving a body for burial, connected with afterlife beliefs. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+      "id": "ss_verified_burial_mummy_process_item2",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          26
+        ]
+      },
+      "repair": {
+        "prompt": "Which question concerns mummification?",
+        "options": [
+          "How was a body preserved for burial?",
+          "Who counted grain taxes?",
+          "Where does the Nile reach the sea?"
+        ],
+        "answer": 0,
+        "rationale": "Correct: How was a body preserved for burial?. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "id": "ss_verified_burial_mummy_process_repair2",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            26
+          ]
+        },
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "supported": true
+      },
+      "terms": [
+        "mummification"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummification"
+      ]
+    },
+    {
+      "prompt": "What did canopic jars hold?",
+      "options": [
+        "Certain organs removed during mummification",
+        "Grain taxes from every farmer",
+        "A pharaoh’s whole army"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Certain organs removed during mummification. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+      "id": "ss_verified_burial_burial_objects_item1",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "prompt": "Which burial object is connected with preserving organs?",
+        "options": [
+          "Canopic jar",
+          "Double crown",
+          "Irrigation basin"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Canopic jar. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "id": "ss_verified_burial_burial_objects_repair1",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "teach": "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which description fits a pyramid in this unit?",
+      "options": [
+        "A monumental royal tomb",
+        "A writing system",
+        "A population count"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A monumental royal tomb. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+      "id": "ss_verified_burial_burial_objects_item2",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "prompt": "Why did pyramids have religious significance?",
+        "options": [
+          "They were linked with royal burial and afterlife beliefs.",
+          "They made all people pharaohs.",
+          "They were designed only as marketplaces."
+        ],
+        "answer": 0,
+        "rationale": "Correct: They were linked with royal burial and afterlife beliefs. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "id": "ss_verified_burial_burial_objects_repair2",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "teach": "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "supported": true
+      },
+      "terms": [
+        "pyramids"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_burial_objects",
+        "ss_term_pyramids"
+      ]
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "Why was natron used in the described process?",
+      "options": [
+        "It helped dry the body.",
+        "It formed the ink for a census.",
+        "It was a crown joining two regions."
+      ],
+      "answer": 0,
+      "rationale": "Correct: It helped dry the body. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+      "id": "ss_verified_burial_mummy_process_item3",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          26
+        ]
+      },
+      "repair": {
+        "prompt": "Which step helped slow decay by removing moisture?",
+        "options": [
+          "Drying with natron",
+          "Taking a census",
+          "Building an irrigation ditch"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Drying with natron. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "id": "ss_verified_burial_mummy_process_repair3",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            26
+          ]
+        },
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "supported": true
+      },
+      "terms": [
+        "mummification"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummification"
+      ]
+    },
+    {
+      "prompt": "What is a sarcophagus?",
+      "options": [
+        "A large outer coffin, often stone",
+        "A channel carrying water",
+        "A family line of rulers"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A large outer coffin, often stone. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+      "id": "ss_verified_burial_burial_objects_item3",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "prompt": "Which term names a coffin rather than an organ jar?",
+        "options": [
+          "Sarcophagus",
+          "Canopic jar",
+          "Delta"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Sarcophagus. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "id": "ss_verified_burial_burial_objects_repair3",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "teach": "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [
+    {
+      "prompt": "Which order matches the process described?",
+      "options": [
+        "Clean and treat → dry → wrap in linen",
+        "Wrap → take a census → move the Nile",
+        "Build a crown → harvest grain → dry papyrus"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Clean and treat → dry → wrap in linen. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+      "id": "ss_verified_burial_mummy_process_item4",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          26
+        ]
+      },
+      "repair": {
+        "prompt": "Why should you use the phrase the process described in this reading?",
+        "options": [
+          "Practices could vary over time.",
+          "Every Egyptian burial was identical.",
+          "Mummification is a modern invented word."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Practices could vary over time. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "id": "ss_verified_burial_mummy_process_repair4",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            26
+          ]
+        },
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "supported": true
+      },
+      "terms": [
+        "mummification"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummification"
+      ]
+    },
+    {
+      "prompt": "Why is it inaccurate to say every Egyptian was buried in a pyramid?",
+      "options": [
+        "Burial practices and resources differed; pyramids were royal monuments.",
+        "No Egyptian ruler used a pyramid.",
+        "Pyramid means every desert grave."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Burial practices and resources differed; pyramids were royal monuments. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+      "id": "ss_verified_burial_burial_objects_item4",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "prompt": "Which statement is appropriately limited?",
+        "options": [
+          "Some rulers were buried in pyramids.",
+          "Every farmer owned a royal pyramid.",
+          "Every Egyptian tomb was the same building."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Some rulers were buried in pyramids. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "id": "ss_verified_burial_burial_objects_repair4",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "teach": "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "supported": true
+      },
+      "terms": [
+        "pyramids"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_burial_objects",
+        "ss_term_pyramids"
+      ]
+    },
+    {
+      "id": "ss_verified_burial_target_2",
+      "prompt": "An exhibit label identifies a preserved human body. Which term names that body?",
+      "options": [
+        "Mummy",
+        "Bureaucracy",
+        "Commerce"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "rationale": "Correct: Mummy. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      "terms": [
+        "mummy"
+      ],
+      "repair": {
+        "id": "ss_verified_burial_target_2_repair",
+        "prompt": "Which phrase names a mummy rather than a step in preparation?",
+        "options": [
+          "A preserved body",
+          "The act of drying with natron",
+          "The act of wrapping in linen"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "rationale": "Correct: A preserved body. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummy"
+      ]
+    },
+    {
+      "id": "ss_verified_burial_target_3",
+      "prompt": "How is a mummy related to mummification?",
+      "options": [
+        "It is the preserved body produced through the process.",
+        "It is the official who collects taxes for the process.",
+        "It is the name of the river beside the process."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "rationale": "Correct: It is the preserved body produced through the process. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      "terms": [
+        "mummy",
+        "mummification"
+      ],
+      "repair": {
+        "id": "ss_verified_burial_target_3_repair",
+        "prompt": "Which comparison separates an object from the steps used to prepare it?",
+        "options": [
+          "Mummy names a preserved body; mummification names preservation steps.",
+          "Both names mean the same government office.",
+          "Both names mean a royal family line."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "rationale": "Correct: Mummy names a preserved body; mummification names preservation steps. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummy",
+        "ss_term_mummification"
+      ]
+    },
+    {
+      "id": "ss_verified_burial_target_4",
+      "prompt": "Which connection helps explain the purpose of an Egyptian royal pyramid?",
+      "options": [
+        "Royal burial was linked with beliefs about an afterlife.",
+        "A pyramid was the material on which scribes wrote.",
+        "A pyramid was a government count of the population."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "rationale": "Correct: Royal burial was linked with beliefs about an afterlife. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      "terms": [
+        "pyramids"
+      ],
+      "repair": {
+        "id": "ss_verified_burial_target_4_repair",
+        "prompt": "A large building contains a royal burial chamber. Which use fits a pyramid in this unit?",
+        "options": [
+          "A tomb connected with royal power and afterlife beliefs",
+          "A writing system using picture signs",
+          "A set of rocky river rapids"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "rationale": "Correct: A tomb connected with royal power and afterlife beliefs. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_pyramids"
+      ]
+    },
+    {
+      "id": "ss_verified_burial_evidence_ss_term_mummy",
+      "prompt": "Which museum label correctly names a preserved body without confusing it with its container?",
+      "options": [
+        "Mummy",
+        "Sarcophagus",
+        "Canopic jar"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummy"
+      ],
+      "rationale": "Correct: Mummy. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      "terms": [
+        "mummy"
+      ],
+      "repair": {
+        "id": "ss_verified_burial_evidence_ss_term_mummy_repair",
+        "prompt": "A preserved body is displayed beside its outer coffin. Which term names the body itself?",
+        "options": [
+          "Mummy",
+          "Sarcophagus",
+          "Dynasty"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "rationale": "Correct: Mummy. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_burial_evidence_ss_term_pyramids",
+      "prompt": "A large tomb project requires food, skilled work and leadership. Which explanation fits Egyptian pyramids?",
+      "options": [
+        "Royal burial linked religious purposes with organized resources.",
+        "Pyramids made farmers and specialists unnecessary.",
+        "Every Egyptian was given the same royal monument."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_pyramids"
+      ],
+      "rationale": "Correct: Royal burial linked religious purposes with organized resources. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          27,
+          28,
+          29,
+          30,
+          31,
+          32,
+          33,
+          34,
+          35,
+          36,
+          37,
+          38,
+          39,
+          40,
+          41,
+          42
+        ]
+      },
+      "terms": [
+        "pyramids"
+      ],
+      "repair": {
+        "id": "ss_verified_burial_evidence_ss_term_pyramids_repair",
+        "prompt": "Which connection explains why a pyramid involved more than stone blocks?",
+        "options": [
+          "Its construction connected labor, supplies, royal authority and burial beliefs.",
+          "It was only a population count written on papyrus.",
+          "It was a rough stretch of river used by boats."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "rationale": "Correct: Its construction connected labor, supplies, royal authority and burial beliefs. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "prompt": "Which pair correctly separates mummy from mummification?",
+      "options": [
+        "Mummy—preserved body; mummification—process",
+        "Mummy—ruler; mummification—river mouth",
+        "Mummy—trade; mummification—census"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Mummy—preserved body; mummification—process. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+      "id": "ss_verified_burial_mummy_process_item5",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          26
+        ]
+      },
+      "repair": {
+        "prompt": "A student uses mummy for every step of preservation. Which word better names those steps together?",
+        "options": [
+          "Mummification",
+          "Commerce",
+          "Delta"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Mummification. A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "id": "ss_verified_burial_mummy_process_repair5",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            26
+          ]
+        },
+        "teach": "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay. In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt’s long history. Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "mummy",
+        "mummification"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_mummy_process",
+        "ss_term_mummy",
+        "ss_term_mummification"
+      ]
+    },
+    {
+      "prompt": "Which pair correctly distinguishes burial sites?",
+      "options": [
+        "Khufu—Giza; Tutankhamun—Valley of the Kings",
+        "Khufu—Valley of the Kings; Tutankhamun—Great Sphinx",
+        "Both rulers—one identical tomb at Memphis"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Khufu—Giza; Tutankhamun—Valley of the Kings. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+      "id": "ss_verified_burial_burial_objects_item5",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "prompt": "A classmate calls Giza another name for the Valley of the Kings. What should change?",
+        "options": [
+          "Treat them as different places with different tombs.",
+          "Use both names for every Egyptian site.",
+          "Place both sites at the Nile’s mouth."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Treat them as different places with different tombs. Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "id": "ss_verified_burial_burial_objects_repair5",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "teach": "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb. A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid. Giza and the Valley of the Kings are different burial places. Khufu’s Great Pyramid is at Giza; Tutankhamun’s tomb is in the Valley of the Kings. Do not use these place names as if they were one site.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "pyramids"
+      ],
+      "objectiveIds": [
+        "ss_verified_burial_burial_objects",
+        "ss_term_pyramids"
+      ]
+    },
+    {
+      "prompt": "Which word names a process rather than its result?",
+      "options": [
+        "Mummification",
+        "Mummy",
+        "Sarcophagus"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Mummification. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "id": "ss_verified_burial_day3",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "retrievalDay": 3,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_burial_day3_repair",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "prompt": "Which word names the steps used to preserve a body?",
+        "options": [
+          "Mummification",
+          "Mummy",
+          "Sarcophagus"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Mummification. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A museum label identifies a canopic jar. Which question best connects object and purpose?",
+      "options": [
+        "Which organs did such jars preserve for burial?",
+        "How many soldiers could it command?",
+        "Which city did it conquer?"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Which organs did such jars preserve for burial?. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "id": "ss_verified_burial_day7",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "retrievalDay": 7,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_burial_day7_repair",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "prompt": "An object label says it held a preserved liver. Which container fits?",
+        "options": [
+          "Canopic jar",
+          "Irrigation ditch",
+          "Double crown"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Canopic jar. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which reasoning avoids an overgeneralization?",
+      "options": [
+        "One royal tomb does not describe every person’s burial.",
+        "Every tomb had exactly King Tut’s goods.",
+        "All preserved bodies belonged to one ruler."
+      ],
+      "answer": 0,
+      "rationale": "Correct: One royal tomb does not describe every person’s burial. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "id": "ss_verified_burial_day14",
+      "objectiveId": "ss_verified_burial_mummy_process",
+      "retrievalDay": 14,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_burial_day14_repair",
+        "objectiveId": "ss_verified_burial_mummy_process",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "prompt": "A family had fewer resources than a pharaoh. What should a burial comparison allow for?",
+        "options": [
+          "Differences in goods and preparation",
+          "An identical royal tomb for every person",
+          "A rule that only pharaohs had religious beliefs"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Differences in goods and preparation. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which connection links a pyramid with religion?",
+      "options": [
+        "A royal tomb prepared a ruler for an expected afterlife.",
+        "A pyramid is the same as a census.",
+        "A pyramid proves there were no farmers."
+      ],
+      "answer": 0,
+      "rationale": "Correct: A royal tomb prepared a ruler for an expected afterlife. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+      "id": "ss_verified_burial_day30",
+      "objectiveId": "ss_verified_burial_burial_objects",
+      "retrievalDay": 30,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          22,
+          23,
+          24,
+          25,
+          26,
+          41,
+          42
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_burial_day30_repair",
+        "objectiveId": "ss_verified_burial_burial_objects",
+        "teach": "A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "prompt": "Why did rulers connect large tombs with afterlife beliefs?",
+        "options": [
+          "The tomb helped prepare a ruler for expected life after death.",
+          "The tomb counted every person in Egypt.",
+          "The tomb changed the Nile’s flow."
+        ],
+        "answer": 0,
+        "rationale": "Correct: The tomb helped prepare a ruler for expected life after death. A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose. Connect belief → preparation → object. A burial object supports a specific explanation; it does not show that all people received royal treatment.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            22,
+            23,
+            24,
+            25,
+            26,
+            41,
+            42
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "nextLessonId": "ss_verified_two_lands",
+  "memoryCue": "Mummy: preserved body. Mummification: preservation process."
+}

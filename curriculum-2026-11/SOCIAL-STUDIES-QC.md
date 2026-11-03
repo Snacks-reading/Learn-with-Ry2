@@ -1,47 +1,44 @@
-# Social Studies source reset — November 2, 2026 (Central)
+# Social Studies delivery QC · November 3, 2026
 
-## Draft scope — release BLOCKED
+Current release:13 source-backed Egypt chapters for current classroom preparation. This supersedes the November2 six-draft hold. It does not certify the full historical course or five-subject census. Governance section12 priority preparation is limited to verified recovered requirements; unverified sources remain excluded from scored evidence.
 
-Six UNRELEASED draft chapters are prepared as replacements for the ten withdrawn generated Egypt lessons: Upper/Lower Egypt; Nile farming; the teacher’s social pyramid; occupations/contributions; government officials; priests, soldiers and legal rights. The new IDs begin `ss_verified_`. No old response, score or completion is transferred to them.
+## Classroom alignment
 
-All assessment is multiple choice: 12 practice items, 6 fresh application items, 30 scheduled retrieval items and 48 distinct targeted repairs. Each item and repair names its source and PDF pages. The worked examples and guided tries are separate from the scored banks. Three choices keep responses focused; server personalization preserves each authored answer when it changes the choice order.
+| Classroom material | Incorporation |
+| --- | --- |
+| Assigned51-page OER | Geography, farming, society, religion, kingdoms/rulers, writing and trade; lesson/item source and PDF pages |
+| Teacher24-term vocabulary list | All24 terms taught with definitions, examples, common confusions, at least four non-delayed assessment opportunities and delayed retrieval; exact term-to-item matrix in data/egypt-term-coverage.json |
+| Teacher social pyramid, all7 pages | Exact original five-level diagram and source-specific grouping; occupation-to-contribution examples and MC checks |
+| Two Lands, both pages | Upper/Lower Egypt, upstream/downstream; faulty Black/Red generalization excluded |
+| Who Done It society activity, all6 pages | Social classes, offices, occupations and rights; fictional mystery events never treated as historical facts |
+| Social Classes instructions | OER15–18, exact diagram and contributions; orange-book149 remains unavailable |
+| Project12 slides and rubric images2–3 | Reviewed; scaled-map requirement respected. Studio satellite is not a scaled project map. Project option/paragraph ambiguity remains in Parent |
+| October30 teacher newsletter | November5 quiz priority: history, social structure, political and religious values |
 
-The imprecise drawn map stays removed. Draft chapter 1 uses the original satellite image from assigned OER page 4, Figure 1, behind authentication. It is for identifying its labeled features; it has no scale bar and must not be used for distances or as the project’s scaled map. No synthetic map labels are added.
+## Working learning and testing path
 
-## Source evidence and limits
+Readings is a separate private desk with exact page text, original selected diagrams, correction notes, page narration and a return-to-chapter link. Each teaching topic has Learn, a worked answer, guided MC, and two distinct Connect & apply MC checks. All topic checks must be attempted/compared before practice. No Social Studies textarea or oral/written proof requirement remains.
 
-| Resource | Actual review | Use |
-| --- | --- | --- |
-| Assigned OER Egypt PDF | Current51-page download recovered; named geography/agriculture/society pages checked | Geography, agriculture and jobs/offices; precise per-item page references |
-| Two Lands reading | Both scanned pages visually read | Upper/Lower location and Nile context; faulty Black/Red generalization excluded |
-| Social Pyramid PDF | All7 pages read; diagram and pages3–5 visually checked | Exact teacher five-level labels; do not merge with other diagrams |
-| Who Done It society PDF | All6 scanned pages visually read | Society targets; fictional mystery events are not historical claims |
-| Social Classes instructions image | Full image visually read | OER15–18 + orange book149; three contributions per role; dueNov5 |
-| Vocabulary checklist | Both pages read;24 terms recovered | Remaining ruler/history coverage is still unreleased |
-| Egypt project slides | All12 slides text-read | Accurate-scale requirement recovered; rubric images on slides2–3 still unread |
+Practice A allows assigned reading. B and C require closed notes. The server requires the preceding form and an attempted specific repair for every miss before the next form. There are201 original primary MC items and201 specific supported repairs across A/B/C and day1/3/7/14/30 retrieval. Repairs cannot erase a first response or count as independent evidence. Old lesson IDs remain archived; their records are preserved and never transferred to replacement IDs.
 
-Full Social Studies and five-subject source censuses are **incomplete**. Older course resources, orange-book pages149–151, remaining historical/religion/achievements/trade sections and linked media require further review. The source ledger remains incomplete. Six released chapters do not constitute all24 vocabulary targets or complete project preparation.
+Mastery requires at least90%, four independent responses per objective, fresh transfer and delayed evidence. Term-specific objective aliases prevent a broad chapter score from hiding an unmeasured/weak vocabulary term. Completing the lesson or first practice does not establish mastery. Parent reports are private and idempotent.
 
-## Verified checks
+## Corrections and interface
 
-- Eight automated suites pass, including all replacement keys, source/page provenance, distinct authored prompt IDs, protected answer payloads and archived-catalog exclusion.
-- Isolated in-memory backend tests pass: first responses stay immutable; no written Social Studies proof; no required typed reasoning; old IDs reject new submissions; check B requires initial practice; independent and supported work remain separate; reports are idempotent and private.
-- Retrieval is multiple choice on days1,3,7,14,30. Each day has a separate server timestamp gate and parent report. No memory-check completion or mastery is awarded before the required evidence. A repair cannot become independent evidence.
-- TypeScript passes. Production build and deployment are checked separately in the release workflow.
-- Managed desktop browser: chapter navigation, restored learning phase, original map, worked example, radio-button guided try, feedback, practice handoff, answer save without typing, wrong first response and a different targeted repair were exercised against an isolated synthetic account. No student account was used for QC writes.
-- A390px child viewport was opened and Social Studies loaded. Final visual overflow inspection was interrupted by browser infrastructure errors; do not claim the mobile visual audit fully passed.
-- Rayna’s private Audio derives its script from the same draft teaching sections, with narration blocked while the release is held. Actual full audio playback is not newly verified in this reset.
+Removed the fabricated drawn map and unrelated keys. Use only the authenticated original OER satellite, with no distance or scale claims. Teacher pyramid labels are not merged with another source. Corrected distinctions include Menes/Narmer uncertainty; Khufu versus Djoser/Imhotep; Hatshepsut and ThutmoseIII; Giza versus Valley of the Kings; Rosetta three scripts/two languages. Conflicting chronology and Hyksos iron claims do not supply answers.
 
-## Privacy
+Home leads to subject lessons. Chapter navigation follows quiz priority; other chapters stay accessible through Browse all. Current topic/step and one MC question at a time make the next action explicit. Reading returns preserve chapter and teaching position. Rayna’s Audio script derives from the same current teaching, models, vocabulary, guided checks and connections.
 
-Teacher documents and the exact satellite image stay on authenticated private routes. Public GitHub contains original curriculum, source links, release status and QC notes, never licensed full source files, student records, school grades or routines. Old development JSON is explicitly archived and excluded from student selection and narration.
+## Verification evidence
 
-## Final release decision
+Eight automated suites, isolated backend integration checks and TypeScript passed. Checks cover keys/provenance, all24 term evidence floors, distinct MC IDs, shuffled answer remapping, no answer leakage, sequence/repair locks, supported versus independent evidence, immutable first responses, delayed timestamp gates, archived records and account isolation. Final production build/deployment are recorded separately by hosting.
 
-**BLOCKED.** Governance’s fail-closed rule states: “A missing source row, unresolved requirement, absent evidence stage, inaccessible controlling source, unverified answer key, or unreviewed source change blocks publication.” The current source manifest is explicitly blocked. Automated component/backend checks are supporting evidence, not source completeness. The student path and Rayna’s Audio continue to show teacher materials; draft assessment is rejected server-side. Also unfinished: source-side atomic coverage and red-team reread, two explicit connection/application checks per objective, final phone visual/interaction review and full playback review. No claim of completed Social Studies or five-subject QC is made.
+Desktop synthetic QA exercised teaching, original pyramid, worked model, guided choice/feedback, both connection checks, practice handoff, wrong first response and supported repair. A390 CSS-pixel phone child viewport loaded the13-chapter route, teaching, original figure and worked example; measured scrollWidth375 equals clientWidth375 (no horizontal overflow). No production learner records were written for QC.
 
-## Final teacher-materials interface check
+Audio scripts and controls are checked; full human listening/voice quality and every teacher external video are not certified. Schoology authentication expired after source recovery; no claim is made to have checked for newly posted material after the recovered snapshots.
 
-After browser recovery, the final held-release teacher-materials desk was checked on desktop and in the390px child viewport (375px content width after the scrollbar). Document width matched viewport width: no horizontal document overflow. The phone’s Social Studies entry action opened the six material cards. This verifies the source-only desk, not the unreleased lesson/assessment phone flow. The published private URL still enforces ChatGPT sign-in.
+## Remaining source limits and privacy
 
-![Isolated preview of the teacher-materials desk](../qc/ry-teacher-materials-qc.jpg)
+Orange-book149–151, older course resources and unreviewed linked media remain incomplete. The project has an in-class writing assignment, but this Studio’s Social Studies assessment remains MC only as instructed. Current quiz preparation is available; complete yearlong/project-option coverage is not claimed.
+
+Assigned PDFs, original extracted figures and classroom text remain private. Public GitHub receives original authored curriculum, provenance links, term coverage, release/QC notes and launch/audio links; no student responses, school grades, routines, credentials or licensed full source files.

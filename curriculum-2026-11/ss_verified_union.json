@@ -1,0 +1,858 @@
+{
+  "id": "ss_verified_union",
+  "subject": "SS",
+  "title": "Two lands become one kingdom",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "objectiveIds": [
+    "ss_verified_union_menes",
+    "ss_verified_union_dynasty",
+    "ss_term_menes"
+  ],
+  "objectiveLabels": {
+    "ss_verified_union_menes": "Menes and the united kingdom",
+    "ss_verified_union_dynasty": "Dynasties and keeping rule",
+    "ss_term_menes": "Menes"
+  },
+  "teach": [
+    "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government.",
+    "The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions.",
+    "Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+    "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job.",
+    "A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work.",
+    "Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_union_menes",
+      "title": "Menes and the united kingdom",
+      "where": "Assigned Egypt OER PDF pages 28, 29.",
+      "sourceUrl": "/?reading=egypt&page=28",
+      "teach": [
+        "BCE means Before the Common Era. For dates marked BCE, a larger year number is earlier. First learn the event order; do not guess from the order a textbook lists names.",
+        "Upper Egypt was in the south, upstream. Lower Egypt was in the north, downstream near the delta. The Nile flows north toward the Mediterranean Sea.",
+        "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government.",
+        "The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions.",
+        "Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain."
+      ],
+      "example": {
+        "prompt": "A textbook question asks who united the Two Lands. Which name matches this reading?",
+        "thinking": "I check the named reading rather than guessing from another source. Its traditional name is Menes.",
+        "answer": "Menes.",
+        "why": "Narmer is important archaeological evidence, but this question specifically asks for the assigned text’s name."
+      },
+      "tryPrompt": "What did the double crown represent?",
+      "tryChoices": [
+        "Rule over Upper and Lower Egypt",
+        "Rule over Egypt and Rome",
+        "A calendar with two seasons"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Rule over Upper and Lower Egypt. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government.",
+      "connections": [
+        {
+          "id": "ss_verified_union_menes_connection_0",
+          "prompt": "How did the double crown connect a symbol with political rule?",
+          "options": [
+            "It combined the symbols of the two regions under one ruler.",
+            "It showed a map scale for measuring every royal road.",
+            "It proved all people in both regions had one occupation."
+          ],
+          "answer": 0,
+          "rationale": "It combined the symbols of the two regions under one ruler. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job."
+        },
+        {
+          "id": "ss_verified_union_menes_connection_1",
+          "prompt": "A modern emblem combines two older symbols. What is a careful comparison with the double crown?",
+          "options": [
+            "Both may express union, but their societies and governments can differ.",
+            "Both prove every leader is related to Menes.",
+            "Both mean the two symbols had no earlier meaning."
+          ],
+          "answer": 0,
+          "rationale": "Both may express union, but their societies and governments can differ. Both cases involve leadership; only the family succession described here is a dynasty."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_union_dynasty",
+      "title": "Dynasties and keeping rule",
+      "where": "Assigned Egypt OER PDF pages 29, 30, 38.",
+      "sourceUrl": "/?reading=egypt&page=29",
+      "teach": [
+        "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job.",
+        "A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work.",
+        "Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler."
+      ],
+      "example": {
+        "prompt": "A parent rules, then the parent’s child becomes ruler. Does this fit dynasty?",
+        "thinking": "I look for rulers from the same family across time.",
+        "answer": "Yes. It is an example of a family line of rulers.",
+        "why": "One ruler alone does not show a whole dynasty."
+      },
+      "tryPrompt": "Which description fits a dynasty?",
+      "tryChoices": [
+        "A family line of rulers",
+        "A group of river rapids",
+        "A temple’s writing material"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "A family line of rulers. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job.",
+      "connections": [
+        {
+          "id": "ss_verified_union_dynasty_connection_0",
+          "prompt": "How does family succession connect one ruler with a dynasty?",
+          "options": [
+            "A dynasty is a line of rulers from the same family.",
+            "Every ruler in any country belongs to one dynasty.",
+            "A dynasty is a list of unrelated workers in a town."
+          ],
+          "answer": 0,
+          "rationale": "A dynasty is a line of rulers from the same family. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job."
+        },
+        {
+          "id": "ss_verified_union_dynasty_connection_1",
+          "prompt": "Several school principals held the same job but were unrelated. Does that alone make a dynasty?",
+          "options": [
+            "No. A dynasty requires a ruling family line.",
+            "Yes. Any shared job proves family succession.",
+            "Yes. Every four leaders form one dynasty."
+          ],
+          "answer": 0,
+          "rationale": "No. A dynasty requires a ruling family line. Both cases involve leadership; only the family succession described here is a dynasty."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+    },
+    {
+      "sourceId": "unification-evidence",
+      "title": "Narmer Palette — Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/en/collections/narmer-palette-1/",
+      "status": "Primary-source factual cross-check",
+      "pages": []
+    }
+  ],
+  "readingLocation": {
+    "startPage": 28,
+    "endPage": 38,
+    "where": "Assigned Egypt OER PDF pages 28, 29, 30, 38"
+  },
+  "links": {
+    "prior": "A pharaoh ruled a kingdom. Now connect early royal authority with the unification of Upper and Lower Egypt.",
+    "current": "Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
+    "future": "Old, Middle and New Kingdoms: Earlier and later rulers can both unite a country. To distinguish them, connect each name with its period and event.",
+    "realLife": "Both cases involve leadership; only the family succession described here is a dynasty.",
+    "priorLessonId": "ss_verified_religion_soldiers",
+    "futureLessonId": "ss_verified_kingdoms"
+  },
+  "vocabulary": [
+    {
+      "word": "Menes",
+      "definition": "The traditional ruler credited with early unification in the assigned reading.",
+      "example": "The Two Lands account names Menes as unifier.",
+      "nonExample": "The exact link with Narmer is debated.",
+      "objectiveId": "ss_term_menes"
+    }
+  ],
+  "proof": {
+    "prompt": "Use the multiple-choice independent application.",
+    "criteria": []
+  },
+  "practice": [
+    {
+      "prompt": "According to the assigned reading, who united Upper and Lower Egypt?",
+      "options": [
+        "Menes",
+        "Khufu",
+        "Ramses II"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Menes. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+      "id": "ss_verified_union_menes_item1",
+      "objectiveId": "ss_verified_union_menes",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "repair": {
+        "prompt": "Which event is linked to Menes in the assigned reading?",
+        "options": [
+          "Uniting the Two Lands",
+          "Building Abu Simbel",
+          "Driving out the Hyksos"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Uniting the Two Lands. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "id": "ss_verified_union_menes_repair1",
+        "objectiveId": "ss_verified_union_menes",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        "teach": "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "supported": true
+      },
+      "terms": [
+        "Menes"
+      ],
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ]
+    },
+    {
+      "prompt": "Which city became an early Egyptian capital in this reading?",
+      "options": [
+        "Memphis",
+        "Meroe",
+        "Avaris"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Memphis. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+      "id": "ss_verified_union_menes_item2",
+      "objectiveId": "ss_verified_union_menes",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "repair": {
+        "prompt": "What is a capital city’s role?",
+        "options": [
+          "It is a center of government.",
+          "It is every village beside a river.",
+          "It is always a burial site."
+        ],
+        "answer": 0,
+        "rationale": "Correct: It is a center of government. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "id": "ss_verified_union_menes_repair2",
+        "objectiveId": "ss_verified_union_menes",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        "teach": "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "supported": true
+      },
+      "terms": [
+        "Menes"
+      ],
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ]
+    },
+    {
+      "prompt": "What makes a series of rulers a dynasty?",
+      "options": [
+        "They belong to the same ruling family.",
+        "They all grow the same crop.",
+        "They all use the same riverboat."
+      ],
+      "answer": 0,
+      "rationale": "Correct: They belong to the same ruling family. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+      "id": "ss_verified_union_dynasty_item1",
+      "objectiveId": "ss_verified_union_dynasty",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "prompt": "A word names several rulers from one family. Which word fits?",
+        "options": [
+          "Dynasty",
+          "Delta",
+          "Census"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Dynasty. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "id": "ss_verified_union_dynasty_repair1",
+        "objectiveId": "ss_verified_union_dynasty",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            29,
+            30,
+            38
+          ]
+        },
+        "teach": "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A king’s daughter succeeds him as ruler. What does this illustrate?",
+      "options": [
+        "Rule passing within a dynasty",
+        "Water moving through irrigation",
+        "A scribe taking a census"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Rule passing within a dynasty. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+      "id": "ss_verified_union_dynasty_item2",
+      "objectiveId": "ss_verified_union_dynasty",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "prompt": "Which detail would help establish a dynasty?",
+        "options": [
+          "Several successive rulers are relatives.",
+          "Several cities share a trade route.",
+          "Several temples use stone columns."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Several successive rulers are relatives. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "id": "ss_verified_union_dynasty_repair2",
+        "objectiveId": "ss_verified_union_dynasty",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            29,
+            30,
+            38
+          ]
+        },
+        "teach": "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "A ruler wears both the red and white crowns. What political message does this send?",
+      "options": [
+        "The ruler claims authority over both regions.",
+        "The ruler has ended all religious beliefs.",
+        "The ruler has moved Egypt to another continent."
+      ],
+      "answer": 0,
+      "rationale": "Correct: The ruler claims authority over both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+      "id": "ss_verified_union_menes_item3",
+      "objectiveId": "ss_verified_union_menes",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "repair": {
+        "prompt": "Which pair did the double crown bring together?",
+        "options": [
+          "Upper and Lower Egypt",
+          "Egypt and Persia",
+          "The Nile and the Red Sea"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Upper and Lower Egypt. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "id": "ss_verified_union_menes_repair3",
+        "objectiveId": "ss_verified_union_menes",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        "teach": "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "supported": true
+      },
+      "terms": [
+        "Menes"
+      ],
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ]
+    },
+    {
+      "prompt": "Why are pharaoh and dynasty different terms?",
+      "options": [
+        "Pharaoh names a ruler; dynasty names a ruling family line.",
+        "Pharaoh names a river; dynasty names a city.",
+        "Both terms mean the same single person."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Pharaoh names a ruler; dynasty names a ruling family line. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+      "id": "ss_verified_union_dynasty_item3",
+      "objectiveId": "ss_verified_union_dynasty",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "prompt": "Which pair correctly separates a pharaoh from a dynasty?",
+        "options": [
+          "Pharaoh—ruler; dynasty—family line",
+          "Pharaoh—writing sheet; dynasty—river mouth",
+          "Pharaoh—craft worker; dynasty—grain tax"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Pharaoh—ruler; dynasty—family line. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "id": "ss_verified_union_dynasty_repair3",
+        "objectiveId": "ss_verified_union_dynasty",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            29,
+            30,
+            38
+          ]
+        },
+        "teach": "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [
+    {
+      "prompt": "A museum discusses Narmer, while your textbook names Menes. What is the careful conclusion?",
+      "options": [
+        "The exact identity linking the two names is debated.",
+        "The two names prove there were no early rulers.",
+        "Every historian agrees the names mean two unrelated capitals."
+      ],
+      "answer": 0,
+      "rationale": "Correct: The exact identity linking the two names is debated. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+      "id": "ss_verified_union_menes_item4",
+      "objectiveId": "ss_verified_union_menes",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "repair": {
+        "prompt": "Which statement distinguishes evidence from certainty?",
+        "options": [
+          "Narmer is associated with unification; his link to Menes remains debated.",
+          "Narmer and Menes are certainly the same person in every account.",
+          "Menes is the name of an Egyptian river."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Narmer is associated with unification; his link to Menes remains debated. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "id": "ss_verified_union_menes_repair4",
+        "objectiveId": "ss_verified_union_menes",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        "teach": "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "supported": true
+      },
+      "terms": [
+        "Menes"
+      ],
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ]
+    },
+    {
+      "prompt": "A list shows four rulers from unrelated families. Can you call them one dynasty just because they ruled Egypt?",
+      "options": [
+        "No. A dynasty requires a family line.",
+        "Yes. Every Egyptian ruler belonged to one family.",
+        "Yes. Dynasty means any list of four people."
+      ],
+      "answer": 0,
+      "rationale": "Correct: No. A dynasty requires a family line. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+      "id": "ss_verified_union_dynasty_item4",
+      "objectiveId": "ss_verified_union_dynasty",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "prompt": "What information is missing before identifying a family dynasty?",
+        "options": [
+          "The family relationships among the rulers",
+          "The river’s direction",
+          "The number of fields near the capital"
+        ],
+        "answer": 0,
+        "rationale": "Correct: The family relationships among the rulers. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "id": "ss_verified_union_dynasty_repair4",
+        "objectiveId": "ss_verified_union_dynasty",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            29,
+            30,
+            38
+          ]
+        },
+        "teach": "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "prompt": "In the assigned account, what changed when Egypt was united?",
+      "options": [
+        "Two regions came under one ruler.",
+        "Both regions stopped using the Nile.",
+        "Memphis became a desert outside Egypt."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Two regions came under one ruler. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+      "id": "ss_verified_union_menes_item5",
+      "objectiveId": "ss_verified_union_menes",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "repair": {
+        "prompt": "Which statement explains political unification?",
+        "options": [
+          "Previously separate regions share one ruler.",
+          "A river stops flowing between regions.",
+          "Every person gains the same occupation."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Previously separate regions share one ruler. The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "id": "ss_verified_union_menes_repair5",
+        "objectiveId": "ss_verified_union_menes",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29
+          ]
+        },
+        "teach": "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government. The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions. Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Menes"
+      ],
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ]
+    },
+    {
+      "prompt": "Which statement describes a kingdom rather than a dynasty?",
+      "options": [
+        "The land and people under a ruler",
+        "The family relationship among successive rulers",
+        "The job of recording taxes"
+      ],
+      "answer": 0,
+      "rationale": "Correct: The land and people under a ruler. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+      "id": "ss_verified_union_dynasty_item5",
+      "objectiveId": "ss_verified_union_dynasty",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "prompt": "Which question asks about a dynasty?",
+        "options": [
+          "Were these rulers from the same family?",
+          "Where did this river reach the sea?",
+          "What did this artisan make?"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Were these rulers from the same family?. A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "id": "ss_verified_union_dynasty_repair5",
+        "objectiveId": "ss_verified_union_dynasty",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            29,
+            30,
+            38
+          ]
+        },
+        "teach": "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job. A pharaoh was Egypt’s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work. Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler.",
+        "supported": true
+      },
+      "retrievalDay": 1
+    },
+    {
+      "prompt": "Which evidence would support a ruler’s claim to govern both Egyptian regions?",
+      "options": [
+        "A double crown combining their symbols",
+        "A census from only one household",
+        "A single grain basket"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A double crown combining their symbols. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
+      "id": "ss_verified_union_day3",
+      "objectiveId": "ss_verified_union_menes",
+      "retrievalDay": 3,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_union_day3_repair",
+        "objectiveId": "ss_verified_union_menes",
+        "teach": "Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "prompt": "A white and a red crown are combined. What does that combination help a ruler claim?",
+        "options": [
+          "Authority over both Egyptian regions",
+          "Ownership of every sea",
+          "The end of all farming"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Authority over both Egyptian regions. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29,
+            30,
+            38
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A government moves its offices to a city. What role does that city take?",
+      "options": [
+        "Capital",
+        "Cataract",
+        "Sarcophagus"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Capital. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
+      "id": "ss_verified_union_day7",
+      "objectiveId": "ss_verified_union_dynasty",
+      "retrievalDay": 7,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_union_day7_repair",
+        "objectiveId": "ss_verified_union_dynasty",
+        "teach": "Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "prompt": "Officials keep the central government in a city. Which word describes that city?",
+        "options": [
+          "Capital",
+          "Cataract",
+          "Coffin"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Capital. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29,
+            30,
+            38
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Why can shared symbols matter after unification?",
+      "options": [
+        "They can express a claim of shared rule.",
+        "They make water and food unnecessary.",
+        "They give everyone the same social rank."
+      ],
+      "answer": 0,
+      "rationale": "Correct: They can express a claim of shared rule. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
+      "id": "ss_verified_union_day14",
+      "objectiveId": "ss_verified_union_menes",
+      "retrievalDay": 14,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_union_day14_repair",
+        "objectiveId": "ss_verified_union_menes",
+        "teach": "Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "prompt": "After divided rule, leaders want one public symbol of shared government. Which symbol from the reading fits?",
+        "options": [
+          "Double crown",
+          "Canopic jar",
+          "Linen wrapping"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Double crown. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29,
+            30,
+            38
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A family remains in power through several rulers. Which term describes the line?",
+      "options": [
+        "Dynasty",
+        "Commerce",
+        "Papyrus"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Dynasty. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
+      "id": "ss_verified_union_day30",
+      "objectiveId": "ss_verified_union_dynasty",
+      "retrievalDay": 30,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29,
+          30,
+          38
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_union_day30_repair",
+        "objectiveId": "ss_verified_union_dynasty",
+        "teach": "Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "prompt": "Several successive rulers belong to one family. What evidence supports calling them a dynasty?",
+        "options": [
+          "Their family relationship",
+          "Their cities all have markets",
+          "Their clothes all contain linen"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Their family relationship. Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job. Both cases involve leadership; only the family succession described here is a dynasty.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            28,
+            29,
+            30,
+            38
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "nextLessonId": "ss_verified_kingdoms",
+  "memoryCue": "Two Lands, one double crown."
+}

@@ -1,72 +1,33 @@
-# New Learning Studio curriculum · November 2026
+# Learning Studio curriculum · November2026
 
-Open the private teaching and testing app: https://ry-learning-studio.raynastover.chatgpt.site
+[Open current Social Studies teaching and practice](https://ry-learning-studio.raynastover.chatgpt.site/?lesson=ss_verified_social_pyramid) · [Rayna’s matching audio](https://ry-learning-studio.raynastover.chatgpt.site/audio?subject=SS)
 
-This directory contains 35 newly authored lesson source files. They support the new Studio; the previous learner pages are not its navigation.
+## Current Social Studies release · November3
 
-Each lesson contains teaching, guided work, original practice, independent checks, follow-up teaching/practice, delayed retrieval, and written proof prompts. Objective scoring runs in the private Studio. Written explanations await review and are not awarded an automatic Tennessee writing score.
+13 source-backed Egypt chapters incorporate the recovered assigned OER, exact teacher vocabulary, social-pyramid diagram, Two Lands and society activity. All24 vocabulary terms have teaching and term-specific practice evidence. Every assessment response is multiple choice.
 
-The exact assigned Goodall PDF is served privately inside the ELA reader. Licensed classroom PDFs, student responses, historical scores, and private parent diagnostics are not included in this public directory.
+Reading → Learn → worked example → guided MC → two connection MC checks per topic → Practice A → specific repairs → B → repairs → C → delayed retrieval1/3/7/14/30. First answers remain immutable. Corrections are supported, never independent mastery. Completion is separate from mastery.
 
-## Lessons
+This is the verified current Egypt preparation release under governance section12, superseding the November2 six-draft hold. It is not a full historical-course or five-subject source census. Orange-book149–151, older underlying files and teacher-media playback remain incomplete. Unverified content supplies no scored answers. Full source PDFs, exact classroom text/images and student records stay private.
 
-| Subject | Lesson | Source |
-| --- | --- | --- |
-| ELA | Goodall: how the whole memoir develops | [JSON](fresh_ela_goodall_structure.json) |
-| ELA | Goodall: evidence changes an explanation | [JSON](fresh_ela_goodall_evidence.json) |
-| ELA | Goodall: craft, contrast and perspective | [JSON](fresh_ela_goodall_craft.json) |
-| ELA | Goodall words: meaning, context and precise communication | [JSON](fresh_ela_goodall_words.json) |
-| ELA | START HERE · Goodall teacher study guide: purpose, discoveries, memoir and commas | [JSON](fresh_ela_goodall_guide.json) |
-| LANGUAGE | Sentence structures: prove the clauses | [JSON](lf_clause_proof.json) |
-| LANGUAGE | Dialogue studio: let spoken words change the story | [JSON](lf_dialogue_story.json) |
-| LANGUAGE | Read beneath the surface: claim, evidence, limit | [JSON](lf_comprehension_evidence.json) |
-| LANGUAGE | Spelling lab: inspect the base before adding an ending | [JSON](lf_suffix_decisions.json) |
-| LANGUAGE | Word detective: useful parts, honest limits | [JSON](lf_word_parts.json) |
-| LANGUAGE | Vocabulary that changes your thinking | [JSON](lf_vocab_precision.json) |
-| LANGUAGE | Communicate a decision someone else can follow | [JSON](lf_communication.json) |
-| SS | Egypt: Nile land, farming and the calendar | [JSON](fresh_ss_egypt_land.json) |
-| SS | Egypt: occupations, power and an interdependent society | [JSON](fresh_ss_egypt_state.json) |
-| SS | Egypt: writing, materials and evidence | [JSON](fresh_ss_egypt_writing.json) |
-| SS | Egypt: belief, preserved bodies and royal symbols | [JSON](fresh_ss_egypt_faith.json) |
-| SS | Egypt: unification, evidence and the Old Kingdom | [JSON](fresh_ss_egypt_early.json) |
-| SS | Egypt: division, New Kingdom rulers and evaluating fame | [JSON](fresh_ss_egypt_later.json) |
-| SS | Egypt: explain routes, places and historical map labels | [JSON](fresh_ss_egypt_map.json) |
-| SS | Egypt map studio: locate all 14 places and explain the relationships | [JSON](fresh_ss_egypt_map14_visual.json) |
-| SS | Egypt: how jobs, resources and power connect | [JSON](fresh_ss_egypt_system.json) |
-| SS | Egypt: authority, belief and historical evidence | [JSON](fresh_ss_egypt_power_belief.json) |
-| SCI | Ecology vocabulary: from one organism to the biosphere | [JSON](fresh_sci33_levels.json) |
-| SCI | Ecology vocabulary: resource use, limits and introductions | [JSON](fresh_sci33_resources.json) |
-| SCI | Ecology vocabulary: feeding roles and diets | [JSON](fresh_sci33_feeding.json) |
-| SCI | Ecology vocabulary: models and processing remains | [JSON](fresh_sci33_models_matter.json) |
-| SCI | Ecology vocabulary: effects on both partners | [JSON](fresh_sci33_associations.json) |
-| SCI | Ecology: resources, competition and changing limits | [JSON](fresh_science_niche_limits.json) |
-| SCI | Food webs: pathways, roles and ripple effects | [JSON](fresh_science_web_change.json) |
-| SCI | Relationships: classify from evidence, not animal names | [JSON](fresh_science_relationships.json) |
-| MATH | Big8: retrieve, derive and use exact forms | [JSON](fresh_math_big8_transfer.json) |
-| MATH | Expressions: describe a relationship before calculating | [JSON](fresh_math_expressions.json) |
-| MATH | Expressions: powers, grouping and substitution | [JSON](fresh_math_order_powers.json) |
-| MATH | Rational numbers: order, absolute value and coordinate distance | [JSON](fresh_math_rational_reasoning.json) |
-| MATH | Problem-solving spiral: choose the method and prove it | [JSON](fresh_math_spiral12.json) |
+| Chapter | Original authored source |
+| --- | --- |
+| Reading the social pyramid | [JSON](ss_verified_social_pyramid.json) |
+| Jobs and contributions | [JSON](ss_verified_occupations.json) |
+| Pharaoh and government officials | [JSON](ss_verified_government.json) |
+| Priests, soldiers and legal rights | [JSON](ss_verified_religion_soldiers.json) |
+| Two lands become one kingdom | [JSON](ss_verified_union.json) |
+| Old, Middle and New Kingdoms | [JSON](ss_verified_kingdoms.json) |
+| New Kingdom rulers and their evidence | [JSON](ss_verified_new_rulers.json) |
+| Religious beliefs and daily life | [JSON](ss_verified_beliefs.json) |
+| Mummies, tombs and preserving the body | [JSON](ss_verified_burial.json) |
+| Upper and Lower Egypt | [JSON](ss_verified_two_lands.json) |
+| Nile landforms and travel | [JSON](ss_verified_landforms.json) |
+| Nile flooding and farming | [JSON](ss_verified_nile_farming.json) |
+| Writing, artifacts and exchange | [JSON](ss_verified_writing_trade.json) |
 
-## Verification and limits
+[Term-to-evidence matrix](egypt-term-coverage.json) · [QC and source limits](SOCIAL-STUDIES-QC.md) · [Release manifest](social-studies-release.json)
 
-Curriculum, scoring/mastery logic, record persistence, and panel rendering checks passed, as did the production build. The source ledger remains incomplete: opening an assignment page does not verify every attachment, reading, video, or provider resource. Full five-subject source completion and full-year TCAP coverage are not claimed.
+The ten `fresh_ss_*` files are archived development history and excluded from student teaching, scoring and narration. Their preserved records do not transfer to replacement IDs. Other subjects remain available; this release does not re-certify their complete source coverage.
 
-
-## November 2 Social Studies update
-
-All ten Egypt JSON lessons now match Studio source commit `5065efba744a6a0be9563e205cd4f1c6e37ee00b`. Teaching is organized into idea → worked example → learner try. Each of the fourteen map locations has its own teaching topic. Corrected delayed keys and concept-specific follow-ups are included. Rayna’s Audio prepends these same chapters while preserving earlier lessons.
-
-The GitHub homepage now offers direct chapter links, assigned-reading access and clearly separated parent navigation. The authenticated Studio retains scoring and private response storage. [Scope, QC and unresolved source access](SOCIAL-STUDIES-QC.md).
-
-## Social Studies format update
-
-Social Studies learner tries, practice, fresh application and delayed checks are multiple choice only. Typed explanations and written proof are not required in Social Studies. Fresh application uses a complete independent choice form at90% or better; overall independent accuracy, sufficient objective evidence and delayed retrieval remain required. This measures multiple-choice evidence, not constructed writing. Prior responses remain preserved. This format directive supersedes earlier references to required Social Studies written proof.
-
-## Social Studies withdrawal — supersedes earlier release claims
-
-Generated Social Studies lessons, schematic maps, practice and parent narration are withdrawn pending exact classroom-source recovery and a new source-to-question review. Existing source JSON is retained as historical development material, not approved teaching. No current Social Studies readiness claim is supported by those materials. Source recovery requires the authorized ClassLink login used by WCS Schoology. Student records are preserved. Replacements must use precise assigned maps, clear sixth-grade wording and multiple-choice-only responses.
-
-## Source-checked Social Studies replacement
-
-Six UNRELEASED DRAFT `ss_verified_*.json` chapters are being prepared to replace the withdrawn `fresh_ss_*` development content. They contain original teaching and multiple-choice questions with per-item source/page references. The private Studio continues to show teacher materials only; draft teaching and scoring are blocked. The complete course audit remains unfinished. The release manifest lists unreleased areas. The old files remain archived for development history and must not be assigned or narrated. Licensed source files and all student records are excluded.
+Verified Studio source: `8ab1d71ea28514ba52bded7370f0911f8740a4d5`. Production build and private deployment succeeded November3. Eight automated suites, backend integration and TypeScript passed; desktop/390px synthetic browser route checked. Full human audio-quality review remains incomplete.

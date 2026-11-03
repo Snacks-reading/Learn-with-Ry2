@@ -2,16 +2,20 @@
   "id": "ss_verified_government",
   "subject": "SS",
   "title": "Pharaoh and government officials",
-  "contentVersion": "schoology-reset-1",
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
   "verifiedReplacement": true,
   "objectiveIds": [
-    "ss_verified_government"
+    "ss_verified_government",
+    "ss_term_pharaohs",
+    "ss_term_bureaucracy"
   ],
   "objectiveLabels": {
-    "ss_verified_government": "5. Pharaoh and government officials"
+    "ss_verified_government": "5. Pharaoh and government officials",
+    "ss_term_pharaohs": "pharaohs",
+    "ss_term_bureaucracy": "bureaucracy"
   },
   "teach": [
-    "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat.",
+    "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat.",
     "The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military.",
     "A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone."
   ],
@@ -50,7 +54,7 @@
       "where": "Read the assigned OER PDF, pages 15, 16.",
       "sourceUrl": "/?reading=egypt&page=15",
       "teach": [
-        "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat.",
+        "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat.",
         "The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military.",
         "A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone."
       ],
@@ -58,7 +62,7 @@
         "prompt": "A question asks who served as chief judge. Should you choose the vizier or chief treasurer?",
         "thinking": "Both were officials, but their responsibilities differed. The vizier judged; the treasurer handled taxes.",
         "answer": "Choose the vizier.",
-        "why": "The job in the question matches the vizier\u2019s responsibility."
+        "why": "The job in the question matches the vizier’s responsibility."
       },
       "tryPrompt": "Which official was responsible for collecting taxes?",
       "tryChoices": [
@@ -67,7 +71,31 @@
         "Artisan"
       ],
       "tryAnswerIndex": 0,
-      "tryAnswer": "A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone."
+      "tryAnswer": "Chief treasurer. This official collected taxes; the vizier served as chief judge.",
+      "connections": [
+        {
+          "id": "ss_verified_government_teach_connection_0",
+          "prompt": "Why did the pharaoh rely on different government offices?",
+          "options": [
+            "Different officials handled judging, taxes and military duties.",
+            "Every official had the same task of growing barley.",
+            "Officials made the pharaoh’s government unnecessary."
+          ],
+          "answer": 0,
+          "rationale": "Different officials handled judging, taxes and military duties. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights."
+        },
+        {
+          "id": "ss_verified_government_teach_connection_1",
+          "prompt": "A school divides work among teachers and office staff. Which comparison is careful?",
+          "options": [
+            "Both divide responsibilities, but those jobs are not the pharaoh’s offices.",
+            "Both prove that a principal inherits power as a divine king.",
+            "Both require all staff to judge ancient Egyptian court cases."
+          ],
+          "answer": 0,
+          "rationale": "Both divide responsibilities, but those jobs are not the pharaoh’s offices. A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government."
+        }
+      ]
     }
   ],
   "practice": [
@@ -106,13 +134,20 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: Separate officials handle taxes and court cases.. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: Separate officials handle taxes and court cases. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
-      }
+      },
+      "terms": [
+        "bureaucracy"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_bureaucracy"
+      ]
     },
     {
-      "prompt": "Which official was the pharaoh\u2019s trusted chief adviser and chief judge?",
+      "prompt": "Which official was the pharaoh’s trusted chief adviser and chief judge?",
       "options": [
         "Vizier",
         "Chief treasurer",
@@ -146,8 +181,8 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: Vizier. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: Vizier. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       }
     }
@@ -170,13 +205,13 @@
           16
         ]
       },
-      "rationale": "Correct: It could be used during drought or famine.. See Assigned OER Ancient Egypt, pages 15, 16.",
+      "rationale": "Correct: It could be used during drought or famine. See Assigned OER Ancient Egypt, pages 15, 16.",
       "repair": {
         "prompt": "Which government resource could help provide food during a poor harvest?",
         "options": [
           "Wheat kept in granaries",
           "An empty census sheet",
-          "A soldier\u2019s chariot wheel"
+          "A soldier’s chariot wheel"
         ],
         "answer": 0,
         "id": "ss_verified_government_repair3",
@@ -188,13 +223,258 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: Wheat kept in granaries. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: Wheat kept in granaries. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "supported": true
+      },
+      "terms": [
+        "bureaucracy",
+        "pharaohs"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_pharaohs",
+        "ss_term_bureaucracy"
+      ]
+    }
+  ],
+  "masteryCheck": [
+    {
+      "id": "ss_verified_government_formC_0",
+      "prompt": "A dispute needs a chief judge while a tax payment needs a collecting office. Which pair fits?",
+      "options": [
+        "Vizier for judging; chief treasurer for taxes",
+        "General of armies for judging; potter for taxes",
+        "Farmer for judging; pharaoh’s crown for taxes"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_government",
+      "rationale": "Correct: Vizier for judging; chief treasurer for taxes. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_government_formC_0_repair",
+        "prompt": "Which official should handle the tax collection described in the reading?",
+        "options": [
+          "Chief treasurer",
+          "General of armies",
+          "Potter"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_government",
+        "teach": "A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government.",
+        "rationale": "Correct: Chief treasurer. A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "bureaucracy"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_bureaucracy"
+      ]
+    },
+    {
+      "id": "ss_verified_government_formC_1",
+      "prompt": "How is a divided modern school office like a bureaucracy, with a limit?",
+      "options": [
+        "Both divide responsibilities, but school roles are not the pharaoh’s offices.",
+        "Both make all workers perform one identical task.",
+        "A school principal is always a hereditary pharaoh."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_government",
+      "rationale": "Correct: Both divide responsibilities, but school roles are not the pharaoh’s offices. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_government_formC_1_repair",
+        "prompt": "A public office divides tax records and judging between different roles. What does this illustrate?",
+        "options": [
+          "A bureaucracy with separate duties",
+          "A royal tomb with separate chambers",
+          "A river delta with branching channels"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_government",
+        "teach": "A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government.",
+        "rationale": "Correct: A bureaucracy with separate duties. A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "bureaucracy"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_bureaucracy"
+      ]
+    },
+    {
+      "id": "ss_verified_government_target_2",
+      "prompt": "Which pair describes the pharaoh’s authority in Egyptian belief?",
+      "options": [
+        "Political ruler and divine authority",
+        "Only a potter and a trader",
+        "Only a census taker and a farmer"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_government",
+      "rationale": "Correct: Political ruler and divine authority. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "terms": [
+        "pharaohs"
+      ],
+      "repair": {
+        "id": "ss_verified_government_target_2_repair",
+        "prompt": "Why could religious belief strengthen a pharaoh’s authority?",
+        "options": [
+          "People regarded the ruler as divine.",
+          "Every person had the same royal power.",
+          "The ruler had no connection with religion."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_government",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: People regarded the ruler as divine. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_pharaohs"
+      ]
+    },
+    {
+      "id": "ss_verified_government_target_3",
+      "prompt": "Which set describes responsibilities connected with the pharaoh?",
+      "options": [
+        "Making laws, defending Egypt and organizing resources",
+        "Only shaping pottery, weaving baskets and making furniture",
+        "Only raising animals, growing flax and harvesting barley"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_government",
+      "rationale": "Correct: Making laws, defending Egypt and organizing resources. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "terms": [
+        "pharaohs"
+      ],
+      "repair": {
+        "id": "ss_verified_government_target_3_repair",
+        "prompt": "Which responsibility belongs to a ruler rather than a craft occupation?",
+        "options": [
+          "Directing the kingdom’s laws and defense",
+          "Shaping a storage jar",
+          "Making a household basket"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_government",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: Directing the kingdom’s laws and defense. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_pharaohs"
+      ]
+    },
+    {
+      "id": "ss_verified_government_evidence_ss_term_pharaohs",
+      "prompt": "Why could the pharaoh’s religious status strengthen political authority?",
+      "options": [
+        "People regarded the ruler as divine as well as king.",
+        "People believed the ruler had no religious role.",
+        "Every official held identical authority to the ruler."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_government",
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_pharaohs"
+      ],
+      "rationale": "Correct: People regarded the ruler as divine as well as king. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          15,
+          16
+        ]
+      },
+      "terms": [
+        "pharaohs"
+      ],
+      "repair": {
+        "id": "ss_verified_government_evidence_ss_term_pharaohs_repair",
+        "prompt": "Which explanation links belief with the ruler’s position?",
+        "options": [
+          "Divine kingship could support a pharaoh’s authority.",
+          "A farmer’s occupation automatically made that person pharaoh.",
+          "A census made royal authority disappear."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_government",
+        "rationale": "Correct: Divine kingship could support a pharaoh’s authority. Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+        "teach": "Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            15,
+            16
+          ]
+        },
         "supported": true
       }
     }
   ],
-  "masteryCheck": [],
   "delayed": [
     {
       "prompt": "Who directed the military?",
@@ -215,7 +495,7 @@
       },
       "rationale": "Correct: General of armies. See Assigned OER Ancient Egypt, pages 15, 16.",
       "repair": {
-        "prompt": "A peace treaty involves the army\u2019s leadership. Which official does the reading connect with this work?",
+        "prompt": "A peace treaty involves the army’s leadership. Which official does the reading connect with this work?",
         "options": [
           "General of armies",
           "Potter",
@@ -231,8 +511,8 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: General of armies. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: General of armies. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       },
       "retrievalDay": 1
@@ -256,7 +536,7 @@
       },
       "rationale": "Correct: A bureaucracy. See Assigned OER Ancient Egypt, pages 15, 16.",
       "repair": {
-        "prompt": "Which statement describes officials\u2019 work?",
+        "prompt": "Which statement describes officials’ work?",
         "options": [
           "They carried out different duties under the pharaoh.",
           "They all had the same task of growing flax.",
@@ -272,11 +552,18 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: They carried out different duties under the pharaoh.. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: They carried out different duties under the pharaoh. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       },
-      "retrievalDay": 3
+      "retrievalDay": 3,
+      "terms": [
+        "bureaucracy"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_bureaucracy"
+      ]
     },
     {
       "prompt": "What gave the pharaoh special authority in Egyptian belief?",
@@ -295,9 +582,9 @@
           16
         ]
       },
-      "rationale": "Correct: The pharaoh was regarded as divine.. See Assigned OER Ancient Egypt, pages 15, 16.",
+      "rationale": "Correct: The pharaoh was regarded as divine. See Assigned OER Ancient Egypt, pages 15, 16.",
       "repair": {
-        "prompt": "How did Egyptian beliefs support the pharaoh\u2019s rule?",
+        "prompt": "How did Egyptian beliefs support the pharaoh’s rule?",
         "options": [
           "People regarded the pharaoh as a divine ruler.",
           "People believed the pharaoh had no religious role.",
@@ -313,11 +600,18 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: People regarded the pharaoh as a divine ruler.. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: People regarded the pharaoh as a divine ruler. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       },
-      "retrievalDay": 7
+      "retrievalDay": 7,
+      "terms": [
+        "pharaohs"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_pharaohs"
+      ]
     },
     {
       "prompt": "Which official should a lesson about tax collection focus on?",
@@ -354,8 +648,8 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: Chief treasurer. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: Chief treasurer. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       },
       "retrievalDay": 14
@@ -377,7 +671,7 @@
           16
         ]
       },
-      "rationale": "Correct: The officials helped carry out different government tasks.. See Assigned OER Ancient Egypt, pages 15, 16.",
+      "rationale": "Correct: The officials helped carry out different government tasks. See Assigned OER Ancient Egypt, pages 15, 16.",
       "repair": {
         "prompt": "Why is chief treasurer a different job from general of armies?",
         "options": [
@@ -395,27 +689,48 @@
             16
           ]
         },
-        "teach": "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
-        "rationale": "Correct: One handles taxes; the other directs the military.. The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "teach": "The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
+        "rationale": "Correct: One handles taxes; the other directs the military. The pharaoh was Egypt’s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat. The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military. A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone.",
         "supported": true
       },
-      "retrievalDay": 30
+      "retrievalDay": 30,
+      "terms": [
+        "bureaucracy"
+      ],
+      "objectiveIds": [
+        "ss_verified_government",
+        "ss_term_bureaucracy"
+      ]
     }
   ],
   "proof": {
     "prompt": "Multiple-choice application is assessed in check B.",
     "criteria": []
   },
-  "vocabulary": [],
+  "vocabulary": [
+    {
+      "word": "pharaohs",
+      "definition": "The rulers of ancient Egypt.",
+      "example": "A pharaoh made laws and directed the kingdom.",
+      "nonExample": "A pharaoh is not the chief treasurer who serves the ruler.",
+      "objectiveId": "ss_term_pharaohs"
+    },
+    {
+      "word": "bureaucracy",
+      "definition": "A system of government offices and officials.",
+      "example": "A vizier, treasurer and army general have different duties.",
+      "nonExample": "A bureaucracy is not one person doing every job.",
+      "objectiveId": "ss_term_bureaucracy"
+    }
+  ],
   "links": {
-    "prior": "Jobs and contributions",
+    "prior": "Different occupations meet different needs. Government offices also divide work into specific responsibilities.",
     "current": "Match each Egyptian official with a specific responsibility, then study priests, soldiers and rights.",
-    "future": "Priests, soldiers and legal rights",
-    "realLife": "A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh\u2019s government.",
+    "future": "Priests, soldiers and legal rights: Distinguish a religious belief, a possible military reward and a legal right without making a claim about everyone.",
+    "realLife": "A school divides work among its principal, office staff and teachers. Those roles are not the offices of a pharaoh’s government.",
     "priorLessonId": "ss_verified_occupations",
     "futureLessonId": "ss_verified_religion_soldiers"
   },
   "nextLessonId": "ss_verified_religion_soldiers",
-  "draft": true,
-  "releaseStatus": "Unreleased draft. Source-completeness and final instructional/visual QC gates remain open."
+  "memoryCue": "Judging, taxes and the army: different officials, different duties."
 }

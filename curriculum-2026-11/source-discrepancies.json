@@ -1,0 +1,41 @@
+{
+  "checked": "2026-11-03",
+  "parentOnly": true,
+  "items": [
+    {
+      "subject": "ELA",
+      "finding": "Teacher-published practice keys conflate phrases with dependent clauses in some items.",
+      "example": "After the storm, the dogs went for a run.",
+      "correctTeaching": "After the storm is a prepositional phrase, with no subject–verb pair. The sentence has one independent clause and is simple. Keep the correct clause test; the presence of after alone does not make a sentence complex.",
+      "parentAction": "Have Ry identify the subject and verb before classifying. Clarify the key discrepancy with the teacher or tutor. This is a source issue, not an observed fresh error by Ry."
+    },
+    {
+      "subject": "Social Studies",
+      "finding": "Assigned Egypt sources use different hierarchy groupings and contain historical errors.",
+      "correctTeaching": "Anchor any hierarchy question to its named diagram. Hatshepsut was not the earliest female ruler; the Great Sphinx is at Giza, not the Valley of the Kings. Do not copy textbook errors into factual answer keys.",
+      "parentAction": "Use the actual required project diagram and confirm conflicts rather than assuming one universal chart."
+    },
+    {
+      "subject": "Theatre",
+      "finding": "The teacher music collection includes both instrumentals and lyrical tracks. One displayed lyric description includes profanity.",
+      "parentAction": "Review the teacher choices; instrumental selections are already present. No mime rubric or due date has been posted."
+    },
+    {
+      "subject": "Science dates",
+      "finding": "Some published daily pages retain2025 weekday/date wording inside2026 folders. These are date conflicts, not confirmed new deadlines.",
+      "correctTeaching": "Keep the October30 newsletter’s November6 guided-notes deadline and November10 Ecology vocabulary quiz. Do not convert copied future day/date labels into calendar events.",
+      "parentAction": "Confirm later Ecology/Biomes assessment and project dates from a current teacher update. Resource availability does not establish its due date."
+    },
+    {
+      "subject": "Social Studies project",
+      "finding": "The major-project introduction and writing rubric request one in-class paragraph, while the mummy-option slide says two paragraphs.",
+      "parentAction": "Confirm the paragraph count for the selected option. The project is due December2 and the teacher says no early projects. The visual is desktop-sized; visual and in-class writing are each50points."
+    },
+    {
+      "subject": "Social Studies",
+      "finding": "Current-source reset: conflicting geographic labels and hierarchy labels require source-specific questions.",
+      "correctTeaching": "OERp4 prose puts Upper Egypt south/upstream and Lower Egypt north/downstream; its Figure2 mouth label conflicts. Use the original satellite Figure1 only. Black Land is fertile Nile land; Red Land is desert. The teacher pyramid’s bottom label is Unskilled workers; the mystery separately asks about enslaved people. Do not silently merge the diagrams.",
+      "parentAction": "13 source-backed replacement chapters and all24 vocabulary terms are available. Project rubric images now reviewed. Orange-book149–151, older course files and teacher-media playback remain incomplete; unverified content does not supply scored answers."
+    }
+  ]
+}

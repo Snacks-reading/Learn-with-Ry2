@@ -1,0 +1,849 @@
+{
+  "id": "ss_verified_beliefs",
+  "subject": "SS",
+  "title": "Religious beliefs and daily life",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "objectiveIds": [
+    "ss_verified_beliefs_polytheism",
+    "ss_verified_beliefs_afterlife",
+    "ss_term_afterlife"
+  ],
+  "objectiveLabels": {
+    "ss_verified_beliefs_polytheism": "Many gods and religious practices",
+    "ss_verified_beliefs_afterlife": "Afterlife and choices for burial",
+    "ss_term_afterlife": "afterlife"
+  },
+  "teach": [
+    "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys.",
+    "Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals.",
+    "When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+    "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs.",
+    "Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife.",
+    "A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_beliefs_polytheism",
+      "title": "Many gods and religious practices",
+      "where": "Assigned Egypt OER PDF pages 20, 21.",
+      "sourceUrl": "/?reading=egypt&page=20",
+      "teach": [
+        "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys.",
+        "Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals.",
+        "When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding."
+      ],
+      "example": {
+        "prompt": "Which sentence accurately describes religion without treating a belief as a scientific fact?",
+        "thinking": "I look for a sentence that names whose belief it was.",
+        "answer": "Egyptians believed their actions could please the gods.",
+        "why": "It reports the belief respectfully without claiming rituals control river levels."
+      },
+      "tryPrompt": "What does polytheism mean?",
+      "tryChoices": [
+        "Belief in many gods",
+        "Rule by one ruling family",
+        "A count of the population"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Belief in many gods. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys.",
+      "connections": [
+        {
+          "id": "ss_verified_beliefs_polytheism_connection_0",
+          "prompt": "How did belief in gods connect with temple activity?",
+          "options": [
+            "People used prayers, gifts and rituals to honor gods.",
+            "A temple ceremony was a modern measurement of rainfall.",
+            "Every temple visitor gained the pharaoh’s political power."
+          ],
+          "answer": 0,
+          "rationale": "People used prayers, gifts and rituals to honor gods. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause."
+        },
+        {
+          "id": "ss_verified_beliefs_polytheism_connection_1",
+          "prompt": "A historian reports a belief about a river. Which limit matters?",
+          "options": [
+            "Reporting a belief does not establish it as a physical cause.",
+            "Every reported belief is a modern scientific measurement.",
+            "A religious belief has no connection with people’s choices."
+          ],
+          "answer": 0,
+          "rationale": "Reporting a belief does not establish it as a physical cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_beliefs_afterlife",
+      "title": "Afterlife and choices for burial",
+      "where": "Assigned Egypt OER PDF pages 21, 22, 25.",
+      "sourceUrl": "/?reading=egypt&page=21",
+      "teach": [
+        "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs.",
+        "Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife.",
+        "A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial."
+      ],
+      "example": {
+        "prompt": "A tomb contains a bowl and furniture. Which belief could explain why they were placed there?",
+        "thinking": "I connect the objects to the stated purpose of burial goods.",
+        "answer": "The belief that useful goods could be needed in the afterlife.",
+        "why": "This explains the practice without assuming every family had the same resources."
+      },
+      "tryPrompt": "Which meaning fits afterlife?",
+      "tryChoices": [
+        "Life after death",
+        "A period after each annual flood",
+        "The land downstream from a city"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Life after death. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs.",
+      "connections": [
+        {
+          "id": "ss_verified_beliefs_afterlife_connection_0",
+          "prompt": "Why can afterlife beliefs help explain goods placed in tombs?",
+          "options": [
+            "People believed useful objects could be needed after death.",
+            "Tomb goods caused the Nile to flow north.",
+            "Every object was only a tool for writing a census."
+          ],
+          "answer": 0,
+          "rationale": "People believed useful objects could be needed after death. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause."
+        },
+        {
+          "id": "ss_verified_beliefs_afterlife_connection_1",
+          "prompt": "A museum displays one royal burial. Which conclusion stays within the evidence?",
+          "options": [
+            "It helps describe that burial, not every Egyptian’s resources.",
+            "It proves all burials held exactly the same goods.",
+            "It shows every person had the same royal authority."
+          ],
+          "answer": 0,
+          "rationale": "It helps describe that burial, not every Egyptian’s resources. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+    }
+  ],
+  "readingLocation": {
+    "startPage": 20,
+    "endPage": 25,
+    "where": "Assigned Egypt OER PDF pages 20, 21, 22, 25"
+  },
+  "links": {
+    "prior": "Royal authority appeared in temples and monuments. Now connect religious beliefs with practices and daily choices.",
+    "current": "People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+    "future": "Mummies, tombs and preserving the body: A container’s name and purpose help you identify it, just as a storage jar and a box have different uses today. Modern containers do not share every ancient religious purpose.",
+    "realLife": "Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+    "priorLessonId": "ss_verified_new_rulers",
+    "futureLessonId": "ss_verified_burial"
+  },
+  "vocabulary": [
+    {
+      "word": "afterlife",
+      "definition": "Life after death, as described in religious beliefs.",
+      "example": "Burial goods connect with beliefs about an afterlife.",
+      "nonExample": "It is not the name for the next growing season.",
+      "objectiveId": "ss_term_afterlife"
+    }
+  ],
+  "proof": {
+    "prompt": "Use the multiple-choice independent application.",
+    "criteria": []
+  },
+  "practice": [
+    {
+      "prompt": "Which term describes belief in many gods?",
+      "options": [
+        "Polytheism",
+        "Bureaucracy",
+        "Commerce"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Polytheism. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+      "id": "ss_verified_beliefs_polytheism_item1",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "repair": {
+        "prompt": "A society worships several gods with different roles. Which term fits?",
+        "options": [
+          "Polytheism",
+          "Census",
+          "Dynasty"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Polytheism. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "id": "ss_verified_beliefs_polytheism_repair1",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        "teach": "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which action is an example of Egyptian religious practice in the assigned reading?",
+      "options": [
+        "Offering prayers and gifts at temples",
+        "Taking a modern driving test",
+        "Printing a paper banknote"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Offering prayers and gifts at temples. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+      "id": "ss_verified_beliefs_polytheism_item2",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "repair": {
+        "prompt": "Which work was performed by priests?",
+        "options": [
+          "Religious rituals",
+          "Every act of farming",
+          "Every military campaign"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Religious rituals. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "id": "ss_verified_beliefs_polytheism_repair2",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        "teach": "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "What does afterlife mean in this unit?",
+      "options": [
+        "Life after death",
+        "Life only during the flood season",
+        "A family line of rulers"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Life after death. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+      "id": "ss_verified_beliefs_afterlife_item1",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "prompt": "Which question concerns afterlife beliefs?",
+        "options": [
+          "What did people believe happened after death?",
+          "Which way does the Nile flow?",
+          "How many people lived in a town?"
+        ],
+        "answer": 0,
+        "rationale": "Correct: What did people believe happened after death?. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "id": "ss_verified_beliefs_afterlife_repair1",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            21,
+            22,
+            25
+          ]
+        },
+        "teach": "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "afterlife"
+      ],
+      "objectiveIds": [
+        "ss_verified_beliefs_afterlife",
+        "ss_term_afterlife"
+      ]
+    },
+    {
+      "prompt": "Why might people place food containers in a tomb?",
+      "options": [
+        "They believed the goods could be useful after death.",
+        "They were recording every household’s taxes.",
+        "They were marking the Nile’s mouth."
+      ],
+      "answer": 0,
+      "rationale": "Correct: They believed the goods could be useful after death. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+      "id": "ss_verified_beliefs_afterlife_item2",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "prompt": "Which belief helps explain burial goods?",
+        "options": [
+          "Continued existence after death could require useful things.",
+          "Writing caused the Nile to flood.",
+          "Every person was a pharaoh."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Continued existence after death could require useful things. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "id": "ss_verified_beliefs_afterlife_repair2",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            21,
+            22,
+            25
+          ]
+        },
+        "teach": "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "afterlife"
+      ],
+      "objectiveIds": [
+        "ss_verified_beliefs_afterlife",
+        "ss_term_afterlife"
+      ]
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "Why were religion and political authority connected?",
+      "options": [
+        "The pharaoh was regarded as divine and rituals supported religious order.",
+        "Every priest became the only pharaoh.",
+        "Egyptians had no beliefs about rulers."
+      ],
+      "answer": 0,
+      "rationale": "Correct: The pharaoh was regarded as divine and rituals supported religious order. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+      "id": "ss_verified_beliefs_polytheism_item3",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "repair": {
+        "prompt": "Which statement links belief and authority?",
+        "options": [
+          "People’s beliefs helped support the pharaoh’s special status.",
+          "A divine title proves every policy succeeded.",
+          "Religion meant no officials were needed."
+        ],
+        "answer": 0,
+        "rationale": "Correct: People’s beliefs helped support the pharaoh’s special status. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "id": "ss_verified_beliefs_polytheism_repair3",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        "teach": "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which connection explains burial customs?",
+      "options": [
+        "Beliefs about the afterlife influenced preparations for death.",
+        "Tomb objects made beliefs unnecessary.",
+        "Burials had no connection to religion."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Beliefs about the afterlife influenced preparations for death. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+      "id": "ss_verified_beliefs_afterlife_item3",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "prompt": "A source connects preserving a body with continued existence. What relationship is shown?",
+        "options": [
+          "Belief influencing a practice",
+          "A census choosing a ruler",
+          "Trade changing a river’s direction"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Belief influencing a practice. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "id": "ss_verified_beliefs_afterlife_repair3",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            21,
+            22,
+            25
+          ]
+        },
+        "teach": "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "afterlife"
+      ],
+      "objectiveIds": [
+        "ss_verified_beliefs_afterlife",
+        "ss_term_afterlife"
+      ]
+    }
+  ],
+  "masteryCheck": [
+    {
+      "prompt": "Which sentence states an Egyptian belief accurately?",
+      "options": [
+        "Egyptians believed gods could affect the Nile floods.",
+        "Temple rituals scientifically caused rainfall upstream.",
+        "All Egyptians used modern weather forecasts."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Egyptians believed gods could affect the Nile floods. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+      "id": "ss_verified_beliefs_polytheism_item4",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "repair": {
+        "prompt": "How should a student introduce a religious explanation from this source?",
+        "options": [
+          "Egyptians believed…",
+          "Scientists have proved every ritual…",
+          "All people today agree…"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Egyptians believed…. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "id": "ss_verified_beliefs_polytheism_repair4",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        "teach": "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A wealthy tomb contains many valuables. Which claim is too broad?",
+      "options": [
+        "Every Egyptian had an equally rich burial.",
+        "The burial reflects afterlife beliefs.",
+        "Skilled workers made the objects."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Every Egyptian had an equally rich burial. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+      "id": "ss_verified_beliefs_afterlife_item4",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "prompt": "Why should you avoid describing all burials from one royal tomb?",
+        "options": [
+          "Resources and burial practices varied.",
+          "All Egyptians were members of one royal family.",
+          "A tomb cannot contain any evidence."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Resources and burial practices varied. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "id": "ss_verified_beliefs_afterlife_repair4",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            21,
+            22,
+            25
+          ]
+        },
+        "teach": "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "afterlife"
+      ],
+      "objectiveIds": [
+        "ss_verified_beliefs_afterlife",
+        "ss_term_afterlife"
+      ]
+    }
+  ],
+  "delayed": [
+    {
+      "prompt": "A temple relief shows gods beside a ruler. What can it help us study?",
+      "options": [
+        "Connections between kingship and religion",
+        "Every detail of every farmer’s day",
+        "The exact modern distance to the delta"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Connections between kingship and religion. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+      "id": "ss_verified_beliefs_polytheism_item5",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21
+        ]
+      },
+      "repair": {
+        "prompt": "Which conclusion is supported by images of gods and a ruler?",
+        "options": [
+          "Religious ideas were connected with royal authority.",
+          "Every person had the pharaoh’s power.",
+          "The picture proves a god caused a particular flood."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Religious ideas were connected with royal authority. Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "id": "ss_verified_beliefs_polytheism_repair5",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21
+          ]
+        },
+        "teach": "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys. Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals. When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "supported": true
+      },
+      "retrievalDay": 1
+    },
+    {
+      "prompt": "A student explains a tomb object by saying only that it is old. What is missing?",
+      "options": [
+        "Its purpose and connection with beliefs",
+        "A claim that everyone owned it",
+        "A guess about the Nile’s exact length"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Its purpose and connection with beliefs. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+      "id": "ss_verified_beliefs_afterlife_item5",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "prompt": "Which explanation connects an object to a belief?",
+        "options": [
+          "A bowl in a tomb could provide for a hoped-for afterlife.",
+          "A bowl proves every farmer ruled Egypt.",
+          "A bowl shows all Egyptian rivers flowed south."
+        ],
+        "answer": 0,
+        "rationale": "Correct: A bowl in a tomb could provide for a hoped-for afterlife. Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "id": "ss_verified_beliefs_afterlife_repair5",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            21,
+            22,
+            25
+          ]
+        },
+        "teach": "Afterlife means life after death. Ancient Egyptians held beliefs about a person’s continued existence after death. These beliefs influenced burial customs. Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife. A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "afterlife"
+      ],
+      "objectiveIds": [
+        "ss_verified_beliefs_afterlife",
+        "ss_term_afterlife"
+      ]
+    },
+    {
+      "prompt": "Which choice distinguishes belief from scientific cause?",
+      "options": [
+        "Egyptians believed rituals pleased gods; that does not prove rituals caused floods.",
+        "Rituals are a proven cause of every Nile flood.",
+        "Ancient beliefs tell us nothing about people’s choices."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Egyptians believed rituals pleased gods; that does not prove rituals caused floods. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+      "id": "ss_verified_beliefs_day3",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "retrievalDay": 3,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_beliefs_day3_repair",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "teach": "People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "prompt": "Which sentence reports a belief without calling it a scientific measurement?",
+        "options": [
+          "Egyptians believed religious rituals pleased gods.",
+          "Every temple ritual caused an exactly measured flood.",
+          "A religious image is a modern rainfall gauge."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Egyptians believed religious rituals pleased gods. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A burial object fits a belief described in a text. What does this connection support?",
+      "options": [
+        "A possible explanation for the object’s use",
+        "Every detail of the owner’s life",
+        "An identical burial for every Egyptian"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A possible explanation for the object’s use. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+      "id": "ss_verified_beliefs_day7",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "retrievalDay": 7,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_beliefs_day7_repair",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "teach": "People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "prompt": "A bowl was placed with burial goods. Which source detail helps explain the choice?",
+        "options": [
+          "Belief that useful objects could be needed after death",
+          "The length of a modern highway",
+          "A census from a different country"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Belief that useful objects could be needed after death. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which statement belongs in a careful account of religion?",
+      "options": [
+        "Beliefs influenced rituals, temples and burial customs.",
+        "Every religious belief was a weather measurement.",
+        "Political power and religion never connected."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Beliefs influenced rituals, temples and burial customs. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+      "id": "ss_verified_beliefs_day14",
+      "objectiveId": "ss_verified_beliefs_polytheism",
+      "retrievalDay": 14,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_beliefs_day14_repair",
+        "objectiveId": "ss_verified_beliefs_polytheism",
+        "teach": "People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "prompt": "Which task connects a priest’s work with religion?",
+        "options": [
+          "Performing a temple ceremony",
+          "Recording every army order",
+          "Building every household’s furniture"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Performing a temple ceremony. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A historian says Egyptians believed in an afterlife. What kind of claim is this?",
+      "options": [
+        "A claim about their beliefs",
+        "Proof that every burial was royal",
+        "A measurement of river flow"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A claim about their beliefs. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+      "id": "ss_verified_beliefs_day30",
+      "objectiveId": "ss_verified_beliefs_afterlife",
+      "retrievalDay": 30,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          20,
+          21,
+          22,
+          25
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_beliefs_day30_repair",
+        "objectiveId": "ss_verified_beliefs_afterlife",
+        "teach": "People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "prompt": "A historian studies why people prepared tombs. Which idea is relevant?",
+        "options": [
+          "Beliefs about an afterlife",
+          "A claim that all people had royal wealth",
+          "A claim that religion never affected customs"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Beliefs about an afterlife. People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause. Compare a belief with the practice it helps explain. Respectful historical study reports what people believed without assuming everyone believed or lived identically.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            20,
+            21,
+            22,
+            25
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "nextLessonId": "ss_verified_burial",
+  "memoryCue": "A belief can explain a practice without proving a physical cause."
+}

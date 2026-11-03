@@ -1,0 +1,837 @@
+{
+  "id": "ss_verified_landforms",
+  "subject": "SS",
+  "title": "Nile landforms and travel",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "title": "Assigned OER Ancient Egypt",
+      "pages": [
+        4,
+        5,
+        7,
+        46
+      ],
+      "status": "Named pages content-read; full course audit incomplete"
+    }
+  ],
+  "readingLocation": {
+    "startPage": 4,
+    "endPage": 7,
+    "where": "Assigned OER pages4–7"
+  },
+  "teach": [
+    "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+    "As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+    "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+    "A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_landforms_delta",
+      "title": "Delta",
+      "where": "Assigned OER PDF pages 4, 5, 7",
+      "sourceUrl": "/?reading=egypt&page=4",
+      "teach": [
+        "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+        "As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream."
+      ],
+      "example": {
+        "prompt": "A map shows branching river channels near the sea. Which feature should I look for?",
+        "thinking": "I connect the mouth, branching channels and deposited land.",
+        "answer": "A delta.",
+        "why": "The details describe a river-mouth landform, not rough upstream rapids."
+      },
+      "tryPrompt": "Which description best matches delta?",
+      "tryChoices": [
+        "Land deposited near a river’s mouth",
+        "Rocky rapids upstream",
+        "A royal tomb in a cliff"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "connections": [
+        {
+          "id": "ss_verified_landforms_delta_connect",
+          "prompt": "Which explanation connects this feature with a human activity?",
+          "options": [
+            "Deposited soil near a river mouth can support farming.",
+            "The landform determines every person’s social class.",
+            "The landform makes human planning unnecessary."
+          ],
+          "answer": 0,
+          "rationale": "As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream."
+        },
+        {
+          "id": "ss_verified_landforms_delta_apply",
+          "prompt": "Which comparison with a modern river keeps the evidence clear?",
+          "options": [
+            "River deposits can build land, but each delta needs its own evidence.",
+            "Every river has exactly the same features in the same places.",
+            "A modern river proves all ancient journeys were effortless."
+          ],
+          "answer": 0,
+          "rationale": "A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts",
+      "title": "Cataracts",
+      "where": "Assigned OER PDF pages 4, 7, 46",
+      "sourceUrl": "/?reading=egypt&page=4",
+      "teach": [
+        "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+        "A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate."
+      ],
+      "example": {
+        "prompt": "A boat reaches exposed rocks and rushing water. Which feature explains the difficulty?",
+        "thinking": "I match the water conditions with the feature’s meaning.",
+        "answer": "Cataracts.",
+        "why": "A river-mouth delta is a different kind of feature."
+      },
+      "tryPrompt": "Which description best matches cataracts?",
+      "tryChoices": [
+        "Rocky rapids or rough river stretches",
+        "Sediment-built land at the mouth",
+        "A ruler’s series of relatives"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "connections": [
+        {
+          "id": "ss_verified_landforms_cataracts_connect",
+          "prompt": "Which explanation connects this feature with a human activity?",
+          "options": [
+            "Rocky rapids can affect a boat crew’s route.",
+            "The landform determines every person’s social class.",
+            "The landform makes human planning unnecessary."
+          ],
+          "answer": 0,
+          "rationale": "A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate."
+        },
+        {
+          "id": "ss_verified_landforms_cataracts_apply",
+          "prompt": "Which comparison with a modern river keeps the evidence clear?",
+          "options": [
+            "Rough water can affect travel, but routes and conditions vary.",
+            "Every river has exactly the same features in the same places.",
+            "A modern river proves all ancient journeys were effortless."
+          ],
+          "answer": 0,
+          "rationale": "A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made."
+        }
+      ]
+    }
+  ],
+  "objectiveIds": [
+    "ss_verified_landforms_delta",
+    "ss_verified_landforms_cataracts",
+    "ss_term_cataracts",
+    "ss_term_delta"
+  ],
+  "objectiveLabels": {
+    "ss_verified_landforms_delta": "Delta",
+    "ss_verified_landforms_cataracts": "Cataracts",
+    "ss_term_cataracts": "cataracts",
+    "ss_term_delta": "delta"
+  },
+  "vocabulary": [],
+  "practice": [
+    {
+      "id": "ss_verified_landforms_delta_q0",
+      "prompt": "What is a delta?",
+      "options": [
+        "Land deposited near a river’s mouth",
+        "Rocky rapids upstream",
+        "A royal tomb in a cliff"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_delta",
+      "rationale": "Correct: Land deposited near a river’s mouth. A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_delta_q0_repair",
+        "prompt": "A river slows near the sea and leaves sediment. Which landform can develop?",
+        "options": [
+          "Delta",
+          "Cataract",
+          "Pyramid"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "rationale": "Correct: Delta. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "teach": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "delta"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_delta",
+        "ss_term_delta"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_delta_q1",
+      "prompt": "Where is the Nile Delta in Egypt?",
+      "options": [
+        "In the north, near the Mediterranean Sea",
+        "In the far south at the upstream source",
+        "At the bottom of every social pyramid"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_delta",
+      "rationale": "Correct: In the north, near the Mediterranean Sea. A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_delta_q1_repair",
+        "prompt": "Which region is near the Nile Delta?",
+        "options": [
+          "Lower Egypt",
+          "Upper Egypt’s far southern end",
+          "The Valley of the Kings only"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "rationale": "Correct: Lower Egypt. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "teach": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "delta"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_delta",
+        "ss_term_delta"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts_q0",
+      "prompt": "What are cataracts in Nile geography?",
+      "options": [
+        "Rocky rapids or rough river stretches",
+        "Sediment-built land at the mouth",
+        "A ruler’s series of relatives"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "rationale": "Correct: Rocky rapids or rough river stretches. Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7,
+          46
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_cataracts_q0_repair",
+        "prompt": "Which description fits a Nile cataract?",
+        "options": [
+          "Rushing water around rocks",
+          "A royal coffin made of stone",
+          "A writing sheet made from a plant"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "rationale": "Correct: Rushing water around rocks. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "teach": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7,
+            46
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "cataracts"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_cataracts",
+        "ss_term_cataracts"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts_q1",
+      "prompt": "Why could cataracts affect trade?",
+      "options": [
+        "They could make boat travel difficult.",
+        "They made all exchange impossible everywhere.",
+        "They automatically created every trade good."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "rationale": "Correct: They could make boat travel difficult. Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7,
+          46
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_cataracts_q1_repair",
+        "prompt": "A crew carries goods around rough rocky water. Which feature likely affected its route?",
+        "options": [
+          "Cataracts",
+          "A delta at the sea",
+          "A social class diagram"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "rationale": "Correct: Cataracts. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "teach": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7,
+            46
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "cataracts"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_cataracts",
+        "ss_term_cataracts"
+      ]
+    }
+  ],
+  "independentCheck": [
+    {
+      "id": "ss_verified_landforms_delta_q2",
+      "prompt": "A map shows the river branching as it reaches the sea. Which term fits?",
+      "options": [
+        "Delta",
+        "Cataract",
+        "Dynasty"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_delta",
+      "rationale": "Correct: Delta. A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_delta_q2_repair",
+        "prompt": "Which clue identifies a delta rather than a cataract?",
+        "options": [
+          "Sediment-built land near a river mouth",
+          "A rough rocky stretch upstream",
+          "A family line of rulers"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "rationale": "Correct: Sediment-built land near a river mouth. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "teach": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "delta"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_delta",
+        "ss_term_delta"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts_q2",
+      "prompt": "Which statement balances the Nile’s benefits with a limit?",
+      "options": [
+        "It connected places, but rough stretches could complicate travel.",
+        "Every stretch was equally easy for every boat.",
+        "A river connection meant no planning was needed."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "rationale": "Correct: It connected places, but rough stretches could complicate travel. Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7,
+          46
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_cataracts_q2_repair",
+        "prompt": "Why should a travel explanation include water conditions?",
+        "options": [
+          "Different stretches can create different obstacles.",
+          "Water conditions never affect boats.",
+          "A map label guarantees a successful journey."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "rationale": "Correct: Different stretches can create different obstacles. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "teach": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7,
+            46
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "cataracts"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_cataracts",
+        "ss_term_cataracts"
+      ]
+    }
+  ],
+  "masteryCheck": [
+    {
+      "id": "ss_verified_landforms_delta_q3",
+      "prompt": "Why could delta land support farming?",
+      "options": [
+        "River deposits helped create fertile land.",
+        "A delta removed every need for water.",
+        "A delta was a kind of government office."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_delta",
+      "rationale": "Correct: River deposits helped create fertile land. A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_delta_q3_repair",
+        "prompt": "Which statement connects delta formation with soil?",
+        "options": [
+          "Deposited river sediment can build fertile land.",
+          "Stone coffins turn into farmland.",
+          "River rapids are the same as a census."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "rationale": "Correct: Deposited river sediment can build fertile land. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "teach": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "delta"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_delta",
+        "ss_term_delta"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts_q3",
+      "prompt": "Which clue points to cataracts rather than a delta?",
+      "options": [
+        "Rocky rapids making navigation difficult",
+        "New land deposited at the sea",
+        "A family inheriting rule"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "rationale": "Correct: Rocky rapids making navigation difficult. Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7,
+          46
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_cataracts_q3_repair",
+        "prompt": "Which term would fit a map note saying difficult rocky passage?",
+        "options": [
+          "Cataracts",
+          "Papyrus",
+          "Dynasty"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "rationale": "Correct: Cataracts. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "teach": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7,
+            46
+          ]
+        },
+        "supported": true
+      },
+      "terms": [
+        "cataracts"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_cataracts",
+        "ss_term_cataracts"
+      ]
+    }
+  ],
+  "delayed": [
+    {
+      "id": "ss_verified_landforms_delta_q4",
+      "prompt": "Which pair correctly distinguishes a delta from cataracts?",
+      "options": [
+        "Delta—near the river mouth; cataracts—rocky rapids",
+        "Delta—royal coffin; cataracts—writing signs",
+        "Delta—upstream rapids; cataracts—river-mouth deposits"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_delta",
+      "rationale": "Correct: Delta—near the river mouth; cataracts—rocky rapids. A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_delta_q4_repair",
+        "prompt": "A student calls every triangle of desert a delta. What is missing?",
+        "options": [
+          "Evidence of river deposits at a mouth",
+          "Evidence of a royal crown",
+          "Evidence that every nearby person was a scribe"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "rationale": "Correct: Evidence of river deposits at a mouth. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "teach": "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea. As the river slows, it can leave sediment and split into channels. The delta’s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7
+          ]
+        },
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "delta"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_delta",
+        "ss_term_delta"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_cataracts_q4",
+      "prompt": "A river links two trading regions but includes cataracts. Which conclusion is careful?",
+      "options": [
+        "Exchange was possible, but the route could need extra effort.",
+        "The two regions were identical in every way.",
+        "The river guaranteed effortless travel."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "rationale": "Correct: Exchange was possible, but the route could need extra effort. Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          7,
+          46
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_landforms_cataracts_q4_repair",
+        "prompt": "Which comparison keeps a useful limit?",
+        "options": [
+          "A modern river can also have obstacles, but its conditions need separate evidence.",
+          "All rivers have the Nile’s exact route and history.",
+          "A cataract and a delta always mean the same feature."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "rationale": "Correct: A modern river can also have obstacles, but its conditions need separate evidence. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "teach": "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term. A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            7,
+            46
+          ]
+        },
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "cataracts"
+      ],
+      "objectiveIds": [
+        "ss_verified_landforms_cataracts",
+        "ss_term_cataracts"
+      ]
+    },
+    {
+      "id": "ss_verified_landforms_day3",
+      "prompt": "A coastal field lies on land built from river sediment. Which feature supports that description?",
+      "options": [
+        "Delta",
+        "Cataract",
+        "Sarcophagus"
+      ],
+      "answer": 0,
+      "retrievalDay": 3,
+      "objectiveId": "ss_verified_landforms_delta",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7,
+          46
+        ]
+      },
+      "rationale": "Delta. A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+      "repair": {
+        "id": "ss_verified_landforms_day3_repair",
+        "prompt": "Which clue is essential when identifying a delta?",
+        "options": [
+          "River-mouth deposits",
+          "Royal family relationships",
+          "A count of workers"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7,
+            46
+          ]
+        },
+        "teach": "A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+        "rationale": "River-mouth deposits. A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made.",
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_landforms_day7",
+      "prompt": "Why might a boat crew unload goods near a cataract?",
+      "options": [
+        "Rough rocky water can make passage difficult.",
+        "The crew has reached every river’s mouth.",
+        "All trade must end permanently."
+      ],
+      "answer": 0,
+      "retrievalDay": 7,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7,
+          46
+        ]
+      },
+      "rationale": "Rough rocky water can make passage difficult. A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+      "repair": {
+        "id": "ss_verified_landforms_day7_repair",
+        "prompt": "A route planner notes rocks and fast water. What issue should the crew consider?",
+        "options": [
+          "Navigation difficulty",
+          "A change in the ruler’s dynasty",
+          "The number of signs in a writing system"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7,
+            46
+          ]
+        },
+        "teach": "A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+        "rationale": "Navigation difficulty. A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made.",
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_landforms_day14",
+      "prompt": "Which comparison distinguishes a river’s mouth from rough upstream water?",
+      "options": [
+        "Delta formation involves deposited land; cataracts involve rocky rapids.",
+        "Both features are types of royal tomb.",
+        "Both features are government officials."
+      ],
+      "answer": 0,
+      "retrievalDay": 14,
+      "objectiveId": "ss_verified_landforms_delta",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7,
+          46
+        ]
+      },
+      "rationale": "Delta formation involves deposited land; cataracts involve rocky rapids. A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+      "repair": {
+        "id": "ss_verified_landforms_day14_repair",
+        "prompt": "Which statement separates the two geographic terms?",
+        "options": [
+          "Delta and cataract describe different river features.",
+          "Every desert triangle is a cataract.",
+          "A delta always means a rocky upstream rapid."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_delta",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7,
+            46
+          ]
+        },
+        "teach": "A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+        "rationale": "Delta and cataract describe different river features. A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made.",
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_landforms_day30",
+      "prompt": "Which claim about river travel is most careful?",
+      "options": [
+        "A river can connect places while some stretches make travel harder.",
+        "A connection by river guarantees every journey succeeds.",
+        "Rivers make all human decisions unnecessary."
+      ],
+      "answer": 0,
+      "retrievalDay": 30,
+      "objectiveId": "ss_verified_landforms_cataracts",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          4,
+          5,
+          7,
+          46
+        ]
+      },
+      "rationale": "A river can connect places while some stretches make travel harder. A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+      "repair": {
+        "id": "ss_verified_landforms_day30_repair",
+        "prompt": "Why should a historian consider both route and water conditions?",
+        "options": [
+          "They help explain possibilities and obstacles without guaranteeing outcomes.",
+          "They prove all journeys happened for the same reason.",
+          "They replace every other kind of evidence."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_landforms_cataracts",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            4,
+            5,
+            7,
+            46
+          ]
+        },
+        "teach": "A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+        "rationale": "They help explain possibilities and obstacles without guaranteeing outcomes. A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made.",
+        "supported": true
+      }
+    }
+  ],
+  "proof": {
+    "prompt": "Use multiple-choice application.",
+    "criteria": []
+  },
+  "links": {
+    "prior": "The Nile flows toward its northern mouth. Now distinguish river-mouth deposits from rocky rapids.",
+    "current": "A river’s mouth and its rocky rapids are different features. Their locations and conditions affect travel.",
+    "future": "Nile flooding and farming: Use water and fertile soil to explain farming, then connect food production with different jobs.",
+    "realLife": "A modern boat route also depends on water conditions. Knowing the feature helps explain a travel choice, but does not tell us every decision travelers made.",
+    "priorLessonId": "ss_verified_two_lands",
+    "futureLessonId": "ss_verified_nile_farming"
+  },
+  "nextLessonId": "ss_verified_nile_farming",
+  "memoryCue": "Delta: deposited land at the mouth. Cataracts: rocky rapids."
+}

@@ -1,0 +1,3432 @@
+{
+  "checked": "2026-11-03",
+  "complete": false,
+  "scope": "All discovered student-visible material entries are tracked; open and content-verified are separate. Full source reconciliation remains in progress.",
+  "courses": [
+    {
+      "subject": "ELA",
+      "courseId": "8432932249",
+      "url": "https://wcschools.schoology.com/course/8432932249/materials",
+      "foldersDiscovered": 19,
+      "foldersOpened": 19,
+      "resources": [
+        {
+          "title": "ELA Syllabus 26-27",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8543241792",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Unit 1 Test Study Guide 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8584770465",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Unit 1 Test",
+          "url": "https://wcschools.schoology.com/external_tool/3564229710/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "Unit 1 Test Remediation",
+          "url": "https://wcschools.schoology.com/assignment/8597513002",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Narrative Writing Pretest",
+          "url": "https://wcschools.schoology.com/assignment/8567179329",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Narrative Story Endings PowerpointNarrative story endings.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8580500957",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Kahoot Link to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8593110293",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Anchor Papers",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8587441661",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "MagicSchool Link",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8600846415",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "study-link"
+        },
+        {
+          "title": "Spiral Review (September 8-11)",
+          "url": "https://wcschools.schoology.com/assignment/8554034814",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Review (September 14-18)",
+          "url": "https://wcschools.schoology.com/assignment/8554034822",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Review (September 21-25)",
+          "url": "https://wcschools.schoology.com/assignment/8554034810",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Review (September 28-October 2)",
+          "url": "https://wcschools.schoology.com/assignment/8554034818",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Review (October 5-9)",
+          "url": "https://wcschools.schoology.com/assignment/8597525850",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Week (October 19-23)",
+          "url": "https://wcschools.schoology.com/assignment/8597525816",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Week (October 26-30)",
+          "url": "https://wcschools.schoology.com/assignment/8597525838",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Punctuating Dialogue.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8582300362",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Dialogue - Drag & Drop",
+          "url": "https://wcschools.schoology.com/assignment/8582306414",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Add Dialogue Activity",
+          "url": "https://wcschools.schoology.com/assignment/8582961075",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Kahoot to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8583175307",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Punctuating Dialogue Quiz",
+          "url": "https://wcschools.schoology.com/assignment/8584698355",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Slideshow Notes",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8620806359",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Kahoot to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8620808550",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Independent/Dependent Clauses Quiz",
+          "url": "https://wcschools.schoology.com/assignment/8620940209",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Notes Slideshow",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8629728448",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Kahoot to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8629730224",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "Compound and Complex Sentences Quiz",
+          "url": "https://wcschools.schoology.com/assignment/8630827544",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Spiral Review- Week One (August 31-September 4)",
+          "url": "https://wcschools.schoology.com/course/8432932249/assessments/8541358116",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Wagon Train at Dusk PDFWagon Train at Dusk PDF.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8498612289",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "\"Wagon Train at Dusk\" Summary",
+          "url": "https://wcschools.schoology.com/assignment/8498624356",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Brown Girl Dreaming PDFBrown Girl Dreaming PDF S.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8522643817",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Notes Doc For Theme, POV, and Fig. Lang.Charts for Brown Girl Dreaming (1) (1).pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8522653425",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Inference WS with Uncle RobertInference with Uncle Robert.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8522657368",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Brown Girl Dreaming Study Guide - QUIZ 9/1Brown Girl Dreaming Study Guide.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8527346122",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Kahoot to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8545862925",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "2026 Brown Girl Dreaming Quiz",
+          "url": "https://wcschools.schoology.com/external_tool/3544209910/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "OPTIONAL BGD Test Corrections",
+          "url": "https://wcschools.schoology.com/external_tool/3549485814/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "Craft and Structure Exit Ticket",
+          "url": "https://wcschools.schoology.com/assignment/8563738306",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Michaela DePrince-PDFMichaela DePrince-PDF (1).pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8553993648",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Project Instructions Copy of DePrince CellPhone Project Rubric.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8553997305",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Michaela DePrince Study Guide.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8553997841",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Kahoot to Study",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8563852387",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "\"Michaela DePrince: The War Orphan Who Became a Ballerina\" Quiz",
+          "url": "https://wcschools.schoology.com/external_tool/3551838612/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "OPTIONAL Michaela DePrince Corrections",
+          "url": "https://wcschools.schoology.com/assignment/8578422840",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "SMS Oranges CFA",
+          "url": "https://wcschools.schoology.com/external_tool/3553767757/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "Reading Buddies-PDF Reading Buddies-PDF (1).pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8617686354",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Deep Dive Handout with Reading BuddiesKami Export - deep dive reading buddies.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8617691369",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Intro to Jane Goodall",
+          "url": "https://wcschools.schoology.com/external_tool/3573938304/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "My Life with the Chimpanzees PDFC My Life with the Chimpanzees PDF.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "My Life with the Chimpanzees Study Guide",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/link/view/8624038722",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "study-link"
+        },
+        {
+          "title": "CW Compare + Contrast",
+          "url": "https://wcschools.schoology.com/assignment/8629293466",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "Quote Drag + Drop",
+          "url": "https://wcschools.schoology.com/assignment/8630836787",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment-or-assignment"
+        },
+        {
+          "title": "2026 BGD Project Instructions 2026 BGD Project Instructions .pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8527299359",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Brooklyn Rain Project 26.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8527308336",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Gifted Project 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8527336962",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "pdf"
+        },
+        {
+          "title": "Online Textbook",
+          "url": "https://wcschools.schoology.com/external_tool/3525389088/launch",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external-tool"
+        },
+        {
+          "title": "Spiral Review (November 2–6)",
+          "url": "https://wcschools.schoology.com/assignment/8633178839/assessment",
+          "folder": "Current work",
+          "opened": true,
+          "contentRead": false,
+          "status": "Landing page read;0of2attempts; not started. Posted Nov2 at7:47AM; due Nov6 at8AM. Assessment questions not opened.",
+          "type": "Assignment"
+        }
+      ],
+      "complete": false
+    },
+    {
+      "subject": "Math",
+      "courseId": "8432932288",
+      "url": "https://wcschools.schoology.com/course/8432932288/materials",
+      "foldersDiscovered": 30,
+      "foldersOpened": 30,
+      "resources": [
+        {
+          "title": "01 Decimal and Fractions Unit Notes_2026.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483049097",
+          "folder": "Classroom materials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ratios and Rates Unit Notes 2027.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8529600542",
+          "folder": "Notes: Ratios and Rates",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Ratio and Rates Completed Notes 26-27.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8529600552",
+          "folder": "Notes: Ratios and Rates",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Syllabus-Prakash-6th Math 2026-2027.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8547183421",
+          "folder": "Beginning Of The Year",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Guide for Mrs. Prakash classMs. Priya's class.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8547183426",
+          "folder": "Beginning Of The Year",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "_Back to School Night 2026 6th grade math Ms. Priya's.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8553961961",
+          "folder": "Beginning Of The Year",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Accessing ALEKS.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8547126119",
+          "folder": "Technology Information and Tutorials",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Accessing Digital Assignments.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8547126122",
+          "folder": "Technology Information and Tutorials",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "PDF"
+        },
+        {
+          "title": "Order of Operations and Rational Numbers Practice.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078863",
+          "folder": "Week 12: Nov. 2 - 6",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Problem Solving Practice 12PSP12.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+          "folder": "Week 12: Nov. 2 - 6",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Expressions PumpkinExpressionsSubstitutingforaVariablePumpkin.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865",
+          "folder": "Week 12: Nov. 2 - 6",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Decimal and Fraction Operations Notes_Completed_2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483049102",
+          "folder": "Notes: Decimal and Fraction Operations",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percent Unit Notes_2025-26.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8576786215",
+          "folder": "Notes: Percentages Unit",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percentage Unit Notes_Completed_2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8576786217",
+          "folder": "Notes: Percentages Unit",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "01 Integers, Rational Numbers and Coordinate Graphing Notes_2026.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8598632194",
+          "folder": "Notes: Integers and Coordinate Graphing",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Integer Rational Number Coordinate COMPLETED notes 2023.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8598632199",
+          "folder": "Notes: Integers and Coordinate Graphing",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Personal Tutors",
+          "url": "https://wcschools.schoology.com/external_tool/3579152571/launch",
+          "folder": "Decimal and Fractions Operations",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Personal Tutors",
+          "url": "https://wcschools.schoology.com/external_tool/3579152574/launch",
+          "folder": "Ratios and Rates",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Personal Tutors",
+          "url": "https://wcschools.schoology.com/external_tool/3579152576/launch",
+          "folder": "Percentage unit",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Personal Tutors",
+          "url": "https://wcschools.schoology.com/external_tool/3579152577/launch",
+          "folder": "Integers, Rational numbers and Coordinate planes",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Personal Tutors",
+          "url": "https://wcschools.schoology.com/external_tool/3579152579/launch",
+          "folder": "Expression",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Computation Wk 11_2025.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8622897586",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Integer and rational number test review.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8622897587",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Integers and Coordinate Graphing Practice Test",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8622897588",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Integers and Coordinate Graphing Test",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8622897591",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Rational Numbers on Number Lines.pdfRational_Numbers_on_Number_Lines.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8622897595",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Reflections and Distance Practice",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8622897596",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Computation 11 ( Check your answers)",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8622897597",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Dynamic Module 4 Practice (RM C1)",
+          "url": "https://wcschools.schoology.com/external_tool/3578851010/launch",
+          "folder": "Week 11: October 26 to 30",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Problem Solving Practice Week 10.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8613808491",
+          "folder": "Week 10: October 19 to 23",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Big 8 Review and Integers Vocabulary",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8613808493",
+          "folder": "Week 10: October 19 to 23",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Vocabulary Review",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/link/view/8620576141",
+          "folder": "Week 10: October 19 to 23",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "web link"
+        },
+        {
+          "title": "Division Review 2026 (Wk 9)Division Review 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8597560713",
+          "folder": "Week 9: October 5 to 9",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Computation 9Computation Wk 9_2025.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8597560727",
+          "folder": "Week 9: October 5 to 9",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percentages Test",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8597560783",
+          "folder": "Week 9: October 5 to 9",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Practice Test Reflection.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8597560889",
+          "folder": "Week 9: October 5 to 9",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Division Review (9)",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8599917168",
+          "folder": "Week 9: October 5 to 9",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Problem Solving Practice 8Practice 8_ Ratios and 5th Grade Overlap standards.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8585884607",
+          "folder": "Week 8: Sept 28 to Oct 2",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Practice Test Reflection.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8585884609",
+          "folder": "Week 8: Sept 28 to Oct 2",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percent Problem Practice",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8585884612",
+          "folder": "Week 8: Sept 28 to Oct 2",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Percentages Practice Test",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8585884631",
+          "folder": "Week 8: Sept 28 to Oct 2",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Percent Dynamic Practice (Part and Whole) (RM C1)",
+          "url": "https://wcschools.schoology.com/external_tool/3560822599/launch",
+          "folder": "Week 8: Sept 28 to Oct 2",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Percent QR Code Scavenger Hunt",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8584645861",
+          "folder": "Percent QR Code Scavenger Hunt",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Computation WK 7.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8576783547",
+          "folder": "Week 7: Sept 21 to 25",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Problem Solving Practice 6.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8565059582",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Ratio Test Review 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8565059584",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Customary and Metric Units Practice_2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8565059585",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Ratios Test_6th Math_2026",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8565059586",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Rates and Unit Rates Exit Ticket",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8565059602",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Lesson 1-9 ⋅ Practice (RM C1)",
+          "url": "https://wcschools.schoology.com/external_tool/3553315192/launch",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Ratios Practice Test",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8569458947",
+          "folder": "Week 6: Sept 14 to 18",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Ratio Tables Extra Practice.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8558216132",
+          "folder": "Week 5: Sept 8 to 11",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Computation Wk 5_Shortened.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8558216138",
+          "folder": "Week 5: Sept 8 to 11",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Comparing Ratios Practice.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8558216145",
+          "folder": "Week 5: Sept 8 to 11",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Lesson 1-6 ⋅ Practice (RM C1)",
+          "url": "https://wcschools.schoology.com/external_tool/3549026395/launch",
+          "folder": "Week 5: Sept 8 to 11",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Problem Solving Practice 4.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8542340014",
+          "folder": "Week 4: 31 Aug to 4 Sept",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Ratio Quiz Review 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8542340022",
+          "folder": "Week 4: 31 Aug to 4 Sept",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Lesson 1-2 Practice",
+          "url": "https://wcschools.schoology.com/external_tool/3541880679/launch",
+          "folder": "Week 4: 31 Aug to 4 Sept",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Ratios Entry Ticket: Lessons 1-1 to 1-2",
+          "url": "https://wcschools.schoology.com/external_tool/3542893528/launch",
+          "folder": "Week 4: 31 Aug to 4 Sept",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "external tool"
+        },
+        {
+          "title": "Ratios Quiz (Lessons 1 and 2)",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8551130039",
+          "folder": "Week 4: 31 Aug to 4 Sept",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "6th Math Agreement.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8522410025",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "01 Decimal and Fractions Test Review 2026.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8522410036",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Computation Wk 3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8522410048",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Practice Test Reflection.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8522410061",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Decimal and Fraction Operations  Practice Test_2026",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8522410074",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "Decimal and Fraction Operations Test_2026",
+          "url": "https://wcschools.schoology.com/course/8432932288/assessments/8522410308",
+          "folder": "Week 3: Aug. 24 to 28",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "assessment directions"
+        },
+        {
+          "title": "DividingFractionsQuiltDividingFractionsColorWorksheet-1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8503667965",
+          "folder": "Week 2: Aug 17 to 21",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Problem Solving Practice 2.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8503667994",
+          "folder": "Week 2: Aug 17 to 21",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Multiply and Divide by Powers of 10.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8503668011",
+          "folder": "Week 2: Aug 17 to 21",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Computation Wk 1_Shortened.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483044224",
+          "folder": "Week One",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Multiply and Divide by Powers of 10.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483044260",
+          "folder": "Week One",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Long Division-- Only Do Page One!Long division worksheet week 1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483044286",
+          "folder": "Week One",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Large Hundred Grid for modeling division of decimals.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483044311",
+          "folder": "Week One",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Dividing Decimals Partner Practice.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8483044333",
+          "folder": "Week One",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percent Test Review_2023.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8597560897",
+          "folder": "Percent Test review (print all)",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Test Review Percent 2025.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8597560906",
+          "folder": "Percent Test review (print all)",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Percent Test Review_2023.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8585884651",
+          "folder": "Percent Test review (print all)",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Test Review Percent 2025.pdf.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8585884653",
+          "folder": "Percent Test review (print all)",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "PDF"
+        },
+        {
+          "title": "Lesson 5-1 Practice",
+          "url": "https://wcschools.schoology.com/external_tool/3580914057/launch",
+          "folder": "Current work",
+          "opened": false,
+          "contentRead": false,
+          "status": "Listed in Week12; due Nov6 at11:59PM. Underlying provider assignment not opened in this check.",
+          "type": "Assignment"
+        },
+        {
+          "title": "Lesson 5-2 Dynamic Practice",
+          "url": "https://wcschools.schoology.com/external_tool/3580914062/launch",
+          "folder": "Current work",
+          "opened": false,
+          "contentRead": false,
+          "status": "Listed in Week12; due Nov6 at11:59PM. Underlying provider assignment not opened in this check.",
+          "type": "Assignment"
+        }
+      ],
+      "complete": false
+    },
+    {
+      "subject": "Social Studies",
+      "courseId": "8432932378",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials",
+      "foldersDiscovered": 6,
+      "foldersOpened": 6,
+      "resources": [
+        {
+          "title": "6th Grade Social Studies Scope and Sequence",
+          "url": "https://wcschools.schoology.com/assignment/8492881931",
+          "folder": "syllabus",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "6th Grade Social Studies Syllabus.docx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8508119199",
+          "folder": "syllabus",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "OER Ancient History Textbook.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8593922445",
+          "folder": "syllabus",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "OER Why Study History (2).pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8494910144",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "OER Prehistory Before10000BCE.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8494910849",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "OER Chapter3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8533016593",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Copy of Timeline Introduction.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8508096312",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Drag and Drop Globe Name Game!",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8508111850",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Primary and Secondary Sources Article",
+          "url": "https://wcschools.schoology.com/assignment/8521864546",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Otzi Writing Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8536407858",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Paleolithic Tool Kit",
+          "url": "https://wcschools.schoology.com/assignment/8541054293",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Terms and Timeline Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8541389766",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Terms and Tools Review Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8541392334",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Paleolithic vs Neolithic Review Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8541394837",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Time Line Project Instructions",
+          "url": "https://wcschools.schoology.com/assignment/8541397430",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Landforms-Geography",
+          "url": "https://wcschools.schoology.com/assignment/8549650341",
+          "folder": "geography",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "OER Ancient Mesopotamia.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8556644404",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Mesopotamia Map Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8556644414",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "From Nomads to Farmers Viewing Guide",
+          "url": "https://wcschools.schoology.com/assignment/8561456893",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Cuneiform Article",
+          "url": "https://wcschools.schoology.com/assignment/8561458207",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Cuneiform Power Point",
+          "url": "https://wcschools.schoology.com/assignment/8561682145",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Mesopotamia Magazine",
+          "url": "https://wcschools.schoology.com/assignment/8564069024",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Questions to go with the Mesopotamia Magazine",
+          "url": "https://wcschools.schoology.com/assignment/8564086914",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Ancient Mesopotamian Gods and Goddesses",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8569116751",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Mesopotamia Empire Carousel",
+          "url": "https://wcschools.schoology.com/assignment/8571086582",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Mesopotamia Study Guide",
+          "url": "https://wcschools.schoology.com/assignment/8578457891",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Hammurabi Reading",
+          "url": "https://wcschools.schoology.com/assignment/8578460342",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Analysis of Hammurabi's Code",
+          "url": "https://wcschools.schoology.com/assignment/8578461346",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Kahoot gray box1",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8578462074",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Kahoot gray box2",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8578462673",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Nomads to Farmers Video for Worksheet",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8581830647",
+          "folder": "mesopotamia",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "VideoHooktoIntroduceAncientIsrael-1.mp4",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8584760533",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "OER Ancient Israel (2).pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8584761619",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Canaan (Israel) Map Key.png",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8589412495",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Show What You Know",
+          "url": "https://wcschools.schoology.com/assignment/8589414071",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Ancient Israel Walk of Fame",
+          "url": "https://wcschools.schoology.com/assignment/8593076724",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Virtual Field Trip",
+          "url": "https://wcschools.schoology.com/assignment/8594549683",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Abraham Migration Reading",
+          "url": "https://wcschools.schoology.com/assignment/8600834664",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "2026The Hebrews Map Activity Migrations.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8601672991",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Ancient Israel Study Guide",
+          "url": "https://wcschools.schoology.com/assignment/8601676731",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "We Three Kings Slides",
+          "url": "https://wcschools.schoology.com/assignment/8601678619",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "We Three Kings Graphic Organizer",
+          "url": "https://wcschools.schoology.com/assignment/8601680071",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Ancient Israel Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8604018753",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Judaism Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8604019420",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Ancient Israel Review Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/link/view/8614756144",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "link"
+        },
+        {
+          "title": "Israel Vocabulary",
+          "url": "https://wcschools.schoology.com/assignment/8615052923",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "Show What You Know KEY!!!!!",
+          "url": "https://wcschools.schoology.com/assignment/8615518539",
+          "folder": "israel",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "assignment"
+        },
+        {
+          "title": "OER Ancient Egypt.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "51-page text read; assessed source pages and named figures reviewed",
+          "type": "gp",
+          "readEvidence": "Recovered exact51-page PDF. Text reviewed across geography, agriculture, society, religion, history, writing and Nubia. Original named figures retained privately; contradictory claims corrected separately. This is not certification of every external link or all historical course resources."
+        },
+        {
+          "title": "Ancient Egypt Vocabulary",
+          "url": "https://wcschools.schoology.com/assignment/8618438025",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content read; linked-media limits noted",
+          "type": "assignment",
+          "readEvidence": "Both vocabulary pages read: all24 terms recovered, including MentuhotepII and Ahmose. Checklist availability does not establish taught coverage."
+        },
+        {
+          "title": "AncientEgyptAdobeSparkVideoHookIntro-1_1.mp4",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8619382895",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Two Lands Reading and Questions",
+          "url": "https://wcschools.schoology.com/assignment/8624027660",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content read; linked-media limits noted",
+          "type": "assignment",
+          "readEvidence": "Both scanned pages visually read, including all3 questions. Black/Red Land oversimplification excluded from factual keys."
+        },
+        {
+          "title": "Student Version Egypt Project.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8628424742",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "All12 slide text and both rubric images read",
+          "type": "gp",
+          "readEvidence": "All12 slides text reviewed; rubric images on slides2–3 visually read November3. Visual and in-class writing are each50points. Accurate-scale map required for geographic project; Studio satellite is not a scaled project map. Paragraph-count conflict remains parent-visible."
+        },
+        {
+          "title": "Ancient Egypt Social Classes Instructions.jpg",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630097165",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content read; linked-media limits noted",
+          "type": "gp",
+          "readEvidence": "Instructions image visually read. OER15–18 and orange book149 assigned; three contributions per role; dueThursdayNovember5."
+        },
+        {
+          "title": "AncientEgyptianSocietySocialPyramid-1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630781275",
+          "folder": "egypt",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content read; linked-media limits noted",
+          "type": "gp",
+          "readEvidence": "All7 pages read; pages3–5 diagrams visually checked. Embedded video link playback still unverified."
+        },
+        {
+          "title": "8.17 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8508090028",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.18 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8508090714",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.19 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8511588611",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.20 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8518372301",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.21 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8518373667",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.24 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8529577620",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.25 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8529578658",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.26 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8536402866",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.27 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8536403878",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.28 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8536404911",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "8.31 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8547892666",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.1 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8547893385",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.2 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8550608925",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.3 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8553107257",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.4 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8553108496",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.8 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8562812672",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.9 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8562813218",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.10 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8562813835",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.14 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8572086207",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.15 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8572086767",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.16 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8572088508",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.17 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8575634636",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.18 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8575636139",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.21 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8582244338",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.21 duplicate separate file Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8582245591",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.22 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8582246075",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.23 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8582246666",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.24 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8583917562",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.28 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8590486018",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.29 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8590486656",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "9.30 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8600830238",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.1 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8600830888",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.5 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8600831606",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.6 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8600832379",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.07 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626900659",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.08 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626901478",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.09 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626902277",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.20 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626914646",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.21 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626965556",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.23 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626966154",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.26 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626966566",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "10.27 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8626966977",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": true,
+          "status": "Content verified",
+          "type": "gp"
+        },
+        {
+          "title": "10.28 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630094576",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Slides1–2 of3 visually read November2: bellringer asks Nile flooding and fertile-land name; activities assign pages150–151, a clip, and social pyramid project due Friday. Slide3 not verified.",
+          "type": "gp"
+        },
+        {
+          "title": "10.29 Bellwork.pptx",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630095416",
+          "folder": "bellwork",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content still needs verification",
+          "type": "gp"
+        },
+        {
+          "title": "Who Done It? Ancient Egyptian Society",
+          "url": "https://wcschools.schoology.com/assignment/8633333695/info",
+          "folder": "Egypt-Quarter2",
+          "opened": true,
+          "contentRead": true,
+          "type": "PDF activity",
+          "status": "Content read; linked-media limits noted",
+          "readEvidence": "All6 scanned pages visually read. Covers classes, pharaoh, soldiers, women’s property/business rights, priests, writing, pyramid population, artisans and vizier. Mystery setting/events are fictional."
+        }
+      ],
+      "complete": false,
+      "note": "13 current Egypt chapters cover recovered OER, all24 teacher vocabulary terms, Two Lands and society/pyramid targets. Full historical course census, orange-book149–151 and linked-media playback remain incomplete."
+    },
+    {
+      "subject": "Science",
+      "courseId": "8432932346",
+      "url": "https://wcschools.schoology.com/course/8432932346/materials",
+      "foldersDiscovered": 16,
+      "foldersOpened": 16,
+      "resources": [
+        {
+          "title": "Ecology Study Mate",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837577",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Digital Notebook",
+          "url": "https://wcschools.schoology.com/assignment/8601837583",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Monday(10/13) Environments and Populations Stemscopedia Due Friday",
+          "url": "https://wcschools.schoology.com/assignment/8601837586",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday(10/14)",
+          "url": "https://wcschools.schoology.com/assignment/8601837591",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday(10/15)",
+          "url": "https://wcschools.schoology.com/assignment/8601837597",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837616",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday(10/16) Quiz Tuesday Biotic Abiotic5Levels",
+          "url": "https://wcschools.schoology.com/assignment/8601837621",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Texas Gateway Ecosystems",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837628",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday(10/17)",
+          "url": "https://wcschools.schoology.com/assignment/8601837631",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Abiotic and Biotic Clue Game",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8620867073",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology StudyMate",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837489",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Monday(10/21)",
+          "url": "https://wcschools.schoology.com/assignment/8601837492",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837493",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday(10/22)",
+          "url": "https://wcschools.schoology.com/assignment/8601837545",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "DoodleNotesFoodChainsFoodWebs",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837551",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday(10/22)",
+          "url": "https://wcschools.schoology.com/assignment/8601837553",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday(10/24)",
+          "url": "https://wcschools.schoology.com/assignment/8601837554",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "DoodleNoteEnergyPyramid",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837561",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Whodunnit",
+          "url": "https://wcschools.schoology.com/assignment/8601837562",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "MatterEnergyFoodWebsGuidedNotes",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8626965253",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837565",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_2.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837570",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837572",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Underlying content verification incomplete",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Study Mate",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837459",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837460",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (10/28)",
+          "url": "https://wcschools.schoology.com/assignment/8601837464",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (10/29)",
+          "url": "https://wcschools.schoology.com/assignment/8601837466",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Symbiosis Notes",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837469",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Terms",
+          "url": "https://wcschools.schoology.com/assignment/8601837471",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (10/30)",
+          "url": "https://wcschools.schoology.com/assignment/8601837474",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837362",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Study Mate",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837362",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837365",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837375",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (11/5)",
+          "url": "https://wcschools.schoology.com/assignment/8601837409",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "PHET Lab Population Changes Rabbits",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837416",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (11/6)",
+          "url": "https://wcschools.schoology.com/assignment/8601837419",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday (11/7)",
+          "url": "https://wcschools.schoology.com/assignment/8601837422",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "ecology study guide answer key",
+          "url": "https://wcschools.schoology.com/page/8601837432",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Hogs in TN",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837435",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837150",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Study Mate",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837150",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837151",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (11/11)",
+          "url": "https://wcschools.schoology.com/assignment/8601837155",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (11/12)",
+          "url": "https://wcschools.schoology.com/assignment/8601837161",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (11/13)",
+          "url": "https://wcschools.schoology.com/assignment/8601837294",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday (11/14)",
+          "url": "https://wcschools.schoology.com/assignment/8601837300",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837307",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome Notes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837310",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837108",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome Notes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837112",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Submit Assignment",
+          "url": "https://wcschools.schoology.com/assignment/8601837115",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (11/18)",
+          "url": "https://wcschools.schoology.com/assignment/8601837125",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (11/19)",
+          "url": "https://wcschools.schoology.com/assignment/8601837130",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (11/20)",
+          "url": "https://wcschools.schoology.com/assignment/8601837136",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Marine Biomes Slide",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837140",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday (11/21)",
+          "url": "https://wcschools.schoology.com/assignment/8601837144",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Freshwater Biomes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837147",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836913",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Monday (12/1)",
+          "url": "https://wcschools.schoology.com/assignment/8601836925",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (12/2)",
+          "url": "https://wcschools.schoology.com/assignment/8601836934",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (12/3)",
+          "url": "https://wcschools.schoology.com/assignment/8601836937",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biomes Study Guide ",
+          "url": "https://wcschools.schoology.com/page/8601836957",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (12/4)",
+          "url": "https://wcschools.schoology.com/assignment/8601836958",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday (12/5)",
+          "url": "https://wcschools.schoology.com/assignment/8601837029",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Mission: Biomes - The Great Graph Match",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837098",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836623",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Mission: Biomes - The Great Graph Match",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836630",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Monday (12/8)",
+          "url": "https://wcschools.schoology.com/assignment/8601836634",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome Brochure Project",
+          "url": "https://wcschools.schoology.com/page/8601836641",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (12/9)",
+          "url": "https://wcschools.schoology.com/assignment/8601836643",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Wednesday (12/10)",
+          "url": "https://wcschools.schoology.com/assignment/8601836646",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Thursday (12/11)",
+          "url": "https://wcschools.schoology.com/assignment/8601836650",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Friday (12/12)",
+          "url": "https://wcschools.schoology.com/assignment/8601836704",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/assignment/8601836614",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Tuesday (12/16)",
+          "url": "https://wcschools.schoology.com/assignment/8601836620",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837459",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837477",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_2.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837481",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837483",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837438",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "KAhoot Ecosystem",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837438",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Symbiosis Notes",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837440",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837443",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_2.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837445",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837448",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837314",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "KAhoot Ecosystem",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837314",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Symbiosis Notes",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837321",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_1.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837325",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_2.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837333",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Chapter_2_Section_3.pdf",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837336",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Study guide answers",
+          "url": "https://wcschools.schoology.com/page/8601837345",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "ecology study guide answer key",
+          "url": "https://wcschools.schoology.com/page/8601837347",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Kahoot Symbiosis",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837349",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Kahoot Ecology Test Review",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837352",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Ecology Jeopardy",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837355",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837101",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome Notes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837101",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Marine Biomes Slide",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837103",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Freshwater Biomes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837106",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/page/8601836820",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biomes Answer Key",
+          "url": "https://wcschools.schoology.com/page/8601836823",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome Notes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836826",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Marine Biomes Slide",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836828",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Freshwater Biomes Slides",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836834",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Biome vocab Kahoot",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836837",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Mission: Biomes - The Great Graph Match",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836839",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Kahoot Biome Test Review 1",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836907",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Kahoot Biome Test Review 2",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/link/view/8601836909",
+          "folder": "Published Science folders",
+          "opened": true,
+          "contentRead": false,
+          "status": "Rendered page inspected; attachments and embeds need separate verification",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837469",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837416",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837310",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837112",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837140",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837147",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836630",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837489",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837551",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837561",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8626965253",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837435",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837349",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836826",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837440",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837321",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837352",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837355",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837103",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601837106",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836828",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836834",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836839",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836837",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836843",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Next",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836909",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        },
+        {
+          "title": "Prev",
+          "url": "https://wcschools.schoology.com/course/8432932346/materials/gp/8601836907",
+          "folder": "Published Science folders",
+          "opened": false,
+          "contentRead": false,
+          "status": "Discovered; resource page not yet opened",
+          "type": "Classroom resource"
+        }
+      ],
+      "complete": false
+    },
+    {
+      "subject": "Theatre",
+      "courseId": "8432933229",
+      "url": "https://wcschools.schoology.com/course/8432933229/materials",
+      "foldersDiscovered": 0,
+      "foldersOpened": 0,
+      "resources": [
+        {
+          "title": "Music for Mimes · 18 teacher slides",
+          "url": "https://docs.google.com/presentation/d/126G0OIZly9BdMw6dfOMl0cIqOA8BI-u-XXdS8s5nfcM/edit",
+          "folder": "Theatre materials",
+          "opened": true,
+          "contentRead": true,
+          "status": "All18 slide text and media descriptions verified; full music playback not verified",
+          "type": "Google Slides"
+        }
+      ],
+      "complete": false,
+      "note": "No separate directions, rubric or due date is posted; embedded playback remains unverified."
+    }
+  ]
+}

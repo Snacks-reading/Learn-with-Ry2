@@ -1,1 +1,2 @@
-// Social Studies narration is withdrawn. Draft replacements are not loaded into the parent player.
+// Current Social Studies audio uses the shared private Studio narration source.
+// Open https://ry-learning-studio.raynastover.chatgpt.site/audio?subject=SS

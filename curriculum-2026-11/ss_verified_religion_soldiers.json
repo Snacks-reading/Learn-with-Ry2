@@ -2,7 +2,7 @@
   "id": "ss_verified_religion_soldiers",
   "subject": "SS",
   "title": "Priests, soldiers and legal rights",
-  "contentVersion": "schoology-reset-1",
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
   "verifiedReplacement": true,
   "objectiveIds": [
     "ss_verified_religion_soldiers"
@@ -13,7 +13,7 @@
   "teach": [
     "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding.",
     "Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier.",
-    "The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
+    "The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
   ],
   "sources": [
     {
@@ -33,7 +33,7 @@
         3,
         4
       ],
-      "status": "All six pages visually read; women\u2019s-rights item checked"
+      "status": "All six pages visually read; women’s-rights item checked"
     }
   ],
   "readingLocation": {
@@ -50,10 +50,10 @@
       "teach": [
         "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding.",
         "Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier.",
-        "The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
+        "The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
       ],
       "example": {
-        "prompt": "A woman owns property and runs a business. Does that match the teacher\u2019s society reading?",
+        "prompt": "A woman owns property and runs a business. Does that match the teacher’s society reading?",
         "thinking": "The assigned question identifies property ownership and business as rights available to women. It does not say everyone held equal power.",
         "answer": "Yes. Those activities match the legal rights described.",
         "why": "Use the specific rights in the source without turning them into a claim of complete equality."
@@ -65,7 +65,31 @@
         "Artisans"
       ],
       "tryAnswerIndex": 0,
-      "tryAnswer": "The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
+      "tryAnswer": "Priests. They carried out important religious ceremonies and temple rituals.",
+      "connections": [
+        {
+          "id": "ss_verified_religion_soldiers_teach_connection_0",
+          "prompt": "Why does a soldier’s possible land reward differ from a woman’s property right?",
+          "options": [
+            "One is a possible reward; the other is a specific legal right.",
+            "Both mean every person held the same power as the ruler.",
+            "Both are names for the same religious ceremony."
+          ],
+          "answer": 0,
+          "rationale": "One is a possible reward; the other is a specific legal right. Distinguish a religious belief, a possible military reward and a legal right without making a claim about everyone."
+        },
+        {
+          "id": "ss_verified_religion_soldiers_teach_connection_1",
+          "prompt": "A person can own property without running a government. How does this help interpret women’s rights?",
+          "options": [
+            "A property right does not prove equal political power.",
+            "Owning property automatically makes someone a pharaoh.",
+            "People with property never have any legal limits."
+          ],
+          "answer": 0,
+          "rationale": "A property right does not prove equal political power. Owning a small business does not make someone a government leader. A specific right and political power are different ideas."
+        }
+      ]
     }
   ],
   "practice": [
@@ -85,7 +109,7 @@
           16
         ]
       },
-      "rationale": "Correct: Priests performed rituals people believed pleased the gods.. See Assigned OER Ancient Egypt, page 16.",
+      "rationale": "Correct: Priests performed rituals people believed pleased the gods. See Assigned OER Ancient Egypt, page 16.",
       "repair": {
         "prompt": "Which work belongs to priests in the assigned reading?",
         "options": [
@@ -102,13 +126,13 @@
             16
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Performing religious ceremonies. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Performing religious ceremonies. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       }
     },
     {
-      "prompt": "How could successful military service improve a soldier\u2019s position?",
+      "prompt": "How could successful military service improve a soldier’s position?",
       "options": [
         "The pharaoh could reward the soldier with land.",
         "Every soldier automatically became pharaoh.",
@@ -123,7 +147,7 @@
           16
         ]
       },
-      "rationale": "Correct: The pharaoh could reward the soldier with land.. See Assigned OER Ancient Egypt, page 16.",
+      "rationale": "Correct: The pharaoh could reward the soldier with land. See Assigned OER Ancient Egypt, page 16.",
       "repair": {
         "prompt": "A soldier hopes to earn land through service. Which source idea fits this hope?",
         "options": [
@@ -140,15 +164,15 @@
             16
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Successful soldiers could receive rewards from the pharaoh.. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Successful soldiers could receive rewards from the pharaoh. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       }
     }
   ],
   "independentCheck": [
     {
-      "prompt": "Which statement matches the teacher\u2019s material about women?",
+      "prompt": "Which statement matches the teacher’s material about women?",
       "options": [
         "Women could own property and conduct business.",
         "Women were never allowed to own property.",
@@ -163,7 +187,7 @@
           4
         ]
       },
-      "rationale": "Correct: Women could own property and conduct business.. See Who Done It? Ancient Egyptian Society, page 4.",
+      "rationale": "Correct: Women could own property and conduct business. See Who Done It? Ancient Egyptian Society, page 4.",
       "repair": {
         "prompt": "Which activity was available to women according to the society mystery?",
         "options": [
@@ -180,19 +204,96 @@
             4
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Owning property. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Owning property. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       }
     }
   ],
-  "masteryCheck": [],
+  "masteryCheck": [
+    {
+      "id": "ss_verified_religion_soldiers_formC_0",
+      "prompt": "A soldier receives a land reward while a woman conducts business. Which careful conclusion fits the sources?",
+      "options": [
+        "Sources describe a possible reward and a legal right, not equal power for everyone.",
+        "Every soldier and every woman became a pharaoh.",
+        "Neither activity could occur in the assigned accounts."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_religion_soldiers",
+      "rationale": "Correct: Sources describe a possible reward and a legal right, not equal power for everyone. Distinguish a religious belief, a possible military reward and a legal right without making a claim about everyone.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          16
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_religion_soldiers_formC_0_repair",
+        "prompt": "Which claim is supported without promising everyone the same outcome?",
+        "options": [
+          "A successful soldier could receive land.",
+          "Every soldier automatically became pharaoh.",
+          "Every woman held the pharaoh’s authority."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_religion_soldiers",
+        "teach": "Owning a small business does not make someone a government leader. A specific right and political power are different ideas.",
+        "rationale": "Correct: A successful soldier could receive land. Owning a small business does not make someone a government leader. A specific right and political power are different ideas.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            16
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_religion_soldiers_formC_1",
+      "prompt": "Which sentence separates a belief from a physical cause?",
+      "options": [
+        "Egyptians believed rituals pleased gods; that does not establish rituals as a cause of floods.",
+        "Rituals were a modern instrument measuring river flow.",
+        "Every religious image proves a flood occurred."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_religion_soldiers",
+      "rationale": "Correct: Egyptians believed rituals pleased gods; that does not establish rituals as a cause of floods. Distinguish a religious belief, a possible military reward and a legal right without making a claim about everyone.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          16
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_religion_soldiers_formC_1_repair",
+        "prompt": "Which sentence describes a historical religious belief?",
+        "options": [
+          "Egyptians believed rituals could please the gods.",
+          "A temple image is a rainfall measuring instrument.",
+          "A ceremony proves the exact cause of a flood."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_religion_soldiers",
+        "teach": "Owning a small business does not make someone a government leader. A specific right and political power are different ideas.",
+        "rationale": "Correct: Egyptians believed rituals could please the gods. Owning a small business does not make someone a government leader. A specific right and political power are different ideas.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            16
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
   "delayed": [
     {
       "prompt": "Which sentence reports a belief rather than presenting it as a proven cause?",
       "options": [
         "Egyptians believed pleasing the gods helped ensure Nile flooding.",
-        "Priests\u2019 rituals scientifically made the Nile rise.",
+        "Priests’ rituals scientifically made the Nile rise.",
         "No Egyptians connected religion with the Nile."
       ],
       "answer": 0,
@@ -204,7 +305,7 @@
           16
         ]
       },
-      "rationale": "Correct: Egyptians believed pleasing the gods helped ensure Nile flooding.. See Assigned OER Ancient Egypt, page 16.",
+      "rationale": "Correct: Egyptians believed pleasing the gods helped ensure Nile flooding. See Assigned OER Ancient Egypt, page 16.",
       "repair": {
         "prompt": "How should a student describe the religious explanation of flooding?",
         "options": [
@@ -221,8 +322,8 @@
             16
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: As a belief held by ancient Egyptians. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: As a belief held by ancient Egyptians. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       },
       "retrievalDay": 1
@@ -247,9 +348,9 @@
       "repair": {
         "prompt": "Which pair correctly matches a role and an action?",
         "options": [
-          "Soldier \u2014 defending Egypt",
-          "Priest \u2014 collecting all grain taxes",
-          "Artisan \u2014 serving as chief judge"
+          "Soldier — defending Egypt",
+          "Priest — collecting all grain taxes",
+          "Artisan — serving as chief judge"
         ],
         "answer": 0,
         "id": "ss_verified_religion_soldiers_repair5",
@@ -260,8 +361,8 @@
             16
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Soldier \u2014 defending Egypt. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Soldier — defending Egypt. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       },
       "retrievalDay": 3
@@ -282,7 +383,7 @@
           4
         ]
       },
-      "rationale": "Correct: Women had legal rights to own property and conduct business.. See Who Done It? Ancient Egyptian Society, page 4.",
+      "rationale": "Correct: Women had legal rights to own property and conduct business. See Who Done It? Ancient Egyptian Society, page 4.",
       "repair": {
         "prompt": "What does the right to conduct business allow?",
         "options": [
@@ -299,8 +400,8 @@
             4
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Taking part in business dealings. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Taking part in business dealings. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       },
       "retrievalDay": 7
@@ -321,12 +422,12 @@
           16
         ]
       },
-      "rationale": "Correct: Every soldier was guaranteed a land reward.. See Assigned OER Ancient Egypt, page 16.",
+      "rationale": "Correct: Every soldier was guaranteed a land reward. See Assigned OER Ancient Egypt, page 16.",
       "repair": {
         "prompt": "Which claim is supported by the OER account of soldiers?",
         "options": [
           "Some successful soldiers gained land and wealth.",
-          "All soldiers belonged to the pharaoh\u2019s family.",
+          "All soldiers belonged to the pharaoh’s family.",
           "No soldier could change social position."
         ],
         "answer": 0,
@@ -338,14 +439,14 @@
             16
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: Some successful soldiers gained land and wealth.. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: Some successful soldiers gained land and wealth. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       },
       "retrievalDay": 14
     },
     {
-      "prompt": "Which statement about women\u2019s rights is the most careful?",
+      "prompt": "Which statement about women’s rights is the most careful?",
       "options": [
         "Having property rights did not mean everyone had equal power.",
         "Women could never run a business.",
@@ -360,7 +461,7 @@
           4
         ]
       },
-      "rationale": "Correct: Having property rights did not mean everyone had equal power.. See Who Done It? Ancient Egyptian Society, page 4.",
+      "rationale": "Correct: Having property rights did not mean everyone had equal power. See Who Done It? Ancient Egyptian Society, page 4.",
       "repair": {
         "prompt": "A classmate says property rights prove all women were as powerful as rulers. What is the best response?",
         "options": [
@@ -377,8 +478,8 @@
             4
           ]
         },
-        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
-        "rationale": "Correct: A specific legal right does not prove equal political power.. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "teach": "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
+        "rationale": "Correct: A specific legal right does not prove equal political power. Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding. Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier. The teacher’s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience.",
         "supported": true
       },
       "retrievalDay": 30
@@ -390,13 +491,13 @@
   },
   "vocabulary": [],
   "links": {
-    "prior": "Pharaoh and government officials",
+    "prior": "The pharaoh’s authority connected politics with religious belief. Now distinguish religious work, possible military rewards and legal rights.",
     "current": "Distinguish a religious belief, a possible military reward and a legal right without making a claim about everyone.",
-    "future": "Use the teacher\u2019s remaining resources while unreleased chapters are checked.",
+    "future": "Two lands become one kingdom: Family succession explains how rule continues. A modern school changes principals, but school leaders do not automatically inherit the job.",
     "realLife": "Owning a small business does not make someone a government leader. A specific right and political power are different ideas.",
     "priorLessonId": "ss_verified_government",
-    "futureLessonId": "ss_verified_religion_soldiers"
+    "futureLessonId": "ss_verified_union"
   },
-  "draft": true,
-  "releaseStatus": "Unreleased draft. Source-completeness and final instructional/visual QC gates remain open."
+  "nextLessonId": "ss_verified_union",
+  "memoryCue": "A belief, a possible reward and a legal right are different kinds of claims."
 }

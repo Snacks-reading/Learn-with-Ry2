@@ -1,0 +1,1409 @@
+{
+  "id": "ss_verified_new_rulers",
+  "subject": "SS",
+  "title": "New Kingdom rulers and their evidence",
+  "verifiedReplacement": true,
+  "contentVersion": "egypt-teach-learn-practice-2026-11-03",
+  "objectiveIds": [
+    "ss_verified_new_rulers_hatshepsut",
+    "ss_verified_new_rulers_tutankhamun",
+    "ss_verified_new_rulers_ramses",
+    "ss_term_queen_hatshepsut",
+    "ss_term_tutankhamun",
+    "ss_term_ramses_the_great"
+  ],
+  "objectiveLabels": {
+    "ss_verified_new_rulers_hatshepsut": "Hatshepsut: trade and royal authority",
+    "ss_verified_new_rulers_tutankhamun": "Tutankhamun: kingship and tomb evidence",
+    "ss_verified_new_rulers_ramses": "Ramses II: conflict, peace and building",
+    "ss_term_queen_hatshepsut": "Queen Hatshepsut",
+    "ss_term_tutankhamun": "Tutankhamun",
+    "ss_term_ramses_the_great": "Ramses the Great"
+  },
+  "teach": [
+    "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri.",
+    "She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally.",
+    "Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+    "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II.",
+    "His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife.",
+    "Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+    "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments.",
+    "The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance.",
+    "A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict."
+  ],
+  "teachingSections": [
+    {
+      "id": "ss_verified_new_rulers_hatshepsut",
+      "title": "Hatshepsut: trade and royal authority",
+      "where": "Assigned Egypt OER PDF pages 34.",
+      "sourceUrl": "/?reading=egypt&page=34",
+      "teach": [
+        "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri.",
+        "She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally.",
+        "Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority."
+      ],
+      "example": {
+        "prompt": "A ruler sponsors an expedition and uses temple reliefs to show its goods. Which Hatshepsut theme fits?",
+        "thinking": "Trade brings resources; the relief also presents a royal achievement.",
+        "answer": "Trade and the display of royal authority.",
+        "why": "A royal account is useful evidence, but it also presents the ruler’s viewpoint."
+      },
+      "tryPrompt": "Which accomplishment is associated with Hatshepsut?",
+      "tryChoices": [
+        "Expanding trade and building temples",
+        "Building Khufu’s Great Pyramid",
+        "Ending Hyksos rule"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Expanding trade and building temples. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri.",
+      "connections": [
+        {
+          "id": "ss_verified_new_rulers_hatshepsut_connection_0",
+          "prompt": "How could Hatshepsut’s trade expedition also support royal authority?",
+          "options": [
+            "Its goods and temple record could present a royal achievement.",
+            "Trade meant the ruler no longer needed government officials.",
+            "An expedition made every Egyptian a member of the royal family."
+          ],
+          "answer": 0,
+          "rationale": "Its goods and temple record could present a royal achievement. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source."
+        },
+        {
+          "id": "ss_verified_new_rulers_hatshepsut_connection_1",
+          "prompt": "A modern leader highlights successes in a public message. What comparison with a royal inscription is careful?",
+          "options": [
+            "Both may emphasize success; compare each with other evidence.",
+            "Both prove the leader never faced any failures.",
+            "Both replace the need to consider the source’s viewpoint."
+          ],
+          "answer": 0,
+          "rationale": "Both may emphasize success; compare each with other evidence. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_new_rulers_tutankhamun",
+      "title": "Tutankhamun: kingship and tomb evidence",
+      "where": "Assigned Egypt OER PDF pages 35, 36.",
+      "sourceUrl": "/?reading=egypt&page=35",
+      "teach": [
+        "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II.",
+        "His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife.",
+        "Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial."
+      ],
+      "example": {
+        "prompt": "A gold burial object is found in King Tut’s tomb. What can it help us study?",
+        "thinking": "I connect the object to its actual context: a royal burial, not every household.",
+        "answer": "Royal burial practices and skilled craftsmanship.",
+        "why": "An object can support a limited claim without representing everyone."
+      },
+      "tryPrompt": "Which place is associated with King Tut’s tomb?",
+      "tryChoices": [
+        "Valley of the Kings",
+        "The Nile Delta’s river mouth",
+        "Khufu’s Great Pyramid"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Valley of the Kings. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II.",
+      "connections": [
+        {
+          "id": "ss_verified_new_rulers_tutankhamun_connection_0",
+          "prompt": "How do tomb objects connect King Tut’s burial with afterlife beliefs?",
+          "options": [
+            "Goods placed there may reflect expected needs after death.",
+            "Every tomb object was used to collect grain taxes.",
+            "A royal tomb records every farmer’s exact possessions."
+          ],
+          "answer": 0,
+          "rationale": "Goods placed there may reflect expected needs after death. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source."
+        },
+        {
+          "id": "ss_verified_new_rulers_tutankhamun_connection_1",
+          "prompt": "One wealthy household owns expensive furniture. What limit also matters when studying a royal tomb?",
+          "options": [
+            "One wealthy example does not describe every household.",
+            "Every family must own the same expensive goods.",
+            "A wealthy object cannot tell us anything about its owner."
+          ],
+          "answer": 0,
+          "rationale": "One wealthy example does not describe every household. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer."
+        }
+      ]
+    },
+    {
+      "id": "ss_verified_new_rulers_ramses",
+      "title": "Ramses II: conflict, peace and building",
+      "where": "Assigned Egypt OER PDF pages 36, 37.",
+      "sourceUrl": "/?reading=egypt&page=36",
+      "teach": [
+        "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments.",
+        "The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance.",
+        "A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict."
+      ],
+      "example": {
+        "prompt": "A ruler fights a rival and later agrees to peace. Are these two actions contradictory?",
+        "thinking": "They happen at different points in the relationship. An agreement can follow conflict.",
+        "answer": "No. Conflict can be followed by a peace treaty.",
+        "why": "The treaty shows a political response, not proof that conflict never happened."
+      },
+      "tryPrompt": "Which monument is associated with Ramses II?",
+      "tryChoices": [
+        "Abu Simbel",
+        "Khufu’s Great Pyramid",
+        "Menes’s double crown alone"
+      ],
+      "tryAnswerIndex": 0,
+      "tryAnswer": "Abu Simbel. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments.",
+      "connections": [
+        {
+          "id": "ss_verified_new_rulers_ramses_connection_0",
+          "prompt": "How can war and a peace treaty belong to the same ruler’s history?",
+          "options": [
+            "An agreement can follow an earlier conflict.",
+            "A treaty proves neither side ever fought.",
+            "War and diplomacy are the same event and word."
+          ],
+          "answer": 0,
+          "rationale": "An agreement can follow an earlier conflict. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source."
+        },
+        {
+          "id": "ss_verified_new_rulers_ramses_connection_1",
+          "prompt": "Two groups settle a disagreement. What comparison with Ramses II’s treaty is careful?",
+          "options": [
+            "Both involve agreement, but their circumstances and power relationships differ.",
+            "Both erase every event that happened before the agreement.",
+            "Both show that conflict can never happen again."
+          ],
+          "answer": 0,
+          "rationale": "Both involve agreement, but their circumstances and power relationships differ. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer."
+        }
+      ]
+    }
+  ],
+  "sources": [
+    {
+      "sourceId": "assigned-oer",
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10,
+        11,
+        12,
+        13,
+        14,
+        15,
+        16,
+        17,
+        18,
+        19,
+        20,
+        21,
+        22,
+        23,
+        24,
+        25,
+        26,
+        27,
+        28,
+        29,
+        30,
+        31,
+        32,
+        33,
+        34,
+        35,
+        36,
+        37,
+        38,
+        39,
+        40,
+        41,
+        42,
+        43,
+        44,
+        45,
+        46,
+        47,
+        48,
+        49,
+        50,
+        51
+      ],
+      "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+    },
+    {
+      "sourceId": "hatshepsut-evidence",
+      "title": "Seated Statue of Hatshepsut — The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544450",
+      "status": "Primary-source factual cross-check",
+      "pages": []
+    }
+  ],
+  "readingLocation": {
+    "startPage": 34,
+    "endPage": 37,
+    "where": "Assigned Egypt OER PDF pages 34, 35, 36, 37"
+  },
+  "links": {
+    "prior": "Ahmose is linked with the start of the New Kingdom. Now compare the different achievements of later New Kingdom rulers.",
+    "current": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+    "future": "Religious beliefs and daily life: People’s beliefs can influence what they do and create. This is a cause-and-effect connection, not proof that every religious claim is a scientific cause.",
+    "realLife": "Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+    "priorLessonId": "ss_verified_kingdoms",
+    "futureLessonId": "ss_verified_beliefs"
+  },
+  "vocabulary": [
+    {
+      "word": "Queen Hatshepsut",
+      "definition": "A female New Kingdom pharaoh associated with trade and temple building.",
+      "example": "Her temple reliefs record a trade expedition.",
+      "nonExample": "She was not the first woman ever to rule.",
+      "objectiveId": "ss_term_queen_hatshepsut"
+    },
+    {
+      "word": "Tutankhamun",
+      "definition": "A young New Kingdom pharaoh also called King Tut.",
+      "example": "His famous tomb is in the Valley of the Kings.",
+      "nonExample": "His tomb is not Khufu’s pyramid.",
+      "objectiveId": "ss_term_tutankhamun"
+    },
+    {
+      "word": "Ramses the Great",
+      "definition": "Ramses II, a New Kingdom ruler linked with Abu Simbel and a Hittite treaty.",
+      "example": "Match Ramses II with monuments and diplomacy.",
+      "nonExample": "He did not rule at the same time as Old Kingdom Khufu.",
+      "objectiveId": "ss_term_ramses_the_great"
+    }
+  ],
+  "proof": {
+    "prompt": "Use the multiple-choice independent application.",
+    "criteria": []
+  },
+  "practice": [
+    {
+      "prompt": "Which description fits Hatshepsut?",
+      "options": [
+        "A female pharaoh associated with trade and temple building",
+        "The pharaoh who built Khufu’s Great Pyramid",
+        "The group defeated by Ahmose"
+      ],
+      "answer": 0,
+      "rationale": "Correct: A female pharaoh associated with trade and temple building. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+      "id": "ss_verified_new_rulers_hatshepsut_item1",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "repair": {
+        "prompt": "Which evidence could help study Hatshepsut’s trade?",
+        "options": [
+          "Reliefs showing her expedition and its goods",
+          "A modern bus schedule",
+          "Only a map’s scale bar"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Reliefs showing her expedition and its goods. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "id": "ss_verified_new_rulers_hatshepsut_repair1",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34
+          ]
+        },
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "supported": true
+      },
+      "terms": [
+        "Queen Hatshepsut"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ]
+    },
+    {
+      "prompt": "What is a regent?",
+      "options": [
+        "Someone who governs for a ruler unable to rule personally",
+        "A person who makes papyrus sheets",
+        "A trader exchanging grain"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Someone who governs for a ruler unable to rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+      "id": "ss_verified_new_rulers_hatshepsut_item2",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "repair": {
+        "prompt": "A child becomes ruler, and an adult governs on the child’s behalf. Which term fits the adult’s role?",
+        "options": [
+          "Regent",
+          "Artisan",
+          "Cataract"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Regent. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "id": "ss_verified_new_rulers_hatshepsut_repair2",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34
+          ]
+        },
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which ruler is often called King Tut?",
+      "options": [
+        "Tutankhamun",
+        "Mentuhotep II",
+        "Khufu"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Tutankhamun. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+      "id": "ss_verified_new_rulers_tutankhamun_item1",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "repair": {
+        "prompt": "Which clue points to Tutankhamun?",
+        "options": [
+          "A young New Kingdom pharaoh with a famous tomb",
+          "The early unifier named in the Two Lands reading",
+          "The builder of the Great Pyramid"
+        ],
+        "answer": 0,
+        "rationale": "Correct: A young New Kingdom pharaoh with a famous tomb. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "id": "ss_verified_new_rulers_tutankhamun_repair1",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            35,
+            36
+          ]
+        },
+        "teach": "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "Tutankhamun"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ]
+    },
+    {
+      "prompt": "What can objects in a royal tomb help researchers study?",
+      "options": [
+        "Burial beliefs and craftsmanship",
+        "Every farmer’s exact possessions",
+        "The number of annual Nile floods"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Burial beliefs and craftsmanship. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+      "id": "ss_verified_new_rulers_tutankhamun_item2",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "repair": {
+        "prompt": "Why do tomb objects provide historical evidence?",
+        "options": [
+          "They were made and used in a past society.",
+          "They answer every historical question by themselves.",
+          "They prove all Egyptians lived as royalty."
+        ],
+        "answer": 0,
+        "rationale": "Correct: They were made and used in a past society. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "id": "ss_verified_new_rulers_tutankhamun_repair2",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            35,
+            36
+          ]
+        },
+        "teach": "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which ruler is also called Ramses the Great?",
+      "options": [
+        "Ramses II",
+        "Khufu",
+        "Menes"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Ramses II. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+      "id": "ss_verified_new_rulers_ramses_item1",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "prompt": "Which clue points to Ramses II?",
+        "options": [
+          "Abu Simbel and a treaty with the Hittites",
+          "The first Middle Kingdom reunification",
+          "The invention of a river delta"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Abu Simbel and a treaty with the Hittites. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "id": "ss_verified_new_rulers_ramses_repair1",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        "teach": "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "supported": true
+      },
+      "terms": [
+        "Ramses the Great"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ]
+    },
+    {
+      "prompt": "What is a peace treaty?",
+      "options": [
+        "An agreement between sides to establish peace",
+        "A type of royal coffin",
+        "A chart counting a population"
+      ],
+      "answer": 0,
+      "rationale": "Correct: An agreement between sides to establish peace. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+      "id": "ss_verified_new_rulers_ramses_item2",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "prompt": "Two rivals agree to stop their conflict. Which term fits the agreement?",
+        "options": [
+          "Peace treaty",
+          "Census",
+          "Cataract"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Peace treaty. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "id": "ss_verified_new_rulers_ramses_repair2",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        "teach": "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "supported": true
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "prompt": "A temple wall celebrates Hatshepsut’s expedition. What should a reader consider?",
+      "options": [
+        "It records an achievement while presenting royal authority.",
+        "It is automatically a neutral account of every person’s experience.",
+        "It proves no trade occurred."
+      ],
+      "answer": 0,
+      "rationale": "Correct: It records an achievement while presenting royal authority. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+      "id": "ss_verified_new_rulers_hatshepsut_item3",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "repair": {
+        "prompt": "Why compare a ruler’s inscription with other evidence?",
+        "options": [
+          "The inscription may emphasize the ruler’s successes.",
+          "The inscription cannot contain any useful evidence.",
+          "All sources have identical viewpoints."
+        ],
+        "answer": 0,
+        "rationale": "Correct: The inscription may emphasize the ruler’s successes. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "id": "ss_verified_new_rulers_hatshepsut_repair3",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34
+          ]
+        },
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "supported": true
+      },
+      "terms": [
+        "Queen Hatshepsut"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ]
+    },
+    {
+      "prompt": "A rich burial contains furniture and jewelry. Which conclusion is careful?",
+      "options": [
+        "The goods show features of this royal burial.",
+        "Every Egyptian family owned identical furniture and jewelry.",
+        "Everyone had the pharaoh’s political power."
+      ],
+      "answer": 0,
+      "rationale": "Correct: The goods show features of this royal burial. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+      "id": "ss_verified_new_rulers_tutankhamun_item3",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "repair": {
+        "prompt": "Which claim is too broad for one royal tomb?",
+        "options": [
+          "Every Egyptian received an equally rich burial.",
+          "The burial contained valuable objects.",
+          "Skilled workers made burial goods."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Every Egyptian received an equally rich burial. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "id": "ss_verified_new_rulers_tutankhamun_repair3",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            35,
+            36
+          ]
+        },
+        "teach": "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "supported": true
+      }
+    },
+    {
+      "prompt": "How can large royal statues serve a political purpose?",
+      "options": [
+        "They can display a ruler’s power and importance.",
+        "They make officials and workers unnecessary.",
+        "They prove everyone had the ruler’s status."
+      ],
+      "answer": 0,
+      "rationale": "Correct: They can display a ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+      "id": "ss_verified_new_rulers_ramses_item3",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "prompt": "What should a historian consider about royal monuments?",
+        "options": [
+          "They can present the ruler as powerful and successful.",
+          "They always describe every social group equally.",
+          "They are unrelated to government or beliefs."
+        ],
+        "answer": 0,
+        "rationale": "Correct: They can present the ruler as powerful and successful. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "id": "ss_verified_new_rulers_ramses_repair3",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        "teach": "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "supported": true
+      }
+    }
+  ],
+  "masteryCheck": [
+    {
+      "prompt": "Which statement corrects the textbook’s exaggeration?",
+      "options": [
+        "Hatshepsut was an important female pharaoh, not the first woman ever to rule.",
+        "Hatshepsut never ruled Egypt.",
+        "Hatshepsut is another name for Khufu."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hatshepsut was an important female pharaoh, not the first woman ever to rule. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+      "id": "ss_verified_new_rulers_hatshepsut_item4",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "repair": {
+        "prompt": "Which claim is appropriately limited?",
+        "options": [
+          "Hatshepsut was one of ancient Egypt’s female rulers.",
+          "No woman ruled before Hatshepsut anywhere.",
+          "Every Egyptian pharaoh was a woman."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Hatshepsut was one of ancient Egypt’s female rulers. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "id": "ss_verified_new_rulers_hatshepsut_repair4",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34
+          ]
+        },
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "supported": true
+      },
+      "terms": [
+        "Queen Hatshepsut"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ]
+    },
+    {
+      "prompt": "Which sequence places these New Kingdom rulers in order?",
+      "options": [
+        "Hatshepsut → Tutankhamun → Ramses II",
+        "Ramses II → Hatshepsut → Tutankhamun",
+        "Tutankhamun → Ramses II → Hatshepsut"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hatshepsut → Tutankhamun → Ramses II. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+      "id": "ss_verified_new_rulers_tutankhamun_item4",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "repair": {
+        "prompt": "Did Tutankhamun rule before or after Hatshepsut?",
+        "options": [
+          "After Hatshepsut",
+          "Before Hatshepsut",
+          "At exactly the same time as Hatshepsut"
+        ],
+        "answer": 0,
+        "rationale": "Correct: After Hatshepsut. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "id": "ss_verified_new_rulers_tutankhamun_repair4",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            35,
+            36
+          ]
+        },
+        "teach": "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "supported": true
+      },
+      "terms": [
+        "Tutankhamun"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ]
+    },
+    {
+      "prompt": "Which statement connects conflict and diplomacy?",
+      "options": [
+        "Ramses II’s wars could be followed by a peace agreement.",
+        "A peace agreement proves the sides never fought.",
+        "Diplomacy means building an irrigation ditch."
+      ],
+      "answer": 0,
+      "rationale": "Correct: Ramses II’s wars could be followed by a peace agreement. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+      "id": "ss_verified_new_rulers_ramses_item4",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "prompt": "Why does a treaty not erase an earlier war?",
+        "options": [
+          "It changes the relationship after conflict rather than changing what already happened.",
+          "It proves the war belonged to another planet.",
+          "It makes all earlier sources disappear."
+        ],
+        "answer": 0,
+        "rationale": "Correct: It changes the relationship after conflict rather than changing what already happened. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "id": "ss_verified_new_rulers_ramses_repair4",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        "teach": "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "supported": true
+      },
+      "terms": [
+        "Ramses the Great"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ]
+    },
+    {
+      "id": "ss_verified_new_rulers_target_3",
+      "prompt": "Why is Tutankhamun’s tomb important for studying royal burial?",
+      "options": [
+        "Many burial objects survived there as evidence.",
+        "It contained the written records of every Egyptian family.",
+        "It proved every Egyptian owned the same valuable goods."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "rationale": "Correct: Many burial objects survived there as evidence. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "terms": [
+        "Tutankhamun"
+      ],
+      "repair": {
+        "id": "ss_verified_new_rulers_target_3_repair",
+        "prompt": "What is a careful question to ask about an object from King Tut’s tomb?",
+        "options": [
+          "How did this object fit this royal burial?",
+          "Did every family own an identical object?",
+          "Did this object make every person a pharaoh?"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "rationale": "Correct: How did this object fit this royal burial?. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_tutankhamun"
+      ]
+    },
+    {
+      "id": "ss_verified_new_rulers_target_4",
+      "prompt": "What message could Ramses II’s large statues at Abu Simbel present?",
+      "options": [
+        "The ruler’s power and importance",
+        "The exact possessions of every farmer",
+        "The end of all religious beliefs"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "rationale": "Correct: The ruler’s power and importance. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "terms": [
+        "Ramses the Great"
+      ],
+      "repair": {
+        "id": "ss_verified_new_rulers_target_4_repair",
+        "prompt": "Which conclusion about Ramses II’s monuments is appropriately limited?",
+        "options": [
+          "They help show how royal authority was presented.",
+          "They prove he never faced any conflict.",
+          "They show every person had his political power."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "rationale": "Correct: They help show how royal authority was presented. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      },
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_ramses_the_great"
+      ]
+    },
+    {
+      "id": "ss_verified_new_rulers_evidence_ss_term_queen_hatshepsut",
+      "prompt": "Which claim about Hatshepsut could be supported by a record of goods from her expedition?",
+      "options": [
+        "She sponsored trade that brought resources to Egypt.",
+        "She built every Old Kingdom pyramid.",
+        "She was the first woman to rule anywhere."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ],
+      "rationale": "Correct: She sponsored trade that brought resources to Egypt. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "terms": [
+        "Queen Hatshepsut"
+      ],
+      "repair": {
+        "id": "ss_verified_new_rulers_evidence_ss_term_queen_hatshepsut_repair",
+        "prompt": "A record shows Hatshepsut presenting goods brought by an expedition. What does it most directly support?",
+        "options": [
+          "A claim about her trade activity",
+          "A claim that every Egyptian had royal wealth",
+          "A claim that no earlier woman ruled"
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "rationale": "Correct: A claim about her trade activity. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_new_rulers_evidence_ss_term_tutankhamun",
+      "prompt": "A caption says King Tut’s burial goods prove all Egyptians were wealthy. What is the best correction?",
+      "options": [
+        "One royal tomb does not show every person’s resources.",
+        "Every household must have owned matching royal goods.",
+        "A royal burial cannot provide historical evidence."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_tutankhamun"
+      ],
+      "rationale": "Correct: One royal tomb does not show every person’s resources. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "terms": [
+        "Tutankhamun"
+      ],
+      "repair": {
+        "id": "ss_verified_new_rulers_evidence_ss_term_tutankhamun_repair",
+        "prompt": "Which claim stays within evidence from Tutankhamun’s burial?",
+        "options": [
+          "This tomb provides evidence about a royal burial.",
+          "Every Egyptian received the same valuable goods.",
+          "The tomb describes every person’s occupation."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "rationale": "Correct: This tomb provides evidence about a royal burial. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "id": "ss_verified_new_rulers_evidence_ss_term_ramses_the_great",
+      "prompt": "Why should Ramses II’s treaty be studied along with his military campaigns?",
+      "options": [
+        "Together they show both conflict and diplomacy in his rule.",
+        "The treaty proves no earlier conflict occurred.",
+        "Military campaigns and a treaty are names for one building."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_ramses_the_great"
+      ],
+      "rationale": "Correct: Together they show both conflict and diplomacy in his rule. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "terms": [
+        "Ramses the Great"
+      ],
+      "repair": {
+        "id": "ss_verified_new_rulers_evidence_ss_term_ramses_the_great_repair",
+        "prompt": "Which explanation combines two aspects of Ramses II’s political activity?",
+        "options": [
+          "He fought rivals and also reached a peace agreement.",
+          "He only made papyrus sheets for traders.",
+          "He began Egypt’s early unification under Menes."
+        ],
+        "answer": 0,
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "rationale": "Correct: He fought rivals and also reached a peace agreement. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "delayed": [
+    {
+      "prompt": "Which pair connects Hatshepsut with a supported accomplishment?",
+      "options": [
+        "Hatshepsut—trade expeditions and temple building",
+        "Hatshepsut—conquest of Egypt by Rome",
+        "Hatshepsut—discovery of the Rosetta Stone"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hatshepsut—trade expeditions and temple building. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+      "id": "ss_verified_new_rulers_hatshepsut_item5",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "repair": {
+        "prompt": "Which clue best identifies Hatshepsut in a mixed ruler review?",
+        "options": [
+          "A female New Kingdom pharaoh connected with trade",
+          "The Old Kingdom builder of the Great Pyramid",
+          "The ruler who expelled the Hyksos"
+        ],
+        "answer": 0,
+        "rationale": "Correct: A female New Kingdom pharaoh connected with trade. Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "id": "ss_verified_new_rulers_hatshepsut_repair5",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34
+          ]
+        },
+        "teach": "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri. She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally. Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Queen Hatshepsut"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ]
+    },
+    {
+      "prompt": "Where was Tutankhamun’s tomb discovered?",
+      "options": [
+        "Valley of the Kings",
+        "Inside the Great Sphinx",
+        "At the mouth of the Red Sea"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Valley of the Kings. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+      "id": "ss_verified_new_rulers_tutankhamun_item5",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "repair": {
+        "prompt": "Which distinction is accurate?",
+        "options": [
+          "King Tut’s tomb is in the Valley of the Kings; Khufu’s pyramid is at Giza.",
+          "Both names refer to the same tomb.",
+          "King Tut’s tomb is the Great Sphinx."
+        ],
+        "answer": 0,
+        "rationale": "Correct: King Tut’s tomb is in the Valley of the Kings; Khufu’s pyramid is at Giza. Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "id": "ss_verified_new_rulers_tutankhamun_repair5",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            35,
+            36
+          ]
+        },
+        "teach": "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II. His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife. Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Tutankhamun"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ]
+    },
+    {
+      "prompt": "Which pair is correctly matched?",
+      "options": [
+        "Ramses II—Abu Simbel",
+        "Tutankhamun—Great Pyramid",
+        "Khufu—Hyksos expulsion"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Ramses II—Abu Simbel. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+      "id": "ss_verified_new_rulers_ramses_item5",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "prompt": "Which ruler belongs with both building projects and a Hittite peace treaty?",
+        "options": [
+          "Ramses II",
+          "Mentuhotep II",
+          "Menes"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Ramses II. Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "id": "ss_verified_new_rulers_ramses_repair5",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            36,
+            37
+          ]
+        },
+        "teach": "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments. The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler’s power and importance. A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict.",
+        "supported": true
+      },
+      "retrievalDay": 1,
+      "terms": [
+        "Ramses the Great"
+      ],
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ]
+    },
+    {
+      "prompt": "Which evidence most directly supports a claim about royal burial objects?",
+      "options": [
+        "Objects from a royal tomb",
+        "A ruler’s trade route alone",
+        "Only the width of a river"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Objects from a royal tomb. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "id": "ss_verified_new_rulers_day3",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "retrievalDay": 3,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_new_rulers_day3_repair",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "prompt": "Researchers want to study royal burial furniture. Which evidence is most direct?",
+        "options": [
+          "Furniture from a documented royal tomb",
+          "Only a modern account of a trade route",
+          "Only the location of a field"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Furniture from a documented royal tomb. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A wall text praises a ruler. What is the best next question?",
+      "options": [
+        "Whose viewpoint does it present, and what other evidence could help?",
+        "Does praise prove the ruler never failed?",
+        "Can I ignore the source because it is old?"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Whose viewpoint does it present, and what other evidence could help?. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "id": "ss_verified_new_rulers_day7",
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "retrievalDay": 7,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_new_rulers_day7_repair",
+        "objectiveId": "ss_verified_new_rulers_tutankhamun",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "prompt": "A royal inscription lists victories but says little about defeats. What is a useful reading strategy?",
+        "options": [
+          "Compare its viewpoint with other evidence.",
+          "Assume defeats never happened.",
+          "Treat the inscription as a record of every person’s daily life."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Compare its viewpoint with other evidence. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "Which pair correctly matches Hatshepsut and Ramses II with accomplishments?",
+      "options": [
+        "Hatshepsut—trade; Ramses II—Abu Simbel",
+        "Khufu—King Tut’s tomb; Ahmose—papyrus",
+        "Menes—Hittite treaty; Ramses II—first unification"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Hatshepsut—trade; Ramses II—Abu Simbel. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "id": "ss_verified_new_rulers_day14",
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "retrievalDay": 14,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_new_rulers_day14_repair",
+        "objectiveId": "ss_verified_new_rulers_ramses",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "prompt": "Which pair distinguishes two New Kingdom achievements?",
+        "options": [
+          "Hatshepsut—trade expeditions; Ramses II—Abu Simbel",
+          "Hatshepsut—Great Pyramid; Ramses II—first unification",
+          "Hatshepsut—Hyksos expulsion; Ramses II—papyrus invention"
+        ],
+        "answer": 0,
+        "rationale": "Correct: Hatshepsut—trade expeditions; Ramses II—Abu Simbel. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    },
+    {
+      "prompt": "A burial object cannot establish the possessions of every family. What reasoning skill does this use?",
+      "options": [
+        "Limiting a claim to what its evidence supports",
+        "Treating one example as the whole population",
+        "Ignoring the source’s context"
+      ],
+      "answer": 0,
+      "rationale": "Correct: Limiting a claim to what its evidence supports. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source.",
+      "id": "ss_verified_new_rulers_day30",
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "retrievalDay": 30,
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34,
+          35,
+          36,
+          37
+        ]
+      },
+      "repair": {
+        "id": "ss_verified_new_rulers_day30_repair",
+        "objectiveId": "ss_verified_new_rulers_hatshepsut",
+        "teach": "A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "prompt": "A rich tomb shows that its owner had valuable goods. Which additional claim needs more evidence?",
+        "options": [
+          "Every family in Egypt had the same goods.",
+          "Artisans made some burial goods.",
+          "Objects can be studied in their burial context."
+        ],
+        "answer": 0,
+        "rationale": "Correct: Every family in Egypt had the same goods. A modern advertisement and a royal monument may both emphasize successes. Compare their claims with other evidence; they are not the same kind of source. Objects, inscriptions and monuments answer different questions. Match the evidence to the claim before choosing an answer.",
+        "sourceRef": {
+          "sourceId": "assigned-oer",
+          "pages": [
+            34,
+            35,
+            36,
+            37
+          ]
+        },
+        "supported": true
+      }
+    }
+  ],
+  "nextLessonId": "ss_verified_beliefs",
+  "media": [
+    {
+      "title": "Look closely: Hatshepsut’s seated statue",
+      "url": "https://www.metmuseum.org/art/collection/search/544450",
+      "type": "museum object exploration",
+      "task": "Study how a ruler is presented. Return to the lesson, close the object page and choose a claim the evidence supports.",
+      "omissions": "A royal statue does not describe every Egyptian’s experience. This is supplemental evidence, not a replacement reading.",
+      "status": "Object page and audio transcript content verified"
+    }
+  ],
+  "memoryCue": "Hatshepsut—trade; Tutankhamun—tomb; Ramses II—temple and treaty."
+}

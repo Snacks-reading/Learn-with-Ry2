@@ -1,15 +1,13 @@
 {
-  "held": true,
+  "held": false,
   "partial": true,
-  "replacementStatus": "Six draft chapters; NOT released for student use",
+  "replacementStatus": "Current Egypt teaching, guided checks, three practice forms, repair and delayed retrieval available",
   "assessmentFormat": "multiple-choice-only",
   "preserveRecords": true,
   "unreleased": [
-    "Remaining history and ruler vocabulary",
-    "Religion and burial beyond the verified priest roles",
-    "Achievements and Nubia/trade",
-    "Orange textbook pages149\u2013151",
-    "Project rubric images and video playback"
+    "Orange-book149\u2013151 exact coverage",
+    "Unreviewed teacher videos",
+    "Unresolved historical course sources outside this current release"
   ],
   "withdrawnLessonIds": [
     "fresh_ss_egypt_land",
@@ -23,6 +21,33 @@
     "fresh_ss_egypt_early",
     "fresh_ss_egypt_later"
   ],
-  "reason": "Governance fail-closed gate: incomplete source census, source-to-objective coverage and final mobile/media QC.",
-  "releaseApproved": false
+  "reason": "Release is limited to verified source-backed objectives. Unverified sources do not supply scored answers. Governance section12 requires useful verified priority preparation before a near assessment.",
+  "releaseApproved": true,
+  "releaseScope": "Current Egypt quiz preparation from recovered teacher OER, vocabulary, society activity and pyramid sources; not a complete historical-course audit",
+  "chapterOrder": [
+    "ss_verified_social_pyramid",
+    "ss_verified_occupations",
+    "ss_verified_government",
+    "ss_verified_religion_soldiers",
+    "ss_verified_union",
+    "ss_verified_kingdoms",
+    "ss_verified_new_rulers",
+    "ss_verified_beliefs",
+    "ss_verified_burial",
+    "ss_verified_two_lands",
+    "ss_verified_landforms",
+    "ss_verified_nile_farming",
+    "ss_verified_writing_trade"
+  ],
+  "priorityLessonId": "ss_verified_social_pyramid",
+  "quizScope": {
+    "date": "2026-11-05",
+    "topics": [
+      "history",
+      "social structure",
+      "political values",
+      "religious values"
+    ],
+    "source": "October30 teacher newsletter, uploaded IMG_1128.jpeg"
+  }
 }
