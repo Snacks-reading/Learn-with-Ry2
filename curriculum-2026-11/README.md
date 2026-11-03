@@ -58,3 +58,7 @@ Curriculum, scoring/mastery logic, record persistence, and panel rendering check
 All ten Egypt JSON lessons now match Studio source commit `5065efba744a6a0be9563e205cd4f1c6e37ee00b`. Teaching is organized into idea → worked example → learner try. Each of the fourteen map locations has its own teaching topic. Corrected delayed keys and concept-specific follow-ups are included. Rayna’s Audio prepends these same chapters while preserving earlier lessons.
 
 The GitHub homepage now offers direct chapter links, assigned-reading access and clearly separated parent navigation. The authenticated Studio retains scoring and private response storage. [Scope, QC and unresolved source access](SOCIAL-STUDIES-QC.md).
+
+## Social Studies format update
+
+Social Studies learner tries, practice, fresh application and delayed checks are multiple choice only. Typed explanations and written proof are not required in Social Studies. Fresh application uses a complete independent choice form at90% or better; overall independent accuracy, sufficient objective evidence and delayed retrieval remain required. This measures multiple-choice evidence, not constructed writing. Prior responses remain preserved. This format directive supersedes earlier references to required Social Studies written proof.
