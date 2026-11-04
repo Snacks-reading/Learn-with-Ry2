@@ -1,5 +1,7 @@
 # Learning Studio curriculum · November2026
 
+[Open the Ancient Egypt teaching companion](egypt-teaching.html)
+
 [Open current Social Studies teaching and practice](https://ry-learning-studio.raynastover.chatgpt.site/?lesson=ss_verified_social_pyramid) · [Rayna’s matching audio](https://ry-learning-studio.raynastover.chatgpt.site/audio?subject=SS)
 
 ## Current Social Studies release · November3
