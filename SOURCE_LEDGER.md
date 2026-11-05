@@ -135,3 +135,9 @@ Purdue OWL independent/dependent clause guidance and ReadWriteThink’s printabl
 ## November3 current Egypt release — supersedes earlier Egypt recovery/hold notes
 
 The exact51-page OER text, all24 vocabulary terms, seven-page pyramid, two-page Two Lands, six-page mystery, instructions image,12 project slides and rubric images2–3 were recovered/reviewed. Current13-chapter teaching and MC practice are deployed privately. See curriculum-2026-11/SOCIAL-STUDIES-QC.md and the source/term matrix. Orange-book149–151, older course underlying files and full teacher-media playback remain incomplete. No complete historical-course/yearlong audit is claimed.
+
+## November 4, 2026 · Cumulative source retention
+
+| Subject | Exact source | Status and next action |
+| --- | --- | --- |
+| Social Studies | [LearnBPS book print resource, ID 449048](https://learnbps.bismarckschools.org/mod/book/tool/print/index.php?id=449048) | Parent identified this as a previously sourced resource. Live retrieval timed out during this review. Retain the source and locate the previously recovered copy before mapping its chapters or exercises to teaching and practice. Current content and coverage remain unverified. |

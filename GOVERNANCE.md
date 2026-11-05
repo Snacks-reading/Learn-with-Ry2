@@ -14,6 +14,14 @@ Learn With Ry is a specialized middle-school tutoring system for Riley. It must 
 
 Every lesson displays its source. Classroom wording that is simplified or historically/scientifically disputed is identified as classroom wording while Riley is also given an age-appropriate accurate distinction.
 
+### Cumulative source inventory and coverage gate
+
+Every curriculum review, reset, weekly update, correction, and release must reconcile **all previously sourced materials** across ELA, Math, Science, Social Studies, and Theatre. Carry forward sources from prior reviews, uploads, chat threads (including Rayna’s Audio), teacher communications, Schoology folders and attachments, textbooks, readings, maps, diagrams, vocabulary, worksheets, projects, rubrics, videos, audio, and previously verified supplemental resources. A new newsletter, a new unit, or a portal sign-in problem does not remove any existing source from scope.
+
+Use the source ledger as an append-only inventory of source identities and review history. For each item, record its exact locator or authorized saved copy, subject and unit, classroom or supplemental role, last verified date, current access status, and coverage in teaching, worked examples, practice, assessment, and Rayna’s Audio where applicable. Mark duplicate or superseded sources and explain the relationship instead of dropping their history. A newly listed item stays pending until its underlying content has been opened and reviewed.
+
+When an original link is unavailable, look for the previously verified copy and continue from it. Record whether that copy was reviewed and keep any newly inaccessible content outstanding. Separate what was previously verified, what was rechecked for this release, and what remains unverified. Do not certify complete coverage until every known source is reconciled. Teacher-assigned sources continue to control classroom scope and verified supplemental resources deepen the relevant teaching.
+
 ### Mandatory independent source recovery and gap closure
 
 This requirement applies to every future request, weekly update, correction, rebuild, and subject. The parent may provide a newsletter or whatever classroom material is readily available; the tutoring system owns the remaining research and integration work.
