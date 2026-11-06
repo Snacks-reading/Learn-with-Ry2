@@ -1,6 +1,21 @@
-# Learn With Ry governance
+# Learn With Ry Governance Rules
 
 Effective November 6, 2026. This document controls the rebuilt path and supersedes conflicting release notes and earlier governance versions. Earlier instructions and evidence remain in the archive. Apply the stricter compatible requirement when an older source-specific direction adds detail.
+
+## Mandatory source preservation and complete classroom review
+
+These rules were added by Rayna on November 6, 2026. They apply immediately to all five subjects and to every future update.
+
+1. Request Schoology access whenever it is necessary to complete a review. Do not silently omit material because authentication is required. Use the same home link, https://wcschools.schoology.com/home, and the same signed-in tab. Navigate courses, folders and files within that session. Keep the tab available through sign-in handoffs. If the original tab no longer exists, explain that specific fact before establishing one replacement session at the same home link; do not create repeated fresh login sessions.
+2. Open every published course, every folder and subfolder, and every file or linked resource for ELA, Math, Science, Social Studies and Theater. Record the full course and folder path. A folder listing does not count as reading its contents. View all pages, figures, instructions, answer keys, attachments, slide notes when available, videos and interactive resources relevant to the assigned scope.
+3. Copy each accessible classroom source into the private Learn With Ry resource collection before authoring from it. Retain original PDFs, presentations, documents, newsletters, photos, organizers, maps, models, cards, study guides, rubrics and assignment directions. For resources that cannot be exported, save an authorized faithful text record or permitted capture, original link and explicit limitations. A link alone does not count as a saved original file.
+4. Save all materials in files and folders, not only in chat messages. Maintain a master resource index with a stable file reference, filename, original location, subject, course/folder path, date/version, source type and separate saved/read/alignment/QC statuses. Future work must reopen the saved source; a chat summary or generated lesson cannot replace the original.
+5. Search the complete saved collection before requesting another copy or login. Search legitimate public originals, district and publisher sources and previously identified external resources to resolve missing content. Match exact wording, title, edition, diagrams and assignment scope. Mark partial or alternate copies honestly.
+6. Preserve originals and earlier editions. Keep duplicate provenance and compare bytes or content before labeling two files identical. Do not delete or overwrite a source to tidy the folder. Keep generated lessons, historical reports and learner work distinct from teacher originals.
+7. Use four persistent folders under Learn With Ry: 01 Original Materials; 02 Governance and Index; 03 Prior Lessons and Reports; 04 Linked Resources. Keep additional subject/week folders when they improve retrieval. The resource index must also record material still represented only by a link or screenshot, with the underlying file recovery pending.
+8. Keep classroom copies and learner information private. Permission to save material in this project is not permission to publish licensed originals, student grades, responses or credentials to public GitHub. Publish only authorized original teaching, adaptations and non-sensitive governance.
+9. Complete the recovery and organization of materials already shared, then notify Rayna that the collection is ready so she can sign back into Schoology. After sign-in, verify the session and continue the full course/folder/file census. Record the smallest source-specific access action still needed.
+10. Treat saved, opened, read, aligned, tested and complete as different claims. Never call all sources checked because files exist in a folder. Resolve implementation defects as well as source gaps, and do not stop at describing a problem when authorized repair or recovery remains possible.
 
 ## Purpose and curriculum
 
@@ -107,3 +122,17 @@ These requirements apply to every subject, every update, every answer about curr
 A `verifiedStandaloneLessons` entry permits only the named focused lesson and its checks. `assessmentEnabled: false` at subject level means that a complete course exam is not released. The runtime must read and enforce the source gate, and its reset identifier must match the catalog. The word verified on a focused lesson refers to its stated source scope; it is not full objective, all-stage, standards, audio-device or mastery certification. The coverage matrix must expose empty stages and insufficient evidence.
 
 Parent audio for a ready lesson reads the same current teaching and worked model directly from the shared lesson data. This is content alignment, not proof that the private Studio was updated or that phone playback passed QC. A same-browser progress view must disclose its device boundary. No local score may be described as synchronized without a verified private write/read path.
+
+## Assessment delivery and learner interface
+
+Provide at least three distinct whole-unit multiple-choice Social Studies practice forms covering the assigned scope, and multiple distinct practice exams for each other subject. Forms must use genuinely different questions, not reordered copies. Keep all active tests, missed-skill rounds and retention checks together in Assessments and Practice. Clearly label the subject, unit, form, source scope, answered count, score, completion and next action.
+
+After a miss, explain the specific error, show a worked repair and ask a fresh question about the same skill. Continue until independent evidence meets the mastery requirement. Supported corrections must not overwrite first-attempt evidence or be counted as independent mastery. Prevent lesson-completion rules from trapping a learner outside available practice; give a clear actionable reason for every legitimate gate.
+
+After completion, provide a parent review with actual scores, missed skills, writing awaiting review, retention dates and focus cards. Distinguish partial attempts from finished tests. Do not promise automatic email, push delivery or cross-device visibility unless those functions are implemented and verified.
+
+Keep Ry's teaching free of builder notes, governance text and parent-facing audit commentary. Place readings in a clearly identified reading area and give exact page or paragraph directions. Teach each required skill in sixth-grade language, show what a strong answer looks like, then provide fresh guided and independent work. Use short readable sections, accessible controls and an age-appropriate interface. Validate all answer keys and reject unclear or misleading distractors.
+
+Rayna's Audio is the permanent parent track name. Keep it aligned with the student source scope, preserve prior dated lessons, and provide audio in the learning interface. A shared text source is not evidence of successful phone playback.
+
+
