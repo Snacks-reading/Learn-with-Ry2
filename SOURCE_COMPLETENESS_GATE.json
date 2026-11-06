@@ -6,16 +6,27 @@
   "reviewedScope": "Existing curriculum and source-register audit; current full classroom census incomplete",
   "subjects": {
     "ELA": {
-      "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false
+      "status": "three-source-bounded-lessons-released; wider-unit-review-pending",
+      "assessmentEnabled": false,
+      "verifiedStandaloneLessons": [
+        "ela_hachiko_prereading_20261106",
+        "ela_hachiko_story_20261106",
+        "ela_sofi_review_20261106",
+        "ela_explanatory_writing_20261106"
+      ]
     },
     "MATH": {
-      "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false
+      "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
+      "assessmentEnabled": false,
+      "verifiedStandaloneLessons": [
+        "math_expression_vocabulary_20261106"
+      ]
     },
     "SCI": {
       "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false
+      "assessmentEnabled": false,
+      "nextAssessment": "2026-11-10",
+      "blocker": "Reconcile exact 33–34 teacher terms and all three assigned STEMscopes readings."
     },
     "SS": {
       "status": "awaiting-source-reconciliation",

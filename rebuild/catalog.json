@@ -10,6 +10,221 @@
   ],
   "lessons": [
     {
+      "id": "ela_hachiko_prereading_20261106",
+      "subject": "ELA",
+      "title": "Hachiko · Prereading, word meaning and inference",
+      "releaseStatus": "verified",
+      "assessmentEnabled": true,
+      "scopeStatus": "The uploaded two-page anticipation guide only. Full Hachiko story and wider ELA unit remain under review.",
+      "teach": [
+        "Before reading, notice what you already believe. An anticipation guide records your opinions so you can compare them with ideas in the story later. There is no correct agreement rating. Give an honest response, and stay open to changing your mind.",
+        "The guide asks about bonds between animals and people, loyalty, waiting, family, learning from animals, faithfulness during difficulty, and lasting friendship. These are connected ideas, but they are separate claims. You can agree with one and question another.",
+        "To write 4–5 thoughtful sentences about a relationship between a person and a dog, state your view, give a specific example, explain what the actions show, and connect the example back to your view. Each sentence should add something. An example from your experience is fine for this prereading opinion response.",
+        "For a vocabulary question, replace the unfamiliar word with a possible meaning and reread the sentence. In “I asked timidly,” think about how a person might speak when nervous or unsure. The ending -ly often helps show how an action happens. Check the meaning in context rather than guessing from the ending alone.",
+        "An inference is a conclusion supported by details, even when the author does not state that conclusion directly. A concrete detail is the actual action or observation in the text. The explanation is the bridge that shows why the detail supports your conclusion.",
+        "The Hachiko excerpt describes a repeated routine: he sleeps at the house, walks to the station in the morning, and returns home after the last train. Think about what the repeated trip suggests. Choose evidence from the passage, then explain how that evidence supports your inference. Avoid claims about what happens later in the story unless the assigned excerpt supports them.",
+        "Use this organizer when you write. First name the inference. Next identify one exact action in the excerpt. Then explain why that action makes your inference reasonable. A personal opinion can be honestly held, while a reading inference needs support from the text."
+      ],
+      "model": {
+        "prompt": "Worked example using a different dog: Each afternoon, Miso brings a ball to the same gate before Ava arrives. What can you infer?",
+        "reasoning": "The text states a repeated action and its timing. I can infer that Miso anticipates Ava’s arrival. Bringing the ball before she gets there supports that expectation. The text does not prove what Miso thinks in words.",
+        "answer": "Miso appears to expect Ava to arrive. His repeated trip to the gate with a ball before she arrives supports that inference."
+      },
+      "opinions": [
+        "Animals can form strong bonds with people.",
+        "Loyalty is one of the most important qualities a friend can have.",
+        "Waiting for someone for many years is worth it if you love them.",
+        "A pet can be just as important as a family member.",
+        "People can learn valuable life lessons from animals.",
+        "Being faithful to someone is meaningful even when it is difficult.",
+        "True friendship lasts forever."
+      ],
+      "writing": [
+        {
+          "prompt": "Can humans and dogs have a strong relationship? Explain in at least 4–5 thoughtful sentences.",
+          "criteria": "State your view, give a specific example, and explain the connection. This is a prereading response, so your own experience can support your view."
+        },
+        {
+          "prompt": "What can you infer about Hachiko from the assigned excerpt? Write 1–2 complete sentences.",
+          "criteria": "Make a reasonable inference supported by the excerpt."
+        },
+        {
+          "prompt": "What concrete detail led you to that inference?",
+          "criteria": "Identify a specific action in the excerpt."
+        },
+        {
+          "prompt": "Explain how your concrete detail supports your inference. Write 2 complete sentences.",
+          "criteria": "Explain the connection between the detail and your conclusion."
+        }
+      ],
+      "passage": "Hachiko comes back to the house every night to sleep on the porch. But in the morning, he walks to the station just like he did with Dr. Ueno. When the last train leaves the station, he returns home.",
+      "guided": [
+        {
+          "prompt": "Which replacement best fits “I asked timidly”?",
+          "options": [
+            "I asked shyly.",
+            "I asked angrily.",
+            "I asked loudly.",
+            "I asked proudly."
+          ],
+          "answer": 0,
+          "rationale": "Timidly describes speaking in a shy or nervous way."
+        },
+        {
+          "prompt": "Which statement is a concrete detail from the assigned excerpt?",
+          "options": [
+            "Hachiko is the most loyal dog in the city.",
+            "Everyone at the station knows him.",
+            "Hachiko walks to the station in the morning.",
+            "Hachiko understands train schedules."
+          ],
+          "answer": 2,
+          "rationale": "Walking to the station in the morning is an action the excerpt actually states."
+        },
+        {
+          "prompt": "Which step explains why evidence supports an inference?",
+          "options": [
+            "Copy the question.",
+            "Describe the connection between the action and your conclusion.",
+            "Add a new character.",
+            "Repeat the opinion without a reason."
+          ],
+          "answer": 1,
+          "rationale": "An explanation connects what the text says to the conclusion you draw."
+        }
+      ],
+      "independent": [
+        {
+          "prompt": "Before reading, two students disagree about whether loyalty always requires waiting. What should they do?",
+          "options": [
+            "Choose the teacher’s opinion.",
+            "Change their ratings to match.",
+            "Leave the guide blank.",
+            "Record their own views and give reasons."
+          ],
+          "answer": 3,
+          "rationale": "The anticipation guide asks for an honest view that can be revisited after reading."
+        },
+        {
+          "prompt": "Nora approaches an unfamiliar dog. She speaks timidly and stays near her mother. Which meaning best fits timidly?",
+          "options": [
+            "Confidently and boldly",
+            "Shyly and cautiously",
+            "Impatiently and sharply",
+            "Cheerfully and noisily"
+          ],
+          "answer": 1,
+          "rationale": "Speaking shyly and cautiously fits the surrounding actions."
+        },
+        {
+          "prompt": "Each day a dog carries its leash to the door when its owner puts on walking shoes. Which inference has the strongest support?",
+          "options": [
+            "The dog expects a walk.",
+            "The owner always walks for an hour.",
+            "The dog has never left the house.",
+            "The shoes belong to a neighbor."
+          ],
+          "answer": 0,
+          "rationale": "The repeated leash-and-shoes routine supports an expectation of a walk."
+        }
+      ],
+      "assessment": [
+        {
+          "prompt": "Which description explains the purpose of the seven agreement statements?",
+          "options": [
+            "They test facts from the entire story.",
+            "They rank students by loyalty.",
+            "They record beliefs to think about before and after reading.",
+            "They identify the author’s only possible message."
+          ],
+          "answer": 2,
+          "rationale": "The guide helps readers notice and reconsider their beliefs."
+        },
+        {
+          "prompt": "Which inference is best supported by Hachiko’s repeated visits to the station?",
+          "options": [
+            "He avoids returning home at night.",
+            "He continues the familiar routine associated with Dr. Ueno.",
+            "He wants to become a train passenger.",
+            "He has forgotten the way home."
+          ],
+          "answer": 1,
+          "rationale": "The excerpt directly links the station trip to the routine he had with Dr. Ueno."
+        },
+        {
+          "prompt": "Which sentence best explains why Hachiko’s daily station trip supports an inference about attachment?",
+          "options": [
+            "The station has many platforms.",
+            "The excerpt contains several sentences.",
+            "Dogs can have different kinds of fur.",
+            "Repeating a trip he made with Dr. Ueno suggests the routine remains important to him."
+          ],
+          "answer": 3,
+          "rationale": "The explanation connects the repeated action and its association with Dr. Ueno to the inference."
+        }
+      ],
+      "retention": [
+        {
+          "prompt": "A week later, what is the best way to distinguish an inference from a detail?",
+          "options": [
+            "A detail is stated in the text; an inference is a conclusion supported by details.",
+            "An inference is any opinion; a detail is always a quotation.",
+            "A detail explains the author’s entire purpose; an inference gives the title.",
+            "Both are guesses about events not mentioned."
+          ],
+          "answer": 0,
+          "rationale": "Details provide the evidence that makes an inference reasonable."
+        },
+        {
+          "prompt": "Leila answered timidly before a large audience. Which action would fit that description?",
+          "options": [
+            "She shouted over everyone.",
+            "She interrupted confidently.",
+            "She spoke softly and hesitated.",
+            "She laughed loudly and took a bow."
+          ],
+          "answer": 2,
+          "rationale": "Hesitating and speaking softly fit nervous or shy behavior."
+        },
+        {
+          "prompt": "A reader changes an anticipation-guide response after finding strong evidence in the story. What does that show?",
+          "options": [
+            "The first opinion deserved a zero.",
+            "The reader considered evidence and revised a view.",
+            "The story has no meaning.",
+            "All classmates must now agree."
+          ],
+          "answer": 1,
+          "rationale": "Reconsidering a belief in light of evidence is a useful reading habit."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uploaded Hachiko Anticipation Guide",
+          "pages": [
+            1,
+            2
+          ],
+          "status": "Both pages read in full",
+          "sourceId": "hachiko-prereading-upload"
+        }
+      ],
+      "media": [
+        {
+          "title": "Hachiko photographs · University of Colorado",
+          "url": "https://www.colorado.edu/ptea-curriculum/media/245",
+          "task": "View the station and statue photographs to build setting knowledge. Close the photographs, recall two visible details, and distinguish what a photograph shows from an inference about a character’s feelings.",
+          "status": "PDF recovered; full visual review pending"
+        }
+      ],
+      "organizer": [
+        "What the text says",
+        "What I infer or conclude",
+        "Supporting detail",
+        "Why the detail supports the conclusion"
+      ]
+    },
+    {
       "id": "fresh_ela_goodall_craft",
       "subject": "ELA",
       "title": "Goodall: craft, contrast and perspective",
@@ -1347,6 +1562,1038 @@
       "assessmentEnabled": false,
       "sourceFile": "curriculum-2026-11/ss_verified_writing_trade.json",
       "resetId": "2026-11-06"
+    },
+    {
+      "id": "ela_hachiko_story_20261106",
+      "subject": "ELA",
+      "title": "Hachiko · Character, evidence and story structure",
+      "releaseStatus": "verified",
+      "assessmentEnabled": true,
+      "scopeStatus": "Assigned story, printed pages 119–121, paragraphs 1–31 and visible comprehension/close-reading prompts. The linked dog video remains unverified.",
+      "teach": [
+        "Read the Hachiko story in Schoology, printed pages 119–121. The numbered paragraphs help you return to evidence. This lesson follows the text itself. The media connection is a separate task to complete after the assigned video is available.",
+        "Kentaro tells the story using I and my. We learn what he sees, remembers and feels. This first-person point of view brings us close to his changing relationship with Hachiko, but it does not let us know exactly what the dog thinks.",
+        "At first Kentaro is afraid of Hachiko. He later visits the station, brings food and cares about the dog. Use the contrast between his early actions and later actions to explain his change. Naming a trait such as caring is stronger when you support it with a particular action.",
+        "The story is labeled historical fiction. It draws on the real dog Hachiko and a real place, while using a story narrator and imagined scenes or dialogue. A real setting does not prove that every narrated conversation is a historical record.",
+        "Track the main events in order: Kentaro meets Hachiko; they become friends; Dr. Ueno dies; Hachiko continues his station routine; people care for him and honor him with a statue; after his death, the statue remains a meeting place. In a three-sentence summary, combine related events and leave out small details.",
+        "Compare Dr. Ueno’s description as an older man with the description of Hachiko as a puppy. These age clues help establish a relationship that will change over time. Explain how a detail prepares for a later event instead of simply pointing out that the detail exists.",
+        "The station’s role develops. It begins as the place where Kentaro meets the dog and where Hachiko greets Dr. Ueno. Later it becomes the place where people support and remember Hachiko. At the end, the statue is a meeting place for friends and family. This ending connects the setting with the story’s ideas about attachment and loyalty.",
+        "Notice the limits of an inference. Mr. Kobayashi offers possible reasons for Hachiko’s waiting. The story leaves uncertainty about exactly what the dog understands. You can infer strong attachment from the actions without claiming certainty about the dog’s private thoughts.",
+        "Learn the five sidebar adverbs through their actions. Timidly means in a shy or fearful way. Anxiously means in a worried way. Patiently means calmly enduring delay or difficulty. Thoughtfully means with careful consideration. Silently means without noise. Replace each adverb with its meaning and check that the action still makes sense."
+      ],
+      "model": {
+        "prompt": "Worked example using a different dog: Each afternoon, Miso brings a ball to the same gate before Ava arrives. What can you infer?",
+        "reasoning": "The text states a repeated action and its timing. I can infer that Miso anticipates Ava’s arrival. Bringing the ball before she gets there supports that expectation. The text does not prove what Miso thinks in words.",
+        "answer": "Miso appears to expect Ava to arrive. His repeated trip to the gate with a ball before she arrives supports that inference."
+      },
+      "opinions": [],
+      "writing": [
+        {
+          "prompt": "Write a three-sentence objective summary of the assigned Hachiko selection.",
+          "criteria": "Include the central relationship, the major change and the continuing importance of Hachiko. Leave out personal ratings and minor details."
+        },
+        {
+          "prompt": "Explain how Kentaro’s feelings toward Hachiko change. Use evidence from an early paragraph and a later paragraph.",
+          "criteria": "Name the change, identify two concrete actions and explain their connection."
+        },
+        {
+          "prompt": "Explain how the age details in paragraphs 4–7 help prepare the later situation in the story.",
+          "criteria": "Use the descriptions of Dr. Ueno and Hachiko and connect them to the plot."
+        },
+        {
+          "prompt": "Formulate a research question that could help you learn more about the real-life Hachiko.",
+          "criteria": "Ask a focused question that can be investigated through a reliable source."
+        }
+      ],
+      "passage": "Use the assigned Hachiko story, paragraphs 1–31 on printed pages 119–121. Return to the named paragraphs when a question asks for evidence.",
+      "guided": [
+        {
+          "prompt": "Kentaro speaks timidly when he first meets Hachiko. Which action in paragraph 6 supports the meaning?",
+          "options": [
+            "He steps behind his mother.",
+            "He runs ahead of everyone.",
+            "He laughs loudly.",
+            "He tells the dog to leave."
+          ],
+          "answer": 0,
+          "rationale": "Stepping behind his mother supports shyness or fear."
+        },
+        {
+          "prompt": "Which meaning fits anxiously when Kentaro asks what is wrong with Papa?",
+          "options": [
+            "Without making noise",
+            "With a worried feeling",
+            "With careful planning",
+            "Without complaint"
+          ],
+          "answer": 1,
+          "rationale": "He senses something is wrong, so worried fits his question."
+        },
+        {
+          "prompt": "Which meaning fits patiently waiting?",
+          "options": [
+            "Waiting with loud demands",
+            "Waiting with great fear",
+            "Waiting calmly despite delay",
+            "Waiting without being noticed"
+          ],
+          "answer": 2,
+          "rationale": "Patiently describes calm endurance of delay or difficulty."
+        },
+        {
+          "prompt": "Which meaning fits Mr. Kobayashi answering thoughtfully?",
+          "options": [
+            "Answering without any sound",
+            "Answering as quickly as possible",
+            "Answering in anger",
+            "Answering with careful consideration"
+          ],
+          "answer": 3,
+          "rationale": "He considers possible explanations rather than claiming certainty."
+        },
+        {
+          "prompt": "Which meaning fits Papa sitting silently at the table?",
+          "options": [
+            "Without noise",
+            "With confidence",
+            "With impatience",
+            "With excitement"
+          ],
+          "answer": 0,
+          "rationale": "Silently describes the absence of noise."
+        },
+        {
+          "prompt": "Why compare Kentaro’s early fear with his later visits to Hachiko?",
+          "options": [
+            "To prove the setting changes countries",
+            "To explain how Kentaro’s relationship with the dog changes",
+            "To show Kentaro never feels afraid",
+            "To identify the author of the story"
+          ],
+          "answer": 1,
+          "rationale": "His actions shift from hiding to seeking the dog’s company."
+        }
+      ],
+      "independent": [
+        {
+          "prompt": "A first-person narrator says a friend looks upset. What can the narrator directly report?",
+          "options": [
+            "Every thought the friend has",
+            "The friend’s entire past",
+            "The friend’s visible expression and actions",
+            "What every other person thinks"
+          ],
+          "answer": 2,
+          "rationale": "A first-person narrator can describe observations, while interpreting someone else’s thoughts requires inference."
+        },
+        {
+          "prompt": "A story shows a child first hiding from a pet, then later bringing it water. Which idea can the comparison support?",
+          "options": [
+            "The pet changes species",
+            "The child’s home changes cities",
+            "The pet understands every word",
+            "The child becomes more comfortable and caring"
+          ],
+          "answer": 3,
+          "rationale": "The contrast in actions supports a change in the relationship."
+        },
+        {
+          "prompt": "Which choice belongs in an objective summary?",
+          "options": [
+            "A key event and its effect on the main situation",
+            "A reader’s favorite scene and personal rating",
+            "Every small description in the opening",
+            "A prediction presented as a fact"
+          ],
+          "answer": 0,
+          "rationale": "A summary selects central events and relationships without adding personal opinion."
+        }
+      ],
+      "assessment": [
+        {
+          "prompt": "How does Kentaro first meet Hachiko?",
+          "options": [
+            "He finds him at school.",
+            "He meets him at the station while going with Mama to meet Papa.",
+            "He receives him as a birthday gift.",
+            "He sees him alone in a forest."
+          ],
+          "answer": 1,
+          "rationale": "The opening brings Kentaro and Mama to Shibuya Station to meet Papa."
+        },
+        {
+          "prompt": "Which pair best supports the contrast between Dr. Ueno and Hachiko near the start?",
+          "options": [
+            "Both are described as young children.",
+            "Both work at the university.",
+            "Dr. Ueno is described as older, while Hachiko is still a puppy.",
+            "Dr. Ueno lives at the station, while Hachiko lives at school."
+          ],
+          "answer": 2,
+          "rationale": "The age descriptions help prepare the story’s later situation."
+        },
+        {
+          "prompt": "Which event changes the situation for Hachiko?",
+          "options": [
+            "Kentaro first hears a train.",
+            "Kentaro finds a newspaper stand.",
+            "The family moves to Tokyo.",
+            "Dr. Ueno dies."
+          ],
+          "answer": 3,
+          "rationale": "The dog continues waiting after Dr. Ueno can no longer return."
+        },
+        {
+          "prompt": "What does the community’s care for Hachiko help show?",
+          "options": [
+            "His attachment affects people beyond his owner.",
+            "Everyone wants the station to close.",
+            "The dog belongs to every passenger.",
+            "People believe he can operate trains."
+          ],
+          "answer": 0,
+          "rationale": "Food, water, attention and the statue show a wider community response."
+        },
+        {
+          "prompt": "According to the ending, what do people say when arranging to meet at the station?",
+          "options": [
+            "Wait beside the last train.",
+            "Let’s meet at Hachiko.",
+            "Come to the university.",
+            "Find Kentaro’s house."
+          ],
+          "answer": 1,
+          "rationale": "The statue’s name becomes a familiar meeting point."
+        },
+        {
+          "prompt": "Which conclusion respects the uncertainty in Mr. Kobayashi’s explanation?",
+          "options": [
+            "He proves Hachiko knows exactly what happened.",
+            "He says waiting has no connection to Dr. Ueno.",
+            "He offers possible reasons, while the dog’s repeated actions show attachment.",
+            "He claims the dog is waiting for a different person."
+          ],
+          "answer": 2,
+          "rationale": "Possible explanations do not give certain access to Hachiko’s thoughts."
+        }
+      ],
+      "retention": [
+        {
+          "prompt": "Why does the station matter to the ending as well as the beginning?",
+          "options": [
+            "It turns into Kentaro’s school.",
+            "It stops being used by passengers.",
+            "It is removed from Tokyo.",
+            "It connects meetings with Hachiko to later reunions near his statue."
+          ],
+          "answer": 3,
+          "rationale": "The setting links the dog’s relationships with the community’s continuing remembrance."
+        },
+        {
+          "prompt": "Which detail best supports a claim that Kentaro cares for Hachiko?",
+          "options": [
+            "He brings food and water.",
+            "He notices train noise.",
+            "He moves to Tokyo.",
+            "He sees a newspaper stand."
+          ],
+          "answer": 0,
+          "rationale": "Providing food and water is a direct caring action."
+        },
+        {
+          "prompt": "A reader calls every line of dialogue in historical fiction a verified quotation. What should the reader reconsider?",
+          "options": [
+            "Whether the text has a setting",
+            "Whether fictionalized narration can include invented scenes or speech",
+            "Whether stories can have characters",
+            "Whether the author uses punctuation"
+          ],
+          "answer": 1,
+          "rationale": "Historical fiction can combine historical facts with imagined storytelling."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uploaded Hachiko story PDF",
+          "printedPages": [
+            119,
+            120,
+            121
+          ],
+          "paragraphs": "1–31",
+          "status": "All three text pages read in full",
+          "sourceId": "hachiko-story-upload"
+        }
+      ],
+      "media": [
+        {
+          "title": "Hachiko photographs · University of Colorado",
+          "url": "https://www.colorado.edu/ptea-curriculum/media/245",
+          "task": "View the station and statue photographs to build setting knowledge. Close the photographs, recall two visible details, and distinguish what a photograph shows from an inference about a character’s feelings.",
+          "status": "PDF recovered; full visual review pending"
+        }
+      ],
+      "cards": [
+        [
+          "Timidly",
+          "In a shy or fearful way."
+        ],
+        [
+          "Anxiously",
+          "In a worried or nervous way."
+        ],
+        [
+          "Patiently",
+          "Calmly enduring delay or difficulty."
+        ],
+        [
+          "Thoughtfully",
+          "With careful consideration."
+        ],
+        [
+          "Silently",
+          "Without noise."
+        ]
+      ],
+      "organizer": [
+        "What the text says",
+        "What I infer or conclude",
+        "Supporting detail",
+        "Why the detail supports the conclusion"
+      ]
+    },
+    {
+      "id": "ela_sofi_review_20261106",
+      "subject": "ELA",
+      "title": "SoFi · Central idea, purpose and text structure",
+      "releaseStatus": "verified",
+      "assessmentEnabled": true,
+      "scopeStatus": "The complete uploaded three-page Newsela/Los Angeles Times article. The PDF contains the passage, photographs and headings; it does not include a separate teacher question sheet.",
+      "teach": [
+        "Read the three-page assigned article about SoFi, the soft robotic fish. Use the headings to find where a feature, problem, proposed improvement or outside scientist’s response is discussed.",
+        "A central idea explains what the whole article mainly develops. The article describes a robot intended to help scientists observe ocean life with less disturbance. It explains the design, challenges and possible improvements. A detail such as battery life supports that larger idea but cannot summarize the whole article by itself.",
+        "The author’s main purpose is to inform readers about the robot’s design and scientific use. Descriptions and expert comments explain what it can do and what still needs work. A positive quotation from a researcher does not turn the entire article into an advertisement.",
+        "Headings reveal how information is organized. The section about the rubber tail and camera explains features and their functions. The section about difficult design explains problems and solutions. The evolving-robot section discusses future possibilities. The final section adds outside scientists’ views and cautions.",
+        "Trace a specific connection between ideas. The article says ordinary ways of controlling land robots do not work underwater. It then explains the use of sound signals and a waterproof controller. This is a problem followed by a solution. Explaining the connection is stronger than listing the two details separately.",
+        "Separate present abilities from proposed improvements. The article reports a roughly 40-minute swim time and describes a diver controlling the robot. Faster swimming, improved video/color capabilities and recognizing or following particular animals are discussed as goals or possibilities. A proposal is not proof that a feature already works.",
+        "An objective summary states the central idea and key supporting points without a personal rating. Include the robot’s purpose, how its design helps, and the work still needed. Leave out small measurements unless they are necessary to your summary.",
+        "Use an organizer with four labels: feature, function, limitation and proposed improvement. A feature names part of the robot; a function explains what it does. A limitation describes a current boundary. A proposed improvement describes a possibility for future versions. Recall the categories with the cue Part, job, limit, next."
+      ],
+      "model": {
+        "prompt": "Worked parallel example: An article describes a river sensor. Its sealed case protects electronics. A weak signal makes remote control difficult, so engineers install a different transmitter. Researchers still want a longer-lasting battery.",
+        "reasoning": "The sealed case is a feature with a protective function. The signal issue and new transmitter form a problem-solution connection. A longer-lasting battery is a future goal. These details support a central idea about designing a useful research tool while addressing limitations.",
+        "answer": "The article explains how a research sensor works, the problems engineers solved and the improvements still planned."
+      },
+      "opinions": [],
+      "writing": [
+        {
+          "prompt": "Write an objective three-sentence summary of the assigned SoFi article.",
+          "criteria": "Include the purpose, important design information and remaining work. Avoid personal ratings."
+        },
+        {
+          "prompt": "Explain how one heading helps you locate information in this article.",
+          "criteria": "Name the heading, identify the information beneath it and explain the heading’s usefulness."
+        },
+        {
+          "prompt": "Explain one problem-solution connection in the article using a specific detail.",
+          "criteria": "Identify the engineering problem, the response and how the response addresses it."
+        },
+        {
+          "prompt": "Explain the author’s purpose and support it with two details from different sections.",
+          "criteria": "Connect the details to the purpose instead of listing them without explanation."
+        }
+      ],
+      "passage": "Use the assigned SoFi article. Refer to its sections about features, design challenges, future improvements and outside scientists’ responses.",
+      "guided": [
+        {
+          "prompt": "Which statement gives the article’s central idea?",
+          "options": [
+            "Robotic fish are designed mainly to replace ocean animals.",
+            "SoFi could help scientists observe marine life, and its design still has limitations and room for improvement.",
+            "Divers use controllers for many different jobs.",
+            "Every ocean mystery has already been solved."
+          ],
+          "answer": 1,
+          "rationale": "This combines the purpose, design and continuing work developed throughout the article."
+        },
+        {
+          "prompt": "Which purpose best fits the article?",
+          "options": [
+            "Persuade readers to buy a robotic fish",
+            "Tell a fictional adventure",
+            "Inform readers about SoFi and its potential scientific uses",
+            "Give instructions for building SoFi at home"
+          ],
+          "answer": 2,
+          "rationale": "Explanations, reported findings and expert comments support an informational purpose."
+        },
+        {
+          "prompt": "Which section would best explain how the tail helps SoFi move?",
+          "options": [
+            "The section about future improvements",
+            "The final outside-scientist responses",
+            "The introductory title alone",
+            "A Rubber Tail And A Fisheye Lens"
+          ],
+          "answer": 3,
+          "rationale": "That section connects physical features with their functions."
+        },
+        {
+          "prompt": "The article first describes difficulty controlling a robot underwater, then sound signals used to control it. What connection is this?",
+          "options": [
+            "Problem and solution",
+            "Two unrelated descriptions",
+            "A personal opinion and a rating",
+            "An event and an unrelated definition"
+          ],
+          "answer": 0,
+          "rationale": "The signals address the communication problem."
+        }
+      ],
+      "independent": [
+        {
+          "prompt": "An article describes a camera that records nesting birds, explains its quiet operation, and notes limits in low light. Which central idea fits?",
+          "options": [
+            "All birds live in nests.",
+            "The camera could help observation, but its design has strengths and limitations.",
+            "Low light is always dangerous.",
+            "The camera is the best product available."
+          ],
+          "answer": 1,
+          "rationale": "The statement connects the tool’s purpose, strengths and limitations."
+        },
+        {
+          "prompt": "Which sentence belongs in an objective summary of a technology article?",
+          "options": [
+            "I would love to own this amazing machine.",
+            "The writer should have chosen a better topic.",
+            "The tool helps researchers gather information, although longer tests are needed.",
+            "My favorite part is the photograph."
+          ],
+          "answer": 2,
+          "rationale": "The sentence summarizes information without a personal judgment."
+        },
+        {
+          "prompt": "A paragraph explains that a sensor overheats, followed by a paragraph describing a cooling system. What does the second paragraph do?",
+          "options": [
+            "Introduce a new historical setting",
+            "Give an unrelated opinion",
+            "Repeat the problem without adding information",
+            "Explain a solution to the earlier problem"
+          ],
+          "answer": 3,
+          "rationale": "The cooling system addresses overheating."
+        }
+      ],
+      "assessment": [
+        {
+          "prompt": "Why does SoFi’s realistic, quiet movement matter to the article’s main idea?",
+          "options": [
+            "It may help the robot observe animals without frightening them.",
+            "It allows the robot to replace real fish.",
+            "It proves ocean animals never notice robots.",
+            "It removes the need to test the robot."
+          ],
+          "answer": 0,
+          "rationale": "The design is connected to observing natural behavior with less disturbance."
+        },
+        {
+          "prompt": "Which statement describes a goal discussed for future SoFi versions?",
+          "options": [
+            "A diver currently operates a controller.",
+            "The robot might recognize and follow particular animals on its own.",
+            "The robot currently has a rubber tail.",
+            "The robot currently records underwater video."
+          ],
+          "answer": 1,
+          "rationale": "Recognizing and following particular animals is presented as a possible future capability."
+        },
+        {
+          "prompt": "What is the main role of the final section’s outside scientists?",
+          "options": [
+            "Explain how to sell the robot",
+            "Replace the earlier scientific findings with a story",
+            "Assess the work’s promise and identify further improvements or testing",
+            "Claim that all future goals are already achieved"
+          ],
+          "answer": 2,
+          "rationale": "Their comments support the potential while noting the need for longer or deeper operation."
+        },
+        {
+          "prompt": "Which detail best supports the idea that underwater engineering creates special challenges?",
+          "options": [
+            "The robot is fairly small.",
+            "The article has a title.",
+            "The scientists work at a university.",
+            "Electronics must be protected from water, and ordinary land-robot communication methods do not work underwater."
+          ],
+          "answer": 3,
+          "rationale": "These are conditions engineers must address to operate the robot underwater."
+        },
+        {
+          "prompt": "Which choice best describes the organization of Designing SoFi Was Not Easy?",
+          "options": [
+            "It presents engineering problems and how the team addressed them.",
+            "It lists only events in Hachiko’s life.",
+            "It compares two types of ocean animals.",
+            "It gives a step-by-step recipe readers should follow."
+          ],
+          "answer": 0,
+          "rationale": "The section links design challenges with solutions."
+        },
+        {
+          "prompt": "Which summary best represents the whole article?",
+          "options": [
+            "SoFi has a tail and a camera, so every limitation is solved.",
+            "Researchers designed SoFi to observe marine life; the article explains its features, solutions and possible improvements.",
+            "Outside scientists believe robots should never be used underwater.",
+            "SoFi is a toy built for children who like video games."
+          ],
+          "answer": 1,
+          "rationale": "This includes the purpose and the main lines of support without overstating the findings."
+        }
+      ],
+      "retention": [
+        {
+          "prompt": "When asked how two paragraphs connect, what should you explain?",
+          "options": [
+            "How many words appear in each",
+            "Which paragraph is your favorite",
+            "How the later information develops, supports or responds to the earlier idea",
+            "Why all paragraphs have the same job"
+          ],
+          "answer": 2,
+          "rationale": "Text-structure analysis explains the relationship between ideas."
+        },
+        {
+          "prompt": "Why distinguish a proposed improvement from a tested ability?",
+          "options": [
+            "Only proposed improvements belong in articles.",
+            "Future plans never matter.",
+            "Current findings cannot be checked.",
+            "A possibility should not be reported as something already demonstrated."
+          ],
+          "answer": 3,
+          "rationale": "Accurate reading preserves the difference between evidence and future plans."
+        },
+        {
+          "prompt": "Which question helps identify an informational author’s purpose?",
+          "options": [
+            "What does the author help readers understand, and how do the details serve that goal?",
+            "How many letters are in the title?",
+            "Which illustration has the brightest color?",
+            "Would I buy the technology?"
+          ],
+          "answer": 0,
+          "rationale": "Purpose connects the author’s goal with choices of content and presentation."
+        }
+      ],
+      "sources": [
+        {
+          "title": "Uploaded ARTICLE-Skill Review · SoFi",
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "status": "All three pages OCR-read and visually inspected",
+          "sourceId": "sofi-article-upload"
+        }
+      ],
+      "media": [],
+      "organizer": [
+        "What the text says",
+        "What I infer or conclude",
+        "Supporting detail",
+        "Why the detail supports the conclusion"
+      ]
+    },
+    {
+      "id": "math_expression_vocabulary_20261106",
+      "subject": "MATH",
+      "title": "Expressions · The six teacher vocabulary words",
+      "releaseStatus": "verified",
+      "assessmentEnabled": true,
+      "scopeStatus": "The six vocabulary terms named in the November 6 newsletter. This is vocabulary preparation, not complete certification of the November 13 expressions quiz.",
+      "teach": [
+        "An expression is a mathematical phrase that represents an amount. It can contain numbers, variables and operations. The expression 3x + 5 has no equals sign. An equation, such as 3x + 5 = 17, states that two expressions are equal.",
+        "A variable is a symbol that represents a number. In 3x + 5, x is the variable. Its value can change or be unknown. Name the quantity the variable represents when you write an expression for a situation.",
+        "A coefficient is the numerical factor multiplying a variable part. In 3x, the coefficient is 3. In x, the coefficient is 1 even when it is not written. A constant is a number term without a variable. In 3x + 5, the constant is 5.",
+        "Terms are the parts separated by addition or subtraction at the main level of an expression. Keep a subtraction sign with the term that follows it. In 3x + 5 + 2x there are three terms: 3x, 5 and 2x. A coefficient is only part of a variable term, so 3 and x are not two separate terms in 3x.",
+        "Like terms have the same variable part, including the same exponents. The terms 3x and 2x are like terms. The terms 3x and 3y are not. A matching coefficient alone does not make terms alike. Constants can be combined with other constants.",
+        "Combine like terms by adding their coefficients while keeping the shared variable part. In 3x + 2x, three groups of x and two more groups of x make 5x. In 3x + 5, the terms cannot be combined into 8x because the 5 has no x.",
+        "Use a label organizer. Write the whole expression at the top. Under it list each term. Circle the variable, identify each coefficient and mark the constant. Group like terms only after checking the variable part.",
+        "Recall cue: expression is the whole phrase; terms are its chunks; variable is the symbol; coefficient counts the variable groups; constant stands alone; like terms have matching variable parts."
+      ],
+      "model": {
+        "prompt": "A costume needs 4 ribbon strips of length r and an extra 6 inches of trim. Interpret 4r + 6.",
+        "reasoning": "The whole phrase is an expression. Its two terms are 4r and 6. The variable r represents the length of one strip, the coefficient 4 counts strips, and the constant 6 represents fixed extra trim. If r is measured in inches, both terms represent inches.",
+        "answer": "Expression 4r + 6; terms 4r and 6; variable r; coefficient 4; constant 6."
+      },
+      "opinions": [],
+      "writing": [
+        {
+          "prompt": "Label the expression, terms, variable, coefficient and constant in 5n + 8.",
+          "criteria": "Identify each part without splitting 5n into two terms."
+        },
+        {
+          "prompt": "Explain why 3x and 2y cannot be combined as like terms.",
+          "criteria": "Compare the variable parts."
+        },
+        {
+          "prompt": "Write an expression for four notebooks costing p dollars each plus 3 dollars for a folder. Explain each term.",
+          "criteria": "Represent the repeated cost and fixed cost and name the units."
+        },
+        {
+          "prompt": "Simplify 3x + 5 + 2x, then evaluate the result when x = 4. Show the steps.",
+          "criteria": "Combine the variable terms to get 5x + 5. Substitution gives 25."
+        }
+      ],
+      "passage": "Use the expression in each question. Keep coefficients attached to their variable terms.",
+      "guided": [
+        {
+          "prompt": "In 7n + 4, which symbol is the variable?",
+          "options": [
+            "7",
+            "n",
+            "4",
+            "+"
+          ],
+          "answer": 1,
+          "rationale": "The symbol n represents a number."
+        },
+        {
+          "prompt": "What is the coefficient of y in 6y + 2?",
+          "options": [
+            "y",
+            "2",
+            "6",
+            "8"
+          ],
+          "answer": 2,
+          "rationale": "The 6 multiplies y."
+        },
+        {
+          "prompt": "Which term is constant in 5a + 9?",
+          "options": [
+            "5a",
+            "a",
+            "5",
+            "9"
+          ],
+          "answer": 3,
+          "rationale": "The term 9 has no variable."
+        }
+      ],
+      "independent": [
+        {
+          "prompt": "Which pair contains like terms?",
+          "options": [
+            "4m and 7m",
+            "4m and 4n",
+            "7m and 7",
+            "m and m²"
+          ],
+          "answer": 0,
+          "rationale": "The variable part is m in both terms."
+        },
+        {
+          "prompt": "How many terms are in 2p + 8 + 3p?",
+          "options": [
+            "2",
+            "3",
+            "4",
+            "5"
+          ],
+          "answer": 1,
+          "rationale": "The three terms are 2p, 8 and 3p."
+        },
+        {
+          "prompt": "Which expression represents three items costing c dollars each plus a fixed 4-dollar fee?",
+          "options": [
+            "3 + c + 4",
+            "4c + 3",
+            "3c + 4",
+            "3(c + 4)"
+          ],
+          "answer": 2,
+          "rationale": "Three costs of c total 3c, then the fixed fee adds 4."
+        }
+      ],
+      "assessment": [
+        {
+          "prompt": "Which choice is an expression rather than an equation?",
+          "options": [
+            "4x + 2 = 10",
+            "x = 3",
+            "4 + 2 = 6",
+            "4x + 2"
+          ],
+          "answer": 3,
+          "rationale": "An expression represents an amount without stating an equality."
+        },
+        {
+          "prompt": "Which list correctly names the terms in 8b + 3 + 2b?",
+          "options": [
+            "8b, 3 and 2b",
+            "8, b, 3, 2 and b",
+            "8b and 5b",
+            "13b"
+          ],
+          "answer": 0,
+          "rationale": "The plus signs separate three terms."
+        },
+        {
+          "prompt": "In 9t + 5, which symbol could represent an unknown number?",
+          "options": [
+            "9",
+            "t",
+            "5",
+            "+"
+          ],
+          "answer": 1,
+          "rationale": "The variable t represents a number."
+        },
+        {
+          "prompt": "What is the coefficient of x in x + 12?",
+          "options": [
+            "0",
+            "12",
+            "1",
+            "13"
+          ],
+          "answer": 2,
+          "rationale": "One group of x is written x, with an implied coefficient of 1."
+        },
+        {
+          "prompt": "What is the constant term in 2q + 7 + 5q?",
+          "options": [
+            "2q",
+            "5q",
+            "q",
+            "7"
+          ],
+          "answer": 3,
+          "rationale": "The term 7 stands alone without a variable."
+        },
+        {
+          "prompt": "Which expression is equivalent to 4z + 3z + 2?",
+          "options": [
+            "7z + 2",
+            "9z",
+            "7z + 5",
+            "12z + 2"
+          ],
+          "answer": 0,
+          "rationale": "Combine the like variable terms and keep the constant separate."
+        }
+      ],
+      "retention": [
+        {
+          "prompt": "In 5h + 2 + h, which description is accurate?",
+          "options": [
+            "The constant is 5.",
+            "The variable terms have coefficients 5 and 1.",
+            "There are five terms.",
+            "All terms are like terms."
+          ],
+          "answer": 1,
+          "rationale": "The term h has an implied coefficient of 1."
+        },
+        {
+          "prompt": "Which pair is not like terms?",
+          "options": [
+            "2r and 5r",
+            "3k and k",
+            "4a and 4b",
+            "6 and 9"
+          ],
+          "answer": 2,
+          "rationale": "The variable parts a and b differ."
+        },
+        {
+          "prompt": "A student changes 6x + 4 into 10x. What should the student reconsider?",
+          "options": [
+            "The 6 is not a coefficient.",
+            "The 4 is a variable.",
+            "Every expression must have an equals sign.",
+            "The constant and the x term are not like terms."
+          ],
+          "answer": 3,
+          "rationale": "The 4 does not represent four groups of x."
+        }
+      ],
+      "sources": [
+        {
+          "title": "November 6 teacher newsletter",
+          "pages": [
+            2
+          ],
+          "status": "Sixth grade math section read in full",
+          "sourceId": "newsletter-2026-11-06"
+        },
+        {
+          "title": "OpenStax Prealgebra 2e · Use the Language of Algebra",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+          "status": "Supplemental terminology page opened"
+        }
+      ],
+      "media": [],
+      "cards": [
+        [
+          "Expression",
+          "A mathematical phrase representing an amount."
+        ],
+        [
+          "Term",
+          "A part separated by addition or subtraction; keep its sign."
+        ],
+        [
+          "Variable",
+          "A symbol representing a number."
+        ],
+        [
+          "Coefficient",
+          "A numerical factor multiplying the variable part."
+        ],
+        [
+          "Constant",
+          "A number term without a variable."
+        ],
+        [
+          "Like terms",
+          "Terms with exactly the same variable part."
+        ]
+      ],
+      "organizer": [
+        "Whole expression",
+        "Terms and their labels",
+        "Like-term groups",
+        "Reasonableness check"
+      ]
+    },
+    {
+      "id": "ela_explanatory_writing_20261106",
+      "subject": "ELA",
+      "title": "Explanatory writing · Thesis, details and commentary",
+      "releaseStatus": "verified",
+      "assessmentEnabled": true,
+      "scopeStatus": "The five writing skills named in the November 6 newsletter, using the uploaded SoFi article for an original practice task. The teacher’s upcoming spiral prompt remains unverified.",
+      "teach": [
+        "Explanatory writing helps a reader understand an idea. Begin by deciding what you are explaining. Your thesis states the main point that the rest of the writing will develop. A topic names a subject; a thesis says something clear about it.",
+        "An introduction gives useful context and leads to the thesis. Each body paragraph develops a supporting idea related to that thesis. Use transitions to show how the ideas connect.",
+        "A concrete detail is specific evidence from the source. Commentary explains why that evidence matters for your point. After naming a detail, ask, What does this help the reader understand? The answer should connect the evidence to the paragraph’s idea and the thesis.",
+        "Plan with a four-box organizer: thesis, supporting idea, concrete detail, commentary. Check each connection before drafting. Remember Point, proof, why: make the point, provide evidence, explain its significance.",
+        "The newsletter assigns thesis-statement IXL P.2 for Friday, November 13, with SmartScore 80 corresponding to full credit. It also announces a Monday-to-Friday spiral with a written component. Follow the exact Schoology prompt when it becomes available."
+      ],
+      "model": {
+        "prompt": "Original practice task: Explain how SoFi’s design supports underwater research.",
+        "reasoning": "Thesis: SoFi’s design helps researchers observe marine life by addressing movement and control challenges. A body paragraph could focus on movement. The article describes a soft tail and quiet, fishlike motion. Commentary explains that this design may reduce disturbance, which helps observation of animal behavior. The explanation links a feature to the research purpose.",
+        "answer": "SoFi’s quiet, fishlike motion supports its research purpose. The article describes a soft tail that moves water to propel the robot. This design can help researchers get close to animals while causing less disturbance, making observations of their behavior more useful."
+      },
+      "opinions": [],
+      "writing": [
+        {
+          "prompt": "Write a thesis for this original practice task: Explain how SoFi’s design supports underwater research.",
+          "criteria": "State a specific point that the article can support."
+        },
+        {
+          "prompt": "Write an introduction that gives context and leads to your thesis.",
+          "criteria": "Prepare the reader and establish the explanation’s direction."
+        },
+        {
+          "prompt": "Plan one body paragraph using supporting idea, concrete detail and commentary.",
+          "criteria": "Use a specific source detail and explain its relevance."
+        },
+        {
+          "prompt": "Write the body paragraph from your plan, then explain how it supports your thesis.",
+          "criteria": "Keep the paragraph focused and connect its evidence to the essay’s point."
+        }
+      ],
+      "passage": "Use the uploaded SoFi article as evidence for the original practice task: Explain how SoFi’s design supports underwater research.",
+      "guided": [
+        {
+          "prompt": "Which statement is a thesis rather than only a topic?",
+          "options": [
+            "Underwater robots",
+            "The SoFi article",
+            "SoFi’s design addresses challenges that make underwater observation difficult.",
+            "A camera, a tail and a controller"
+          ],
+          "answer": 2,
+          "rationale": "The statement makes a clear point that supporting paragraphs can develop."
+        },
+        {
+          "prompt": "Which choice is a concrete detail from the article?",
+          "options": [
+            "Technology is always wonderful.",
+            "The robot is the most important invention ever.",
+            "The article is my favorite.",
+            "A pump moves water in the soft tail to help the robot swim."
+          ],
+          "answer": 3,
+          "rationale": "This is a specific reported feature of the robot."
+        },
+        {
+          "prompt": "Which commentary best connects quiet movement to the research purpose?",
+          "options": [
+            "Moving quietly may reduce disturbance and help scientists observe animal behavior.",
+            "Quiet means making less noise.",
+            "The article uses the word robot.",
+            "I like quiet places."
+          ],
+          "answer": 0,
+          "rationale": "The sentence explains why the feature matters for the research goal."
+        }
+      ],
+      "independent": [
+        {
+          "prompt": "An explanatory paragraph gives a statistic but never explains its relevance. What should the writer add?",
+          "options": [
+            "A new unrelated topic",
+            "Commentary connecting the statistic to the paragraph’s point",
+            "A personal rating",
+            "A second introduction"
+          ],
+          "answer": 1,
+          "rationale": "Evidence needs an explanation of how it supports the point."
+        },
+        {
+          "prompt": "Which question best checks whether a body paragraph belongs in an essay?",
+          "options": [
+            "Does it use the longest words?",
+            "Does it contain exactly five sentences?",
+            "Does its main point help develop the thesis?",
+            "Does it repeat the introduction word for word?"
+          ],
+          "answer": 2,
+          "rationale": "Body paragraphs should develop the essay’s controlling idea."
+        },
+        {
+          "prompt": "Which plan gives an explanatory essay a clear direction?",
+          "options": [
+            "A list of opinions without a point",
+            "Facts in any order with no connections",
+            "A topic followed by an unrelated story",
+            "A clear thesis with related supporting ideas and evidence"
+          ],
+          "answer": 3,
+          "rationale": "The thesis and supporting structure help readers follow the explanation."
+        }
+      ],
+      "assessment": [
+        {
+          "prompt": "Which thesis fits the assigned original practice task about SoFi’s design?",
+          "options": [
+            "SoFi’s features address the challenges of moving and communicating underwater.",
+            "I read an article yesterday.",
+            "There are many fish in the ocean.",
+            "Robots are interesting."
+          ],
+          "answer": 0,
+          "rationale": "It makes a specific explanatory point about the design."
+        },
+        {
+          "prompt": "What should an introduction do before or alongside the thesis?",
+          "options": [
+            "List every fact in the article",
+            "Give useful context for what the essay will explain",
+            "Present an unrelated conclusion",
+            "Repeat the title without explanation"
+          ],
+          "answer": 1,
+          "rationale": "Context prepares readers to understand the point the essay develops."
+        },
+        {
+          "prompt": "Which pair correctly distinguishes evidence and commentary?",
+          "options": [
+            "Evidence is a personal preference; commentary is a title.",
+            "Evidence and commentary are always the same sentence.",
+            "Evidence reports the sound-control method; commentary explains how it addresses underwater communication.",
+            "Evidence predicts a new feature; commentary claims it already works."
+          ],
+          "answer": 2,
+          "rationale": "The reported method is the detail, and the connection to the problem is commentary."
+        },
+        {
+          "prompt": "A body paragraph explains the sound-control method. Which topic sentence fits?",
+          "options": [
+            "The story begins at a train station.",
+            "Every robot is built the same way.",
+            "Reading articles is enjoyable.",
+            "SoFi’s control system addresses the difficulty of communicating underwater."
+          ],
+          "answer": 3,
+          "rationale": "The topic sentence identifies the supporting idea developed by the details."
+        }
+      ],
+      "retention": [
+        {
+          "prompt": "What is the best use of the question Why does this detail matter?",
+          "options": [
+            "To develop commentary that links evidence to a point",
+            "To count punctuation marks",
+            "To replace the thesis with a topic",
+            "To add an unsupported claim"
+          ],
+          "answer": 0,
+          "rationale": "Commentary explains the significance of evidence."
+        },
+        {
+          "prompt": "Which statement best distinguishes topic and thesis?",
+          "options": [
+            "A topic must be a complete essay.",
+            "A topic names the subject; a thesis states a point about it.",
+            "A thesis is always a question.",
+            "A topic contains every supporting detail."
+          ],
+          "answer": 1,
+          "rationale": "A thesis gives the writing a specific direction."
+        },
+        {
+          "prompt": "Which revision strengthens an explanatory paragraph?",
+          "options": [
+            "Remove every concrete detail.",
+            "Add an unrelated event.",
+            "Explain how a cited feature supports the paragraph’s idea.",
+            "Replace the evidence with a personal rating."
+          ],
+          "answer": 2,
+          "rationale": "A clear explanation makes the relationship between evidence and point visible."
+        }
+      ],
+      "sources": [
+        {
+          "title": "November 6 newsletter · ELA section",
+          "pages": [
+            1
+          ],
+          "status": "Complete visible section read",
+          "sourceId": "newsletter-2026-11-06"
+        },
+        {
+          "title": "Uploaded SoFi article",
+          "pages": [
+            1,
+            2,
+            3
+          ],
+          "status": "Complete article read",
+          "sourceId": "sofi-article-upload"
+        },
+        {
+          "title": "Purdue OWL · Expository Essays",
+          "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/expository_essays.html",
+          "status": "Supplemental structure page read"
+        }
+      ],
+      "media": [],
+      "organizer": [
+        "Thesis",
+        "Supporting idea",
+        "Concrete detail",
+        "Commentary"
+      ]
     }
   ],
   "sources": [
@@ -2095,9 +3342,9 @@
       "subject": "ELA",
       "title": "Hachiko Story PDF",
       "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8636648052",
-      "reviewStatus": "attachment-download-failed",
-      "contentRead": false,
-      "notes": "Assignment resource page opened. Download attempt reached a files-cdn.schoology.com browser error. Source contents not recovered.",
+      "reviewStatus": "uploaded-classroom-copy-read-2026-11-06",
+      "contentRead": true,
+      "notes": "All three uploaded pages read, printed pages 119–121, paragraphs 1–31, close-reading, comprehension and research prompts. The linked video remains unverified.",
       "subjects": [
         "ELA"
       ],
@@ -2109,9 +3356,9 @@
       "subject": "ELA",
       "title": "Fish Article skills review",
       "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8640082372",
-      "reviewStatus": "identified-in-classroom-folder",
-      "contentRead": false,
-      "notes": "Listed as ARTICLE-Skill Review (RI.CS.5, RI.CS.6, RI.KID.2, RI.KID.3).pdf. Underlying file still needs reading.",
+      "reviewStatus": "uploaded-classroom-copy-read-2026-11-06",
+      "contentRead": true,
+      "notes": "All three pages OCR-read and visually inspected. Newsela adaptation of Los Angeles Times SoFi article, dated April 4, 2018, 820L, 735 words. Passage-only PDF; no original test questions present.",
       "subjects": [
         "ELA"
       ],
@@ -2142,6 +3389,40 @@
       "lessons": [],
       "contentRead": false,
       "playbackChecked": false
+    },
+    {
+      "title": "Hachiko Anticipation Guide · uploaded two-page classroom handout",
+      "url": "",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "ela_hachiko_prereading_20261106"
+      ],
+      "reviewStatus": "complete-content-read-2026-11-06",
+      "contentRead": true,
+      "playbackChecked": false,
+      "notes": "Seven agreement ratings, a 4–5-sentence opinion response, timidly in context, and an inference-detail-explanation task. Standalone prereading scope only."
+    },
+    {
+      "title": "November 6 teacher newsletter",
+      "url": "",
+      "subjects": [
+        "ELA",
+        "MATH",
+        "SCI",
+        "SS"
+      ],
+      "lessons": [
+        "ela_hachiko_story_20261106",
+        "ela_sofi_review_20261106",
+        "math_expression_vocabulary_20261106",
+        "ela_explanatory_writing_20261106"
+      ],
+      "reviewStatus": "all-three-pages-read-2026-11-06",
+      "contentRead": true,
+      "playbackChecked": false,
+      "notes": "Controls next-week priority. Use regular Grade 6 math, not the separate Blend or seventh-grade sections. Science term total is 33–34; exact list must be reconciled."
     }
   ],
   "conflicts": [
@@ -2198,6 +3479,55 @@
       "date": "2026-12-02",
       "source": "https://wcschools.schoology.com/event/8628494582/profile",
       "verified": "course-calendar-listing"
+    }
+  ],
+  "weeklyPriorities": [
+    {
+      "subject": "SCI",
+      "date": "2026-11-10",
+      "title": "Ecology vocabulary quiz",
+      "detail": "33–34 terms from StudyMate and the three STEMscopes readings. Exact list and possible additional term remain under review.",
+      "status": "source-reconciliation-needed"
+    },
+    {
+      "subject": "MATH",
+      "date": "2026-11-13",
+      "title": "Expressions quiz",
+      "detail": "All expressions work so far, with term, expression, like terms, coefficient, constant and variable emphasized. A Big 8 pop quiz is also expected during the week.",
+      "status": "vocabulary-lesson-ready; full-quiz-scope-pending"
+    },
+    {
+      "subject": "ELA",
+      "date": "2026-11-13",
+      "title": "Thesis statements · IXL P.2",
+      "detail": "Teacher specifies SmartScore 80 for full credit. Explanatory writing focuses on thesis, introduction, body paragraphs, concrete details and commentary.",
+      "status": "writing-skills-lesson-ready"
+    },
+    {
+      "subject": "ELA",
+      "date": "2026-11-13",
+      "title": "Weekly spiral",
+      "detail": "Assigned Monday and due Friday, two attempts allowed, including a written component. Exact spiral prompts remain to be recovered.",
+      "status": "assignment-content-pending"
+    },
+    {
+      "subject": "SS",
+      "date": "2026-11-13",
+      "title": "Ancient Egypt unit test",
+      "detail": "Newsletter confirms the November 5 quiz covered social, political and religious structures. The November 13 test wraps up the whole Egypt unit.",
+      "status": "broader-unit-review-pending"
+    }
+  ],
+  "schoolNotices": [
+    {
+      "date": "2026-11-09",
+      "title": "Late start",
+      "detail": "Homeroom begins at 8:35 AM Central."
+    },
+    {
+      "date": "2026-11-11",
+      "title": "Veterans Day assembly",
+      "detail": "The newsletter encourages students to dress nicely."
     }
   ]
 }
