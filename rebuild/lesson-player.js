@@ -9,7 +9,7 @@ window.renderVerifiedLesson = function(main, id) {
   const names=['Teach','Guided practice','Independent application','Assessment','Retention'];
   const stageKey=['teach','guided','independent','assessment','retention'][work.stage];
   const redraw=()=>{stopAudio();main.replaceChildren();window.renderVerifiedLesson(main,id);save();};
-  intro(main,'ELA · Assigned prereading guide',lesson.title);
+  intro(main,lesson.subject+' · Classroom-aligned lesson',lesson.title);
   add(main,'p',lesson.scopeStatus,'muted');
   const stages=add(main,'ol',undefined,'path');names.forEach((s,i)=>add(stages,'li',(i===work.stage?'Current · ':'')+s));
   if(work.stage===0){
@@ -25,7 +25,7 @@ window.renderVerifiedLesson = function(main, id) {
   }
   if(work.stage===4){
     add(main,'h2','Remember it later');const elapsed=work.assessmentAt?Date.now()-Date.parse(work.assessmentAt):0;
-    if(elapsed<86400000){const opens=work.assessmentAt?new Date(Date.parse(work.assessmentAt)+86400000):null;add(main,'p',opens?'Your fresh recall check opens '+opens.toLocaleString('en-US',{timeZone:'America/Chicago'})+' Central.':'Finish the assessment before starting the fresh recall check.');add(main,'p','Future checks are planned after 3, 7, 14 and 30 days. These need distinct questions before release.','muted');readingText='Your fresh recall check opens after a day. Return later to practice remembering.';link(main,'Return to ELA','#subject/ELA','button');return;}
+    if(elapsed<86400000){const opens=work.assessmentAt?new Date(Date.parse(work.assessmentAt)+86400000):null;add(main,'p',opens?'Your fresh recall check opens '+opens.toLocaleString('en-US',{timeZone:'America/Chicago'})+' Central.':'Finish the assessment before starting the fresh recall check.');add(main,'p','Future checks are planned after 3, 7, 14 and 30 days. These need distinct questions before release.','muted');readingText='Your fresh recall check opens after a day. Return later to practice remembering.';link(main,'Return to subject','#subject/'+lesson.subject,'button');return;}
   }
   const questions=lesson[stageKey];
   if(work.index>=questions.length){
@@ -34,7 +34,7 @@ window.renderVerifiedLesson = function(main, id) {
     if(work.stage===3){
       if(!work.assessmentAt){work.assessmentAt=new Date().toISOString();state.attempts.push({lessonId:id,version:'v1',kind:'assessment',correct,total:questions.length,at:work.assessmentAt});save();}
       add(main,'p','Your selected-response result is saved on this device. Writing and delayed recall are separate evidence.');
-      const p=add(main,'section',undefined,'panel');add(p,'h2','Your teacher’s written responses');add(p,'p',lesson.passage);
+      const p=add(main,'section',undefined,'panel');add(p,'h2','Written application · saved for review');add(p,'p',lesson.passage);
       lesson.writing.forEach((q,i)=>{add(p,'h3',q.prompt);const b=add(p,'button','Read writing prompt','secondary');b.onclick=()=>speak(q.prompt);const text=add(p,'textarea');text.setAttribute('aria-label',q.prompt);text.value=work.writing[i]||'';text.oninput=()=>{work.writing[i]=text.value;save();};if(work.writingSaved)add(p,'p',q.criteria,'muted');});
       const status=add(p,'p',work.writingSaved?'Saved · awaiting parent review':'');const b=add(p,'button','Save written responses');b.onclick=()=>{if(lesson.writing.some((_,i)=>!work.writing[i]?.trim())){status.textContent='Complete all four written responses before saving for review.';return;}work.writingSaved=true;save();status.textContent='Saved on this device · awaiting parent review. These responses have not been submitted to Schoology.';};
     }
@@ -58,7 +58,7 @@ window.renderVerifiedLesson = function(main, id) {
   const speakFeedback=add(main,'button','Read feedback','secondary');speakFeedback.disabled=!saved;speakFeedback.onclick=()=>{if(work.answers[answerKey])speak(feedback.innerText);};
   submit.onclick=()=>{const selected=field.querySelector('input:checked');if(!selected){alert('Choose an answer first.');return;}if(work.answers[answerKey])return;const record={selected:Number(selected.value),correct:Number(selected.value)===q.answer,at:new Date().toISOString()};work.answers[answerKey]=record;save();showFeedback(record);field.querySelectorAll('input').forEach(x=>x.disabled=true);submit.disabled=true;next.disabled=false;speakFeedback.disabled=false;};
   next.onclick=()=>{work.index++;redraw();};
-  const pause=add(main,'button','Save and pause','secondary');pause.onclick=()=>{save();stopAudio();location.hash='subject/ELA';};
+  const pause=add(main,'button','Save and pause','secondary');pause.onclick=()=>{save();stopAudio();location.hash='subject/'+lesson.subject;};
   readingText=(stageKey==='assessment'||stageKey==='guided'?lesson.passage+'. ':'')+q.prompt+'. '+optionOrder.map((i,position)=>String.fromCharCode(65+position)+'. '+q.options[i]).join('. ');
   document.getElementById('read').textContent='Read question and choices';
 };
