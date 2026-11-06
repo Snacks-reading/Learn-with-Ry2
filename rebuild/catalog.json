@@ -2118,6 +2118,30 @@
       "lessons": [],
       "checkedAt": "2026-11-06",
       "playbackChecked": false
+    },
+    {
+      "title": "University of Colorado Boulder · Hachikō: A Loyal Dog",
+      "url": "https://www.colorado.edu/ptea-curriculum/texts-and-contexts/hachiko-loyal-dog",
+      "reviewStatus": "lesson-overview-read-2026-11-06",
+      "notes": "University page names Pamela S. Turner’s book and links lesson, materials, and photographs. Activities concern loyalty, retelling and character traits. Underlying PDFs still need review and grade adaptation.",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [],
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "NPR/North Country Public Radio · Hachiko excerpt",
+      "url": "https://www.northcountrypublicradio.org/news/npr/4701394/excerpt-hachiko-the-true-story-of-a-loyal-dog",
+      "reviewStatus": "public-excerpt-opened-2026-11-06",
+      "notes": "Public excerpt of the exact Pamela S. Turner title supplies an external recovery path. It does not verify the exact length or pagination of the Schoology excerpt.",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [],
+      "contentRead": false,
+      "playbackChecked": false
     }
   ],
   "conflicts": [
