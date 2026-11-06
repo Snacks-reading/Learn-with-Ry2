@@ -80,3 +80,7 @@ Keep Schoology update checks Sunday, Monday and Wednesday at 4:30 PM America/Chi
 Check source-to-objective coverage from the originals, answer-key correctness, sixth-grade wording, source discrepancies, every learning stage, accessible controls, scoring, persistence, reset isolation, independent versus supported flags, incomplete attempts, miss repairs, parent reporting and retention gates. Exercise real correct, incorrect and unanswered cases. Test every subject and a small-screen view. Test narration start, pause, resume, stop, rate changes, post-answer feedback and cancellation on navigation. Report which checks were actually performed and specific remaining limitations.
 
 The source gate and runtime must agree. Pending assessments stay unavailable. An interface release is not a claim that the full curriculum or audio playback is certified.
+
+## Persistent classroom navigation preference
+
+Always resume the same signed-in Schoology tab from https://wcschools.schoology.com/home. Navigate courses and folders in that tab. Do not create another classroom tab to retry authentication. If a browser error makes the tab inaccessible, explain the specific error and have the user restore that same tab to the home link. Recheck the signed-in signal before continuing. A Google attachment sign-in is a separate source-specific blocker and does not invalidate the Schoology session.

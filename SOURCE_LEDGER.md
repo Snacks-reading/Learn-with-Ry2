@@ -20,3 +20,9 @@ One confirmed conflict was found in the old Social Studies questions. The assign
 ## Priority for the next authenticated review
 
 Read the newest newsletter, then all published folders and underlying materials in each of the five courses. Reconcile the adopted texts and original uploads. Update each objective with exact page/source evidence, correct the diagram conflict, build new teaching from the sources, and verify all five learning stages before opening assessments.
+
+## Authenticated continuation · November 6
+
+The existing classroom tab at https://wcschools.schoology.com/home was reused after the user signed in. Schoology positively showed the signed-in classroom account. The Social Studies root, Egypt folder, hieroglyphics reading and cartouche assignment pages were read. The unit test event confirms November 13 and provides no added scope. Course calendar listings show writing due November 11, Flocabulary November 12, notebook check November 13 and major project December 2. These date-only entries have no invented due time.
+
+The ELA root, Animal Allies folder and Hachiko folder were opened. Current materials now include Hachiko and the Fish Article review of RI.CS.5, RI.CS.6, RI.KID.2 and RI.KID.3. This is not a completed ELA source-content audit. The Hachiko resource page opened, but its attachment download failed on the classroom CDN. The same browser tab landed on a chrome-error page that browser policy refuses to inspect. No bypass was attempted. Resume by restoring that exact classroom tab to Schoology home. The Make a Mummy link separately requires classroom Google sign-in. Math, Science and Theater underlying source audits remain outstanding in this continuation.
