@@ -1,47 +1,56 @@
 {
   "resetId": "2026-11-06",
-  "status": "blocked-instructional-release",
+  "status": "partial-source-bounded-release",
   "interfaceRelease": "allowed",
   "scores": "fresh namespace; no imported scores",
-  "reviewedScope": "Existing curriculum and source-register audit; current full classroom census incomplete",
+  "reviewedScope": "Five focused ELA/Math lessons; partial classroom census and recovered Egypt sources. No complete course assessment certification.",
   "subjects": {
     "ELA": {
-      "status": "three-source-bounded-lessons-released; wider-unit-review-pending",
+      "status": "four-source-bounded-lessons-released; wider-unit-review-pending",
       "assessmentEnabled": false,
       "verifiedStandaloneLessons": [
         "ela_hachiko_prereading_20261106",
         "ela_hachiko_story_20261106",
         "ela_sofi_review_20261106",
         "ela_explanatory_writing_20261106"
-      ]
+      ],
+      "blocker": "Assigned dog video, exact new spiral, remaining assigned text and full-course source/standards reconciliation."
     },
     "MATH": {
       "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
       "assessmentEnabled": false,
       "verifiedStandaloneLessons": [
         "math_expression_vocabulary_20261106"
-      ]
+      ],
+      "blocker": "Six vocabulary terms covered; full expressions quiz, Big 8 work and assigned textbook examples remain to be reconciled."
     },
     "SCI": {
       "status": "awaiting-source-reconciliation",
       "assessmentEnabled": false,
       "nextAssessment": "2026-11-10",
-      "blocker": "Reconcile exact 33–34 teacher terms and all three assigned STEMscopes readings."
+      "blocker": "Reconcile exact 33–34 teacher terms and all three assigned STEMscopes readings.",
+      "verifiedStandaloneLessons": []
     },
     "SS": {
       "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false
+      "assessmentEnabled": false,
+      "blocker": "Exact vocabulary and three uploaded handouts recovered; OER reviewed only on pages 1 and 15–17 in this reconciliation. Remaining OER pages, maps, slides, language handout and media still require review.",
+      "verifiedStandaloneLessons": []
     },
     "THEATER": {
       "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false
+      "assessmentEnabled": false,
+      "blocker": "Teacher slides, project directions and current assigned scope remain unreviewed.",
+      "verifiedStandaloneLessons": []
     }
   },
   "blockingSources": [
-    "Current authenticated Schoology folders and assignments in all five courses",
-    "Latest newsletter and assignment changes",
-    "Assigned textbook pages and linked media not recovered in full",
-    "Theatre teacher slides and exact project directions"
+    "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
+    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
+    "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
+    "Read the exact Science 33–34 terms and all three STEMscopes readings.",
+    "Recover Theater slides and project directions.",
+    "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
   ],
   "conflicts": [
     {
@@ -51,5 +60,22 @@
     }
   ],
   "sourceRegister": "rebuild/catalog.json",
-  "governance": "GOVERNANCE.md"
+  "governance": "GOVERNANCE.md",
+  "capabilities": {
+    "sameDeviceResults": true,
+    "crossDeviceSync": false,
+    "parentNarrationSharesReadyTeaching": true,
+    "phoneAudioVerified": false,
+    "freshMissRepairRounds": false,
+    "retentionDaysReleased": [
+      1
+    ],
+    "retentionDaysPending": [
+      3,
+      7,
+      14,
+      30
+    ],
+    "completeCourseAssessmentsReleased": false
+  }
 }

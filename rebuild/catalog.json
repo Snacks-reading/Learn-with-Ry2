@@ -1,6 +1,6 @@
 {
   "resetId": "2026-11-06",
-  "status": "source-review",
+  "status": "partial-source-bounded-release",
   "order": [
     "teacher uploads and newsletter",
     "Schoology assignments and references",
@@ -68,7 +68,15 @@
             "I asked proudly."
           ],
           "answer": 0,
-          "rationale": "Timidly describes speaking in a shy or nervous way."
+          "rationale": "Timidly describes speaking in a shy or nervous way.",
+          "id": "ela_hachiko_prereading_20261106:guided:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which statement is a concrete detail from the assigned excerpt?",
@@ -79,7 +87,15 @@
             "Hachiko understands train schedules."
           ],
           "answer": 2,
-          "rationale": "Walking to the station in the morning is an action the excerpt actually states."
+          "rationale": "Walking to the station in the morning is an action the excerpt actually states.",
+          "id": "ela_hachiko_prereading_20261106:guided:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which step explains why evidence supports an inference?",
@@ -90,7 +106,15 @@
             "Repeat the opinion without a reason."
           ],
           "answer": 1,
-          "rationale": "An explanation connects what the text says to the conclusion you draw."
+          "rationale": "An explanation connects what the text says to the conclusion you draw.",
+          "id": "ela_hachiko_prereading_20261106:guided:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "independent": [
@@ -103,7 +127,15 @@
             "Record their own views and give reasons."
           ],
           "answer": 3,
-          "rationale": "The anticipation guide asks for an honest view that can be revisited after reading."
+          "rationale": "The anticipation guide asks for an honest view that can be revisited after reading.",
+          "id": "ela_hachiko_prereading_20261106:independent:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Nora approaches an unfamiliar dog. She speaks timidly and stays near her mother. Which meaning best fits timidly?",
@@ -114,7 +146,15 @@
             "Cheerfully and noisily"
           ],
           "answer": 1,
-          "rationale": "Speaking shyly and cautiously fits the surrounding actions."
+          "rationale": "Speaking shyly and cautiously fits the surrounding actions.",
+          "id": "ela_hachiko_prereading_20261106:independent:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Each day a dog carries its leash to the door when its owner puts on walking shoes. Which inference has the strongest support?",
@@ -125,7 +165,15 @@
             "The shoes belong to a neighbor."
           ],
           "answer": 0,
-          "rationale": "The repeated leash-and-shoes routine supports an expectation of a walk."
+          "rationale": "The repeated leash-and-shoes routine supports an expectation of a walk.",
+          "id": "ela_hachiko_prereading_20261106:independent:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "assessment": [
@@ -138,7 +186,15 @@
             "They identify the author’s only possible message."
           ],
           "answer": 2,
-          "rationale": "The guide helps readers notice and reconsider their beliefs."
+          "rationale": "The guide helps readers notice and reconsider their beliefs.",
+          "id": "ela_hachiko_prereading_20261106:assessment:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which inference is best supported by Hachiko’s repeated visits to the station?",
@@ -149,7 +205,15 @@
             "He has forgotten the way home."
           ],
           "answer": 1,
-          "rationale": "The excerpt directly links the station trip to the routine he had with Dr. Ueno."
+          "rationale": "The excerpt directly links the station trip to the routine he had with Dr. Ueno.",
+          "id": "ela_hachiko_prereading_20261106:assessment:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which sentence best explains why Hachiko’s daily station trip supports an inference about attachment?",
@@ -160,7 +224,15 @@
             "Repeating a trip he made with Dr. Ueno suggests the routine remains important to him."
           ],
           "answer": 3,
-          "rationale": "The explanation connects the repeated action and its association with Dr. Ueno to the inference."
+          "rationale": "The explanation connects the repeated action and its association with Dr. Ueno to the inference.",
+          "id": "ela_hachiko_prereading_20261106:assessment:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "retention": [
@@ -173,7 +245,15 @@
             "Both are guesses about events not mentioned."
           ],
           "answer": 0,
-          "rationale": "Details provide the evidence that makes an inference reasonable."
+          "rationale": "Details provide the evidence that makes an inference reasonable.",
+          "id": "ela_hachiko_prereading_20261106:retention:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Leila answered timidly before a large audience. Which action would fit that description?",
@@ -184,7 +264,15 @@
             "She laughed loudly and took a bow."
           ],
           "answer": 2,
-          "rationale": "Hesitating and speaking softly fit nervous or shy behavior."
+          "rationale": "Hesitating and speaking softly fit nervous or shy behavior.",
+          "id": "ela_hachiko_prereading_20261106:retention:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A reader changes an anticipation-guide response after finding strong evidence in the story. What does that show?",
@@ -195,7 +283,15 @@
             "All classmates must now agree."
           ],
           "answer": 1,
-          "rationale": "Reconsidering a belief in light of evidence is a useful reading habit."
+          "rationale": "Reconsidering a belief in light of evidence is a useful reading habit.",
+          "id": "ela_hachiko_prereading_20261106:retention:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-prereading-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "sources": [
@@ -222,7 +318,9 @@
         "What I infer or conclude",
         "Supporting detail",
         "Why the detail supports the conclusion"
-      ]
+      ],
+      "assessmentScope": "Focused lesson check, not a complete course exam",
+      "parentAudioRoute": "#listen/ela_hachiko_prereading_20261106"
     },
     {
       "id": "fresh_ela_goodall_craft",
@@ -1616,7 +1714,15 @@
             "He tells the dog to leave."
           ],
           "answer": 0,
-          "rationale": "Stepping behind his mother supports shyness or fear."
+          "rationale": "Stepping behind his mother supports shyness or fear.",
+          "id": "ela_hachiko_story_20261106:guided:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which meaning fits anxiously when Kentaro asks what is wrong with Papa?",
@@ -1627,7 +1733,15 @@
             "Without complaint"
           ],
           "answer": 1,
-          "rationale": "He senses something is wrong, so worried fits his question."
+          "rationale": "He senses something is wrong, so worried fits his question.",
+          "id": "ela_hachiko_story_20261106:guided:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which meaning fits patiently waiting?",
@@ -1638,7 +1752,15 @@
             "Waiting without being noticed"
           ],
           "answer": 2,
-          "rationale": "Patiently describes calm endurance of delay or difficulty."
+          "rationale": "Patiently describes calm endurance of delay or difficulty.",
+          "id": "ela_hachiko_story_20261106:guided:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which meaning fits Mr. Kobayashi answering thoughtfully?",
@@ -1649,7 +1771,15 @@
             "Answering with careful consideration"
           ],
           "answer": 3,
-          "rationale": "He considers possible explanations rather than claiming certainty."
+          "rationale": "He considers possible explanations rather than claiming certainty.",
+          "id": "ela_hachiko_story_20261106:guided:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which meaning fits Papa sitting silently at the table?",
@@ -1660,7 +1790,15 @@
             "With excitement"
           ],
           "answer": 0,
-          "rationale": "Silently describes the absence of noise."
+          "rationale": "Silently describes the absence of noise.",
+          "id": "ela_hachiko_story_20261106:guided:5",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Why compare Kentaro’s early fear with his later visits to Hachiko?",
@@ -1671,7 +1809,15 @@
             "To identify the author of the story"
           ],
           "answer": 1,
-          "rationale": "His actions shift from hiding to seeking the dog’s company."
+          "rationale": "His actions shift from hiding to seeking the dog’s company.",
+          "id": "ela_hachiko_story_20261106:guided:6",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "independent": [
@@ -1684,7 +1830,15 @@
             "What every other person thinks"
           ],
           "answer": 2,
-          "rationale": "A first-person narrator can describe observations, while interpreting someone else’s thoughts requires inference."
+          "rationale": "A first-person narrator can describe observations, while interpreting someone else’s thoughts requires inference.",
+          "id": "ela_hachiko_story_20261106:independent:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A story shows a child first hiding from a pet, then later bringing it water. Which idea can the comparison support?",
@@ -1695,7 +1849,15 @@
             "The child becomes more comfortable and caring"
           ],
           "answer": 3,
-          "rationale": "The contrast in actions supports a change in the relationship."
+          "rationale": "The contrast in actions supports a change in the relationship.",
+          "id": "ela_hachiko_story_20261106:independent:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which choice belongs in an objective summary?",
@@ -1706,7 +1868,15 @@
             "A prediction presented as a fact"
           ],
           "answer": 0,
-          "rationale": "A summary selects central events and relationships without adding personal opinion."
+          "rationale": "A summary selects central events and relationships without adding personal opinion.",
+          "id": "ela_hachiko_story_20261106:independent:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "assessment": [
@@ -1719,7 +1889,15 @@
             "He sees him alone in a forest."
           ],
           "answer": 1,
-          "rationale": "The opening brings Kentaro and Mama to Shibuya Station to meet Papa."
+          "rationale": "The opening brings Kentaro and Mama to Shibuya Station to meet Papa.",
+          "id": "ela_hachiko_story_20261106:assessment:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which pair best supports the contrast between Dr. Ueno and Hachiko near the start?",
@@ -1730,7 +1908,15 @@
             "Dr. Ueno lives at the station, while Hachiko lives at school."
           ],
           "answer": 2,
-          "rationale": "The age descriptions help prepare the story’s later situation."
+          "rationale": "The age descriptions help prepare the story’s later situation.",
+          "id": "ela_hachiko_story_20261106:assessment:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which event changes the situation for Hachiko?",
@@ -1741,7 +1927,15 @@
             "Dr. Ueno dies."
           ],
           "answer": 3,
-          "rationale": "The dog continues waiting after Dr. Ueno can no longer return."
+          "rationale": "The dog continues waiting after Dr. Ueno can no longer return.",
+          "id": "ela_hachiko_story_20261106:assessment:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What does the community’s care for Hachiko help show?",
@@ -1752,7 +1946,15 @@
             "People believe he can operate trains."
           ],
           "answer": 0,
-          "rationale": "Food, water, attention and the statue show a wider community response."
+          "rationale": "Food, water, attention and the statue show a wider community response.",
+          "id": "ela_hachiko_story_20261106:assessment:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "According to the ending, what do people say when arranging to meet at the station?",
@@ -1763,7 +1965,15 @@
             "Find Kentaro’s house."
           ],
           "answer": 1,
-          "rationale": "The statue’s name becomes a familiar meeting point."
+          "rationale": "The statue’s name becomes a familiar meeting point.",
+          "id": "ela_hachiko_story_20261106:assessment:5",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which conclusion respects the uncertainty in Mr. Kobayashi’s explanation?",
@@ -1774,7 +1984,15 @@
             "He claims the dog is waiting for a different person."
           ],
           "answer": 2,
-          "rationale": "Possible explanations do not give certain access to Hachiko’s thoughts."
+          "rationale": "Possible explanations do not give certain access to Hachiko’s thoughts.",
+          "id": "ela_hachiko_story_20261106:assessment:6",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "retention": [
@@ -1787,7 +2005,15 @@
             "It connects meetings with Hachiko to later reunions near his statue."
           ],
           "answer": 3,
-          "rationale": "The setting links the dog’s relationships with the community’s continuing remembrance."
+          "rationale": "The setting links the dog’s relationships with the community’s continuing remembrance.",
+          "id": "ela_hachiko_story_20261106:retention:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which detail best supports a claim that Kentaro cares for Hachiko?",
@@ -1798,7 +2024,15 @@
             "He sees a newspaper stand."
           ],
           "answer": 0,
-          "rationale": "Providing food and water is a direct caring action."
+          "rationale": "Providing food and water is a direct caring action.",
+          "id": "ela_hachiko_story_20261106:retention:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A reader calls every line of dialogue in historical fiction a verified quotation. What should the reader reconsider?",
@@ -1809,7 +2043,15 @@
             "Whether the author uses punctuation"
           ],
           "answer": 1,
-          "rationale": "Historical fiction can combine historical facts with imagined storytelling."
+          "rationale": "Historical fiction can combine historical facts with imagined storytelling.",
+          "id": "ela_hachiko_story_20261106:retention:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "hachiko-story-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "sources": [
@@ -1860,7 +2102,9 @@
         "What I infer or conclude",
         "Supporting detail",
         "Why the detail supports the conclusion"
-      ]
+      ],
+      "assessmentScope": "Focused lesson check, not a complete course exam",
+      "parentAudioRoute": "#listen/ela_hachiko_story_20261106"
     },
     {
       "id": "ela_sofi_review_20261106",
@@ -1914,7 +2158,15 @@
             "Every ocean mystery has already been solved."
           ],
           "answer": 1,
-          "rationale": "This combines the purpose, design and continuing work developed throughout the article."
+          "rationale": "This combines the purpose, design and continuing work developed throughout the article.",
+          "id": "ela_sofi_review_20261106:guided:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which purpose best fits the article?",
@@ -1925,7 +2177,15 @@
             "Give instructions for building SoFi at home"
           ],
           "answer": 2,
-          "rationale": "Explanations, reported findings and expert comments support an informational purpose."
+          "rationale": "Explanations, reported findings and expert comments support an informational purpose.",
+          "id": "ela_sofi_review_20261106:guided:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which section would best explain how the tail helps SoFi move?",
@@ -1936,7 +2196,15 @@
             "A Rubber Tail And A Fisheye Lens"
           ],
           "answer": 3,
-          "rationale": "That section connects physical features with their functions."
+          "rationale": "That section connects physical features with their functions.",
+          "id": "ela_sofi_review_20261106:guided:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "The article first describes difficulty controlling a robot underwater, then sound signals used to control it. What connection is this?",
@@ -1947,7 +2215,15 @@
             "An event and an unrelated definition"
           ],
           "answer": 0,
-          "rationale": "The signals address the communication problem."
+          "rationale": "The signals address the communication problem.",
+          "id": "ela_sofi_review_20261106:guided:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "independent": [
@@ -1960,7 +2236,15 @@
             "The camera is the best product available."
           ],
           "answer": 1,
-          "rationale": "The statement connects the tool’s purpose, strengths and limitations."
+          "rationale": "The statement connects the tool’s purpose, strengths and limitations.",
+          "id": "ela_sofi_review_20261106:independent:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which sentence belongs in an objective summary of a technology article?",
@@ -1971,7 +2255,15 @@
             "My favorite part is the photograph."
           ],
           "answer": 2,
-          "rationale": "The sentence summarizes information without a personal judgment."
+          "rationale": "The sentence summarizes information without a personal judgment.",
+          "id": "ela_sofi_review_20261106:independent:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A paragraph explains that a sensor overheats, followed by a paragraph describing a cooling system. What does the second paragraph do?",
@@ -1982,7 +2274,15 @@
             "Explain a solution to the earlier problem"
           ],
           "answer": 3,
-          "rationale": "The cooling system addresses overheating."
+          "rationale": "The cooling system addresses overheating.",
+          "id": "ela_sofi_review_20261106:independent:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "assessment": [
@@ -1995,7 +2295,15 @@
             "It removes the need to test the robot."
           ],
           "answer": 0,
-          "rationale": "The design is connected to observing natural behavior with less disturbance."
+          "rationale": "The design is connected to observing natural behavior with less disturbance.",
+          "id": "ela_sofi_review_20261106:assessment:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which statement describes a goal discussed for future SoFi versions?",
@@ -2006,7 +2314,15 @@
             "The robot currently records underwater video."
           ],
           "answer": 1,
-          "rationale": "Recognizing and following particular animals is presented as a possible future capability."
+          "rationale": "Recognizing and following particular animals is presented as a possible future capability.",
+          "id": "ela_sofi_review_20261106:assessment:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What is the main role of the final section’s outside scientists?",
@@ -2017,7 +2333,15 @@
             "Claim that all future goals are already achieved"
           ],
           "answer": 2,
-          "rationale": "Their comments support the potential while noting the need for longer or deeper operation."
+          "rationale": "Their comments support the potential while noting the need for longer or deeper operation.",
+          "id": "ela_sofi_review_20261106:assessment:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which detail best supports the idea that underwater engineering creates special challenges?",
@@ -2028,7 +2352,15 @@
             "Electronics must be protected from water, and ordinary land-robot communication methods do not work underwater."
           ],
           "answer": 3,
-          "rationale": "These are conditions engineers must address to operate the robot underwater."
+          "rationale": "These are conditions engineers must address to operate the robot underwater.",
+          "id": "ela_sofi_review_20261106:assessment:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which choice best describes the organization of Designing SoFi Was Not Easy?",
@@ -2039,7 +2371,15 @@
             "It gives a step-by-step recipe readers should follow."
           ],
           "answer": 0,
-          "rationale": "The section links design challenges with solutions."
+          "rationale": "The section links design challenges with solutions.",
+          "id": "ela_sofi_review_20261106:assessment:5",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which summary best represents the whole article?",
@@ -2050,7 +2390,15 @@
             "SoFi is a toy built for children who like video games."
           ],
           "answer": 1,
-          "rationale": "This includes the purpose and the main lines of support without overstating the findings."
+          "rationale": "This includes the purpose and the main lines of support without overstating the findings.",
+          "id": "ela_sofi_review_20261106:assessment:6",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "retention": [
@@ -2063,7 +2411,15 @@
             "Why all paragraphs have the same job"
           ],
           "answer": 2,
-          "rationale": "Text-structure analysis explains the relationship between ideas."
+          "rationale": "Text-structure analysis explains the relationship between ideas.",
+          "id": "ela_sofi_review_20261106:retention:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Why distinguish a proposed improvement from a tested ability?",
@@ -2074,7 +2430,15 @@
             "A possibility should not be reported as something already demonstrated."
           ],
           "answer": 3,
-          "rationale": "Accurate reading preserves the difference between evidence and future plans."
+          "rationale": "Accurate reading preserves the difference between evidence and future plans.",
+          "id": "ela_sofi_review_20261106:retention:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which question helps identify an informational author’s purpose?",
@@ -2085,7 +2449,15 @@
             "Would I buy the technology?"
           ],
           "answer": 0,
-          "rationale": "Purpose connects the author’s goal with choices of content and presentation."
+          "rationale": "Purpose connects the author’s goal with choices of content and presentation.",
+          "id": "ela_sofi_review_20261106:retention:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "sofi-article-upload"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "sources": [
@@ -2106,7 +2478,9 @@
         "What I infer or conclude",
         "Supporting detail",
         "Why the detail supports the conclusion"
-      ]
+      ],
+      "assessmentScope": "Focused lesson check, not a complete course exam",
+      "parentAudioRoute": "#listen/ela_sofi_review_20261106"
     },
     {
       "id": "math_expression_vocabulary_20261106",
@@ -2160,7 +2534,16 @@
             "+"
           ],
           "answer": 1,
-          "rationale": "The symbol n represents a number."
+          "rationale": "The symbol n represents a number.",
+          "id": "math_expression_vocabulary_20261106:guided:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What is the coefficient of y in 6y + 2?",
@@ -2171,7 +2554,16 @@
             "8"
           ],
           "answer": 2,
-          "rationale": "The 6 multiplies y."
+          "rationale": "The 6 multiplies y.",
+          "id": "math_expression_vocabulary_20261106:guided:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which term is constant in 5a + 9?",
@@ -2182,7 +2574,16 @@
             "9"
           ],
           "answer": 3,
-          "rationale": "The term 9 has no variable."
+          "rationale": "The term 9 has no variable.",
+          "id": "math_expression_vocabulary_20261106:guided:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "independent": [
@@ -2195,7 +2596,16 @@
             "m and m²"
           ],
           "answer": 0,
-          "rationale": "The variable part is m in both terms."
+          "rationale": "The variable part is m in both terms.",
+          "id": "math_expression_vocabulary_20261106:independent:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "How many terms are in 2p + 8 + 3p?",
@@ -2206,7 +2616,16 @@
             "5"
           ],
           "answer": 1,
-          "rationale": "The three terms are 2p, 8 and 3p."
+          "rationale": "The three terms are 2p, 8 and 3p.",
+          "id": "math_expression_vocabulary_20261106:independent:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which expression represents three items costing c dollars each plus a fixed 4-dollar fee?",
@@ -2217,7 +2636,16 @@
             "3(c + 4)"
           ],
           "answer": 2,
-          "rationale": "Three costs of c total 3c, then the fixed fee adds 4."
+          "rationale": "Three costs of c total 3c, then the fixed fee adds 4.",
+          "id": "math_expression_vocabulary_20261106:independent:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "assessment": [
@@ -2230,7 +2658,16 @@
             "4x + 2"
           ],
           "answer": 3,
-          "rationale": "An expression represents an amount without stating an equality."
+          "rationale": "An expression represents an amount without stating an equality.",
+          "id": "math_expression_vocabulary_20261106:assessment:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which list correctly names the terms in 8b + 3 + 2b?",
@@ -2241,7 +2678,16 @@
             "13b"
           ],
           "answer": 0,
-          "rationale": "The plus signs separate three terms."
+          "rationale": "The plus signs separate three terms.",
+          "id": "math_expression_vocabulary_20261106:assessment:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "In 9t + 5, which symbol could represent an unknown number?",
@@ -2252,7 +2698,16 @@
             "+"
           ],
           "answer": 1,
-          "rationale": "The variable t represents a number."
+          "rationale": "The variable t represents a number.",
+          "id": "math_expression_vocabulary_20261106:assessment:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What is the coefficient of x in x + 12?",
@@ -2263,7 +2718,16 @@
             "13"
           ],
           "answer": 2,
-          "rationale": "One group of x is written x, with an implied coefficient of 1."
+          "rationale": "One group of x is written x, with an implied coefficient of 1.",
+          "id": "math_expression_vocabulary_20261106:assessment:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What is the constant term in 2q + 7 + 5q?",
@@ -2274,7 +2738,16 @@
             "7"
           ],
           "answer": 3,
-          "rationale": "The term 7 stands alone without a variable."
+          "rationale": "The term 7 stands alone without a variable.",
+          "id": "math_expression_vocabulary_20261106:assessment:5",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which expression is equivalent to 4z + 3z + 2?",
@@ -2285,7 +2758,16 @@
             "12z + 2"
           ],
           "answer": 0,
-          "rationale": "Combine the like variable terms and keep the constant separate."
+          "rationale": "Combine the like variable terms and keep the constant separate.",
+          "id": "math_expression_vocabulary_20261106:assessment:6",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "retention": [
@@ -2298,7 +2780,16 @@
             "All terms are like terms."
           ],
           "answer": 1,
-          "rationale": "The term h has an implied coefficient of 1."
+          "rationale": "The term h has an implied coefficient of 1.",
+          "id": "math_expression_vocabulary_20261106:retention:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which pair is not like terms?",
@@ -2309,7 +2800,16 @@
             "6 and 9"
           ],
           "answer": 2,
-          "rationale": "The variable parts a and b differ."
+          "rationale": "The variable parts a and b differ.",
+          "id": "math_expression_vocabulary_20261106:retention:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A student changes 6x + 4 into 10x. What should the student reconsider?",
@@ -2320,7 +2820,16 @@
             "The constant and the x term are not like terms."
           ],
           "answer": 3,
-          "rationale": "The 4 does not represent four groups of x."
+          "rationale": "The 4 does not represent four groups of x.",
+          "id": "math_expression_vocabulary_20261106:retention:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "openstax-algebra-2-1"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "sources": [
@@ -2335,7 +2844,8 @@
         {
           "title": "OpenStax Prealgebra 2e · Use the Language of Algebra",
           "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
-          "status": "Supplemental terminology page opened"
+          "status": "Supplemental terminology page opened",
+          "sourceId": "openstax-algebra-2-1"
         }
       ],
       "media": [],
@@ -2370,7 +2880,9 @@
         "Terms and their labels",
         "Like-term groups",
         "Reasonableness check"
-      ]
+      ],
+      "assessmentScope": "Focused lesson check, not a complete course exam",
+      "parentAudioRoute": "#listen/math_expression_vocabulary_20261106"
     },
     {
       "id": "ela_explanatory_writing_20261106",
@@ -2421,7 +2933,17 @@
             "A camera, a tail and a controller"
           ],
           "answer": 2,
-          "rationale": "The statement makes a clear point that supporting paragraphs can develop."
+          "rationale": "The statement makes a clear point that supporting paragraphs can develop.",
+          "id": "ela_explanatory_writing_20261106:guided:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which choice is a concrete detail from the article?",
@@ -2432,7 +2954,17 @@
             "A pump moves water in the soft tail to help the robot swim."
           ],
           "answer": 3,
-          "rationale": "This is a specific reported feature of the robot."
+          "rationale": "This is a specific reported feature of the robot.",
+          "id": "ela_explanatory_writing_20261106:guided:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which commentary best connects quiet movement to the research purpose?",
@@ -2443,7 +2975,17 @@
             "I like quiet places."
           ],
           "answer": 0,
-          "rationale": "The sentence explains why the feature matters for the research goal."
+          "rationale": "The sentence explains why the feature matters for the research goal.",
+          "id": "ela_explanatory_writing_20261106:guided:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "independent": [
@@ -2456,7 +2998,17 @@
             "A second introduction"
           ],
           "answer": 1,
-          "rationale": "Evidence needs an explanation of how it supports the point."
+          "rationale": "Evidence needs an explanation of how it supports the point.",
+          "id": "ela_explanatory_writing_20261106:independent:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which question best checks whether a body paragraph belongs in an essay?",
@@ -2467,7 +3019,17 @@
             "Does it repeat the introduction word for word?"
           ],
           "answer": 2,
-          "rationale": "Body paragraphs should develop the essay’s controlling idea."
+          "rationale": "Body paragraphs should develop the essay’s controlling idea.",
+          "id": "ela_explanatory_writing_20261106:independent:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which plan gives an explanatory essay a clear direction?",
@@ -2478,7 +3040,17 @@
             "A clear thesis with related supporting ideas and evidence"
           ],
           "answer": 3,
-          "rationale": "The thesis and supporting structure help readers follow the explanation."
+          "rationale": "The thesis and supporting structure help readers follow the explanation.",
+          "id": "ela_explanatory_writing_20261106:independent:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "assessment": [
@@ -2491,7 +3063,17 @@
             "Robots are interesting."
           ],
           "answer": 0,
-          "rationale": "It makes a specific explanatory point about the design."
+          "rationale": "It makes a specific explanatory point about the design.",
+          "id": "ela_explanatory_writing_20261106:assessment:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "What should an introduction do before or alongside the thesis?",
@@ -2502,7 +3084,17 @@
             "Repeat the title without explanation"
           ],
           "answer": 1,
-          "rationale": "Context prepares readers to understand the point the essay develops."
+          "rationale": "Context prepares readers to understand the point the essay develops.",
+          "id": "ela_explanatory_writing_20261106:assessment:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which pair correctly distinguishes evidence and commentary?",
@@ -2513,7 +3105,17 @@
             "Evidence predicts a new feature; commentary claims it already works."
           ],
           "answer": 2,
-          "rationale": "The reported method is the detail, and the connection to the problem is commentary."
+          "rationale": "The reported method is the detail, and the connection to the problem is commentary.",
+          "id": "ela_explanatory_writing_20261106:assessment:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "A body paragraph explains the sound-control method. Which topic sentence fits?",
@@ -2524,7 +3126,17 @@
             "SoFi’s control system addresses the difficulty of communicating underwater."
           ],
           "answer": 3,
-          "rationale": "The topic sentence identifies the supporting idea developed by the details."
+          "rationale": "The topic sentence identifies the supporting idea developed by the details.",
+          "id": "ela_explanatory_writing_20261106:assessment:4",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "retention": [
@@ -2537,7 +3149,17 @@
             "To add an unsupported claim"
           ],
           "answer": 0,
-          "rationale": "Commentary explains the significance of evidence."
+          "rationale": "Commentary explains the significance of evidence.",
+          "id": "ela_explanatory_writing_20261106:retention:1",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which statement best distinguishes topic and thesis?",
@@ -2548,7 +3170,17 @@
             "A topic contains every supporting detail."
           ],
           "answer": 1,
-          "rationale": "A thesis gives the writing a specific direction."
+          "rationale": "A thesis gives the writing a specific direction.",
+          "id": "ela_explanatory_writing_20261106:retention:2",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         },
         {
           "prompt": "Which revision strengthens an explanatory paragraph?",
@@ -2559,7 +3191,17 @@
             "Replace the evidence with a personal rating."
           ],
           "answer": 2,
-          "rationale": "A clear explanation makes the relationship between evidence and point visible."
+          "rationale": "A clear explanation makes the relationship between evidence and point visible.",
+          "id": "ela_explanatory_writing_20261106:retention:3",
+          "provenance": {
+            "type": "original-source-aligned-adaptation",
+            "sourceIds": [
+              "newsletter-2026-11-06",
+              "sofi-article-upload",
+              "purdue-expository"
+            ],
+            "teacherTestMatch": "not-established"
+          }
         }
       ],
       "sources": [
@@ -2584,7 +3226,8 @@
         {
           "title": "Purdue OWL · Expository Essays",
           "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/expository_essays.html",
-          "status": "Supplemental structure page read"
+          "status": "Supplemental structure page read",
+          "sourceId": "purdue-expository"
         }
       ],
       "media": [],
@@ -2593,7 +3236,9 @@
         "Supporting idea",
         "Concrete detail",
         "Commentary"
-      ]
+      ],
+      "assessmentScope": "Focused lesson check, not a complete course exam",
+      "parentAudioRoute": "#listen/ela_explanatory_writing_20261106"
     }
   ],
   "sources": [
@@ -2613,7 +3258,8 @@
       "reviewStatus": "requires-classroom-session",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-1"
     },
     {
       "title": "Dr. Jane Goodall’s Thoughts for First World Chimpanzee Day",
@@ -2630,7 +3276,8 @@
       "priorStatus": "Content reviewed",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-2"
     },
     {
       "title": "What separates us from chimpanzees? — selected tool-making segment",
@@ -2647,10 +3294,11 @@
       "priorStatus": "Transcript reviewed; playback not verified",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-3"
     },
     {
-      "title": "Actual assigned Savvas My Life with the Chimpanzees excerpt, 61 paragraphs, pp101–110; fully read for this lesson",
+      "title": "Assigned Savvas My Life with the Chimpanzees · 61 paragraphs, pages 101–110",
       "url": "/api/reading/goodall",
       "subjects": [
         "ELA"
@@ -2661,7 +3309,9 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-4",
+      "priorTitle": "Actual assigned Savvas My Life with the Chimpanzees excerpt, 61 paragraphs, pp101–110; fully read for this lesson"
     },
     {
       "title": "Exact teacher Goodall study guide — eight checklist targets",
@@ -2675,7 +3325,8 @@
       "priorStatus": "Complete live guide read and compared with parent-supplied screenshot",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-5"
     },
     {
       "title": "Teacher newsletter Big8 list",
@@ -2689,7 +3340,8 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-6"
     },
     {
       "title": "Decimals, Fractions and Percentages",
@@ -2705,7 +3357,8 @@
       "priorStatus": "Content reviewed",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-7"
     },
     {
       "title": "October30 sixth-grade newsletter",
@@ -2722,7 +3375,8 @@
       "reviewStatus": "requires-classroom-session",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-8"
     },
     {
       "title": "Sixth-grade Math Expressions class notes and vocabulary",
@@ -2736,7 +3390,8 @@
       "priorStatus": "referenced-only",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-9"
     },
     {
       "title": "OpenStax Prealgebra2e §2.1",
@@ -2745,12 +3400,14 @@
         "MATH"
       ],
       "lessons": [
-        "fresh_math_expressions"
+        "fresh_math_expressions",
+        "math_expression_vocabulary_20261106"
       ],
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "openstax-algebra-2-1"
     },
     {
       "title": "OpenStax Prealgebra2e §2.2",
@@ -2764,7 +3421,8 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-11"
     },
     {
       "title": "Expression Exchange — Basics",
@@ -2778,10 +3436,11 @@
       "priorStatus": "Content reviewed",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-12"
     },
     {
-      "title": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1",
+      "title": "Problem Solving Practice 12 · two-page classroom worksheet",
       "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
       "subjects": [
         "MATH"
@@ -2793,10 +3452,12 @@
       "reviewStatus": "requires-classroom-session",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-13",
+      "priorTitle": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1"
     },
     {
-      "title": "Teacher Ecology StudyMate — all33 definitions freshly verified",
+      "title": "Teacher Ecology StudyMate · previously recorded 33 definitions",
       "url": "https://studymate.com/?id=3hVVRNWNm",
       "subjects": [
         "SCI"
@@ -2811,7 +3472,9 @@
       "priorStatus": "complete current teacher term list; original accurate paraphrases here",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-14",
+      "priorTitle": "Teacher Ecology StudyMate — all33 definitions freshly verified"
     },
     {
       "title": "Interactions guided notes supplied by parent",
@@ -2829,7 +3492,8 @@
       "priorStatus": "partial packet; scientific corrections disclosed",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-15"
     },
     {
       "title": "Matter and energy in food webs",
@@ -2850,7 +3514,8 @@
       "priorStatus": "Transcript reviewed; playback not verified",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-16"
     },
     {
       "title": "Spinning a Food Web",
@@ -2871,7 +3536,8 @@
       "priorStatus": "Content reviewed",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-17"
     },
     {
       "title": "Uploaded Interactions/food-web/ecosystem guided-note pages",
@@ -2887,7 +3553,8 @@
       "priorStatus": "partial",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-18"
     },
     {
       "title": "Ecology Study Mate",
@@ -2901,7 +3568,8 @@
       "priorStatus": "partial",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-19"
     },
     {
       "title": "OpenStax Biology2e §45.6 Community Ecology",
@@ -2915,7 +3583,8 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-20"
     },
     {
       "title": "OpenStax Biology2e §45.3 Environmental Limits",
@@ -2929,7 +3598,8 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-21"
     },
     {
       "title": "Teacher-assigned WCS Ancient Egypt OER",
@@ -2953,10 +3623,19 @@
         "ss_verified_writing_trade"
       ],
       "priorStatus": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed",
-      "reviewStatus": "requires-classroom-session",
+      "reviewStatus": "uploaded-copy-recovered-partial-review-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-22",
+      "reviewDate": "2026-11-06",
+      "reviewedPages": [
+        1,
+        15,
+        16,
+        17
+      ],
+      "notes": "51-page uploaded WCS OER recovered. Pages 1 and 15–17 read; page 15 social-pyramid diagram visually inspected. Remaining pages require review. This source no longer depends on a Schoology download."
     },
     {
       "title": "Tomb of Tutankhamun — Egyptian Ministry of Tourism and Antiquities",
@@ -2970,7 +3649,8 @@
       "priorStatus": "Primary-source factual cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-23"
     },
     {
       "title": "Who Done It? Ancient Egyptian Society",
@@ -2983,10 +3663,21 @@
         "ss_verified_religion_soldiers"
       ],
       "priorStatus": "All six pages visually read; fictional mystery events are not historical facts",
-      "reviewStatus": "requires-classroom-session",
-      "contentRead": false,
+      "reviewStatus": "all-six-uploaded-pages-read-2026-11-06",
+      "contentRead": true,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-24",
+      "reviewDate": "2026-11-06",
+      "reviewedPages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ],
+      "notes": "OCR read and page images inspected: fictional activity directions plus 10 society questions. No publisher answer key supplied. Mystery story is not historical evidence. Exact test reuse is not claimed."
     },
     {
       "title": "Second Intermediate Period — UCL Digital Egypt",
@@ -3000,7 +3691,8 @@
       "priorStatus": "Primary-source factual cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-25"
     },
     {
       "title": "Seated Statue of Hatshepsut — The Metropolitan Museum of Art",
@@ -3009,13 +3701,13 @@
         "SS"
       ],
       "lessons": [
-        "ss_verified_new_rulers",
         "ss_verified_new_rulers"
       ],
       "priorStatus": "Primary-source factual cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-26"
     },
     {
       "title": "Ancient Egyptian Society Social Pyramid",
@@ -3030,7 +3722,8 @@
       "reviewStatus": "requires-classroom-session",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-27"
     },
     {
       "title": "Social Classes Instructions",
@@ -3045,7 +3738,8 @@
       "reviewStatus": "requires-classroom-session",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-28"
     },
     {
       "title": "The Two Lands of Ancient Egypt",
@@ -3057,10 +3751,17 @@
         "ss_verified_two_lands"
       ],
       "priorStatus": "Both pages visually read; worksheet’s Black/Red Land generalization is not used as a key",
-      "reviewStatus": "requires-classroom-session",
-      "contentRead": false,
+      "reviewStatus": "both-uploaded-pages-read-2026-11-06",
+      "contentRead": true,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-29",
+      "reviewDate": "2026-11-06",
+      "reviewedPages": [
+        1,
+        2
+      ],
+      "notes": "Reading and all three teacher questions read via OCR and page images: Upper Egypt location, Nile importance and Menes unification. Black/Red Land wording is geographically simplified and needs clarification alongside the OER before testing."
     },
     {
       "title": "Narmer Palette — Egyptian Ministry of Tourism and Antiquities",
@@ -3074,7 +3775,8 @@
       "priorStatus": "Primary-source factual cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-30"
     },
     {
       "title": "Rosetta Stone documentation — British Museum Digital Humanities",
@@ -3088,7 +3790,8 @@
       "priorStatus": "Primary institutional documentation; three-script fact cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-31"
     },
     {
       "title": "Pyramid Complex of Khafre — Egyptian Ministry of Tourism and Antiquities",
@@ -3097,13 +3800,13 @@
         "SS"
       ],
       "lessons": [
-        "ss_verified_writing_trade",
         "ss_verified_writing_trade"
       ],
       "priorStatus": "Primary-source factual cross-check",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-32"
     },
     {
       "title": "Focused Reading and Viewing Guide",
@@ -3116,7 +3819,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-33"
     },
     {
       "title": "Number Line: Integers",
@@ -3129,7 +3833,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-34"
     },
     {
       "title": "Creating Chains and Webs to Model Ecological Relationships",
@@ -3142,7 +3847,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-35"
     },
     {
       "title": "Wolf Sheep Predation",
@@ -3155,7 +3861,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-36"
     },
     {
       "title": "Study Guide for Ancient Israel Test",
@@ -3167,7 +3874,8 @@
       "priorStatus": "complete",
       "reviewStatus": "not-rechecked",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-37"
     },
     {
       "title": "Coordinate Plane Song: 4 Quadrant Version",
@@ -3180,7 +3888,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-38"
     },
     {
       "title": "11.1 Use the Rectangular Coordinate System",
@@ -3193,7 +3902,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-39"
     },
     {
       "title": "Biosphere",
@@ -3206,7 +3916,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-40"
     },
     {
       "title": "55 Years at Gombe: Q&A with Jane on Origins of Life Work",
@@ -3219,7 +3930,8 @@
       "reviewStatus": "page-opened-2026-11-06",
       "contentRead": false,
       "playbackChecked": false,
-      "checkedAt": "2026-11-06"
+      "checkedAt": "2026-11-06",
+      "id": "source-41"
     },
     {
       "title": "LearnBPS Egypt",
@@ -3230,7 +3942,8 @@
       "lessons": [],
       "reviewStatus": "not-content-verified",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-42"
     },
     {
       "title": "Make a Mummy classroom slides",
@@ -3241,7 +3954,8 @@
       "lessons": [],
       "reviewStatus": "not-content-verified",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-43"
     },
     {
       "title": "Tennessee academic standards",
@@ -3252,7 +3966,8 @@
       "lessons": [],
       "reviewStatus": "not-content-verified",
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-44"
     },
     {
       "subject": "SS",
@@ -3266,21 +3981,24 @@
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-45"
     },
     {
       "subject": "SS",
       "title": "Hieroglyphics Reading",
       "url": "https://wcschools.schoology.com/assignment/8636589263",
-      "reviewStatus": "assignment-directions-read-2026-11-06",
-      "contentRead": false,
-      "notes": "Teacher says this was read in class to learn about writing. Posted November 4. Attached Hieroglyphics PDF still needs current download review.",
+      "reviewStatus": "assignment-directions-and-uploaded-handout-read-2026-11-06",
+      "contentRead": true,
+      "notes": "One-page Hieroglyphics & Hieratic Script handout OCR-read and visually inspected. Sounds/whole words, hieratic efficiency, scribes, papyrus and Rosetta Stone covered. Terminology simplifications (alphabet and demotic as a type of hieratic) require correction rather than uncritical copying.",
       "subjects": [
         "SS"
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-46",
+      "reviewDate": "2026-11-06"
     },
     {
       "subject": "SS",
@@ -3294,7 +4012,8 @@
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-47"
     },
     {
       "subject": "SS",
@@ -3308,7 +4027,8 @@
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-48"
     },
     {
       "subject": "ELA",
@@ -3322,7 +4042,8 @@
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-49"
     },
     {
       "subject": "ELA",
@@ -3336,7 +4057,8 @@
       ],
       "lessons": [],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-50"
     },
     {
       "subject": "ELA",
@@ -3348,9 +4070,13 @@
       "subjects": [
         "ELA"
       ],
-      "lessons": [],
+      "lessons": [
+        "ela_hachiko_story_20261106"
+      ],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "hachiko-story-upload",
+      "reviewDate": "2026-11-06"
     },
     {
       "subject": "ELA",
@@ -3362,9 +4088,14 @@
       "subjects": [
         "ELA"
       ],
-      "lessons": [],
+      "lessons": [
+        "ela_sofi_review_20261106",
+        "ela_explanatory_writing_20261106"
+      ],
       "checkedAt": "2026-11-06",
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "sofi-article-upload",
+      "reviewDate": "2026-11-06"
     },
     {
       "title": "University of Colorado Boulder · Hachikō: A Loyal Dog",
@@ -3376,7 +4107,8 @@
       ],
       "lessons": [],
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-53"
     },
     {
       "title": "NPR/North Country Public Radio · Hachiko excerpt",
@@ -3388,7 +4120,8 @@
       ],
       "lessons": [],
       "contentRead": false,
-      "playbackChecked": false
+      "playbackChecked": false,
+      "id": "source-54"
     },
     {
       "title": "Hachiko Anticipation Guide · uploaded two-page classroom handout",
@@ -3402,7 +4135,9 @@
       "reviewStatus": "complete-content-read-2026-11-06",
       "contentRead": true,
       "playbackChecked": false,
-      "notes": "Seven agreement ratings, a 4–5-sentence opinion response, timidly in context, and an inference-detail-explanation task. Standalone prereading scope only."
+      "notes": "Seven agreement ratings, a 4–5-sentence opinion response, timidly in context, and an inference-detail-explanation task. Standalone prereading scope only.",
+      "id": "hachiko-prereading-upload",
+      "reviewDate": "2026-11-06"
     },
     {
       "title": "November 6 teacher newsletter",
@@ -3422,7 +4157,37 @@
       "reviewStatus": "all-three-pages-read-2026-11-06",
       "contentRead": true,
       "playbackChecked": false,
-      "notes": "Controls next-week priority. Use regular Grade 6 math, not the separate Blend or seventh-grade sections. Science term total is 33–34; exact list must be reconciled."
+      "notes": "Controls next-week priority. Use regular Grade 6 math, not the separate Blend or seventh-grade sections. Science term total is 33–34; exact list must be reconciled.",
+      "id": "newsletter-2026-11-06",
+      "reviewDate": "2026-11-06"
+    },
+    {
+      "id": "egypt-vocabulary-upload",
+      "title": "Key Vocabulary Ancient Egypt · teacher handout",
+      "url": "",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [],
+      "reviewStatus": "both-uploaded-pages-read-2026-11-06",
+      "contentRead": true,
+      "playbackChecked": false,
+      "reviewDate": "2026-11-06",
+      "notes": "Exact 24-term list recovered from both uploaded pages. The handout supplies terms, not definitions. Prior generated vocabulary lists are not substitutes."
+    },
+    {
+      "id": "purdue-expository",
+      "title": "Purdue OWL · Expository Essays",
+      "url": "https://owl.purdue.edu/owl/general_writing/academic_writing/essay_writing/expository_essays.html",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "ela_explanatory_writing_20261106"
+      ],
+      "reviewStatus": "supplemental-page-read-2026-11-06",
+      "contentRead": true,
+      "playbackChecked": false
     }
   ],
   "conflicts": [
@@ -3433,10 +4198,12 @@
     }
   ],
   "blockingSources": [
-    "Current authenticated Schoology folders and assignments in all five courses",
-    "Latest newsletter and assignment changes",
-    "Assigned textbook pages and linked media not recovered in full",
-    "Theatre teacher slides and exact project directions"
+    "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
+    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
+    "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
+    "Read the exact Science 33–34 terms and all three STEMscopes readings.",
+    "Recover Theater slides and project directions.",
+    "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
   ],
   "classroomSession": {
     "canonicalUrl": "https://wcschools.schoology.com/home",
@@ -3529,5 +4296,50 @@
       "title": "Veterans Day assembly",
       "detail": "The newsletter encourages students to dress nicely."
     }
-  ]
+  ],
+  "reconciledAt": "2026-11-06",
+  "recoveredTeacherRequirements": {
+    "egyptVocabulary": {
+      "sourceId": "egypt-vocabulary-upload",
+      "terms": [
+        "Cataracts",
+        "Delta",
+        "Classes",
+        "Occupation",
+        "Pharaohs",
+        "Bureaucracy",
+        "Afterlife",
+        "Mummy",
+        "Mummification",
+        "Pyramids",
+        "Artifacts",
+        "hieroglyphics",
+        "papyrus",
+        "Sphinx",
+        "cultural diffusion",
+        "commerce",
+        "Menes",
+        "Khufu",
+        "Mentuhotep II",
+        "Hyksos",
+        "Ahmose",
+        "Queen Hatshepsut",
+        "Tutankhamun",
+        "Ramses the Great"
+      ],
+      "definitionStatus": "Definitions must be reconciled with the assigned OER; no definitions are supplied by this handout."
+    },
+    "egyptSocialPyramid": {
+      "sourceId": "source-22",
+      "page": 15,
+      "tiersTopToBottom": [
+        "Pharaoh",
+        "Nobles, Priests & Government Officials",
+        "Soldiers & Scribes",
+        "Merchants, Artisans & Craftspeople",
+        "Farmers, Servants & Slaves"
+      ],
+      "status": "diagram-visually-verified; current-SS-assessments-pending"
+    }
+  }
 }

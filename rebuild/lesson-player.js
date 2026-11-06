@@ -1,6 +1,6 @@
 'use strict';
 window.renderVerifiedLesson = function(main, id) {
-  const lesson = catalog.lessons.find(l=>l.id===id && l.releaseStatus==='verified' && l.assessmentEnabled);
+  const lesson = catalog.lessons.find(l=>l.id===id && isLessonReleased(l));
   if(!lesson){add(main,'h1','This lesson is awaiting source review.');return;}
   const key = id + ':v1';
   if(!state.lessonWork)state.lessonWork={};
@@ -13,6 +13,7 @@ window.renderVerifiedLesson = function(main, id) {
   add(main,'p',lesson.scopeStatus,'muted');
   const stages=add(main,'ol',undefined,'path');names.forEach((s,i)=>add(stages,'li',(i===work.stage?'Current · ':'')+s));
   if(work.stage===0){
+    document.getElementById('read').textContent='Read this lesson';
     lesson.teach.forEach(t=>add(main,'p',t));
     add(main,'h2','See how the thinking works');add(main,'p',lesson.model.prompt);add(main,'p',lesson.model.reasoning);add(main,'p',lesson.model.answer);
     readingText=[lesson.title,...lesson.teach,lesson.model.prompt,lesson.model.reasoning,lesson.model.answer].join('. ');
@@ -62,3 +63,4 @@ window.renderVerifiedLesson = function(main, id) {
   readingText=(stageKey==='assessment'||stageKey==='guided'?lesson.passage+'. ':'')+q.prompt+'. '+optionOrder.map((i,position)=>String.fromCharCode(65+position)+'. '+q.options[i]).join('. ');
   document.getElementById('read').textContent='Read question and choices';
 };
+

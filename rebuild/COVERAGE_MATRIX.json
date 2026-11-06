@@ -1,0 +1,801 @@
+{
+  "reviewDate": "2026-11-06",
+  "scope": "Reconciliation of current five focused lessons only; not a complete teacher-source requirement census. References identify actual content, not proof of sufficient mastery evidence.",
+  "counts": {
+    "readyLessons": 5,
+    "selectedResponseItems": 74,
+    "writingPrompts": 20,
+    "ungradedOpinions": 7
+  },
+  "objectiveRows": [
+    {
+      "lessonId": "ela_hachiko_prereading_20261106",
+      "objective": "Anticipation ratings and reasoned opinion",
+      "sourceIds": [
+        "hachiko-prereading-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          1,
+          2,
+          3
+        ],
+        "guided": [],
+        "independent": [
+          1
+        ],
+        "assessment": [
+          1
+        ],
+        "retentionDay1": [],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_prereading_20261106",
+      "objective": "timidly in context",
+      "sourceIds": [
+        "hachiko-prereading-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          4
+        ],
+        "guided": [
+          1
+        ],
+        "independent": [
+          2
+        ],
+        "assessment": [],
+        "retentionDay1": [
+          2
+        ],
+        "writing": []
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "assessment"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_prereading_20261106",
+      "objective": "Inference, concrete detail and explanation",
+      "sourceIds": [
+        "hachiko-prereading-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          5,
+          6,
+          7
+        ],
+        "guided": [
+          2,
+          3
+        ],
+        "independent": [
+          3
+        ],
+        "assessment": [
+          2,
+          3
+        ],
+        "retentionDay1": [
+          1
+        ],
+        "writing": [
+          2,
+          3,
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "First-person perspective and limits of inference",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          2,
+          8
+        ],
+        "guided": [],
+        "independent": [
+          1
+        ],
+        "assessment": [
+          6
+        ],
+        "retentionDay1": [],
+        "writing": []
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Character change supported by actions",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          3
+        ],
+        "guided": [
+          6
+        ],
+        "independent": [
+          2
+        ],
+        "assessment": [
+          4
+        ],
+        "retentionDay1": [
+          2
+        ],
+        "writing": [
+          2
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Sequence and objective summary",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          5
+        ],
+        "guided": [],
+        "independent": [
+          3
+        ],
+        "assessment": [
+          1,
+          3,
+          5
+        ],
+        "retentionDay1": [
+          1
+        ],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Age details and later plot",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          6
+        ],
+        "guided": [],
+        "independent": [],
+        "assessment": [
+          2
+        ],
+        "retentionDay1": [],
+        "writing": [
+          3
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "independent",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Station setting and ending",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          7
+        ],
+        "guided": [],
+        "independent": [],
+        "assessment": [
+          5
+        ],
+        "retentionDay1": [
+          1
+        ],
+        "writing": []
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "independent"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Five sidebar adverbs",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          9
+        ],
+        "guided": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "independent": [],
+        "assessment": [],
+        "retentionDay1": [],
+        "writing": []
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "independent",
+        "assessment",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_hachiko_story_20261106",
+      "objective": "Historical fiction and focused research",
+      "sourceIds": [
+        "hachiko-story-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          4
+        ],
+        "guided": [],
+        "independent": [],
+        "assessment": [],
+        "retentionDay1": [
+          3
+        ],
+        "writing": [
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "independent",
+        "assessment"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_sofi_review_20261106",
+      "objective": "Central idea and objective summary",
+      "sourceIds": [
+        "sofi-article-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          2,
+          7
+        ],
+        "guided": [
+          1
+        ],
+        "independent": [
+          1,
+          2
+        ],
+        "assessment": [
+          1,
+          6
+        ],
+        "retentionDay1": [],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_sofi_review_20261106",
+      "objective": "Purpose and outside perspectives",
+      "sourceIds": [
+        "sofi-article-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          3
+        ],
+        "guided": [
+          2
+        ],
+        "independent": [],
+        "assessment": [
+          3
+        ],
+        "retentionDay1": [
+          3
+        ],
+        "writing": [
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "independent"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_sofi_review_20261106",
+      "objective": "Headings and section functions",
+      "sourceIds": [
+        "sofi-article-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          1,
+          4
+        ],
+        "guided": [
+          3
+        ],
+        "independent": [],
+        "assessment": [
+          5
+        ],
+        "retentionDay1": [],
+        "writing": [
+          2
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "independent",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_sofi_review_20261106",
+      "objective": "Problem-solution and connected ideas",
+      "sourceIds": [
+        "sofi-article-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          5
+        ],
+        "guided": [
+          4
+        ],
+        "independent": [
+          3
+        ],
+        "assessment": [
+          4
+        ],
+        "retentionDay1": [
+          1
+        ],
+        "writing": [
+          3
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_sofi_review_20261106",
+      "objective": "Current features, limits and proposed improvements",
+      "sourceIds": [
+        "sofi-article-upload"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          6,
+          8
+        ],
+        "guided": [],
+        "independent": [],
+        "assessment": [
+          2
+        ],
+        "retentionDay1": [
+          2
+        ],
+        "writing": []
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "independent"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "math_expression_vocabulary_20261106",
+      "objective": "Expression versus equation; terms",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "openstax-algebra-2-1"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          1,
+          4
+        ],
+        "guided": [],
+        "independent": [
+          2
+        ],
+        "assessment": [
+          1,
+          2
+        ],
+        "retentionDay1": [],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "math_expression_vocabulary_20261106",
+      "objective": "Variable, coefficient and constant",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "openstax-algebra-2-1"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          2,
+          3
+        ],
+        "guided": [
+          1,
+          2,
+          3
+        ],
+        "independent": [],
+        "assessment": [
+          3,
+          4,
+          5
+        ],
+        "retentionDay1": [
+          1
+        ],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "independent"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "math_expression_vocabulary_20261106",
+      "objective": "Like terms and equivalence",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "openstax-algebra-2-1"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          5,
+          6
+        ],
+        "guided": [],
+        "independent": [
+          1
+        ],
+        "assessment": [
+          6
+        ],
+        "retentionDay1": [
+          2,
+          3
+        ],
+        "writing": [
+          2,
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "math_expression_vocabulary_20261106",
+      "objective": "Model a situation and evaluate",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "openstax-algebra-2-1"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          2,
+          7
+        ],
+        "guided": [],
+        "independent": [
+          3
+        ],
+        "assessment": [],
+        "retentionDay1": [],
+        "writing": [
+          3,
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "assessment",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_explanatory_writing_20261106",
+      "objective": "Topic versus thesis",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "sofi-article-upload",
+        "purdue-expository"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          1
+        ],
+        "guided": [
+          1
+        ],
+        "independent": [
+          3
+        ],
+        "assessment": [
+          1
+        ],
+        "retentionDay1": [
+          2
+        ],
+        "writing": [
+          1
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_explanatory_writing_20261106",
+      "objective": "Introduction and body organization",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "sofi-article-upload",
+        "purdue-expository"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          2
+        ],
+        "guided": [],
+        "independent": [
+          2,
+          3
+        ],
+        "assessment": [
+          2,
+          4
+        ],
+        "retentionDay1": [],
+        "writing": [
+          2,
+          3,
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [
+        "guided",
+        "retentionDay1"
+      ],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    },
+    {
+      "lessonId": "ela_explanatory_writing_20261106",
+      "objective": "Concrete details versus commentary",
+      "sourceIds": [
+        "newsletter-2026-11-06",
+        "sofi-article-upload",
+        "purdue-expository"
+      ],
+      "referencesOneBased": {
+        "teach": [
+          3,
+          4
+        ],
+        "guided": [
+          2,
+          3
+        ],
+        "independent": [
+          1
+        ],
+        "assessment": [
+          3
+        ],
+        "retentionDay1": [
+          1,
+          3
+        ],
+        "writing": [
+          3,
+          4
+        ]
+      },
+      "workedModel": {
+        "present": true,
+        "limitation": "The lesson has one common worked example; a dedicated model for this objective has not been certified."
+      },
+      "gaps": [],
+      "retentionDays3_7_14_30": "not implemented",
+      "masteryCertification": false
+    }
+  ],
+  "notCoveredByThisMatrix": [
+    "Remaining classroom assignments in all five courses",
+    "District-textbook edition and full assigned pages",
+    "Full Tennessee standards/rubric alignment",
+    "Dog video and remaining external media",
+    "Full Egypt unit and precise maps",
+    "Science exact vocabulary/three STEMscopes readings",
+    "Theater current materials"
+  ],
+  "capabilityGaps": [
+    "Fresh adaptive miss-repair questions not implemented",
+    "No later-day distinct retention sets",
+    "Private cross-device result synchronization not implemented",
+    "Phone audio quality not verified",
+    "No complete course practice exams released"
+  ]
+}

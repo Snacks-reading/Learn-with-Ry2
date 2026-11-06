@@ -1,8 +1,8 @@
 # Learn With Ry source ledger
 
-The November 6 rebuild uses `rebuild/catalog.json` as the current machine-readable source register. It records 56 identified resources with their prior status and current verification state. Those counts do not certify full classroom coverage.
+The November 6 rebuild uses `rebuild/catalog.json` as the current machine-readable source register. It records 58 identified resources with their prior status and current verification state. Those counts do not certify full classroom coverage.
 
-The complete current source census is open. None of the five subject assessments is released in the fresh scoring path. The public Schoology entry redirected to ClassLink. The available browser had no existing classroom tabs. Current teacher folders, their underlying attachments, the latest newsletter and textbook/media coverage require reconciliation.
+Current status: five focused ELA/Math lessons have selected-response checks in the fresh scoring path. No complete course assessment is released. The November 6 newsletter and three ELA uploads were read. The same signed-in Schoology tab was used for partial ELA and Egypt folder review before a download error. The remaining five-course census, textbook/media review and standards alignment are open. Historical access observations below are dated evidence, not current missing-source claims.
 
 Nine external resource landing pages or documents were opened again on November 6. Their content, downloads, simulations and playback are separately tracked. None was promoted to a complete review based on page retrieval alone. The prior register and earlier classroom provenance remain in [the source archive](archive/2026-11-06/SOURCE_LEDGER.md).
 
@@ -36,3 +36,16 @@ The three-page Fish Article review was OCR-read and visually inspected. It conta
 The complete November 6 newsletter was read. It controls the next priorities: Science 33–34-term ecology vocabulary quiz November 10; regular Grade 6 expressions quiz November 13 and a possible Big 8 pop quiz; ELA explanatory writing and IXL P.2 due November 13, with a written weekly spiral; Egypt unit test November 13. The Blend and Grade 7 math paragraphs are not assigned to Ry's regular Grade 6 track. Monday November 9 has an 8:35 AM homeroom start, and the Veterans Day assembly is November 11.
 
 Five standalone lessons now cover these bounded source tasks. They do not certify the full ELA or Math test scope. Current scores begin in the new namespace. Exact Science vocabulary and its three assigned STEMscopes readings, the new ELA spiral, Theater materials and remaining classroom sources still require review.
+
+
+## Reconciliation · November 6
+
+The catalog, source gate, source ledger and runtime release list were reconciled. There are four focused ELA lessons and one focused Math lesson. The previous ELA status saying three lessons was incorrect. The runtime now checks the same explicit standalone allowlist as the source gate, and rejects a reset-version mismatch. Focused lesson checks are distinct from whole-course assessments.
+
+The exact two-page teacher Egypt vocabulary handout was fully read: 24 terms, including Mentuhotep II, Hyksos, Ahmose and Tutankhamun. It supplies no definitions. This supersedes the earlier parent script's statement that the exact list had not been recovered. The six-page Who Done It? activity, two-page Two Lands handout and one-page Hieroglyphics & Hieratic Script handout were OCR-read and visually inspected. Their source records no longer claim that classroom authentication is required to obtain those copies. No original licensed worksheet is republished.
+
+The 51-page uploaded WCS OER was recovered. Pages 1 and 15–17 were read in this reconciliation; the page 15 diagram was visually inspected. Its five tiers are pharaoh; nobles/priests/government officials; soldiers/scribes; merchants/artisans/craftspeople; farmers/servants/slaves. Remaining pages are not marked read. Diagram placement and the activity's separate social-rank comparisons must be distinguished. Two Lands and the writing handout include simplifications requiring explicit factual reconciliation before scored reuse. The fictional mystery is not historical evidence.
+
+The objective matrix maps 22 objective groups to the actual teaching and question positions in the five current lessons. Seventeen groups lack at least one selected-response stage. One shared model per lesson is not certified as adequate modeling for every objective. The 74-item total therefore does not establish complete teaching or testing coverage. Fresh adaptive repair, days 3/7/14/30 retrieval, rubric grading and cross-device private synchronization remain unimplemented.
+
+A narration overwrite in the outer page renderer was corrected: the lesson player's question-and-choice text now remains the narration input. A parent review page now exposes same-browser stage results, misses and saved writing. It does not retrieve private Studio records or another device. No learner data or source PDFs were committed to public GitHub.
