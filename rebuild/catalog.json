@@ -1,0 +1,2024 @@
+{
+  "resetId": "2026-11-06",
+  "status": "source-review",
+  "order": [
+    "teacher uploads and newsletter",
+    "Schoology assignments and references",
+    "district-adopted textbook",
+    "Tennessee standards",
+    "external resources"
+  ],
+  "lessons": [
+    {
+      "id": "fresh_ela_goodall_craft",
+      "subject": "ELA",
+      "title": "Goodall: craft, contrast and perspective",
+      "teach": [
+        "The author\u2019s purpose is the reason the author wrote the text. Ask: What does Goodall want readers to learn or understand?",
+        "Goodall informs readers about her research and what she learned about chimps. She tells about her own experiences and explains why the discoveries mattered.",
+        "Her feelings make the memoir interesting, but entertainment is not her only purpose. Her observations also teach readers about chimpanzees.",
+        "A personality trait describes how a person usually thinks or acts. Choose a trait, name an action from the text, and explain how the action shows that trait.",
+        "Goodall is persistent: she keeps trying after setbacks. She is patient: she gives the chimps time to get used to her. She is careful: she writes down details from her observations.",
+        "Her success came from these choices and from help from other people. Success does not mean she was never afraid or that she did everything alone.",
+        "A memoir is nonfiction about real experiences from the writer\u2019s own life. The writer looks back and explains what those experiences meant.",
+        "Goodall took part in the events she describes. She uses first-person words such as I and my, tells what happened, and shares her thoughts and feelings.",
+        "The word I alone does not prove that a text is a memoir. A made-up story can use I, too. A memoir tells real personal experiences and reflects on them.",
+        "A memoir usually focuses on a meaningful part of a person\u2019s life. An autobiography usually covers more of the person\u2019s life."
+      ],
+      "model": {
+        "prompt": "Original parallel: \u201cI tried Monday. No sound. Tuesday, no sound. Wednesday\u2014one clear note!\u201d How do craft choices work?",
+        "reasoning": "Repeated failed attempts establish a pattern. The dash marks a turn away from that pattern. The exclamation emphasizes the narrator\u2019s excitement. Link effect to idea: progress matters more because effort and delay were shown.",
+        "answer": "The repetition emphasizes repeated failure; the dash marks the turning point and the exclamation conveys excitement. Together they make the eventual success feel earned."
+      },
+      "sources": [
+        {
+          "title": "My Life With the Chimpanzees, assigned Savvas excerpt",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_ela_goodall_craft.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_ela_goodall_evidence",
+      "subject": "ELA",
+      "title": "Goodall: evidence changes an explanation",
+      "teach": [
+        "Goodall learned that chimps use tools and can change materials to make tools. David stripped leaves from a twig before using it to get termites.",
+        "She learned that chimps are individuals. They have different personalities, and their family relationships affect how they act.",
+        "She also saw young chimps learning from others. Chimps use calls and gestures to share information. Some gestures look like human gestures, but their calls are not the same as human language.",
+        "When you explain a discovery, tell what she saw and what it helped her understand. Do not make a bigger claim than the detail supports."
+      ],
+      "model": {
+        "prompt": "An original parallel case: An observer sees a crow bend wire and use it to lift a food basket. What claim can she support?",
+        "reasoning": "Separate observed behavior: the crow changed wire and used it. Make a limited claim: this crow modified an object for a task. Reject the overclaim: one observation does not prove every crow does this. Ask what would strengthen the claim: repeated observations, more individuals and conditions.",
+        "answer": "The observation supports that this crow modified an object to obtain food. It does not establish that every crow does so; repeated varied observations would test the broader claim."
+      },
+      "sources": [
+        {
+          "title": "My Life With the Chimpanzees, assigned Savvas excerpt",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_ela_goodall_evidence.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_ela_goodall_guide",
+      "subject": "ELA",
+      "title": "START HERE \u00b7 Goodall study guide \u00b7 Grade 6",
+      "teach": [
+        "A memoir tells about real events in the writer\u2019s life. Read Goodall\u2019s whole memoir first so you understand what happened.",
+        "On your second reading, ask: What problems did she face? What did she learn? How did her work change over time?",
+        "When a question names a paragraph, reread that paragraph and the sentences around it. Use a detail from that part to explain your answer.",
+        "The topic is what a text is about. This memoir is about Jane Goodall\u2019s work with chimpanzees. The main idea tells the most important point about that topic.",
+        "Goodall keeps trying, watches carefully, gains the chimps\u2019 trust, and makes discoveries. Help from other people also supports her work.",
+        "A good main idea fits the whole memoir. Check it against the beginning, middle, and ending. One exciting event is a detail, not the main idea of the whole text.",
+        "Read the sentence around an unfamiliar word. Try a meaning, put it into the sentence, and check whether it makes sense.",
+        "Vanished means disappeared. \u201cThe deer vanished into the bushes\u201d means the deer could no longer be seen.",
+        "Miserable means very unhappy or uncomfortable. \u201cThe cold rain made the wait miserable\u201d shows discomfort.",
+        "Irritable means easily annoyed. An irritable person may get upset over a small interruption.",
+        "Threateningly means in a way that warns of possible harm. A dog that growls threateningly may be warning someone to stay back.",
+        "Impetuous means acting quickly without thinking enough. Cutting fabric before measuring it can be an impetuous choice.",
+        "Dominate means to control or have power over. Someone who interrupts everyone may try to dominate a discussion.",
+        "A subject tells who or what a clause is about. A verb tells an action or a state of being. A clause has a subject and a verb. An independent clause is a complete thought: \u201cMaya kept notes.\u201d A dependent clause needs more to finish its meaning: \u201cAlthough the camera failed.\u201d",
+        "Use a comma before and, but, or so when the word joins two complete thoughts: \u201cThe camera failed, but Maya kept notes.\u201d Each side can stand alone.",
+        "Do not add a comma just because you see and. \u201cMaya checked the camera and changed the battery\u201d has one subject doing two actions.",
+        "Use a comma after a dependent clause at the beginning: \u201cAlthough the camera failed, Maya kept notes.\u201d The comma goes where the opening clause ends.",
+        "Use a comma after a long opening phrase: \u201cAfter several hours beside the marsh, Maya packed her notebook.\u201d This opening is a phrase because it does not have its own subject and verb.",
+        "Use a comma after an opening transition: \u201cFor example, Maya recorded the time.\u201d Other examples are \u201cIn fact,\u201d and \u201cAfter all,\u201d.",
+        "Use commas in a list of three or more things: \u201cShe packed paper, pencils, and binoculars.\u201d In these questions, include the comma before the final and. This is called a serial comma.",
+        "The author\u2019s purpose is the reason the author wrote the text. Ask: What does Goodall want readers to learn or understand?",
+        "Goodall informs readers about her research and what she learned about chimps. She tells about her own experiences and explains why the discoveries mattered.",
+        "Her feelings make the memoir interesting, but entertainment is not her only purpose. Her observations also teach readers about chimpanzees.",
+        "Goodall learned that chimps use tools and can change materials to make tools. David stripped leaves from a twig before using it to get termites.",
+        "She learned that chimps are individuals. They have different personalities, and their family relationships affect how they act.",
+        "She also saw young chimps learning from others. Chimps use calls and gestures to share information. Some gestures look like human gestures, but their calls are not the same as human language.",
+        "When you explain a discovery, tell what she saw and what it helped her understand. Do not make a bigger claim than the detail supports.",
+        "A personality trait describes how a person usually thinks or acts. Choose a trait, name an action from the text, and explain how the action shows that trait.",
+        "Goodall is persistent: she keeps trying after setbacks. She is patient: she gives the chimps time to get used to her. She is careful: she writes down details from her observations.",
+        "Her success came from these choices and from help from other people. Success does not mean she was never afraid or that she did everything alone.",
+        "A memoir is nonfiction about real experiences from the writer\u2019s own life. The writer looks back and explains what those experiences meant.",
+        "Goodall took part in the events she describes. She uses first-person words such as I and my, tells what happened, and shares her thoughts and feelings.",
+        "The word I alone does not prove that a text is a memoir. A made-up story can use I, too. A memoir tells real personal experiences and reflects on them.",
+        "A memoir usually focuses on a meaningful part of a person\u2019s life. An autobiography usually covers more of the person\u2019s life."
+      ],
+      "model": {
+        "prompt": "Original parallel scenario: In a real first-person account, Noor recalls months of failed garden measurements, explains how she changed her method and reflects on learning to trust checked evidence. Explain purpose, a trait and memoir features.",
+        "reasoning": "Separate purpose from topic: she explains a learning process and its meaning, not simply \u201cgardens.\u201d Connect action to trait: repeated checking and revised measurements support careful persistence. Establish genre using real personal events, selected months and reflection; \u201cI\u201d alone would not prove memoir.",
+        "answer": "Noor informs readers about developing reliable measurements and reflects on learning. Revising and checking evidence supports careful persistence. The real first-person experiences from a selected period, together with reflection, make this a memoir."
+      },
+      "sources": [
+        {
+          "title": "Actual assigned Savvas My Life with the Chimpanzees excerpt, 61 paragraphs, pp101\u2013110; fully read for this lesson",
+          "url": "/api/reading/goodall",
+          "status": "complete"
+        },
+        {
+          "title": "Exact teacher Goodall study guide \u2014 eight checklist targets",
+          "url": "https://docs.google.com/document/d/1l9k5CZomfc2HnqNpa0n3rbWDVYvGr0IqFclLknBAmjo/edit",
+          "status": "Complete live guide read and compared with parent-supplied screenshot"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_ela_goodall_guide.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_ela_goodall_structure",
+      "subject": "ELA",
+      "title": "Goodall: how the whole memoir develops",
+      "teach": [
+        "The topic is what a text is about. This memoir is about Jane Goodall\u2019s work with chimpanzees. The main idea tells the most important point about that topic.",
+        "Goodall keeps trying, watches carefully, gains the chimps\u2019 trust, and makes discoveries. Help from other people also supports her work.",
+        "A good main idea fits the whole memoir. Check it against the beginning, middle, and ending. One exciting event is a detail, not the main idea of the whole text."
+      ],
+      "model": {
+        "prompt": "Original parallel account: A student\u2019s first clay bowl collapses. She changes the wall thickness, tests several bowls and later teaches the method to classmates. What does the ending contribute?",
+        "reasoning": "Identify the earlier problem: bowls collapse. Track the response: deliberate changes and tests. Explain the ending\u2019s job: it shows learning becoming useful to others. Build a central idea spanning the whole account: careful revision can turn setbacks into shared knowledge.",
+        "answer": "The ending shows the result of deliberate improvement becoming useful to others. It develops a central idea that careful revision can turn setbacks into shared knowledge."
+      },
+      "sources": [
+        {
+          "title": "My Life With the Chimpanzees, assigned Savvas excerpt",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_ela_goodall_structure.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_ela_goodall_words",
+      "subject": "ELA",
+      "title": "Goodall words: meaning, context and precise communication",
+      "teach": [
+        "Read the sentence around an unfamiliar word. Try a meaning, put it into the sentence, and check whether it makes sense.",
+        "Vanished means disappeared. \u201cThe deer vanished into the bushes\u201d means the deer could no longer be seen.",
+        "Miserable means very unhappy or uncomfortable. \u201cThe cold rain made the wait miserable\u201d shows discomfort.",
+        "Irritable means easily annoyed. An irritable person may get upset over a small interruption.",
+        "Threateningly means in a way that warns of possible harm. A dog that growls threateningly may be warning someone to stay back.",
+        "Impetuous means acting quickly without thinking enough. Cutting fabric before measuring it can be an impetuous choice.",
+        "Dominate means to control or have power over. Someone who interrupts everyone may try to dominate a discussion."
+      ],
+      "model": {
+        "prompt": "Original example: \u201cAfter the noisy night, Nia snapped at tiny interruptions.\u201d Does irritable or miserable fit the specific evidence?",
+        "reasoning": "Identify the evidence: reacting angrily to minor interruptions. Compare meanings: irritable concerns easily becoming annoyed; miserable concerns severe unhappiness/discomfort. Choose the more precise meaning and reject the inference that the sentence proves every feeling.",
+        "answer": "Irritable fits the described reaction to small interruptions. Nia might also be unhappy, but the direct evidence here is easy annoyance."
+      },
+      "sources": [
+        {
+          "title": "Assigned Savvas My Life With the Chimpanzees pp101\u2013110, margin vocabulary",
+          "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+          "status": "complete assigned excerpt privately recovered and reread"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_ela_goodall_words.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_math_big8_transfer",
+      "subject": "MATH",
+      "title": "Big8: retrieve, derive and use exact forms",
+      "teach": [
+        "The teacher\u2019s eight families are1/2,1/3,1/4,1/5,1/8,1/9,1/10 and2/3. Retrieve all three forms, then use a benchmark to derive a new value.",
+        "Exact families:1/2=.5=50%;1/3=.333\u2026=33\u2153%;1/4=.25=25%;1/5=.2=20%;1/8=.125=12.5%;1/9=.111\u2026=11\u2151%;1/10=.1=10%;2/3=.666\u2026=66\u2154%. The ellipsis means the digit continues; a rounded decimal is not exactly equal.",
+        "A percent is a rate per hundred. Use decimal\u00d7100 to express a decimal as percent, and percent\u00f7100 for the reverse. Check whether the size makes sense.",
+        "Recognition is not the same as recall. For spelling or number facts, hide the target before retrieving it. Then explain or apply the value in a new problem."
+      ],
+      "model": {
+        "prompt": "Original application: a pattern needs5/8 of a meter of fabric. Express that as a decimal and percent of one meter.",
+        "reasoning": "Use1/8=.125. Multiply5\u00d7.125=.625 meter. Convert.625\u00d7100=62.5%. Check:5/8 is greater than1/2 and less than3/4, so62.5% fits.",
+        "answer": "5/8=.625=62.5% of one meter. It is between1/2 and3/4, so the converted value is reasonable."
+      },
+      "sources": [
+        {
+          "title": "Teacher newsletter Big8 list",
+          "url": "",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_math_big8_transfer.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_math_expressions",
+      "subject": "MATH",
+      "title": "Expressions: describe a relationship before calculating",
+      "teach": [
+        "A variable represents a number or quantity. A constant is fixed in the situation. An expression represents a quantity; an equation states that two expressions are equal.",
+        "A coefficient is a number multiplying a variable. In 4n, 4 is the coefficient; it means four groups of n. In n + 4, the 4 is added, so it is a constant term rather than the coefficient of n.",
+        "Read the situation before translating. In an original art-supply model, a fixed delivery fee plus a cost for each sketchbook needs both parts. The unit explains the operation: dollars per sketchbook multiplied by number of sketchbooks gives dollars.",
+        "To evaluate, replace the variable with its stated value, keep parentheses and follow the order of operations. Multiplication written beside a variable is still multiplication."
+      ],
+      "model": {
+        "prompt": "Original situation: sketchbooks cost $4 each plus a $3 delivery fee. Express and evaluate the cost for 5 sketchbooks.",
+        "reasoning": "Define n as the number of sketchbooks. Variable cost is4n; the fixed fee is3. Expression:4n+3. At n=5:4\u00d75+3=23 dollars. Check reasonableness:5 books alone cost20 dollars; delivery adds 3.",
+        "answer": "With n sketchbooks, cost is4n+3 dollars. At n=5 the cost is23 dollars;20 for books plus3 delivery. The units and fixed/repeated costs support the model."
+      },
+      "sources": [
+        {
+          "title": "October30 sixth-grade newsletter",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+          "status": "complete"
+        },
+        {
+          "title": "Sixth-grade Math Expressions class notes and vocabulary",
+          "url": "",
+          "status": "referenced-only"
+        },
+        {
+          "title": "OpenStax Prealgebra2e \u00a72.1",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+          "status": "complete"
+        },
+        {
+          "title": "OpenStax Prealgebra2e \u00a72.2",
+          "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_math_expressions.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_math_order_powers",
+      "subject": "MATH",
+      "title": "Expressions: powers, grouping and substitution",
+      "teach": [
+        "An exponent counts repeated equal factors, not multiplication by the exponent:3\u00b2=3\u00d73=9, while3\u00d72=6. The base is the factor being repeated.",
+        "Evaluate grouping first, then powers, then multiplication/division left to right, then addition/subtraction left to right. Multiplication does not always go before division; addition does not always go before subtraction.",
+        "When substituting, replace EVERY occurrence of each variable. Write multiplication explicitly before calculating:2ab means2\u00d7a\u00d7b, not a three-digit number.",
+        "Scope matters: (ab)\u00b2 squares the whole product; a+b\u00b2 squares only b. Parentheses show exactly what an exponent or operation applies to. The current Pumpkin activity requires multi-variable substitution and powers, beyond single-variable addition."
+      ],
+      "model": {
+        "prompt": "Original expression:2+(ab)\u00b2 when a=2 and b=3. Compare it with 2+ab\u00b2.",
+        "reasoning": "Substitute:2+(2\u00d73)\u00b2. Compute grouped product6, then square36, then add2. For2+ab\u00b2, square3 first, then multiply2\u00d79 and add2.",
+        "answer": "2+(ab)\u00b2=38, while2+ab\u00b2=20 at these values. The exponent\u2019s scope changes the result."
+      },
+      "sources": [
+        {
+          "title": "Teacher Week12 Math announcement and current PDF practice",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+          "status": "Freshly verified November1; original parallel problems here, not completed school answers."
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_math_order_powers.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_math_rational_reasoning",
+      "subject": "MATH",
+      "title": "Rational numbers: order, absolute value and coordinate distance",
+      "teach": [
+        "Compare values on a common scale. For negative numbers, farther left is smaller. Convert a fraction to an exact decimal when possible, or compare fractions with a reliable common representation.",
+        "Absolute value is distance from zero, so it is nonnegative. The number with greatest absolute value need not be the greatest signed number.",
+        "For horizontal points with the same y, use the absolute difference of x-coordinates. For vertical points with the same x, use the absolute difference of y-coordinates. Include units and use the graph scale when working from a diagram.",
+        "The assigned two-page Week12 sheet contains rational-number least-to-greatest sets and horizontal/vertical distances with fractions and decimals. Do not count grid endpoints or swap x and y."
+      ],
+      "model": {
+        "prompt": "Original points A=(\u22121.5,2) and B=(2.25,2). Find the distance and explain why it is positive.",
+        "reasoning": "Both y-coordinates equal2, so movement is horizontal. Subtract x-values:2.25\u2212(\u22121.5)=3.75. Distance is the nonnegative separation; reversing subtraction and taking absolute value gives the same result.",
+        "answer": "The horizontal distance is3.75 units. It is separation, not a signed direction."
+      },
+      "sources": [
+        {
+          "title": "Teacher Week12 Math announcement and current PDF practice",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+          "status": "Freshly verified November1; original parallel problems here, not completed school answers."
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_math_rational_reasoning.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_math_spiral12",
+      "subject": "MATH",
+      "title": "Problem-solving spiral: choose the method and prove it",
+      "teach": [
+        "Multi-step decimal problems: first compute total needed, then subtract what is already available. Distinguish \u201chow much total\u201d from \u201chow much more.\u201d Show cups or meters throughout.",
+        "Decimal division: scale dividend and divisor by the same power of10 so the quotient is unchanged. Check by multiplication and estimate whether the quotient\u2019s size is reasonable.",
+        "Unit rates: divide the requested numerator quantity by the denominator quantity. Miles per gallon means miles\u00f7gallons; minutes per mile means minutes\u00f7miles. Reversing units produces a different rate.",
+        "Division by a fraction asks how many groups of that size fit. Rename mixed numbers as improper fractions; multiplying by the reciprocal gives the quotient. Verify quotient\u00d7divisor=dividend.",
+        "Percent of a whole: part\u00f7whole gives the decimal rate, then multiply by100 for percent. State the reference whole before computing. A result above100% can be valid only when the part exceeds the chosen whole.",
+        "Whole-number division: preserve place value, including a zero in the quotient when needed. Verify by multiplication rather than choosing a digit pattern.",
+        "Decimal subtraction: line up decimal points and like place values, adding trailing zeros if useful. \u201cSubtracta fromb\u201d meansb\u2212a.",
+        "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship."
+      ],
+      "model": {
+        "prompt": "Original design task: a pattern needs1.5 meters per item for 4 items. You own2.25 meters. A store sells fabric at$6 per meter. How much extra fabric and what cost are needed?",
+        "reasoning": "Total fabric:1.5\u00d74=6 meters. Extra needed:6\u22122.25=3.75 meters. Additional cost:3.75\u00d76=22.50 dollars. Check that buying3.75 meters brings the total to6, enough for all4 items.",
+        "answer": "Buy3.75 meters for$22.50 under the stated constant price, before any additional fees. The total-needed and additional-needed quantities are different."
+      },
+      "sources": [
+        {
+          "title": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+          "status": "complete source task-format recovery; original parallel items here"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_math_spiral12.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_sci33_associations",
+      "subject": "SCI",
+      "title": "Ecology vocabulary: effects on both partners",
+      "teach": [
+        "Symbiosis is the relationship noun; symbiotic is the describing adjective. These refer to close cross-species associations. They do not guarantee both partners benefit. Read the effects on each participant before choosing a more specific classification.",
+        "Use an effects table: mutualism is benefit/benefit, parasitism is benefit/harm, commensalism is benefit/no known effect. Host identifies the provider of habitat/resources; it does not by itself establish harm. Explain what evidence would change your conclusion.",
+        "Study every term card in this group: say the meaning, explain the example, reject the nonexample, and apply the scientific boundary. Then close the cards for the checks."
+      ],
+      "model": {
+        "prompt": "Original association model: gut organisms receive food and shelter while supplying useful vitamins to an animal. Name the host, explain the benefit to each, and distinguish the relationship noun from its adjective.",
+        "reasoning": "Identify exactly which organisms, environment or relationship is being described. Choose a term whose meaning fits those details. Compare the closest alternative and explain why it does not fit. Keep the conclusion limited to the given evidence and conditions.",
+        "answer": "The animal is the host because it supplies habitat/resources. The described vitamin-producing partners and animal each benefit, so this case is mutualism. The relationship noun is symbiosis and the adjective is symbiotic. Harm to the host would instead support parasitism; benefit with no partner effect would support commensalism."
+      },
+      "sources": [
+        {
+          "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+          "url": "https://studymate.com/?id=3hVVRNWNm",
+          "status": "complete current teacher term list; original accurate paraphrases here"
+        },
+        {
+          "title": "Interactions guided notes supplied by parent",
+          "url": "",
+          "status": "partial packet; scientific corrections disclosed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_sci33_associations.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_sci33_feeding",
+      "subject": "SCI",
+      "title": "Ecology vocabulary: feeding roles and diets",
+      "teach": [
+        "Separate broad role, diet and pathway level. A consumer can be a herbivore, carnivore or omnivore. Predator/prey identifies the participants in a particular feeding interaction. Tertiary consumer identifies a position on one stated path.",
+        "Start from a producer and follow arrows. Primary eats a producer; secondary eats primary; tertiary eats secondary. A tertiary consumer need not be the highest organism in a longer path. An omnivore can occupy more than one level, so always name the path.",
+        "Study every term card in this group: say the meaning, explain the example, reject the nonexample, and apply the scientific boundary. Then close the cards for the checks."
+      ],
+      "model": {
+        "prompt": "Original feeding model: grass\u2192grasshopper\u2192frog\u2192snake. Grass is producer; the other organisms are consumers. The frog is predator relative to the grasshopper and prey relative to the snake; the snake is tertiary on this path.",
+        "reasoning": "Identify exactly which organisms, environment or relationship is being described. Choose a term whose meaning fits those details. Compare the closest alternative and explain why it does not fit. Keep the conclusion limited to the given evidence and conditions.",
+        "answer": "Grass is the producer; grasshopper, frog and snake are consumers. The grasshopper is primary, frog secondary and snake tertiary in this chain. The frog is predator of the grasshopper and prey of the snake. Diet categories require the actual foods stated; an omnivore can occupy different levels on different paths."
+      },
+      "sources": [
+        {
+          "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+          "url": "https://studymate.com/?id=3hVVRNWNm",
+          "status": "complete current teacher term list; original accurate paraphrases here"
+        },
+        {
+          "title": "Interactions guided notes supplied by parent",
+          "url": "",
+          "status": "partial packet; scientific corrections disclosed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_sci33_feeding.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_sci33_levels",
+      "subject": "SCI",
+      "title": "Ecology vocabulary: from one organism to the biosphere",
+      "teach": [
+        "Use nesting and contrast to make the words meaningful: one organism, a same-species population, interacting populations as a community, and organisms plus abiotic conditions as an ecosystem. The biosphere is the global life scope. A biome groups broad climate-and-community regions; it is not simply one step in the local nested list.",
+        "For every example, say what is included and what is left out. A community includes living populations; an ecosystem also considers nonliving conditions. Biotic and abiotic are describing words, not two new organization levels.",
+        "Study every term card in this group: say the meaning, explain the example, reject the nonexample, and apply the scientific boundary. Then close the cards for the checks."
+      ],
+      "model": {
+        "prompt": "Original park model: one oak \u2192 all oaks of that species in the park \u2192 interacting living populations \u2192 those populations with water, light and soil conditions. Explain what changes at each step.",
+        "reasoning": "Identify exactly which organisms, environment or relationship is being described. Choose a term whose meaning fits those details. Compare the closest alternative and explain why it does not fit. Keep the conclusion limited to the given evidence and conditions.",
+        "answer": "The single oak is an organism; all local oaks of that species are a population; the interacting living populations form a community; adding water, light and soil conditions gives an ecosystem. The biome is a broad climate/community region, and the biosphere is Earth\u2019s global life scope. Biotic/abiotic describe factors rather than add nesting levels."
+      },
+      "sources": [
+        {
+          "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+          "url": "https://studymate.com/?id=3hVVRNWNm",
+          "status": "complete current teacher term list; original accurate paraphrases here"
+        },
+        {
+          "title": "Interactions guided notes supplied by parent",
+          "url": "",
+          "status": "partial packet; scientific corrections disclosed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_sci33_levels.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_sci33_models_matter",
+      "subject": "SCI",
+      "title": "Ecology vocabulary: models and processing remains",
+      "teach": [
+        "A chain traces one energy route; a web combines routes; an energy pyramid compares available energy by level. These models answer different questions and omit details. Do not read a pyramid as a map or assume it shows the exact number of individuals.",
+        "A scavenger consumes dead remains. Decomposers such as fungi and bacteria break down remains and waste. Both help process material, but they are not identical mechanisms. Matter is returned and reused; usable energy transfers and disperses rather than cycling back identically.",
+        "Study every term card in this group: say the meaning, explain the example, reject the nonexample, and apply the scientific boundary. Then close the cards for the checks."
+      ],
+      "model": {
+        "prompt": "Original pond model: algae feeds snails and insect larvae, both eaten by fish. Trace one chain, then the whole web. Compare usable energy by level, and add decomposers acting on material from every level.",
+        "reasoning": "Identify exactly which organisms, environment or relationship is being described. Choose a term whose meaning fits those details. Compare the closest alternative and explain why it does not fit. Keep the conclusion limited to the given evidence and conditions.",
+        "answer": "Algae\u2192snail\u2192fish is one food chain; adding algae\u2192insect larva\u2192fish makes connected paths in a food web. An energy pyramid represents less usable energy reaching higher levels. Decomposers break down remains/wastes from all levels; scavengers consume dead remains. Nutrients can return to the environment while energy transfers and disperses."
+      },
+      "sources": [
+        {
+          "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+          "url": "https://studymate.com/?id=3hVVRNWNm",
+          "status": "complete current teacher term list; original accurate paraphrases here"
+        },
+        {
+          "title": "Interactions guided notes supplied by parent",
+          "url": "",
+          "status": "partial packet; scientific corrections disclosed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_sci33_models_matter.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_sci33_resources",
+      "subject": "SCI",
+      "title": "Ecology vocabulary: resource use, limits and introductions",
+      "teach": [
+        "A species can share a habitat yet use different resources. Explain a niche with what, when and how resources are used. Then identify the condition that currently limits a population and how that affects supportable population size.",
+        "Native and invasive describe different things: natural regional occurrence versus a harmful nonnative introduction. Not all introduced organisms are invasive. An adaptation is an inherited trait related to conditions, not a decision an individual makes because it needs to change.",
+        "Study every term card in this group: say the meaning, explain the example, reject the nonexample, and apply the scientific boundary. Then close the cards for the checks."
+      ],
+      "model": {
+        "prompt": "Original garden model: a plant introduced by people spreads and shades out native seedlings. The lost light limits seedling growth. Identify origin, harm, resource mechanism and the evidence needed to estimate longer-term population support.",
+        "reasoning": "Identify exactly which organisms, environment or relationship is being described. Choose a term whose meaning fits those details. Compare the closest alternative and explain why it does not fit. Keep the conclusion limited to the given evidence and conditions.",
+        "answer": "The plant is nonnative, and its documented harmful spread supports invasive status. Reduced light is a limiting factor for seedlings. Its niche includes its resource use and interactions; estimating carrying capacity needs more resource and population evidence. No individual acquires an inherited adaptation simply because it needs one."
+      },
+      "sources": [
+        {
+          "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+          "url": "https://studymate.com/?id=3hVVRNWNm",
+          "status": "complete current teacher term list; original accurate paraphrases here"
+        },
+        {
+          "title": "Interactions guided notes supplied by parent",
+          "url": "",
+          "status": "partial packet; scientific corrections disclosed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_sci33_resources.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_science_niche_limits",
+      "subject": "SCI",
+      "title": "Ecology: resources, competition and changing limits",
+      "teach": [
+        "A habitat is where an organism lives. A niche includes how it uses resources and interacts. Two species sharing a place do not automatically compete for every resource.",
+        "Competition happens when organisms need the same limited resource. Within one species it is intraspecific; between species it is interspecific. Ask which resource, which organisms and what evidence shows limitation.",
+        "Population density concerns individuals per area or volume. Carrying capacity concerns how many of a particular population the environment can support under current conditions. The capacity can change when water, food, shelter or other conditions change.",
+        "The uploaded notes pair giraffes and zebras as browsers. Scientific correction: zebras primarily graze grasses; giraffes browse woody leaves. Use their different feeding as a way to examine reduced overlap, not as proof of identical niches. A simplified population diagram is a model, not a guarantee of a fixed cycle."
+      ],
+      "model": {
+        "prompt": "Original scenario: two groups of birds live in one park. One eats ground seeds; the other catches insects above the pond. A dry season reduces the pond insects.",
+        "reasoning": "Identify the resource affected: pond insects. Name the group most directly affected: insect-feeding birds. Do not assume seed-eating birds face identical effects. Predict with a condition: if alternate food is limited, survival/reproduction may decrease. Name evidence needed: food availability, diet and population records.",
+        "answer": "The insect-feeding birds lose a food resource. They may decline if alternatives are insufficient; diet, food and population evidence is needed before predicting the exact change."
+      },
+      "sources": [
+        {
+          "title": "Uploaded Interactions/food-web/ecosystem guided-note pages",
+          "url": "",
+          "status": "partial"
+        },
+        {
+          "title": "Ecology Study Mate",
+          "url": "",
+          "status": "partial"
+        },
+        {
+          "title": "OpenStax Biology2e \u00a745.6 Community Ecology",
+          "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+          "status": "complete"
+        },
+        {
+          "title": "OpenStax Biology2e \u00a745.3 Environmental Limits",
+          "url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth",
+          "status": "complete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_science_niche_limits.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_science_relationships",
+      "subject": "SCI",
+      "title": "Relationships: classify from evidence, not animal names",
+      "teach": [
+        "Classify an interaction by what happens to the organisms. Competition involves a shared limited resource. Predation involves consuming prey. Symbiosis is a close relationship between different species.",
+        "Mutualism benefits both participants. Parasitism benefits the parasite and harms the host. Commensalism benefits one without a known effect on the other. A species\u2019 name alone cannot reveal the relationship; inspect the described evidence.",
+        "A host provides resources or a place to live. Not every host relationship is parasitism: ask whether harm is described. Benefits and harms can also depend on the context.",
+        "The two organisms matter, but so do the conditions. Use \u201cin this described interaction\u201d to keep a classification tied to evidence. Avoid assigning moral labels such as good or bad animals."
+      ],
+      "model": {
+        "prompt": "Original cases: a tick feeds on a deer; two deer compete for scarce plants; a deer eats a plant; bacteria receive food in an animal\u2019s gut and supply useful vitamins.",
+        "reasoning": "Tick/deer: parasite obtains food while host is harmed. Deer/deer: same-species competition for limited plants. Deer/plant: herbivory, a feeding interaction. Gut bacteria/animal in the described case: each receives a benefit. State the evidence that would change a classification.",
+        "answer": "The tick/deer case is parasitism; deer competing for scarce plants is competition; gut partners with benefits to both is mutualism. Each classification needs effects or resource evidence."
+      },
+      "sources": [
+        {
+          "title": "Uploaded Interactions/food-web/ecosystem guided-note pages",
+          "url": "",
+          "status": "partial"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_science_relationships.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "fresh_science_web_change",
+      "subject": "SCI",
+      "title": "Food webs: pathways, roles and ripple effects",
+      "teach": [
+        "A food-web arrow points from the energy/food source toward the organism receiving it. Read an arrow aloud as \u201cprovides food energy to.\u201d A chain is one path; a web combines paths.",
+        "Producers build food using an energy source. Consumers obtain food from other organisms. Along a specified path, primary consumers eat producers; secondary consumers eat primary consumers; tertiary consumers eat secondary consumers. An omnivore may occupy different consumer levels on different paths.",
+        "Decomposers such as many fungi and bacteria break down remains and wastes, returning matter to the environment. Matter cycles; usable energy moves through the system and is eventually dispersed as heat. Decomposers act on material from every level, not only a final predator.",
+        "Removing a group can affect its food and its consumers, but real webs include alternatives. Explain a likely direction and a condition rather than saying every connected species must disappear. The packet\u2019s \u201cmarine\u201d example includes freshwater organisms; use the actual water environment rather than trusting that label."
+      ],
+      "model": {
+        "prompt": "Original web: algae\u2192snail\u2192fish\u2192heron; algae\u2192insect larva\u2192fish. A change sharply reduces snails.",
+        "reasoning": "Follow arrows: algae supplies food energy to snails, then fish receive it from snails. Find an alternative path: fish also eat insect larvae. Predict conditionally: fish lose one food source; effects depend partly on larva availability. Trace another possibility: less snail grazing could allow more algae, if other limits do not dominate. Keep matter cycling separate from energy flow.",
+        "answer": "Fish lose the snail pathway but may use insect larvae. Effects depend on alternative food and other limits. Reduced grazing could affect algae, so trace more than one conditional pathway."
+      },
+      "sources": [
+        {
+          "title": "Uploaded Interactions/food-web/ecosystem guided-note pages",
+          "url": "",
+          "status": "partial"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/fresh_science_web_change.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_beliefs",
+      "subject": "SS",
+      "title": "Religious beliefs and daily life",
+      "teach": [
+        "Polytheism means belief in many gods. The assigned reading shows Egyptian gods and goddesses including Amun, Anubis, Horus, Ra, Thoth, Osiris, Isis, Seth, Sekhmet, Ptah, Hathor and Nephthys.",
+        "Egyptians connected gods with nature, royal authority and life after death. People offered prayers and gifts and built temples. Priests carried out religious rituals.",
+        "When explaining a belief, say Egyptians believed. A belief that pleasing gods helped the Nile flood is evidence about religion; it is not a scientific explanation of river flooding.",
+        "Afterlife means life after death. Ancient Egyptians held beliefs about a person\u2019s continued existence after death. These beliefs influenced burial customs.",
+        "Objects such as food containers, furniture and jewelry could be placed in tombs because people believed they might be useful after death. The source also connects good conduct and religious practices with hopes for an afterlife.",
+        "A belief can explain why people made an object or followed a custom. It does not prove that every family could afford the same burial."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_beliefs.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_burial",
+      "subject": "SS",
+      "title": "Mummies, tombs and preserving the body",
+      "teach": [
+        "A mummy is a preserved body. Mummification is the process used to preserve a body. Embalming means treating a body to slow decay.",
+        "In the process described in the reading, embalmers cleaned the body, treated organs, used natron to dry it and wrapped it in linen. Canopic jars held certain organs. Details changed over Egypt\u2019s long history.",
+        "Keep object and process separate: mummy = the preserved body; mummification = preparing and preserving it. Afterlife beliefs explain why this work mattered.",
+        "Canopic jars held certain organs removed during mummification. A sarcophagus is a large outer coffin, often stone. Neither word means the entire tomb.",
+        "A pyramid is a monumental building used as a royal tomb in ancient Egypt. Its purpose connects architecture, royal power and afterlife beliefs. Not every Egyptian was buried in a pyramid.",
+        "Giza and the Valley of the Kings are different burial places. Khufu\u2019s Great Pyramid is at Giza; Tutankhamun\u2019s tomb is in the Valley of the Kings. Do not use these place names as if they were one site."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        },
+        {
+          "sourceId": "tomb-evidence",
+          "title": "Tomb of Tutankhamun \u2014 Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/monuments/tomb-of-tutankhamun/",
+          "status": "Primary-source factual cross-check",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_burial.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_government",
+      "subject": "SS",
+      "title": "Pharaoh and government officials",
+      "teach": [
+        "The pharaoh was Egypt\u2019s ruler. Egyptians regarded the pharaoh as divine, or connected with godly authority. The pharaoh made laws, defended Egypt and collected taxes, including wheat.",
+        "The pharaoh relied on officials. The vizier was a trusted chief adviser and chief judge. The chief treasurer collected taxes. The general of armies directed the military.",
+        "A bureaucracy is a system of government offices and officials. Different officials carried out different jobs for the pharaoh. Match an official to the job, rather than assuming the pharaoh did every task alone."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            15,
+            16
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        },
+        {
+          "sourceId": "mystery",
+          "title": "Who Done It? Ancient Egyptian Society",
+          "url": "https://wcschools.schoology.com/assignment/8633333695/info",
+          "pages": [
+            2,
+            5,
+            6
+          ],
+          "status": "All six pages visually read; fictional mystery events are not historical facts"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_government.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_kingdoms",
+      "subject": "SS",
+      "title": "Old, Middle and New Kingdoms",
+      "teach": [
+        "The Old Kingdom is strongly associated with large royal pyramids. Khufu is the pharaoh associated with the Great Pyramid at Giza.",
+        "Large building projects required planning, supplies and many workers with different skills. A monument is evidence of organized work as well as royal power.",
+        "Do not mix up the builders: Khufu is associated with the Great Pyramid; Imhotep is associated with Djoser\u2019s earlier Step Pyramid. The textbook\u2019s construction numbers and some names are unreliable, so use the well-supported ruler-and-monument link.",
+        "After the Old Kingdom, Egypt experienced periods of divided power. Mentuhotep II reunited Egypt. Historians connect this reunification with the beginning of the Middle Kingdom.",
+        "Reunite means bring together again. Menes and Mentuhotep II are not interchangeable: the classroom account links Menes with early unification and Mentuhotep II with a later reunification.",
+        "Learn the order rather than the textbook\u2019s conflicting date ranges: Old Kingdom \u2192 divided rule \u2192 Mentuhotep II and the Middle Kingdom.",
+        "The Hyksos were rulers with origins in western Asia who controlled northern Egypt for part of the Second Intermediate Period. They were not one of Egypt\u2019s three kingdom names.",
+        "Ahmose I led the defeat of Hyksos rule and helped reunify Egypt. He is connected with the start of the New Kingdom.",
+        "Remember the change: Hyksos rule in the north \u2192 Ahmose defeats their rule \u2192 New Kingdom. The textbook\u2019s claim about iron weapons is misleading; the important tested connection is the change in rulers, not that claim."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        },
+        {
+          "sourceId": "kingdom-evidence",
+          "title": "Second Intermediate Period \u2014 UCL Digital Egypt",
+          "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+          "status": "Primary-source factual cross-check",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_kingdoms.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_landforms",
+      "subject": "SS",
+      "title": "Nile landforms and travel",
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            4,
+            5,
+            7,
+            46
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        }
+      ],
+      "teach": [
+        "A delta is land deposited by a river near its mouth. The Nile Delta lies in northern Egypt, where the river reaches the Mediterranean Sea.",
+        "As the river slows, it can leave sediment and split into channels. The delta\u2019s fertile land supported farming. A delta is not the same as rocky rapids upstream.",
+        "Cataracts are rocky rapids or rough stretches of a river. They can make travel by boat difficult. In this unit they are a geography term, not a medical term.",
+        "A route affected by cataracts may require travelers to change how they move goods. The Nile connected regions, but not every stretch was equally easy to navigate."
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_landforms.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_new_rulers",
+      "subject": "SS",
+      "title": "New Kingdom rulers and their evidence",
+      "teach": [
+        "Hatshepsut was a female pharaoh of the New Kingdom. Her reign included trade expeditions and major building projects, including her temple at Deir el-Bahri.",
+        "She first served as regent for the young ThutmoseIII, her stepson and nephew, and later ruled as pharaoh. A regent governs for someone who cannot yet rule personally.",
+        "Hatshepsut was not the first woman ever to rule. Her monuments and inscriptions provide evidence of how she presented her achievements and authority.",
+        "Tutankhamun, often called King Tut, was a New Kingdom pharaoh who became ruler while young. He lived after Hatshepsut and before Ramses II.",
+        "His tomb in the Valley of the Kings was discovered in 1922 with many objects still inside. Those objects help researchers study royal burial, craftsmanship and beliefs about the afterlife.",
+        "Tomb objects are evidence of this royal burial. They do not prove every Egyptian owned the same goods or received the same burial.",
+        "Ramses II is also called Ramses the Great. He was a New Kingdom pharaoh associated with military campaigns, a peace treaty with the Hittites and many monuments.",
+        "The great temple at Abu Simbel is associated with Ramses II. Its large royal statues express the ruler\u2019s power and importance.",
+        "A ruler can use both fighting and diplomacy. A peace treaty is an agreement between sides; it does not mean they were never in conflict."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        },
+        {
+          "sourceId": "hatshepsut-evidence",
+          "title": "Seated Statue of Hatshepsut \u2014 The Metropolitan Museum of Art",
+          "url": "https://www.metmuseum.org/art/collection/search/544450",
+          "status": "Primary-source factual cross-check",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_new_rulers.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_nile_farming",
+      "subject": "SS",
+      "title": "Nile flooding and farming",
+      "teach": [
+        "Nile floodwater left behind silt, or fine soil. This helped make the land beside the river fertile. The fertile river land is called Black Land; the nearby desert is called Red Land.",
+        "Farmers used irrigation: ditches, channels and basins moved or held water for crops. Wheat and barley supplied grain. Flax supplied fiber for linen.",
+        "Follow the process: floodwater leaves silt; fertile soil supports crops; irrigation directs water. Black Land and Red Land describe fertile river land and desert, not the two political regions."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            5,
+            9,
+            10,
+            11
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_nile_farming.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_occupations",
+      "subject": "SS",
+      "title": "Jobs and contributions",
+      "teach": [
+        "An occupation is a job. A contribution is what that work provides for society. Name the job, describe what the person does, and connect the work to what others need.",
+        "Scribes read, wrote and kept records, including taxes, court cases and a census, which is a population count. Artisans made goods such as pottery, furniture and jewelry.",
+        "Farmers grew food and useful crops and raised animals. Food surplus means extra food beyond what is needed. A surplus helped some people specialize in other jobs. People depended on one another\u2019s work."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            15,
+            16,
+            17
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_occupations.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_religion_soldiers",
+      "subject": "SS",
+      "title": "Priests, soldiers and legal rights",
+      "teach": [
+        "Priests performed religious ceremonies and rituals. The readings explain that Egyptians believed these rituals helped keep the gods pleased. Report this as an Egyptian belief, not as a scientific cause of flooding.",
+        "Soldiers defended Egypt. The OER reading says successful soldiers could receive land from the pharaoh and keep wealth from conquered lands. This could improve their social position; a reward was not guaranteed to every soldier.",
+        "The teacher\u2019s society mystery states that women could own property and conduct business and had many of the same legal rights as men. This does not mean every woman and man had the same power or experience."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            16
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        },
+        {
+          "sourceId": "mystery",
+          "title": "Who Done It? Ancient Egyptian Society",
+          "url": "https://wcschools.schoology.com/assignment/8633333695/info",
+          "pages": [
+            3,
+            4
+          ],
+          "status": "All six pages visually read; women\u2019s-rights item checked"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_religion_soldiers.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_social_pyramid",
+      "subject": "SS",
+      "title": "Reading the social pyramid",
+      "teach": [
+        "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power.",
+        "Read your teacher\u2019s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
+        "The diagram\u2019s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram\u2019s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            15,
+            16,
+            17
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        },
+        {
+          "sourceId": "teacher-pyramid",
+          "title": "Ancient Egyptian Society Social Pyramid",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630781275",
+          "pages": [
+            3,
+            4,
+            5
+          ],
+          "status": "All seven pages read; diagram labels visually checked"
+        },
+        {
+          "sourceId": "pyramid-directions",
+          "title": "Social Classes Instructions",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630097165",
+          "status": "Image visually read; assigned OER pages15\u201318 and orange book149; due2026-11-05",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_social_pyramid.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_two_lands",
+      "subject": "SS",
+      "title": "Upper and Lower Egypt",
+      "teach": [
+        "The Nile flows north into the Mediterranean Sea. Upper Egypt is in the south, upstream. Lower Egypt is in the north, downstream, near the Nile Delta.",
+        "Upper and Lower describe positions along the river. They do not mean top and bottom on a page. Follow the river toward its mouth to move downstream.",
+        "Remember the pair: Upper Egypt = south and upstream; Lower Egypt = north and downstream, near the delta."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "title": "Assigned OER Ancient Egypt",
+          "pages": [
+            4,
+            7
+          ],
+          "status": "Named pages content-read; full course audit incomplete"
+        },
+        {
+          "sourceId": "two-lands",
+          "title": "The Two Lands of Ancient Egypt",
+          "url": "https://wcschools.schoology.com/assignment/8624027660/info",
+          "pages": [
+            1,
+            2
+          ],
+          "status": "Both pages visually read; worksheet\u2019s Black/Red Land generalization is not used as a key"
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_two_lands.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_union",
+      "subject": "SS",
+      "title": "Two lands become one kingdom",
+      "teach": [
+        "The assigned reading credits Menes with uniting Upper and Lower Egypt around3100 BCE. Uniting means bringing the two regions under one ruler. Memphis became an early capital, or center of government.",
+        "The red crown stood for Lower Egypt; the white crown stood for Upper Egypt. The double crown joined those symbols. It is evidence of a claim to rule both regions.",
+        "Historians connect unification with Narmer, but the exact link between the names Narmer and Menes is debated. For a question asking what your assigned text says, use Menes. Do not treat a debated identity as certain.",
+        "A dynasty is a line of rulers from the same family. Dynasty tells you how rule passes through a family; it does not name one building or one job.",
+        "A pharaoh was Egypt\u2019s ruler. The government collected resources, organized projects and defended the country. A united kingdom still needed people to carry out that work.",
+        "Keep three ideas separate: a ruler is one person; a dynasty is a family line of rulers; a kingdom is the territory and people under a ruler."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        },
+        {
+          "sourceId": "unification-evidence",
+          "title": "Narmer Palette \u2014 Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/en/collections/narmer-palette-1/",
+          "status": "Primary-source factual cross-check",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_union.json",
+      "resetId": "2026-11-06"
+    },
+    {
+      "id": "ss_verified_writing_trade",
+      "subject": "SS",
+      "title": "Writing, artifacts and exchange",
+      "teach": [
+        "Hieroglyphics is the classroom term for Egyptian writing using hieroglyphs. Signs could represent sounds or words; it was not simply an English letter-for-picture code.",
+        "Papyrus is a Nile plant and the paper-like writing material made from its stems. Scribes used writing skills to record information. Writing is a system of signs; papyrus is a material.",
+        "The Rosetta Stone contains three scripts: hieroglyphic, demotic and Greek, using two languages. The assigned text simplifies this incorrectly. Comparing the same message helped scholars decipher the writing.",
+        "An artifact is an object made or changed by people. Artifacts can provide evidence about tools, skills, beliefs or daily life, depending on their context.",
+        "A sphinx combines a human head and a lion\u2019s body. The Great Sphinx stands at Giza, near the pyramid complex of Khafre. It is not in the Valley of the Kings, despite the textbook\u2019s incorrect location.",
+        "An artifact\u2019s shape or location supports some claims but not every claim. A royal monument can express power without representing how every Egyptian lived.",
+        "Commerce means buying, selling or exchanging goods. Egypt and Nubia traded resources, including grain and gold. Interdependence means groups depend on one another.",
+        "Cultural diffusion is the spread of ideas, knowledge, customs or styles between groups. It can occur through contact and trade, and also through migration or conquest; it is not limited to peaceful exchange.",
+        "Nubia had its own societies, rulers and traditions. Similarities with Egypt do not make the two societies identical. Nubian rulers later ruled Egypt, and Meroe became an important Nubian center."
+      ],
+      "sources": [
+        {
+          "sourceId": "assigned-oer",
+          "title": "Teacher-assigned WCS Ancient Egypt OER",
+          "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+          "pages": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50,
+            51
+          ],
+          "status": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed"
+        },
+        {
+          "sourceId": "writing-evidence",
+          "title": "Rosetta Stone documentation \u2014 British Museum Digital Humanities",
+          "url": "https://github.com/BritishMuseumDH/rosettaStone/blob/master/README.md",
+          "status": "Primary institutional documentation; three-script fact cross-check",
+          "pages": []
+        },
+        {
+          "sourceId": "giza-evidence",
+          "title": "Pyramid Complex of Khafre \u2014 Egyptian Ministry of Tourism and Antiquities",
+          "url": "https://egymonuments.gov.eg/monuments/pyramid-complex-of-khafre-khefren/",
+          "status": "Primary-source factual cross-check",
+          "pages": []
+        }
+      ],
+      "releaseStatus": "source-review",
+      "assessmentEnabled": false,
+      "sourceFile": "curriculum-2026-11/ss_verified_writing_trade.json",
+      "resetId": "2026-11-06"
+    }
+  ],
+  "sources": [
+    {
+      "title": "My Life With the Chimpanzees, assigned Savvas excerpt",
+      "url": "https://wcschools.schoology.com/course/8432932249/materials/gp/8618365893",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "fresh_ela_goodall_craft",
+        "fresh_ela_goodall_evidence",
+        "fresh_ela_goodall_structure",
+        "fresh_ela_goodall_words"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Dr. Jane Goodall\u2019s Thoughts for First World Chimpanzee Day",
+      "url": "https://janegoodall.org/news/dr-jane-goodalls-thoughts-for-first-world-chimpanzee-day/",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "fresh_ela_goodall_craft",
+        "fresh_ela_goodall_evidence",
+        "fresh_ela_goodall_structure",
+        "fresh_ela_goodall_words"
+      ],
+      "priorStatus": "Content reviewed",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "What separates us from chimpanzees? \u2014 selected tool-making segment",
+      "url": "https://www.youtube.com/watch?v=51z7WRDjOjM",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "fresh_ela_goodall_craft",
+        "fresh_ela_goodall_evidence",
+        "fresh_ela_goodall_structure",
+        "fresh_ela_goodall_words"
+      ],
+      "priorStatus": "Transcript reviewed; playback not verified",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Actual assigned Savvas My Life with the Chimpanzees excerpt, 61 paragraphs, pp101\u2013110; fully read for this lesson",
+      "url": "/api/reading/goodall",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "fresh_ela_goodall_guide"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Exact teacher Goodall study guide \u2014 eight checklist targets",
+      "url": "https://docs.google.com/document/d/1l9k5CZomfc2HnqNpa0n3rbWDVYvGr0IqFclLknBAmjo/edit",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [
+        "fresh_ela_goodall_guide"
+      ],
+      "priorStatus": "Complete live guide read and compared with parent-supplied screenshot",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Teacher newsletter Big8 list",
+      "url": "",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_big8_transfer"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Decimals, Fractions and Percentages",
+      "url": "https://www.mathsisfun.com/decimal-fraction-percentage.html",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_big8_transfer",
+        "fresh_math_rational_reasoning",
+        "fresh_math_spiral12"
+      ],
+      "priorStatus": "Content reviewed",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "October30 sixth-grade newsletter",
+      "url": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_expressions",
+        "fresh_math_order_powers",
+        "fresh_math_rational_reasoning"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Sixth-grade Math Expressions class notes and vocabulary",
+      "url": "",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_expressions"
+      ],
+      "priorStatus": "referenced-only",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "OpenStax Prealgebra2e \u00a72.1",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-1-use-the-language-of-algebra",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_expressions"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "OpenStax Prealgebra2e \u00a72.2",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/2-2-evaluate-simplify-and-translate-expressions",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_expressions"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Expression Exchange \u2014 Basics",
+      "url": "https://phet.colorado.edu/sims/html/expression-exchange/latest/expression-exchange_all.html",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_expressions"
+      ],
+      "priorStatus": "Content reviewed",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1",
+      "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [
+        "fresh_math_spiral12"
+      ],
+      "priorStatus": "complete source task-format recovery; original parallel items here",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Teacher Ecology StudyMate \u2014 all33 definitions freshly verified",
+      "url": "https://studymate.com/?id=3hVVRNWNm",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_sci33_associations",
+        "fresh_sci33_feeding",
+        "fresh_sci33_levels",
+        "fresh_sci33_models_matter",
+        "fresh_sci33_resources"
+      ],
+      "priorStatus": "complete current teacher term list; original accurate paraphrases here",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Interactions guided notes supplied by parent",
+      "url": "",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_sci33_associations",
+        "fresh_sci33_feeding",
+        "fresh_sci33_levels",
+        "fresh_sci33_models_matter",
+        "fresh_sci33_resources"
+      ],
+      "priorStatus": "partial packet; scientific corrections disclosed",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Matter and energy in food webs",
+      "url": "https://www.youtube.com/watch?v=qIgL05zOx5U",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_sci33_associations",
+        "fresh_sci33_feeding",
+        "fresh_sci33_levels",
+        "fresh_sci33_models_matter",
+        "fresh_sci33_resources",
+        "fresh_science_niche_limits",
+        "fresh_science_relationships",
+        "fresh_science_web_change"
+      ],
+      "priorStatus": "Transcript reviewed; playback not verified",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Spinning a Food Web",
+      "url": "https://www.nps.gov/teachers/classrooms/food-webs.htm",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_sci33_associations",
+        "fresh_sci33_feeding",
+        "fresh_sci33_levels",
+        "fresh_sci33_models_matter",
+        "fresh_sci33_resources",
+        "fresh_science_niche_limits",
+        "fresh_science_relationships",
+        "fresh_science_web_change"
+      ],
+      "priorStatus": "Content reviewed",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Uploaded Interactions/food-web/ecosystem guided-note pages",
+      "url": "",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_science_niche_limits",
+        "fresh_science_relationships",
+        "fresh_science_web_change"
+      ],
+      "priorStatus": "partial",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Ecology Study Mate",
+      "url": "",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_science_niche_limits"
+      ],
+      "priorStatus": "partial",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "OpenStax Biology2e \u00a745.6 Community Ecology",
+      "url": "https://openstax.org/books/biology-2e/pages/45-6-community-ecology",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_science_niche_limits"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "OpenStax Biology2e \u00a745.3 Environmental Limits",
+      "url": "https://openstax.org/books/biology-2e/pages/45-3-environmental-limits-to-population-growth",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [
+        "fresh_science_niche_limits"
+      ],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Teacher-assigned WCS Ancient Egypt OER",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_beliefs",
+        "ss_verified_burial",
+        "ss_verified_government",
+        "ss_verified_kingdoms",
+        "ss_verified_landforms",
+        "ss_verified_new_rulers",
+        "ss_verified_nile_farming",
+        "ss_verified_occupations",
+        "ss_verified_religion_soldiers",
+        "ss_verified_social_pyramid",
+        "ss_verified_two_lands",
+        "ss_verified_union",
+        "ss_verified_writing_trade"
+      ],
+      "priorStatus": "Recovered exact current51-page file; text, relevant diagrams and corrections reviewed",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Tomb of Tutankhamun \u2014 Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/monuments/tomb-of-tutankhamun/",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_burial"
+      ],
+      "priorStatus": "Primary-source factual cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Who Done It? Ancient Egyptian Society",
+      "url": "https://wcschools.schoology.com/assignment/8633333695/info",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_government",
+        "ss_verified_religion_soldiers"
+      ],
+      "priorStatus": "All six pages visually read; fictional mystery events are not historical facts",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Second Intermediate Period \u2014 UCL Digital Egypt",
+      "url": "https://www.ucl.ac.uk/museums-static/digitalegypt/2inter/index.html",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_kingdoms"
+      ],
+      "priorStatus": "Primary-source factual cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Seated Statue of Hatshepsut \u2014 The Metropolitan Museum of Art",
+      "url": "https://www.metmuseum.org/art/collection/search/544450",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_new_rulers",
+        "ss_verified_new_rulers"
+      ],
+      "priorStatus": "Primary-source factual cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Ancient Egyptian Society Social Pyramid",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630781275",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_social_pyramid"
+      ],
+      "priorStatus": "All seven pages read; diagram labels visually checked",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Social Classes Instructions",
+      "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630097165",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_social_pyramid"
+      ],
+      "priorStatus": "Image visually read; assigned OER pages15\u201318 and orange book149; due2026-11-05",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "The Two Lands of Ancient Egypt",
+      "url": "https://wcschools.schoology.com/assignment/8624027660/info",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_two_lands"
+      ],
+      "priorStatus": "Both pages visually read; worksheet\u2019s Black/Red Land generalization is not used as a key",
+      "reviewStatus": "requires-classroom-session",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Narmer Palette \u2014 Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/en/collections/narmer-palette-1/",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_union"
+      ],
+      "priorStatus": "Primary-source factual cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Rosetta Stone documentation \u2014 British Museum Digital Humanities",
+      "url": "https://github.com/BritishMuseumDH/rosettaStone/blob/master/README.md",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_writing_trade"
+      ],
+      "priorStatus": "Primary institutional documentation; three-script fact cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Pyramid Complex of Khafre \u2014 Egyptian Ministry of Tourism and Antiquities",
+      "url": "https://egymonuments.gov.eg/monuments/pyramid-complex-of-khafre-khefren/",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [
+        "ss_verified_writing_trade",
+        "ss_verified_writing_trade"
+      ],
+      "priorStatus": "Primary-source factual cross-check",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Focused Reading and Viewing Guide",
+      "url": "https://www.readwritethink.org/lesson_images/lesson46/FocusedReadingViewingGuide.pdf",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Number Line: Integers",
+      "url": "https://phet.colorado.edu/en/simulations/number-line-integers",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [],
+      "priorStatus": "partial",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Creating Chains and Webs to Model Ecological Relationships",
+      "url": "https://www.biointeractive.org/classroom-resources/creating-chains-and-webs-model-ecological-relationships",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Wolf Sheep Predation",
+      "url": "https://ccl.northwestern.edu/netlogo/models/WolfSheepPredation",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Study Guide for Ancient Israel Test",
+      "url": "ancient-israel-maps.html",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "not-rechecked",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Coordinate Plane Song: 4 Quadrant Version",
+      "url": "https://numberock.com/lessons/coordinate-plane-4-quadrants/",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [],
+      "priorStatus": "partial",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "11.1 Use the Rectangular Coordinate System",
+      "url": "https://openstax.org/books/prealgebra-2e/pages/11-1-use-the-rectangular-coordinate-system",
+      "subjects": [
+        "MATH"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "Biosphere",
+      "url": "https://education.nationalgeographic.org/resource/biosphere/",
+      "subjects": [
+        "SCI"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "55 Years at Gombe: Q&A with Jane on Origins of Life Work",
+      "url": "https://janegoodall.org/news/55-years-at-gombe-qa-with-jane-on-origins-of-life-work/",
+      "subjects": [
+        "ELA"
+      ],
+      "lessons": [],
+      "priorStatus": "complete",
+      "reviewStatus": "page-opened-2026-11-06",
+      "contentRead": false,
+      "playbackChecked": false,
+      "checkedAt": "2026-11-06"
+    },
+    {
+      "title": "LearnBPS Egypt",
+      "url": "https://learnbps.bismarckschools.org/mod/book/view.php?chapterid=103271&id=449048",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [],
+      "reviewStatus": "not-content-verified",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Make a Mummy classroom slides",
+      "url": "https://docs.google.com/presentation/d/12A-Ftbm1eMDjT7ZoMYqcyo6CLt6z7OUqpHaaEw6f0bk/edit",
+      "subjects": [
+        "SS"
+      ],
+      "lessons": [],
+      "reviewStatus": "not-content-verified",
+      "contentRead": false,
+      "playbackChecked": false
+    },
+    {
+      "title": "Tennessee academic standards",
+      "url": "https://www.tn.gov/education/districts/academic-standards.html",
+      "subjects": [
+        "ALL"
+      ],
+      "lessons": [],
+      "reviewStatus": "not-content-verified",
+      "contentRead": false,
+      "playbackChecked": false
+    }
+  ],
+  "conflicts": [
+    {
+      "lesson": "ss_verified_social_pyramid",
+      "finding": "An older item places scribes with traders. Assigned OER page 15 places soldiers and scribes together.",
+      "action": "All legacy assessment items remain outside the fresh scoring path pending source reconciliation."
+    }
+  ],
+  "blockingSources": [
+    "Current authenticated Schoology folders and assignments in all five courses",
+    "Latest newsletter and assignment changes",
+    "Assigned textbook pages and linked media not recovered in full",
+    "Theatre teacher slides and exact project directions"
+  ]
+}
