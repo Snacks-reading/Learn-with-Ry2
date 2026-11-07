@@ -103,6 +103,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
           const chosen = field.querySelector('input:checked');
           if (!chosen || Object.hasOwn(answers, target.id)) return;
           answers[target.id] = Number(chosen.value);
+          if (requestedIndex === undefined) history.replaceState(null, '', base + '/' + form + '/' + slot);
           save(); render();
         };
       }
