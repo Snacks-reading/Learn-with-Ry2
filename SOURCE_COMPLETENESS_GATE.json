@@ -14,7 +14,7 @@
         "ela_sofi_review_20261106",
         "ela_explanatory_writing_20261106"
       ],
-      "blocker": "Exact November 9–13 spiral prompts, assigned Hachiko video playback, and restricted or publisher-only content remain unverified."
+      "blocker": "The November Spirals folder showed November 2–6 only. Exact November 9–13 prompts, assigned Hachiko video playback and restricted publisher content remain unverified."
     },
     "MATH": {
       "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
@@ -31,7 +31,7 @@
       "teacherVocabularyCount": 33,
       "practiceForms": 3,
       "questionsPerForm": 42,
-      "blocker": "Schoology confirmed the exact STEMscopedia assignment titles. Publisher login, redirects or retired pages prevented reading the exact assigned text. The released ecology practice covers the recovered classroom packets, 33 displayed terms and teacher notes.",
+      "blocker": "The current Tennessee publisher readers were opened and their text checked for all three assigned ecology scopes. Visual figure verification and full source-to-stage reconciliation remain pending. The active ecology forms are bounded to the recovered classroom packets, 33 displayed terms and teacher notes.",
       "verifiedStandaloneLessons": []
     },
     "SS": {
@@ -52,7 +52,7 @@
     "Verify underlying content still unavailable from previously opened Schoology assessment landing pages and publisher wrappers. Keep opened, read and tested statuses separate.",
     "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the exact ELA spiral and wider math quiz scope.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
-    "Recover the exact STEMscopedia readings through authorized district or publisher access. The 33 displayed StudyMate terms and recovered ecology packets are already reconciled for the focused Science release.",
+    "Complete figure verification and source-to-stage reconciliation for the three recovered Tennessee STEMscopedia readings. The 33 StudyMate terms and recovered teacher packets are already reconciled for the focused Science release.",
     "Verify Theater playback and recover any posted assessment directions or rubric."
   ],
   "conflicts": [
