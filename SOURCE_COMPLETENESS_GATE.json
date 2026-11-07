@@ -3,7 +3,7 @@
   "status": "partial-source-bounded-release",
   "interfaceRelease": "allowed",
   "scores": "fresh namespace; no imported scores",
-  "reviewedScope": "Five public focused lessons, classroom ecology from recovered originals, and three private Egypt forms bounded to recovered sources. The five-course Schoology page census is complete. Underlying source content, media and full-course certification remain open.",
+  "reviewedScope": "Five public focused lessons, classroom ecology from recovered originals, Math Spiral 12 practice and three Egypt practice forms bounded to recovered sources. The five-course Schoology page census is complete. Underlying source content, media and full-course certification remain open.",
   "subjects": {
     "ELA": {
       "status": "four-source-bounded-lessons-released; wider-unit-review-pending",
@@ -22,7 +22,8 @@
       "verifiedStandaloneLessons": [
         "math_expression_vocabulary_20261106"
       ],
-      "blocker": "The six newsletter terms are covered. Schoology confirmed the Big 8 directions. The full expressions quiz and Big 8 question scope and assigned Reveal and IXL activities remain unverified."
+      "blocker": "The six newsletter terms are covered. Schoology confirmed the Big 8 directions. The full expressions quiz and Big 8 question scope and assigned Reveal and IXL activities remain unverified.",
+      "publicPractice": "#unit/MATH"
     },
     "SCI": {
       "status": "recovered-classroom-ecology-release",
@@ -32,14 +33,16 @@
       "practiceForms": 3,
       "questionsPerForm": 42,
       "blocker": "The current Tennessee publisher readers were opened and their text checked for all three assigned ecology scopes. Visual figure verification and full source-to-stage reconciliation remain pending. The active ecology forms are bounded to the recovered classroom packets, 33 displayed terms and teacher notes.",
-      "verifiedStandaloneLessons": []
+      "verifiedStandaloneLessons": [],
+      "publicPractice": "curriculum-2026-11/ecology/index.html"
     },
     "SS": {
       "status": "awaiting-source-reconciliation",
       "assessmentEnabled": false,
       "blocker": "Private forms cover the recovered Egypt scope. Orange-book pages 149–151, Flocabulary playback and exact November 13 test scope remain unverified.",
       "verifiedStandaloneLessons": [],
-      "privatePractice": "https://ry-learning-studio.raynastover.chatgpt.site/?ssTests=1"
+      "privatePractice": "https://ry-learning-studio.raynastover.chatgpt.site/?ssTests=1",
+      "publicPractice": "#unit/SS"
     },
     "THEATER": {
       "status": "awaiting-source-reconciliation",
@@ -101,5 +104,6 @@
     "publisherWrappers": 31,
     "pageCensusComplete": true,
     "underlyingContentReviewComplete": false
-  }
+  },
+  "supplementalScope": "Public-source lessons in all five subjects provide additional practice alongside verified classroom material. Public-source activities are distinct from the assigned originals and do not certify full-course alignment."
 }
