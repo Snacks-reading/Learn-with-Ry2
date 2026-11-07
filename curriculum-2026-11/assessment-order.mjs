@@ -37,6 +37,7 @@ export function personalizeLesson(lesson,user,orderVersion=1){
 // A stage revision can change v2 positions even when an individual item kept its ID.
 const changedV2Stages = {
  fresh_math_order_powers: ['practice', 'check', 'delayed'],
+ fresh_math_spiral12: ['practice', 'check', 'delayed'],
  ss_verified_social_pyramid: ['practice'],
  ss_verified_writing_trade: ['practice']
 };

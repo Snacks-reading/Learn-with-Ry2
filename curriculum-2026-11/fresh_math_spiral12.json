@@ -11,7 +11,9 @@
     "Whole-number division: preserve place value, including a zero in the quotient when needed. Verify by multiplication rather than choosing a digit pattern.",
     "Decimal subtraction: line up decimal points and like place values, adding trailing zeros if useful. “Subtracta fromb” meansb−a.",
     "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship.",
-    "For decimal addition, line up decimal points just as you do in subtraction. For example, 13.08 + 4.2 = 13.08 + 4.20 = 17.28. A number-line absolute value item asks how far a point is from zero. For fraction-to-decimal tables, divide the numerator by the denominator and match the exact result."
+    "On a number line, absolute value measures distance from zero. For example, −8 is farther from zero than 5 because its distance is 8. The number with the largest value is not always the farthest from zero.",
+    "Test each claim about a steady rate by finding the rate for one unit first. If a cyclist travels 3 miles in 21 minutes, the rate is 7 minutes per mile. At the same pace, 2.5 miles takes 17.5 minutes.",
+    "For a fraction-to-decimal table, divide each numerator by its denominator. You can also use an equivalent fraction with a denominator of 10, 100 or 1,000. For example, 3/5 equals 6/10, so it matches 0.6."
   ],
   "model": {
     "prompt": "Original design task: a pattern needs1.5 meters per item for 4 items. You own2.25 meters. A store sells fabric at$6 per meter. How much extra fabric and what cost are needed?",
@@ -515,6 +517,126 @@
         "rationale": "8/3×3/4=2;2×1⅓=2⅔.",
         "supported": true
       }
+    },
+    {
+      "id": "spiral12-qc-practice-03",
+      "objectiveId": "spiral_abs_compare",
+      "type": "single",
+      "prompt": "Which has the greatest absolute value, −6, −2, 5 or 4?",
+      "options": [
+        "−2",
+        "5",
+        "4",
+        "−6"
+      ],
+      "answer": 3,
+      "rationale": "Compare distances from zero. The greatest is 6.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 3
+      },
+      "repair": {
+        "id": "spiral12-qc-practice-03-repair",
+        "objectiveId": "spiral_abs_compare",
+        "type": "single",
+        "prompt": "Which is farther from zero, −9 or 7?",
+        "options": [
+          "−9",
+          "7",
+          "They are equally far.",
+          "Neither number has an absolute value."
+        ],
+        "answer": 0,
+        "rationale": "The distance from zero is 9 for −9 and 7 for 7.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 3
+        },
+        "teach": "Compare distances from zero. The greatest is 6.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-practice-04",
+      "objectiveId": "spiral_equivalent_rate",
+      "type": "single",
+      "prompt": "A skater goes 3 miles in 24 minutes. Which pair uses the same steady pace?",
+      "options": [
+        "1 mile in 8 minutes and 2 miles in 16 minutes",
+        "1 mile in 6 minutes and 2 miles in 16 minutes",
+        "1 mile in 8 minutes and 2 miles in 12 minutes",
+        "1 mile in 6 minutes and 2 miles in 12 minutes"
+      ],
+      "answer": 0,
+      "rationale": "24 ÷ 3 is 8 minutes per mile. Multiply by the distance to predict time.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 4
+      },
+      "repair": {
+        "id": "spiral12-qc-practice-04-repair",
+        "objectiveId": "spiral_equivalent_rate",
+        "type": "single",
+        "prompt": "A runner goes 5 miles in 40 minutes. How much time for 3 miles at that pace?",
+        "options": [
+          "8 minutes",
+          "24 minutes",
+          "15 minutes",
+          "32 minutes"
+        ],
+        "answer": 1,
+        "rationale": "40 ÷ 5 is 8 minutes per mile. Three miles take 24 minutes.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 4
+        },
+        "teach": "24 ÷ 3 is 8 minutes per mile. Multiply by the distance to predict time.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-practice-16",
+      "objectiveId": "spiral_decimal_match",
+      "type": "single",
+      "prompt": "Match 1/5, 3/8 and 1/2 to their decimals in order.",
+      "options": [
+        "0.2, 0.375, 0.5",
+        "0.5, 0.375, 0.2",
+        "0.2, 0.38, 0.5",
+        "0.2, 0.625, 0.5"
+      ],
+      "answer": 0,
+      "rationale": "1 ÷ 5 = 0.2, 3 ÷ 8 = 0.375, and 1 ÷ 2 = 0.5.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 16
+      },
+      "repair": {
+        "id": "spiral12-qc-practice-16-repair",
+        "objectiveId": "spiral_decimal_match",
+        "type": "single",
+        "prompt": "Which decimal equals 7/10?",
+        "options": [
+          "0.07",
+          "0.7",
+          "0.77",
+          "0.17"
+        ],
+        "answer": 1,
+        "rationale": "Seven tenths is written 0.7.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 16
+        },
+        "teach": "1 ÷ 5 = 0.2, 3 ÷ 8 = 0.375, and 1 ÷ 2 = 0.5.",
+        "supported": true
+      }
     }
   ],
   "independentCheck": [
@@ -768,6 +890,126 @@
         "supported": true,
         "id": "spiral_mixed_fraction_division_B-qc-fresh-repair",
         "teach": "Return to the saved response: 5/2÷5/4=5/2×4/5=2;2×1¼=2½. Explain which condition or evidence supports the answer, then apply it to the different case below."
+      }
+    },
+    {
+      "id": "spiral12-qc-independentCheck-03",
+      "objectiveId": "spiral_abs_compare",
+      "type": "single",
+      "prompt": "M is at −3, N at 2, P at 8 and Q at −7. Which point has the greatest absolute value?",
+      "options": [
+        "M",
+        "N",
+        "Q",
+        "P"
+      ],
+      "answer": 3,
+      "rationale": "The distances are 3, 2, 8 and 7. P is farthest.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 3
+      },
+      "repair": {
+        "id": "spiral12-qc-independentCheck-03-repair",
+        "objectiveId": "spiral_abs_compare",
+        "type": "single",
+        "prompt": "V is at −5, W at 4, X at −1 and Y at 7. Which is farthest from zero?",
+        "options": [
+          "Y",
+          "V",
+          "W",
+          "X"
+        ],
+        "answer": 0,
+        "rationale": "Seven is the largest of the four distances.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 3
+        },
+        "teach": "The distances are 3, 2, 8 and 7. P is farthest.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-independentCheck-04",
+      "objectiveId": "spiral_equivalent_rate",
+      "type": "single",
+      "prompt": "A cyclist goes 3 miles in 15 minutes. Which pair of predictions is correct?",
+      "options": [
+        "2 miles in 10 minutes and 3.5 miles in 17.5 minutes",
+        "2 miles in 8 minutes and 3.5 miles in 17.5 minutes",
+        "2 miles in 10 minutes and 3.5 miles in 14 minutes",
+        "2 miles in 8 minutes and 3.5 miles in 14 minutes"
+      ],
+      "answer": 0,
+      "rationale": "The rate is 5 minutes per mile. Both predictions must match that rate.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 4
+      },
+      "repair": {
+        "id": "spiral12-qc-independentCheck-04-repair",
+        "objectiveId": "spiral_equivalent_rate",
+        "type": "single",
+        "prompt": "A runner goes 6 miles in 54 minutes. How long would 2.5 miles take?",
+        "options": [
+          "18 minutes",
+          "22.5 minutes",
+          "21.5 minutes",
+          "27 minutes"
+        ],
+        "answer": 1,
+        "rationale": "The unit rate is 9 minutes per mile. Multiply 9 by 2.5.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 4
+        },
+        "teach": "The rate is 5 minutes per mile. Both predictions must match that rate.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-independentCheck-16",
+      "objectiveId": "spiral_decimal_match",
+      "type": "single",
+      "prompt": "Match 7/20, 11/25 and 5/4 to their decimals in order.",
+      "options": [
+        "0.35, 0.44, 1.25",
+        "0.44, 0.35, 1.25",
+        "0.35, 0.44, 0.125",
+        "0.35, 0.24, 1.25"
+      ],
+      "answer": 0,
+      "rationale": "7/20 = 35/100, 11/25 = 44/100 and 5/4 = 1.25.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 16
+      },
+      "repair": {
+        "id": "spiral12-qc-independentCheck-16-repair",
+        "objectiveId": "spiral_decimal_match",
+        "type": "single",
+        "prompt": "What exact decimal equals 13/20?",
+        "options": [
+          "0.065",
+          "0.65",
+          "0.56",
+          "1.3"
+        ],
+        "answer": 1,
+        "rationale": "13/20 = 65/100, which is 0.65.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 16
+        },
+        "teach": "7/20 = 35/100, 11/25 = 44/100 and 5/4 = 1.25.",
+        "supported": true
       }
     }
   ],
@@ -1023,12 +1265,132 @@
         "id": "spiral_mixed_fraction_division_D-qc-fresh-repair",
         "teach": "Return to the saved response: 7/4÷7/3=7/4×3/7=3/4;3/4×2⅓=1¾. Explain which condition or evidence supports the answer, then apply it to the different case below."
       }
+    },
+    {
+      "id": "spiral12-qc-delayed-03",
+      "objectiveId": "spiral_abs_compare",
+      "type": "single",
+      "prompt": "Which number is farther from zero than −5?",
+      "options": [
+        "−4",
+        "−1",
+        "6",
+        "3"
+      ],
+      "answer": 2,
+      "rationale": "Its absolute value is 6, which is greater than 5.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 3
+      },
+      "repair": {
+        "id": "spiral12-qc-delayed-03-repair",
+        "objectiveId": "spiral_abs_compare",
+        "type": "single",
+        "prompt": "Which number is farther from zero than 8?",
+        "options": [
+          "−7",
+          "−2",
+          "6",
+          "−9"
+        ],
+        "answer": 3,
+        "rationale": "The absolute value of −9 is 9. The other distances are smaller than 8.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 3
+        },
+        "teach": "Its absolute value is 6, which is greater than 5.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-delayed-04",
+      "objectiveId": "spiral_equivalent_rate",
+      "type": "single",
+      "prompt": "A kayak covers 4 miles in 28 minutes at a steady pace. Which claim is true?",
+      "options": [
+        "One mile takes 6 minutes.",
+        "3 miles takes 20 minutes.",
+        "5 miles takes 32 minutes.",
+        "2.5 miles takes 17.5 minutes."
+      ],
+      "answer": 3,
+      "rationale": "28 ÷ 4 gives 7 minutes per mile. Multiply 7 by 2.5 to get 17.5.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 4
+      },
+      "repair": {
+        "id": "spiral12-qc-delayed-04-repair",
+        "objectiveId": "spiral_equivalent_rate",
+        "type": "single",
+        "prompt": "A trolley travels 2 miles in 16 minutes. Which claim matches that rate?",
+        "options": [
+          "3.5 miles takes 28 minutes.",
+          "3 miles takes 21 minutes.",
+          "4 miles takes 28 minutes.",
+          "5 miles takes 42 minutes."
+        ],
+        "answer": 0,
+        "rationale": "The unit rate is 8 minutes per mile. At that rate 3.5 miles takes 28 minutes.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 4
+        },
+        "teach": "28 ÷ 4 gives 7 minutes per mile. Multiply 7 by 2.5 to get 17.5.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-delayed-16",
+      "objectiveId": "spiral_decimal_match",
+      "type": "single",
+      "prompt": "Match 9/20, 7/25 and 7/4 to their decimals in order.",
+      "options": [
+        "0.28, 0.45, 1.75",
+        "0.45, 0.28, 0.175",
+        "0.45, 0.725, 1.75",
+        "0.45, 0.28, 1.75"
+      ],
+      "answer": 3,
+      "rationale": "9/20 = 45/100, 7/25 = 28/100 and 7/4 = 1.75.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 16
+      },
+      "repair": {
+        "id": "spiral12-qc-delayed-16-repair",
+        "objectiveId": "spiral_decimal_match",
+        "type": "single",
+        "prompt": "Which exact decimal equals 17/25?",
+        "options": [
+          "0.68",
+          "0.17",
+          "0.625",
+          "0.72"
+        ],
+        "answer": 0,
+        "rationale": "17/25 = 68/100, which is 0.68.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 16
+        },
+        "teach": "9/20 = 45/100, 7/25 = 28/100 and 7/4 = 1.75.",
+        "supported": true
+      }
     }
   ],
   "proof": {
-    "prompt": "Choose one fresh example from EACH prerequisite: decimal multistep, decimal division, unit rate, fraction division, percent part/whole, whole-number division, decimal subtraction ratio orientation and mixed-number division. Show the setup, calculation, units and a check. For at least two, explain why a plausible wrong operation fails. Each prerequisite is reviewed separately; a high average cannot hide one gap.",
+    "prompt": "Choose one fresh example from each of the twelve skills in this lesson. Show the setup, calculation, units and a check. For two examples, explain why a plausible wrong operation fails.",
     "criteria": [
-      "Correct method for each of the nine prerequisite objectives.",
+      "Correct method for each of the twelve skills.",
       "Accurate computation and preserved place value.",
       "Units/reference whole/order correctly interpreted.",
       "Reasonableness or inverse-operation check.",
@@ -1043,7 +1405,10 @@
       "spiral_whole_division",
       "spiral_decimal_subtraction",
       "spiral_ratio_orientation",
-      "spiral_mixed_fraction_division"
+      "spiral_mixed_fraction_division",
+      "spiral_abs_compare",
+      "spiral_equivalent_rate",
+      "spiral_decimal_match"
     ]
   },
   "objectiveIds": [
@@ -1055,11 +1420,14 @@
     "spiral_whole_division",
     "spiral_decimal_subtraction",
     "spiral_ratio_orientation",
-    "spiral_mixed_fraction_division"
+    "spiral_mixed_fraction_division",
+    "spiral_abs_compare",
+    "spiral_equivalent_rate",
+    "spiral_decimal_match"
   ],
   "links": {
     "prior": "Review Rational numbers for number-line distance and Big 8 for the exact fraction-to-decimal matches.",
-    "current": "All16 PSP12 item demands, with number-line/absolute-value and fraction-matching supported by the companion Rational and Big8 lessons.",
+    "current": "Use twelve skills to answer all sixteen practice types, including rate statements, number-line comparisons and fraction-to-decimal matches.",
     "future": "Carry this reasoning into Communicate a decision someone else can follow. Use the new context to test where the connection holds and where it stops.",
     "realLife": "Plan fabric, recipes, prices, travel and project supplies by interpreting units before choosing operations.",
     "priorLessonId": "fresh_math_rational_reasoning",
@@ -1072,14 +1440,14 @@
   },
   "sources": [
     {
-      "title": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1",
-      "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
-      "status": "complete source task-format recovery; original parallel items here"
-    },
-    {
+      "sourceId": "teacher-problem-solving-practice-12",
       "title": "Problem Solving Practice 12",
       "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
-      "status": "Two-page classroom original recovered and skill families checked"
+      "pages": [
+        1,
+        2
+      ],
+      "status": "Both pages visually checked. Practice test C uses original parallel questions."
     }
   ],
   "vocabulary": [
@@ -1173,7 +1541,7 @@
     },
     {
       "day": 7,
-      "prompt": "A runner covers5 miles in 42.5 minutes. Find minutes per mile and use the rate to predict8 miles. Separately,28 of160 club members attend an event: find the attendance percent and identify the reference whole.",
+      "prompt": "A runner covers5 miles in 42.5 minutes. Find minutes per mile and use the rate to predict8 miles. Separately,28 of160 club members attend an event: find the attendance percent and identify the reference whole. Then compare two predictions for a 6-mile run, one at 48 minutes and one at 51 minutes, and explain which matches the rate.",
       "criteria": [
         "All requested computations/setups accurate.",
         "Explains why the method matches the quantities.",
@@ -1185,7 +1553,7 @@
     },
     {
       "day": 14,
-      "prompt": "A sewing kit has 16 silver and24 gold buttons: give silver:gold and silver:all ratios in simplest form. Then compute2½÷1⅔ and verify quotient×divisor. Explain how division by a fractional piece size can model cutting material.",
+      "prompt": "A sewing kit has 16 silver and24 gold buttons: give silver:gold and silver:all ratios in simplest form. Then compute2½÷1⅔ and verify quotient×divisor. Explain how division by a fractional piece size can model cutting material. Decide which point is farther from zero, −8 or 6, and show how you know.",
       "criteria": [
         "All requested computations/setups accurate.",
         "Explains why the method matches the quantities.",
@@ -1197,7 +1565,7 @@
     },
     {
       "day": 30,
-      "prompt": "Evaluate3,150÷15 and27.6÷2.4. Verify each by multiplication and estimate whether the result’s place value makes sense. Explain how scaling both dividend and divisor in the decimal problem preserves its quotient.",
+      "prompt": "Evaluate3,150÷15 and27.6÷2.4. Verify each by multiplication and estimate whether the result’s place value makes sense. Explain how scaling both dividend and divisor in the decimal problem preserves its quotient. Convert 7/20 to a decimal and explain the match.",
       "criteria": [
         "All requested computations/setups accurate.",
         "Explains why the method matches the quantities.",
@@ -1220,5 +1588,648 @@
   },
   "nextLessonId": "lf_communication",
   "gameVersion": "884259ca",
-  "contentVersion": "3b31f1d01a30c2e0"
+  "contentVersion": "3b31f1d01a30c2e0",
+  "masteryCheck": [
+    {
+      "id": "spiral12-qc-complete-01",
+      "objectiveId": "spiral_decimal_multistep",
+      "type": "single",
+      "prompt": "Each of 6 costume panels needs 1.4 meters of fabric. The crew has 2.65 meters. How many more meters does it need?",
+      "options": [
+        "8.4 meters",
+        "5.75 meters",
+        "3.75 meters",
+        "11.05 meters"
+      ],
+      "answer": 1,
+      "rationale": "The total needed is 6 × 1.4 = 8.4 meters. Subtract 2.65 to get 5.75 more meters.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 1
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-01-repair",
+        "objectiveId": "spiral_decimal_multistep",
+        "type": "single",
+        "prompt": "Four batches need 1.6 cups each. You have 2.35 cups. How many more cups are needed?",
+        "options": [
+          "6.4 cups",
+          "3.95 cups",
+          "4.05 cups",
+          "8.75 cups"
+        ],
+        "answer": 2,
+        "rationale": "Four batches need 6.4 cups. Subtract the 2.35 cups already available.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 1
+        },
+        "teach": "The total needed is 6 × 1.4 = 8.4 meters. Subtract 2.65 to get 5.75 more meters.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-02",
+      "objectiveId": "spiral_decimal_division",
+      "type": "single",
+      "prompt": "Evaluate 24.57 ÷ 3.9.",
+      "options": [
+        "0.63",
+        "63",
+        "6.3",
+        "6.03"
+      ],
+      "answer": 2,
+      "rationale": "Scale both numbers by ten. Then 245.7 ÷ 39 = 6.3, and 3.9 × 6.3 = 24.57.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 2
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-02-repair",
+        "objectiveId": "spiral_decimal_division",
+        "type": "single",
+        "prompt": "Evaluate 35.84 ÷ 5.6.",
+        "options": [
+          "0.64",
+          "64",
+          "6.04",
+          "6.4"
+        ],
+        "answer": 3,
+        "rationale": "Scale both numbers by ten. Then 358.4 ÷ 56 = 6.4, and 5.6 × 6.4 = 35.84.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 2
+        },
+        "teach": "Scale both numbers by ten. Then 245.7 ÷ 39 = 6.3, and 3.9 × 6.3 = 24.57.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-03",
+      "objectiveId": "spiral_abs_compare",
+      "type": "single",
+      "prompt": "Points on a number line are A at −7, B at −3, C at 4 and D at 6. Which statement is true?",
+      "options": [
+        "B has the greatest absolute value.",
+        "D has the greatest absolute value.",
+        "C is farther from zero than D.",
+        "A has the greatest absolute value."
+      ],
+      "answer": 3,
+      "rationale": "Their distances from zero are 7, 3, 4 and 6. A is farthest from zero.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 3
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-03-repair",
+        "objectiveId": "spiral_abs_compare",
+        "type": "single",
+        "prompt": "Points P, Q, R and S are at −2, −8, 5 and 7. Which point is farthest from zero?",
+        "options": [
+          "Q",
+          "P",
+          "R",
+          "S"
+        ],
+        "answer": 0,
+        "rationale": "The distance from −8 to zero is 8, which is greater than 2, 5 and 7.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 3
+        },
+        "teach": "Their distances from zero are 7, 3, 4 and 6. A is farthest from zero.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-04",
+      "objectiveId": "spiral_equivalent_rate",
+      "type": "single",
+      "prompt": "A walker covers 4 miles in 36 minutes at a steady pace. In this order, decide whether each claim is true or false. 1) One mile takes 8 minutes. 2) Two miles take 18 minutes. 3) 3.5 miles take 31.5 minutes. 4) Five miles take 40 minutes.",
+      "options": [
+        "False, true, true, false",
+        "True, true, false, false",
+        "False, false, true, true",
+        "True, false, true, false"
+      ],
+      "answer": 0,
+      "rationale": "36 ÷ 4 = 9 minutes per mile. The four predicted times are 9, 18, 31.5 and 45 minutes.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 4
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-04-repair",
+        "objectiveId": "spiral_equivalent_rate",
+        "type": "single",
+        "prompt": "A cyclist travels 6 miles in 42 minutes. Which pair of predictions uses the same steady pace?",
+        "options": [
+          "2 miles in 12 minutes and 4.5 miles in 31.5 minutes",
+          "2 miles in 14 minutes and 4.5 miles in 31.5 minutes",
+          "2 miles in 14 minutes and 4.5 miles in 27 minutes",
+          "2 miles in 12 minutes and 4.5 miles in 27 minutes"
+        ],
+        "answer": 1,
+        "rationale": "The unit rate is 42 ÷ 6 = 7 minutes per mile. Multiply both mile amounts by 7.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 4
+        },
+        "teach": "36 ÷ 4 = 9 minutes per mile. The four predicted times are 9, 18, 31.5 and 45 minutes.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-05",
+      "objectiveId": "spiral_unit_rate",
+      "type": "single",
+      "prompt": "Which statement describes a correct unit rate?",
+      "options": [
+        "Six markers for $9 cost $1 per marker.",
+        "Five notebooks for $12.50 cost $2.50 per notebook.",
+        "Eight buttons for $6 cost $2 per button.",
+        "Four rulers for $7 cost $3.50 per ruler."
+      ],
+      "answer": 1,
+      "rationale": "Divide dollars by items. Only $12.50 ÷ 5 = $2.50 per item matches.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 5
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-05-repair",
+        "objectiveId": "spiral_unit_rate",
+        "type": "single",
+        "prompt": "Which statement correctly gives the cost for one item?",
+        "options": [
+          "Four folders for $9 cost $4 per folder.",
+          "Five pens for $15 cost $5 per pen.",
+          "Three spools for $10.50 cost $3.50 per spool.",
+          "Two brushes for $7 cost $7 per brush."
+        ],
+        "answer": 2,
+        "rationale": "10.50 ÷ 3 = 3.50 dollars per spool.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 5
+        },
+        "teach": "Divide dollars by items. Only $12.50 ÷ 5 = $2.50 per item matches.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-06",
+      "objectiveId": "spiral_mixed_fraction_division",
+      "type": "single",
+      "prompt": "Evaluate 2 1/4 ÷ 3/4. Which answer and check are correct?",
+      "options": [
+        "3, since 3 × 4/3 = 2 1/4",
+        "1/3, since 1/3 × 3/4 = 2 1/4",
+        "3, since 3 × 3/4 = 2 1/4",
+        "1 1/2, since 1 1/2 × 3/4 = 2 1/4"
+      ],
+      "answer": 2,
+      "rationale": "2 1/4 is 9/4. The quotient is 9/4 × 4/3 = 3. The quotient times the divisor gives the dividend.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 6
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-06-repair",
+        "objectiveId": "spiral_mixed_fraction_division",
+        "type": "single",
+        "prompt": "Evaluate 2 1/2 ÷ 5/8. Which answer and check are correct?",
+        "options": [
+          "4, since 4 × 8/5 = 2 1/2",
+          "1/4, since 1/4 × 5/8 = 2 1/2",
+          "2, since 2 × 5/8 = 2 1/2",
+          "4, since 4 × 5/8 = 2 1/2"
+        ],
+        "answer": 3,
+        "rationale": "2 1/2 is 5/2. Multiply it by 8/5 to get 4, then check 4 × 5/8 = 5/2.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 6
+        },
+        "teach": "2 1/4 is 9/4. The quotient is 9/4 × 4/3 = 3. The quotient times the divisor gives the dividend.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-07",
+      "objectiveId": "spiral_percent_part_whole",
+      "type": "single",
+      "prompt": "Of 360 students, 234 signed up for a field trip. What percent signed up?",
+      "options": [
+        "35%",
+        "64%",
+        "75%",
+        "65%"
+      ],
+      "answer": 3,
+      "rationale": "234 ÷ 360 = 0.65. Multiply by 100 to get 65%.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 7
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-07-repair",
+        "objectiveId": "spiral_percent_part_whole",
+        "type": "single",
+        "prompt": "Of 240 entries, 168 used recycled material. What percent used recycled material?",
+        "options": [
+          "70%",
+          "35%",
+          "60%",
+          "75%"
+        ],
+        "answer": 0,
+        "rationale": "168 ÷ 240 = 0.70, so the percentage is 70%.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 7
+        },
+        "teach": "234 ÷ 360 = 0.65. Multiply by 100 to get 65%.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-08",
+      "objectiveId": "spiral_fraction_division",
+      "type": "single",
+      "prompt": "A 10-foot ribbon is cut into pieces that are 5/8 of a foot each. How many complete pieces will it make?",
+      "options": [
+        "16 pieces",
+        "6 pieces",
+        "8 pieces",
+        "15 pieces"
+      ],
+      "answer": 0,
+      "rationale": "10 ÷ 5/8 = 10 × 8/5 = 16. Check 16 × 5/8 = 10 feet.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 1,
+        "task": 8
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-08-repair",
+        "objectiveId": "spiral_fraction_division",
+        "type": "single",
+        "prompt": "A 12-foot cord is cut into 3/5-foot lengths. How many complete lengths will it make?",
+        "options": [
+          "7 lengths",
+          "20 lengths",
+          "15 lengths",
+          "24 lengths"
+        ],
+        "answer": 1,
+        "rationale": "12 ÷ 3/5 = 12 × 5/3 = 20. Twenty pieces of 3/5 foot make 12 feet.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 1,
+          "task": 8
+        },
+        "teach": "10 ÷ 5/8 = 10 × 8/5 = 16. Check 16 × 5/8 = 10 feet.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-09",
+      "objectiveId": "spiral_whole_division",
+      "type": "single",
+      "prompt": "Find the quotient 6,084 ÷ 26.",
+      "options": [
+        "24",
+        "234",
+        "204",
+        "2,340"
+      ],
+      "answer": 1,
+      "rationale": "26 × 234 = 6,084. The quotient should be in the hundreds because 26 × 200 is 5,200.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 9
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-09-repair",
+        "objectiveId": "spiral_whole_division",
+        "type": "single",
+        "prompt": "Find the quotient 4,725 ÷ 21.",
+        "options": [
+          "24",
+          "204",
+          "225",
+          "2,340"
+        ],
+        "answer": 2,
+        "rationale": "Check the quotient by multiplying. 21 × 225 = 4,725.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 9
+        },
+        "teach": "26 × 234 = 6,084. The quotient should be in the hundreds because 26 × 200 is 5,200.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-10",
+      "objectiveId": "spiral_decimal_subtraction",
+      "type": "single",
+      "prompt": "Subtract 7.8 from 63.205.",
+      "options": [
+        "55.125",
+        "56.405",
+        "55.405",
+        "71.005"
+      ],
+      "answer": 2,
+      "rationale": "Line up decimal places and compute 63.205 − 7.800 = 55.405.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 10
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-10-repair",
+        "objectiveId": "spiral_decimal_subtraction",
+        "type": "single",
+        "prompt": "Subtract 4.6 from 81.309.",
+        "options": [
+          "76.609",
+          "77.709",
+          "85.909",
+          "76.709"
+        ],
+        "answer": 3,
+        "rationale": "Compute 81.309 − 4.600. The difference is 76.709.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 10
+        },
+        "teach": "Line up decimal places and compute 63.205 − 7.800 = 55.405.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-11",
+      "objectiveId": "spiral_ratio_orientation",
+      "type": "single",
+      "prompt": "There are 21 blue tags and 14 green tags. What is the ratio of blue to green tags in simplest form?",
+      "options": [
+        "2:3",
+        "3:5",
+        "2:5",
+        "3:2"
+      ],
+      "answer": 3,
+      "rationale": "Keep blue first. The ratio 21:14 simplifies to 3:2 when both numbers are divided by 7.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 11
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-11-repair",
+        "objectiveId": "spiral_ratio_orientation",
+        "type": "single",
+        "prompt": "There are 16 silver rings and 24 gold rings. What is the ratio of silver to gold rings in simplest form?",
+        "options": [
+          "2:3",
+          "3:2",
+          "2:5",
+          "3:5"
+        ],
+        "answer": 0,
+        "rationale": "Keep silver first. Divide 16:24 by 8 to get 2:3.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 11
+        },
+        "teach": "Keep blue first. The ratio 21:14 simplifies to 3:2 when both numbers are divided by 7.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-12",
+      "objectiveId": "spiral_whole_division",
+      "type": "single",
+      "prompt": "Evaluate 928 ÷ 32.",
+      "options": [
+        "29",
+        "19",
+        "28",
+        "290"
+      ],
+      "answer": 0,
+      "rationale": "32 × 29 = 928. The quotient is one less than 30 because 32 × 30 = 960.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 12
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-12-repair",
+        "objectiveId": "spiral_whole_division",
+        "type": "single",
+        "prompt": "Evaluate 936 ÷ 36.",
+        "options": [
+          "16",
+          "26",
+          "25",
+          "260"
+        ],
+        "answer": 1,
+        "rationale": "36 × 26 = 936. Twenty groups are 720, and six more are 216.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 12
+        },
+        "teach": "32 × 29 = 928. The quotient is one less than 30 because 32 × 30 = 960.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-13",
+      "objectiveId": "spiral_percent_part_whole",
+      "type": "single",
+      "prompt": "What percent of 320 is 52?",
+      "options": [
+        "6.15%",
+        "16.25%",
+        "16%",
+        "61.54%"
+      ],
+      "answer": 1,
+      "rationale": "52 ÷ 320 = 0.1625. Multiplying by 100 gives 16.25%.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 13
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-13-repair",
+        "objectiveId": "spiral_percent_part_whole",
+        "type": "single",
+        "prompt": "What percent of 200 is 37?",
+        "options": [
+          "1.85%",
+          "17%",
+          "18.5%",
+          "54%"
+        ],
+        "answer": 2,
+        "rationale": "37 ÷ 200 = 0.185. Multiply by 100 for 18.5%.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 13
+        },
+        "teach": "52 ÷ 320 = 0.1625. Multiplying by 100 gives 16.25%.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-14",
+      "objectiveId": "spiral_unit_rate",
+      "type": "single",
+      "prompt": "A van travels 119 miles using 7 gallons. What is its rate in miles per gallon?",
+      "options": [
+        "7 miles per gallon",
+        "16 miles per gallon",
+        "17 miles per gallon",
+        "833 miles per gallon"
+      ],
+      "answer": 2,
+      "rationale": "Miles per gallon means 119 miles ÷ 7 gallons, which is 17 miles per gallon.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 14
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-14-repair",
+        "objectiveId": "spiral_unit_rate",
+        "type": "single",
+        "prompt": "A car travels 132 miles using 8 gallons. What is its rate in miles per gallon?",
+        "options": [
+          "16 miles per gallon",
+          "8 miles per gallon",
+          "1,056 miles per gallon",
+          "16.5 miles per gallon"
+        ],
+        "answer": 3,
+        "rationale": "132 ÷ 8 = 16.5. Miles are divided by gallons.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 14
+        },
+        "teach": "Miles per gallon means 119 miles ÷ 7 gallons, which is 17 miles per gallon.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-15",
+      "objectiveId": "spiral_mixed_fraction_division",
+      "type": "single",
+      "prompt": "Divide 2 1/3 ÷ 3 1/2.",
+      "options": [
+        "3/2",
+        "5/6",
+        "8 1/6",
+        "2/3"
+      ],
+      "answer": 3,
+      "rationale": "Use improper fractions. 7/3 ÷ 7/2 = 7/3 × 2/7 = 2/3.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 15
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-15-repair",
+        "objectiveId": "spiral_mixed_fraction_division",
+        "type": "single",
+        "prompt": "Divide 1 3/4 ÷ 2 1/3.",
+        "options": [
+          "3/4",
+          "4/3",
+          "5/6",
+          "4 1/12"
+        ],
+        "answer": 0,
+        "rationale": "Convert to 7/4 and 7/3. Then 7/4 × 3/7 = 3/4.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 15
+        },
+        "teach": "Use improper fractions. 7/3 ÷ 7/2 = 7/3 × 2/7 = 2/3.",
+        "supported": true
+      }
+    },
+    {
+      "id": "spiral12-qc-complete-16",
+      "objectiveId": "spiral_decimal_match",
+      "type": "single",
+      "prompt": "Match 3/5, 1/4, 7/8 and 3/10 to their decimal values in that order.",
+      "options": [
+        "0.6, 0.25, 0.875, 0.3",
+        "0.3, 0.25, 0.875, 0.6",
+        "0.6, 0.125, 0.875, 0.3",
+        "0.6, 0.25, 0.785, 0.3"
+      ],
+      "answer": 0,
+      "rationale": "Divide numerator by denominator. The four quotients are 0.6, 0.25, 0.875 and 0.3.",
+      "sourceRef": {
+        "sourceId": "teacher-problem-solving-practice-12",
+        "page": 2,
+        "task": 16
+      },
+      "repair": {
+        "id": "spiral12-qc-complete-16-repair",
+        "objectiveId": "spiral_decimal_match",
+        "type": "single",
+        "prompt": "Match 2/5, 5/8, 9/10 and 3/4 to their decimals in that order.",
+        "options": [
+          "0.625, 0.4, 0.9, 0.75",
+          "0.4, 0.625, 0.9, 0.75",
+          "0.4, 0.625, 0.75, 0.9",
+          "0.4, 0.825, 0.9, 0.75"
+        ],
+        "answer": 1,
+        "rationale": "Divide each numerator by its denominator. Keep the fractions in the given order.",
+        "sourceRef": {
+          "sourceId": "teacher-problem-solving-practice-12",
+          "page": 2,
+          "task": 16
+        },
+        "teach": "Divide numerator by denominator. The four quotients are 0.6, 0.25, 0.875 and 0.3.",
+        "supported": true
+      }
+    }
+  ],
+  "scope": "Practice test C covers all 16 task types from Problem Solving Practice 12. Use your own reasoning and check units or the size of your answer."
 }

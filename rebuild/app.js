@@ -2,7 +2,17 @@
 const CURRENT_KEY = 'learn-with-ry:2026-11-06';
 const SUBJECTS = {ELA:{name:'ELA',topic:'Reading, writing and language'},MATH:{name:'Math',topic:'Numbers, expressions and reasoning'},SCI:{name:'Science',topic:'Ecosystems and connections'},SS:{name:'Social Studies',topic:'Ancient Egypt'},THEATER:{name:'Theater',topic:'Performance and classroom projects'}};
 const STAGES = ['Teach','Guided practice','Independent application','Assessment','Retention'];
-let catalog, releaseGate, readingText = '', generation = 0;
+let catalog, releaseGate, readingText = '', generation = 0, recording = null, speechTimer;
+const recordedLessons = new Set([
+  'ela_explanatory_writing_20261106', 'ela_hachiko_prereading_20261106',
+  'ela_hachiko_story_20261106', 'ela_sofi_review_20261106', 'math_expression_vocabulary_20261106'
+]);
+const audioStatus = document.getElementById('audio-status');
+const recordedButton = document.getElementById('recorded');
+function setRecordedLesson(id){
+  recordedButton.hidden=!recordedLessons.has(id);
+  recordedButton.dataset.source=recordedButton.hidden?'':'rebuild/recorded/'+id+'.mp3';
+}
 function isLessonReleased(l){return Boolean(l&&l.releaseStatus==='verified'&&l.assessmentEnabled&&releaseGate?.subjects[l.subject]?.verifiedStandaloneLessons?.includes(l.id));}
 let state = {bookmarks:{},writing:{},visits:{},attempts:[]};
 let storageAvailable = true;
@@ -11,12 +21,84 @@ function save(){try{localStorage.setItem(CURRENT_KEY,JSON.stringify({...state,re
 function el(tag,text,cls){const n=document.createElement(tag);if(text!==undefined)n.textContent=text;if(cls)n.className=cls;return n;}
 function add(parent,tag,text,cls){const n=el(tag,text,cls);parent.append(n);return n;}
 function link(parent,text,href,cls){const a=add(parent,'a',text,cls);a.href=href;return a;}
-function stopAudio(){generation++;if('speechSynthesis'in window)window.speechSynthesis.cancel();document.getElementById('audio-status').textContent='';}
+function stopAudio(){
+  generation++;
+  clearTimeout(speechTimer);
+  window.speechSynthesis?.cancel();
+  if(recording){recording.pause();recording=null;}
+  audioStatus.textContent='';
+}
 function voices(){const select=document.getElementById('voice');const old=select.value;select.replaceChildren(new Option('Available English voice',''));if(!('speechSynthesis'in window))return;window.speechSynthesis.getVoices().filter(v=>/^en/.test(v.lang)).forEach(v=>select.add(new Option(v.name,v.voiceURI)));select.value=old;}
-function speak(text){stopAudio();const status=document.getElementById('audio-status');if(!('speechSynthesis'in window)){status.textContent='Read aloud is unavailable in this browser.';return;}if(!text.trim()){status.textContent='Choose a lesson or page to read.';return;}const token=generation;const chunks=text.match(/[^.!?]+[.!?]+|[^.!?]+$/g)||[text];let i=0;function next(){if(token!==generation)return;if(i>=chunks.length){status.textContent='Finished reading.';return;}const u=new SpeechSynthesisUtterance(chunks[i++]);u.rate=Number(document.getElementById('rate').value);const available=window.speechSynthesis.getVoices();const chosen=document.getElementById('voice').value;u.voice=available.find(v=>v.voiceURI===chosen)||available.find(v=>/^en-US/.test(v.lang)&&/Samantha|Aria|Jenny|Karen|Natural/i.test(v.name))||available.find(v=>/^en/.test(v.lang))||null;u.onend=next;u.onerror=()=>{if(token===generation)status.textContent='Audio stopped. Tap Read to try again.';};window.speechSynthesis.speak(u);status.textContent='Reading';}next();}
-document.getElementById('read').onclick=()=>speak(readingText);
-document.getElementById('pause').onclick=()=>{if('speechSynthesis'in window){window.speechSynthesis.pause();document.getElementById('audio-status').textContent='Paused';}};
-document.getElementById('resume').onclick=()=>{if('speechSynthesis'in window){window.speechSynthesis.resume();document.getElementById('audio-status').textContent='Resuming';}};
+function playRecording(){
+  stopAudio();
+  const audio=recording=new Audio(recordedButton.dataset.source);
+  audio.playbackRate=Number(document.getElementById('rate').value);
+  audioStatus.textContent='Loading recorded audio…';
+  function failed(){
+    if(recording!==audio)return;
+    stopAudio();
+    audioStatus.textContent='The recording could not load. Tap Play recorded audio to retry.';
+  }
+  audio.onplaying=()=>{if(recording===audio){clearTimeout(speechTimer);audioStatus.textContent='Playing recorded audio.';}};
+  audio.onended=()=>{if(recording===audio){recording=null;audioStatus.textContent='Finished reading.';}};
+  audio.onerror=failed;
+  speechTimer=setTimeout(failed,8000);
+  audio.play().catch(failed);
+}
+function speak(text,allowRecording=false){
+  stopAudio();
+  const synth=window.speechSynthesis;
+  const available=synth?.getVoices().filter(v=>/^en/i.test(v.lang))||[];
+  const hasRecording=allowRecording&&!recordedButton.hidden;
+  if(hasRecording&&!available.length){playRecording();return;}
+  if(!synth||typeof SpeechSynthesisUtterance==='undefined'){audioStatus.textContent='This browser does not provide a reading voice.';return;}
+  if(!text.trim()){audioStatus.textContent='Choose a lesson or page to read.';return;}
+  const token=generation;
+  const chosen=document.getElementById('voice').value;
+  const voice=available.find(v=>v.voiceURI===chosen)||available.find(v=>v.lang==='en-US'&&/Samantha|Aria|Jenny|Karen|Natural/i.test(v.name))||available[0];
+  const chunks=text.match(/.{1,180}(?:\s|$)|\S+/gs)||[text];
+  let index=0;
+  function fail(){
+    if(token!==generation)return;
+    stopAudio();
+    audioStatus.textContent=hasRecording?'The device voice stopped. Use Play recorded audio.':'The device voice did not finish. Check your device’s English speech settings and try again.';
+  }
+  function next(){
+    if(token!==generation)return;
+    clearTimeout(speechTimer);
+    if(index===chunks.length){audioStatus.textContent='Finished reading.';return;}
+    const utterance=new SpeechSynthesisUtterance(chunks[index++]);
+    utterance.lang='en-US';
+    utterance.rate=Number(document.getElementById('rate').value);
+    if(voice)utterance.voice=voice;
+    utterance.onstart=()=>{if(token===generation){clearTimeout(speechTimer);audioStatus.textContent='Reading aloud.';}};
+    utterance.onend=next;
+    utterance.onerror=fail;
+    audioStatus.textContent='Starting read-aloud…';
+    speechTimer=setTimeout(fail,6000);
+    synth.speak(utterance);
+  }
+  synth.resume();
+  next();
+}
+recordedButton.onclick=playRecording;
+document.getElementById('read').onclick=()=>speak(readingText,true);
+document.getElementById('pause').onclick=()=>{
+  if(recording)recording.pause();
+  else if(window.speechSynthesis?.speaking)window.speechSynthesis.pause();
+  else return;
+  clearTimeout(speechTimer);
+  audioStatus.textContent='Paused.';
+};
+document.getElementById('resume').onclick=()=>{
+  if(recording){
+    const audio=recording;
+    audio.play().catch(()=>{if(recording===audio)audioStatus.textContent='The recording could not resume.';});
+  }else if(window.speechSynthesis?.paused){
+    window.speechSynthesis.resume();
+    audioStatus.textContent='Reading aloud.';
+  }
+};
 document.getElementById('stop').onclick=stopAudio;
 document.getElementById('rate').onchange=stopAudio;document.getElementById('voice').onchange=stopAudio;
 if('speechSynthesis'in window){voices();window.speechSynthesis.addEventListener('voiceschanged',voices);}window.addEventListener('pagehide',stopAudio);document.addEventListener('visibilitychange',()=>{if(document.hidden)stopAudio();});
@@ -60,8 +142,8 @@ function renderReconciliation(main){
 }
 function exportHistory(){const out={current:state,archive:{}};try{for(let i=0;i<localStorage.length;i++){const k=localStorage.key(i);if(k!==CURRENT_KEY&&/ry|egypt|speller|studio/i.test(k))out.archive[k]=localStorage.getItem(k);}}catch(error){alert('This browser could not read local history.');return;}const url=URL.createObjectURL(new Blob([JSON.stringify(out,null,2)],{type:'application/json'}));const a=el('a');a.href=url;a.download='Learn-With-Ry-history.json';a.click();setTimeout(()=>URL.revokeObjectURL(url),1000);}
 function sourceView(main){intro(main,'Classroom Sources','What supports each lesson','Check the original materials, the review status and the remaining classroom requirements.');add(main,'p','A page opening successfully does not establish that every page, diagram or video was reviewed.','muted');const box=add(main,'div',undefined,'notice');add(box,'h2','Still needed for the complete rebuild');catalog.blockingSources.forEach(s=>add(box,'p',s));if(catalog.weeklyPriorities){add(main,'h2','November 6 newsletter priorities');catalog.weeklyPriorities.forEach(t=>{const row=add(main,'section',undefined,'source');add(row,'h3',t.title+' · '+t.date);add(row,'p',t.detail);add(row,'span',t.status,'badge');});}renderReconciliation(main);add(main,'h2','Source register');catalog.sources.forEach(s=>{const row=add(main,'section',undefined,'source');add(row,'h3',s.title);add(row,'span',s.reviewStatus.replaceAll('-',' '),'badge');add(row,'p',s.subjects.map(x=>SUBJECTS[x]?.name||x).join(' · '),'muted');if(s.notes)add(row,'p',s.notes);if(s.url)link(row,'Open original source',s.url);});link(main,'Full source ledger','SOURCE_LEDGER.md');add(main,'p');link(main,'Current governance','GOVERNANCE.md');}
-function preview(main,id,parentAudio=false){const lesson=catalog.lessons.find(x=>x.id===id);if(!lesson){add(main,'h1','Lesson not found');return;}intro(main,lesson.releaseStatus==='verified'?'Learn With Rayna':'Source review preview',lesson.title,lesson.releaseStatus==='verified'?lesson.scopeStatus:'Prior teaching is available here for review while the source bundle is reconciled.');if(lesson.releaseStatus!=='verified')reviewNotice(main);const paragraphs=Array.isArray(lesson.teach)?lesson.teach:[];paragraphs.forEach(t=>add(main,'p',typeof t==='string'?t:JSON.stringify(t)));readingText=[lesson.title,...paragraphs.filter(t=>typeof t==='string')].join('. ');document.getElementById('read').textContent=parentAudio?'Read parent lesson':'Read this lesson';if(lesson.model){add(main,'h2','Worked example');add(main,'p',lesson.model.prompt);add(main,'p',lesson.model.reasoning);add(main,'p',lesson.model.answer);readingText+=' '+[lesson.model.prompt,lesson.model.reasoning,lesson.model.answer].filter(Boolean).join('. ');}if(['ELA','MATH'].includes(lesson.subject)){const details=add(main,'details');add(details,'summary','Keep a review note');const area=add(details,'textarea');area.setAttribute('aria-label','Review note');area.value=state.writing[id]||'';area.oninput=()=>{state.writing[id]=area.value;save();};const read=add(details,'button','Read review prompt');read.type='button';read.onclick=()=>speak('What idea do you want to revisit? Use this space to keep a review note.');}const b=add(main,'button','Bookmark this lesson','secondary');b.onclick=()=>{state.bookmarks[id]=true;save();b.textContent='Bookmarked';};}
-function render(){if(!catalog)return;stopAudio();const main=document.getElementById('main');main.replaceChildren();readingText='';document.getElementById('read').textContent='Read this page';const [route='home',id]=location.hash.slice(1).split('/');document.querySelectorAll('nav a').forEach(a=>{if(a.hash==='#'+route)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});const titles={home:'Ry · Student Learning',audio:'Learn With Rayna · Parent Audio',parent:'Learn With Rayna · Parent Audio',subject:'Ry · Student Learning',sources:'Classroom Sources',practice:'Assessments & Practice',archive:'Archive / Prior Weeks',progress:'Parent review',preview:'Source review'};document.getElementById('breadcrumb').textContent=titles[route]||titles.home;
+function preview(main,id,parentAudio=false){const lesson=catalog.lessons.find(x=>x.id===id);if(!lesson){add(main,'h1','Lesson not found');return;}intro(main,lesson.releaseStatus==='verified'?'Learn With Rayna':'Source review preview',lesson.title,lesson.releaseStatus==='verified'?lesson.scopeStatus:'Prior teaching is available here for review while the source bundle is reconciled.');if(lesson.releaseStatus!=='verified')reviewNotice(main);else setRecordedLesson(lesson.id);const paragraphs=Array.isArray(lesson.teach)?lesson.teach:[];paragraphs.forEach(t=>add(main,'p',typeof t==='string'?t:JSON.stringify(t)));readingText=[lesson.title,...paragraphs.filter(t=>typeof t==='string')].join('. ');document.getElementById('read').textContent=parentAudio?'Read parent lesson':'Read this lesson';if(lesson.model){add(main,'h2','Worked example');add(main,'p',lesson.model.prompt);add(main,'p',lesson.model.reasoning);add(main,'p',lesson.model.answer);readingText+=' '+[lesson.model.prompt,lesson.model.reasoning,lesson.model.answer].filter(Boolean).join('. ');}if(['ELA','MATH'].includes(lesson.subject)){const details=add(main,'details');add(details,'summary','Keep a review note');const area=add(details,'textarea');area.setAttribute('aria-label','Review note');area.value=state.writing[id]||'';area.oninput=()=>{state.writing[id]=area.value;save();};const read=add(details,'button','Read review prompt');read.type='button';read.onclick=()=>speak('What idea do you want to revisit? Use this space to keep a review note.');}const b=add(main,'button','Bookmark this lesson','secondary');b.onclick=()=>{state.bookmarks[id]=true;save();b.textContent='Bookmarked';};}
+function render(){if(!catalog)return;stopAudio();const main=document.getElementById('main');main.replaceChildren();readingText='';setRecordedLesson();document.getElementById('read').textContent='Read this page';const [route='home',id]=location.hash.slice(1).split('/');document.querySelectorAll('nav a').forEach(a=>{if(a.hash==='#'+route)a.setAttribute('aria-current','page');else a.removeAttribute('aria-current');});const titles={home:'Ry · Student Learning',audio:'Learn With Rayna · Parent Audio',parent:'Learn With Rayna · Parent Audio',subject:'Ry · Student Learning',sources:'Classroom Sources',practice:'Assessments & Practice',archive:'Archive / Prior Weeks',progress:'Parent review',preview:'Source review'};document.getElementById('breadcrumb').textContent=titles[route]||titles.home;
 if(route==='home'){intro(main,'Ry · Student Learning','What will you learn today?','Choose a subject. Your lesson, examples and practice follow one path.');stages(main);if(catalog.weeklyPriorities){const upcoming=add(main,'section',undefined,'panel');add(upcoming,'h2','Coming up');catalog.weeklyPriorities.forEach(t=>{const row=add(upcoming,'p');link(row,(SUBJECTS[t.subject]?.name||t.subject)+' · '+t.title+' · '+t.date,'#subject/'+t.subject);});}subjectCards(main);const p=add(main,'section',undefined,'panel');add(p,'h2','Pick up where you left off');const bookmarks=Object.keys(state.bookmarks);if(!bookmarks.length)add(p,'p','Your bookmarked lessons will appear here.');bookmarks.forEach(id=>{const l=catalog.lessons.find(x=>x.id===id);if(l)link(p,l.title,'#'+(isLessonReleased(l)?'lesson':'preview')+'/'+id);});}
 else if(route==='audio'){intro(main,'Learn With Rayna','Parent Audio','Choose the same subject Ry is studying. Use the reading controls above to listen at your pace.');subjectCards(main,true);}
 else if((route==='subject'||route==='parent')&&id==='SCI'){intro(main,'Science · classroom ecology','Your Science learning space','All 33 teacher terms, recovered packet lessons, three multiple-choice tests, saved progress and Rayna’s Audio are together in the private Studio.');link(main,'Open Science lessons and tests','https://ry-learning-studio.raynastover.chatgpt.site/ecology','button');link(main,'Open Science parent audio','https://ry-learning-studio.raynastover.chatgpt.site/ecology-workspace/index.html#audio','button secondary');}
@@ -78,5 +160,5 @@ else if(route==='progress')parentProgress(main);
 else if(route==='archive'){intro(main,'Archive / Prior Weeks','Your previous work','Prior teaching and device history are kept separately from the current learning path.');link(main,'Open prior teaching','archive/2026-11-06/index.html','button');add(main,'p','Use the private Studio to view its earlier records. This rebuild starts with fresh assessment records.');link(main,'Open private history','https://ry-learning-studio.raynastover.chatgpt.site/?parent=1');const p=add(main,'section',undefined,'panel');add(p,'h2','Device history');add(p,'p','Download history from this browser, including older Learn With Ry records. This does not retrieve records from another device or from the private Studio.');const b=add(p,'button','Download device history','secondary');b.onclick=exportHistory;}
 else{location.hash='home';return;}if(!['preview','listen','lesson'].includes(route))readingText=main.innerText;state.visits[route]=new Date().toISOString();save();main.focus({preventScroll:true});window.scrollTo(0,0);}
 window.addEventListener('hashchange',render);
-Promise.all(['rebuild/catalog.json','SOURCE_COMPLETENESS_GATE.json'].map(path=>fetch(path,{cache:'no-store'}).then(r=>{if(!r.ok)throw Error(path);return r.json();}))).then(([d,g])=>{if(d.resetId!==g.resetId)throw Error('Source gate version mismatch');catalog=d;releaseGate=g;render();}).catch(()=>{const main=document.getElementById('main');main.replaceChildren(el('h1','The learning space could not load.'));add(main,'p','Refresh this page to try again.');link(main,'Open source records','SOURCE_LEDGER.md');});
+Promise.all(['rebuild/catalog.json','SOURCE_COMPLETENESS_GATE.json'].map(path=>fetch(path,{cache:'no-store',signal:AbortSignal.timeout(15000)}).then(r=>{if(!r.ok)throw Error(path);return r.json();}))).then(([d,g])=>{if(d.resetId!==g.resetId)throw Error('Source gate version mismatch');catalog=d;releaseGate=g;render();}).catch(()=>{const main=document.getElementById('main');main.replaceChildren(el('h1','The learning space could not load.'));add(main,'p','Refresh this page to try again.');link(main,'Open source records','SOURCE_LEDGER.md');});
 

@@ -12,6 +12,7 @@ window.renderVerifiedLesson = function(main, id) {
   intro(main,lesson.subject+' · Classroom-aligned lesson',lesson.title);
   add(main,'p',lesson.scopeStatus,'muted');
   const stages=add(main,'ol',undefined,'path');names.forEach((s,i)=>add(stages,'li',(i===work.stage?'Current · ':'')+s));
+  setRecordedLesson(work.stage===0?lesson.id:undefined);
   if(work.stage===0){
     document.getElementById('read').textContent='Read this lesson';
     lesson.teach.forEach(t=>add(main,'p',t));
