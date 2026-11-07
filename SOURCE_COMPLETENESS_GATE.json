@@ -3,7 +3,7 @@
   "status": "partial-source-bounded-release",
   "interfaceRelease": "allowed",
   "scores": "fresh namespace; no imported scores",
-  "reviewedScope": "Five focused ELA/Math lessons; partial classroom census and recovered Egypt sources. No complete course assessment certification.",
+  "reviewedScope": "Five focused ELA/Math lessons plus the recovered classroom ecology path: 33 teacher terms, two recovered packets, ecology key and symbiosis notes. Wider classroom review remains open.",
   "subjects": {
     "ELA": {
       "status": "four-source-bounded-lessons-released; wider-unit-review-pending",
@@ -25,16 +25,19 @@
       "blocker": "Six vocabulary terms covered; full expressions quiz, Big 8 work and assigned textbook examples remain to be reconciled."
     },
     "SCI": {
-      "status": "awaiting-source-reconciliation",
-      "assessmentEnabled": false,
-      "nextAssessment": "2026-11-10",
-      "blocker": "Reconcile exact 33–34 teacher terms and all three assigned STEMscopes readings.",
+      "status": "recovered-classroom-ecology-release",
+      "assessmentEnabled": true,
+      "workspace": "https://ry-learning-studio.raynastover.chatgpt.site/ecology",
+      "teacherVocabularyCount": 33,
+      "practiceForms": 3,
+      "questionsPerForm": 42,
+      "blocker": "Exact publisher-only STEMscopedia pages remain unverified. This release teaches and tests the recovered classroom packets, teacher glossary and notes; it is not complete-course certification.",
       "verifiedStandaloneLessons": []
     },
     "SS": {
       "status": "awaiting-source-reconciliation",
       "assessmentEnabled": false,
-      "blocker": "Exact vocabulary and three uploaded handouts recovered; OER reviewed only on pages 1 and 15–17 in this reconciliation. Remaining OER pages, maps, slides, language handout and media still require review.",
+      "blocker": "Exact vocabulary and three uploaded handouts recovered; OER reviewed only on pages 1 and 15\u201317 in this reconciliation. Remaining OER pages, maps, slides, language handout and media still require review.",
       "verifiedStandaloneLessons": []
     },
     "THEATER": {
@@ -48,7 +51,7 @@
     "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
     "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
-    "Read the exact Science 33–34 terms and all three STEMscopes readings.",
+    "Read the exact Science 33\u201334 terms and all three STEMscopes readings.",
     "Recover Theater slides and project directions.",
     "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
   ],
@@ -76,6 +79,15 @@
       14,
       30
     ],
-    "completeCourseAssessmentsReleased": false
+    "completeCourseAssessmentsReleased": false,
+    "privateScienceProgress": true,
+    "scienceFreshMissRepairRounds": true,
+    "scienceRetentionDaysReleased": [
+      1,
+      3,
+      7,
+      14,
+      30
+    ]
   }
 }

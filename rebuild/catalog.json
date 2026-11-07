@@ -4201,7 +4201,6 @@
     "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
     "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
-    "Read the exact Science 33–34 terms and all three STEMscopes readings.",
     "Recover Theater slides and project directions.",
     "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
   ],
@@ -4341,5 +4340,15 @@
       ],
       "status": "diagram-visually-verified; current-SS-assessments-pending"
     }
+  },
+  "scienceWorkspace": {
+    "status": "recovered-classroom-ecology-release",
+    "assessmentEnabled": true,
+    "workspace": "https://ry-learning-studio.raynastover.chatgpt.site/ecology",
+    "teacherVocabularyCount": 33,
+    "practiceForms": 3,
+    "questionsPerForm": 42,
+    "blocker": "Exact publisher-only STEMscopedia pages remain unverified. This release teaches and tests the recovered classroom packets, teacher glossary and notes; it is not complete-course certification.",
+    "verifiedStandaloneLessons": []
   }
 }

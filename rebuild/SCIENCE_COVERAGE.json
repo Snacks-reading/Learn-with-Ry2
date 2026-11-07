@@ -1,0 +1,607 @@
+{
+  "version": "ecology-2026-11-07-v1",
+  "scope": "The 33 teacher StudyMate terms, recovered Environments and Populations packet, teacher Matter and Energy in Food Webs notes, ecology key and symbiosis slides. Exact publisher-only readings and the wider Science course are not certified complete.",
+  "teacherTerms": 33,
+  "objectives": 42,
+  "forms": {
+    "A": 42,
+    "B": 42,
+    "C": 42
+  },
+  "rows": [
+    {
+      "objectiveId": "sci33_organism",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_organism-v0",
+        "B": "sci33_organism-v1",
+        "C": "sci33_organism-v2"
+      },
+      "retentionItem": "sci33_organism-v3"
+    },
+    {
+      "objectiveId": "sci33_population",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_population-v0",
+        "B": "sci33_population-v1",
+        "C": "sci33_population-v2"
+      },
+      "retentionItem": "sci33_population-v3"
+    },
+    {
+      "objectiveId": "sci33_community",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_community-v0",
+        "B": "sci33_community-v1",
+        "C": "sci33_community-v2"
+      },
+      "retentionItem": "sci33_community-v3"
+    },
+    {
+      "objectiveId": "sci33_ecosystem",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_ecosystem-v0",
+        "B": "sci33_ecosystem-v1",
+        "C": "sci33_ecosystem-v2"
+      },
+      "retentionItem": "sci33_ecosystem-v3"
+    },
+    {
+      "objectiveId": "sci33_biosphere",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_biosphere-v0",
+        "B": "sci33_biosphere-v1",
+        "C": "sci33_biosphere-v2"
+      },
+      "retentionItem": "sci33_biosphere-v3"
+    },
+    {
+      "objectiveId": "sci33_biome",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_biome-v0",
+        "B": "sci33_biome-v1",
+        "C": "sci33_biome-v2"
+      },
+      "retentionItem": "sci33_biome-v3"
+    },
+    {
+      "objectiveId": "sci33_abiotic",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_abiotic-v0",
+        "B": "sci33_abiotic-v1",
+        "C": "sci33_abiotic-v2"
+      },
+      "retentionItem": "sci33_abiotic-v3"
+    },
+    {
+      "objectiveId": "sci33_biotic",
+      "lessonId": "fresh_sci33_levels",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_biotic-v0",
+        "B": "sci33_biotic-v1",
+        "C": "sci33_biotic-v2"
+      },
+      "retentionItem": "sci33_biotic-v3"
+    },
+    {
+      "objectiveId": "sci33_native_species",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_native_species-v0",
+        "B": "sci33_native_species-v1",
+        "C": "sci33_native_species-v2"
+      },
+      "retentionItem": "sci33_native_species-v3"
+    },
+    {
+      "objectiveId": "sci33_invasive_species",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_invasive_species-v0",
+        "B": "sci33_invasive_species-v1",
+        "C": "sci33_invasive_species-v2"
+      },
+      "retentionItem": "sci33_invasive_species-v3"
+    },
+    {
+      "objectiveId": "sci33_limiting_factor",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_limiting_factor-v0",
+        "B": "sci33_limiting_factor-v1",
+        "C": "sci33_limiting_factor-v2"
+      },
+      "retentionItem": "sci33_limiting_factor-v3"
+    },
+    {
+      "objectiveId": "sci33_carrying_capacity",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_carrying_capacity-v0",
+        "B": "sci33_carrying_capacity-v1",
+        "C": "sci33_carrying_capacity-v2"
+      },
+      "retentionItem": "sci33_carrying_capacity-v3"
+    },
+    {
+      "objectiveId": "sci33_niche",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_niche-v0",
+        "B": "sci33_niche-v1",
+        "C": "sci33_niche-v2"
+      },
+      "retentionItem": "sci33_niche-v3"
+    },
+    {
+      "objectiveId": "sci33_adaptation",
+      "lessonId": "fresh_sci33_resources",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_adaptation-v0",
+        "B": "sci33_adaptation-v1",
+        "C": "sci33_adaptation-v2"
+      },
+      "retentionItem": "sci33_adaptation-v3"
+    },
+    {
+      "objectiveId": "sci33_producers",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_producers-v0",
+        "B": "sci33_producers-v1",
+        "C": "sci33_producers-v2"
+      },
+      "retentionItem": "sci33_producers-v3"
+    },
+    {
+      "objectiveId": "sci33_consumer",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_consumer-v0",
+        "B": "sci33_consumer-v1",
+        "C": "sci33_consumer-v2"
+      },
+      "retentionItem": "sci33_consumer-v3"
+    },
+    {
+      "objectiveId": "sci33_herbivore",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_herbivore-v0",
+        "B": "sci33_herbivore-v1",
+        "C": "sci33_herbivore-v2"
+      },
+      "retentionItem": "sci33_herbivore-v3"
+    },
+    {
+      "objectiveId": "sci33_carnivore",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_carnivore-v0",
+        "B": "sci33_carnivore-v1",
+        "C": "sci33_carnivore-v2"
+      },
+      "retentionItem": "sci33_carnivore-v3"
+    },
+    {
+      "objectiveId": "sci33_omnivore",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_omnivore-v0",
+        "B": "sci33_omnivore-v1",
+        "C": "sci33_omnivore-v2"
+      },
+      "retentionItem": "sci33_omnivore-v3"
+    },
+    {
+      "objectiveId": "sci33_tertiary",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_tertiary-v0",
+        "B": "sci33_tertiary-v1",
+        "C": "sci33_tertiary-v2"
+      },
+      "retentionItem": "sci33_tertiary-v3"
+    },
+    {
+      "objectiveId": "sci33_predator",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_predator-v0",
+        "B": "sci33_predator-v1",
+        "C": "sci33_predator-v2"
+      },
+      "retentionItem": "sci33_predator-v3"
+    },
+    {
+      "objectiveId": "sci33_prey",
+      "lessonId": "fresh_sci33_feeding",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_prey-v0",
+        "B": "sci33_prey-v1",
+        "C": "sci33_prey-v2"
+      },
+      "retentionItem": "sci33_prey-v3"
+    },
+    {
+      "objectiveId": "sci33_food_chain",
+      "lessonId": "fresh_sci33_models_matter",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_food_chain-v0",
+        "B": "sci33_food_chain-v1",
+        "C": "sci33_food_chain-v2"
+      },
+      "retentionItem": "sci33_food_chain-v3"
+    },
+    {
+      "objectiveId": "sci33_food_web",
+      "lessonId": "fresh_sci33_models_matter",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_food_web-v0",
+        "B": "sci33_food_web-v1",
+        "C": "sci33_food_web-v2"
+      },
+      "retentionItem": "sci33_food_web-v3"
+    },
+    {
+      "objectiveId": "sci33_energy_pyramid",
+      "lessonId": "fresh_sci33_models_matter",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_energy_pyramid-v0",
+        "B": "sci33_energy_pyramid-v1",
+        "C": "sci33_energy_pyramid-v2"
+      },
+      "retentionItem": "sci33_energy_pyramid-v3"
+    },
+    {
+      "objectiveId": "sci33_decomposers",
+      "lessonId": "fresh_sci33_models_matter",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_decomposers-v0",
+        "B": "sci33_decomposers-v1",
+        "C": "sci33_decomposers-v2"
+      },
+      "retentionItem": "sci33_decomposers-v3"
+    },
+    {
+      "objectiveId": "sci33_scavenger",
+      "lessonId": "fresh_sci33_models_matter",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key"
+      ],
+      "assessmentItems": {
+        "A": "sci33_scavenger-v0",
+        "B": "sci33_scavenger-v1",
+        "C": "sci33_scavenger-v2"
+      },
+      "retentionItem": "sci33_scavenger-v3"
+    },
+    {
+      "objectiveId": "sci33_symbiotic",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_symbiotic-v0",
+        "B": "sci33_symbiotic-v1",
+        "C": "sci33_symbiotic-v2"
+      },
+      "retentionItem": "sci33_symbiotic-v3"
+    },
+    {
+      "objectiveId": "sci33_symbiosis",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_symbiosis-v0",
+        "B": "sci33_symbiosis-v1",
+        "C": "sci33_symbiosis-v2"
+      },
+      "retentionItem": "sci33_symbiosis-v3"
+    },
+    {
+      "objectiveId": "sci33_host",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_host-v0",
+        "B": "sci33_host-v1",
+        "C": "sci33_host-v2"
+      },
+      "retentionItem": "sci33_host-v3"
+    },
+    {
+      "objectiveId": "sci33_parasitism",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_parasitism-v0",
+        "B": "sci33_parasitism-v1",
+        "C": "sci33_parasitism-v2"
+      },
+      "retentionItem": "sci33_parasitism-v3"
+    },
+    {
+      "objectiveId": "sci33_commensalism",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_commensalism-v0",
+        "B": "sci33_commensalism-v1",
+        "C": "sci33_commensalism-v2"
+      },
+      "retentionItem": "sci33_commensalism-v3"
+    },
+    {
+      "objectiveId": "sci33_mutualism",
+      "lessonId": "fresh_sci33_associations",
+      "sourceIds": [
+        "teacher-studymate",
+        "teacher-ecology-key",
+        "symbiosis"
+      ],
+      "assessmentItems": {
+        "A": "sci33_mutualism-v0",
+        "B": "sci33_mutualism-v1",
+        "C": "sci33_mutualism-v2"
+      },
+      "retentionItem": "sci33_mutualism-v3"
+    },
+    {
+      "objectiveId": "ecology_photosynthesis",
+      "lessonId": "ecology_photosynthesis",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_photosynthesis-v0",
+        "B": "ecology_photosynthesis-v1",
+        "C": "ecology_photosynthesis-v2"
+      },
+      "retentionItem": "ecology_photosynthesis-v3"
+    },
+    {
+      "objectiveId": "ecology_density",
+      "lessonId": "ecology_density",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_density-v0",
+        "B": "ecology_density-v1",
+        "C": "ecology_density-v2"
+      },
+      "retentionItem": "ecology_density-v3"
+    },
+    {
+      "objectiveId": "ecology_habitats",
+      "lessonId": "ecology_habitats",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_habitats-v0",
+        "B": "ecology_habitats-v1",
+        "C": "ecology_habitats-v2"
+      },
+      "retentionItem": "ecology_habitats-v3"
+    },
+    {
+      "objectiveId": "ecology_resources",
+      "lessonId": "ecology_resources",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_resources-v0",
+        "B": "ecology_resources-v1",
+        "C": "ecology_resources-v2"
+      },
+      "retentionItem": "ecology_resources-v3"
+    },
+    {
+      "objectiveId": "ecology_competition",
+      "lessonId": "ecology_competition",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_competition-v0",
+        "B": "ecology_competition-v1",
+        "C": "ecology_competition-v2"
+      },
+      "retentionItem": "ecology_competition-v3"
+    },
+    {
+      "objectiveId": "ecology_trophic",
+      "lessonId": "ecology_trophic",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_trophic-v0",
+        "B": "ecology_trophic-v1",
+        "C": "ecology_trophic-v2"
+      },
+      "retentionItem": "ecology_trophic-v3"
+    },
+    {
+      "objectiveId": "ecology_transfer",
+      "lessonId": "ecology_transfer",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_transfer-v0",
+        "B": "ecology_transfer-v1",
+        "C": "ecology_transfer-v2"
+      },
+      "retentionItem": "ecology_transfer-v3"
+    },
+    {
+      "objectiveId": "ecology_matter",
+      "lessonId": "ecology_matter",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_matter-v0",
+        "B": "ecology_matter-v1",
+        "C": "ecology_matter-v2"
+      },
+      "retentionItem": "ecology_matter-v3"
+    },
+    {
+      "objectiveId": "ecology_ripple",
+      "lessonId": "ecology_ripple",
+      "sourceIds": [
+        "recovered-environments",
+        "recovered-food-webs"
+      ],
+      "assessmentItems": {
+        "A": "ecology_ripple-v0",
+        "B": "ecology_ripple-v1",
+        "C": "ecology_ripple-v2"
+      },
+      "retentionItem": "ecology_ripple-v3"
+    }
+  ]
+}
