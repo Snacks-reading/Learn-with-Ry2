@@ -11,6 +11,7 @@ const audioStatus = document.getElementById('audio-status');
 const recordedButton = document.getElementById('recorded');
 function setRecordedLesson(id){
   recordedButton.hidden=!recordedLessons.has(id);
+  recordedButton.style.display=recordedButton.hidden?'none':'';
   recordedButton.dataset.source=recordedButton.hidden?'':'rebuild/recorded/'+id+'.mp3';
 }
 function isLessonReleased(l){return Boolean(l&&l.releaseStatus==='verified'&&l.assessmentEnabled&&releaseGate?.subjects[l.subject]?.verifiedStandaloneLessons?.includes(l.id));}
@@ -30,6 +31,7 @@ function stopAudio(){
 }
 function voices(){const select=document.getElementById('voice');const old=select.value;select.replaceChildren(new Option('Available English voice',''));if(!('speechSynthesis'in window))return;window.speechSynthesis.getVoices().filter(v=>/^en/.test(v.lang)).forEach(v=>select.add(new Option(v.name,v.voiceURI)));select.value=old;}
 function playRecording(){
+  if(!recordedButton.dataset.source)return;
   stopAudio();
   const audio=recording=new Audio(recordedButton.dataset.source);
   audio.playbackRate=Number(document.getElementById('rate').value);
@@ -47,12 +49,12 @@ function playRecording(){
 }
 function speak(text,allowRecording=false){
   stopAudio();
+  if(!text.trim()){audioStatus.textContent='Choose a lesson or page to read.';return;}
   const synth=window.speechSynthesis;
   const available=synth?.getVoices().filter(v=>/^en/i.test(v.lang))||[];
   const hasRecording=allowRecording&&!recordedButton.hidden;
   if(hasRecording&&!available.length){playRecording();return;}
   if(!synth||typeof SpeechSynthesisUtterance==='undefined'){audioStatus.textContent='This browser does not provide a reading voice.';return;}
-  if(!text.trim()){audioStatus.textContent='Choose a lesson or page to read.';return;}
   const token=generation;
   const chosen=document.getElementById('voice').value;
   const voice=available.find(v=>v.voiceURI===chosen)||available.find(v=>v.lang==='en-US'&&/Samantha|Aria|Jenny|Karen|Natural/i.test(v.name))||available[0];
@@ -71,12 +73,19 @@ function speak(text,allowRecording=false){
     utterance.lang='en-US';
     utterance.rate=Number(document.getElementById('rate').value);
     if(voice)utterance.voice=voice;
-    utterance.onstart=()=>{if(token===generation){clearTimeout(speechTimer);audioStatus.textContent='Reading aloud.';}};
+    function watchPlayback(){
+      if(token!==generation)return;
+      clearTimeout(speechTimer);
+      audioStatus.textContent='Reading aloud.';
+      speechTimer=setTimeout(fail,Math.max(30000,utterance.text.length*250/utterance.rate));
+    }
+    utterance.onstart=watchPlayback;
+    utterance.onresume=watchPlayback;
     utterance.onend=next;
     utterance.onerror=fail;
     audioStatus.textContent='Starting read-aloud…';
     speechTimer=setTimeout(fail,6000);
-    synth.speak(utterance);
+    try{synth.speak(utterance);}catch{fail();}
   }
   synth.resume();
   next();
