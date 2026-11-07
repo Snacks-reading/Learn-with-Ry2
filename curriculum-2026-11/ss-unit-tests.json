@@ -476,7 +476,7 @@
       "teaching": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant."
     },
     {
-      "prompt": "Which group is the exact bottom label in the teacher’s five-level diagram?",
+      "prompt": "In the Ancient Egyptian Society handout, which label is at the bottom of its pyramid?",
       "options": [
         "Unskilled workers",
         "Scribes",
@@ -23329,6 +23329,575 @@
       "teaching": "Hieroglyphics is the classroom term for Egyptian writing using hieroglyphs. Signs could represent sounds or words; it was not simply an English letter-for-picture code. Papyrus is a Nile plant and the paper-like writing material made from its stems. Scribes used writing skills to record information. Writing is a system of signs; papyrus is a material. The Rosetta Stone contains three scripts: hieroglyphic, demotic and Greek, using two languages. The assigned text simplifies this incorrectly. Comparing the same message helped scholars decipher the writing.",
       "teach": "Hieroglyphics is the classroom term for Egyptian writing using hieroglyphs. Signs could represent sounds or words; it was not simply an English letter-for-picture code. Papyrus is a Nile plant and the paper-like writing material made from its stems. Scribes used writing skills to record information. Writing is a system of signs; papyrus is a material. The Rosetta Stone contains three scripts: hieroglyphic, demotic and Greek, using two languages. The assigned text simplifies this incorrectly. Comparing the same message helped scholars decipher the writing.",
       "repairOf": "ss_verified_writing_trade_commerce_day14"
+    },
+    {
+      "id": "egypt-qc-menes-1",
+      "prompt": "A caption credits the traditional founder with bringing both Nile regions under one ruler. Who does the assigned reading name?",
+      "options": [
+        "Khufu",
+        "Menes",
+        "Ramses II"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_union_menes",
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ],
+      "chapterId": "ss_verified_union",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "rationale": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated.",
+      "teaching": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated."
+    },
+    {
+      "id": "egypt-qc-menes-2",
+      "prompt": "A timeline begins with the ruler traditionally linked to the union of Upper and Lower Egypt. Which label fits the starting point?",
+      "options": [
+        "Ahmose I",
+        "Tutankhamun",
+        "Menes"
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_union_menes",
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ],
+      "chapterId": "ss_verified_union",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "rationale": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated.",
+      "teaching": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated."
+    },
+    {
+      "id": "egypt-qc-menes-3",
+      "prompt": "Which label belongs beside the assigned reading’s traditional account of the first united Egyptian kingdom?",
+      "options": [
+        "Menes and the union of the two lands",
+        "Hatshepsut and the trade expedition to Punt",
+        "Ramses II and peace with the Hittites"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_union_menes",
+      "objectiveIds": [
+        "ss_verified_union_menes",
+        "ss_term_menes"
+      ],
+      "chapterId": "ss_verified_union",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          28,
+          29
+        ]
+      },
+      "rationale": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated.",
+      "teaching": "The assigned reading uses Menes for the ruler traditionally associated with uniting Upper and Lower Egypt. The exact relationship between the names Menes and Narmer is debated."
+    },
+    {
+      "id": "egypt-qc-khufu-1",
+      "prompt": "A researcher studies an Old Kingdom royal burial monument at Giza. Which ruler is linked to the largest pyramid there?",
+      "options": [
+        "Mentuhotep II",
+        "Khufu",
+        "Ahmose I"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "rationale": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit.",
+      "teaching": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit."
+    },
+    {
+      "id": "egypt-qc-khufu-2",
+      "prompt": "An exhibit is about Khufu. Which object or site fits that exhibit most directly?",
+      "options": [
+        "A New Kingdom tomb in the Valley of the Kings",
+        "The temples at Abu Simbel",
+        "The Great Pyramid at Giza"
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "rationale": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit.",
+      "teaching": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit."
+    },
+    {
+      "id": "egypt-qc-khufu-3",
+      "prompt": "Which ruler and achievement belong together on a timeline of royal projects?",
+      "options": [
+        "Khufu and building the Great Pyramid",
+        "Khufu and the New Kingdom peace treaty",
+        "Khufu and a trade expedition to Punt"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_khufu",
+      "objectiveIds": [
+        "ss_verified_kingdoms_khufu",
+        "ss_term_khufu"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          30,
+          31
+        ]
+      },
+      "rationale": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit.",
+      "teaching": "Khufu was an Old Kingdom pharaoh associated with the Great Pyramid at Giza. The Valley of the Kings and Abu Simbel belong to other parts of the unit."
+    },
+    {
+      "id": "egypt-qc-mentuhotep_ii-1",
+      "prompt": "Egypt was divided after the Old Kingdom. Which ruler is linked to bringing it together again for the Middle Kingdom?",
+      "options": [
+        "Tutankhamun",
+        "Mentuhotep II",
+        "Khufu"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "rationale": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom.",
+      "teaching": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom."
+    },
+    {
+      "id": "egypt-qc-mentuhotep_ii-2",
+      "prompt": "Which timeline label connects Mentuhotep II to an outcome?",
+      "options": [
+        "The building of the Great Pyramid began the Old Kingdom.",
+        "The discovery of a tomb began the New Kingdom.",
+        "Reunification helped begin the Middle Kingdom."
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "rationale": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom.",
+      "teaching": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom."
+    },
+    {
+      "id": "egypt-qc-mentuhotep_ii-3",
+      "prompt": "A museum needs a heading for the end of a period of divided rule after the Old Kingdom. Which heading fits?",
+      "options": [
+        "Mentuhotep II reunites Egypt",
+        "Ramses II signs a treaty with the Hittites",
+        "Khufu builds at Giza"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_mentuhotep",
+      "objectiveIds": [
+        "ss_verified_kingdoms_mentuhotep",
+        "ss_term_mentuhotep_ii"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32
+        ]
+      },
+      "rationale": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom.",
+      "teaching": "Mentuhotep II reunified Egypt after a period of divided rule and helped begin the Middle Kingdom."
+    },
+    {
+      "id": "egypt-qc-hyksos-1",
+      "prompt": "A map caption labels the group that held power in northern Egypt before Ahmose’s victory. Which name belongs on that caption?",
+      "options": [
+        "Hittites",
+        "Hyksos",
+        "Romans"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "rationale": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there.",
+      "teaching": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there."
+    },
+    {
+      "id": "egypt-qc-hyksos-2",
+      "prompt": "A timeline shows a period of Hyksos rule followed by a victory led from Thebes. What changed after the victory?",
+      "options": [
+        "The Hyksos began building the Great Pyramid.",
+        "The Hyksos became the rulers of both regions permanently.",
+        "The Hyksos lost control in northern Egypt."
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "rationale": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there.",
+      "teaching": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there."
+    },
+    {
+      "id": "egypt-qc-hyksos-3",
+      "prompt": "Which exhibit label distinguishes the Hyksos from the later Hittites?",
+      "options": [
+        "The Hyksos ruled in northern Egypt before the New Kingdom.",
+        "The Hyksos signed a peace treaty with Ramses II.",
+        "The Hyksos founded Rome."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_hyksos"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "rationale": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there.",
+      "teaching": "The Hyksos ruled in northern Egypt before the New Kingdom. Ahmose’s victory ended their rule there."
+    },
+    {
+      "id": "egypt-qc-ahmose-1",
+      "prompt": "The history display needs a ruler for the transition from Hyksos rule to the New Kingdom. Who fits?",
+      "options": [
+        "Hatshepsut",
+        "Ahmose I",
+        "Mentuhotep II"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_ahmose"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "rationale": "Ahmose I drove out the Hyksos and helped begin the New Kingdom.",
+      "teaching": "Ahmose I drove out the Hyksos and helped begin the New Kingdom."
+    },
+    {
+      "id": "egypt-qc-ahmose-2",
+      "prompt": "A classmate puts Ahmose’s victory in the Old Kingdom. Which revision fits the reading?",
+      "options": [
+        "Place it before the two lands were united.",
+        "Place it after the reign of Ramses II.",
+        "Place it at the beginning of the New Kingdom."
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_kingdoms_hyksos_ahmose",
+      "objectiveIds": [
+        "ss_verified_kingdoms_hyksos_ahmose",
+        "ss_term_ahmose"
+      ],
+      "chapterId": "ss_verified_kingdoms",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          32,
+          33
+        ]
+      },
+      "rationale": "Ahmose I drove out the Hyksos and helped begin the New Kingdom.",
+      "teaching": "Ahmose I drove out the Hyksos and helped begin the New Kingdom."
+    },
+    {
+      "id": "egypt-qc-queen_hatshepsut-1",
+      "prompt": "Which source would best help explain the way Hatshepsut used trade?",
+      "options": [
+        "A map showing the modern location of Cairo",
+        "A temple scene celebrating the expedition to Punt",
+        "A list of objects in Tutankhamun’s tomb"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "rationale": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building.",
+      "teaching": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building."
+    },
+    {
+      "id": "egypt-qc-queen_hatshepsut-2",
+      "prompt": "A student argues that Egypt could gain resources without conquering land. Which example supports the argument?",
+      "options": [
+        "Khufu built a royal tomb at Giza.",
+        "Tutankhamun’s burial was discovered centuries later.",
+        "Hatshepsut’s expedition traded for goods from Punt."
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "rationale": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building.",
+      "teaching": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building."
+    },
+    {
+      "id": "egypt-qc-queen_hatshepsut-3",
+      "prompt": "Which caption best connects a ruler to both trade and royal building?",
+      "options": [
+        "Hatshepsut promoted trade and built a major temple.",
+        "Hatshepsut built the Great Pyramid as an Old Kingdom ruler.",
+        "Hatshepsut sent Ahmose to fight the Hyksos."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_hatshepsut",
+      "objectiveIds": [
+        "ss_verified_new_rulers_hatshepsut",
+        "ss_term_queen_hatshepsut"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          34
+        ]
+      },
+      "rationale": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building.",
+      "teaching": "Hatshepsut used trade, including the expedition to Punt, and commissioned monumental building."
+    },
+    {
+      "id": "egypt-qc-tutankhamun-1",
+      "prompt": "Which finding gives the most direct evidence about Tutankhamun’s burial?",
+      "options": [
+        "A modern painting of a pyramid at Giza",
+        "Objects discovered in his tomb in the Valley of the Kings",
+        "A description of trade with Punt"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "rationale": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices.",
+      "teaching": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices."
+    },
+    {
+      "id": "egypt-qc-tutankhamun-2",
+      "prompt": "A student wants to explain why Tutankhamun is famous today. Which explanation uses relevant evidence?",
+      "options": [
+        "He commissioned the first pyramid.",
+        "He led Egypt’s first trade expedition to Punt.",
+        "The discovery of his unusually well-preserved tomb revealed many royal burial objects."
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "rationale": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices.",
+      "teaching": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices."
+    },
+    {
+      "id": "egypt-qc-tutankhamun-3",
+      "prompt": "Which display title accurately joins a royal name to a location?",
+      "options": [
+        "Tutankhamun’s Tomb in the Valley of the Kings",
+        "Tutankhamun’s Great Pyramid at Giza",
+        "Tutankhamun’s Peace Treaty at Abu Simbel"
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_tutankhamun",
+      "objectiveIds": [
+        "ss_verified_new_rulers_tutankhamun",
+        "ss_term_tutankhamun"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          35,
+          36
+        ]
+      },
+      "rationale": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices.",
+      "teaching": "Tutankhamun was buried in the Valley of the Kings. The objects in his recovered tomb provide evidence about royal burial practices."
+    },
+    {
+      "id": "egypt-qc-ramses_the_great-1",
+      "prompt": "A display connects large temples at Abu Simbel with a pharaoh who fought the Hittites. Which ruler belongs on its label?",
+      "options": [
+        "Mentuhotep II",
+        "Ramses II",
+        "Khufu"
+      ],
+      "answer": 1,
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "rationale": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement.",
+      "teaching": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement."
+    },
+    {
+      "id": "egypt-qc-ramses_the_great-2",
+      "prompt": "Which evidence shows how Ramses II’s conflict with the Hittites was followed by diplomacy?",
+      "options": [
+        "A burial mask from another reign",
+        "A drawing of the Nile Delta",
+        "An agreement for peace"
+      ],
+      "answer": 2,
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "rationale": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement.",
+      "teaching": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement."
+    },
+    {
+      "id": "egypt-qc-ramses_the_great-3",
+      "prompt": "Which short museum caption is accurate?",
+      "options": [
+        "Ramses the Great is another name for Ramses II, a New Kingdom ruler.",
+        "Ramses the Great is another name for King Tut.",
+        "Ramses the Great led the Hyksos into Egypt."
+      ],
+      "answer": 0,
+      "objectiveId": "ss_verified_new_rulers_ramses",
+      "objectiveIds": [
+        "ss_verified_new_rulers_ramses",
+        "ss_term_ramses_the_great"
+      ],
+      "chapterId": "ss_verified_new_rulers",
+      "sourceRef": {
+        "sourceId": "assigned-oer",
+        "pages": [
+          36,
+          37
+        ]
+      },
+      "rationale": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement.",
+      "teaching": "Ramses II, called Ramses the Great, was a New Kingdom ruler linked to Abu Simbel, war with the Hittites and the later peace agreement."
     }
   ],
   "sources": {

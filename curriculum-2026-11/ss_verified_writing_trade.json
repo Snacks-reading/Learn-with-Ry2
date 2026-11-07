@@ -267,12 +267,22 @@
     {
       "title": "Hieroglyphics Reading",
       "url": "https://wcschools.schoology.com/assignment/8636589263",
-      "status": "Original classroom PDF reviewed"
+      "status": "Original classroom PDF reviewed",
+      "sourceId": "classroom-hieroglyphics",
+      "pages": [
+        1
+      ]
     },
     {
       "title": "Hieroglyphics Letters for Cartouche",
       "url": "https://wcschools.schoology.com/assignment/8636591905",
-      "status": "Original classroom PDF reviewed"
+      "status": "Original classroom PDF reviewed",
+      "sourceId": "classroom-cartouche",
+      "pages": [
+        1,
+        2,
+        3
+      ]
     }
   ],
   "readingLocation": {
@@ -661,7 +671,23 @@
         "answer": 0,
         "rationale": "A sign shaped like an object can represent a sound, depending on how the sign is used.",
         "teach": "The chart helps you use signs for sounds in a name. A cartouche is the oval frame around the name.",
-        "supported": true
+        "supported": true,
+        "sourceRef": {
+          "sourceId": "classroom-cartouche",
+          "pages": [
+            1,
+            2,
+            3
+          ]
+        }
+      },
+      "sourceRef": {
+        "sourceId": "classroom-cartouche",
+        "pages": [
+          1,
+          2,
+          3
+        ]
       }
     }
   ],

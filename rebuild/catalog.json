@@ -237,7 +237,7 @@
       ],
       "retention": [
         {
-          "prompt": "A week later, what is the best way to distinguish an inference from a detail?",
+          "prompt": "What is the best way to distinguish an inference from a detail?",
           "options": [
             "A detail is stated in the text; an inference is a conclusion supported by details.",
             "An inference is any opinion; a detail is always a quotation.",
@@ -647,7 +647,8 @@
         "Percent of a whole: part÷whole gives the decimal rate, then multiply by100 for percent. State the reference whole before computing. A result above100% can be valid only when the part exceeds the chosen whole.",
         "Whole-number division: preserve place value, including a zero in the quotient when needed. Verify by multiplication rather than choosing a digit pattern.",
         "Decimal subtraction: line up decimal points and like place values, adding trailing zeros if useful. “Subtracta fromb” meansb−a.",
-        "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship."
+        "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship.",
+        "For decimal addition, line up decimal points just as you do in subtraction. For example, 13.08 + 4.2 = 13.08 + 4.20 = 17.28. A number-line absolute value item asks how far a point is from zero. For fraction-to-decimal tables, divide the numerator by the denominator and match the exact result."
       ],
       "model": {
         "prompt": "Original design task: a pattern needs1.5 meters per item for 4 items. You own2.25 meters. A store sells fabric at$6 per meter. How much extra fabric and what cost are needed?",
@@ -2513,8 +2514,7 @@
         "Terms are the parts separated by addition or subtraction at the main level of an expression. Keep a subtraction sign with the term that follows it. In 3x + 5 + 2x there are three terms: 3x, 5 and 2x. A coefficient is only part of a variable term, so 3 and x are not two separate terms in 3x.",
         "Like terms have the same variable part, including the same exponents. The terms 3x and 2x are like terms. The terms 3x and 3y are not. A matching coefficient alone does not make terms alike. Constants can be combined with other constants.",
         "Combine like terms by adding their coefficients while keeping the shared variable part. In 3x + 2x, three groups of x and two more groups of x make 5x. In 3x + 5, the terms cannot be combined into 8x because the 5 has no x.",
-        "Use a label organizer. Write the whole expression at the top. Under it list each term. Circle the variable, identify each coefficient and mark the constant. Group like terms only after checking the variable part.",
-        "Recall cue: expression is the whole phrase; terms are its chunks; variable is the symbol; coefficient counts the variable groups; constant stands alone; like terms have matching variable parts."
+        "Use a label organizer. Write the whole expression at the top. Under it list each term. Circle the variable, identify each coefficient and mark the constant. Group like terms only after checking the variable part."
       ],
       "model": {
         "prompt": "A costume needs 4 ribbon strips of length r and an extra 6 inches of trim. Interpret 4r + 6.",
@@ -2913,7 +2913,11 @@
         "An introduction gives useful context and leads to the thesis. Each body paragraph develops a supporting idea related to that thesis. Use transitions to show how the ideas connect.",
         "A concrete detail is specific evidence from the source. Commentary explains why that evidence matters for your point. After naming a detail, ask, What does this help the reader understand? The answer should connect the evidence to the paragraph’s idea and the thesis.",
         "Plan with a four-box organizer: thesis, supporting idea, concrete detail, commentary. Check each connection before drafting. Remember Point, proof, why: make the point, provide evidence, explain its significance.",
-        "The newsletter assigns thesis-statement IXL P.2 for Friday, November 13, with SmartScore 80 corresponding to full credit. It also announces a Monday-to-Friday spiral with a written component. Follow the exact Schoology prompt when it becomes available."
+        "For a report about a school garden, “The garden” names the topic. “The school garden helps students study how plants respond to water and sunlight” is a thesis you can explain with evidence.",
+        "An introduction could begin, “The science class studies plant growth outdoors.” Then state the thesis about how the garden helps students test water and sunlight.",
+        "A body paragraph might begin, “The garden lets students test how water affects growth.” Follow with one detail from the class experiment and explain what it shows.",
+        "“Students gave one group of plants twice as much water each week” is concrete because it describes a specific action the reader could verify.",
+        "“Keeping the light the same helps the class isolate the effect of water” is commentary because it explains why a detail about the experiment matters."
       ],
       "model": {
         "prompt": "Original practice task: Explain how SoFi’s design supports underwater research.",
@@ -4171,10 +4175,10 @@
         "math_expression_vocabulary_20261106",
         "ela_explanatory_writing_20261106"
       ],
-      "reviewStatus": "all-three-pages-read-2026-11-06",
+      "reviewStatus": "both-pages-read-2026-11-07",
       "contentRead": true,
       "playbackChecked": false,
-      "notes": "Controls next-week priority. Use regular Grade 6 math, not the separate Blend or seventh-grade sections. Science term total is 33–34; exact list must be reconciled.",
+      "notes": "Both pages read. The regular Grade 6 math section applies. The newsletter estimates 33–34 ecology terms; the teacher-linked StudyMate displays 33.",
       "id": "newsletter-2026-11-06",
       "reviewDate": "2026-11-06"
     },
@@ -4269,8 +4273,8 @@
       "subject": "SCI",
       "date": "2026-11-10",
       "title": "Ecology vocabulary quiz",
-      "detail": "33–34 terms from StudyMate and the three STEMscopes readings. Exact list and possible additional term remain under review.",
-      "status": "source-reconciliation-needed"
+      "detail": "All 33 displayed StudyMate terms are included. The November 6 newsletter estimates 33–34. Exact STEMscopes publisher pages are still under review.",
+      "status": "teacher-glossary-verified; publisher-readings-pending"
     },
     {
       "subject": "MATH",
@@ -4298,7 +4302,7 @@
       "date": "2026-11-13",
       "title": "Ancient Egypt unit test",
       "detail": "Newsletter confirms the November 5 quiz covered social, political and religious structures. The November 13 test wraps up the whole Egypt unit.",
-      "status": "broader-unit-review-pending"
+      "status": "private-forms-ready; exact-teacher-test-scope-pending"
     }
   ],
   "schoolNotices": [

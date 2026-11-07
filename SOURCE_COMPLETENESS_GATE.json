@@ -3,7 +3,7 @@
   "status": "partial-source-bounded-release",
   "interfaceRelease": "allowed",
   "scores": "fresh namespace; no imported scores",
-  "reviewedScope": "Five focused ELA/Math lessons plus the recovered classroom ecology path: 33 teacher terms, two recovered packets, ecology key and symbiosis notes. Wider classroom review remains open.",
+  "reviewedScope": "Five public focused lessons, classroom ecology from recovered originals, and the recovered source scope of the three private Egypt forms. The wider five-course census remains open.",
   "subjects": {
     "ELA": {
       "status": "four-source-bounded-lessons-released; wider-unit-review-pending",
@@ -14,7 +14,7 @@
         "ela_sofi_review_20261106",
         "ela_explanatory_writing_20261106"
       ],
-      "blocker": "Assigned dog video, exact new spiral, remaining assigned text and full-course source/standards reconciliation."
+      "blocker": "Exact November 9–13 spiral prompts, Hachiko video playback and wider ELA course reconciliation are pending."
     },
     "MATH": {
       "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
@@ -22,7 +22,7 @@
       "verifiedStandaloneLessons": [
         "math_expression_vocabulary_20261106"
       ],
-      "blocker": "Six vocabulary terms covered; full expressions quiz, Big 8 work and assigned textbook examples remain to be reconciled."
+      "blocker": "Six newsletter vocabulary terms are covered. Wider expressions quiz and Big 8 scope still depend on assigned Reveal and IXL activities."
     },
     "SCI": {
       "status": "recovered-classroom-ecology-release",
@@ -37,8 +37,9 @@
     "SS": {
       "status": "awaiting-source-reconciliation",
       "assessmentEnabled": false,
-      "blocker": "Exact vocabulary and three uploaded handouts recovered; OER reviewed only on pages 1 and 15\u201317 in this reconciliation. Remaining OER pages, maps, slides, language handout and media still require review.",
-      "verifiedStandaloneLessons": []
+      "blocker": "Private forms cover the recovered Egypt scope. Orange-book pages 149–151, Flocabulary playback and exact November 13 test scope remain unverified.",
+      "verifiedStandaloneLessons": [],
+      "privatePractice": "https://ry-learning-studio.raynastover.chatgpt.site/?ssTests=1"
     },
     "THEATER": {
       "status": "awaiting-source-reconciliation",
@@ -53,7 +54,7 @@
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
     "Recover the exact STEMscopes publisher readings. The 33 displayed StudyMate terms and recovered ecology packets are already reconciled for the focused Science release.",
     "Verify Theater playback and recover any posted assessment directions or rubric.",
-    "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
+    "Open the 59 queued Schoology links with no saved page capture and reconcile the separate underlying content or playback on restricted resources."
   ],
   "conflicts": [
     {

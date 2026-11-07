@@ -53,7 +53,16 @@
     {
       "title": "Who Done It? Ancient Egyptian Society",
       "url": "https://wcschools.schoology.com/assignment/8633333695",
-      "status": "Original classroom PDF reviewed"
+      "status": "Original classroom PDF reviewed",
+      "sourceId": "mystery",
+      "pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        6
+      ]
     }
   ],
   "readingLocation": {
@@ -243,7 +252,19 @@
         "answer": 0,
         "rationale": "Owning a shop illustrates a right. It does not tell us that a shopkeeper held a government office.",
         "teach": "The classroom activity points to property ownership and running a business as examples of legal rights.",
-        "supported": true
+        "supported": true,
+        "sourceRef": {
+          "sourceId": "mystery",
+          "pages": [
+            4
+          ]
+        }
+      },
+      "sourceRef": {
+        "sourceId": "mystery",
+        "pages": [
+          4
+        ]
       }
     }
   ],

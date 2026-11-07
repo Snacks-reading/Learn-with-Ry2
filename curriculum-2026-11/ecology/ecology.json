@@ -2285,7 +2285,7 @@
     {
       "id": "sci33_carnivore-v0",
       "objectiveId": "sci33_carnivore",
-      "prompt": "An owl in the stated example feeds on mice. Which diet category applies?",
+      "prompt": "In this example, an owl’s diet consists entirely of animal prey, including mice. Which diet category applies?",
       "options": [
         "carnivore",
         "herbivore",
@@ -3727,7 +3727,7 @@
       "objectiveId": "ecology_photosynthesis",
       "chapterId": "ecology_photosynthesis",
       "variant": 0,
-      "prompt": "A bean plant makes sugar using sunlight. Where is the light energy stored after photosynthesis?",
+      "prompt": "In what form is some absorbed light energy stored after photosynthesis?",
       "options": [
         "In the sugar as chemical energy.",
         "In the roots as newly created energy.",
@@ -3877,7 +3877,7 @@
       "objectiveId": "ecology_habitats",
       "chapterId": "ecology_habitats",
       "variant": 0,
-      "prompt": "Which group contains only marine ecosystems?",
+      "prompt": "Which group contains only ocean or saltwater coastal ecosystems?",
       "options": [
         "Ocean, coral reef, salt marsh.",
         "Pond, forest, desert.",
@@ -4880,7 +4880,7 @@
     {
       "id": "sci33_community-v11",
       "objectiveId": "sci33_community",
-      "prompt": "A forest survey groups all the plants, fungi and animals living there. Which term best describes this example?",
+      "prompt": "A forest survey groups interacting populations of plants, fungi and animals. Which level describes these living populations together?",
       "options": [
         "Population",
         "Biosphere",
@@ -7655,7 +7655,7 @@
     {
       "id": "ecology_transfer-v11",
       "objectiveId": "ecology_transfer",
-      "prompt": "The pond plants producer level has 4,500 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "prompt": "The pond’s producers have 4,500 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
       "options": [
         "450 units",
         "4,050 units",

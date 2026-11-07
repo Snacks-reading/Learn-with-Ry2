@@ -10,7 +10,8 @@
     "Percent of a whole: part÷whole gives the decimal rate, then multiply by100 for percent. State the reference whole before computing. A result above100% can be valid only when the part exceeds the chosen whole.",
     "Whole-number division: preserve place value, including a zero in the quotient when needed. Verify by multiplication rather than choosing a digit pattern.",
     "Decimal subtraction: line up decimal points and like place values, adding trailing zeros if useful. “Subtracta fromb” meansb−a.",
-    "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship."
+    "Ratios: retain the requested order and distinguish part:part from part:whole. Simplify both terms by the same nonzero factor. Equivalent ratios preserve the relationship.",
+    "For decimal addition, line up decimal points just as you do in subtraction. For example, 13.08 + 4.2 = 13.08 + 4.20 = 17.28. A number-line absolute value item asks how far a point is from zero. For fraction-to-decimal tables, divide the numerator by the denominator and match the exact result."
   ],
   "model": {
     "prompt": "Original design task: a pattern needs1.5 meters per item for 4 items. You own2.25 meters. A store sells fabric at$6 per meter. How much extra fabric and what cost are needed?",
@@ -1057,7 +1058,7 @@
     "spiral_mixed_fraction_division"
   ],
   "links": {
-    "prior": "Retrieve an earlier idea from Rational numbers: order, absolute value and coordinate distance. Explain what stays the same and what changes in this topic.",
+    "prior": "Review Rational numbers for number-line distance and Big 8 for the exact fraction-to-decimal matches.",
     "current": "All16 PSP12 item demands, with number-line/absolute-value and fraction-matching supported by the companion Rational and Big8 lessons.",
     "future": "Carry this reasoning into Communicate a decision someone else can follow. Use the new context to test where the connection holds and where it stops.",
     "realLife": "Plan fabric, recipes, prices, travel and project supplies by interpreting units before choosing operations.",

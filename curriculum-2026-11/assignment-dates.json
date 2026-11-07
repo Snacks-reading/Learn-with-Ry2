@@ -161,6 +161,54 @@
       "sourceUrl": "https://wcschools.schoology.com/event/8639501284/profile",
       "lesson": "ss_verified_social_pyramid",
       "action": "Gather your Egypt notebook work and check the teacher’s directions in class."
+    },
+    {
+      "id": "nov9-late-start",
+      "subject": "School",
+      "title": "Late start · homeroom",
+      "date": "2026-11-09",
+      "time": "08:35",
+      "source": "November 6 sixth-grade teacher newsletter"
+    },
+    {
+      "id": "nov11-veterans-day",
+      "subject": "School",
+      "title": "Veterans Day assembly",
+      "date": "2026-11-11",
+      "time": null,
+      "action": "The school encourages students to dress nicely for the assembly.",
+      "source": "November 6 sixth-grade teacher newsletter"
+    },
+    {
+      "id": "ela-ixl-thesis-nov13",
+      "subject": "ELA",
+      "title": "IXL P.2 thesis statements",
+      "date": "2026-11-13",
+      "time": null,
+      "lesson": "ela_explanatory_writing_20261106",
+      "action": "Open the teacher’s assigned skill in Schoology. The newsletter gives SmartScore 80 for full credit.",
+      "source": "November 6 sixth-grade teacher newsletter"
+    },
+    {
+      "id": "ela-spiral-nov13",
+      "subject": "ELA",
+      "title": "Weekly ELA spiral with written response",
+      "date": "2026-11-13",
+      "time": null,
+      "availableDate": "2026-11-09",
+      "lesson": "ela_explanatory_writing_20261106",
+      "action": "Check the Schoology directions for the exact written task and due time. The newsletter lists two attempts.",
+      "source": "November 6 sixth-grade teacher newsletter"
+    },
+    {
+      "id": "math-expressions-nov13",
+      "subject": "MATH",
+      "title": "Grade 6 expressions quiz",
+      "date": "2026-11-13",
+      "time": null,
+      "lesson": "math_expression_vocabulary_20261106",
+      "action": "Review all expressions work covered so far. Make cards for term, expression, like terms, coefficient, constant and variable. The newsletter also forecasts a Big 8 pop quiz during the week.",
+      "source": "November 6 sixth-grade teacher newsletter"
     }
   ]
 }
