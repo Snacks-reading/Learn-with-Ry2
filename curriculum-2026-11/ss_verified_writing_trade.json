@@ -35,18 +35,22 @@
     "An artifact’s shape or location supports some claims but not every claim. A royal monument can express power without representing how every Egyptian lived.",
     "Commerce means buying, selling or exchanging goods. Egypt and Nubia traded resources, including grain and gold. Interdependence means groups depend on one another.",
     "Cultural diffusion is the spread of ideas, knowledge, customs or styles between groups. It can occur through contact and trade, and also through migration or conquest; it is not limited to peaceful exchange.",
-    "Nubia had its own societies, rulers and traditions. Similarities with Egypt do not make the two societies identical. Nubian rulers later ruled Egypt, and Meroe became an important Nubian center."
+    "Nubia had its own societies, rulers and traditions. Similarities with Egypt do not make the two societies identical. Nubian rulers later ruled Egypt, and Meroe became an important Nubian center.",
+    "A hieroglyph could stand for a sound or a word. Scribes often used hieratic, a quicker, handwritten script, on papyrus. The letter charts in the cartouche assignment approximate the sounds in a modern name so you can practice using signs.",
+    "A cartouche is an oval frame around a royal name. When you use the classroom chart, listen to the sound first, then match it to a sign. The chart is a classroom model. Ancient Egyptian writing used more kinds of signs than an English alphabet."
   ],
   "teachingSections": [
     {
       "id": "ss_verified_writing_trade_writing_materials",
       "title": "Hieroglyphics and papyrus",
-      "where": "Assigned Egypt OER PDF pages 10, 40, 41.",
+      "where": "Assigned Egypt OER PDF pages 10, 40, 41. Read the classroom Hieroglyphics handout and use the Cartouche sound charts for the assignment.",
       "sourceUrl": "/?reading=egypt&page=10",
       "teach": [
         "Hieroglyphics is the classroom term for Egyptian writing using hieroglyphs. Signs could represent sounds or words; it was not simply an English letter-for-picture code.",
         "Papyrus is a Nile plant and the paper-like writing material made from its stems. Scribes used writing skills to record information. Writing is a system of signs; papyrus is a material.",
-        "The Rosetta Stone contains three scripts: hieroglyphic, demotic and Greek, using two languages. The assigned text simplifies this incorrectly. Comparing the same message helped scholars decipher the writing."
+        "The Rosetta Stone contains three scripts: hieroglyphic, demotic and Greek, using two languages. The assigned text simplifies this incorrectly. Comparing the same message helped scholars decipher the writing.",
+        "A hieroglyph could stand for a sound or a word. Scribes often used hieratic, a quicker, handwritten script, on papyrus. The letter charts in the cartouche assignment approximate the sounds in a modern name so you can practice using signs.",
+        "A cartouche is an oval frame around a royal name. When you use the classroom chart, listen to the sound first, then match it to a sign. The chart is a classroom model. Ancient Egyptian writing used more kinds of signs than an English alphabet."
       ],
       "example": {
         "prompt": "A scribe writes a record on papyrus. Which word names the writing system and which names the material?",
@@ -259,6 +263,16 @@
       "url": "https://egymonuments.gov.eg/monuments/pyramid-complex-of-khafre-khefren/",
       "status": "Primary-source factual cross-check",
       "pages": []
+    },
+    {
+      "title": "Hieroglyphics Reading",
+      "url": "https://wcschools.schoology.com/assignment/8636589263",
+      "status": "Original classroom PDF reviewed"
+    },
+    {
+      "title": "Hieroglyphics Letters for Cartouche",
+      "url": "https://wcschools.schoology.com/assignment/8636591905",
+      "status": "Original classroom PDF reviewed"
     }
   ],
   "readingLocation": {
@@ -621,6 +635,34 @@
         "ss_verified_writing_trade_commerce_diffusion",
         "ss_term_cultural_diffusion"
       ]
+    },
+    {
+      "id": "egypt-cartouche-sounds-20261106",
+      "objectiveId": "ss_verified_writing_trade_writing_materials",
+      "prompt": "Ry is using the classroom chart to make a cartouche for a name. What should she match to the signs?",
+      "options": [
+        "The sounds in the name",
+        "The color of the ink",
+        "The writer’s job",
+        "The date of the writing"
+      ],
+      "answer": 0,
+      "rationale": "The chart helps you use signs for sounds in a name. A cartouche is the oval frame around the name.",
+      "repair": {
+        "id": "egypt-cartouche-sounds-20261106-repair",
+        "objectiveId": "ss_verified_writing_trade_writing_materials",
+        "prompt": "A sign shaped like a bird appears in a name. What could the sign represent there?",
+        "options": [
+          "A sound in the name",
+          "The kind of papyrus",
+          "A tax on birds",
+          "The size of the cartouche"
+        ],
+        "answer": 0,
+        "rationale": "A sign shaped like an object can represent a sound, depending on how the sign is used.",
+        "teach": "The chart helps you use signs for sounds in a name. A cartouche is the oval frame around the name.",
+        "supported": true
+      }
     }
   ],
   "independentCheck": [

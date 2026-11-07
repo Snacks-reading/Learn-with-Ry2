@@ -577,7 +577,9 @@
         "An exponent counts repeated equal factors, not multiplication by the exponent:3²=3×3=9, while3×2=6. The base is the factor being repeated.",
         "Evaluate grouping first, then powers, then multiplication/division left to right, then addition/subtraction left to right. Multiplication does not always go before division; addition does not always go before subtraction.",
         "When substituting, replace EVERY occurrence of each variable. Write multiplication explicitly before calculating:2ab means2×a×b, not a three-digit number.",
-        "Scope matters: (ab)² squares the whole product; a+b² squares only b. Parentheses show exactly what an exponent or operation applies to. The current Pumpkin activity requires multi-variable substitution and powers, beyond single-variable addition."
+        "Scope matters: (ab)² squares the whole product; a+b² squares only b. Parentheses show exactly what an exponent or operation applies to. The current Pumpkin activity requires multi-variable substitution and powers, beyond single-variable addition.",
+        "The Pumpkin worksheet includes several kinds of substitution. A fraction bar groups its whole numerator. A variable beside parentheses multiplies the entire result inside. A power on a grouped product applies to the entire product.",
+        "For an example like the Pumpkin worksheet, evaluate (r + rp) ÷ 5 when r = 5 and p = 2. Replace both r’s and p: (5 + 5 × 2) ÷ 5. Multiply inside the group first. Then add and divide: (5 + 10) ÷ 5 = 3."
       ],
       "model": {
         "prompt": "Original expression:2+(ab)² when a=2 and b=3. Compare it with 2+ab².",
@@ -589,6 +591,16 @@
           "title": "Teacher Week12 Math announcement and current PDF practice",
           "url": "https://wcschools.schoology.com/course/8432932288/materials?f=1051205696",
           "status": "Freshly verified November1; original parallel problems here, not completed school answers."
+        },
+        {
+          "title": "Order of Operations and Rational Numbers Practice",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078863",
+          "status": "Original classroom PDF reviewed"
+        },
+        {
+          "title": "Expressions Pumpkin",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865",
+          "status": "Original classroom PDF reviewed"
         }
       ],
       "releaseStatus": "source-review",
@@ -647,6 +659,11 @@
           "title": "Problem Solving Practice12, both pages and all16 tasks read in authorized viewer November1",
           "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
           "status": "complete source task-format recovery; original parallel items here"
+        },
+        {
+          "title": "Problem Solving Practice 12",
+          "url": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078864",
+          "status": "Two-page classroom original recovered and skill families checked"
         }
       ],
       "releaseStatus": "source-review",

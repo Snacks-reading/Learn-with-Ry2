@@ -1,5 +1,5 @@
 {
-  "checked": "2026-11-02",
+  "checked": "2026-11-06",
   "timezone": "America/Chicago",
   "note": "ELA spiral8AM and Math5-1/5-2 11:59PM confirmed live November2; other entries retain their listed teacher-source verification.",
   "assignments": [
@@ -117,6 +117,50 @@
       "availableBy": "2026-11-01",
       "source": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865",
       "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8632078865"
+    },
+    {
+      "id": "ss-egypt-hieroglyphic-writing",
+      "subject": "SS",
+      "title": "Hieroglyphic Writing Assignment",
+      "date": "2026-11-11",
+      "time": null,
+      "source": "Schoology calendar event inspected November 6, 2026",
+      "sourceUrl": "https://wcschools.schoology.com/event/8639499595/profile",
+      "lesson": "ss_verified_writing_trade",
+      "action": "Review the Hieroglyphics Reading and the cartouche sound charts before finishing the teacher’s writing assignment."
+    },
+    {
+      "id": "ss-egypt-flocabulary",
+      "subject": "SS",
+      "title": "Ancient Egypt Flocabulary",
+      "date": "2026-11-12",
+      "time": null,
+      "source": "Schoology calendar event inspected November 6, 2026",
+      "sourceUrl": "https://wcschools.schoology.com/event/8639500113/profile",
+      "lesson": "ss_verified_writing_trade",
+      "action": "Check the teacher’s assigned Flocabulary activity."
+    },
+    {
+      "id": "ss-egypt-unit-test",
+      "subject": "SS",
+      "title": "Ancient Egypt Unit Test",
+      "date": "2026-11-13",
+      "time": null,
+      "source": "Schoology calendar event inspected November 6, 2026",
+      "sourceUrl": "https://wcschools.schoology.com/event/8639500846/profile",
+      "lesson": "ss_verified_writing_trade",
+      "action": "Review the assigned Egypt sources and use the full-unit practice tests. The calendar notice confirms the date."
+    },
+    {
+      "id": "ss-egypt-notebook-check",
+      "subject": "SS",
+      "title": "Ancient Egypt Unit Notebook Check",
+      "date": "2026-11-13",
+      "time": null,
+      "source": "Schoology calendar event inspected November 6, 2026",
+      "sourceUrl": "https://wcschools.schoology.com/event/8639501284/profile",
+      "lesson": "ss_verified_social_pyramid",
+      "action": "Gather your Egypt notebook work and check the teacher’s directions in class."
     }
   ]
 }

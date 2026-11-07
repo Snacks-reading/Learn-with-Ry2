@@ -16,7 +16,9 @@
     "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power.",
     "Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
     "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-    "The assigned WCS OER pyramid on page 15 groups soldiers and scribes together. The separate Ancient Egyptian Society handout groups scribes with traders, artisans and shopkeepers. Use the named diagram when answering a question."
+    "The assigned WCS OER pyramid on page 15 groups soldiers and scribes together. The separate Ancient Egyptian Society handout groups scribes with traders, artisans and shopkeepers. Use the named diagram when answering a question.",
+    "The Who Done It? activity asks how a person’s role connects to power or rights. A vizier advised the pharaoh. High priests led important temple rituals. Soldiers could sometimes gain land as a reward. Some Egyptian women could own property and run businesses. A legal right tells what someone was allowed to do. Social rank tells where a person or group stood in the hierarchy.",
+    "The modern mystery scenes are invented clues. Use the roles and evidence from the Egypt readings to answer the history questions."
   ],
   "sources": [
     {
@@ -47,6 +49,11 @@
       "url": "https://wcschools.schoology.com/course/8432932378/materials/gp/8630097165",
       "status": "Image visually read; assigned OER pages15–18 and orange book149; due2026-11-05",
       "pages": []
+    },
+    {
+      "title": "Who Done It? Ancient Egyptian Society",
+      "url": "https://wcschools.schoology.com/assignment/8633333695",
+      "status": "Original classroom PDF reviewed"
     }
   ],
   "readingLocation": {
@@ -63,7 +70,9 @@
       "teach": [
         "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power.",
         "Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
-        "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant."
+        "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "The Who Done It? activity asks how a person’s role connects to power or rights. A vizier advised the pharaoh. High priests led important temple rituals. Soldiers could sometimes gain land as a reward. Some Egyptian women could own property and run businesses. A legal right tells what someone was allowed to do. Social rank tells where a person or group stood in the hierarchy.",
+        "The modern mystery scenes are invented clues. Use the roles and evidence from the Egypt readings to answer the history questions."
       ],
       "example": {
         "prompt": "In the Ancient Egyptian Society handout pyramid, were scribes above or below farmers?",
@@ -208,6 +217,34 @@
         "ss_verified_social_pyramid",
         "ss_term_classes"
       ]
+    },
+    {
+      "id": "egypt-society-rights-20261106",
+      "objectiveId": "ss_verified_social_pyramid",
+      "prompt": "Which example shows a legal right some women had in ancient Egypt?",
+      "options": [
+        "Serving automatically as pharaoh",
+        "Owning property and running a business",
+        "Holding every government office",
+        "Serving as chief priest by law"
+      ],
+      "answer": 1,
+      "rationale": "The classroom activity points to property ownership and running a business as examples of legal rights.",
+      "repair": {
+        "id": "egypt-society-rights-20261106-repair",
+        "objectiveId": "ss_verified_social_pyramid",
+        "prompt": "A woman in an Egyptian town owns a shop. Which idea does this example support?",
+        "options": [
+          "Some women had the right to own property and run businesses.",
+          "All shopkeepers held the highest social rank.",
+          "Anyone who owned a shop was a vizier.",
+          "Only soldiers could own property."
+        ],
+        "answer": 0,
+        "rationale": "Owning a shop illustrates a right. It does not tell us that a shopkeeper held a government office.",
+        "teach": "The classroom activity points to property ownership and running a business as examples of legal rights.",
+        "supported": true
+      }
     }
   ],
   "independentCheck": [

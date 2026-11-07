@@ -8,7 +8,8 @@
       "title": "From one organism to the biosphere",
       "teach": [
         "Use nesting and contrast to make the words meaningful: one organism, a same-species population, interacting populations as a community, and organisms plus abiotic conditions as an ecosystem. The biosphere is the global life scope. A biome groups broad climate-and-community regions; it is not simply one step in the local nested list.",
-        "For every example, say what is included and what is left out. A community includes living populations; an ecosystem also considers nonliving conditions. Biotic and abiotic are describing words, not two new organization levels."
+        "For every example, say what is included and what is left out. A community includes living populations; an ecosystem also considers nonliving conditions. Biotic and abiotic are describing words, not two new organization levels.",
+        "Use the textbook’s outline strategy. Give the outline three headings: living and nonliving factors, levels of organization, and how nonliving conditions affect life. Under each heading, give one example from a pond."
       ],
       "model": {
         "prompt": "Original park model: one oak → all oaks of that species in the park → interacting living populations → those populations with water, light and soil conditions. Explain what changes at each step.",
@@ -91,7 +92,8 @@
       ],
       "sources": [
         "teacher-studymate",
-        "teacher-ecology-key"
+        "teacher-ecology-key",
+        "holt-ecology-intro"
       ],
       "guided": {
         "id": "fresh_sci33_levels-guided",
@@ -299,7 +301,8 @@
       "title": "Models and processing remains",
       "teach": [
         "A chain traces one energy route; a web combines routes; an energy pyramid compares available energy by level. These models answer different questions and omit details. Do not read a pyramid as a map or assume it shows the exact number of individuals.",
-        "A scavenger consumes dead remains. Decomposers such as fungi and bacteria break down remains and waste. Both help process material, but they are not identical mechanisms. Matter is returned and reused; usable energy transfers and disperses rather than cycling back identically."
+        "A scavenger consumes dead remains. Decomposers such as fungi and bacteria break down remains and waste. Both help process material, but they are not identical mechanisms. Matter is returned and reused; usable energy transfers and disperses rather than cycling back identically.",
+        "Make a three-column organizer for producers, consumers and decomposers. Add one organism and explain how it gets energy. Then draw one food chain and add a second route to turn it into a food web."
       ],
       "model": {
         "prompt": "Original pond model: algae feeds snails and insect larvae, both eaten by fish. Trace one chain, then the whole web. Compare usable energy by level, and add decomposers acting on material from every level.",
@@ -355,7 +358,8 @@
       ],
       "sources": [
         "teacher-studymate",
-        "teacher-ecology-key"
+        "teacher-ecology-key",
+        "holt-ecology-energy"
       ],
       "guided": {
         "id": "fresh_sci33_models_matter-guided",
@@ -375,7 +379,8 @@
       "title": "Effects on both partners",
       "teach": [
         "Symbiosis is the relationship noun; symbiotic is the describing adjective. These refer to close cross-species associations. They do not guarantee both partners benefit. Read the effects on each participant before choosing a more specific classification.",
-        "Use an effects table: mutualism is benefit/benefit, parasitism is benefit/harm, commensalism is benefit/no known effect. Host identifies the provider of habitat/resources; it does not by itself establish harm. Explain what evidence would change your conclusion."
+        "Use an effects table: mutualism is benefit/benefit, parasitism is benefit/harm, commensalism is benefit/no known effect. Host identifies the provider of habitat/resources; it does not by itself establish harm. Explain what evidence would change your conclusion.",
+        "Holt describes algae that live inside some corals. The algae provide some of the food they make using light. The coral gives the algae a place to live and some nutrients. Both benefit, so this is mutualism. Say what each partner gains before naming the relationship."
       ],
       "model": {
         "prompt": "Original association model: gut organisms receive food and shelter while supplying useful vitamins to an animal. Name the host, explain the benefit to each, and distinguish the relationship noun from its adjective.",
@@ -441,7 +446,8 @@
       "sources": [
         "teacher-studymate",
         "teacher-ecology-key",
-        "symbiosis"
+        "symbiosis",
+        "holt-ecology-interactions"
       ],
       "guided": {
         "id": "fresh_sci33_associations-guided",
@@ -8076,6 +8082,21 @@
       "id": "orise",
       "title": "ORISE Grade 6 Invasive Species lesson and published quizzes",
       "status": "Supplement reviewed. Defective/absolute items excluded; no claim these are the teacher’s test."
+    },
+    {
+      "id": "holt-ecology-intro",
+      "title": "Holt Chapter 2 Section 1 · Everything Is Connected",
+      "status": "Assigned classroom PDF recovered. Section objectives and the linked teaching example or organizer were checked."
+    },
+    {
+      "id": "holt-ecology-energy",
+      "title": "Holt Chapter 2 Section 2 · Energy Flow in Ecosystems",
+      "status": "Assigned classroom PDF recovered. Section objectives and the linked teaching example or organizer were checked."
+    },
+    {
+      "id": "holt-ecology-interactions",
+      "title": "Holt Chapter 2 Section 3 · Types of Interactions",
+      "status": "Assigned classroom PDF recovered. Section objectives and the linked teaching example or organizer were checked."
     }
   ]
 }
