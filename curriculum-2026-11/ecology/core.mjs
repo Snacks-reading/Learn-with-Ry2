@@ -1,3 +1,4 @@
+import './choice-layout.js?v=20261106-allqc';
 export const NAMESPACE='learn-with-ry:ecology:2026-11-07-v1';
 export const DAY=86400000;
 export function freshState(){return {namespace:NAMESPACE,revision:0,lessons:{},runs:[],activeRun:null};}
@@ -55,7 +56,12 @@ export function act(data,state,action,now=Date.now()){
    ids=target.map(o=>data.questions.find(q=>q.objectiveId===o&&q.variant>=3&&!used.has(q.id))?.id).filter(Boolean);
    if(!ids.length)throw Error('This recall needs additional unused questions before it can be retried. Your first score remains saved. Other tests and lessons are available.');
   }else throw Error('Unknown round.');
-  const runId=globalThis.crypto.randomUUID();const items=shuffle(ids);state.runs.push({id:runId,kind:action.kind,form:action.form||null,day:day||null,independent:action.independent===true,startedAt:stamp,items,orders:Object.fromEntries(items.map(id=>[id,shuffle(data.questions.find(q=>q.id===id).options.map((_,i)=>i))])),answers:[]});state.activeRun=runId;
+  const runId=globalThis.crypto.randomUUID();
+  const items=shuffle(ids);
+  const questions=items.map(id=>data.questions.find(q=>q.id===id));
+  const orders=globalThis.RyChoiceLayout.orders(questions);
+  state.runs.push({id:runId,kind:action.kind,form:action.form||null,day:day||null,independent:action.independent===true,startedAt:stamp,items,orders,answers:[]});
+  state.activeRun=runId;
  }else if(action.type==='answer'){
   const run=state.runs.find(r=>r.id===action.runId);if(!run)throw Error('Saved round not found.');
   if(run.answers.some(a=>a.itemId===action.itemId))return state;

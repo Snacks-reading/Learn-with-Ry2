@@ -14,8 +14,9 @@
   },
   "teach": [
     "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power.",
-    "Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
-    "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant."
+    "Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
+    "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+    "The assigned WCS OER pyramid on page 15 groups soldiers and scribes together. The separate Ancient Egyptian Society handout groups scribes with traders, artisans and shopkeepers. Use the named diagram when answering a question."
   ],
   "sources": [
     {
@@ -61,23 +62,23 @@
       "sourceUrl": "/?reading=egypt&page=15",
       "teach": [
         "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power.",
-        "Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
+        "Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers.",
         "The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant."
       ],
       "example": {
-        "prompt": "In the teacher’s diagram, were scribes above or below farmers?",
+        "prompt": "In the Ancient Egyptian Society handout pyramid, were scribes above or below farmers?",
         "thinking": "Find each labeled level. Scribes share a level with traders, artisans and shopkeepers. Farmers and herders are one level below.",
-        "answer": "Scribes were above farmers in the teacher’s diagram.",
+        "answer": "Scribes were above farmers in the Ancient Egyptian Society handout pyramid.",
         "why": "The answer uses the labeled levels. It does not claim that farming was unimportant."
       },
-      "tryPrompt": "Who is at the top of the teacher’s five-level social pyramid?",
+      "tryPrompt": "Who is at the top of the Ancient Egyptian Society handout pyramid?",
       "tryChoices": [
         "Pharaoh",
         "Farmers and herders",
         "Traders and artisans"
       ],
       "tryAnswerIndex": 0,
-      "tryAnswer": "Pharaoh. The teacher’s diagram places the ruler above the other social groups.",
+      "tryAnswer": "Pharaoh. The Ancient Egyptian Society handout pyramid places the ruler above the other social groups.",
       "connections": [
         {
           "id": "ss_verified_social_pyramid_teach_connection_0",
@@ -88,7 +89,7 @@
             "Farmers had the most political power in every period."
           ],
           "answer": 0,
-          "rationale": "Farmers supplied food needed across social classes. Read the exact teacher diagram, then connect each labeled group with its work."
+          "rationale": "Farmers supplied food needed across social classes. Read the Ancient Egyptian Society handout pyramid, then connect each labeled group with its work."
         },
         {
           "id": "ss_verified_social_pyramid_teach_connection_1",
@@ -111,7 +112,7 @@
   ],
   "practice": [
     {
-      "prompt": "In the teacher’s social pyramid, which group is directly below the pharaoh?",
+      "prompt": "In the Ancient Egyptian Society handout pyramid, which group is directly below the pharaoh?",
       "options": [
         "Priests and nobles",
         "Farmers and herders",
@@ -128,9 +129,9 @@
           5
         ]
       },
-      "rationale": "Correct: Priests and nobles. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Priests and nobles. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
-        "prompt": "Which group held the highest position in the teacher’s diagram?",
+        "prompt": "Which group held the highest position in the Ancient Egyptian Society handout pyramid?",
         "options": [
           "Pharaoh",
           "Shopkeepers",
@@ -147,8 +148,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: Pharaoh. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: Pharaoh. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "terms": [
@@ -196,7 +197,7 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "rationale": "The chart should show fewer powerful people at the top and more people in lower social groups. The width describes the population pattern, not the value of a job.",
         "supported": true
       },
@@ -211,7 +212,7 @@
   ],
   "independentCheck": [
     {
-      "prompt": "Which group shares a level with scribes in the teacher’s diagram?",
+      "prompt": "Which group shares a level with scribes in the Ancient Egyptian Society handout pyramid?",
       "options": [
         "Traders, artisans and shopkeepers",
         "Pharaohs",
@@ -228,9 +229,9 @@
           5
         ]
       },
-      "rationale": "Correct: Traders, artisans and shopkeepers. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Traders, artisans and shopkeepers. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
-        "prompt": "Which pair belongs on the same level in the teacher’s diagram?",
+        "prompt": "Which pair belongs on the same level in the Ancient Egyptian Society handout pyramid?",
         "options": [
           "Artisans and scribes",
           "Pharaohs and farmers",
@@ -247,8 +248,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: Artisans and scribes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: Artisans and scribes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "terms": [
@@ -271,7 +272,7 @@
       ],
       "answer": 0,
       "objectiveId": "ss_verified_social_pyramid",
-      "rationale": "Correct: People lower in rank could still provide goods everyone needed. Read the exact teacher diagram, then connect each labeled group with its work.",
+      "rationale": "Correct: People lower in rank could still provide goods everyone needed. Read the Ancient Egyptian Society handout pyramid, then connect each labeled group with its work.",
       "sourceRef": {
         "sourceId": "teacher-pyramid",
         "pages": [
@@ -312,7 +313,7 @@
     },
     {
       "id": "ss_verified_social_pyramid_formC_1",
-      "prompt": "Which group belongs between priests/nobles and farmers/herders in the teacher’s diagram?",
+      "prompt": "Which group belongs between priests/nobles and farmers/herders in the Ancient Egyptian Society handout pyramid?",
       "options": [
         "Traders, artisans, shopkeepers and scribes",
         "Pharaohs only",
@@ -320,7 +321,7 @@
       ],
       "answer": 0,
       "objectiveId": "ss_verified_social_pyramid",
-      "rationale": "Correct: Traders, artisans, shopkeepers and scribes. Read the exact teacher diagram, then connect each labeled group with its work.",
+      "rationale": "Correct: Traders, artisans, shopkeepers and scribes. Read the Ancient Egyptian Society handout pyramid, then connect each labeled group with its work.",
       "sourceRef": {
         "sourceId": "teacher-pyramid",
         "pages": [
@@ -379,7 +380,7 @@
           5
         ]
       },
-      "rationale": "Correct: Unskilled workers. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Unskilled workers. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
         "prompt": "The reading mentions enslaved people; the diagram asks you to copy its bottom label. Which label should you copy?",
         "options": [
@@ -398,8 +399,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: Unskilled workers. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: Unskilled workers. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "retrievalDay": 1,
@@ -412,7 +413,7 @@
       ]
     },
     {
-      "prompt": "A student places farmers above priests in the teacher’s diagram. What needs to change?",
+      "prompt": "A student places farmers above priests in the Ancient Egyptian Society handout pyramid. What needs to change?",
       "options": [
         "Priests and nobles belong above farmers and herders.",
         "Farmers and priests belong above the pharaoh.",
@@ -429,9 +430,9 @@
           5
         ]
       },
-      "rationale": "Correct: Priests and nobles belong above farmers and herders. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Priests and nobles belong above farmers and herders. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
-        "prompt": "In the teacher’s diagram, are farmers above or below traders?",
+        "prompt": "In the Ancient Egyptian Society handout pyramid, are farmers above or below traders?",
         "options": [
           "Below traders",
           "Above traders",
@@ -448,8 +449,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: Below traders. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: Below traders. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "retrievalDay": 3,
@@ -479,7 +480,7 @@
           5
         ]
       },
-      "rationale": "Correct: Lower-ranked workers still supplied essential goods and labor. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Lower-ranked workers still supplied essential goods and labor. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
         "prompt": "Farmers ranked below priests. What can you conclude about the food farmers grew?",
         "options": [
@@ -498,8 +499,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: It was still needed by people in other classes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: It was still needed by people in other classes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "retrievalDay": 7,
@@ -512,7 +513,7 @@
       ]
     },
     {
-      "prompt": "Which order matches three levels of the teacher’s diagram, from higher to lower?",
+      "prompt": "Which order matches three levels of the Ancient Egyptian Society handout pyramid, from higher to lower?",
       "options": [
         "Priests and nobles → scribes and artisans → farmers and herders",
         "Farmers and herders → priests and nobles → scribes and artisans",
@@ -529,9 +530,9 @@
           5
         ]
       },
-      "rationale": "Correct: Priests and nobles → scribes and artisans → farmers and herders. Use the teacher’s five diagram labels when a question names that diagram.",
+      "rationale": "Correct: Priests and nobles → scribes and artisans → farmers and herders. Use the Ancient Egyptian Society handout’s five diagram labels when a question names that diagram.",
       "repair": {
-        "prompt": "Which group is below priests and nobles but above farmers in the teacher’s diagram?",
+        "prompt": "Which group is below priests and nobles but above farmers in the Ancient Egyptian Society handout pyramid?",
         "options": [
           "Traders, artisans, shopkeepers and scribes",
           "Pharaohs",
@@ -548,8 +549,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: Traders, artisans, shopkeepers and scribes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: Traders, artisans, shopkeepers and scribes. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "retrievalDay": 14,
@@ -598,8 +599,8 @@
             5
           ]
         },
-        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
-        "rationale": "Correct: A small group held power over a larger population. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read your teacher’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "teach": "A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
+        "rationale": "Correct: A small group held power over a larger population. A social class is a group with a similar position in society. A social pyramid shows rank: a small group at the top had more power; larger groups lower down had less power. Read the Ancient Egyptian Society handout’s five diagram labels from top to bottom: Pharaoh; Priests and nobles; Traders, artisans, shopkeepers, and scribes; Farmers and herders; Unskilled workers. The diagram’s bottom label is Unskilled workers. The readings also discuss enslaved people and servants below farmers. Do not replace the diagram’s exact label when the question asks for that diagram. Lower rank does not mean work was unimportant.",
         "supported": true
       },
       "retrievalDay": 30,
@@ -627,7 +628,7 @@
   ],
   "links": {
     "prior": "Recall specialization: people do different jobs. A social pyramid asks how groups are ranked by power and position.",
-    "current": "Read the exact teacher diagram, then connect each labeled group with its work.",
+    "current": "Read the Ancient Egyptian Society handout pyramid, then connect each labeled group with its work.",
     "future": "Jobs and contributions: Connect a job with what it provides, then identify the government offices that use those services.",
     "realLife": "A school organization chart shows different responsibilities. It is not the same as an inherited ancient social class.",
     "priorLessonId": "ss_verified_social_pyramid",

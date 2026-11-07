@@ -45,7 +45,13 @@ window.renderVerifiedLesson = function(main, id) {
   }
   const q=questions[work.index],answerKey=stageKey+'-'+work.index,saved=work.answers[answerKey];
   if(!work.choiceOrders)work.choiceOrders={};
-  if(!work.choiceOrders[answerKey]){const order=q.options.map((_,i)=>i);for(let i=order.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[order[i],order[j]]=[order[j],order[i]];}work.choiceOrders[answerKey]=order;save();}
+  if(!work.choiceOrders[answerKey]){
+    const unanswered=questions.map((question,index)=>({...question,id:stageKey+'-'+index}))
+      .filter(question=>!work.choiceOrders[question.id]&&!work.answers[question.id]);
+    Object.assign(work.choiceOrders,globalThis.RyChoiceLayout.orders(unanswered));
+    if(!work.choiceOrders[answerKey])work.choiceOrders[answerKey]=q.options.map((_,i)=>i);
+    save();
+  }
   const optionOrder=work.choiceOrders[answerKey];
   add(main,'p','Question '+(work.index+1)+' of '+questions.length,'eyebrow');
   if(stageKey==='assessment'||stageKey==='guided'){add(main,'p',lesson.passage,'panel');}

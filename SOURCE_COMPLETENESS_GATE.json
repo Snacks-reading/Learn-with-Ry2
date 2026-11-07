@@ -43,7 +43,7 @@
     "THEATER": {
       "status": "awaiting-source-reconciliation",
       "assessmentEnabled": false,
-      "blocker": "Teacher slides, project directions and current assigned scope remain unreviewed.",
+      "blocker": "All 18 Music for Mimes slide titles and media descriptions were recovered. Full track playback and a separate performance rubric or assessment scope remain unverified.",
       "verifiedStandaloneLessons": []
     }
   },
@@ -51,15 +51,15 @@
     "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
     "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
-    "Read the exact Science 33\u201334 terms and all three STEMscopes readings.",
-    "Recover Theater slides and project directions.",
+    "Recover the exact STEMscopes publisher readings. The 33 displayed StudyMate terms and recovered ecology packets are already reconciled for the focused Science release.",
+    "Verify Theater playback and recover any posted assessment directions or rubric.",
     "Complete the 51-page Egypt OER review and reconcile maps, vocabulary, society activities and linked media before new whole-unit tests."
   ],
   "conflicts": [
     {
       "lesson": "ss_verified_social_pyramid",
-      "finding": "An older item places scribes with traders. Assigned OER page 15 places soldiers and scribes together.",
-      "action": "All legacy assessment items remain outside the fresh scoring path pending source reconciliation."
+      "finding": "Two assigned diagrams differ. WCS OER page 15 groups soldiers and scribes. The separate Ancient Egyptian Society handout puts scribes with traders, artisans and shopkeepers.",
+      "action": "Name the exact diagram in the question and score using that diagram. Legacy assessments remain outside the focused GitHub scoring path."
     }
   ],
   "sourceRegister": "rebuild/catalog.json",
