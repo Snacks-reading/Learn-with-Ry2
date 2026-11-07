@@ -1,4 +1,4 @@
-import {act,freshState,summary,NAMESPACE} from './core.mjs';
+import {act,freshState,summary,NAMESPACE} from './core.mjs?v=20261106-qc1';
 const main=document.querySelector('main'),status=document.querySelector('#save-status');
 const privateMode=!new URLSearchParams(location.search).has('preview')&&location.hostname!=='snacks-reading.github.io'&&!['localhost','127.0.0.1'].includes(location.hostname);
 let data,state,reading='',generation=0,busy=false,feedbackId=null,error='';
