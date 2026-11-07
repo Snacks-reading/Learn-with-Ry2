@@ -136,6 +136,8 @@ const publicBridges = {
   ELA: {
     title: 'Jane Goodall · Observation and evidence',
     source: ['Jane Goodall Institute · Research at Gombe', 'https://janegoodall.org/news/gombe-stream-research-center-at-65-how-65-years-of-chimpanzee-research-changed-science-conservation-and-our-understanding-of-ourselves/'],
+    extra: [['Japan Center for Asian Historical Records · Hachikō', 'https://www.jacar.go.jp/wp/ennews/others/2054/']],
+    task: 'For Hachikō, find one detail the historical account and the classroom story share. Then find one detail in the classroom story that comes from the narrator’s perspective. Mark which source supports each detail.',
     learn: 'In 1960, Goodall observed chimpanzees using twigs to collect termites. An observation records what happened. An inference explains what the observation suggests. The institute’s account gives historical context. Use the assigned memoir for questions about its narrator, paragraph evidence and voice.',
     model: 'A chimpanzee strips leaves from a twig and inserts it in a termite mound. Those actions are observations. The claim that the chimpanzee changed the twig to make a useful tool is an inference supported by the actions.',
     recall: 'Why is “the chimpanzee was preparing a tool” an inference?',
@@ -152,7 +154,8 @@ const publicBridges = {
   SCI: {
     title: 'Ecology · Lichens, limiting factors and ocean food chains',
     source: ['OpenStax Biology · Ecology of fungi', 'https://openstax.org/books/biology/pages/24-3-ecology-of-fungi'],
-    extra: [['National Geographic Education · Food Web, Grade 6', 'https://education.nationalgeographic.org/resource/food-web/6th-grade/'], ['National Geographic Education · Limiting Factors', 'https://education.nationalgeographic.org/resource/limiting-factors-collection/']],
+    extra: [['National Geographic Education · Food Web, Grade 6', 'https://education.nationalgeographic.org/resource/food-web/6th-grade/'], ['National Geographic Education · Limiting Factors', 'https://education.nationalgeographic.org/resource/limiting-factors-collection/'], ['National Park Service · Kangaroo rats', 'https://www.nps.gov/whsa/learn/nature/kangaroo-rats.htm']],
+    task: 'Read how kangaroo rats get water from their food. Explain how that adaptation helps when water is scarce. Then change one nonliving factor in a pond, such as light or water temperature, and predict how the change could affect a living population.',
     learn: 'A lichen includes a fungus and a partner that can photosynthesize. The photosynthetic partner makes sugars. The fungus gives it shelter and helps it obtain water and materials. Many phytoplankton make their own food. Many zooplankton get energy by eating other organisms.',
     model: 'Trace phytoplankton → small grazing zooplankton → fish. Energy moves from food to eater. In a pond, low light can limit how much food producers make. This model shows the feeding relationships described here.',
     recall: 'If a small fish eats the grazing zooplankton in this chain, what consumer level is the fish?',
@@ -161,6 +164,8 @@ const publicBridges = {
   SS: {
     title: 'Ancient Egypt · Use an artifact as evidence',
     source: ['The Metropolitan Museum of Art · Haremhab as a scribe', 'https://www.metmuseum.org/exhibitions/listings/2010/haremhab'],
+    extra: [['Egypt Ministry of Tourism and Antiquities · Giza Plateau', 'https://egymonuments.gov.eg/archaeological-sites/giza-plateau/'], ['Egypt Ministry of Tourism and Antiquities · Valley of the Kings', 'https://egymonuments.gov.eg/archaeological-sites/valley-of-the-kings']],
+    task: 'Compare the two site pages. Use the monuments to distinguish the Old Kingdom pyramids at Giza from the New Kingdom royal tombs in the Valley of the Kings. Close both pages and name the site and kingdom for each.',
     learn: 'Scribes were trained to read and write. Haremhab led Egypt’s army before becoming pharaoh and chose to be shown in a scribe’s pose. The statue connects literacy with status, and its subject held more than one role in his lifetime.',
     model: 'The statue can support the claim that literacy mattered to an Egyptian official. To place scribes on a specific social pyramid, use the labels on that assigned diagram.',
     recall: 'What detail makes Haremhab’s statue evidence that literacy mattered to him?',
@@ -217,7 +222,8 @@ function renderPublicBridge(main, subject) {
     });
   }
   add(main, 'h2', 'Explore the source');
+  if (lesson.task) add(main, 'p', lesson.task);
   [lesson.source, ...(lesson.extra ?? [])].forEach(([label, url]) => link(add(main, 'p'), label, url));
   link(main, 'Back to the subject', '#subject/' + subject, 'button');
-  readingText = [lesson.title, lesson.learn, lesson.model, lesson.recall].join('. ');
+  readingText = [lesson.title, lesson.learn, lesson.model, lesson.recall, lesson.task].filter(Boolean).join('. ');
 }
