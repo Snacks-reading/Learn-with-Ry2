@@ -6,7 +6,7 @@ assert.equal(d.chapters.flatMap(c=>c.terms).length,33);assert.equal(d.objectives
 assert.equal(new Set(d.questions.map(q=>q.id)).size,d.questions.length);
 for(const q of d.questions){assert.equal(q.options.length,4,q.id);assert.equal(new Set(q.options).size,4,q.id);assert(Number.isInteger(q.answer)&&q.answer>=0&&q.answer<4);assert(q.rationale?.length>12);assert(d.chapters.some(c=>c.id===q.chapterId));}
 for(const ids of Object.values(d.forms)){assert.equal(ids.length,42);assert.equal(new Set(ids.map(id=>d.questions.find(q=>q.id===id).objectiveId)).size,42);}
-assert.equal(new Set(Object.values(d.forms).flat()).size,126);
+assert.equal(new Set(Object.values(d.forms).flat()).size,168);
 let s=freshState(),now=Date.parse('2026-11-07T12:00:00Z');
 const action=b=>s=act(d,s,b,now);
 function finish(wrong=false){const r=s.runs.find(r=>r.id===s.activeRun);for(const id of r.items){const q=d.questions.find(q=>q.id===id);action({type:'answer',runId:r.id,itemId:id,selected:wrong?(q.answer+1)%4:q.answer});}}
@@ -54,4 +54,49 @@ assert.equal(targeted.items.length,1);
 const target=d.questions.find(q=>q.id===targeted.items[0]);
 act(d,recallState,{type:'answer',runId:targeted.id,itemId:target.id,selected:target.answer},due);
 assert.equal(summary(d,recallState,due).retention[0].complete,true);
-console.log('PASS: 33 terms; 42 objectives; 3 disjoint 42-question forms; answer-key shape; source-linked lessons; independent/support separation; immutable first answers; resume; date gates; all five recall rounds; conservative mastery; fresh missed-skill pool.');
+// A below-threshold independent test and a supported test must leave a fresh mastery route.
+const recovery=freshState();
+let clock=Date.parse('2026-11-07T12:00:00Z');
+const apply=action=>act(d,recovery,action,clock++);
+const questions=new Map(d.questions.map(question=>[question.id,question]));
+function completeRound(misses=[]){
+ const round=recovery.runs.find(r=>r.id===recovery.activeRun);
+ for(const itemId of round.items){
+  const question=questions.get(itemId);
+  const selected=misses.includes(question.objectiveId)?(question.answer+1)%4:question.answer;
+  apply({type:'answer',runId:round.id,itemId,selected});
+ }
+ return round;
+}
+assert.throws(()=>apply({type:'start',kind:'test',form:'D',independent:true}),/Finish tests/);
+const missedObjectives=d.objectives.slice(0,5);
+for(const form of 'ABC'){
+ apply({type:'start',kind:'test',form,independent:form!=='B'});
+ completeRound(form==='C'?missedObjectives:[]);
+}
+const originalC=structuredClone(recovery.runs.find(r=>r.form==='C'));
+assert.equal(originalC.answers.filter(a=>a.correct).length,37);
+assert.throws(()=>apply({type:'start',kind:'test',form:'D',independent:false}),/independent-work box/);
+const anchor=Date.parse(recovery.runs[0].finishedAt);
+for(const day of d.retentionDays){
+ clock=anchor+day*DAY;
+ apply({type:'start',kind:'retention',day,independent:true});
+ completeRound();
+}
+for(let i=0;i<6;i++){
+ apply({type:'start',kind:'repair',independent:true});
+ completeRound();
+}
+assert.equal(summary(d,recovery,clock).mastered,false);
+apply({type:'start',kind:'test',form:'D',independent:true});
+const transfer=completeRound();
+const positions=transfer.items.map(id=>transfer.orders[id].indexOf(questions.get(id).answer));
+assert.equal(globalThis.RyChoiceLayout.hasPattern(positions),false);
+assert.deepEqual(recovery.runs.find(r=>r.form==='C'),originalC);
+assert.equal(new Set(recovery.runs.flatMap(r=>r.items)).size,recovery.runs.flatMap(r=>r.items).length);
+for(const evidence of summary(d,recovery,clock).evidence.filter(e=>missedObjectives.includes(e.objectiveId))){
+ assert.equal(evidence.recentCorrect,9);
+ assert.equal(evidence.recentTotal,10);
+}
+assert.equal(summary(d,recovery,clock).mastered,true);
+console.log('PASS: 42 objectives, three practice tests and a reserved transfer check, immutable scores, fresh recovery after misses, answer-order patterns, and all five recall rounds.');

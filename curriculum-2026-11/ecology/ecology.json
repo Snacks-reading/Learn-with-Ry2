@@ -4660,6 +4660,3156 @@
       ],
       "answer": 0,
       "rationale": "A food web joins many feeding pathways. Removing one population can affect its predators, its food and competitors. Predict a likely change using the stated connections, and name other conditions that could change the result. A rise or fall in one population alone does not prove a single cause."
+    },
+    {
+      "id": "sci33_organism-v7",
+      "objectiveId": "sci33_organism",
+      "prompt": "A ranger tags one particular box turtle. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Population",
+        "Community",
+        "Organism"
+      ],
+      "answer": 3,
+      "rationale": "One individual living thing. Single-celled life also counts; animal or plant examples are not the whole category.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_organism-v8",
+      "objectiveId": "sci33_organism",
+      "prompt": "One sunflower bends toward a classroom window. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Population",
+        "Community",
+        "Organism"
+      ],
+      "answer": 3,
+      "rationale": "One individual living thing. Single-celled life also counts; animal or plant examples are not the whole category.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_organism-v9",
+      "objectiveId": "sci33_organism",
+      "prompt": "A biologist follows the daily movements of a single bat. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Population",
+        "Community",
+        "Organism"
+      ],
+      "answer": 3,
+      "rationale": "One individual living thing. Single-celled life also counts; animal or plant examples are not the whole category.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_organism-v10",
+      "objectiveId": "sci33_organism",
+      "prompt": "A drop of pond water contains one living paramecium under the lens. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Population",
+        "Community",
+        "Organism"
+      ],
+      "answer": 3,
+      "rationale": "One individual living thing. Single-celled life also counts; animal or plant examples are not the whole category.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_organism-v11",
+      "objectiveId": "sci33_organism",
+      "prompt": "A student records the height of one oak seedling. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Population",
+        "Community",
+        "Organism"
+      ],
+      "answer": 3,
+      "rationale": "One individual living thing. Single-celled life also counts; animal or plant examples are not the whole category.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_population-v7",
+      "objectiveId": "sci33_population",
+      "prompt": "Every bluegill in the same pond is counted. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Organism",
+        "Population",
+        "Community"
+      ],
+      "answer": 2,
+      "rationale": "Individuals of the same species living in a particular area. Area and species boundaries matter; all living things together are not one population.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_population-v8",
+      "objectiveId": "sci33_population",
+      "prompt": "A team counts all red maples in one city park. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Organism",
+        "Population",
+        "Community"
+      ],
+      "answer": 2,
+      "rationale": "Individuals of the same species living in a particular area. Area and species boundaries matter; all living things together are not one population.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_population-v9",
+      "objectiveId": "sci33_population",
+      "prompt": "A camera survey estimates how many gray foxes live in one preserve. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Organism",
+        "Population",
+        "Community"
+      ],
+      "answer": 2,
+      "rationale": "Individuals of the same species living in a particular area. Area and species boundaries matter; all living things together are not one population.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_population-v10",
+      "objectiveId": "sci33_population",
+      "prompt": "All the monarch caterpillars on one school milkweed patch are surveyed. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Organism",
+        "Population",
+        "Community"
+      ],
+      "answer": 2,
+      "rationale": "Individuals of the same species living in a particular area. Area and species boundaries matter; all living things together are not one population.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_population-v11",
+      "objectiveId": "sci33_population",
+      "prompt": "All the cattails of one species in a marsh are counted. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Organism",
+        "Population",
+        "Community"
+      ],
+      "answer": 2,
+      "rationale": "Individuals of the same species living in a particular area. Area and species boundaries matter; all living things together are not one population.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_community-v7",
+      "objectiveId": "sci33_community",
+      "prompt": "A survey includes the turtles, cattails and bacteria living in a wetland, and excludes water and rocks. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biosphere",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "The populations of different species living and interacting in an area. Do not confuse one same-species population with a multi-species community.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_community-v8",
+      "objectiveId": "sci33_community",
+      "prompt": "An island study groups its palms, crabs, seabirds and fungi together. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biosphere",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "The populations of different species living and interacting in an area. Do not confuse one same-species population with a multi-species community.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_community-v9",
+      "objectiveId": "sci33_community",
+      "prompt": "A soil study counts all the living populations in one garden bed. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biosphere",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "The populations of different species living and interacting in an area. Do not confuse one same-species population with a multi-species community.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_community-v10",
+      "objectiveId": "sci33_community",
+      "prompt": "A reef inventory includes corals, fish and algae but excludes temperature. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biosphere",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "The populations of different species living and interacting in an area. Do not confuse one same-species population with a multi-species community.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_community-v11",
+      "objectiveId": "sci33_community",
+      "prompt": "A forest survey groups all the plants, fungi and animals living there. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biosphere",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "The populations of different species living and interacting in an area. Do not confuse one same-species population with a multi-species community.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_ecosystem-v7",
+      "objectiveId": "sci33_ecosystem",
+      "prompt": "Students investigate frogs and algae alongside the pond’s oxygen, sunlight and water. Which term best describes this example?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 3,
+      "rationale": "A community of organisms interacting with its nonliving environment. The boundary is chosen for a question; organisms and materials can cross it.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_ecosystem-v8",
+      "objectiveId": "sci33_ecosystem",
+      "prompt": "A study connects desert lizards with shade, rainfall and soil. Which term best describes this example?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 3,
+      "rationale": "A community of organisms interacting with its nonliving environment. The boundary is chosen for a question; organisms and materials can cross it.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_ecosystem-v9",
+      "objectiveId": "sci33_ecosystem",
+      "prompt": "Researchers examine how seawater temperature affects corals and fish. Which term best describes this example?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 3,
+      "rationale": "A community of organisms interacting with its nonliving environment. The boundary is chosen for a question; organisms and materials can cross it.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_ecosystem-v10",
+      "objectiveId": "sci33_ecosystem",
+      "prompt": "A model combines prairie grasses, grazers, wind and soil moisture. Which term best describes this example?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 3,
+      "rationale": "A community of organisms interacting with its nonliving environment. The boundary is chosen for a question; organisms and materials can cross it.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_ecosystem-v11",
+      "objectiveId": "sci33_ecosystem",
+      "prompt": "A tank study includes snails, plants, gravel and light and how they interact. Which term best describes this example?",
+      "options": [
+        "Biome",
+        "Population",
+        "Community",
+        "Ecosystem"
+      ],
+      "answer": 3,
+      "rationale": "A community of organisms interacting with its nonliving environment. The boundary is chosen for a question; organisms and materials can cross it.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_biosphere-v7",
+      "objectiveId": "sci33_biosphere",
+      "prompt": "A diagram groups every place on Earth where life is found. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Biome",
+        "Biosphere",
+        "Biotic"
+      ],
+      "answer": 2,
+      "rationale": "The parts of Earth where life exists; the global scope of life and ecosystems. Biosphere is a level/region of life, whereas biotic describes living factors.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_biosphere-v8",
+      "objectiveId": "sci33_biosphere",
+      "prompt": "A model combines living regions of the oceans, land and lower atmosphere. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Biome",
+        "Biosphere",
+        "Biotic"
+      ],
+      "answer": 2,
+      "rationale": "The parts of Earth where life exists; the global scope of life and ecosystems. Biosphere is a level/region of life, whereas biotic describes living factors.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_biosphere-v9",
+      "objectiveId": "sci33_biosphere",
+      "prompt": "A scientist studies life’s full range from deep-ocean vents to mountain soils. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Biome",
+        "Biosphere",
+        "Biotic"
+      ],
+      "answer": 2,
+      "rationale": "The parts of Earth where life exists; the global scope of life and ecosystems. Biosphere is a level/region of life, whereas biotic describes living factors.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_biosphere-v10",
+      "objectiveId": "sci33_biosphere",
+      "prompt": "A map represents all Earth’s ecosystems together. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Biome",
+        "Biosphere",
+        "Biotic"
+      ],
+      "answer": 2,
+      "rationale": "The parts of Earth where life exists; the global scope of life and ecosystems. Biosphere is a level/region of life, whereas biotic describes living factors.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_biosphere-v11",
+      "objectiveId": "sci33_biosphere",
+      "prompt": "A researcher compares the combined life-supporting regions of the entire planet. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "Biome",
+        "Biosphere",
+        "Biotic"
+      ],
+      "answer": 2,
+      "rationale": "The parts of Earth where life exists; the global scope of life and ecosystems. Biosphere is a level/region of life, whereas biotic describes living factors.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_biome-v7",
+      "objectiveId": "sci33_biome",
+      "prompt": "A broad region is grouped by its long cold winters and cone-bearing trees. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biome",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "answer": 1,
+      "rationale": "A large ecological region characterized by climate and typical communities. A biome can contain many local ecosystems; boundaries are broad models.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_biome-v8",
+      "objectiveId": "sci33_biome",
+      "prompt": "A map groups widely separated areas with hot, wet climates and similar forests. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biome",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "answer": 1,
+      "rationale": "A large ecological region characterized by climate and typical communities. A biome can contain many local ecosystems; boundaries are broad models.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_biome-v9",
+      "objectiveId": "sci33_biome",
+      "prompt": "Scientists group large dry regions by climate and drought-tolerant life. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biome",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "answer": 1,
+      "rationale": "A large ecological region characterized by climate and typical communities. A biome can contain many local ecosystems; boundaries are broad models.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_biome-v10",
+      "objectiveId": "sci33_biome",
+      "prompt": "A regional model describes grass-dominated landscapes with similar rainfall. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biome",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "answer": 1,
+      "rationale": "A large ecological region characterized by climate and typical communities. A biome can contain many local ecosystems; boundaries are broad models.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_biome-v11",
+      "objectiveId": "sci33_biome",
+      "prompt": "A global map divides land into broad zones using climate and typical plants. Which term best describes this example?",
+      "options": [
+        "Population",
+        "Biome",
+        "Ecosystem",
+        "Biosphere"
+      ],
+      "answer": 1,
+      "rationale": "A large ecological region characterized by climate and typical communities. A biome can contain many local ecosystems; boundaries are broad models.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_abiotic-v7",
+      "objectiveId": "sci33_abiotic",
+      "prompt": "A lake monitor records the temperature of the water. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 1,
+      "rationale": "Describing nonliving physical or chemical environmental factors. Use temperature, sunlight, water and minerals as clear cases; distinguish biological origin when discussing dead material.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_abiotic-v8",
+      "objectiveId": "sci33_abiotic",
+      "prompt": "A desert investigator measures rainfall. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 1,
+      "rationale": "Describing nonliving physical or chemical environmental factors. Use temperature, sunlight, water and minerals as clear cases; distinguish biological origin when discussing dead material.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_abiotic-v9",
+      "objectiveId": "sci33_abiotic",
+      "prompt": "A gardener measures light reaching the ground. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 1,
+      "rationale": "Describing nonliving physical or chemical environmental factors. Use temperature, sunlight, water and minerals as clear cases; distinguish biological origin when discussing dead material.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_abiotic-v10",
+      "objectiveId": "sci33_abiotic",
+      "prompt": "A stream survey records water acidity. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 1,
+      "rationale": "Describing nonliving physical or chemical environmental factors. Use temperature, sunlight, water and minerals as clear cases; distinguish biological origin when discussing dead material.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_abiotic-v11",
+      "objectiveId": "sci33_abiotic",
+      "prompt": "A coral study measures the salt concentration of the water. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 1,
+      "rationale": "Describing nonliving physical or chemical environmental factors. Use temperature, sunlight, water and minerals as clear cases; distinguish biological origin when discussing dead material.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_biotic-v7",
+      "objectiveId": "sci33_biotic",
+      "prompt": "A forest study tracks the effect of browsing deer on seedlings. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 0,
+      "rationale": "Describing the living components and biological influences in an environment. Use living organisms and their biological effects as clear examples. Temperature and sunlight are abiotic.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 7
+    },
+    {
+      "id": "sci33_biotic-v8",
+      "objectiveId": "sci33_biotic",
+      "prompt": "A gardener investigates how pollinating bees affect fruit production. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 0,
+      "rationale": "Describing the living components and biological influences in an environment. Use living organisms and their biological effects as clear examples. Temperature and sunlight are abiotic.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 8
+    },
+    {
+      "id": "sci33_biotic-v9",
+      "objectiveId": "sci33_biotic",
+      "prompt": "A lake study tracks competition from a newly introduced fish. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 0,
+      "rationale": "Describing the living components and biological influences in an environment. Use living organisms and their biological effects as clear examples. Temperature and sunlight are abiotic.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 9
+    },
+    {
+      "id": "sci33_biotic-v10",
+      "objectiveId": "sci33_biotic",
+      "prompt": "Scientists measure how living fungi affect a tree’s roots. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 0,
+      "rationale": "Describing the living components and biological influences in an environment. Use living organisms and their biological effects as clear examples. Temperature and sunlight are abiotic.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 10
+    },
+    {
+      "id": "sci33_biotic-v11",
+      "objectiveId": "sci33_biotic",
+      "prompt": "A marsh study examines how nesting birds influence insect populations. Which term describes the factor being studied?",
+      "options": [
+        "Biotic",
+        "Abiotic",
+        "Biome",
+        "Population"
+      ],
+      "answer": 0,
+      "rationale": "Describing the living components and biological influences in an environment. Use living organisms and their biological effects as clear examples. Temperature and sunlight are abiotic.",
+      "chapterId": "fresh_sci33_levels",
+      "variant": 11
+    },
+    {
+      "id": "sci33_native_species-v7",
+      "objectiveId": "sci33_native_species",
+      "prompt": "A frog has occurred naturally in a watershed for many generations and was not brought there by people. How should this species be classified in this region?",
+      "options": [
+        "Invasive Species",
+        "Limiting Factor",
+        "Native Species",
+        "Biome"
+      ],
+      "answer": 2,
+      "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_native_species-v8",
+      "objectiveId": "sci33_native_species",
+      "prompt": "A tree is part of the natural plant community of the region. How should this species be classified in this region?",
+      "options": [
+        "Invasive Species",
+        "Limiting Factor",
+        "Native Species",
+        "Biome"
+      ],
+      "answer": 2,
+      "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_native_species-v9",
+      "objectiveId": "sci33_native_species",
+      "prompt": "A crayfish has a natural range that includes the creek under study. How should this species be classified in this region?",
+      "options": [
+        "Invasive Species",
+        "Limiting Factor",
+        "Native Species",
+        "Biome"
+      ],
+      "answer": 2,
+      "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_native_species-v10",
+      "objectiveId": "sci33_native_species",
+      "prompt": "A grass is documented in the local prairie before human introductions. How should this species be classified in this region?",
+      "options": [
+        "Invasive Species",
+        "Limiting Factor",
+        "Native Species",
+        "Biome"
+      ],
+      "answer": 2,
+      "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_native_species-v11",
+      "objectiveId": "sci33_native_species",
+      "prompt": "A bird’s natural breeding range includes the island where it is observed. How should this species be classified in this region?",
+      "options": [
+        "Invasive Species",
+        "Limiting Factor",
+        "Native Species",
+        "Biome"
+      ],
+      "answer": 2,
+      "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_invasive_species-v7",
+      "objectiveId": "sci33_invasive_species",
+      "prompt": "An introduced vine spreads beyond gardens and smothers local plants. How should this species be classified in its new region?",
+      "options": [
+        "Invasive Species",
+        "Carrying Capacity",
+        "Native Species",
+        "adaptation"
+      ],
+      "answer": 0,
+      "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_invasive_species-v8",
+      "objectiveId": "sci33_invasive_species",
+      "prompt": "A released fish establishes itself and reduces local fish numbers. How should this species be classified in its new region?",
+      "options": [
+        "Invasive Species",
+        "Carrying Capacity",
+        "Native Species",
+        "adaptation"
+      ],
+      "answer": 0,
+      "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_invasive_species-v9",
+      "objectiveId": "sci33_invasive_species",
+      "prompt": "A transported insect spreads and kills trees in its new region. How should this species be classified in its new region?",
+      "options": [
+        "Invasive Species",
+        "Carrying Capacity",
+        "Native Species",
+        "adaptation"
+      ],
+      "answer": 0,
+      "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_invasive_species-v10",
+      "objectiveId": "sci33_invasive_species",
+      "prompt": "A plant brought from overseas escapes cultivation and crowds out wetland grasses. How should this species be classified in its new region?",
+      "options": [
+        "Invasive Species",
+        "Carrying Capacity",
+        "Native Species",
+        "adaptation"
+      ],
+      "answer": 0,
+      "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_invasive_species-v11",
+      "objectiveId": "sci33_invasive_species",
+      "prompt": "An introduced aquatic animal multiplies rapidly and damages the local habitat. How should this species be classified in its new region?",
+      "options": [
+        "Invasive Species",
+        "Carrying Capacity",
+        "Native Species",
+        "adaptation"
+      ],
+      "answer": 0,
+      "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_limiting_factor-v7",
+      "objectiveId": "sci33_limiting_factor",
+      "prompt": "Nest holes are scarce, so additional pairs cannot raise chicks. What is the role of the scarce resource in this example?",
+      "options": [
+        "niche",
+        "Carrying Capacity",
+        "adaptation",
+        "Limiting Factor"
+      ],
+      "answer": 3,
+      "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_limiting_factor-v8",
+      "objectiveId": "sci33_limiting_factor",
+      "prompt": "In a crowded tank, low oxygen restricts how many fish survive. What is the role of the scarce resource in this example?",
+      "options": [
+        "niche",
+        "Carrying Capacity",
+        "adaptation",
+        "Limiting Factor"
+      ],
+      "answer": 3,
+      "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_limiting_factor-v9",
+      "objectiveId": "sci33_limiting_factor",
+      "prompt": "Seedlings stop growing when soil water becomes scarce even though light is adequate. What is the role of the scarce resource in this example?",
+      "options": [
+        "niche",
+        "Carrying Capacity",
+        "adaptation",
+        "Limiting Factor"
+      ],
+      "answer": 3,
+      "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_limiting_factor-v10",
+      "objectiveId": "sci33_limiting_factor",
+      "prompt": "Too little prey prevents a hawk population from increasing. What is the role of the scarce resource in this example?",
+      "options": [
+        "niche",
+        "Carrying Capacity",
+        "adaptation",
+        "Limiting Factor"
+      ],
+      "answer": 3,
+      "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_limiting_factor-v11",
+      "objectiveId": "sci33_limiting_factor",
+      "prompt": "A plant population stops expanding because almost no open growing space remains. What is the role of the scarce resource in this example?",
+      "options": [
+        "niche",
+        "Carrying Capacity",
+        "adaptation",
+        "Limiting Factor"
+      ],
+      "answer": 3,
+      "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_carrying_capacity-v7",
+      "objectiveId": "sci33_carrying_capacity",
+      "prompt": "Under current conditions, an island can sustain about 80 nesting pairs over time. What does the long-term population limit represent?",
+      "options": [
+        "Population",
+        "Biome",
+        "Limiting Factor",
+        "Carrying Capacity"
+      ],
+      "answer": 3,
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_carrying_capacity-v8",
+      "objectiveId": "sci33_carrying_capacity",
+      "prompt": "A pond can support at most 25 adult turtles year after year at its current food supply. What does the long-term population limit represent?",
+      "options": [
+        "Population",
+        "Biome",
+        "Limiting Factor",
+        "Carrying Capacity"
+      ],
+      "answer": 3,
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_carrying_capacity-v9",
+      "objectiveId": "sci33_carrying_capacity",
+      "prompt": "A grassland has a long-term upper limit of about 140 grazing animals. What does the long-term population limit represent?",
+      "options": [
+        "Population",
+        "Biome",
+        "Limiting Factor",
+        "Carrying Capacity"
+      ],
+      "answer": 3,
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_carrying_capacity-v10",
+      "objectiveId": "sci33_carrying_capacity",
+      "prompt": "A preserve can sustain no more than roughly 60 elk given available food and water. What does the long-term population limit represent?",
+      "options": [
+        "Population",
+        "Biome",
+        "Limiting Factor",
+        "Carrying Capacity"
+      ],
+      "answer": 3,
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_carrying_capacity-v11",
+      "objectiveId": "sci33_carrying_capacity",
+      "prompt": "The greatest number of rabbits a meadow can sustain falls after a drought. What does the long-term population limit represent?",
+      "options": [
+        "Population",
+        "Biome",
+        "Limiting Factor",
+        "Carrying Capacity"
+      ],
+      "answer": 3,
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_niche-v7",
+      "objectiveId": "sci33_niche",
+      "prompt": "A bat catches flying insects at dusk and shelters in tree cavities by day. What does this description of resource use and role show?",
+      "options": [
+        "niche",
+        "Ecosystem",
+        "Limiting Factor",
+        "Biome"
+      ],
+      "answer": 0,
+      "rationale": "A species’ role, resource use and interactions within its environment. A niche includes interactions with living and nonliving conditions; sharing a habitat does not mean identical niches.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_niche-v8",
+      "objectiveId": "sci33_niche",
+      "prompt": "A shorebird probes wet sand for small prey during low tide. What does this description of resource use and role show?",
+      "options": [
+        "niche",
+        "Ecosystem",
+        "Limiting Factor",
+        "Biome"
+      ],
+      "answer": 0,
+      "rationale": "A species’ role, resource use and interactions within its environment. A niche includes interactions with living and nonliving conditions; sharing a habitat does not mean identical niches.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_niche-v9",
+      "objectiveId": "sci33_niche",
+      "prompt": "An owl hunts at night, nests in hollows and helps control rodent numbers. What does this description of resource use and role show?",
+      "options": [
+        "niche",
+        "Ecosystem",
+        "Limiting Factor",
+        "Biome"
+      ],
+      "answer": 0,
+      "rationale": "A species’ role, resource use and interactions within its environment. A niche includes interactions with living and nonliving conditions; sharing a habitat does not mean identical niches.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_niche-v10",
+      "objectiveId": "sci33_niche",
+      "prompt": "A woodpecker finds insects under bark and creates holes later used by other birds. What does this description of resource use and role show?",
+      "options": [
+        "niche",
+        "Ecosystem",
+        "Limiting Factor",
+        "Biome"
+      ],
+      "answer": 0,
+      "rationale": "A species’ role, resource use and interactions within its environment. A niche includes interactions with living and nonliving conditions; sharing a habitat does not mean identical niches.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_niche-v11",
+      "objectiveId": "sci33_niche",
+      "prompt": "A crab feeds on remains at night and hides in rock cracks by day. What does this description of resource use and role show?",
+      "options": [
+        "niche",
+        "Ecosystem",
+        "Limiting Factor",
+        "Biome"
+      ],
+      "answer": 0,
+      "rationale": "A species’ role, resource use and interactions within its environment. A niche includes interactions with living and nonliving conditions; sharing a habitat does not mean identical niches.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_adaptation-v7",
+      "objectiveId": "sci33_adaptation",
+      "prompt": "A desert plant’s inherited waxy surface reduces water loss. What term describes the inherited trait?",
+      "options": [
+        "adaptation",
+        "Limiting Factor",
+        "niche",
+        "Carrying Capacity"
+      ],
+      "answer": 0,
+      "rationale": "An inherited trait that can improve survival or reproduction in a particular environment. Adaptations can help with food, water, protection or reproduction. An individual does not inherit a new trait just because it needs one.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 7
+    },
+    {
+      "id": "sci33_adaptation-v8",
+      "objectiveId": "sci33_adaptation",
+      "prompt": "A shorebird’s inherited long bill helps it reach prey in mud. What term describes the inherited trait?",
+      "options": [
+        "adaptation",
+        "Limiting Factor",
+        "niche",
+        "Carrying Capacity"
+      ],
+      "answer": 0,
+      "rationale": "An inherited trait that can improve survival or reproduction in a particular environment. Adaptations can help with food, water, protection or reproduction. An individual does not inherit a new trait just because it needs one.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 8
+    },
+    {
+      "id": "sci33_adaptation-v9",
+      "objectiveId": "sci33_adaptation",
+      "prompt": "A moth’s inherited markings make it harder for predators to see on bark. What term describes the inherited trait?",
+      "options": [
+        "adaptation",
+        "Limiting Factor",
+        "niche",
+        "Carrying Capacity"
+      ],
+      "answer": 0,
+      "rationale": "An inherited trait that can improve survival or reproduction in a particular environment. Adaptations can help with food, water, protection or reproduction. An individual does not inherit a new trait just because it needs one.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 9
+    },
+    {
+      "id": "sci33_adaptation-v10",
+      "objectiveId": "sci33_adaptation",
+      "prompt": "A fish’s inherited body shape helps it move against a current. What term describes the inherited trait?",
+      "options": [
+        "adaptation",
+        "Limiting Factor",
+        "niche",
+        "Carrying Capacity"
+      ],
+      "answer": 0,
+      "rationale": "An inherited trait that can improve survival or reproduction in a particular environment. Adaptations can help with food, water, protection or reproduction. An individual does not inherit a new trait just because it needs one.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 10
+    },
+    {
+      "id": "sci33_adaptation-v11",
+      "objectiveId": "sci33_adaptation",
+      "prompt": "An inherited thick coat helps some mammals survive cold conditions. What term describes the inherited trait?",
+      "options": [
+        "adaptation",
+        "Limiting Factor",
+        "niche",
+        "Carrying Capacity"
+      ],
+      "answer": 0,
+      "rationale": "An inherited trait that can improve survival or reproduction in a particular environment. Adaptations can help with food, water, protection or reproduction. An individual does not inherit a new trait just because it needs one.",
+      "chapterId": "fresh_sci33_resources",
+      "variant": 11
+    },
+    {
+      "id": "sci33_producers-v7",
+      "objectiveId": "sci33_producers",
+      "prompt": "Pond algae use light energy to build sugars. Which term best describes this example?",
+      "options": [
+        "Producers",
+        "scavenger",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 0,
+      "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_producers-v8",
+      "objectiveId": "sci33_producers",
+      "prompt": "Seagrass makes sugar from carbon dioxide and water using light. Which term best describes this example?",
+      "options": [
+        "Producers",
+        "scavenger",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 0,
+      "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_producers-v9",
+      "objectiveId": "sci33_producers",
+      "prompt": "Prairie grass uses sunlight to make its own food. Which term best describes this example?",
+      "options": [
+        "Producers",
+        "scavenger",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 0,
+      "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_producers-v10",
+      "objectiveId": "sci33_producers",
+      "prompt": "A floating microscopic organism uses photosynthesis to make sugars. Which term best describes this example?",
+      "options": [
+        "Producers",
+        "scavenger",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 0,
+      "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_producers-v11",
+      "objectiveId": "sci33_producers",
+      "prompt": "A shrub makes organic food using energy from sunlight. Which term best describes this example?",
+      "options": [
+        "Producers",
+        "scavenger",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 0,
+      "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_consumer-v7",
+      "objectiveId": "sci33_consumer",
+      "prompt": "A snail gets energy by eating living algae. Which broad feeding role fits the animal obtaining energy?",
+      "options": [
+        "Producers",
+        "Ecosystem",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 3,
+      "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_consumer-v8",
+      "objectiveId": "sci33_consumer",
+      "prompt": "A hawk gets food energy from a vole it eats. Which broad feeding role fits the animal obtaining energy?",
+      "options": [
+        "Producers",
+        "Ecosystem",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 3,
+      "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_consumer-v9",
+      "objectiveId": "sci33_consumer",
+      "prompt": "An insect gets energy from the leaves it chews. Which broad feeding role fits the animal obtaining energy?",
+      "options": [
+        "Producers",
+        "Ecosystem",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 3,
+      "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_consumer-v10",
+      "objectiveId": "sci33_consumer",
+      "prompt": "A sea star obtains energy by eating mussels. Which broad feeding role fits the animal obtaining energy?",
+      "options": [
+        "Producers",
+        "Ecosystem",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 3,
+      "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_consumer-v11",
+      "objectiveId": "sci33_consumer",
+      "prompt": "A tadpole gets energy from the algae it scrapes off stones. Which broad feeding role fits the animal obtaining energy?",
+      "options": [
+        "Producers",
+        "Ecosystem",
+        "Decomposers",
+        "Consumer"
+      ],
+      "answer": 3,
+      "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_herbivore-v7",
+      "objectiveId": "sci33_herbivore",
+      "prompt": "The only foods recorded for this insect are leaves and flower buds. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 0,
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_herbivore-v8",
+      "objectiveId": "sci33_herbivore",
+      "prompt": "In the described habitat, this mammal eats grasses and tree shoots only. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 0,
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_herbivore-v9",
+      "objectiveId": "sci33_herbivore",
+      "prompt": "The animal in the observations ate only roots, stems and seeds. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 0,
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_herbivore-v10",
+      "objectiveId": "sci33_herbivore",
+      "prompt": "The recorded diet includes algae and aquatic plants, with no animal food. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 0,
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_herbivore-v11",
+      "objectiveId": "sci33_herbivore",
+      "prompt": "In this example, the animal feeds only on fruit and leaves. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 0,
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_carnivore-v7",
+      "objectiveId": "sci33_carnivore",
+      "prompt": "The animal’s recorded diet consists of fish and frogs only. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 1,
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_carnivore-v8",
+      "objectiveId": "sci33_carnivore",
+      "prompt": "A bird in the example eats only spiders and beetles. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 1,
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_carnivore-v9",
+      "objectiveId": "sci33_carnivore",
+      "prompt": "A pond animal obtains its food solely from worms and insect larvae. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 1,
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_carnivore-v10",
+      "objectiveId": "sci33_carnivore",
+      "prompt": "An observed reptile eats mice and small birds, with no plant food. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 1,
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_carnivore-v11",
+      "objectiveId": "sci33_carnivore",
+      "prompt": "A marine animal eats only clams and crabs. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 1,
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_omnivore-v7",
+      "objectiveId": "sci33_omnivore",
+      "prompt": "An animal eats grass seeds and grasshoppers. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 2,
+      "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_omnivore-v8",
+      "objectiveId": "sci33_omnivore",
+      "prompt": "The same bird eats both berries and worms. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 2,
+      "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_omnivore-v9",
+      "objectiveId": "sci33_omnivore",
+      "prompt": "The observed turtle eats pond plants and snails. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 2,
+      "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_omnivore-v10",
+      "objectiveId": "sci33_omnivore",
+      "prompt": "A crab eats algae as well as small animals. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 2,
+      "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_omnivore-v11",
+      "objectiveId": "sci33_omnivore",
+      "prompt": "A mammal eats acorns in autumn and grubs in spring. Which diet category fits the described animal?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 2,
+      "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_tertiary-v7",
+      "objectiveId": "sci33_tertiary",
+      "prompt": "On algae → insect larvae → minnows → bass, classify the bass. What feeding level does that organism occupy on this path?",
+      "options": [
+        "Producer",
+        "Primary consumer",
+        "Secondary consumer",
+        "Tertiary consumer"
+      ],
+      "answer": 3,
+      "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_tertiary-v8",
+      "objectiveId": "sci33_tertiary",
+      "prompt": "On leaves → caterpillar → songbird → hawk, classify the hawk. What feeding level does that organism occupy on this path?",
+      "options": [
+        "Producer",
+        "Primary consumer",
+        "Secondary consumer",
+        "Tertiary consumer"
+      ],
+      "answer": 3,
+      "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_tertiary-v9",
+      "objectiveId": "sci33_tertiary",
+      "prompt": "On grass → grasshopper → frog → snake, classify the snake. What feeding level does that organism occupy on this path?",
+      "options": [
+        "Producer",
+        "Primary consumer",
+        "Secondary consumer",
+        "Tertiary consumer"
+      ],
+      "answer": 3,
+      "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_tertiary-v10",
+      "objectiveId": "sci33_tertiary",
+      "prompt": "On algae → snail → small fish → heron, classify the heron. What feeding level does that organism occupy on this path?",
+      "options": [
+        "Producer",
+        "Primary consumer",
+        "Secondary consumer",
+        "Tertiary consumer"
+      ],
+      "answer": 3,
+      "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_tertiary-v11",
+      "objectiveId": "sci33_tertiary",
+      "prompt": "On planktonic algae → tiny crustacean → sardine → tuna, classify the tuna. What feeding level does that organism occupy on this path?",
+      "options": [
+        "Producer",
+        "Primary consumer",
+        "Secondary consumer",
+        "Tertiary consumer"
+      ],
+      "answer": 3,
+      "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_predator-v7",
+      "objectiveId": "sci33_predator",
+      "prompt": "A heron catches and eats a fish. Classify the heron in this interaction. Which role does the organism doing the catching have?",
+      "options": [
+        "prey",
+        "predator",
+        "Host",
+        "scavenger"
+      ],
+      "answer": 1,
+      "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_predator-v8",
+      "objectiveId": "sci33_predator",
+      "prompt": "A spider traps and eats a fly. Classify the spider. Which role does the organism doing the catching have?",
+      "options": [
+        "prey",
+        "predator",
+        "Host",
+        "scavenger"
+      ],
+      "answer": 1,
+      "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_predator-v9",
+      "objectiveId": "sci33_predator",
+      "prompt": "A dragonfly catches and eats a mosquito. Classify the dragonfly. Which role does the organism doing the catching have?",
+      "options": [
+        "prey",
+        "predator",
+        "Host",
+        "scavenger"
+      ],
+      "answer": 1,
+      "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_predator-v10",
+      "objectiveId": "sci33_predator",
+      "prompt": "A fox captures and eats a mouse. Classify the fox. Which role does the organism doing the catching have?",
+      "options": [
+        "prey",
+        "predator",
+        "Host",
+        "scavenger"
+      ],
+      "answer": 1,
+      "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_predator-v11",
+      "objectiveId": "sci33_predator",
+      "prompt": "A large fish catches and eats a small fish. Classify the large fish. Which role does the organism doing the catching have?",
+      "options": [
+        "prey",
+        "predator",
+        "Host",
+        "scavenger"
+      ],
+      "answer": 1,
+      "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_prey-v7",
+      "objectiveId": "sci33_prey",
+      "prompt": "A heron catches and eats a fish. Classify the fish in this interaction. Which role does the organism being caught have?",
+      "options": [
+        "Predator",
+        "Prey",
+        "Host",
+        "Producer"
+      ],
+      "answer": 1,
+      "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 7
+    },
+    {
+      "id": "sci33_prey-v8",
+      "objectiveId": "sci33_prey",
+      "prompt": "A spider traps and eats a fly. Classify the fly. Which role does the organism being caught have?",
+      "options": [
+        "Predator",
+        "Prey",
+        "Host",
+        "Producer"
+      ],
+      "answer": 1,
+      "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 8
+    },
+    {
+      "id": "sci33_prey-v9",
+      "objectiveId": "sci33_prey",
+      "prompt": "A dragonfly catches and eats a mosquito. Classify the mosquito. Which role does the organism being caught have?",
+      "options": [
+        "Predator",
+        "Prey",
+        "Host",
+        "Producer"
+      ],
+      "answer": 1,
+      "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 9
+    },
+    {
+      "id": "sci33_prey-v10",
+      "objectiveId": "sci33_prey",
+      "prompt": "A fox captures and eats a mouse. Classify the mouse. Which role does the organism being caught have?",
+      "options": [
+        "Predator",
+        "Prey",
+        "Host",
+        "Producer"
+      ],
+      "answer": 1,
+      "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 10
+    },
+    {
+      "id": "sci33_prey-v11",
+      "objectiveId": "sci33_prey",
+      "prompt": "A large fish catches and eats a small fish. Classify the small fish. Which role does the organism being caught have?",
+      "options": [
+        "Predator",
+        "Prey",
+        "Host",
+        "Producer"
+      ],
+      "answer": 1,
+      "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship.",
+      "chapterId": "fresh_sci33_feeding",
+      "variant": 11
+    },
+    {
+      "id": "sci33_food_chain-v7",
+      "objectiveId": "sci33_food_chain",
+      "prompt": "A diagram traces one route: clover → rabbit → fox. Which term best describes this example?",
+      "options": [
+        "Energy Pyramid",
+        "food chain",
+        "Food Web",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "rationale": "One linear feeding pathway showing energy transfer among organisms. The chain is a simplified pathway; decomposers act on material from all levels.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 7
+    },
+    {
+      "id": "sci33_food_chain-v8",
+      "objectiveId": "sci33_food_chain",
+      "prompt": "A diagram follows only algae → snail → fish → heron. Which term best describes this example?",
+      "options": [
+        "Energy Pyramid",
+        "food chain",
+        "Food Web",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "rationale": "One linear feeding pathway showing energy transfer among organisms. The chain is a simplified pathway; decomposers act on material from all levels.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 8
+    },
+    {
+      "id": "sci33_food_chain-v9",
+      "objectiveId": "sci33_food_chain",
+      "prompt": "A model traces one feeding route from leaves to caterpillar to bird. Which term best describes this example?",
+      "options": [
+        "Energy Pyramid",
+        "food chain",
+        "Food Web",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "rationale": "One linear feeding pathway showing energy transfer among organisms. The chain is a simplified pathway; decomposers act on material from all levels.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 9
+    },
+    {
+      "id": "sci33_food_chain-v10",
+      "objectiveId": "sci33_food_chain",
+      "prompt": "A student draws just one line of feeding links from grass to grasshopper to frog. Which term best describes this example?",
+      "options": [
+        "Energy Pyramid",
+        "food chain",
+        "Food Web",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "rationale": "One linear feeding pathway showing energy transfer among organisms. The chain is a simplified pathway; decomposers act on material from all levels.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 10
+    },
+    {
+      "id": "sci33_food_chain-v11",
+      "objectiveId": "sci33_food_chain",
+      "prompt": "A poster shows a single energy route: seeds → mouse → owl. Which term best describes this example?",
+      "options": [
+        "Energy Pyramid",
+        "food chain",
+        "Food Web",
+        "Ecosystem"
+      ],
+      "answer": 1,
+      "rationale": "One linear feeding pathway showing energy transfer among organisms. The chain is a simplified pathway; decomposers act on material from all levels.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 11
+    },
+    {
+      "id": "sci33_food_web-v7",
+      "objectiveId": "sci33_food_web",
+      "prompt": "Arrows show that owls and foxes both eat mice, while foxes also eat rabbits. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "food chain",
+        "Energy Pyramid",
+        "Food Web"
+      ],
+      "answer": 3,
+      "rationale": "A model showing multiple connected feeding relationships. Arrows show food-energy transfer; a model omits some real relationships.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 7
+    },
+    {
+      "id": "sci33_food_web-v8",
+      "objectiveId": "sci33_food_web",
+      "prompt": "A model links algae to several consumers and shows multiple predators sharing prey. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "food chain",
+        "Energy Pyramid",
+        "Food Web"
+      ],
+      "answer": 3,
+      "rationale": "A model showing multiple connected feeding relationships. Arrows show food-energy transfer; a model omits some real relationships.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 8
+    },
+    {
+      "id": "sci33_food_web-v9",
+      "objectiveId": "sci33_food_web",
+      "prompt": "A chart connects several overlapping routes between pond organisms. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "food chain",
+        "Energy Pyramid",
+        "Food Web"
+      ],
+      "answer": 3,
+      "rationale": "A model showing multiple connected feeding relationships. Arrows show food-energy transfer; a model omits some real relationships.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 9
+    },
+    {
+      "id": "sci33_food_web-v10",
+      "objectiveId": "sci33_food_web",
+      "prompt": "A diagram shows insects eating different plants and multiple birds sharing those insects. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "food chain",
+        "Energy Pyramid",
+        "Food Web"
+      ],
+      "answer": 3,
+      "rationale": "A model showing multiple connected feeding relationships. Arrows show food-energy transfer; a model omits some real relationships.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 10
+    },
+    {
+      "id": "sci33_food_web-v11",
+      "objectiveId": "sci33_food_web",
+      "prompt": "A student joins three feeding paths that share the same producer and some consumers. Which term best describes this example?",
+      "options": [
+        "Ecosystem",
+        "food chain",
+        "Energy Pyramid",
+        "Food Web"
+      ],
+      "answer": 3,
+      "rationale": "A model showing multiple connected feeding relationships. Arrows show food-energy transfer; a model omits some real relationships.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 11
+    },
+    {
+      "id": "sci33_energy_pyramid-v7",
+      "objectiveId": "sci33_energy_pyramid",
+      "prompt": "Four stacked bars show the energy available at successive feeding levels. Which term best describes this example?",
+      "options": [
+        "food chain",
+        "Food Web",
+        "Energy Pyramid",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "A model showing decreasing usable energy available at higher feeding levels. Energy is transferred and dispersed, not destroyed; the model is not the same as a pyramid of numbers.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 7
+    },
+    {
+      "id": "sci33_energy_pyramid-v8",
+      "objectiveId": "sci33_energy_pyramid",
+      "prompt": "A triangular chart compares energy in producers, herbivores and higher consumers. Which term best describes this example?",
+      "options": [
+        "food chain",
+        "Food Web",
+        "Energy Pyramid",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "A model showing decreasing usable energy available at higher feeding levels. Energy is transferred and dispersed, not destroyed; the model is not the same as a pyramid of numbers.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 8
+    },
+    {
+      "id": "sci33_energy_pyramid-v9",
+      "objectiveId": "sci33_energy_pyramid",
+      "prompt": "A graph places the greatest amount of available energy at the producer level and smaller amounts above it. Which term best describes this example?",
+      "options": [
+        "food chain",
+        "Food Web",
+        "Energy Pyramid",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "A model showing decreasing usable energy available at higher feeding levels. Energy is transferred and dispersed, not destroyed; the model is not the same as a pyramid of numbers.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 9
+    },
+    {
+      "id": "sci33_energy_pyramid-v10",
+      "objectiveId": "sci33_energy_pyramid",
+      "prompt": "A model labels layers in energy units rather than numbers of organisms. Which term best describes this example?",
+      "options": [
+        "food chain",
+        "Food Web",
+        "Energy Pyramid",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "A model showing decreasing usable energy available at higher feeding levels. Energy is transferred and dispersed, not destroyed; the model is not the same as a pyramid of numbers.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 10
+    },
+    {
+      "id": "sci33_energy_pyramid-v11",
+      "objectiveId": "sci33_energy_pyramid",
+      "prompt": "A diagram’s narrowing levels represent progressively less energy available to consumers. Which term best describes this example?",
+      "options": [
+        "food chain",
+        "Food Web",
+        "Energy Pyramid",
+        "Ecosystem"
+      ],
+      "answer": 2,
+      "rationale": "A model showing decreasing usable energy available at higher feeding levels. Energy is transferred and dispersed, not destroyed; the model is not the same as a pyramid of numbers.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 11
+    },
+    {
+      "id": "sci33_decomposers-v7",
+      "objectiveId": "sci33_decomposers",
+      "prompt": "Bacteria break down fallen leaves and help return their materials to soil. Which role fits the organisms breaking down the material?",
+      "options": [
+        "scavenger",
+        "Decomposers",
+        "Consumer",
+        "Producers"
+      ],
+      "answer": 1,
+      "rationale": "Organisms such as many fungi and bacteria that break down remains and wastes. Decomposers act on material from all feeding levels; matter cycles but usable energy is not recycled back identically.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 7
+    },
+    {
+      "id": "sci33_decomposers-v8",
+      "objectiveId": "sci33_decomposers",
+      "prompt": "Fungi break down a fallen log and release materials into the surroundings. Which role fits the organisms breaking down the material?",
+      "options": [
+        "scavenger",
+        "Decomposers",
+        "Consumer",
+        "Producers"
+      ],
+      "answer": 1,
+      "rationale": "Organisms such as many fungi and bacteria that break down remains and wastes. Decomposers act on material from all feeding levels; matter cycles but usable energy is not recycled back identically.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 8
+    },
+    {
+      "id": "sci33_decomposers-v9",
+      "objectiveId": "sci33_decomposers",
+      "prompt": "Microorganisms break down remains in a compost pile. Which role fits the organisms breaking down the material?",
+      "options": [
+        "scavenger",
+        "Decomposers",
+        "Consumer",
+        "Producers"
+      ],
+      "answer": 1,
+      "rationale": "Organisms such as many fungi and bacteria that break down remains and wastes. Decomposers act on material from all feeding levels; matter cycles but usable energy is not recycled back identically.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 9
+    },
+    {
+      "id": "sci33_decomposers-v10",
+      "objectiveId": "sci33_decomposers",
+      "prompt": "A group of fungi gets energy as it chemically breaks down dead wood. Which role fits the organisms breaking down the material?",
+      "options": [
+        "scavenger",
+        "Decomposers",
+        "Consumer",
+        "Producers"
+      ],
+      "answer": 1,
+      "rationale": "Organisms such as many fungi and bacteria that break down remains and wastes. Decomposers act on material from all feeding levels; matter cycles but usable energy is not recycled back identically.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 10
+    },
+    {
+      "id": "sci33_decomposers-v11",
+      "objectiveId": "sci33_decomposers",
+      "prompt": "Bacteria help recycle materials by breaking down dead algae. Which role fits the organisms breaking down the material?",
+      "options": [
+        "scavenger",
+        "Decomposers",
+        "Consumer",
+        "Producers"
+      ],
+      "answer": 1,
+      "rationale": "Organisms such as many fungi and bacteria that break down remains and wastes. Decomposers act on material from all feeding levels; matter cycles but usable energy is not recycled back identically.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 11
+    },
+    {
+      "id": "sci33_scavenger-v7",
+      "objectiveId": "sci33_scavenger",
+      "prompt": "A bird eats flesh from an animal that was already dead. Which role describes eating the already dead remains?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 3,
+      "rationale": "An organism that consumes dead organisms or their remains. Scavengers and decomposers both help process remains but do so differently.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 7
+    },
+    {
+      "id": "sci33_scavenger-v8",
+      "objectiveId": "sci33_scavenger",
+      "prompt": "A crab feeds on the remains of a fish that died earlier. Which role describes eating the already dead remains?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 3,
+      "rationale": "An organism that consumes dead organisms or their remains. Scavengers and decomposers both help process remains but do so differently.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 8
+    },
+    {
+      "id": "sci33_scavenger-v9",
+      "objectiveId": "sci33_scavenger",
+      "prompt": "A beetle eats tissue from a carcass it did not kill. Which role describes eating the already dead remains?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 3,
+      "rationale": "An organism that consumes dead organisms or their remains. Scavengers and decomposers both help process remains but do so differently.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 9
+    },
+    {
+      "id": "sci33_scavenger-v10",
+      "objectiveId": "sci33_scavenger",
+      "prompt": "A mammal feeds on the remains left by another animal after a hunt. Which role describes eating the already dead remains?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 3,
+      "rationale": "An organism that consumes dead organisms or their remains. Scavengers and decomposers both help process remains but do so differently.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 10
+    },
+    {
+      "id": "sci33_scavenger-v11",
+      "objectiveId": "sci33_scavenger",
+      "prompt": "A seabird eats pieces of an already dead fish washed ashore. Which role describes eating the already dead remains?",
+      "options": [
+        "Herbivore",
+        "Carnivore",
+        "Omnivore",
+        "Scavenger"
+      ],
+      "answer": 3,
+      "rationale": "An organism that consumes dead organisms or their remains. Scavengers and decomposers both help process remains but do so differently.",
+      "chapterId": "fresh_sci33_models_matter",
+      "variant": 11
+    },
+    {
+      "id": "sci33_symbiotic-v7",
+      "objectiveId": "sci33_symbiotic",
+      "prompt": "Choose the adjective describing a close, sustained relationship between different species.",
+      "options": [
+        "Symbiotic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "answer": 0,
+      "rationale": "Describing a close association between organisms of different species. The close relationship is not always mutually beneficial; look for the actual effects.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_symbiotic-v8",
+      "objectiveId": "sci33_symbiotic",
+      "prompt": "A sentence needs an adjective for two species living in close association over time.",
+      "options": [
+        "Symbiotic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "answer": 0,
+      "rationale": "Describing a close association between organisms of different species. The close relationship is not always mutually beneficial; look for the actual effects.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_symbiotic-v9",
+      "objectiveId": "sci33_symbiotic",
+      "prompt": "Complete the phrase: a close relationship between different species is a ___ relationship.",
+      "options": [
+        "Symbiotic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "answer": 0,
+      "rationale": "Describing a close association between organisms of different species. The close relationship is not always mutually beneficial; look for the actual effects.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_symbiotic-v10",
+      "objectiveId": "sci33_symbiotic",
+      "prompt": "Which adjective could describe a long association that benefits one species and harms the other?",
+      "options": [
+        "Symbiotic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "answer": 0,
+      "rationale": "Describing a close association between organisms of different species. The close relationship is not always mutually beneficial; look for the actual effects.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_symbiotic-v11",
+      "objectiveId": "sci33_symbiotic",
+      "prompt": "Which adjective fits close long-term partnerships regardless of whether both species benefit?",
+      "options": [
+        "Symbiotic",
+        "Abiotic",
+        "Terrestrial",
+        "Aquatic"
+      ],
+      "answer": 0,
+      "rationale": "Describing a close association between organisms of different species. The close relationship is not always mutually beneficial; look for the actual effects.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "sci33_symbiosis-v7",
+      "objectiveId": "sci33_symbiosis",
+      "prompt": "Which term covers close relationships where both species benefit, one benefits without affecting the other, or one benefits while harming the other?",
+      "options": [
+        "Symbiosis",
+        "Predation",
+        "Competition",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "A close association between organisms of different species. Both organisms do not have to benefit. Identify the effects on each participant.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_symbiosis-v8",
+      "objectiveId": "sci33_symbiosis",
+      "prompt": "What is the noun for a close association between different species over time?",
+      "options": [
+        "Symbiosis",
+        "Predation",
+        "Competition",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "A close association between organisms of different species. Both organisms do not have to benefit. Identify the effects on each participant.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_symbiosis-v9",
+      "objectiveId": "sci33_symbiosis",
+      "prompt": "A chart needs one heading above mutualism, commensalism and parasitism. Choose it.",
+      "options": [
+        "Symbiosis",
+        "Predation",
+        "Competition",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "A close association between organisms of different species. Both organisms do not have to benefit. Identify the effects on each participant.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_symbiosis-v10",
+      "objectiveId": "sci33_symbiosis",
+      "prompt": "Two species remain closely associated, but the effects are not measured. Which broad term still applies?",
+      "options": [
+        "Symbiosis",
+        "Predation",
+        "Competition",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "A close association between organisms of different species. Both organisms do not have to benefit. Identify the effects on each participant.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_symbiosis-v11",
+      "objectiveId": "sci33_symbiosis",
+      "prompt": "A student needs the broad relationship category before sorting close associations by their effects.",
+      "options": [
+        "Symbiosis",
+        "Predation",
+        "Competition",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "A close association between organisms of different species. Both organisms do not have to benefit. Identify the effects on each participant.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "sci33_host-v7",
+      "objectiveId": "sci33_host",
+      "prompt": "A tick obtains blood from a deer. Classify the deer in that association. Which role fits the organism supplying the parasite’s resources?",
+      "options": [
+        "Parasitism",
+        "Host",
+        "prey",
+        "predator"
+      ],
+      "answer": 1,
+      "rationale": "An organism providing habitat or resources for another organism. A host is not necessarily harmed; check the particular relationship.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_host-v8",
+      "objectiveId": "sci33_host",
+      "prompt": "A tapeworm lives and feeds inside a mammal. Classify the mammal. Which role fits the organism supplying the parasite’s resources?",
+      "options": [
+        "Parasitism",
+        "Host",
+        "prey",
+        "predator"
+      ],
+      "answer": 1,
+      "rationale": "An organism providing habitat or resources for another organism. A host is not necessarily harmed; check the particular relationship.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_host-v9",
+      "objectiveId": "sci33_host",
+      "prompt": "A fungus takes resources from a living tree. Classify the tree. Which role fits the organism supplying the parasite’s resources?",
+      "options": [
+        "Parasitism",
+        "Host",
+        "prey",
+        "predator"
+      ],
+      "answer": 1,
+      "rationale": "An organism providing habitat or resources for another organism. A host is not necessarily harmed; check the particular relationship.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_host-v10",
+      "objectiveId": "sci33_host",
+      "prompt": "A parasite lives on a fish and takes nutrients from it. Classify the fish. Which role fits the organism supplying the parasite’s resources?",
+      "options": [
+        "Parasitism",
+        "Host",
+        "prey",
+        "predator"
+      ],
+      "answer": 1,
+      "rationale": "An organism providing habitat or resources for another organism. A host is not necessarily harmed; check the particular relationship.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_host-v11",
+      "objectiveId": "sci33_host",
+      "prompt": "A louse lives on a bird and feeds there. Classify the bird. Which role fits the organism supplying the parasite’s resources?",
+      "options": [
+        "Parasitism",
+        "Host",
+        "prey",
+        "predator"
+      ],
+      "answer": 1,
+      "rationale": "An organism providing habitat or resources for another organism. A host is not necessarily harmed; check the particular relationship.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "sci33_parasitism-v7",
+      "objectiveId": "sci33_parasitism",
+      "prompt": "A tick gains food while the deer loses blood. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 0,
+      "rationale": "A relationship in which a parasite benefits while its host is harmed. Harm matters; not every organism living on another is a parasite.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_parasitism-v8",
+      "objectiveId": "sci33_parasitism",
+      "prompt": "A worm gains nutrients inside a dog and reduces the dog’s health. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 0,
+      "rationale": "A relationship in which a parasite benefits while its host is harmed. Harm matters; not every organism living on another is a parasite.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_parasitism-v9",
+      "objectiveId": "sci33_parasitism",
+      "prompt": "A fungus obtains resources from a plant and damages its leaves. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 0,
+      "rationale": "A relationship in which a parasite benefits while its host is harmed. Harm matters; not every organism living on another is a parasite.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_parasitism-v10",
+      "objectiveId": "sci33_parasitism",
+      "prompt": "A louse gets food from a bird and irritates its skin. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 0,
+      "rationale": "A relationship in which a parasite benefits while its host is harmed. Harm matters; not every organism living on another is a parasite.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_parasitism-v11",
+      "objectiveId": "sci33_parasitism",
+      "prompt": "An organism gains shelter and food from a fish while damaging its gills. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 0,
+      "rationale": "A relationship in which a parasite benefits while its host is harmed. Harm matters; not every organism living on another is a parasite.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "sci33_commensalism-v7",
+      "objectiveId": "sci33_commensalism",
+      "prompt": "A bird uses a tree for nesting. In the observation the tree is neither helped nor harmed. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 2,
+      "rationale": "One participant benefits while the other has no known benefit or harm. The classification depends on evidence about both participants in the described conditions.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_commensalism-v8",
+      "objectiveId": "sci33_commensalism",
+      "prompt": "An orchid gains light by growing on a tree, which is neither helped nor harmed in this case. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 2,
+      "rationale": "One participant benefits while the other has no known benefit or harm. The classification depends on evidence about both participants in the described conditions.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_commensalism-v9",
+      "objectiveId": "sci33_commensalism",
+      "prompt": "An animal gains shelter in an abandoned shell carried by a living organism that is unaffected in the example. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 2,
+      "rationale": "One participant benefits while the other has no known benefit or harm. The classification depends on evidence about both participants in the described conditions.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_commensalism-v10",
+      "objectiveId": "sci33_commensalism",
+      "prompt": "A small animal gains transportation by attaching to a larger one, which is unaffected in the example. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 2,
+      "rationale": "One participant benefits while the other has no known benefit or harm. The classification depends on evidence about both participants in the described conditions.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_commensalism-v11",
+      "objectiveId": "sci33_commensalism",
+      "prompt": "One species gains a perch and the other species supplying it shows no benefit or harm. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 2,
+      "rationale": "One participant benefits while the other has no known benefit or harm. The classification depends on evidence about both participants in the described conditions.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "sci33_mutualism-v7",
+      "objectiveId": "sci33_mutualism",
+      "prompt": "A pollinator receives nectar and the plant gains pollen transfer. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 1,
+      "rationale": "A relationship in which both species receive a benefit. Name a benefit to each participant; context matters.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 7
+    },
+    {
+      "id": "sci33_mutualism-v8",
+      "objectiveId": "sci33_mutualism",
+      "prompt": "A small fish gets food by removing parasites, and the larger fish has fewer parasites. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 1,
+      "rationale": "A relationship in which both species receive a benefit. Name a benefit to each participant; context matters.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 8
+    },
+    {
+      "id": "sci33_mutualism-v9",
+      "objectiveId": "sci33_mutualism",
+      "prompt": "A fungus gains sugar from a plant, and the plant gains access to more minerals. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 1,
+      "rationale": "A relationship in which both species receive a benefit. Name a benefit to each participant; context matters.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 9
+    },
+    {
+      "id": "sci33_mutualism-v10",
+      "objectiveId": "sci33_mutualism",
+      "prompt": "An insect gains shelter in a plant and protects it from leaf-eating animals. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 1,
+      "rationale": "A relationship in which both species receive a benefit. Name a benefit to each participant; context matters.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 10
+    },
+    {
+      "id": "sci33_mutualism-v11",
+      "objectiveId": "sci33_mutualism",
+      "prompt": "A bird gains food by eating fruit and the plant gains seed dispersal. Which specific relationship fits the effects on the two species?",
+      "options": [
+        "Parasitism",
+        "Mutualism",
+        "Commensalism",
+        "Competition"
+      ],
+      "answer": 1,
+      "rationale": "A relationship in which both species receive a benefit. Name a benefit to each participant; context matters.",
+      "chapterId": "fresh_sci33_associations",
+      "variant": 11
+    },
+    {
+      "id": "ecology_photosynthesis-v7",
+      "objectiveId": "ecology_photosynthesis",
+      "prompt": "A seedling gets water and carbon dioxide. Which missing input would directly power photosynthesis?",
+      "options": [
+        "Light energy",
+        "Oxygen",
+        "Soil minerals",
+        "Sugar from another plant"
+      ],
+      "answer": 0,
+      "rationale": "Light powers the process that makes sugar.",
+      "chapterId": "ecology_photosynthesis",
+      "variant": 7
+    },
+    {
+      "id": "ecology_photosynthesis-v8",
+      "objectiveId": "ecology_photosynthesis",
+      "prompt": "A leaf uses light to make sugar. Which gas supplies carbon atoms for that sugar?",
+      "options": [
+        "Carbon dioxide",
+        "Oxygen",
+        "Nitrogen",
+        "Water vapor"
+      ],
+      "answer": 0,
+      "rationale": "Carbon dioxide supplies carbon used to make sugar.",
+      "chapterId": "ecology_photosynthesis",
+      "variant": 8
+    },
+    {
+      "id": "ecology_photosynthesis-v9",
+      "objectiveId": "ecology_photosynthesis",
+      "prompt": "A pond plant makes sugar in sunlight. Which gas can it release during this process?",
+      "options": [
+        "Oxygen",
+        "Nitrogen",
+        "Carbon dioxide as the main product",
+        "Hydrogen"
+      ],
+      "answer": 0,
+      "rationale": "Photosynthesis releases oxygen.",
+      "chapterId": "ecology_photosynthesis",
+      "variant": 9
+    },
+    {
+      "id": "ecology_photosynthesis-v10",
+      "objectiveId": "ecology_photosynthesis",
+      "prompt": "How does a grass plant change the form of energy during photosynthesis?",
+      "options": [
+        "Light energy becomes chemical energy stored in sugar.",
+        "Chemical energy in sugar becomes light energy.",
+        "Thermal energy becomes movement of the leaves.",
+        "The plant uses light to make energy from nothing."
+      ],
+      "answer": 0,
+      "rationale": "Photosynthesis converts light energy into chemical energy stored in sugar.",
+      "chapterId": "ecology_photosynthesis",
+      "variant": 10
+    },
+    {
+      "id": "ecology_photosynthesis-v11",
+      "objectiveId": "ecology_photosynthesis",
+      "prompt": "A student says soil is the direct source of the carbon in a plant’s sugar. Which correction fits the lesson?",
+      "options": [
+        "Carbon dioxide supplies carbon, and light supplies energy.",
+        "Water supplies both the carbon and energy.",
+        "Oxygen supplies carbon, and soil supplies energy.",
+        "Light supplies the carbon, and sugar supplies the energy."
+      ],
+      "answer": 0,
+      "rationale": "The carbon comes from carbon dioxide, while the energy comes from light.",
+      "chapterId": "ecology_photosynthesis",
+      "variant": 11
+    },
+    {
+      "id": "ecology_density-v7",
+      "objectiveId": "ecology_density",
+      "prompt": "A sample contains 32 beetles in 8 square meters. What is the population density?",
+      "options": [
+        "4 per square meter",
+        "32 per square meter",
+        "40 per square meter",
+        "256 per square meter"
+      ],
+      "answer": 0,
+      "rationale": "Divide the count by the area. 32 ÷ 8 = 4 per square meter.",
+      "chapterId": "ecology_density",
+      "variant": 7
+    },
+    {
+      "id": "ecology_density-v8",
+      "objectiveId": "ecology_density",
+      "prompt": "A sample contains 21 snails in 7 square meters. What is the population density?",
+      "options": [
+        "3 per square meter",
+        "21 per square meter",
+        "28 per square meter",
+        "147 per square meter"
+      ],
+      "answer": 0,
+      "rationale": "Divide the count by the area. 21 ÷ 7 = 3 per square meter.",
+      "chapterId": "ecology_density",
+      "variant": 8
+    },
+    {
+      "id": "ecology_density-v9",
+      "objectiveId": "ecology_density",
+      "prompt": "A sample contains 30 crickets in 5 square meters. What is the population density?",
+      "options": [
+        "6 per square meter",
+        "30 per square meter",
+        "35 per square meter",
+        "150 per square meter"
+      ],
+      "answer": 0,
+      "rationale": "Divide the count by the area. 30 ÷ 5 = 6 per square meter.",
+      "chapterId": "ecology_density",
+      "variant": 9
+    },
+    {
+      "id": "ecology_density-v10",
+      "objectiveId": "ecology_density",
+      "prompt": "A sample contains 24 seedlings in 12 square meters. What is the population density?",
+      "options": [
+        "2 per square meter",
+        "24 per square meter",
+        "36 per square meter",
+        "288 per square meter"
+      ],
+      "answer": 0,
+      "rationale": "Divide the count by the area. 24 ÷ 12 = 2 per square meter.",
+      "chapterId": "ecology_density",
+      "variant": 10
+    },
+    {
+      "id": "ecology_density-v11",
+      "objectiveId": "ecology_density",
+      "prompt": "A sample contains 45 worms in 9 square meters. What is the population density?",
+      "options": [
+        "5 per square meter",
+        "45 per square meter",
+        "54 per square meter",
+        "405 per square meter"
+      ],
+      "answer": 0,
+      "rationale": "Divide the count by the area. 45 ÷ 9 = 5 per square meter.",
+      "chapterId": "ecology_density",
+      "variant": 11
+    },
+    {
+      "id": "ecology_habitats-v7",
+      "objectiveId": "ecology_habitats",
+      "prompt": "A coral reef sits in warm, salty ocean water. Which category fits?",
+      "options": [
+        "Marine",
+        "Freshwater",
+        "Terrestrial",
+        "Both freshwater and terrestrial"
+      ],
+      "answer": 0,
+      "rationale": "Marine ecosystems occur in salt water.",
+      "chapterId": "ecology_habitats",
+      "variant": 7
+    },
+    {
+      "id": "ecology_habitats-v8",
+      "objectiveId": "ecology_habitats",
+      "prompt": "A low-salt river flows through a forest. Classify the ecosystem in the river itself.",
+      "options": [
+        "Freshwater",
+        "Marine",
+        "Terrestrial",
+        "Both marine and terrestrial"
+      ],
+      "answer": 0,
+      "rationale": "The river has very little dissolved salt, so its aquatic ecosystem is freshwater.",
+      "chapterId": "ecology_habitats",
+      "variant": 8
+    },
+    {
+      "id": "ecology_habitats-v9",
+      "objectiveId": "ecology_habitats",
+      "prompt": "A student studies the soil, insects and grasses of a prairie. Which category fits?",
+      "options": [
+        "Terrestrial",
+        "Marine",
+        "Freshwater",
+        "Both marine and freshwater"
+      ],
+      "answer": 0,
+      "rationale": "A prairie is a land ecosystem.",
+      "chapterId": "ecology_habitats",
+      "variant": 9
+    },
+    {
+      "id": "ecology_habitats-v10",
+      "objectiveId": "ecology_habitats",
+      "prompt": "Which measurement most directly separates a freshwater lake from a marine bay?",
+      "options": [
+        "Dissolved salt concentration",
+        "Number of individual fish",
+        "Hours of daylight",
+        "Size of the largest rock"
+      ],
+      "answer": 0,
+      "rationale": "Freshwater and marine environments differ in dissolved salt.",
+      "chapterId": "ecology_habitats",
+      "variant": 10
+    },
+    {
+      "id": "ecology_habitats-v11",
+      "objectiveId": "ecology_habitats",
+      "prompt": "Which pair contains one freshwater and one marine ecosystem, in that order?",
+      "options": [
+        "A low-salt pond and a coral reef",
+        "An ocean reef and a woodland",
+        "A prairie and a low-salt stream",
+        "A marine bay and an ocean reef"
+      ],
+      "answer": 0,
+      "rationale": "The pond is freshwater and the coral reef is marine.",
+      "chapterId": "ecology_habitats",
+      "variant": 11
+    },
+    {
+      "id": "ecology_resources-v7",
+      "objectiveId": "ecology_resources",
+      "prompt": "Seedlings have enough water but receive almost no light. What change directly addresses the described limit?",
+      "options": [
+        "Increase the light they receive.",
+        "Add more water without changing light.",
+        "Put more seedlings in the same tray.",
+        "Remove the soil without changing light."
+      ],
+      "answer": 0,
+      "rationale": "Light is the stated limiting resource.",
+      "chapterId": "ecology_resources",
+      "variant": 7
+    },
+    {
+      "id": "ecology_resources-v8",
+      "objectiveId": "ecology_resources",
+      "prompt": "A hot pool lacks the cooler hiding spots needed by fish. What change best tests whether access to cooler shelter limits survival?",
+      "options": [
+        "Provide a shaded refuge in otherwise comparable pools.",
+        "Add both food and more fish to the hottest pool.",
+        "Change the salt concentration and the number of fish together.",
+        "Compare pools while changing temperature, food and fish numbers together."
+      ],
+      "answer": 0,
+      "rationale": "A shaded refuge changes the proposed limit while other conditions stay comparable.",
+      "chapterId": "ecology_resources",
+      "variant": 8
+    },
+    {
+      "id": "ecology_resources-v9",
+      "objectiveId": "ecology_resources",
+      "prompt": "A farm channel carries water from a reservoir to crop rows. What resource does it supply directly?",
+      "options": [
+        "Water",
+        "Sunlight",
+        "Extra growing space",
+        "Protection from predators"
+      ],
+      "answer": 0,
+      "rationale": "Irrigation brings water to crops.",
+      "chapterId": "ecology_resources",
+      "variant": 9
+    },
+    {
+      "id": "ecology_resources-v10",
+      "objectiveId": "ecology_resources",
+      "prompt": "Which change directly gives a small animal shelter from predators?",
+      "options": [
+        "Add places it can hide under cover.",
+        "Increase rainfall without adding cover.",
+        "Increase the number of predators.",
+        "Add an open stretch of ground."
+      ],
+      "answer": 0,
+      "rationale": "Cover provides a place to hide.",
+      "chapterId": "ecology_resources",
+      "variant": 10
+    },
+    {
+      "id": "ecology_resources-v11",
+      "objectiveId": "ecology_resources",
+      "prompt": "A classroom experiment keeps water and light equal while changing soil nutrients. What resource is the test comparing?",
+      "options": [
+        "Soil nutrients",
+        "Water",
+        "Light",
+        "Space"
+      ],
+      "answer": 0,
+      "rationale": "Only the soil nutrient supply changes.",
+      "chapterId": "ecology_resources",
+      "variant": 11
+    },
+    {
+      "id": "ecology_competition-v7",
+      "objectiveId": "ecology_competition",
+      "prompt": "Two robins of the same species need the same limited nesting site. Which term fits?",
+      "options": [
+        "Intraspecific competition",
+        "Interspecific competition",
+        "Mutualism",
+        "Predation"
+      ],
+      "answer": 0,
+      "rationale": "Competition within one species is intraspecific.",
+      "chapterId": "ecology_competition",
+      "variant": 7
+    },
+    {
+      "id": "ecology_competition-v8",
+      "objectiveId": "ecology_competition",
+      "prompt": "A rabbit and a grasshopper both eat the same scarce seedlings. Which term fits?",
+      "options": [
+        "Interspecific competition",
+        "Intraspecific competition",
+        "Commensalism",
+        "Decomposition"
+      ],
+      "answer": 0,
+      "rationale": "They are different species using a shared limited resource.",
+      "chapterId": "ecology_competition",
+      "variant": 8
+    },
+    {
+      "id": "ecology_competition-v9",
+      "objectiveId": "ecology_competition",
+      "prompt": "Two bird species use different foods and nest in different places. Which observation would support competition between them?",
+      "options": [
+        "Both start needing the same scarce nesting holes.",
+        "One finds plenty of a food that the other never eats.",
+        "One uses a habitat the other never enters.",
+        "Both have enough space and continue using different resources."
+      ],
+      "answer": 0,
+      "rationale": "Competition requires overlap in a limited resource.",
+      "chapterId": "ecology_competition",
+      "variant": 9
+    },
+    {
+      "id": "ecology_competition-v10",
+      "objectiveId": "ecology_competition",
+      "prompt": "A group of deer feeds mainly on leaves and twigs of shrubs. Which label describes that feeding behavior?",
+      "options": [
+        "Browsing",
+        "Grazing on grasses",
+        "Scavenging on remains",
+        "Hunting live prey"
+      ],
+      "answer": 0,
+      "rationale": "Browsers feed mainly on woody plants, such as shrubs.",
+      "chapterId": "ecology_competition",
+      "variant": 10
+    },
+    {
+      "id": "ecology_competition-v11",
+      "objectiveId": "ecology_competition",
+      "prompt": "Two species share the same water source during a drought. What would most directly reduce competition for that resource?",
+      "options": [
+        "Make more water available to both species.",
+        "Add more individuals that need the same water.",
+        "Reduce the amount of water available.",
+        "Keep water scarce and add more users."
+      ],
+      "answer": 0,
+      "rationale": "Increasing the limited resource directly reduces pressure on it.",
+      "chapterId": "ecology_competition",
+      "variant": 11
+    },
+    {
+      "id": "ecology_trophic-v7",
+      "objectiveId": "ecology_trophic",
+      "prompt": "In the chain grass → rabbit → fox, which is the primary consumer?",
+      "options": [
+        "Rabbit",
+        "Grass",
+        "Fox",
+        "Both grass and fox"
+      ],
+      "answer": 0,
+      "rationale": "The rabbit eats the producer and is the primary consumer.",
+      "chapterId": "ecology_trophic",
+      "variant": 7
+    },
+    {
+      "id": "ecology_trophic-v8",
+      "objectiveId": "ecology_trophic",
+      "prompt": "In algae → snail → fish → heron, which is the secondary consumer?",
+      "options": [
+        "Fish",
+        "Algae",
+        "Snail",
+        "Heron"
+      ],
+      "answer": 0,
+      "rationale": "The fish eats the snail, which is the primary consumer.",
+      "chapterId": "ecology_trophic",
+      "variant": 8
+    },
+    {
+      "id": "ecology_trophic-v9",
+      "objectiveId": "ecology_trophic",
+      "prompt": "In seeds → mouse → snake → hawk, which organism receives energy directly from the snake in this path?",
+      "options": [
+        "Hawk",
+        "Mouse",
+        "Seeds",
+        "The snake itself"
+      ],
+      "answer": 0,
+      "rationale": "The arrow from snake to hawk shows the energy transfer.",
+      "chapterId": "ecology_trophic",
+      "variant": 9
+    },
+    {
+      "id": "ecology_trophic-v10",
+      "objectiveId": "ecology_trophic",
+      "prompt": "A raccoon eats berries on one path and a plant-eating insect on another. What changes?",
+      "options": [
+        "The raccoon acts as a primary consumer on the berry path and secondary on the insect path.",
+        "The raccoon is a producer on the berry path and primary on the insect path.",
+        "The raccoon acts as secondary on the berry path and primary on the insect path.",
+        "The raccoon is tertiary on both paths."
+      ],
+      "answer": 0,
+      "rationale": "Consumer level depends on what the raccoon eats on each pathway.",
+      "chapterId": "ecology_trophic",
+      "variant": 10
+    },
+    {
+      "id": "ecology_trophic-v11",
+      "objectiveId": "ecology_trophic",
+      "prompt": "In leaves → beetle → lizard → snake, which organism eats the secondary consumer?",
+      "options": [
+        "Snake",
+        "Beetle",
+        "Leaves",
+        "Lizard"
+      ],
+      "answer": 0,
+      "rationale": "The lizard eats the beetle and is secondary. The snake eats the lizard.",
+      "chapterId": "ecology_trophic",
+      "variant": 11
+    },
+    {
+      "id": "ecology_transfer-v7",
+      "objectiveId": "ecology_transfer",
+      "prompt": "The clover producer level has 4,000 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "options": [
+        "400 units",
+        "3,600 units",
+        "4,000 units",
+        "40 units"
+      ],
+      "answer": 0,
+      "rationale": "About 10% transfers in this model. 4,000 × 0.10 = 400 units.",
+      "chapterId": "ecology_transfer",
+      "variant": 7
+    },
+    {
+      "id": "ecology_transfer-v8",
+      "objectiveId": "ecology_transfer",
+      "prompt": "The algae producer level has 7,000 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "options": [
+        "700 units",
+        "6,300 units",
+        "7,000 units",
+        "70 units"
+      ],
+      "answer": 0,
+      "rationale": "About 10% transfers in this model. 7,000 × 0.10 = 700 units.",
+      "chapterId": "ecology_transfer",
+      "variant": 8
+    },
+    {
+      "id": "ecology_transfer-v9",
+      "objectiveId": "ecology_transfer",
+      "prompt": "The grass producer level has 2,200 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "options": [
+        "220 units",
+        "1,980 units",
+        "2,200 units",
+        "22 units"
+      ],
+      "answer": 0,
+      "rationale": "About 10% transfers in this model. 2,200 × 0.10 = 220 units.",
+      "chapterId": "ecology_transfer",
+      "variant": 9
+    },
+    {
+      "id": "ecology_transfer-v10",
+      "objectiveId": "ecology_transfer",
+      "prompt": "The seagrass producer level has 3,600 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "options": [
+        "360 units",
+        "3,240 units",
+        "3,600 units",
+        "36 units"
+      ],
+      "answer": 0,
+      "rationale": "About 10% transfers in this model. 3,600 × 0.10 = 360 units.",
+      "chapterId": "ecology_transfer",
+      "variant": 10
+    },
+    {
+      "id": "ecology_transfer-v11",
+      "objectiveId": "ecology_transfer",
+      "prompt": "The pond plants producer level has 4,500 units of available energy. Under the 10% model, about how much transfers to primary consumers?",
+      "options": [
+        "450 units",
+        "4,050 units",
+        "4,500 units",
+        "45 units"
+      ],
+      "answer": 0,
+      "rationale": "About 10% transfers in this model. 4,500 × 0.10 = 450 units.",
+      "chapterId": "ecology_transfer",
+      "variant": 11
+    },
+    {
+      "id": "ecology_matter-v7",
+      "objectiveId": "ecology_matter",
+      "prompt": "Fungi decompose fallen leaves. What can happen to some of the leaf matter?",
+      "options": [
+        "It returns to the surroundings and can become part of another organism.",
+        "It is destroyed when the leaf disappears.",
+        "It turns entirely into sunlight.",
+        "It can never enter another living thing."
+      ],
+      "answer": 0,
+      "rationale": "Decomposition returns materials to the environment for reuse.",
+      "chapterId": "ecology_matter",
+      "variant": 7
+    },
+    {
+      "id": "ecology_matter-v8",
+      "objectiveId": "ecology_matter",
+      "prompt": "Which statement correctly compares nutrients and usable energy in an ecosystem?",
+      "options": [
+        "Nutrients can cycle, while usable energy flows through the system.",
+        "Usable energy cycles back to producers in exactly the same way as nutrients.",
+        "Nutrients and usable energy both remain forever in the same organism.",
+        "Nutrients disappear when organisms break down, while energy becomes new matter."
+      ],
+      "answer": 0,
+      "rationale": "Matter cycles. Energy is transferred and dispersed, so fresh energy inputs are needed.",
+      "chapterId": "ecology_matter",
+      "variant": 8
+    },
+    {
+      "id": "ecology_matter-v9",
+      "objectiveId": "ecology_matter",
+      "prompt": "Which process makes material from a dead log available in the soil?",
+      "options": [
+        "Fungi and bacteria break the log down.",
+        "The log makes sugar using sunlight.",
+        "A predator captures a living animal.",
+        "Wind moves the intact log without breaking it down."
+      ],
+      "answer": 0,
+      "rationale": "Decomposers break remains down and make some materials available again.",
+      "chapterId": "ecology_matter",
+      "variant": 9
+    },
+    {
+      "id": "ecology_matter-v10",
+      "objectiveId": "ecology_matter",
+      "prompt": "A plant’s roots take up mineral nutrients that were released by decomposers. What does that show?",
+      "options": [
+        "Materials from remains can reenter living organisms.",
+        "All energy in the remains has returned to the roots.",
+        "The decomposers made matter from nothing.",
+        "The minerals became sunlight before entering the plant."
+      ],
+      "answer": 0,
+      "rationale": "Nutrients from remains can move back into living organisms.",
+      "chapterId": "ecology_matter",
+      "variant": 10
+    },
+    {
+      "id": "ecology_matter-v11",
+      "objectiveId": "ecology_matter",
+      "prompt": "A compost pile warms as microbes break down remains. Which interpretation fits?",
+      "options": [
+        "Some energy disperses as heat while materials are made available for reuse.",
+        "The warmth proves that the microbes created new energy.",
+        "The warmth means all the original matter disappeared.",
+        "Heat sends all the original usable food energy back to plants."
+      ],
+      "answer": 0,
+      "rationale": "Decomposition moves materials and transfers energy, some of which disperses as heat.",
+      "chapterId": "ecology_matter",
+      "variant": 11
+    },
+    {
+      "id": "ecology_ripple-v7",
+      "objectiveId": "ecology_ripple",
+      "prompt": "In a simplified chain algae → snails → fish, snails suddenly decrease. What is the best immediate prediction if other factors stay similar?",
+      "options": [
+        "Less food for fish and less grazing on algae",
+        "More food for fish and more grazing on algae",
+        "Less food for fish and more grazing on algae",
+        "More food for fish and less grazing on algae"
+      ],
+      "answer": 0,
+      "rationale": "Fewer snails mean fewer consumers of algae and less snail food for fish.",
+      "chapterId": "ecology_ripple",
+      "variant": 7
+    },
+    {
+      "id": "ecology_ripple-v8",
+      "objectiveId": "ecology_ripple",
+      "prompt": "In grass → rabbits → foxes, foxes decrease. What is a reasonable short-term prediction if other factors stay similar?",
+      "options": [
+        "Rabbits face less predation and may increase.",
+        "Rabbits face more predation and may decrease.",
+        "Grass becomes the rabbits’ predator.",
+        "Rabbits immediately lose their grass food source."
+      ],
+      "answer": 0,
+      "rationale": "Fewer foxes can reduce predation on rabbits.",
+      "chapterId": "ecology_ripple",
+      "variant": 8
+    },
+    {
+      "id": "ecology_ripple-v9",
+      "objectiveId": "ecology_ripple",
+      "prompt": "A bird eats both caterpillars and beetles. Caterpillars decrease. Which detail matters most for predicting what happens to the bird?",
+      "options": [
+        "Whether enough beetles remain as another food source",
+        "Whether the caterpillars have the same color as beetles",
+        "Whether the birds and beetles have similar body sizes",
+        "Whether the plant leaves are green or yellow in a photo"
+      ],
+      "answer": 0,
+      "rationale": "Alternate feeding paths can soften the effect of losing one food source.",
+      "chapterId": "ecology_ripple",
+      "variant": 9
+    },
+    {
+      "id": "ecology_ripple-v10",
+      "objectiveId": "ecology_ripple",
+      "prompt": "In plants → insects → frogs, the plant food supply falls. What is a reasonable prediction with other conditions similar?",
+      "options": [
+        "Insects may decline, leaving fewer insects for frogs.",
+        "Insects gain food, so frogs immediately lose food.",
+        "Frogs gain energy directly from the missing plants.",
+        "The insects become producers to replace the plants."
+      ],
+      "answer": 0,
+      "rationale": "A smaller producer supply can affect consumers at several levels.",
+      "chapterId": "ecology_ripple",
+      "variant": 10
+    },
+    {
+      "id": "ecology_ripple-v11",
+      "objectiveId": "ecology_ripple",
+      "prompt": "A pond fish population falls after an insect decline. Why should scientists also measure oxygen and temperature?",
+      "options": [
+        "Changes in fish numbers can have more than one cause.",
+        "The time sequence alone proves insects were the only cause.",
+        "Oxygen and temperature cannot affect fish survival.",
+        "A feeding connection makes other evidence irrelevant."
+      ],
+      "answer": 0,
+      "rationale": "A food-web link suggests a possible cause. Other conditions can also affect the population.",
+      "chapterId": "ecology_ripple",
+      "variant": 11
     }
   ],
   "objectives": [
@@ -4838,6 +7988,50 @@
       "ecology_transfer-v2",
       "ecology_matter-v2",
       "ecology_ripple-v2"
+    ],
+    "D": [
+      "sci33_organism-v11",
+      "sci33_population-v11",
+      "sci33_community-v11",
+      "sci33_ecosystem-v11",
+      "sci33_biosphere-v11",
+      "sci33_biome-v11",
+      "sci33_abiotic-v11",
+      "sci33_biotic-v11",
+      "sci33_native_species-v11",
+      "sci33_invasive_species-v11",
+      "sci33_limiting_factor-v11",
+      "sci33_carrying_capacity-v11",
+      "sci33_niche-v11",
+      "sci33_adaptation-v11",
+      "sci33_producers-v11",
+      "sci33_consumer-v11",
+      "sci33_herbivore-v11",
+      "sci33_carnivore-v11",
+      "sci33_omnivore-v11",
+      "sci33_tertiary-v11",
+      "sci33_predator-v11",
+      "sci33_prey-v11",
+      "sci33_food_chain-v11",
+      "sci33_food_web-v11",
+      "sci33_energy_pyramid-v11",
+      "sci33_decomposers-v11",
+      "sci33_scavenger-v11",
+      "sci33_symbiotic-v11",
+      "sci33_symbiosis-v11",
+      "sci33_host-v11",
+      "sci33_parasitism-v11",
+      "sci33_commensalism-v11",
+      "sci33_mutualism-v11",
+      "ecology_photosynthesis-v11",
+      "ecology_density-v11",
+      "ecology_habitats-v11",
+      "ecology_resources-v11",
+      "ecology_competition-v11",
+      "ecology_trophic-v11",
+      "ecology_transfer-v11",
+      "ecology_matter-v11",
+      "ecology_ripple-v11"
     ]
   },
   "retentionDays": [

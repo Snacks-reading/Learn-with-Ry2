@@ -6,7 +6,8 @@
   "forms": {
     "A": 42,
     "B": 42,
-    "C": 42
+    "C": 42,
+    "D": 42
   },
   "rows": [
     {
@@ -19,9 +20,16 @@
       "assessmentItems": {
         "A": "sci33_organism-v0",
         "B": "sci33_organism-v1",
-        "C": "sci33_organism-v2"
+        "C": "sci33_organism-v2",
+        "D": "sci33_organism-v11"
       },
-      "retentionItem": "sci33_organism-v3"
+      "retentionItem": "sci33_organism-v3",
+      "newRecoveryItems": [
+        "sci33_organism-v7",
+        "sci33_organism-v8",
+        "sci33_organism-v9",
+        "sci33_organism-v10"
+      ]
     },
     {
       "objectiveId": "sci33_population",
@@ -33,9 +41,16 @@
       "assessmentItems": {
         "A": "sci33_population-v0",
         "B": "sci33_population-v1",
-        "C": "sci33_population-v2"
+        "C": "sci33_population-v2",
+        "D": "sci33_population-v11"
       },
-      "retentionItem": "sci33_population-v3"
+      "retentionItem": "sci33_population-v3",
+      "newRecoveryItems": [
+        "sci33_population-v7",
+        "sci33_population-v8",
+        "sci33_population-v9",
+        "sci33_population-v10"
+      ]
     },
     {
       "objectiveId": "sci33_community",
@@ -47,9 +62,16 @@
       "assessmentItems": {
         "A": "sci33_community-v0",
         "B": "sci33_community-v1",
-        "C": "sci33_community-v2"
+        "C": "sci33_community-v2",
+        "D": "sci33_community-v11"
       },
-      "retentionItem": "sci33_community-v3"
+      "retentionItem": "sci33_community-v3",
+      "newRecoveryItems": [
+        "sci33_community-v7",
+        "sci33_community-v8",
+        "sci33_community-v9",
+        "sci33_community-v10"
+      ]
     },
     {
       "objectiveId": "sci33_ecosystem",
@@ -61,9 +83,16 @@
       "assessmentItems": {
         "A": "sci33_ecosystem-v0",
         "B": "sci33_ecosystem-v1",
-        "C": "sci33_ecosystem-v2"
+        "C": "sci33_ecosystem-v2",
+        "D": "sci33_ecosystem-v11"
       },
-      "retentionItem": "sci33_ecosystem-v3"
+      "retentionItem": "sci33_ecosystem-v3",
+      "newRecoveryItems": [
+        "sci33_ecosystem-v7",
+        "sci33_ecosystem-v8",
+        "sci33_ecosystem-v9",
+        "sci33_ecosystem-v10"
+      ]
     },
     {
       "objectiveId": "sci33_biosphere",
@@ -75,9 +104,16 @@
       "assessmentItems": {
         "A": "sci33_biosphere-v0",
         "B": "sci33_biosphere-v1",
-        "C": "sci33_biosphere-v2"
+        "C": "sci33_biosphere-v2",
+        "D": "sci33_biosphere-v11"
       },
-      "retentionItem": "sci33_biosphere-v3"
+      "retentionItem": "sci33_biosphere-v3",
+      "newRecoveryItems": [
+        "sci33_biosphere-v7",
+        "sci33_biosphere-v8",
+        "sci33_biosphere-v9",
+        "sci33_biosphere-v10"
+      ]
     },
     {
       "objectiveId": "sci33_biome",
@@ -89,9 +125,16 @@
       "assessmentItems": {
         "A": "sci33_biome-v0",
         "B": "sci33_biome-v1",
-        "C": "sci33_biome-v2"
+        "C": "sci33_biome-v2",
+        "D": "sci33_biome-v11"
       },
-      "retentionItem": "sci33_biome-v3"
+      "retentionItem": "sci33_biome-v3",
+      "newRecoveryItems": [
+        "sci33_biome-v7",
+        "sci33_biome-v8",
+        "sci33_biome-v9",
+        "sci33_biome-v10"
+      ]
     },
     {
       "objectiveId": "sci33_abiotic",
@@ -103,9 +146,16 @@
       "assessmentItems": {
         "A": "sci33_abiotic-v0",
         "B": "sci33_abiotic-v1",
-        "C": "sci33_abiotic-v2"
+        "C": "sci33_abiotic-v2",
+        "D": "sci33_abiotic-v11"
       },
-      "retentionItem": "sci33_abiotic-v3"
+      "retentionItem": "sci33_abiotic-v3",
+      "newRecoveryItems": [
+        "sci33_abiotic-v7",
+        "sci33_abiotic-v8",
+        "sci33_abiotic-v9",
+        "sci33_abiotic-v10"
+      ]
     },
     {
       "objectiveId": "sci33_biotic",
@@ -117,9 +167,16 @@
       "assessmentItems": {
         "A": "sci33_biotic-v0",
         "B": "sci33_biotic-v1",
-        "C": "sci33_biotic-v2"
+        "C": "sci33_biotic-v2",
+        "D": "sci33_biotic-v11"
       },
-      "retentionItem": "sci33_biotic-v3"
+      "retentionItem": "sci33_biotic-v3",
+      "newRecoveryItems": [
+        "sci33_biotic-v7",
+        "sci33_biotic-v8",
+        "sci33_biotic-v9",
+        "sci33_biotic-v10"
+      ]
     },
     {
       "objectiveId": "sci33_native_species",
@@ -131,9 +188,16 @@
       "assessmentItems": {
         "A": "sci33_native_species-v0",
         "B": "sci33_native_species-v1",
-        "C": "sci33_native_species-v2"
+        "C": "sci33_native_species-v2",
+        "D": "sci33_native_species-v11"
       },
-      "retentionItem": "sci33_native_species-v3"
+      "retentionItem": "sci33_native_species-v3",
+      "newRecoveryItems": [
+        "sci33_native_species-v7",
+        "sci33_native_species-v8",
+        "sci33_native_species-v9",
+        "sci33_native_species-v10"
+      ]
     },
     {
       "objectiveId": "sci33_invasive_species",
@@ -145,9 +209,16 @@
       "assessmentItems": {
         "A": "sci33_invasive_species-v0",
         "B": "sci33_invasive_species-v1",
-        "C": "sci33_invasive_species-v2"
+        "C": "sci33_invasive_species-v2",
+        "D": "sci33_invasive_species-v11"
       },
-      "retentionItem": "sci33_invasive_species-v3"
+      "retentionItem": "sci33_invasive_species-v3",
+      "newRecoveryItems": [
+        "sci33_invasive_species-v7",
+        "sci33_invasive_species-v8",
+        "sci33_invasive_species-v9",
+        "sci33_invasive_species-v10"
+      ]
     },
     {
       "objectiveId": "sci33_limiting_factor",
@@ -159,9 +230,16 @@
       "assessmentItems": {
         "A": "sci33_limiting_factor-v0",
         "B": "sci33_limiting_factor-v1",
-        "C": "sci33_limiting_factor-v2"
+        "C": "sci33_limiting_factor-v2",
+        "D": "sci33_limiting_factor-v11"
       },
-      "retentionItem": "sci33_limiting_factor-v3"
+      "retentionItem": "sci33_limiting_factor-v3",
+      "newRecoveryItems": [
+        "sci33_limiting_factor-v7",
+        "sci33_limiting_factor-v8",
+        "sci33_limiting_factor-v9",
+        "sci33_limiting_factor-v10"
+      ]
     },
     {
       "objectiveId": "sci33_carrying_capacity",
@@ -173,9 +251,16 @@
       "assessmentItems": {
         "A": "sci33_carrying_capacity-v0",
         "B": "sci33_carrying_capacity-v1",
-        "C": "sci33_carrying_capacity-v2"
+        "C": "sci33_carrying_capacity-v2",
+        "D": "sci33_carrying_capacity-v11"
       },
-      "retentionItem": "sci33_carrying_capacity-v3"
+      "retentionItem": "sci33_carrying_capacity-v3",
+      "newRecoveryItems": [
+        "sci33_carrying_capacity-v7",
+        "sci33_carrying_capacity-v8",
+        "sci33_carrying_capacity-v9",
+        "sci33_carrying_capacity-v10"
+      ]
     },
     {
       "objectiveId": "sci33_niche",
@@ -187,9 +272,16 @@
       "assessmentItems": {
         "A": "sci33_niche-v0",
         "B": "sci33_niche-v1",
-        "C": "sci33_niche-v2"
+        "C": "sci33_niche-v2",
+        "D": "sci33_niche-v11"
       },
-      "retentionItem": "sci33_niche-v3"
+      "retentionItem": "sci33_niche-v3",
+      "newRecoveryItems": [
+        "sci33_niche-v7",
+        "sci33_niche-v8",
+        "sci33_niche-v9",
+        "sci33_niche-v10"
+      ]
     },
     {
       "objectiveId": "sci33_adaptation",
@@ -201,9 +293,16 @@
       "assessmentItems": {
         "A": "sci33_adaptation-v0",
         "B": "sci33_adaptation-v1",
-        "C": "sci33_adaptation-v2"
+        "C": "sci33_adaptation-v2",
+        "D": "sci33_adaptation-v11"
       },
-      "retentionItem": "sci33_adaptation-v3"
+      "retentionItem": "sci33_adaptation-v3",
+      "newRecoveryItems": [
+        "sci33_adaptation-v7",
+        "sci33_adaptation-v8",
+        "sci33_adaptation-v9",
+        "sci33_adaptation-v10"
+      ]
     },
     {
       "objectiveId": "sci33_producers",
@@ -215,9 +314,16 @@
       "assessmentItems": {
         "A": "sci33_producers-v0",
         "B": "sci33_producers-v1",
-        "C": "sci33_producers-v2"
+        "C": "sci33_producers-v2",
+        "D": "sci33_producers-v11"
       },
-      "retentionItem": "sci33_producers-v3"
+      "retentionItem": "sci33_producers-v3",
+      "newRecoveryItems": [
+        "sci33_producers-v7",
+        "sci33_producers-v8",
+        "sci33_producers-v9",
+        "sci33_producers-v10"
+      ]
     },
     {
       "objectiveId": "sci33_consumer",
@@ -229,9 +335,16 @@
       "assessmentItems": {
         "A": "sci33_consumer-v0",
         "B": "sci33_consumer-v1",
-        "C": "sci33_consumer-v2"
+        "C": "sci33_consumer-v2",
+        "D": "sci33_consumer-v11"
       },
-      "retentionItem": "sci33_consumer-v3"
+      "retentionItem": "sci33_consumer-v3",
+      "newRecoveryItems": [
+        "sci33_consumer-v7",
+        "sci33_consumer-v8",
+        "sci33_consumer-v9",
+        "sci33_consumer-v10"
+      ]
     },
     {
       "objectiveId": "sci33_herbivore",
@@ -243,9 +356,16 @@
       "assessmentItems": {
         "A": "sci33_herbivore-v0",
         "B": "sci33_herbivore-v1",
-        "C": "sci33_herbivore-v2"
+        "C": "sci33_herbivore-v2",
+        "D": "sci33_herbivore-v11"
       },
-      "retentionItem": "sci33_herbivore-v3"
+      "retentionItem": "sci33_herbivore-v3",
+      "newRecoveryItems": [
+        "sci33_herbivore-v7",
+        "sci33_herbivore-v8",
+        "sci33_herbivore-v9",
+        "sci33_herbivore-v10"
+      ]
     },
     {
       "objectiveId": "sci33_carnivore",
@@ -257,9 +377,16 @@
       "assessmentItems": {
         "A": "sci33_carnivore-v0",
         "B": "sci33_carnivore-v1",
-        "C": "sci33_carnivore-v2"
+        "C": "sci33_carnivore-v2",
+        "D": "sci33_carnivore-v11"
       },
-      "retentionItem": "sci33_carnivore-v3"
+      "retentionItem": "sci33_carnivore-v3",
+      "newRecoveryItems": [
+        "sci33_carnivore-v7",
+        "sci33_carnivore-v8",
+        "sci33_carnivore-v9",
+        "sci33_carnivore-v10"
+      ]
     },
     {
       "objectiveId": "sci33_omnivore",
@@ -271,9 +398,16 @@
       "assessmentItems": {
         "A": "sci33_omnivore-v0",
         "B": "sci33_omnivore-v1",
-        "C": "sci33_omnivore-v2"
+        "C": "sci33_omnivore-v2",
+        "D": "sci33_omnivore-v11"
       },
-      "retentionItem": "sci33_omnivore-v3"
+      "retentionItem": "sci33_omnivore-v3",
+      "newRecoveryItems": [
+        "sci33_omnivore-v7",
+        "sci33_omnivore-v8",
+        "sci33_omnivore-v9",
+        "sci33_omnivore-v10"
+      ]
     },
     {
       "objectiveId": "sci33_tertiary",
@@ -285,9 +419,16 @@
       "assessmentItems": {
         "A": "sci33_tertiary-v0",
         "B": "sci33_tertiary-v1",
-        "C": "sci33_tertiary-v2"
+        "C": "sci33_tertiary-v2",
+        "D": "sci33_tertiary-v11"
       },
-      "retentionItem": "sci33_tertiary-v3"
+      "retentionItem": "sci33_tertiary-v3",
+      "newRecoveryItems": [
+        "sci33_tertiary-v7",
+        "sci33_tertiary-v8",
+        "sci33_tertiary-v9",
+        "sci33_tertiary-v10"
+      ]
     },
     {
       "objectiveId": "sci33_predator",
@@ -299,9 +440,16 @@
       "assessmentItems": {
         "A": "sci33_predator-v0",
         "B": "sci33_predator-v1",
-        "C": "sci33_predator-v2"
+        "C": "sci33_predator-v2",
+        "D": "sci33_predator-v11"
       },
-      "retentionItem": "sci33_predator-v3"
+      "retentionItem": "sci33_predator-v3",
+      "newRecoveryItems": [
+        "sci33_predator-v7",
+        "sci33_predator-v8",
+        "sci33_predator-v9",
+        "sci33_predator-v10"
+      ]
     },
     {
       "objectiveId": "sci33_prey",
@@ -313,9 +461,16 @@
       "assessmentItems": {
         "A": "sci33_prey-v0",
         "B": "sci33_prey-v1",
-        "C": "sci33_prey-v2"
+        "C": "sci33_prey-v2",
+        "D": "sci33_prey-v11"
       },
-      "retentionItem": "sci33_prey-v3"
+      "retentionItem": "sci33_prey-v3",
+      "newRecoveryItems": [
+        "sci33_prey-v7",
+        "sci33_prey-v8",
+        "sci33_prey-v9",
+        "sci33_prey-v10"
+      ]
     },
     {
       "objectiveId": "sci33_food_chain",
@@ -327,9 +482,16 @@
       "assessmentItems": {
         "A": "sci33_food_chain-v0",
         "B": "sci33_food_chain-v1",
-        "C": "sci33_food_chain-v2"
+        "C": "sci33_food_chain-v2",
+        "D": "sci33_food_chain-v11"
       },
-      "retentionItem": "sci33_food_chain-v3"
+      "retentionItem": "sci33_food_chain-v3",
+      "newRecoveryItems": [
+        "sci33_food_chain-v7",
+        "sci33_food_chain-v8",
+        "sci33_food_chain-v9",
+        "sci33_food_chain-v10"
+      ]
     },
     {
       "objectiveId": "sci33_food_web",
@@ -341,9 +503,16 @@
       "assessmentItems": {
         "A": "sci33_food_web-v0",
         "B": "sci33_food_web-v1",
-        "C": "sci33_food_web-v2"
+        "C": "sci33_food_web-v2",
+        "D": "sci33_food_web-v11"
       },
-      "retentionItem": "sci33_food_web-v3"
+      "retentionItem": "sci33_food_web-v3",
+      "newRecoveryItems": [
+        "sci33_food_web-v7",
+        "sci33_food_web-v8",
+        "sci33_food_web-v9",
+        "sci33_food_web-v10"
+      ]
     },
     {
       "objectiveId": "sci33_energy_pyramid",
@@ -355,9 +524,16 @@
       "assessmentItems": {
         "A": "sci33_energy_pyramid-v0",
         "B": "sci33_energy_pyramid-v1",
-        "C": "sci33_energy_pyramid-v2"
+        "C": "sci33_energy_pyramid-v2",
+        "D": "sci33_energy_pyramid-v11"
       },
-      "retentionItem": "sci33_energy_pyramid-v3"
+      "retentionItem": "sci33_energy_pyramid-v3",
+      "newRecoveryItems": [
+        "sci33_energy_pyramid-v7",
+        "sci33_energy_pyramid-v8",
+        "sci33_energy_pyramid-v9",
+        "sci33_energy_pyramid-v10"
+      ]
     },
     {
       "objectiveId": "sci33_decomposers",
@@ -369,9 +545,16 @@
       "assessmentItems": {
         "A": "sci33_decomposers-v0",
         "B": "sci33_decomposers-v1",
-        "C": "sci33_decomposers-v2"
+        "C": "sci33_decomposers-v2",
+        "D": "sci33_decomposers-v11"
       },
-      "retentionItem": "sci33_decomposers-v3"
+      "retentionItem": "sci33_decomposers-v3",
+      "newRecoveryItems": [
+        "sci33_decomposers-v7",
+        "sci33_decomposers-v8",
+        "sci33_decomposers-v9",
+        "sci33_decomposers-v10"
+      ]
     },
     {
       "objectiveId": "sci33_scavenger",
@@ -383,9 +566,16 @@
       "assessmentItems": {
         "A": "sci33_scavenger-v0",
         "B": "sci33_scavenger-v1",
-        "C": "sci33_scavenger-v2"
+        "C": "sci33_scavenger-v2",
+        "D": "sci33_scavenger-v11"
       },
-      "retentionItem": "sci33_scavenger-v3"
+      "retentionItem": "sci33_scavenger-v3",
+      "newRecoveryItems": [
+        "sci33_scavenger-v7",
+        "sci33_scavenger-v8",
+        "sci33_scavenger-v9",
+        "sci33_scavenger-v10"
+      ]
     },
     {
       "objectiveId": "sci33_symbiotic",
@@ -398,9 +588,16 @@
       "assessmentItems": {
         "A": "sci33_symbiotic-v0",
         "B": "sci33_symbiotic-v1",
-        "C": "sci33_symbiotic-v2"
+        "C": "sci33_symbiotic-v2",
+        "D": "sci33_symbiotic-v11"
       },
-      "retentionItem": "sci33_symbiotic-v3"
+      "retentionItem": "sci33_symbiotic-v3",
+      "newRecoveryItems": [
+        "sci33_symbiotic-v7",
+        "sci33_symbiotic-v8",
+        "sci33_symbiotic-v9",
+        "sci33_symbiotic-v10"
+      ]
     },
     {
       "objectiveId": "sci33_symbiosis",
@@ -413,9 +610,16 @@
       "assessmentItems": {
         "A": "sci33_symbiosis-v0",
         "B": "sci33_symbiosis-v1",
-        "C": "sci33_symbiosis-v2"
+        "C": "sci33_symbiosis-v2",
+        "D": "sci33_symbiosis-v11"
       },
-      "retentionItem": "sci33_symbiosis-v3"
+      "retentionItem": "sci33_symbiosis-v3",
+      "newRecoveryItems": [
+        "sci33_symbiosis-v7",
+        "sci33_symbiosis-v8",
+        "sci33_symbiosis-v9",
+        "sci33_symbiosis-v10"
+      ]
     },
     {
       "objectiveId": "sci33_host",
@@ -428,9 +632,16 @@
       "assessmentItems": {
         "A": "sci33_host-v0",
         "B": "sci33_host-v1",
-        "C": "sci33_host-v2"
+        "C": "sci33_host-v2",
+        "D": "sci33_host-v11"
       },
-      "retentionItem": "sci33_host-v3"
+      "retentionItem": "sci33_host-v3",
+      "newRecoveryItems": [
+        "sci33_host-v7",
+        "sci33_host-v8",
+        "sci33_host-v9",
+        "sci33_host-v10"
+      ]
     },
     {
       "objectiveId": "sci33_parasitism",
@@ -443,9 +654,16 @@
       "assessmentItems": {
         "A": "sci33_parasitism-v0",
         "B": "sci33_parasitism-v1",
-        "C": "sci33_parasitism-v2"
+        "C": "sci33_parasitism-v2",
+        "D": "sci33_parasitism-v11"
       },
-      "retentionItem": "sci33_parasitism-v3"
+      "retentionItem": "sci33_parasitism-v3",
+      "newRecoveryItems": [
+        "sci33_parasitism-v7",
+        "sci33_parasitism-v8",
+        "sci33_parasitism-v9",
+        "sci33_parasitism-v10"
+      ]
     },
     {
       "objectiveId": "sci33_commensalism",
@@ -458,9 +676,16 @@
       "assessmentItems": {
         "A": "sci33_commensalism-v0",
         "B": "sci33_commensalism-v1",
-        "C": "sci33_commensalism-v2"
+        "C": "sci33_commensalism-v2",
+        "D": "sci33_commensalism-v11"
       },
-      "retentionItem": "sci33_commensalism-v3"
+      "retentionItem": "sci33_commensalism-v3",
+      "newRecoveryItems": [
+        "sci33_commensalism-v7",
+        "sci33_commensalism-v8",
+        "sci33_commensalism-v9",
+        "sci33_commensalism-v10"
+      ]
     },
     {
       "objectiveId": "sci33_mutualism",
@@ -473,9 +698,16 @@
       "assessmentItems": {
         "A": "sci33_mutualism-v0",
         "B": "sci33_mutualism-v1",
-        "C": "sci33_mutualism-v2"
+        "C": "sci33_mutualism-v2",
+        "D": "sci33_mutualism-v11"
       },
-      "retentionItem": "sci33_mutualism-v3"
+      "retentionItem": "sci33_mutualism-v3",
+      "newRecoveryItems": [
+        "sci33_mutualism-v7",
+        "sci33_mutualism-v8",
+        "sci33_mutualism-v9",
+        "sci33_mutualism-v10"
+      ]
     },
     {
       "objectiveId": "ecology_photosynthesis",
@@ -487,9 +719,16 @@
       "assessmentItems": {
         "A": "ecology_photosynthesis-v0",
         "B": "ecology_photosynthesis-v1",
-        "C": "ecology_photosynthesis-v2"
+        "C": "ecology_photosynthesis-v2",
+        "D": "ecology_photosynthesis-v11"
       },
-      "retentionItem": "ecology_photosynthesis-v3"
+      "retentionItem": "ecology_photosynthesis-v3",
+      "newRecoveryItems": [
+        "ecology_photosynthesis-v7",
+        "ecology_photosynthesis-v8",
+        "ecology_photosynthesis-v9",
+        "ecology_photosynthesis-v10"
+      ]
     },
     {
       "objectiveId": "ecology_density",
@@ -501,9 +740,16 @@
       "assessmentItems": {
         "A": "ecology_density-v0",
         "B": "ecology_density-v1",
-        "C": "ecology_density-v2"
+        "C": "ecology_density-v2",
+        "D": "ecology_density-v11"
       },
-      "retentionItem": "ecology_density-v3"
+      "retentionItem": "ecology_density-v3",
+      "newRecoveryItems": [
+        "ecology_density-v7",
+        "ecology_density-v8",
+        "ecology_density-v9",
+        "ecology_density-v10"
+      ]
     },
     {
       "objectiveId": "ecology_habitats",
@@ -515,9 +761,16 @@
       "assessmentItems": {
         "A": "ecology_habitats-v0",
         "B": "ecology_habitats-v1",
-        "C": "ecology_habitats-v2"
+        "C": "ecology_habitats-v2",
+        "D": "ecology_habitats-v11"
       },
-      "retentionItem": "ecology_habitats-v3"
+      "retentionItem": "ecology_habitats-v3",
+      "newRecoveryItems": [
+        "ecology_habitats-v7",
+        "ecology_habitats-v8",
+        "ecology_habitats-v9",
+        "ecology_habitats-v10"
+      ]
     },
     {
       "objectiveId": "ecology_resources",
@@ -529,9 +782,16 @@
       "assessmentItems": {
         "A": "ecology_resources-v0",
         "B": "ecology_resources-v1",
-        "C": "ecology_resources-v2"
+        "C": "ecology_resources-v2",
+        "D": "ecology_resources-v11"
       },
-      "retentionItem": "ecology_resources-v3"
+      "retentionItem": "ecology_resources-v3",
+      "newRecoveryItems": [
+        "ecology_resources-v7",
+        "ecology_resources-v8",
+        "ecology_resources-v9",
+        "ecology_resources-v10"
+      ]
     },
     {
       "objectiveId": "ecology_competition",
@@ -543,9 +803,16 @@
       "assessmentItems": {
         "A": "ecology_competition-v0",
         "B": "ecology_competition-v1",
-        "C": "ecology_competition-v2"
+        "C": "ecology_competition-v2",
+        "D": "ecology_competition-v11"
       },
-      "retentionItem": "ecology_competition-v3"
+      "retentionItem": "ecology_competition-v3",
+      "newRecoveryItems": [
+        "ecology_competition-v7",
+        "ecology_competition-v8",
+        "ecology_competition-v9",
+        "ecology_competition-v10"
+      ]
     },
     {
       "objectiveId": "ecology_trophic",
@@ -557,9 +824,16 @@
       "assessmentItems": {
         "A": "ecology_trophic-v0",
         "B": "ecology_trophic-v1",
-        "C": "ecology_trophic-v2"
+        "C": "ecology_trophic-v2",
+        "D": "ecology_trophic-v11"
       },
-      "retentionItem": "ecology_trophic-v3"
+      "retentionItem": "ecology_trophic-v3",
+      "newRecoveryItems": [
+        "ecology_trophic-v7",
+        "ecology_trophic-v8",
+        "ecology_trophic-v9",
+        "ecology_trophic-v10"
+      ]
     },
     {
       "objectiveId": "ecology_transfer",
@@ -571,9 +845,16 @@
       "assessmentItems": {
         "A": "ecology_transfer-v0",
         "B": "ecology_transfer-v1",
-        "C": "ecology_transfer-v2"
+        "C": "ecology_transfer-v2",
+        "D": "ecology_transfer-v11"
       },
-      "retentionItem": "ecology_transfer-v3"
+      "retentionItem": "ecology_transfer-v3",
+      "newRecoveryItems": [
+        "ecology_transfer-v7",
+        "ecology_transfer-v8",
+        "ecology_transfer-v9",
+        "ecology_transfer-v10"
+      ]
     },
     {
       "objectiveId": "ecology_matter",
@@ -585,9 +866,16 @@
       "assessmentItems": {
         "A": "ecology_matter-v0",
         "B": "ecology_matter-v1",
-        "C": "ecology_matter-v2"
+        "C": "ecology_matter-v2",
+        "D": "ecology_matter-v11"
       },
-      "retentionItem": "ecology_matter-v3"
+      "retentionItem": "ecology_matter-v3",
+      "newRecoveryItems": [
+        "ecology_matter-v7",
+        "ecology_matter-v8",
+        "ecology_matter-v9",
+        "ecology_matter-v10"
+      ]
     },
     {
       "objectiveId": "ecology_ripple",
@@ -599,9 +887,16 @@
       "assessmentItems": {
         "A": "ecology_ripple-v0",
         "B": "ecology_ripple-v1",
-        "C": "ecology_ripple-v2"
+        "C": "ecology_ripple-v2",
+        "D": "ecology_ripple-v11"
       },
-      "retentionItem": "ecology_ripple-v3"
+      "retentionItem": "ecology_ripple-v3",
+      "newRecoveryItems": [
+        "ecology_ripple-v7",
+        "ecology_ripple-v8",
+        "ecology_ripple-v9",
+        "ecology_ripple-v10"
+      ]
     }
   ]
 }
