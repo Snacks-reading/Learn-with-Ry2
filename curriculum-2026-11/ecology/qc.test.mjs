@@ -27,4 +27,31 @@ let bad=freshState();bad=act(d,bad,{type:'start',kind:'test',form:'A',independen
 for(const id of run.items){const q=d.questions.find(q=>q.id===id);bad=act(d,bad,{type:'answer',runId:run.id,itemId:id,selected:(q.answer+1)%4});}
 bad=act(d,bad,{type:'start',kind:'repair',independent:true});const repair=bad.runs.at(-1);assert.equal(repair.items.length,42);assert(repair.items.every(id=>!run.items.includes(id)));assert(run.answers.every(a=>a.correct===false));
 for(const c of d.chapters){assert(c.teach.length);assert(c.model.prompt&&c.model.reasoning&&c.model.answer);assert(c.guided.options.length===4);}
+// A perfect supported recall must leave a fresh independent route available.
+const recallState=structuredClone(s);
+recallState.runs=recallState.runs.filter(run=>run.kind==='test');
+const due=Date.parse(first.finishedAt)+DAY;
+act(d,recallState,{type:'start',kind:'retention',day:1,independent:false},due);
+const assisted=recallState.runs.at(-1);
+for(const itemId of assisted.items){
+ const question=d.questions.find(q=>q.id===itemId);
+ act(d,recallState,{type:'answer',runId:assisted.id,itemId,selected:question.answer},due);
+}
+assert.equal(summary(d,recallState,due).retention[0].complete,false);
+act(d,recallState,{type:'start',kind:'retention',day:1,independent:true},due);
+const independentRecall=recallState.runs.at(-1);
+assert.notEqual(independentRecall.id,assisted.id);
+const guidedIds=new Set(d.chapters.map(c=>c.guided.id));
+assert(independentRecall.items.every(itemId=>!assisted.items.includes(itemId)&&!guidedIds.has(itemId)));
+for(const itemId of independentRecall.items){
+ const question=d.questions.find(q=>q.id===itemId);
+ const selected=itemId===independentRecall.items[0]?(question.answer+1)%4:question.answer;
+ act(d,recallState,{type:'answer',runId:independentRecall.id,itemId,selected},due);
+}
+act(d,recallState,{type:'start',kind:'retention',day:1,independent:true},due);
+const targeted=recallState.runs.at(-1);
+assert.equal(targeted.items.length,1);
+const target=d.questions.find(q=>q.id===targeted.items[0]);
+act(d,recallState,{type:'answer',runId:targeted.id,itemId:target.id,selected:target.answer},due);
+assert.equal(summary(d,recallState,due).retention[0].complete,true);
 console.log('PASS: 33 terms; 42 objectives; 3 disjoint 42-question forms; answer-key shape; source-linked lessons; independent/support separation; immutable first answers; resume; date gates; all five recall rounds; conservative mastery; fresh missed-skill pool.');

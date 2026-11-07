@@ -2,11 +2,27 @@ export const NAMESPACE='learn-with-ry:ecology:2026-11-07-v1';
 export const DAY=86400000;
 export function freshState(){return {namespace:NAMESPACE,revision:0,lessons:{},runs:[],activeRun:null};}
 export function shuffle(values){const a=[...values];for(let i=a.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[a[i],a[j]]=[a[j],a[i]];}return a;}
+function recallTargets(data, index) {
+ return data.objectives.filter((_, i) => i % data.retentionDays.length === index);
+}
+function completedRecallSkills(data, runs, day) {
+ const objectives = new Map(data.questions.map(q => [q.id, q.objectiveId]));
+ return new Set(runs.filter(run => run.kind === 'retention' && run.day === day && run.independent && run.finishedAt)
+  .flatMap(run => run.answers.filter(answer => answer.correct).map(answer => objectives.get(answer.itemId))));
+}
+function usedItems(data, state) {
+ // Guided prompts can be viewed without recording a guided answer.
+ return new Set([...state.runs.flatMap(run => run.items), ...data.chapters.map(chapter => chapter.guided.id)]);
+}
 export function summary(data,state,now=Date.now()){
- const finished=state.runs.filter(r=>r.finishedAt),tests=finished.filter(r=>r.kind==='test'),anchor=tests[0]?.finishedAt;
+ const finished=state.runs.filter(r=>r.finishedAt).sort((a,b)=>a.finishedAt.localeCompare(b.finishedAt));
+ const tests=finished.filter(r=>r.kind==='test'),anchor=tests[0]?.finishedAt;
  const evidence=data.objectives.map(objectiveId=>{const answers=finished.filter(r=>r.independent).flatMap(r=>r.answers.filter(a=>data.questions.find(q=>q.id===a.itemId)?.objectiveId===objectiveId));const recent=answers.slice(-10);return {objectiveId,answered:answers.length,correct:answers.filter(a=>a.correct).length,recentCorrect:recent.filter(a=>a.correct).length,recentTotal:recent.length,secure:recent.length>=4&&recent.filter(a=>a.correct).length/recent.length>=.9,delayed:finished.some(r=>r.kind==='retention'&&r.independent&&r.answers.some(a=>a.correct&&data.questions.find(q=>q.id===a.itemId)?.objectiveId===objectiveId))};});
- const latest=tests.at(-1);const accuracy=latest?latest.answers.filter(a=>a.correct).length/latest.answers.length:null;
- const retention=data.retentionDays.map((day,i)=>({day,dueAt:anchor?new Date(Date.parse(anchor)+day*DAY).toISOString():null,due:!!anchor&&now>=Date.parse(anchor)+day*DAY,complete:finished.some(r=>r.kind==='retention'&&r.day===day&&r.independent&&r.answers.every(a=>a.correct))}));
+ const latest=tests.filter(r=>r.independent).at(-1);const accuracy=latest?latest.answers.filter(a=>a.correct).length/latest.answers.length:null;
+ const retention=data.retentionDays.map((day,i)=>{
+  const completed=completedRecallSkills(data,finished,day);
+  return {day,dueAt:anchor?new Date(Date.parse(anchor)+day*DAY).toISOString():null,due:!!anchor&&now>=Date.parse(anchor)+day*DAY,complete:recallTargets(data,i).every(objective=>completed.has(objective))};
+ });
  return {tests,accuracy,evidence,retention,mastered:'ABC'.split('').every(f=>tests.some(r=>r.form===f&&r.independent))&&accuracy>=.9&&evidence.every(e=>e.secure&&e.delayed)&&retention.every(r=>r.complete)};
 }
 export function act(data,state,action,now=Date.now()){
@@ -25,18 +41,19 @@ export function act(data,state,action,now=Date.now()){
   }else if(action.kind==='repair'){
    const ongoing=state.runs.find(r=>r.kind==='repair'&&!r.finishedAt);if(ongoing){state.activeRun=ongoing.id;return state;}
    const missed=new Set(state.runs.flatMap(r=>r.answers.filter(a=>!a.correct).map(a=>data.questions.find(q=>q.id===a.itemId)?.objectiveId)).filter(Boolean));
-   const used=new Set([...state.runs.flatMap(r=>r.items),...data.chapters.filter(c=>state.lessons[c.id]?.guidedAnswer!==undefined).map(c=>c.guided.id)]);
+   const used=usedItems(data,state);
    ids=data.objectives.filter(o=>missed.has(o)).map(o=>data.questions.find(q=>q.objectiveId===o&&q.variant>=4&&!used.has(q.id))?.id).filter(Boolean);
    if(!ids.length)throw Error('No unused missed-skill questions remain in this edition. Continue an uncompleted test or a due recall check; no old answer will be counted as fresh.');
   }else if(action.kind==='retention'){
    const info=summary(data,state,now),index=data.retentionDays.indexOf(action.day);day=action.day;
    if(index<0||!info.retention[index].due)throw Error('This recall check is not due yet.');
    const previous=state.runs.filter(r=>r.kind==='retention'&&r.day===day).at(-1);
-   if(previous&&(!previous.finishedAt||previous.answers.every(a=>a.correct))){state.activeRun=previous.id;return state;}
-   const used=new Set(state.runs.flatMap(r=>r.items));
-   const target=data.objectives.filter((o,i)=>i%5===index);
+   if(previous&&(!previous.finishedAt||info.retention[index].complete)){state.activeRun=previous.id;return state;}
+   const used=usedItems(data,state);
+   const completed=completedRecallSkills(data,state.runs,day);
+   const target=recallTargets(data,index).filter(objective=>!completed.has(objective));
    ids=target.map(o=>data.questions.find(q=>q.objectiveId===o&&q.variant>=3&&!used.has(q.id))?.id).filter(Boolean);
-   if(ids.length!==target.length)throw Error('This recall needs additional unused questions before it can be retried. Your first score remains saved. Other tests and lessons are available.');
+   if(!ids.length)throw Error('This recall needs additional unused questions before it can be retried. Your first score remains saved. Other tests and lessons are available.');
   }else throw Error('Unknown round.');
   const runId=globalThis.crypto.randomUUID();const items=shuffle(ids);state.runs.push({id:runId,kind:action.kind,form:action.form||null,day:day||null,independent:action.independent===true,startedAt:stamp,items,orders:Object.fromEntries(items.map(id=>[id,shuffle(data.questions.find(q=>q.id===id).options.map((_,i)=>i))])),answers:[]});state.activeRun=runId;
  }else if(action.type==='answer'){

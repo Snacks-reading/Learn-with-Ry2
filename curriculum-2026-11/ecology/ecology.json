@@ -148,9 +148,9 @@
         },
         {
           "word": "Carrying Capacity",
-          "meaning": "The population size an environment can support under its current conditions.",
+          "meaning": "The largest population size an environment can sustain under its current conditions.",
           "cue": "Capacity = supportable population.",
-          "example": "A habitat can support about a certain number of deer under current food and water conditions.",
+          "example": "A habitat can sustain at most about 60 deer under current food and water conditions.",
           "nonexample": "The number of animals present today is not automatically the capacity.",
           "boundary": "It is population-specific and can change when resources/conditions change.",
           "objectiveId": "sci33_carrying_capacity"
@@ -185,7 +185,7 @@
           "Historical evidence shows a plant occurred naturally in this region before people introduced new plants.",
           "People introduce a plant that spreads rapidly and reduces native habitat.",
           "A population has ample food but too few safe nesting sites to increase.",
-          "A habitat can support about a certain number of deer under current food and water conditions."
+          "A habitat can sustain at most about 60 deer under current food and water conditions."
         ],
         "answer": 0,
         "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region."
@@ -224,7 +224,7 @@
         },
         {
           "word": "herbivore",
-          "meaning": "A consumer that feeds on plants or other producers.",
+          "meaning": "A consumer that eats only plants or other producers in the diet described.",
           "cue": "Herb/plant food.",
           "example": "In a stated diet, a rabbit feeds on plants.",
           "nonexample": "A predator eating only animals is not a herbivore.",
@@ -233,7 +233,7 @@
         },
         {
           "word": "carnivore",
-          "meaning": "A consumer that feeds on animals.",
+          "meaning": "A consumer that eats only animals in the diet described.",
           "cue": "Carni: animal flesh.",
           "example": "An owl in the stated example feeds on mice.",
           "nonexample": "A consumer feeding on both berries and insects is an omnivore.",
@@ -1536,7 +1536,7 @@
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A resource or condition that restricts population growth or size.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region."
@@ -1551,7 +1551,7 @@
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A resource or condition that restricts population growth or size.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A species occurring naturally in a region, rather than introduced there by people. A native species need not thrive everywhere; use the specific region."
@@ -1626,7 +1626,7 @@
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A resource or condition that restricts population growth or size.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context."
@@ -1641,7 +1641,7 @@
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A resource or condition that restricts population growth or size.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A nonnative species that causes, or is likely to cause, harm in the introduced environment. Nonnative alone is insufficient; investigate harm and context."
@@ -1716,7 +1716,7 @@
         "A resource or condition that restricts population growth or size.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource."
@@ -1731,7 +1731,7 @@
         "A resource or condition that restricts population growth or size.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
-        "The population size an environment can support under its current conditions."
+        "The largest population size an environment can sustain under its current conditions."
       ],
       "answer": 0,
       "rationale": "A resource or condition that restricts population growth or size. A limiting factor can be a condition, not only a scarce food resource."
@@ -1739,7 +1739,7 @@
     {
       "id": "sci33_carrying_capacity-v0",
       "objectiveId": "sci33_carrying_capacity",
-      "prompt": "A habitat can support about a certain number of deer under current food and water conditions. Which term describes that support limit?",
+      "prompt": "A habitat can sustain at most about 60 deer under current food and water conditions. Which term describes that support limit?",
       "options": [
         "Population",
         "Biome",
@@ -1747,7 +1747,7 @@
         "Carrying Capacity"
       ],
       "answer": 3,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
       "chapterId": "fresh_sci33_resources",
       "variant": 0
     },
@@ -1762,14 +1762,14 @@
         "Limiting Factor"
       ],
       "answer": 2,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
       "chapterId": "fresh_sci33_resources",
       "variant": 1
     },
     {
       "id": "sci33_carrying_capacity-v2",
       "objectiveId": "sci33_carrying_capacity",
-      "prompt": "A habitat’s resources can support a population of a particular size under current conditions. What quantity is estimated?",
+      "prompt": "A habitat’s resources can sustain at most a certain number of individuals under current conditions. What quantity is estimated?",
       "options": [
         "Population",
         "Limiting Factor",
@@ -1777,14 +1777,14 @@
         "Biome"
       ],
       "answer": 2,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
       "chapterId": "fresh_sci33_resources",
       "variant": 2
     },
     {
       "id": "sci33_carrying_capacity-v3",
       "objectiveId": "sci33_carrying_capacity",
-      "prompt": "Added waste reduces the population size an aquarium can sustainably support. Which concept changes?",
+      "prompt": "Added waste reduces the maximum population size an aquarium can sustain. Which concept changes?",
       "options": [
         "Carrying Capacity",
         "Limiting Factor",
@@ -1792,7 +1792,7 @@
         "Population"
       ],
       "answer": 0,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change.",
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change.",
       "chapterId": "fresh_sci33_resources",
       "variant": 3
     },
@@ -1803,13 +1803,13 @@
       "variant": 4,
       "prompt": "Which explanation of Carrying Capacity is accurate?",
       "options": [
-        "The population size an environment can support under its current conditions.",
+        "The largest population size an environment can sustain under its current conditions.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A resource or condition that restricts population growth or size."
       ],
       "answer": 0,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change."
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change."
     },
     {
       "id": "sci33_carrying_capacity-v5",
@@ -1818,13 +1818,13 @@
       "variant": 5,
       "prompt": "A student uses this example for Carrying Capacity: The number of animals present today is not automatically the capacity. Which statement should guide the correction?",
       "options": [
-        "The population size an environment can support under its current conditions.",
+        "The largest population size an environment can sustain under its current conditions.",
         "A species occurring naturally in a region, rather than introduced there by people.",
         "A nonnative species that causes, or is likely to cause, harm in the introduced environment.",
         "A resource or condition that restricts population growth or size."
       ],
       "answer": 0,
-      "rationale": "The population size an environment can support under its current conditions. It is population-specific and can change when resources/conditions change."
+      "rationale": "The largest population size an environment can sustain under its current conditions. It is population-specific and can change when resources/conditions change."
     },
     {
       "id": "sci33_niche-v0",
@@ -2075,8 +2075,8 @@
       "options": [
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only plants or other producers in the diet described.",
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
       "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it."
@@ -2090,8 +2090,8 @@
       "options": [
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only plants or other producers in the diet described.",
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
       "rationale": "Organisms that build food from inorganic materials using an energy source. Classroom examples use sunlight/photosynthesis; some producers use chemical energy. They convert energy rather than create it."
@@ -2165,8 +2165,8 @@
       "options": [
         "An organism obtaining food by eating organisms or their material.",
         "Organisms that build food from inorganic materials using an energy source.",
-        "A consumer that feeds on plants or other producers.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only plants or other producers in the diet described.",
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path."
@@ -2180,8 +2180,8 @@
       "options": [
         "An organism obtaining food by eating organisms or their material.",
         "Organisms that build food from inorganic materials using an energy source.",
-        "A consumer that feeds on plants or other producers.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only plants or other producers in the diet described.",
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism obtaining food by eating organisms or their material. Consumer levels depend on the particular feeding path."
@@ -2197,7 +2197,7 @@
         "herbivore"
       ],
       "answer": 3,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 0
     },
@@ -2212,7 +2212,7 @@
         "Producers"
       ],
       "answer": 2,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 1
     },
@@ -2227,7 +2227,7 @@
         "carnivore"
       ],
       "answer": 1,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 2
     },
@@ -2242,7 +2242,7 @@
         "Producers"
       ],
       "answer": 2,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 3
     },
@@ -2253,13 +2253,13 @@
       "variant": 4,
       "prompt": "Which explanation of herbivore is accurate?",
       "options": [
-        "A consumer that feeds on plants or other producers.",
+        "A consumer that eats only plants or other producers in the diet described.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them."
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them."
     },
     {
       "id": "sci33_herbivore-v5",
@@ -2268,13 +2268,13 @@
       "variant": 5,
       "prompt": "A student uses this example for herbivore: A predator eating only animals is not a herbivore. Which statement should guide the correction?",
       "options": [
-        "A consumer that feeds on plants or other producers.",
+        "A consumer that eats only plants or other producers in the diet described.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on animals."
+        "A consumer that eats only animals in the diet described."
       ],
       "answer": 0,
-      "rationale": "A consumer that feeds on plants or other producers. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them."
+      "rationale": "A consumer that eats only plants or other producers in the diet described. Use the stated food. Algae are producers too; herbivores can eat producers without being harmless to them."
     },
     {
       "id": "sci33_carnivore-v0",
@@ -2287,7 +2287,7 @@
         "predator"
       ],
       "answer": 0,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 0
     },
@@ -2302,7 +2302,7 @@
         "carnivore"
       ],
       "answer": 3,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 1
     },
@@ -2317,7 +2317,7 @@
         "carnivore"
       ],
       "answer": 3,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 2
     },
@@ -2332,7 +2332,7 @@
         "carnivore"
       ],
       "answer": 3,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms.",
       "chapterId": "fresh_sci33_feeding",
       "variant": 3
     },
@@ -2343,13 +2343,13 @@
       "variant": 4,
       "prompt": "Which explanation of carnivore is accurate?",
       "options": [
-        "A consumer that feeds on animals.",
+        "A consumer that eats only animals in the diet described.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms."
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms."
     },
     {
       "id": "sci33_carnivore-v5",
@@ -2358,13 +2358,13 @@
       "variant": 5,
       "prompt": "A student uses this example for carnivore: A consumer feeding on both berries and insects is an omnivore. Which statement should guide the correction?",
       "options": [
-        "A consumer that feeds on animals.",
+        "A consumer that eats only animals in the diet described.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
-      "rationale": "A consumer that feeds on animals. Use the actual described diet; predator and carnivore overlap but are not identical terms."
+      "rationale": "A consumer that eats only animals in the diet described. Use the actual described diet; predator and carnivore overlap but are not identical terms."
     },
     {
       "id": "sci33_omnivore-v0",
@@ -2436,7 +2436,7 @@
         "A consumer that feeds on producer material and animals.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source."
@@ -2451,7 +2451,7 @@
         "A consumer that feeds on producer material and animals.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "A consumer that feeds on producer material and animals. Consumer level can change with the feeding path; classify by actual food source."
@@ -2526,7 +2526,7 @@
         "A tertiary consumer eats a secondary consumer in the specified feeding pathway.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain."
@@ -2541,7 +2541,7 @@
         "A tertiary consumer eats a secondary consumer in the specified feeding pathway.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "A tertiary consumer eats a secondary consumer in the specified feeding pathway. Count from a producer along the stated path. A tertiary consumer need not be the last animal in every possible chain."
@@ -2616,7 +2616,7 @@
         "An organism that captures and consumes prey.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another."
@@ -2631,7 +2631,7 @@
         "An organism that captures and consumes prey.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism that captures and consumes prey. Predator/prey describes a relationship; one organism can be predator in one interaction and prey in another."
@@ -2706,7 +2706,7 @@
         "An organism captured and consumed by a predator.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship."
@@ -2721,7 +2721,7 @@
         "An organism captured and consumed by a predator.",
         "Organisms that build food from inorganic materials using an energy source.",
         "An organism obtaining food by eating organisms or their material.",
-        "A consumer that feeds on plants or other producers."
+        "A consumer that eats only plants or other producers in the diet described."
       ],
       "answer": 0,
       "rationale": "An organism captured and consumed by a predator. A prey organism can also be a predator of something else; roles depend on the relationship."
