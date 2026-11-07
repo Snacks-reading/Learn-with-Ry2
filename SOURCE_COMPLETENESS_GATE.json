@@ -3,7 +3,7 @@
   "status": "partial-source-bounded-release",
   "interfaceRelease": "allowed",
   "scores": "fresh namespace; no imported scores",
-  "reviewedScope": "Five public focused lessons, classroom ecology from recovered originals, and the recovered source scope of the three private Egypt forms. The wider five-course census remains open.",
+  "reviewedScope": "Five public focused lessons, classroom ecology from recovered originals, and three private Egypt forms bounded to recovered sources. The five-course Schoology page census is complete. Underlying source content, media and full-course certification remain open.",
   "subjects": {
     "ELA": {
       "status": "four-source-bounded-lessons-released; wider-unit-review-pending",
@@ -14,7 +14,7 @@
         "ela_sofi_review_20261106",
         "ela_explanatory_writing_20261106"
       ],
-      "blocker": "Exact November 9–13 spiral prompts, Hachiko video playback and wider ELA course reconciliation are pending."
+      "blocker": "Exact November 9–13 spiral prompts, assigned Hachiko video playback, and restricted or publisher-only content remain unverified."
     },
     "MATH": {
       "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
@@ -22,7 +22,7 @@
       "verifiedStandaloneLessons": [
         "math_expression_vocabulary_20261106"
       ],
-      "blocker": "Six newsletter vocabulary terms are covered. Wider expressions quiz and Big 8 scope still depend on assigned Reveal and IXL activities."
+      "blocker": "The six newsletter terms are covered. Schoology confirmed the Big 8 directions. The full expressions quiz and Big 8 question scope and assigned Reveal and IXL activities remain unverified."
     },
     "SCI": {
       "status": "recovered-classroom-ecology-release",
@@ -31,7 +31,7 @@
       "teacherVocabularyCount": 33,
       "practiceForms": 3,
       "questionsPerForm": 42,
-      "blocker": "Exact publisher-only STEMscopedia pages remain unverified. This release teaches and tests the recovered classroom packets, teacher glossary and notes; it is not complete-course certification.",
+      "blocker": "Schoology confirmed the exact STEMscopedia assignment titles. Publisher login, redirects or retired pages prevented reading the exact assigned text. The released ecology practice covers the recovered classroom packets, 33 displayed terms and teacher notes.",
       "verifiedStandaloneLessons": []
     },
     "SS": {
@@ -49,12 +49,11 @@
     }
   },
   "blockingSources": [
-    "Complete the current Schoology material census across all five courses; ELA and Egypt folder listings have only a partial content audit.",
-    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the new ELA spiral and wider math quiz scope.",
+    "Verify underlying content still unavailable from previously opened Schoology assessment landing pages and publisher wrappers. Keep opened, read and tested statuses separate.",
+    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the exact ELA spiral and wider math quiz scope.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
-    "Recover the exact STEMscopes publisher readings. The 33 displayed StudyMate terms and recovered ecology packets are already reconciled for the focused Science release.",
-    "Verify Theater playback and recover any posted assessment directions or rubric.",
-    "Open the 59 queued Schoology links with no saved page capture and reconcile the separate underlying content or playback on restricted resources."
+    "Recover the exact STEMscopedia readings through authorized district or publisher access. The 33 displayed StudyMate terms and recovered ecology packets are already reconciled for the focused Science release.",
+    "Verify Theater playback and recover any posted assessment directions or rubric."
   ],
   "conflicts": [
     {
@@ -90,5 +89,17 @@
       14,
       30
     ]
+  },
+  "classroomCensus": {
+    "checked": "2026-11-07",
+    "courses": 5,
+    "folderPaths": 73,
+    "identifiedMaterialUrls": 382,
+    "savedPageCaptures": 323,
+    "additionalLivePageChecks": 59,
+    "assessmentLandingPages": 28,
+    "publisherWrappers": 31,
+    "pageCensusComplete": true,
+    "underlyingContentReviewComplete": false
   }
 }
