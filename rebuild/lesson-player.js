@@ -58,7 +58,7 @@ window.renderVerifiedLesson = function(main, id) {
   add(main,'p',q.prompt,'prompt');const field=add(main,'fieldset');add(field,'legend','Choose one answer');
   optionOrder.forEach((i,position)=>{const option=q.options[i];const label=add(field,'label');const radio=add(label,'input');radio.type='radio';radio.name='lesson-answer';radio.value=String(i);radio.checked=saved?.selected===i;radio.disabled=Boolean(saved);add(label,'span',String.fromCharCode(65+position)+'. '+option);});
   const feedback=add(main,'div',undefined,'feedback');feedback.hidden=!saved;
-  function showFeedback(record){feedback.replaceChildren();add(feedback,'p',(record.correct?'Correct. ':'Review this idea. ')+q.rationale);if(!record.correct){add(feedback,'p','Review the explanation, then revisit the worked example before continuing.');const reteach=add(feedback,'button','Review the teaching','secondary');reteach.onclick=()=>{work.stage=0;work.index=0;redraw();};}}
+  function showFeedback(record){feedback.hidden=false;feedback.replaceChildren();add(feedback,'p',(record.correct?'Correct. ':'Review this idea. ')+q.rationale);if(!record.correct){add(feedback,'p','Review the explanation, then revisit the worked example before continuing.');const reteach=add(feedback,'button','Review the teaching','secondary');reteach.onclick=()=>{work.stage=0;work.index=0;redraw();};}}
   if(saved)showFeedback(saved);
   const submit=add(main,'button',saved?'Answer saved':'Submit answer');submit.disabled=Boolean(saved);
   const next=add(main,'button','Next','secondary');next.disabled=!saved;
