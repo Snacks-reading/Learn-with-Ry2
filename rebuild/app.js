@@ -3,10 +3,7 @@ const CURRENT_KEY = 'learn-with-ry:2026-11-06';
 const SUBJECTS = {ELA:{name:'ELA',topic:'Reading, writing and language'},MATH:{name:'Math',topic:'Numbers, expressions and reasoning'},SCI:{name:'Science',topic:'Ecosystems and connections'},SS:{name:'Social Studies',topic:'Ancient Egypt'},THEATER:{name:'Theater',topic:'Performance and classroom projects'}};
 const STAGES = ['Teach','Guided practice','Independent application','Assessment','Retention'];
 let catalog, releaseGate, readingText = '', generation = 0, recording = null, speechTimer;
-const recordedLessons = new Set([
-  'ela_explanatory_writing_20261106', 'ela_hachiko_prereading_20261106',
-  'ela_hachiko_story_20261106', 'ela_sofi_review_20261106', 'math_expression_vocabulary_20261106'
-]);
+const recordedLessons = new Set();
 const audioStatus = document.getElementById('audio-status');
 const recordedButton = document.getElementById('recorded');
 function setRecordedLesson(id){
