@@ -14,7 +14,7 @@
         "ela_sofi_review_20261106",
         "ela_explanatory_writing_20261106"
       ],
-      "blocker": "The November Spirals folder showed November 2–6 only. Exact November 9–13 prompts, assigned Hachiko video playback and restricted publisher content remain unverified."
+      "blocker": "The November 9–13 spiral due time is verified in Schoology. Exact prompts, assigned Hachiko playback and restricted publisher content remain unverified."
     },
     "MATH": {
       "status": "six-term-vocabulary-release; full-quiz-source-review-pending",
@@ -22,8 +22,16 @@
       "verifiedStandaloneLessons": [
         "math_expression_vocabulary_20261106"
       ],
-      "blocker": "The six newsletter terms are covered. Schoology confirmed the Big 8 directions. The full expressions quiz and Big 8 question scope and assigned Reveal and IXL activities remain unverified.",
-      "publicPractice": "#unit/MATH"
+      "blocker": "Both pages of the teacher’s Expressions Quiz Review are verified. The exact graded quiz, Big 8 question scope, and assigned Reveal and IXL contents remain unverified.",
+      "publicPractice": "#unit/MATH",
+      "expressionsReview": {
+        "route": "#unit/EXPR",
+        "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8642069407",
+        "reviewTasksPerForm": 14,
+        "distinctVocabularyTerms": 7,
+        "practiceForms": 3,
+        "sourceStatus": "both teacher review pages visually verified; original practice questions; exact graded quiz unverified"
+      }
     },
     "SCI": {
       "status": "recovered-classroom-ecology-release",
@@ -53,7 +61,7 @@
   },
   "blockingSources": [
     "Verify underlying content still unavailable from previously opened Schoology assessment landing pages and publisher wrappers. Keep opened, read and tested statuses separate.",
-    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the exact ELA spiral and wider math quiz scope.",
+    "Reconcile assignment changes after the fully reviewed November 6 newsletter, including the exact ELA spiral prompts, graded Math quiz scope, and ambiguous Week 13 dates.",
     "Read remaining assigned textbook pages and linked media; confirm current editions and Tennessee alignment.",
     "Complete figure verification and source-to-stage reconciliation for the three recovered Tennessee STEMscopedia readings. The 33 StudyMate terms and recovered teacher packets are already reconciled for the focused Science release.",
     "Verify Theater playback and recover any posted assessment directions or rubric."

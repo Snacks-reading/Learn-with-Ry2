@@ -4270,18 +4270,54 @@
   ],
   "weeklyPriorities": [
     {
+      "subject": "MATH",
+      "date": "2026-11-09",
+      "title": "Expressions Vocabulary Review",
+      "detail": "The assignment listing shows Monday at 11:59 p.m. Central. The course announcement says Friday. Follow the earlier posted deadline.",
+      "status": "teacher-posted",
+      "timeLabel": "11:59 p.m. Central",
+      "href": "https://wcschools.schoology.com/course/8432932288/assessments/8642069366"
+    },
+    {
       "subject": "SCI",
       "date": "2026-11-10",
       "title": "Ecology vocabulary quiz",
-      "detail": "All 33 displayed StudyMate terms are included. The November 6 newsletter estimates 33–34. Exact STEMscopes publisher pages are still under review.",
-      "status": "teacher-glossary-verified; publisher-readings-pending"
+      "detail": "Review all 33 displayed StudyMate terms. November 10 is from the November 6 newsletter. The Week 13 folder contains older labels and a conflicting notice for the separate Ecology Test.",
+      "status": "newsletter-date; Ecology Test date unconfirmed",
+      "href": "curriculum-2026-11/ecology/index.html"
     },
     {
       "subject": "MATH",
+      "date": "2026-11-11",
+      "title": "Expressions Pumpkin",
+      "detail": "Wednesday in the Week 13 announcement.",
+      "status": "teacher-posted",
+      "href": "https://wcschools.schoology.com/course/8432932288/materials?f=1052743541"
+    },
+    {
+      "subject": "SS",
+      "date": "2026-11-11",
+      "title": "Hieroglyphic Writing Assignment",
+      "detail": "Check the assigned directions and cartouche chart.",
+      "status": "schoology-calendar",
+      "href": "https://wcschools.schoology.com/event/8639499595/profile"
+    },
+    {
+      "subject": "SS",
+      "date": "2026-11-12",
+      "title": "Ancient Egypt Flocabulary",
+      "detail": "Use the assigned activity in Schoology.",
+      "status": "schoology-calendar",
+      "href": "https://wcschools.schoology.com/event/8639500113/profile"
+    },
+    {
+      "subject": "ELA",
       "date": "2026-11-13",
-      "title": "Expressions quiz",
-      "detail": "All expressions work so far, with term, expression, like terms, coefficient, constant and variable emphasized. A Big 8 pop quiz is also expected during the week.",
-      "status": "vocabulary-lesson-ready; full-quiz-scope-pending"
+      "title": "Spiral Review (November 9–13)",
+      "detail": "Schoology lists a Friday 8:00 a.m. Central deadline. Follow the instructions inside the assigned spiral.",
+      "status": "deadline verified; exact prompts unverified",
+      "timeLabel": "8:00 a.m. Central",
+      "href": "https://wcschools.schoology.com/assignment/8633178744"
     },
     {
       "subject": "ELA",
@@ -4291,18 +4327,36 @@
       "status": "writing-skills-lesson-ready"
     },
     {
-      "subject": "ELA",
+      "subject": "MATH",
       "date": "2026-11-13",
-      "title": "Weekly spiral",
-      "detail": "Assigned Monday and due Friday, two attempts allowed, including a written component. Exact spiral prompts remain to be recovered.",
-      "status": "assignment-content-pending"
+      "title": "Expressions quiz and practice",
+      "detail": "Use the teacher’s two-page review and three original forms. The review is worth five bonus points. The graded quiz questions are unverified.",
+      "status": "teacher-posted",
+      "href": "#unit/EXPR"
+    },
+    {
+      "subject": "MATH",
+      "date": "2026-11-13",
+      "title": "Computation 13, Lesson 5-3 Practice and expressions mystery",
+      "detail": "Listed for Friday in the Week 13 announcement. Check the folder for source links and the teacher’s instructions.",
+      "status": "teacher-posted",
+      "href": "https://wcschools.schoology.com/course/8432932288/materials?f=1052743541"
     },
     {
       "subject": "SS",
       "date": "2026-11-13",
       "title": "Ancient Egypt unit test",
-      "detail": "Newsletter confirms the November 5 quiz covered social, political and religious structures. The November 13 test wraps up the whole Egypt unit.",
-      "status": "private-forms-ready; exact-teacher-test-scope-pending"
+      "detail": "Schoology confirms Friday. The practice forms cover the verified Egypt material; use the teacher’s directions for the test.",
+      "status": "date verified; exact test scope unverified",
+      "href": "#unit/SS"
+    },
+    {
+      "subject": "SS",
+      "date": "2026-11-13",
+      "title": "Ancient Egypt Unit Notebook Check",
+      "detail": "Gather your Egypt notebook work and check the teacher’s directions.",
+      "status": "schoology-calendar",
+      "href": "https://wcschools.schoology.com/event/8639501284/profile"
     }
   ],
   "schoolNotices": [

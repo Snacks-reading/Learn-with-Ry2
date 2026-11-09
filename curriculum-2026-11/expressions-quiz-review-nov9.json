@@ -1,0 +1,1725 @@
+{
+  "id": "expressions-review-2026-11-09-v1",
+  "scope": "Original practice based on both pages of the teacher’s November 2026 Expressions Quiz Review. Each form covers the seven distinct vocabulary words and all 14 review task types.",
+  "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8642069407",
+  "teach": [
+    "An expression is a mathematical phrase. A variable stands for a number. A factor is multiplied, and the coefficient is the numerical factor multiplying a variable. In 6x + 4, 6 is the coefficient, x is the variable, and 6x and 4 are the two terms.",
+    "Count terms separated by addition or subtraction at the outermost level. A multiplication, division or power within a term does not split it. In 20 − 2² × 3 + 5, the three terms are 20, −2² × 3, and 5.",
+    "In a power, the base is the repeated factor and the exponent tells how often to use it. In (2/3)³, the whole fraction is the base. Multiply the numerator three times and the denominator three times to get 8/27. Likewise 0.2³ = 0.008.",
+    "Substitute the given value wherever its variable appears. For an equilateral triangle, perimeter is three times one side. A triangle’s area is half the product of its base and height. Label perimeter with length units and area with square units.",
+    "Calculate inside grouping symbols first. Evaluate powers, then multiply and divide from left to right, then add and subtract from left to right. To divide by a fraction, multiply by its reciprocal. To subtract fractions, rename them using a common denominator.",
+    "Use least common multiple for the first time repeating events coincide. Use greatest common factor for the largest number of identical groups without leftovers. Divide each total by the group count to find how many go in each group."
+  ],
+  "model": {
+    "prompt": "A sign has a triangular section 10 cm across its base and 0.8 cm high. What is the area?",
+    "reasoning": "Substitute into one-half times base times height. Multiply 10 × 0.8 = 8, then take half.",
+    "answer": "The area is 4 square centimeters."
+  },
+  "practice": [
+    {
+      "skill": "vocab-term",
+      "prompt": "Which is the first term in 6y + 8?",
+      "options": [
+        "6y",
+        "6",
+        "y",
+        "6y + 8"
+      ],
+      "answer": 0,
+      "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+      "id": "expressions-nov9-A-vocab-term",
+      "repair": {
+        "skill": "vocab-term",
+        "prompt": "Which is the first term in 2x + 7?",
+        "options": [
+          "2x",
+          "2",
+          "x",
+          "2x + 7"
+        ],
+        "answer": 0,
+        "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+        "id": "expressions-nov9-repair-vocab-term",
+        "teach": "A part of an expression separated from other parts by addition or subtraction at the outermost level."
+      }
+    },
+    {
+      "skill": "vocab-factor",
+      "prompt": "Which number is a factor in 5 × t?",
+      "options": [
+        "5",
+        "t",
+        "8",
+        "6"
+      ],
+      "answer": 0,
+      "rationale": "A number or expression being multiplied.",
+      "id": "expressions-nov9-A-vocab-factor",
+      "repair": {
+        "skill": "vocab-factor",
+        "prompt": "Which number is a factor in 4 × m?",
+        "options": [
+          "4",
+          "m",
+          "7",
+          "5"
+        ],
+        "answer": 0,
+        "rationale": "A number or expression being multiplied.",
+        "id": "expressions-nov9-repair-vocab-factor",
+        "teach": "A number or expression being multiplied."
+      }
+    },
+    {
+      "skill": "vocab-expression",
+      "prompt": "Which option is an expression equivalent to 4x + 1?",
+      "options": [
+        "4x + 1",
+        "4x + 1 = 0",
+        "x = 2",
+        "8 > 3"
+      ],
+      "answer": 0,
+      "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+      "id": "expressions-nov9-A-vocab-expression",
+      "repair": {
+        "skill": "vocab-expression",
+        "prompt": "Which option is an expression equivalent to 5y + 8?",
+        "options": [
+          "5y + 8",
+          "5y + 8 = 0",
+          "x = 2",
+          "8 > 3"
+        ],
+        "answer": 0,
+        "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+        "id": "expressions-nov9-repair-vocab-expression",
+        "teach": "A mathematical phrase made of numbers, variables, or operations."
+      }
+    },
+    {
+      "skill": "vocab-coefficient",
+      "prompt": "What is the coefficient in 7k?",
+      "options": [
+        "7",
+        "k",
+        "10",
+        "8"
+      ],
+      "answer": 0,
+      "rationale": "The numerical factor multiplying a variable.",
+      "id": "expressions-nov9-A-vocab-coefficient",
+      "repair": {
+        "skill": "vocab-coefficient",
+        "prompt": "What is the coefficient in 12n?",
+        "options": [
+          "12",
+          "n",
+          "15",
+          "13"
+        ],
+        "answer": 0,
+        "rationale": "The numerical factor multiplying a variable.",
+        "id": "expressions-nov9-repair-vocab-coefficient",
+        "teach": "The numerical factor multiplying a variable."
+      }
+    },
+    {
+      "skill": "vocab-variable",
+      "prompt": "Which symbol is the variable in p + 5?",
+      "options": [
+        "p",
+        "5",
+        "+",
+        "0"
+      ],
+      "answer": 0,
+      "rationale": "A symbol that stands for a number.",
+      "id": "expressions-nov9-A-vocab-variable",
+      "repair": {
+        "skill": "vocab-variable",
+        "prompt": "Which symbol is the variable in g + 9?",
+        "options": [
+          "g",
+          "9",
+          "+",
+          "0"
+        ],
+        "answer": 0,
+        "rationale": "A symbol that stands for a number.",
+        "id": "expressions-nov9-repair-vocab-variable",
+        "teach": "A symbol that stands for a number."
+      }
+    },
+    {
+      "skill": "vocab-base",
+      "prompt": "What is the base in 9²?",
+      "options": [
+        "9",
+        "0",
+        "1",
+        "12"
+      ],
+      "answer": 0,
+      "rationale": "The number or quantity used as the repeated factor in a power.",
+      "id": "expressions-nov9-A-vocab-base",
+      "repair": {
+        "skill": "vocab-base",
+        "prompt": "What is the base in 2⁵?",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "12"
+        ],
+        "answer": 0,
+        "rationale": "The number or quantity used as the repeated factor in a power.",
+        "id": "expressions-nov9-repair-vocab-base",
+        "teach": "The number or quantity used as the repeated factor in a power."
+      }
+    },
+    {
+      "skill": "vocab-exponent",
+      "prompt": "What is the exponent in 4³?",
+      "options": [
+        "3",
+        "4",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+      "id": "expressions-nov9-A-vocab-exponent",
+      "repair": {
+        "skill": "vocab-exponent",
+        "prompt": "What is the exponent in 3⁴?",
+        "options": [
+          "4",
+          "3",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+        "id": "expressions-nov9-repair-vocab-exponent",
+        "teach": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent."
+      }
+    },
+    {
+      "skill": "review-1",
+      "prompt": "How many terms are in 60 − 2² × 4 + 8 + 1 as written?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-A-review-1",
+      "repair": {
+        "skill": "review-1",
+        "prompt": "How many terms are in 81 − 5² × 4 + 8 + 1 as written?",
+        "options": [
+          "4",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0,
+        "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-1",
+        "teach": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-2",
+      "prompt": "How many terms are in y² − 4 as written?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-A-review-2",
+      "repair": {
+        "skill": "review-2",
+        "prompt": "How many terms are in y² − 7 as written?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-2",
+        "teach": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-3",
+      "prompt": "How many terms are in 8b² + 10b + 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-A-review-3",
+      "repair": {
+        "skill": "review-3",
+        "prompt": "How many terms are in 11b² + 13b + 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-3",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-4",
+      "prompt": "How many terms are in 18m ÷ 3 + 5m − 4 × 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-A-review-4",
+      "repair": {
+        "skill": "review-4",
+        "prompt": "How many terms are in 36m ÷ 3 + 5m − 4 × 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-4",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-5",
+      "prompt": "An equilateral triangle has side length 1.4 cm. What is its perimeter in centimeters?",
+      "options": [
+        "4.2",
+        "1.4",
+        "2.8",
+        "5.2"
+      ],
+      "answer": 0,
+      "rationale": "All three sides have length 1.4. Multiply by 3 to get 4.2 cm.",
+      "id": "expressions-nov9-A-review-5",
+      "repair": {
+        "skill": "review-5",
+        "prompt": "An equilateral triangle has side length 2.4 cm. What is its perimeter in centimeters?",
+        "options": [
+          "7.2",
+          "2.4",
+          "4.8",
+          "8.2"
+        ],
+        "answer": 0,
+        "rationale": "All three sides have length 2.4. Multiply by 3 to get 7.2 cm.",
+        "id": "expressions-nov9-repair-review-5",
+        "teach": "All three sides have length 1.4. Multiply by 3 to get 4.2 cm."
+      }
+    },
+    {
+      "skill": "review-6",
+      "prompt": "A triangle has base 12 cm and height 0.4 cm. What is its area in square centimeters?",
+      "options": [
+        "2.4",
+        "4.8",
+        "1.2",
+        "12.4"
+      ],
+      "answer": 0,
+      "rationale": "Area is one-half times base times height: 12 × 0.4 ÷ 2 = 2.4.",
+      "id": "expressions-nov9-A-review-6",
+      "repair": {
+        "skill": "review-6",
+        "prompt": "A triangle has base 20 cm and height 0.7 cm. What is its area in square centimeters?",
+        "options": [
+          "7.0",
+          "14.0",
+          "3.5",
+          "20.7"
+        ],
+        "answer": 0,
+        "rationale": "Area is one-half times base times height: 20 × 0.7 ÷ 2 = 7.0.",
+        "id": "expressions-nov9-repair-review-6",
+        "teach": "Area is one-half times base times height: 12 × 0.4 ÷ 2 = 2.4."
+      }
+    },
+    {
+      "skill": "review-7",
+      "prompt": "Evaluate 27 ÷ (3² ÷ 2/3) + 2.5.",
+      "options": [
+        "4.5",
+        "6.5",
+        "3.5",
+        "13.5"
+      ],
+      "answer": 0,
+      "rationale": "3² ÷ 2/3 = 9 × 3/2 = 13.5. Then 27 ÷ 13.5 = 2, and 2 + 2.5 = 4.5.",
+      "id": "expressions-nov9-A-review-7",
+      "repair": {
+        "skill": "review-7",
+        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "options": [
+          "5.5",
+          "7.5",
+          "4.5",
+          "16.5"
+        ],
+        "answer": 0,
+        "rationale": "6² ÷ 2/3 = 36 × 3/2 = 54. Then 108 ÷ 54 = 2, and 2 + 3.5 = 5.5.",
+        "id": "expressions-nov9-repair-review-7",
+        "teach": "3² ÷ 2/3 = 9 × 3/2 = 13.5. Then 27 ÷ 13.5 = 2, and 2 + 2.5 = 4.5."
+      }
+    },
+    {
+      "skill": "review-8",
+      "prompt": "Evaluate 9 + (2³ ÷ 2) × 3 − 7.",
+      "options": [
+        "14",
+        "21",
+        "5",
+        "18"
+      ],
+      "answer": 0,
+      "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 14.",
+      "id": "expressions-nov9-A-review-8",
+      "repair": {
+        "skill": "review-8",
+        "prompt": "Evaluate 9 + (8³ ÷ 2) × 3 − 7.",
+        "options": [
+          "770",
+          "777",
+          "761",
+          "774"
+        ],
+        "answer": 0,
+        "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 770.",
+        "id": "expressions-nov9-repair-review-8",
+        "teach": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 14."
+      }
+    },
+    {
+      "skill": "review-9",
+      "prompt": "Evaluate 0.2³.",
+      "options": [
+        "0.008",
+        "0.6",
+        "0.04",
+        "0.08"
+      ],
+      "answer": 0,
+      "rationale": "Use 0.2 as a factor three times. The product is 0.008.",
+      "id": "expressions-nov9-A-review-9",
+      "repair": {
+        "skill": "review-9",
+        "prompt": "Evaluate 0.5³.",
+        "options": [
+          "0.125",
+          "1.5",
+          "0.25",
+          "1.25"
+        ],
+        "answer": 0,
+        "rationale": "Use 0.5 as a factor three times. The product is 0.125.",
+        "id": "expressions-nov9-repair-review-9",
+        "teach": "Use 0.2 as a factor three times. The product is 0.008."
+      }
+    },
+    {
+      "skill": "review-10",
+      "prompt": "Evaluate (2/3)⁴.",
+      "options": [
+        "16/81",
+        "4/9",
+        "16/3",
+        "2/81"
+      ],
+      "answer": 0,
+      "rationale": "Use the whole fraction as a factor four times: 2⁴/3⁴ = 16/81.",
+      "id": "expressions-nov9-A-review-10",
+      "repair": {
+        "skill": "review-10",
+        "prompt": "Evaluate (2/7)⁴.",
+        "options": [
+          "16/2401",
+          "4/49",
+          "16/7",
+          "2/2401"
+        ],
+        "answer": 0,
+        "rationale": "Use the whole fraction as a factor four times: 2⁴/7⁴ = 16/2401.",
+        "id": "expressions-nov9-repair-review-10",
+        "teach": "Use the whole fraction as a factor four times: 2⁴/3⁴ = 16/81."
+      }
+    },
+    {
+      "skill": "review-11",
+      "prompt": "Evaluate z² when z = 1.5.",
+      "options": [
+        "2.25",
+        "3.0",
+        "3.5",
+        "22.5"
+      ],
+      "answer": 0,
+      "rationale": "Substitute 1.5 for z. Square it by multiplying 1.5 × 1.5 = 2.25.",
+      "id": "expressions-nov9-A-review-11",
+      "repair": {
+        "skill": "review-11",
+        "prompt": "Evaluate z² when z = 1.8.",
+        "options": [
+          "3.24",
+          "3.6",
+          "3.8",
+          "32.4"
+        ],
+        "answer": 0,
+        "rationale": "Substitute 1.8 for z. Square it by multiplying 1.8 × 1.8 = 3.24.",
+        "id": "expressions-nov9-repair-review-11",
+        "teach": "Substitute 1.5 for z. Square it by multiplying 1.5 × 1.5 = 2.25."
+      }
+    },
+    {
+      "skill": "review-12",
+      "prompt": "Evaluate b − a when b = 7/8 and a = 3/5.",
+      "options": [
+        "11/40",
+        "59/40",
+        "-11/40",
+        "4/13"
+      ],
+      "answer": 0,
+      "rationale": "Rename both fractions with common denominator 40, then subtract their numerators. The difference is 11/40.",
+      "id": "expressions-nov9-A-review-12",
+      "repair": {
+        "skill": "review-12",
+        "prompt": "Evaluate b − a when b = 9/10 and a = 2/7.",
+        "options": [
+          "43/70",
+          "83/70",
+          "-43/70",
+          "7/17"
+        ],
+        "answer": 0,
+        "rationale": "Rename both fractions with common denominator 70, then subtract their numerators. The difference is 43/70.",
+        "id": "expressions-nov9-repair-review-12",
+        "teach": "Rename both fractions with common denominator 40, then subtract their numerators. The difference is 11/40."
+      }
+    },
+    {
+      "skill": "review-13",
+      "prompt": "Two lights flash together. One flashes every 8 seconds and the other every 12 seconds. When do they next flash together?",
+      "options": [
+        "24",
+        "20",
+        "96",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 24 seconds.",
+      "id": "expressions-nov9-A-review-13",
+      "repair": {
+        "skill": "review-13",
+        "prompt": "Two lights flash together. One flashes every 12 seconds and the other every 18 seconds. When do they next flash together?",
+        "options": [
+          "36",
+          "30",
+          "216",
+          "6"
+        ],
+        "answer": 0,
+        "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 36 seconds.",
+        "id": "expressions-nov9-repair-review-13",
+        "teach": "The time must be a multiple of both periods. Their least positive common multiple is 24 seconds."
+      }
+    },
+    {
+      "skill": "review-14",
+      "prompt": "Arrange 36 red beads and 60 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+      "options": [
+        "12 rows, 3 red and 5 blue per row",
+        "1 rows, 36 red and 60 blue per row",
+        "6 rows, 6 red and 10 blue per row",
+        "12 rows, 5 red and 3 blue per row"
+      ],
+      "answer": 0,
+      "rationale": "The greatest common factor is 12. Divide each color total by 12: 3 red and 5 blue per row.",
+      "id": "expressions-nov9-A-review-14",
+      "repair": {
+        "skill": "review-14",
+        "prompt": "Arrange 42 red beads and 70 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+        "options": [
+          "14 rows, 3 red and 5 blue per row",
+          "1 rows, 42 red and 70 blue per row",
+          "7 rows, 6 red and 10 blue per row",
+          "14 rows, 5 red and 3 blue per row"
+        ],
+        "answer": 0,
+        "rationale": "The greatest common factor is 14. Divide each color total by 14: 3 red and 5 blue per row.",
+        "id": "expressions-nov9-repair-review-14",
+        "teach": "The greatest common factor is 12. Divide each color total by 12: 3 red and 5 blue per row."
+      }
+    }
+  ],
+  "independentCheck": [
+    {
+      "skill": "vocab-term",
+      "prompt": "Which is the first term in 3m − 5?",
+      "options": [
+        "3m",
+        "3",
+        "m",
+        "3m − 5"
+      ],
+      "answer": 0,
+      "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+      "id": "expressions-nov9-B-vocab-term",
+      "repair": {
+        "skill": "vocab-term",
+        "prompt": "Which is the first term in 2x + 7?",
+        "options": [
+          "2x",
+          "2",
+          "x",
+          "2x + 7"
+        ],
+        "answer": 0,
+        "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+        "id": "expressions-nov9-repair-vocab-term",
+        "teach": "A part of an expression separated from other parts by addition or subtraction at the outermost level."
+      }
+    },
+    {
+      "skill": "vocab-factor",
+      "prompt": "Which number is a factor in 8 × q?",
+      "options": [
+        "8",
+        "q",
+        "11",
+        "9"
+      ],
+      "answer": 0,
+      "rationale": "A number or expression being multiplied.",
+      "id": "expressions-nov9-B-vocab-factor",
+      "repair": {
+        "skill": "vocab-factor",
+        "prompt": "Which number is a factor in 4 × m?",
+        "options": [
+          "4",
+          "m",
+          "7",
+          "5"
+        ],
+        "answer": 0,
+        "rationale": "A number or expression being multiplied.",
+        "id": "expressions-nov9-repair-vocab-factor",
+        "teach": "A number or expression being multiplied."
+      }
+    },
+    {
+      "skill": "vocab-expression",
+      "prompt": "Which option is an expression equivalent to 6z − 7?",
+      "options": [
+        "6z − 7",
+        "6z − 7 = 0",
+        "x = 2",
+        "8 > 3"
+      ],
+      "answer": 0,
+      "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+      "id": "expressions-nov9-B-vocab-expression",
+      "repair": {
+        "skill": "vocab-expression",
+        "prompt": "Which option is an expression equivalent to 5y + 8?",
+        "options": [
+          "5y + 8",
+          "5y + 8 = 0",
+          "x = 2",
+          "8 > 3"
+        ],
+        "answer": 0,
+        "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+        "id": "expressions-nov9-repair-vocab-expression",
+        "teach": "A mathematical phrase made of numbers, variables, or operations."
+      }
+    },
+    {
+      "skill": "vocab-coefficient",
+      "prompt": "What is the coefficient in 2w?",
+      "options": [
+        "2",
+        "w",
+        "5",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "The numerical factor multiplying a variable.",
+      "id": "expressions-nov9-B-vocab-coefficient",
+      "repair": {
+        "skill": "vocab-coefficient",
+        "prompt": "What is the coefficient in 12n?",
+        "options": [
+          "12",
+          "n",
+          "15",
+          "13"
+        ],
+        "answer": 0,
+        "rationale": "The numerical factor multiplying a variable.",
+        "id": "expressions-nov9-repair-vocab-coefficient",
+        "teach": "The numerical factor multiplying a variable."
+      }
+    },
+    {
+      "skill": "vocab-variable",
+      "prompt": "Which symbol is the variable in n − 4?",
+      "options": [
+        "n",
+        "4",
+        "+",
+        "0"
+      ],
+      "answer": 0,
+      "rationale": "A symbol that stands for a number.",
+      "id": "expressions-nov9-B-vocab-variable",
+      "repair": {
+        "skill": "vocab-variable",
+        "prompt": "Which symbol is the variable in g + 9?",
+        "options": [
+          "g",
+          "9",
+          "+",
+          "0"
+        ],
+        "answer": 0,
+        "rationale": "A symbol that stands for a number.",
+        "id": "expressions-nov9-repair-vocab-variable",
+        "teach": "A symbol that stands for a number."
+      }
+    },
+    {
+      "skill": "vocab-base",
+      "prompt": "What is the base in 6³?",
+      "options": [
+        "6",
+        "0",
+        "1",
+        "12"
+      ],
+      "answer": 0,
+      "rationale": "The number or quantity used as the repeated factor in a power.",
+      "id": "expressions-nov9-B-vocab-base",
+      "repair": {
+        "skill": "vocab-base",
+        "prompt": "What is the base in 2⁵?",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "12"
+        ],
+        "answer": 0,
+        "rationale": "The number or quantity used as the repeated factor in a power.",
+        "id": "expressions-nov9-repair-vocab-base",
+        "teach": "The number or quantity used as the repeated factor in a power."
+      }
+    },
+    {
+      "skill": "vocab-exponent",
+      "prompt": "What is the exponent in 7²?",
+      "options": [
+        "2",
+        "7",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+      "id": "expressions-nov9-B-vocab-exponent",
+      "repair": {
+        "skill": "vocab-exponent",
+        "prompt": "What is the exponent in 3⁴?",
+        "options": [
+          "4",
+          "3",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+        "id": "expressions-nov9-repair-vocab-exponent",
+        "teach": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent."
+      }
+    },
+    {
+      "skill": "review-1",
+      "prompt": "How many terms are in 67 − 3² × 4 + 8 + 1 as written?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-B-review-1",
+      "repair": {
+        "skill": "review-1",
+        "prompt": "How many terms are in 81 − 5² × 4 + 8 + 1 as written?",
+        "options": [
+          "4",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0,
+        "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-1",
+        "teach": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-2",
+      "prompt": "How many terms are in y² − 5 as written?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-B-review-2",
+      "repair": {
+        "skill": "review-2",
+        "prompt": "How many terms are in y² − 7 as written?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-2",
+        "teach": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-3",
+      "prompt": "How many terms are in 9b² + 11b + 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-B-review-3",
+      "repair": {
+        "skill": "review-3",
+        "prompt": "How many terms are in 11b² + 13b + 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-3",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-4",
+      "prompt": "How many terms are in 24m ÷ 3 + 5m − 4 × 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-B-review-4",
+      "repair": {
+        "skill": "review-4",
+        "prompt": "How many terms are in 36m ÷ 3 + 5m − 4 × 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-4",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-5",
+      "prompt": "An equilateral triangle has side length 1.6 cm. What is its perimeter in centimeters?",
+      "options": [
+        "4.8",
+        "1.6",
+        "3.2",
+        "5.8"
+      ],
+      "answer": 0,
+      "rationale": "All three sides have length 1.6. Multiply by 3 to get 4.8 cm.",
+      "id": "expressions-nov9-B-review-5",
+      "repair": {
+        "skill": "review-5",
+        "prompt": "An equilateral triangle has side length 2.4 cm. What is its perimeter in centimeters?",
+        "options": [
+          "7.2",
+          "2.4",
+          "4.8",
+          "8.2"
+        ],
+        "answer": 0,
+        "rationale": "All three sides have length 2.4. Multiply by 3 to get 7.2 cm.",
+        "id": "expressions-nov9-repair-review-5",
+        "teach": "All three sides have length 1.6. Multiply by 3 to get 4.8 cm."
+      }
+    },
+    {
+      "skill": "review-6",
+      "prompt": "A triangle has base 18 cm and height 0.6 cm. What is its area in square centimeters?",
+      "options": [
+        "5.4",
+        "10.8",
+        "2.7",
+        "18.6"
+      ],
+      "answer": 0,
+      "rationale": "Area is one-half times base times height: 18 × 0.6 ÷ 2 = 5.4.",
+      "id": "expressions-nov9-B-review-6",
+      "repair": {
+        "skill": "review-6",
+        "prompt": "A triangle has base 20 cm and height 0.7 cm. What is its area in square centimeters?",
+        "options": [
+          "7.0",
+          "14.0",
+          "3.5",
+          "20.7"
+        ],
+        "answer": 0,
+        "rationale": "Area is one-half times base times height: 20 × 0.7 ÷ 2 = 7.0.",
+        "id": "expressions-nov9-repair-review-6",
+        "teach": "Area is one-half times base times height: 18 × 0.6 ÷ 2 = 5.4."
+      }
+    },
+    {
+      "skill": "review-7",
+      "prompt": "Evaluate 48 ÷ (4² ÷ 2/3) + 1.75.",
+      "options": [
+        "3.75",
+        "5.75",
+        "2.75",
+        "11.25"
+      ],
+      "answer": 0,
+      "rationale": "4² ÷ 2/3 = 16 × 3/2 = 24. Then 48 ÷ 24 = 2, and 2 + 1.75 = 3.75.",
+      "id": "expressions-nov9-B-review-7",
+      "repair": {
+        "skill": "review-7",
+        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "options": [
+          "5.5",
+          "7.5",
+          "4.5",
+          "16.5"
+        ],
+        "answer": 0,
+        "rationale": "6² ÷ 2/3 = 36 × 3/2 = 54. Then 108 ÷ 54 = 2, and 2 + 3.5 = 5.5.",
+        "id": "expressions-nov9-repair-review-7",
+        "teach": "4² ÷ 2/3 = 16 × 3/2 = 24. Then 48 ÷ 24 = 2, and 2 + 1.75 = 3.75."
+      }
+    },
+    {
+      "skill": "review-8",
+      "prompt": "Evaluate 9 + (4³ ÷ 2) × 3 − 7.",
+      "options": [
+        "98",
+        "105",
+        "89",
+        "102"
+      ],
+      "answer": 0,
+      "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 98.",
+      "id": "expressions-nov9-B-review-8",
+      "repair": {
+        "skill": "review-8",
+        "prompt": "Evaluate 9 + (8³ ÷ 2) × 3 − 7.",
+        "options": [
+          "770",
+          "777",
+          "761",
+          "774"
+        ],
+        "answer": 0,
+        "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 770.",
+        "id": "expressions-nov9-repair-review-8",
+        "teach": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 98."
+      }
+    },
+    {
+      "skill": "review-9",
+      "prompt": "Evaluate 0.3³.",
+      "options": [
+        "0.027",
+        "0.9",
+        "0.09",
+        "0.27"
+      ],
+      "answer": 0,
+      "rationale": "Use 0.3 as a factor three times. The product is 0.027.",
+      "id": "expressions-nov9-B-review-9",
+      "repair": {
+        "skill": "review-9",
+        "prompt": "Evaluate 0.5³.",
+        "options": [
+          "0.125",
+          "1.5",
+          "0.25",
+          "1.25"
+        ],
+        "answer": 0,
+        "rationale": "Use 0.5 as a factor three times. The product is 0.125.",
+        "id": "expressions-nov9-repair-review-9",
+        "teach": "Use 0.3 as a factor three times. The product is 0.027."
+      }
+    },
+    {
+      "skill": "review-10",
+      "prompt": "Evaluate (3/4)⁴.",
+      "options": [
+        "81/256",
+        "9/16",
+        "81/4",
+        "3/256"
+      ],
+      "answer": 0,
+      "rationale": "Use the whole fraction as a factor four times: 3⁴/4⁴ = 81/256.",
+      "id": "expressions-nov9-B-review-10",
+      "repair": {
+        "skill": "review-10",
+        "prompt": "Evaluate (2/7)⁴.",
+        "options": [
+          "16/2401",
+          "4/49",
+          "16/7",
+          "2/2401"
+        ],
+        "answer": 0,
+        "rationale": "Use the whole fraction as a factor four times: 2⁴/7⁴ = 16/2401.",
+        "id": "expressions-nov9-repair-review-10",
+        "teach": "Use the whole fraction as a factor four times: 3⁴/4⁴ = 81/256."
+      }
+    },
+    {
+      "skill": "review-11",
+      "prompt": "Evaluate z² when z = 2.2.",
+      "options": [
+        "4.84",
+        "4.4",
+        "4.2",
+        "48.4"
+      ],
+      "answer": 0,
+      "rationale": "Substitute 2.2 for z. Square it by multiplying 2.2 × 2.2 = 4.84.",
+      "id": "expressions-nov9-B-review-11",
+      "repair": {
+        "skill": "review-11",
+        "prompt": "Evaluate z² when z = 1.8.",
+        "options": [
+          "3.24",
+          "3.6",
+          "3.8",
+          "32.4"
+        ],
+        "answer": 0,
+        "rationale": "Substitute 1.8 for z. Square it by multiplying 1.8 × 1.8 = 3.24.",
+        "id": "expressions-nov9-repair-review-11",
+        "teach": "Substitute 2.2 for z. Square it by multiplying 2.2 × 2.2 = 4.84."
+      }
+    },
+    {
+      "skill": "review-12",
+      "prompt": "Evaluate b − a when b = 5/6 and a = 1/4.",
+      "options": [
+        "7/12",
+        "13/12",
+        "-7/12",
+        "2/5"
+      ],
+      "answer": 0,
+      "rationale": "Rename both fractions with common denominator 12, then subtract their numerators. The difference is 7/12.",
+      "id": "expressions-nov9-B-review-12",
+      "repair": {
+        "skill": "review-12",
+        "prompt": "Evaluate b − a when b = 9/10 and a = 2/7.",
+        "options": [
+          "43/70",
+          "83/70",
+          "-43/70",
+          "7/17"
+        ],
+        "answer": 0,
+        "rationale": "Rename both fractions with common denominator 70, then subtract their numerators. The difference is 43/70.",
+        "id": "expressions-nov9-repair-review-12",
+        "teach": "Rename both fractions with common denominator 12, then subtract their numerators. The difference is 7/12."
+      }
+    },
+    {
+      "skill": "review-13",
+      "prompt": "Two lights flash together. One flashes every 10 seconds and the other every 14 seconds. When do they next flash together?",
+      "options": [
+        "70",
+        "24",
+        "140",
+        "2"
+      ],
+      "answer": 0,
+      "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 70 seconds.",
+      "id": "expressions-nov9-B-review-13",
+      "repair": {
+        "skill": "review-13",
+        "prompt": "Two lights flash together. One flashes every 12 seconds and the other every 18 seconds. When do they next flash together?",
+        "options": [
+          "36",
+          "30",
+          "216",
+          "6"
+        ],
+        "answer": 0,
+        "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 36 seconds.",
+        "id": "expressions-nov9-repair-review-13",
+        "teach": "The time must be a multiple of both periods. Their least positive common multiple is 70 seconds."
+      }
+    },
+    {
+      "skill": "review-14",
+      "prompt": "Arrange 45 red beads and 75 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+      "options": [
+        "15 rows, 3 red and 5 blue per row",
+        "1 rows, 45 red and 75 blue per row",
+        "5 rows, 9 red and 15 blue per row",
+        "15 rows, 5 red and 3 blue per row"
+      ],
+      "answer": 0,
+      "rationale": "The greatest common factor is 15. Divide each color total by 15: 3 red and 5 blue per row.",
+      "id": "expressions-nov9-B-review-14",
+      "repair": {
+        "skill": "review-14",
+        "prompt": "Arrange 42 red beads and 70 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+        "options": [
+          "14 rows, 3 red and 5 blue per row",
+          "1 rows, 42 red and 70 blue per row",
+          "7 rows, 6 red and 10 blue per row",
+          "14 rows, 5 red and 3 blue per row"
+        ],
+        "answer": 0,
+        "rationale": "The greatest common factor is 14. Divide each color total by 14: 3 red and 5 blue per row.",
+        "id": "expressions-nov9-repair-review-14",
+        "teach": "The greatest common factor is 15. Divide each color total by 15: 3 red and 5 blue per row."
+      }
+    }
+  ],
+  "masteryCheck": [
+    {
+      "skill": "vocab-term",
+      "prompt": "Which is the first term in 9b + 3?",
+      "options": [
+        "9b",
+        "9",
+        "b",
+        "9b + 3"
+      ],
+      "answer": 0,
+      "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+      "id": "expressions-nov9-C-vocab-term",
+      "repair": {
+        "skill": "vocab-term",
+        "prompt": "Which is the first term in 2x + 7?",
+        "options": [
+          "2x",
+          "2",
+          "x",
+          "2x + 7"
+        ],
+        "answer": 0,
+        "rationale": "A part of an expression separated from other parts by addition or subtraction at the outermost level.",
+        "id": "expressions-nov9-repair-vocab-term",
+        "teach": "A part of an expression separated from other parts by addition or subtraction at the outermost level."
+      }
+    },
+    {
+      "skill": "vocab-factor",
+      "prompt": "Which number is a factor in 2 × r?",
+      "options": [
+        "2",
+        "r",
+        "5",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "A number or expression being multiplied.",
+      "id": "expressions-nov9-C-vocab-factor",
+      "repair": {
+        "skill": "vocab-factor",
+        "prompt": "Which number is a factor in 4 × m?",
+        "options": [
+          "4",
+          "m",
+          "7",
+          "5"
+        ],
+        "answer": 0,
+        "rationale": "A number or expression being multiplied.",
+        "id": "expressions-nov9-repair-vocab-factor",
+        "teach": "A number or expression being multiplied."
+      }
+    },
+    {
+      "skill": "vocab-expression",
+      "prompt": "Which option is an expression equivalent to 8m + 2?",
+      "options": [
+        "8m + 2",
+        "8m + 2 = 0",
+        "x = 2",
+        "8 > 3"
+      ],
+      "answer": 0,
+      "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+      "id": "expressions-nov9-C-vocab-expression",
+      "repair": {
+        "skill": "vocab-expression",
+        "prompt": "Which option is an expression equivalent to 5y + 8?",
+        "options": [
+          "5y + 8",
+          "5y + 8 = 0",
+          "x = 2",
+          "8 > 3"
+        ],
+        "answer": 0,
+        "rationale": "A mathematical phrase made of numbers, variables, or operations.",
+        "id": "expressions-nov9-repair-vocab-expression",
+        "teach": "A mathematical phrase made of numbers, variables, or operations."
+      }
+    },
+    {
+      "skill": "vocab-coefficient",
+      "prompt": "What is the coefficient in 11t?",
+      "options": [
+        "11",
+        "t",
+        "14",
+        "12"
+      ],
+      "answer": 0,
+      "rationale": "The numerical factor multiplying a variable.",
+      "id": "expressions-nov9-C-vocab-coefficient",
+      "repair": {
+        "skill": "vocab-coefficient",
+        "prompt": "What is the coefficient in 12n?",
+        "options": [
+          "12",
+          "n",
+          "15",
+          "13"
+        ],
+        "answer": 0,
+        "rationale": "The numerical factor multiplying a variable.",
+        "id": "expressions-nov9-repair-vocab-coefficient",
+        "teach": "The numerical factor multiplying a variable."
+      }
+    },
+    {
+      "skill": "vocab-variable",
+      "prompt": "Which symbol is the variable in f + 7?",
+      "options": [
+        "f",
+        "7",
+        "+",
+        "0"
+      ],
+      "answer": 0,
+      "rationale": "A symbol that stands for a number.",
+      "id": "expressions-nov9-C-vocab-variable",
+      "repair": {
+        "skill": "vocab-variable",
+        "prompt": "Which symbol is the variable in g + 9?",
+        "options": [
+          "g",
+          "9",
+          "+",
+          "0"
+        ],
+        "answer": 0,
+        "rationale": "A symbol that stands for a number.",
+        "id": "expressions-nov9-repair-vocab-variable",
+        "teach": "A symbol that stands for a number."
+      }
+    },
+    {
+      "skill": "vocab-base",
+      "prompt": "What is the base in 5⁴?",
+      "options": [
+        "5",
+        "0",
+        "1",
+        "12"
+      ],
+      "answer": 0,
+      "rationale": "The number or quantity used as the repeated factor in a power.",
+      "id": "expressions-nov9-C-vocab-base",
+      "repair": {
+        "skill": "vocab-base",
+        "prompt": "What is the base in 2⁵?",
+        "options": [
+          "2",
+          "0",
+          "1",
+          "12"
+        ],
+        "answer": 0,
+        "rationale": "The number or quantity used as the repeated factor in a power.",
+        "id": "expressions-nov9-repair-vocab-base",
+        "teach": "The number or quantity used as the repeated factor in a power."
+      }
+    },
+    {
+      "skill": "vocab-exponent",
+      "prompt": "What is the exponent in 8³?",
+      "options": [
+        "3",
+        "8",
+        "0",
+        "1"
+      ],
+      "answer": 0,
+      "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+      "id": "expressions-nov9-C-vocab-exponent",
+      "repair": {
+        "skill": "vocab-exponent",
+        "prompt": "What is the exponent in 3⁴?",
+        "options": [
+          "4",
+          "3",
+          "0",
+          "1"
+        ],
+        "answer": 0,
+        "rationale": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent.",
+        "id": "expressions-nov9-repair-vocab-exponent",
+        "teach": "The raised number that tells how many times to use the base as a factor for a positive whole-number exponent."
+      }
+    },
+    {
+      "skill": "review-1",
+      "prompt": "How many terms are in 74 − 4² × 4 + 8 + 1 as written?",
+      "options": [
+        "4",
+        "1",
+        "2",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-C-review-1",
+      "repair": {
+        "skill": "review-1",
+        "prompt": "How many terms are in 81 − 5² × 4 + 8 + 1 as written?",
+        "options": [
+          "4",
+          "1",
+          "2",
+          "3"
+        ],
+        "answer": 0,
+        "rationale": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-1",
+        "teach": "4 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-2",
+      "prompt": "How many terms are in y² − 6 as written?",
+      "options": [
+        "2",
+        "1",
+        "3",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-C-review-2",
+      "repair": {
+        "skill": "review-2",
+        "prompt": "How many terms are in y² − 7 as written?",
+        "options": [
+          "2",
+          "1",
+          "3",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-2",
+        "teach": "2 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-3",
+      "prompt": "How many terms are in 10b² + 12b + 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-C-review-3",
+      "repair": {
+        "skill": "review-3",
+        "prompt": "How many terms are in 11b² + 13b + 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-3",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-4",
+      "prompt": "How many terms are in 30m ÷ 3 + 5m − 4 × 6 as written?",
+      "options": [
+        "3",
+        "1",
+        "2",
+        "4"
+      ],
+      "answer": 0,
+      "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+      "id": "expressions-nov9-C-review-4",
+      "repair": {
+        "skill": "review-4",
+        "prompt": "How many terms are in 36m ÷ 3 + 5m − 4 × 6 as written?",
+        "options": [
+          "3",
+          "1",
+          "2",
+          "4"
+        ],
+        "answer": 0,
+        "rationale": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term.",
+        "id": "expressions-nov9-repair-review-4",
+        "teach": "3 terms. Count parts separated by addition or subtraction at the outer level. Multiplication, division and a power can be part of one term."
+      }
+    },
+    {
+      "skill": "review-5",
+      "prompt": "An equilateral triangle has side length 2.1 cm. What is its perimeter in centimeters?",
+      "options": [
+        "6.3",
+        "2.1",
+        "4.2",
+        "7.3"
+      ],
+      "answer": 0,
+      "rationale": "All three sides have length 2.1. Multiply by 3 to get 6.3 cm.",
+      "id": "expressions-nov9-C-review-5",
+      "repair": {
+        "skill": "review-5",
+        "prompt": "An equilateral triangle has side length 2.4 cm. What is its perimeter in centimeters?",
+        "options": [
+          "7.2",
+          "2.4",
+          "4.8",
+          "8.2"
+        ],
+        "answer": 0,
+        "rationale": "All three sides have length 2.4. Multiply by 3 to get 7.2 cm.",
+        "id": "expressions-nov9-repair-review-5",
+        "teach": "All three sides have length 2.1. Multiply by 3 to get 6.3 cm."
+      }
+    },
+    {
+      "skill": "review-6",
+      "prompt": "A triangle has base 14 cm and height 0.3 cm. What is its area in square centimeters?",
+      "options": [
+        "2.1",
+        "4.2",
+        "1.05",
+        "14.3"
+      ],
+      "answer": 0,
+      "rationale": "Area is one-half times base times height: 14 × 0.3 ÷ 2 = 2.1.",
+      "id": "expressions-nov9-C-review-6",
+      "repair": {
+        "skill": "review-6",
+        "prompt": "A triangle has base 20 cm and height 0.7 cm. What is its area in square centimeters?",
+        "options": [
+          "7.0",
+          "14.0",
+          "3.5",
+          "20.7"
+        ],
+        "answer": 0,
+        "rationale": "Area is one-half times base times height: 20 × 0.7 ÷ 2 = 7.0.",
+        "id": "expressions-nov9-repair-review-6",
+        "teach": "Area is one-half times base times height: 14 × 0.3 ÷ 2 = 2.1."
+      }
+    },
+    {
+      "skill": "review-7",
+      "prompt": "Evaluate 75 ÷ (5² ÷ 2/3) + 4.25.",
+      "options": [
+        "6.25",
+        "8.25",
+        "5.25",
+        "18.75"
+      ],
+      "answer": 0,
+      "rationale": "5² ÷ 2/3 = 25 × 3/2 = 37.5. Then 75 ÷ 37.5 = 2, and 2 + 4.25 = 6.25.",
+      "id": "expressions-nov9-C-review-7",
+      "repair": {
+        "skill": "review-7",
+        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "options": [
+          "5.5",
+          "7.5",
+          "4.5",
+          "16.5"
+        ],
+        "answer": 0,
+        "rationale": "6² ÷ 2/3 = 36 × 3/2 = 54. Then 108 ÷ 54 = 2, and 2 + 3.5 = 5.5.",
+        "id": "expressions-nov9-repair-review-7",
+        "teach": "5² ÷ 2/3 = 25 × 3/2 = 37.5. Then 75 ÷ 37.5 = 2, and 2 + 4.25 = 6.25."
+      }
+    },
+    {
+      "skill": "review-8",
+      "prompt": "Evaluate 9 + (6³ ÷ 2) × 3 − 7.",
+      "options": [
+        "326",
+        "333",
+        "317",
+        "330"
+      ],
+      "answer": 0,
+      "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 326.",
+      "id": "expressions-nov9-C-review-8",
+      "repair": {
+        "skill": "review-8",
+        "prompt": "Evaluate 9 + (8³ ÷ 2) × 3 − 7.",
+        "options": [
+          "770",
+          "777",
+          "761",
+          "774"
+        ],
+        "answer": 0,
+        "rationale": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 770.",
+        "id": "expressions-nov9-repair-review-8",
+        "teach": "Compute the power and division inside the grouping first. Multiply the result by 3, then add 9 and subtract 7. The result is 326."
+      }
+    },
+    {
+      "skill": "review-9",
+      "prompt": "Evaluate 0.4³.",
+      "options": [
+        "0.064",
+        "1.2",
+        "0.16",
+        "0.64"
+      ],
+      "answer": 0,
+      "rationale": "Use 0.4 as a factor three times. The product is 0.064.",
+      "id": "expressions-nov9-C-review-9",
+      "repair": {
+        "skill": "review-9",
+        "prompt": "Evaluate 0.5³.",
+        "options": [
+          "0.125",
+          "1.5",
+          "0.25",
+          "1.25"
+        ],
+        "answer": 0,
+        "rationale": "Use 0.5 as a factor three times. The product is 0.125.",
+        "id": "expressions-nov9-repair-review-9",
+        "teach": "Use 0.4 as a factor three times. The product is 0.064."
+      }
+    },
+    {
+      "skill": "review-10",
+      "prompt": "Evaluate (5/6)⁴.",
+      "options": [
+        "625/1296",
+        "25/36",
+        "625/6",
+        "5/1296"
+      ],
+      "answer": 0,
+      "rationale": "Use the whole fraction as a factor four times: 5⁴/6⁴ = 625/1296.",
+      "id": "expressions-nov9-C-review-10",
+      "repair": {
+        "skill": "review-10",
+        "prompt": "Evaluate (2/7)⁴.",
+        "options": [
+          "16/2401",
+          "4/49",
+          "16/7",
+          "2/2401"
+        ],
+        "answer": 0,
+        "rationale": "Use the whole fraction as a factor four times: 2⁴/7⁴ = 16/2401.",
+        "id": "expressions-nov9-repair-review-10",
+        "teach": "Use the whole fraction as a factor four times: 5⁴/6⁴ = 625/1296."
+      }
+    },
+    {
+      "skill": "review-11",
+      "prompt": "Evaluate z² when z = 3.4.",
+      "options": [
+        "11.56",
+        "6.8",
+        "5.4",
+        "115.6"
+      ],
+      "answer": 0,
+      "rationale": "Substitute 3.4 for z. Square it by multiplying 3.4 × 3.4 = 11.56.",
+      "id": "expressions-nov9-C-review-11",
+      "repair": {
+        "skill": "review-11",
+        "prompt": "Evaluate z² when z = 1.8.",
+        "options": [
+          "3.24",
+          "3.6",
+          "3.8",
+          "32.4"
+        ],
+        "answer": 0,
+        "rationale": "Substitute 1.8 for z. Square it by multiplying 1.8 × 1.8 = 3.24.",
+        "id": "expressions-nov9-repair-review-11",
+        "teach": "Substitute 3.4 for z. Square it by multiplying 3.4 × 3.4 = 11.56."
+      }
+    },
+    {
+      "skill": "review-12",
+      "prompt": "Evaluate b − a when b = 7/10 and a = 1/3.",
+      "options": [
+        "11/30",
+        "31/30",
+        "-11/30",
+        "6/13"
+      ],
+      "answer": 0,
+      "rationale": "Rename both fractions with common denominator 30, then subtract their numerators. The difference is 11/30.",
+      "id": "expressions-nov9-C-review-12",
+      "repair": {
+        "skill": "review-12",
+        "prompt": "Evaluate b − a when b = 9/10 and a = 2/7.",
+        "options": [
+          "43/70",
+          "83/70",
+          "-43/70",
+          "7/17"
+        ],
+        "answer": 0,
+        "rationale": "Rename both fractions with common denominator 70, then subtract their numerators. The difference is 43/70.",
+        "id": "expressions-nov9-repair-review-12",
+        "teach": "Rename both fractions with common denominator 30, then subtract their numerators. The difference is 11/30."
+      }
+    },
+    {
+      "skill": "review-13",
+      "prompt": "Two lights flash together. One flashes every 6 seconds and the other every 15 seconds. When do they next flash together?",
+      "options": [
+        "30",
+        "21",
+        "90",
+        "3"
+      ],
+      "answer": 0,
+      "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 30 seconds.",
+      "id": "expressions-nov9-C-review-13",
+      "repair": {
+        "skill": "review-13",
+        "prompt": "Two lights flash together. One flashes every 12 seconds and the other every 18 seconds. When do they next flash together?",
+        "options": [
+          "36",
+          "30",
+          "216",
+          "6"
+        ],
+        "answer": 0,
+        "rationale": "The time must be a multiple of both periods. Their least positive common multiple is 36 seconds.",
+        "id": "expressions-nov9-repair-review-13",
+        "teach": "The time must be a multiple of both periods. Their least positive common multiple is 30 seconds."
+      }
+    },
+    {
+      "skill": "review-14",
+      "prompt": "Arrange 32 red beads and 56 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+      "options": [
+        "8 rows, 4 red and 7 blue per row",
+        "1 rows, 32 red and 56 blue per row",
+        "4 rows, 8 red and 14 blue per row",
+        "8 rows, 7 red and 4 blue per row"
+      ],
+      "answer": 0,
+      "rationale": "The greatest common factor is 8. Divide each color total by 8: 4 red and 7 blue per row.",
+      "id": "expressions-nov9-C-review-14",
+      "repair": {
+        "skill": "review-14",
+        "prompt": "Arrange 42 red beads and 70 blue beads into the greatest number of identical rows with no beads left over. What is the arrangement?",
+        "options": [
+          "14 rows, 3 red and 5 blue per row",
+          "1 rows, 42 red and 70 blue per row",
+          "7 rows, 6 red and 10 blue per row",
+          "14 rows, 5 red and 3 blue per row"
+        ],
+        "answer": 0,
+        "rationale": "The greatest common factor is 14. Divide each color total by 14: 3 red and 5 blue per row.",
+        "id": "expressions-nov9-repair-review-14",
+        "teach": "The greatest common factor is 8. Divide each color total by 8: 4 red and 7 blue per row."
+      }
+    }
+  ]
+}

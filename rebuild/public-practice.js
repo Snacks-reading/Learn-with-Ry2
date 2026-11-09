@@ -1,6 +1,7 @@
 'use strict';
 
 const publicPractice = {
+  EXPR: { title: 'Expressions Quiz Review', file: 'expressions-quiz-review-nov9.json', subject: 'MATH' },
   MATH: { title: 'Spiral 12 · Problem-solving practice', file: 'fresh_math_spiral12.json' },
   SS: { title: 'Ancient Egypt · Three practice forms', file: 'ss-unit-tests.json' },
 };
@@ -26,17 +27,18 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     panel.replaceChildren();
     add(panel, 'p', subject === 'SS' ? 'Practice on the Egypt material reviewed from class.' : unit.scope);
     add(panel, 'p', 'First answers and progress save in this browser. Use the private Studio if you need its saved scores.');
-    link(panel, 'More teaching and public resources', '#bridge/' + subject);
+    link(panel, 'More teaching and public resources', '#bridge/' + (spec.subject ?? subject));
+    if (unit.sourceUrl) link(add(panel, 'p'), 'Open the teacher’s review in Schoology', unit.sourceUrl);
     const base = '#unit/' + subject;
-    const forms = subject === 'MATH' ? {
+    const forms = unit.practice ? {
       A: unit.practice, B: unit.independentCheck, C: unit.masteryCheck
     } : Object.fromEntries(Object.entries(unit.forms).map(([name, ids]) => {
       const bank = new Map(unit.pool.map(item => [item.id, item]));
       return [name, ids.map(id => bank.get(id))];
     }));
     if (!Object.hasOwn(forms, form)) {
-      if (subject === 'MATH') {
-        add(panel, 'h2', 'Choose the method and prove it');
+      if (unit.teach) {
+        add(panel, 'h2', subject === 'EXPR' ? 'Learn and review' : 'Choose the method and prove it');
         unit.teach.forEach(paragraph => add(panel, 'p', paragraph));
         add(panel, 'h2', 'Worked example');
         [unit.model.prompt, unit.model.reasoning, unit.model.answer].forEach(paragraph => add(panel, 'p', paragraph));
