@@ -3,6 +3,7 @@
 const publicPractice = {
   EXPR: { title: 'Expressions Quiz Review', file: 'expressions-quiz-review-nov9.json', subject: 'MATH' },
   MATH: { title: 'Spiral 12 · Problem-solving practice', file: 'fresh_math_spiral12.json' },
+  SSBINDER: { title: 'Social Studies Binder Review · Three practice forms', file: 'social-studies-binder-questions.json', subject: 'SS', teaching: 'social-studies-binder.html' },
   SS: { title: 'Ancient Egypt · Three practice forms', file: 'ss-unit-tests.json' },
 };
 const curriculumPath = 'curriculum-2026-11/';
@@ -34,7 +35,11 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
       A: unit.practice, B: unit.independentCheck, C: unit.masteryCheck
     } : Object.fromEntries(Object.entries(unit.forms).map(([name, ids]) => {
       const bank = new Map(unit.pool.map(item => [item.id, item]));
-      return [name, ids.map(id => bank.get(id))];
+      return [name, ids.map(id => {
+        const item = bank.get(id);
+        const repair = unit.repairPool?.[item.objectiveIds?.[0]];
+        return repair ? {...item, repair} : item;
+      })];
     }));
     if (!Object.hasOwn(forms, form)) {
       if (unit.teach) {
@@ -42,6 +47,8 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
         unit.teach.forEach(paragraph => add(panel, 'p', paragraph));
         add(panel, 'h2', 'Worked example');
         [unit.model.prompt, unit.model.reasoning, unit.model.answer].forEach(paragraph => add(panel, 'p', paragraph));
+      } else if (spec.teaching) {
+        link(panel, 'Read the binder review lessons', curriculumPath + spec.teaching, 'button');
       } else {
         link(panel, 'Read all 13 Egypt teaching chapters', curriculumPath + 'egypt-teaching.html', 'button');
       }
@@ -65,7 +72,11 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     const attempt = state.publicPractice[key];
     attempt.repairs ??= {};
     const bank = new Map(original.map(item => [item.id, item]));
-    const items = attempt.ids.map(id => bank.get(id)).filter(Boolean);
+    const items = attempt.ids.map(id => {
+        const item = bank.get(id);
+        const repair = unit.repairPool?.[item.objectiveIds?.[0]];
+        return repair ? {...item, repair} : item;
+      }).filter(Boolean);
     const first = items.findIndex(item => !Object.hasOwn(attempt.answers, item.id));
     const slot = requestedIndex === undefined ? first : Number(requestedIndex);
     add(panel, 'h2', 'Practice ' + form);

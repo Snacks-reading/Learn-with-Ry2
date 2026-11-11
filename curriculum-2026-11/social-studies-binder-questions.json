@@ -1,0 +1,1096 @@
+{
+  "id": "ss-binder-2026-11-11",
+  "scope": "Cumulative multiple-choice review of the uploaded Foundations, Mesopotamia, Egypt and Ancient Israel binder pages.",
+  "forms": {
+    "A": [
+      "binder-dates-a",
+      "binder-duration-a",
+      "binder-foragers-a",
+      "binder-farming-a",
+      "binder-economy-a",
+      "binder-sumer-a",
+      "binder-sumer-art-a",
+      "binder-map-a",
+      "binder-nile-a",
+      "binder-season-a",
+      "binder-writing-a",
+      "binder-egypt-rule-a",
+      "binder-giza-a",
+      "binder-migration-a",
+      "binder-texts-a",
+      "binder-kingdom-a",
+      "binder-exile-a",
+      "binder-diaspora-a"
+    ],
+    "B": [
+      "binder-dates-b",
+      "binder-duration-b",
+      "binder-foragers-b",
+      "binder-farming-b",
+      "binder-economy-b",
+      "binder-sumer-b",
+      "binder-sumer-art-b",
+      "binder-map-b",
+      "binder-nile-b",
+      "binder-season-b",
+      "binder-writing-b",
+      "binder-egypt-rule-b",
+      "binder-giza-b",
+      "binder-migration-b",
+      "binder-texts-b",
+      "binder-kingdom-b",
+      "binder-exile-b",
+      "binder-diaspora-b"
+    ],
+    "C": [
+      "binder-dates-c",
+      "binder-duration-c",
+      "binder-foragers-c",
+      "binder-farming-c",
+      "binder-economy-c",
+      "binder-sumer-c",
+      "binder-sumer-art-c",
+      "binder-map-c",
+      "binder-nile-c",
+      "binder-season-c",
+      "binder-writing-c",
+      "binder-egypt-rule-c",
+      "binder-giza-c",
+      "binder-migration-c",
+      "binder-texts-c",
+      "binder-kingdom-c",
+      "binder-exile-c",
+      "binder-diaspora-c"
+    ]
+  },
+  "pool": [
+    {
+      "prompt": "Why does 9000 BCE come before 3500 BCE?",
+      "options": [
+        "BCE years count down toward the common era",
+        "BCE years count up toward the common era",
+        "The smaller year is always older",
+        "BCE marks approximate dates"
+      ],
+      "answer": 0,
+      "rationale": "The common era is the reference point. Within BCE a larger number is farther back in time.",
+      "id": "binder-dates-a",
+      "objectiveIds": [
+        "dates"
+      ]
+    },
+    {
+      "prompt": "Which two labels refer to the same calendar year?",
+      "options": [
+        "120 BCE and 120 CE",
+        "120 CE and AD 120",
+        "120 BC and AD 120",
+        "120 BCE and AD 12"
+      ],
+      "answer": 1,
+      "rationale": "AD and CE use the same year numbering.",
+      "id": "binder-dates-b",
+      "objectiveIds": [
+        "dates"
+      ]
+    },
+    {
+      "prompt": "A timeline reads “ca. 600 BCE.” Which reading fits?",
+      "options": [
+        "Exactly the first day of 600 BCE",
+        "About 600 years into the common era",
+        "About 600 years before the common era",
+        "Six decades before the common era"
+      ],
+      "answer": 2,
+      "rationale": "The abbreviation ca. means approximately, and BCE means before the common era.",
+      "id": "binder-dates-c",
+      "objectiveIds": [
+        "dates"
+      ]
+    },
+    {
+      "prompt": "How many years are in three decades?",
+      "options": [
+        "3",
+        "100",
+        "300",
+        "30"
+      ],
+      "answer": 3,
+      "rationale": "Each decade is ten years.",
+      "id": "binder-duration-a",
+      "objectiveIds": [
+        "duration"
+      ]
+    },
+    {
+      "prompt": "Which span equals one century?",
+      "options": [
+        "Ten decades",
+        "One decade",
+        "Twenty years",
+        "A thousand years"
+      ],
+      "answer": 0,
+      "rationale": "Ten decades of ten years each make one hundred years.",
+      "id": "binder-duration-b",
+      "objectiveIds": [
+        "duration"
+      ]
+    },
+    {
+      "prompt": "A settlement grew for about 200 years. How long is that?",
+      "options": [
+        "About two decades",
+        "About two centuries",
+        "About twenty centuries",
+        "About one century"
+      ],
+      "answer": 1,
+      "rationale": "A century lasts one hundred years, so two centuries last 200 years.",
+      "id": "binder-duration-c",
+      "objectiveIds": [
+        "duration"
+      ]
+    },
+    {
+      "prompt": "Why might a hunter-gatherer group move to a different camp in winter?",
+      "options": [
+        "To harvest a large field of planted grain",
+        "To move closer to a permanent pottery shop",
+        "To follow seasonal sources of food and water",
+        "To store grain in a city warehouse"
+      ],
+      "answer": 2,
+      "rationale": "Nomadic hunter-gatherers moved to find available resources.",
+      "id": "binder-foragers-a",
+      "objectiveIds": [
+        "foragers"
+      ]
+    },
+    {
+      "prompt": "At a camp, archaeologists find a hearth and a sharp stone scraper. What could those have helped people do?",
+      "options": [
+        "Record taxes and build canals",
+        "Store harvests and weave wool",
+        "Grow wheat and domesticate goats",
+        "Cook food and work animal hides"
+      ],
+      "answer": 3,
+      "rationale": "Fire helps cook food, and a scraper helps work hides.",
+      "id": "binder-foragers-b",
+      "objectiveIds": [
+        "foragers"
+      ]
+    },
+    {
+      "prompt": "A group carries hunting tools and builds temporary shelters. What does this help the group do?",
+      "options": [
+        "Use different hunting areas as seasons change",
+        "Keep livestock beside the same field all year",
+        "Send taxes to one permanent city",
+        "Store a harvest in one brick building"
+      ],
+      "answer": 0,
+      "rationale": "Portable equipment and temporary shelter help a mobile group adapt to changing conditions.",
+      "id": "binder-foragers-c",
+      "objectiveIds": [
+        "foragers"
+      ]
+    },
+    {
+      "prompt": "Which example shows domestication?",
+      "options": [
+        "Following a wild herd to a new valley",
+        "Raising sheep over generations for useful traits",
+        "Collecting fallen branches for a fire",
+        "Catching wild fish near a camp"
+      ],
+      "answer": 1,
+      "rationale": "Domestication involves people raising and shaping plants or animals over generations.",
+      "id": "binder-farming-a",
+      "objectiveIds": [
+        "farming"
+      ]
+    },
+    {
+      "prompt": "Which pairing shows resources people could use in a farming village?",
+      "options": [
+        "Clay tablets for clothing and wool for walls",
+        "Barley for roof beams and bronze for food",
+        "Wool for clothing and mud brick for homes",
+        "Canal water for walls and river silt for shoes"
+      ],
+      "answer": 2,
+      "rationale": "Domesticated animals supplied wool, and settled communities could build mud-brick homes.",
+      "id": "binder-farming-b",
+      "objectiveIds": [
+        "farming"
+      ]
+    },
+    {
+      "prompt": "Why did planting fields often encourage permanent settlements?",
+      "options": [
+        "People needed to follow wild game every day",
+        "People could move an entire field each season",
+        "People no longer needed access to water",
+        "People could stay to tend and harvest crops"
+      ],
+      "answer": 3,
+      "rationale": "Remaining near fields made it easier to grow, protect, and harvest crops.",
+      "id": "binder-farming-c",
+      "objectiveIds": [
+        "farming"
+      ]
+    },
+    {
+      "prompt": "A farmer swaps grain directly for a woven mat. What is this?",
+      "options": [
+        "Barter",
+        "Taxation",
+        "Domestication",
+        "Migration"
+      ],
+      "answer": 0,
+      "rationale": "Barter is exchanging goods or services directly.",
+      "id": "binder-economy-a",
+      "objectiveIds": [
+        "economy"
+      ]
+    },
+    {
+      "prompt": "Why can a food surplus lead to more specialized jobs?",
+      "options": [
+        "Extra food makes everyone farm full time",
+        "Extra food can support people whose main work is outside farming",
+        "Stored grain replaces the need for trained craftspeople",
+        "A surplus prevents people from exchanging goods"
+      ],
+      "answer": 1,
+      "rationale": "A surplus can feed weavers, potters, and other specialists.",
+      "id": "binder-economy-b",
+      "objectiveIds": [
+        "economy"
+      ]
+    },
+    {
+      "prompt": "A village grows extra grain and one villager becomes its full-time potter. Which idea explains that job change?",
+      "options": [
+        "Nomadic migration",
+        "The start of the common era",
+        "Labor specialization",
+        "A decline in available food"
+      ],
+      "answer": 2,
+      "rationale": "Specialization means focusing on a particular kind of work. A food surplus helps support that arrangement.",
+      "id": "binder-economy-c",
+      "objectiveIds": [
+        "economy"
+      ]
+    },
+    {
+      "prompt": "Which find best supports a claim that a city had organized government?",
+      "options": [
+        "A necklace made from colored stones",
+        "A clay pot for storing water",
+        "A statue placed as an offering",
+        "A record of taxes ordered by a ruler"
+      ],
+      "answer": 3,
+      "rationale": "A ruler collecting taxes shows government organizing resources.",
+      "id": "binder-sumer-a",
+      "objectiveIds": [
+        "sumer"
+      ]
+    },
+    {
+      "prompt": "A tablet lists how much barley entered a storehouse. Which two characteristics does it directly show?",
+      "options": [
+        "Writing and an organized food supply",
+        "Religion and a standing army",
+        "Social rank and temple worship",
+        "Art and mountain geography"
+      ],
+      "answer": 0,
+      "rationale": "The written record tracks a crop in storage, connecting writing and food supply.",
+      "id": "binder-sumer-b",
+      "objectiveIds": [
+        "sumer"
+      ]
+    },
+    {
+      "prompt": "A team finds a statue placed as an offering and a canal leading to fields. Which characteristics best match those uses?",
+      "options": [
+        "Writing and government",
+        "Religion and technology",
+        "Art and social rank",
+        "Trade and law"
+      ],
+      "answer": 1,
+      "rationale": "Offerings are evidence of worship, and an irrigation canal is a technology for farming.",
+      "id": "binder-sumer-c",
+      "objectiveIds": [
+        "sumer"
+      ]
+    },
+    {
+      "prompt": "Which find most directly supports a claim about Sumerian art and craftsmanship?",
+      "options": [
+        "A canal between fields",
+        "A tax law written by a ruler",
+        "A decorated gold cup",
+        "A river flowing through the lowlands"
+      ],
+      "answer": 2,
+      "rationale": "A decorated cup shows the artisan’s skill and artistic choices.",
+      "id": "binder-sumer-art-a",
+      "objectiveIds": [
+        "sumer-art"
+      ]
+    },
+    {
+      "prompt": "Two groups lived in different kinds of houses and had different duties and privileges. What does that suggest?",
+      "options": [
+        "An approximate calendar date",
+        "A route across the Syrian Desert",
+        "A method for cutting stone",
+        "Social structure"
+      ],
+      "answer": 3,
+      "rationale": "Social structure describes roles, ranks, and relationships among groups.",
+      "id": "binder-sumer-art-b",
+      "objectiveIds": [
+        "sumer-art"
+      ]
+    },
+    {
+      "prompt": "A museum wants to show how Sumerians recorded transactions. Which object belongs in that display?",
+      "options": [
+        "A clay tablet with cuneiform marks",
+        "A painted statue with no inscription",
+        "A fragment of a wagon wheel",
+        "An undecorated water jar"
+      ],
+      "answer": 0,
+      "rationale": "Cuneiform was used to record information, including transactions.",
+      "id": "binder-sumer-art-c",
+      "objectiveIds": [
+        "sumer-art"
+      ]
+    },
+    {
+      "prompt": "How should Ur and Sumer appear on the classroom map?",
+      "options": [
+        "Ur as a star, Sumer as a dot",
+        "Ur as a dot, Sumer as a star",
+        "Both as rivers traced in blue",
+        "Both as ranges of brown triangles"
+      ],
+      "answer": 1,
+      "rationale": "The map uses dots for cities and stars for the major kingdoms.",
+      "id": "binder-map-a",
+      "objectiveIds": [
+        "map"
+      ]
+    },
+    {
+      "prompt": "Which label belongs on a blue river line?",
+      "options": [
+        "Babylonia",
+        "Syrian Desert",
+        "Euphrates",
+        "Zagros Mountains"
+      ],
+      "answer": 2,
+      "rationale": "The Euphrates is one of the two major rivers named in the assignment.",
+      "id": "binder-map-b",
+      "objectiveIds": [
+        "map"
+      ]
+    },
+    {
+      "prompt": "Which map key entry should use brown triangles?",
+      "options": [
+        "Fertile Crescent",
+        "Persian Gulf",
+        "Nineveh",
+        "Zagros Mountains"
+      ],
+      "answer": 3,
+      "rationale": "Brown triangles mark the Zagros Mountains on the classroom assignment.",
+      "id": "binder-map-c",
+      "objectiveIds": [
+        "map"
+      ]
+    },
+    {
+      "prompt": "Which description matches the Black Land of Egypt?",
+      "options": [
+        "Fertile land along the Nile",
+        "Dry desert beyond the valley",
+        "Rocky rapids in the river",
+        "The sea beyond the delta"
+      ],
+      "answer": 0,
+      "rationale": "Kemet, or Black Land, refers to the fertile dark soil along the Nile.",
+      "id": "binder-nile-a",
+      "objectiveIds": [
+        "nile"
+      ]
+    },
+    {
+      "prompt": "A boat travels downstream from near Thebes toward the Nile Delta. Where does it go?",
+      "options": [
+        "South from Lower Egypt toward Upper Egypt",
+        "North from Upper Egypt toward Lower Egypt",
+        "West from Lower Egypt into the desert",
+        "East from the delta toward Thebes"
+      ],
+      "answer": 1,
+      "rationale": "Upper Egypt is upstream in the south. The Nile flows north toward the delta in Lower Egypt.",
+      "id": "binder-nile-b",
+      "objectiveIds": [
+        "nile"
+      ]
+    },
+    {
+      "prompt": "What is a delta, and where is Egypt’s Nile Delta?",
+      "options": [
+        "Rocky rapids upstream near southern Egypt",
+        "A sandy plateau along the western desert",
+        "Land built by sediment near the river’s mouth in northern Egypt",
+        "A storage basin near a farm"
+      ],
+      "answer": 2,
+      "rationale": "A delta forms as sediment collects near a river’s mouth. The Nile meets the Mediterranean in the north.",
+      "id": "binder-nile-c",
+      "objectiveIds": [
+        "nile"
+      ]
+    },
+    {
+      "prompt": "Why did farmers build ditches and canals near the Nile?",
+      "options": [
+        "To mark the boundaries between kingdoms",
+        "To produce papyrus writing sheets",
+        "To keep the flood season from returning",
+        "To move water to fields"
+      ],
+      "answer": 3,
+      "rationale": "Canals and ditches directed water to where it was needed.",
+      "id": "binder-season-a",
+      "objectiveIds": [
+        "season"
+      ]
+    },
+    {
+      "prompt": "Which Egyptian season name matches the time of harvest?",
+      "options": [
+        "Shemu",
+        "Akhet",
+        "Peret",
+        "Kemet"
+      ],
+      "answer": 0,
+      "rationale": "Shemu was the harvest season. Akhet was the flood season and Peret was the growing season.",
+      "id": "binder-season-b",
+      "objectiveIds": [
+        "season"
+      ]
+    },
+    {
+      "prompt": "Which event would fit the start of Akhet?",
+      "options": [
+        "Workers harvest a ripe barley crop",
+        "The Nile begins its seasonal flood",
+        "A scribe writes on a finished scroll",
+        "Farmers trade pots for cloth"
+      ],
+      "answer": 1,
+      "rationale": "Akhet was the season of flooding.",
+      "id": "binder-season-c",
+      "objectiveIds": [
+        "season"
+      ]
+    },
+    {
+      "prompt": "Who would be trained to record a grain delivery for an Egyptian official?",
+      "options": [
+        "A stonecutter",
+        "A potter",
+        "A scribe",
+        "A boatbuilder"
+      ],
+      "answer": 2,
+      "rationale": "Scribes were trained to read, write, and keep records.",
+      "id": "binder-writing-a",
+      "objectiveIds": [
+        "writing"
+      ]
+    },
+    {
+      "prompt": "Which choice correctly pairs the Egyptian writing signs with a material people wrote on?",
+      "options": [
+        "Cuneiform and papyrus",
+        "Papyrus and cataracts",
+        "Menhed and limestone",
+        "Hieroglyphs and papyrus"
+      ],
+      "answer": 3,
+      "rationale": "Hieroglyphs are writing signs. Papyrus is a plant that Egyptians made into sheets.",
+      "id": "binder-writing-b",
+      "objectiveIds": [
+        "writing"
+      ]
+    },
+    {
+      "prompt": "What would a menhed help an Egyptian worker do?",
+      "options": [
+        "Write a record",
+        "Lift a granite block",
+        "Divert Nile water",
+        "Harvest barley"
+      ],
+      "answer": 0,
+      "rationale": "The menhed was a kit of writing tools.",
+      "id": "binder-writing-c",
+      "objectiveIds": [
+        "writing"
+      ]
+    },
+    {
+      "prompt": "Which ruler is commonly associated with uniting Upper and Lower Egypt?",
+      "options": [
+        "Tutankhamun",
+        "Narmer",
+        "Hatshepsut",
+        "Ramses II"
+      ],
+      "answer": 1,
+      "rationale": "Narmer is associated with early unification. The other rulers lived much later.",
+      "id": "binder-egypt-rule-a",
+      "objectiveIds": [
+        "egypt-rule"
+      ]
+    },
+    {
+      "prompt": "The same family holds Egypt’s throne across several generations. Which term fits?",
+      "options": [
+        "Bureaucracy",
+        "Cataract",
+        "Dynasty",
+        "Commerce"
+      ],
+      "answer": 2,
+      "rationale": "A dynasty is a line of rulers from the same family.",
+      "id": "binder-egypt-rule-b",
+      "objectiveIds": [
+        "egypt-rule"
+      ]
+    },
+    {
+      "prompt": "Which description fits Hatshepsut?",
+      "options": [
+        "The builder of the Great Pyramid",
+        "The king associated with uniting the Two Lands",
+        "The Persian ruler who captured Babylon",
+        "A pharaoh of the New Kingdom"
+      ],
+      "answer": 3,
+      "rationale": "Hatshepsut was an Egyptian pharaoh during the New Kingdom.",
+      "id": "binder-egypt-rule-c",
+      "objectiveIds": [
+        "egypt-rule"
+      ]
+    },
+    {
+      "prompt": "Which pair correctly identifies two Egyptian burial places?",
+      "options": [
+        "Giza and Khufu’s pyramid, Valley of the Kings and Tutankhamun’s rock-cut tomb",
+        "Giza and Tutankhamun’s rock-cut tomb, Valley of the Kings and Khufu’s pyramid",
+        "Giza and Narmer’s delta, Valley of the Kings and Aswan’s quarries",
+        "Giza and Egyptian scribes’ houses, Valley of the Kings and village grain stores"
+      ],
+      "answer": 0,
+      "rationale": "Khufu’s Old Kingdom pyramid is at Giza. Tutankhamun’s New Kingdom tomb is in the Valley of the Kings.",
+      "id": "binder-giza-a",
+      "objectiveIds": [
+        "giza"
+      ]
+    },
+    {
+      "prompt": "Where did the granite used in Khufu’s burial chamber come from?",
+      "options": [
+        "The Syrian Desert",
+        "Quarries at Aswan",
+        "The Nile Delta",
+        "The Zagros Mountains"
+      ],
+      "answer": 1,
+      "rationale": "Granite for the burial chamber was quarried at Aswan, far south of Giza.",
+      "id": "binder-giza-b",
+      "objectiveIds": [
+        "giza"
+      ]
+    },
+    {
+      "prompt": "What can identifying a stone from Aswan establish on its own?",
+      "options": [
+        "The exact lifting system used for the block",
+        "The exact length of the construction project",
+        "The source of the stone",
+        "The number of people who moved the block"
+      ],
+      "answer": 2,
+      "rationale": "Matching stone to a quarry gives its origin. Lifting methods require additional evidence.",
+      "id": "binder-giza-c",
+      "objectiveIds": [
+        "giza"
+      ]
+    },
+    {
+      "prompt": "In the migration review, why did the Israelites first travel to Egypt?",
+      "options": [
+        "Cyrus ordered them to leave Babylon",
+        "Solomon made Egypt his capital",
+        "Assyria captured Jerusalem",
+        "A famine threatened their food supply"
+      ],
+      "answer": 3,
+      "rationale": "According to the classroom account, famine led the Israelites to Egypt.",
+      "id": "binder-migration-a",
+      "objectiveIds": [
+        "migration"
+      ]
+    },
+    {
+      "prompt": "Which description matches the Exodus in biblical tradition?",
+      "options": [
+        "Moses leads Israelites out of slavery in Egypt",
+        "Cyrus captures Babylon and allows return",
+        "Assyria captures the northern kingdom",
+        "Abraham travels from Mesopotamia to Canaan"
+      ],
+      "answer": 0,
+      "rationale": "The Exodus is the departure from Egypt under Moses.",
+      "id": "binder-migration-b",
+      "objectiveIds": [
+        "migration"
+      ]
+    },
+    {
+      "prompt": "Which journey is paired with its reason in biblical tradition?",
+      "options": [
+        "Moses travels to Babylon to rebuild the Temple",
+        "Abraham travels toward Canaan as part of a covenant",
+        "Jacob leaves Egypt after Cyrus captures Babylon",
+        "Solomon travels to Sinai after an Assyrian attack"
+      ],
+      "answer": 1,
+      "rationale": "The covenant with Abraham includes the promise associated with Canaan.",
+      "id": "binder-migration-c",
+      "objectiveIds": [
+        "migration"
+      ]
+    },
+    {
+      "prompt": "How are the Torah and Tanakh related?",
+      "options": [
+        "The Tanakh is the first part of the Talmud",
+        "The Torah is a place of worship",
+        "The Torah is the first part of the Tanakh",
+        "The Tanakh is another name for a synagogue"
+      ],
+      "answer": 2,
+      "rationale": "The Torah forms the first part of the Tanakh, or Hebrew Bible.",
+      "id": "binder-texts-a",
+      "objectiveIds": [
+        "texts"
+      ]
+    },
+    {
+      "prompt": "What does monotheism mean?",
+      "options": [
+        "A ruler’s claim to a city",
+        "A group living outside its homeland",
+        "Trade between religious communities",
+        "Belief in one God"
+      ],
+      "answer": 3,
+      "rationale": "Monotheism means belief in one God.",
+      "id": "binder-texts-b",
+      "objectiveIds": [
+        "texts"
+      ]
+    },
+    {
+      "prompt": "Which pair is connected in the classroom account?",
+      "options": [
+        "Moses and the Ten Commandments at Sinai",
+        "Saul and the capture of Babylon",
+        "Solomon and the Exodus from Egypt",
+        "Cyrus and the settlement of Canaan by Abraham"
+      ],
+      "answer": 0,
+      "rationale": "In the biblical account Moses receives the commandments at Mount Sinai.",
+      "id": "binder-texts-c",
+      "objectiveIds": [
+        "texts"
+      ]
+    },
+    {
+      "prompt": "What order matches the kings covered in class?",
+      "options": [
+        "David, Saul, Solomon",
+        "Saul, David, Solomon",
+        "Solomon, Saul, David",
+        "Saul, Solomon, David"
+      ],
+      "answer": 1,
+      "rationale": "Saul comes first, followed by David and then Solomon.",
+      "id": "binder-kingdom-a",
+      "objectiveIds": [
+        "kingdom"
+      ]
+    },
+    {
+      "prompt": "What did Solomon build in the biblical account?",
+      "options": [
+        "The Great Pyramid at Giza",
+        "The city of Nineveh",
+        "The First Temple in Jerusalem",
+        "The synagogue in every diaspora community"
+      ],
+      "answer": 2,
+      "rationale": "Solomon is credited in the biblical account with building the First Temple.",
+      "id": "binder-kingdom-b",
+      "objectiveIds": [
+        "kingdom"
+      ]
+    },
+    {
+      "prompt": "After the split, where was Judah in relation to Israel?",
+      "options": [
+        "North, with its capital at Nineveh",
+        "West, with its capital at Babylon",
+        "East, with its capital at Aswan",
+        "South, with its capital at Jerusalem"
+      ],
+      "answer": 3,
+      "rationale": "Judah was the southern kingdom and Jerusalem was its capital.",
+      "id": "binder-kingdom-c",
+      "objectiveIds": [
+        "kingdom"
+      ]
+    },
+    {
+      "prompt": "Who conquered the northern kingdom around 722 BCE?",
+      "options": [
+        "Assyria",
+        "Babylon",
+        "Persia",
+        "Rome"
+      ],
+      "answer": 0,
+      "rationale": "Assyria captured the northern Kingdom of Israel around 722 BCE.",
+      "id": "binder-exile-a",
+      "objectiveIds": [
+        "exile"
+      ]
+    },
+    {
+      "prompt": "Which event led to the Babylonian exile?",
+      "options": [
+        "Assyria took the northern kingdom",
+        "Babylon took Judah and Jerusalem",
+        "Cyrus took Babylon",
+        "Rome destroyed the Second Temple"
+      ],
+      "answer": 1,
+      "rationale": "Babylon’s conquest of Judah led to exile from Jerusalem to Babylon.",
+      "id": "binder-exile-b",
+      "objectiveIds": [
+        "exile"
+      ]
+    },
+    {
+      "prompt": "Why did 539 BCE matter for Judean exiles?",
+      "options": [
+        "Solomon dedicated the First Temple",
+        "Assyria conquered Samaria",
+        "Cyrus took Babylon and later permitted return",
+        "Rome destroyed the Second Temple"
+      ],
+      "answer": 2,
+      "rationale": "Cyrus of Persia captured Babylon in 539 BCE. Return became possible under Persian rule.",
+      "id": "binder-exile-c",
+      "objectiveIds": [
+        "exile"
+      ]
+    },
+    {
+      "prompt": "What is a diaspora?",
+      "options": [
+        "A treaty between two cities",
+        "A path between two rivers",
+        "A group of officials serving a king",
+        "People from a homeland living in communities spread elsewhere"
+      ],
+      "answer": 3,
+      "rationale": "Diaspora means a population living dispersed away from its homeland.",
+      "id": "binder-diaspora-a",
+      "objectiveIds": [
+        "diaspora"
+      ]
+    },
+    {
+      "prompt": "What role did synagogues play for many Jewish communities?",
+      "options": [
+        "Places to gather, worship, and study",
+        "Quarries that supplied stone for homes",
+        "Palaces where Persian rulers collected taxes",
+        "Storehouses used only for barley"
+      ],
+      "answer": 0,
+      "rationale": "Synagogues supported gathering, worship, and religious learning.",
+      "id": "binder-diaspora-b",
+      "objectiveIds": [
+        "diaspora"
+      ]
+    },
+    {
+      "prompt": "Which text preserves generations of rabbinic discussion?",
+      "options": [
+        "The Ten Commandments alone",
+        "The Talmud",
+        "The map of the Fertile Crescent",
+        "The royal record of Cyrus’s conquests"
+      ],
+      "answer": 1,
+      "rationale": "The Talmud records rabbinic teaching and discussion.",
+      "id": "binder-diaspora-c",
+      "objectiveIds": [
+        "diaspora"
+      ]
+    }
+  ],
+  "repairPool": {
+    "dates": {
+      "id": "binder-repair-dates",
+      "prompt": "A label says “c. 4000 BC.” What does it mean?",
+      "options": [
+        "Approximately 4000 BCE",
+        "Exactly 4000 CE",
+        "Approximately 400 BCE",
+        "The year AD 4000"
+      ],
+      "answer": 0,
+      "rationale": "Circa signals an estimate. BC and BCE use the same numbering."
+    },
+    "duration": {
+      "id": "binder-repair-duration",
+      "prompt": "A village grew for 50 years. How many decades is that?",
+      "options": [
+        "Five",
+        "Two",
+        "Ten",
+        "Fifty"
+      ],
+      "answer": 0,
+      "rationale": "Fifty years divided by ten is five decades."
+    },
+    "foragers": {
+      "id": "binder-repair-foragers",
+      "prompt": "What would a hearth help people do on a cold evening at camp?",
+      "options": [
+        "Stay warm and cook food",
+        "Write lists of taxes",
+        "Water planted crops",
+        "Domesticate animals instantly"
+      ],
+      "answer": 0,
+      "rationale": "A hearth is a place for fire, which provides heat and can cook food."
+    },
+    "farming": {
+      "id": "binder-repair-farming",
+      "prompt": "People begin planting seed from the plants that yield the most grain. What process is underway?",
+      "options": [
+        "Domestication",
+        "Barter",
+        "Tax collection",
+        "Nomadic hunting"
+      ],
+      "answer": 0,
+      "rationale": "Selecting and raising plants for useful traits is part of domestication."
+    },
+    "economy": {
+      "id": "binder-repair-economy",
+      "prompt": "A village has 60 baskets of grain and needs 50 now. What are the remaining ten baskets?",
+      "options": [
+        "A surplus",
+        "A tribute",
+        "A dynasty",
+        "A decade"
+      ],
+      "answer": 0,
+      "rationale": "A surplus is what is left after current needs are met."
+    },
+    "sumer": {
+      "id": "binder-repair-sumer",
+      "prompt": "Which clue best supports the claim that a city could feed people after harvest time?",
+      "options": [
+        "Barley stored in a granary",
+        "A decorated necklace",
+        "A king’s statue",
+        "A rocky mountain pass"
+      ],
+      "answer": 0,
+      "rationale": "Stored barley could be used after the harvest ended."
+    },
+    "sumer-art": {
+      "id": "binder-repair-sumer-art",
+      "prompt": "Why is a patterned cup useful for studying culture?",
+      "options": [
+        "It shows a maker’s artistic choices and skills",
+        "It lists every law in the city",
+        "It locates the mouth of the Euphrates",
+        "It gives the exact size of a harvest"
+      ],
+      "answer": 0,
+      "rationale": "Decoration can show craftsmanship and cultural choices."
+    },
+    "map": {
+      "id": "binder-repair-map",
+      "prompt": "How is the Fertile Crescent shown on the assignment?",
+      "options": [
+        "A region colored green",
+        "A city marked by a dot",
+        "A mountain chain marked by triangles",
+        "A river traced in blue"
+      ],
+      "answer": 0,
+      "rationale": "Green identifies the Fertile Crescent region in the assigned key."
+    },
+    "nile": {
+      "id": "binder-repair-nile",
+      "prompt": "Which feature describes cataracts?",
+      "options": [
+        "Rocky rapids in a river",
+        "Deep sand in a desert",
+        "Rich fields by a river",
+        "Branches at a river mouth"
+      ],
+      "answer": 0,
+      "rationale": "Cataracts are stretches of rough water and rocks."
+    },
+    "season": {
+      "id": "binder-repair-season",
+      "prompt": "Which season comes between Akhet and Shemu?",
+      "options": [
+        "Peret, the growing season",
+        "Kemet, the Black Land",
+        "The Red Land, the desert",
+        "The delta, at the river mouth"
+      ],
+      "answer": 0,
+      "rationale": "Egypt’s three seasons were flood, growth, and harvest."
+    },
+    "writing": {
+      "id": "binder-repair-writing",
+      "prompt": "An official needs a written record of deliveries. Which Egyptian worker would take that assignment?",
+      "options": [
+        "A scribe",
+        "A potter",
+        "A quarry worker",
+        "A farmer"
+      ],
+      "answer": 0,
+      "rationale": "Recordkeeping was a job performed by trained scribes."
+    },
+    "egypt-rule": {
+      "id": "binder-repair-egypt-rule",
+      "prompt": "Why do the names Upper and Lower Egypt refer to river position?",
+      "options": [
+        "Upper is upstream and Lower is downstream",
+        "Upper is north and Lower is south",
+        "Upper is west and Lower is east",
+        "Upper is in Asia and Lower is in Africa"
+      ],
+      "answer": 0,
+      "rationale": "The names follow the Nile’s upstream and downstream positions."
+    },
+    "giza": {
+      "id": "binder-repair-giza",
+      "prompt": "The inscription identifies the ruler buried at the Great Pyramid. Which ruler should the museum label name?",
+      "options": [
+        "Khufu",
+        "Tutankhamun",
+        "Hatshepsut",
+        "Narmer"
+      ],
+      "answer": 0,
+      "rationale": "The Great Pyramid was built as Khufu’s tomb."
+    },
+    "migration": {
+      "id": "binder-repair-migration",
+      "prompt": "Which location is associated with the Israelites’ journey after leaving Egypt in the biblical account?",
+      "options": [
+        "Sinai",
+        "Nineveh",
+        "Aswan",
+        "Babylon"
+      ],
+      "answer": 0,
+      "rationale": "The Exodus account traces a journey through Sinai."
+    },
+    "texts": {
+      "id": "binder-repair-texts",
+      "prompt": "Which name means the Hebrew Bible in this unit?",
+      "options": [
+        "Tanakh",
+        "Diaspora",
+        "Cuneiform",
+        "Synagogue"
+      ],
+      "answer": 0,
+      "rationale": "Tanakh is the name used for the Hebrew Bible."
+    },
+    "kingdom": {
+      "id": "binder-repair-kingdom",
+      "prompt": "Which city became David’s capital?",
+      "options": [
+        "Jerusalem",
+        "Babylon",
+        "Thebes",
+        "Nineveh"
+      ],
+      "answer": 0,
+      "rationale": "David is associated with Jerusalem as his capital."
+    },
+    "exile": {
+      "id": "binder-repair-exile",
+      "prompt": "Which kingdom was conquered by Babylon, leading to exile?",
+      "options": [
+        "Judah",
+        "Northern Israel",
+        "Egypt",
+        "Persia"
+      ],
+      "answer": 0,
+      "rationale": "Babylon took Judah and sent many Judeans into exile."
+    },
+    "diaspora": {
+      "id": "binder-repair-diaspora",
+      "prompt": "A community remains outside its homeland and keeps its traditions through study and worship. Which pairing fits?",
+      "options": [
+        "Diaspora and synagogue",
+        "Cataract and canal",
+        "Barter and granary",
+        "Dynasty and quarry"
+      ],
+      "answer": 0,
+      "rationale": "Diaspora describes the dispersed community. A synagogue can serve as a place of study and worship."
+    }
+  }
+}
