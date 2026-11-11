@@ -40,3 +40,20 @@ The preview service reported running but its browser URL refused connections. Br
 ## Remaining source boundaries
 
 Exact publisher-only STEMscopedia pages, a complete district-edition match and the full five-course census remain uncertified. The recovered classroom materials permit this bounded ecology teaching release; they do not establish complete coverage of every Science assignment or standard. The other subjects' source gates are unchanged.
+
+## Schoology follow-up · November 11, 2026
+
+The course materials root displayed 9W2 and the WhoDunnit discussion. Opened the nine displayed week folders (Weeks 10–18) and six resource subfolders: Week 11 Holt, Week 12 Holt, Week 13 Ecology Study Materials, Week 14 Ecology Study Materials, Week 16 Biome Slides, and Week 17 Biome Slides & Study Resources. Folder listing checks establish what is posted. Underlying resource checks are recorded below.
+
+| Source | Review status |
+|---|---|
+| Week 13 Ecology Study Guide Answer Key and Week 14 Study guide answers | Both distinct Google Docs opened in the district session. Read items 1–15 and both energy-pyramid models. The Week 14 lower-case answer-key link points to the same file as Week 13. |
+| Week 13 Ecology StudyMate | The Schoology wrapper and embedded Ecology Vocabulary activity opened. The existing 33-term inventory was previously read in full. |
+| Holt Chapter 2, Sections 1–3 | Matched the provided PDF filenames to the Week 13 folder and checked the scanned sections for ecosystem organization, energy, wolves, population limits and symbiosis. |
+| Teacher Symbiosis Notes | Opened the Schoology wrapper and confirmed the linked district deck and its 16 slides. The full-deck read is documented in the November 7 release above. |
+| Hog Wild! and Hogs in TN | Read the uploaded worksheet and corroborated the Tennessee example using the linked Tennessee Wildlife Resources Agency page. |
+| Symbiotic Relationships and Amoeba Sisters | Read the three relationship categories on the supplied page and verified the video title, description and section timestamps. The full video was not watched. |
+| Ecology Test | Opened the Week 14 assessment listing. It was not accepting submissions, and it gave no confirmed test date. The agenda says Wednesday, 11/12, although November 12, 2026 is Thursday and the enclosing folder is labeled November 16–20. No test attempt was started. |
+| Remaining course materials | Later Biomes and other linked activities were inventoried at folder level. Individual slides, STEMscopedia pages, external games, class submissions, and all underlying files were not audited in this pass. |
+
+The student study guide covers all 15 numbered items in eight teaching sections, with eight original multiple-choice checks. Item 13's wording says 10% loss, while its numerical example models about 10% transfer. The new guide follows the numerical model. It explains carrying capacity using what the habitat can support over time and uses migration and mortality as possible responses to overshoot. The assessment bank, existing practice and learner records retain their original identifiers.

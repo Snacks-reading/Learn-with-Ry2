@@ -1,3 +1,4 @@
+import {ecologyReadings,ecologyReview} from './study-guide.mjs';
 import {act,freshState,summary,practiceFormsComplete,NAMESPACE} from './core.mjs?v=20261107-recovery';
 const main=document.querySelector('main'),status=document.querySelector('#save-status');
 const privateMode=!new URLSearchParams(location.search).has('preview')&&location.hostname!=='snacks-reading.github.io'&&!['localhost','127.0.0.1'].includes(location.hostname);
@@ -29,6 +30,35 @@ function guided(ch){top('Guided practice',ch.title);const q=ch.guided,saved=stat
  reading=q.prompt+'. '+guidedOrders[q.id].map((i,slot)=>String.fromCharCode(65+slot)+'. '+q.options[i]).join('. ');document.querySelector('#read').textContent='Read question and choices';
  if(saved?.guidedAnswer!==undefined){const box=add(main,'section',undefined,'feedback');add(box,'h2',saved.guidedCorrect?'Correct':'Review the idea');add(box,'p',q.rationale);button(box,'Read feedback',()=>speak(q.rationale),true);const index=data.chapters.indexOf(ch);if(index<data.chapters.length-1)link(main,'Next lesson','#lesson/'+data.chapters[index+1].id);link(main,'Independent practice tests','#practice');}
 }
+function classroomReview(){
+ top('Science · Ecology','Ecology Study Guide','Review the ideas from the classroom study guide, then take a full practice test.');
+ const readings=add(main,'details',undefined,'panel');
+ add(readings,'summary','Find the assigned readings and study resources');
+ const list=add(readings,'ul');
+ for(const [label,url,note] of ecologyReadings){
+  const row=add(list,'li');
+  link(row,label,url,'');
+  add(row,'p',note);
+ }
+ for(const topic of ecologyReview){
+  const section=add(main,'section',undefined,'panel');
+  add(section,'h2',topic.title);
+  add(section,'p',topic.guide,'eyebrow');
+  add(section,'p',topic.teaching);
+  add(section,'h3','Worked example');
+  add(section,'p',topic.model);
+  add(section,'h3','Check your understanding');
+  add(section,'p',topic.prompt);
+  const choices=add(section,'ol');
+  choices.type='A';
+  topic.choices.forEach(choice=>add(choices,'li',choice));
+  const feedback=add(section,'details');
+  add(feedback,'summary','Reveal answer and explanation');
+  add(feedback,'p',topic.choices[topic.answer]+'. '+topic.reason);
+ }
+ link(main,'Open the three full ecology practice tests','#practice');
+ reading=ecologyReview.flatMap(topic=>[topic.title,topic.teaching,'Worked example. '+topic.model,topic.prompt,...topic.choices]).join(' ');
+}
 function practice(){top('Assessments & Practice','All Science tests in one place','Each test has 42 questions covering all 33 teacher terms plus the recovered packet concepts. You can open a test without a lesson-completion lock.');const independence=add(main,'label',undefined,'notice inline');const independent=add(independence,'input');independent.type='checkbox';independent.id='independent';add(independence,'span','I am answering independently. Read aloud is allowed. Leave unchecked when someone is helping; supported practice saves separately.');const grid=add(main,'div',undefined,'grid');for(const f of 'ABCD'){const r=state.runs.find(r=>r.form===f&&r.kind==='test'),card=add(grid,'section',undefined,'card');add(card,'h2',f==='D'?'Independent transfer check D':'Practice test '+f);if(f==='D'&&!r)add(card,'p','Finish A, B and C and check the independent-work box above to start.');add(card,'p',r?r.finishedAt?`${r.answers.filter(a=>a.correct).length}/${r.items.length} · ${Math.round(100*r.answers.filter(a=>a.correct).length/r.items.length)}%`:r.answers.length+'/'+r.items.length+' answered':'Not started');const open=button(card,r?(r.finishedAt?'Review test '+f:'Resume test '+f):'Start test '+f,()=>r?navigate('run/'+r.id):start('test',f));if(f==='D'&&!r){const update=()=>{open.disabled=!practiceFormsComplete(state.runs)||!independent.checked;};independent.addEventListener('change',update);update();}}
  const box=add(main,'section',undefined,'panel');add(box,'h2','Keep going on missed skills');add(box,'p','Read the explanation after each answer. Then use new questions from the missed-skill bank. Original test answers and scores stay unchanged.');button(box,'Start new missed-skill round',()=>start('repair'));link(box,'See scores and what needs practice','#progress','button secondary');
  const info=summary(data,state);add(main,'h2','Remember it later');info.retention.forEach(r=>{const row=add(main,'section',undefined,'panel');add(row,'h3','Day '+r.day+' recall');add(row,'p',r.complete?'Independent recall demonstrated for all skills in this round':r.due?'Ready now':r.dueAt?'Opens '+new Date(r.dueAt).toLocaleString('en-US',{timeZone:'America/Chicago'})+' Central':'Opens after the first completed test');const b=button(row,r.complete?'Review this recall':'Open recall',()=>start('retention',null,r.day));b.disabled=!r.due;});
@@ -52,8 +82,9 @@ function progress(){const info=summary(data,state);top('Scores & progress',info.
  button(main,'Download private progress record',()=>{const u=URL.createObjectURL(new Blob([JSON.stringify(state,null,2)],{type:'application/json'})),a=e('a');a.href=u;a.download='Ry-Ecology-Private-Progress.json';a.click();setTimeout(()=>URL.revokeObjectURL(u),1000);},true);
 }
 function render(){stop();main.replaceChildren();reading='';document.querySelector('#read').textContent='Read this page';const [route='home',id]=location.hash.slice(1).split('/');document.querySelectorAll('nav a').forEach(a=>{a.removeAttribute('aria-current');if(a.hash==='#'+route)a.setAttribute('aria-current','page');});if(error)add(main,'p',error,'notice');
- if(route==='home'){top('Science · classroom ecology','Understand it. Use it. Remember it.','Learn the ideas, try the examples, then take three different practice tests. Your saved scores and missed questions stay together.');const box=add(main,'section',undefined,'panel');add(box,'h2','Your next step');const unfinished=state.runs.find(r=>!r.finishedAt);link(box,unfinished?'Resume your saved round':'Start the first lesson',unfinished?'#run/'+unfinished.id:'#lesson/'+data.chapters[0].id);link(box,'See all three tests','#practice','button secondary');link(box,'Parent scores & progress','#progress','button secondary');const grid=add(main,'div',undefined,'grid');[['Learn','14 short lessons, all 33 teacher terms, clear examples.','#learn'],['Practice','Tests A, B and C, plus new questions for misses.','#practice']].forEach(([title,text,href])=>{const c=add(grid,'section',undefined,'card');add(c,'h2',title);add(c,'p',text);link(c,'Open',href);});}
+ if(route==='home'){top('Science · classroom ecology','Understand it. Use it. Remember it.','Learn the ideas, try the examples, then take three different practice tests. Your saved scores and missed questions stay together.');const box=add(main,'section',undefined,'panel');add(box,'h2','Your next step');link(box,'Open the classroom Ecology Study Guide','#classroom-review');const unfinished=state.runs.find(r=>!r.finishedAt);link(box,unfinished?'Resume your saved round':'Start the first lesson',unfinished?'#run/'+unfinished.id:'#lesson/'+data.chapters[0].id);link(box,'See all three tests','#practice','button secondary');link(box,'Parent scores & progress','#progress','button secondary');const grid=add(main,'div',undefined,'grid');[['Learn','14 short lessons, all 33 teacher terms, clear examples.','#learn'],['Practice','Tests A, B and C, plus new questions for misses.','#practice']].forEach(([title,text,href])=>{const c=add(grid,'section',undefined,'card');add(c,'h2',title);add(c,'p',text);link(c,'Open',href);});}
  else if(['audio','listen'].includes(route)){top('','Rayna’s Audio','Open the Rayna’s Audio chat in ChatGPT.');link(main,'Open student ecology lessons','#learn','button');return;}
+ else if(route==='classroom-review')classroomReview();
  else if(route==='learn'){top('Learn','Ecology lessons','Choose a lesson. Each includes an explanation, a worked example and a guided check.');data.chapters.forEach((ch,i)=>{const c=add(main,'section',undefined,'panel');add(c,'h2',(i+1)+'. '+ch.title);add(c,'p',ch.terms.length?ch.terms.map(v=>v.word).join(' · '):ch.teach[0]);link(c,'Open lesson','#lesson/'+ch.id);});}
  else if(['lesson','guided'].includes(route)){const ch=data.chapters.find(c=>c.id===id);if(!ch){navigate('learn');return;}route==='guided'?guided(ch):lesson(ch);}
  else if(route==='practice')practice();else if(route==='progress')progress();else if(route==='run')round(state.runs.find(r=>r.id===id));
