@@ -1,0 +1,302 @@
+{
+  "id": "week-nov11-math",
+  "scope": "Original practice for expression vocabulary, translation, computation, fractions, decimals, percents, and LCM or GCF.",
+  "forms": {
+    "A": [
+      "week-nov11-math-translate-a",
+      "week-nov11-math-structure-a",
+      "week-nov11-math-evaluate-a",
+      "week-nov11-math-multiples-a",
+      "week-nov11-math-fractions-a",
+      "week-nov11-math-computation-a"
+    ],
+    "B": [
+      "week-nov11-math-translate-b",
+      "week-nov11-math-structure-b",
+      "week-nov11-math-evaluate-b",
+      "week-nov11-math-multiples-b",
+      "week-nov11-math-fractions-b",
+      "week-nov11-math-computation-b"
+    ],
+    "C": [
+      "week-nov11-math-translate-c",
+      "week-nov11-math-structure-c",
+      "week-nov11-math-evaluate-c",
+      "week-nov11-math-multiples-c",
+      "week-nov11-math-fractions-c",
+      "week-nov11-math-computation-c"
+    ]
+  },
+  "pool": [
+    {
+      "id": "week-nov11-math-translate-a",
+      "prompt": "Which expression means 8 less than three times x?",
+      "options": [
+        "3x − 8",
+        "8 − 3x",
+        "3(x − 8)",
+        "8x − 3"
+      ],
+      "answer": 0,
+      "rationale": "Find three times x first, then subtract eight.",
+      "objectiveIds": [
+        "translate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-translate-b",
+      "prompt": "Which expression means twice the sum of a and 7?",
+      "options": [
+        "2a + 7",
+        "2(a + 7)",
+        "a + 14",
+        "2(a − 7)"
+      ],
+      "answer": 1,
+      "rationale": "The entire sum is doubled, so keep the sum inside parentheses.",
+      "objectiveIds": [
+        "translate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-translate-c",
+      "prompt": "Which expression means the difference between 21 and four times p?",
+      "options": [
+        "4p − 21",
+        "4(21 − p)",
+        "21 − 4p",
+        "21p − 4"
+      ],
+      "answer": 2,
+      "rationale": "Begin with 21 and subtract the product of 4 and p.",
+      "objectiveIds": [
+        "translate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-structure-a",
+      "prompt": "How many terms are in 18a ÷ 3 + 2a − 9?",
+      "options": [
+        "2",
+        "4",
+        "5",
+        "3"
+      ],
+      "answer": 3,
+      "rationale": "The outer addition and subtraction separate three terms. Division remains inside the first term.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-math-structure-b",
+      "prompt": "What is the coefficient of x in 8x² − 5x + 2?",
+      "options": [
+        "−5",
+        "5",
+        "8",
+        "2"
+      ],
+      "answer": 0,
+      "rationale": "The coefficient is the signed number multiplying x.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-math-structure-c",
+      "prompt": "What is the base in the power (3/5)²?",
+      "options": [
+        "3",
+        "3/5",
+        "5",
+        "2"
+      ],
+      "answer": 1,
+      "rationale": "The parentheses make the entire fraction the repeated factor.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-math-evaluate-a",
+      "prompt": "Evaluate 5 + 3n² when n = 2.",
+      "options": [
+        "13",
+        "64",
+        "17",
+        "32"
+      ],
+      "answer": 2,
+      "rationale": "Square 2 to get 4, multiply by 3 to get 12, then add 5.",
+      "objectiveIds": [
+        "evaluate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-evaluate-b",
+      "prompt": "A triangle has base 14 and height 0.6. What is its area?",
+      "options": [
+        "8.4 square units",
+        "14.6 square units",
+        "2.1 square units",
+        "4.2 square units"
+      ],
+      "answer": 3,
+      "rationale": "Multiply 14 by 0.6, then take half.",
+      "objectiveIds": [
+        "evaluate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-evaluate-c",
+      "prompt": "An equilateral triangle has side length 1.6. What is its perimeter?",
+      "options": [
+        "4.8 units",
+        "2.56 units",
+        "3.2 units",
+        "4.6 units"
+      ],
+      "answer": 0,
+      "rationale": "The triangle has three equal sides, so multiply 1.6 by 3.",
+      "objectiveIds": [
+        "evaluate"
+      ]
+    },
+    {
+      "id": "week-nov11-math-multiples-a",
+      "prompt": "Two lights flash every 8 seconds and 12 seconds. After how long will they next flash together?",
+      "options": [
+        "4 seconds",
+        "24 seconds",
+        "20 seconds",
+        "96 seconds"
+      ],
+      "answer": 1,
+      "rationale": "Twenty-four is the smallest positive multiple of both 8 and 12.",
+      "objectiveIds": [
+        "multiples"
+      ]
+    },
+    {
+      "id": "week-nov11-math-multiples-b",
+      "prompt": "What is the greatest number of identical kits you can make with 36 blue cards and 48 green cards, using all cards?",
+      "options": [
+        "6 kits",
+        "18 kits",
+        "12 kits",
+        "24 kits"
+      ],
+      "answer": 2,
+      "rationale": "The greatest common factor is 12. Each kit has 3 blue cards and 4 green cards.",
+      "objectiveIds": [
+        "multiples"
+      ]
+    },
+    {
+      "id": "week-nov11-math-multiples-c",
+      "prompt": "One bell rings every 10 minutes, and one rings every 15 minutes. When do they next ring together?",
+      "options": [
+        "5 minutes",
+        "25 minutes",
+        "150 minutes",
+        "30 minutes"
+      ],
+      "answer": 3,
+      "rationale": "Thirty is the first positive number that appears in both lists of multiples.",
+      "objectiveIds": [
+        "multiples"
+      ]
+    },
+    {
+      "id": "week-nov11-math-fractions-a",
+      "prompt": "What is 2⅓ + 1¾?",
+      "options": [
+        "4 1/12",
+        "3 7/12",
+        "4 7/12",
+        "3 1/12"
+      ],
+      "answer": 0,
+      "rationale": "Add 4/12 and 9/12 to get 13/12. Regroup the extra whole with 2 + 1.",
+      "objectiveIds": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "week-nov11-math-fractions-b",
+      "prompt": "What is 3/4 ÷ 1/8?",
+      "options": [
+        "3/32",
+        "6",
+        "3/2",
+        "8"
+      ],
+      "answer": 1,
+      "rationale": "Multiply 3/4 by the reciprocal 8/1. The result is 6.",
+      "objectiveIds": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "week-nov11-math-fractions-c",
+      "prompt": "What is 5/6 − 3/8?",
+      "options": [
+        "1/2",
+        "8/14",
+        "11/24",
+        "7/24"
+      ],
+      "answer": 2,
+      "rationale": "Use 24 as a common denominator. Subtract 9/24 from 20/24.",
+      "objectiveIds": [
+        "fractions"
+      ]
+    },
+    {
+      "id": "week-nov11-math-computation-a",
+      "prompt": "What is 0.84 ÷ 0.07?",
+      "options": [
+        "1.2",
+        "120",
+        "0.12",
+        "12"
+      ],
+      "answer": 3,
+      "rationale": "Multiply both numbers by 100 to turn the problem into 84 ÷ 7.",
+      "objectiveIds": [
+        "computation"
+      ]
+    },
+    {
+      "id": "week-nov11-math-computation-b",
+      "prompt": "What is 12.5% of 40?",
+      "options": [
+        "5",
+        "0.5",
+        "3.2",
+        "50"
+      ],
+      "answer": 0,
+      "rationale": "12.5% is one eighth. Divide 40 by 8.",
+      "objectiveIds": [
+        "computation"
+      ]
+    },
+    {
+      "id": "week-nov11-math-computation-c",
+      "prompt": "Which fraction with denominator 100 equals 17/25?",
+      "options": [
+        "42/100",
+        "68/100",
+        "34/100",
+        "17/100"
+      ],
+      "answer": 1,
+      "rationale": "Multiply both the numerator and denominator by 4.",
+      "objectiveIds": [
+        "computation"
+      ]
+    }
+  ]
+}

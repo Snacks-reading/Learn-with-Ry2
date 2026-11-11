@@ -1,0 +1,254 @@
+{
+  "id": "week-nov11-ela",
+  "scope": "Original practice for Hachiko, the SoFi skills article, and explanatory writing using the elephant reading.",
+  "forms": {
+    "A": [
+      "week-nov11-ela-narrator-a",
+      "week-nov11-ela-central-a",
+      "week-nov11-ela-structure-a",
+      "week-nov11-ela-thesis-a",
+      "week-nov11-ela-evidence-a"
+    ],
+    "B": [
+      "week-nov11-ela-narrator-b",
+      "week-nov11-ela-central-b",
+      "week-nov11-ela-structure-b",
+      "week-nov11-ela-thesis-b",
+      "week-nov11-ela-evidence-b"
+    ],
+    "C": [
+      "week-nov11-ela-narrator-c",
+      "week-nov11-ela-central-c",
+      "week-nov11-ela-structure-c",
+      "week-nov11-ela-thesis-c",
+      "week-nov11-ela-evidence-c"
+    ]
+  },
+  "pool": [
+    {
+      "id": "week-nov11-ela-narrator-a",
+      "prompt": "Which evidence best shows Kentaro’s feelings changed?",
+      "options": [
+        "He goes from being nervous near Hachiko to bringing him food and water.",
+        "The train station stays in the same location.",
+        "The story mentions several adults.",
+        "Hachiko waits near a newspaper stand."
+      ],
+      "answer": 0,
+      "rationale": "Compare Kentaro’s early reaction with his later decision to care for Hachiko.",
+      "objectiveIds": [
+        "narrator"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-narrator-b",
+      "prompt": "What can Kentaro’s first-person narration tell a reader directly?",
+      "options": [
+        "What Hachiko thinks when no one is there",
+        "What Kentaro observes and feels",
+        "What every person at the station believes",
+        "Exactly why Hachiko returns each day"
+      ],
+      "answer": 1,
+      "rationale": "A first-person narrator reports personal thoughts and observations. The reader infers the thoughts of others from the text.",
+      "objectiveIds": [
+        "narrator"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-narrator-c",
+      "prompt": "What is the best way to support the idea that Hachiko’s waiting became important to the community?",
+      "options": [
+        "Use a map of Tokyo to find the station.",
+        "List every adjective about Hachiko’s appearance.",
+        "Compare people helping him with the later effort to honor him.",
+        "Assume the dog understood each visitor’s thoughts."
+      ],
+      "answer": 2,
+      "rationale": "Actions taken by several people show that the story expands from one person’s care to a community response.",
+      "objectiveIds": [
+        "narrator"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-central-a",
+      "prompt": "Which statement gives an objective summary of the SoFi article?",
+      "options": [
+        "SoFi is the most exciting robot ever invented.",
+        "The article is mainly about where ocean researchers live.",
+        "SoFi has solved every difficulty in underwater research.",
+        "A fish-shaped robot can observe marine life, and researchers identify limits that future designs could address."
+      ],
+      "answer": 3,
+      "rationale": "An objective summary includes the main development, evidence of usefulness, and limitations without adding opinion.",
+      "objectiveIds": [
+        "central"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-central-b",
+      "prompt": "Which detail best supports the idea that SoFi was built to observe ocean life?",
+      "options": [
+        "It moves like a fish and records video underwater.",
+        "It has an easy-to-remember name.",
+        "One researcher worked at MIT.",
+        "Some parts were made with a 3-D printer."
+      ],
+      "answer": 0,
+      "rationale": "Its movement and camera explain directly how it can observe marine life.",
+      "objectiveIds": [
+        "central"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-central-c",
+      "prompt": "What is missing from the summary “Scientists made a robot called SoFi”?",
+      "options": [
+        "A personal opinion about robots",
+        "What the robot helps researchers do and one important limitation",
+        "The name of every person in the article",
+        "A guess about a future version"
+      ],
+      "answer": 1,
+      "rationale": "The main idea needs the robot’s purpose and a key qualification.",
+      "objectiveIds": [
+        "central"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-structure-a",
+      "prompt": "Why does the SoFi article end with comments from other researchers?",
+      "options": [
+        "To repeat the title in different words",
+        "To explain the exact steps for building the robot",
+        "To evaluate the robot’s promise and explain what still needs testing",
+        "To change the subject to a different invention"
+      ],
+      "answer": 2,
+      "rationale": "The closing comments add outside evaluation and point out questions about longer and deeper trips.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-structure-b",
+      "prompt": "How does the design section develop the article’s main idea?",
+      "options": [
+        "It tells readers which robot to buy.",
+        "It lists every fish species in the ocean.",
+        "It argues that future testing is unnecessary.",
+        "It explains features that help the robot swim and record video."
+      ],
+      "answer": 3,
+      "rationale": "The design details explain how SoFi could be used to observe marine life.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-structure-c",
+      "prompt": "Which description best captures the author’s purpose in the SoFi article?",
+      "options": [
+        "Explain how the robot works and why it might help ocean research.",
+        "Persuade readers to buy an underwater camera.",
+        "Entertain with an invented adventure about a robot.",
+        "Prove that field scientists no longer need divers."
+      ],
+      "answer": 0,
+      "rationale": "The author presents a real design, its uses, and its limits to inform readers.",
+      "objectiveIds": [
+        "structure"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-thesis-a",
+      "prompt": "Which thesis gives two clear points about how elephants respond to distress?",
+      "options": [
+        "Elephants are animals that have been studied.",
+        "Observers sometimes reassure distressed elephants through physical contact and vocal behavior.",
+        "This essay will be about elephants.",
+        "Scientists looked at several interesting things."
+      ],
+      "answer": 1,
+      "rationale": "A thesis answers the prompt and provides two ideas the body paragraphs can explain.",
+      "objectiveIds": [
+        "thesis"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-thesis-b",
+      "prompt": "What should the bridge of an introduction do?",
+      "options": [
+        "Introduce an unrelated example.",
+        "Repeat the last sentence of the conclusion.",
+        "Connect the hook to the topic and thesis.",
+        "Explain a new idea after the final paragraph."
+      ],
+      "answer": 2,
+      "rationale": "The bridge supplies the context readers need to get from the hook to the thesis.",
+      "objectiveIds": [
+        "thesis"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-thesis-c",
+      "prompt": "Which plan best follows a thesis about touch and sound as reassurance?",
+      "options": [
+        "Both paragraphs list animal names.",
+        "The first paragraph changes the topic to ocean robots.",
+        "The two paragraphs repeat the thesis without evidence.",
+        "One body paragraph explains contact, and one explains vocal responses."
+      ],
+      "answer": 3,
+      "rationale": "Use each body paragraph to develop one point promised in the thesis.",
+      "objectiveIds": [
+        "thesis"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-evidence-a",
+      "prompt": "Which sentence is commentary about an elephant touching a distressed herd mate?",
+      "options": [
+        "The contact supports the idea that an observer responded to the other animal’s distress.",
+        "The researchers watched a group of captive elephants.",
+        "The article describes elephants using their trunks.",
+        "This is the first paragraph of the essay."
+      ],
+      "answer": 0,
+      "rationale": "Commentary explains why a detail matters to the claim.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-evidence-b",
+      "prompt": "Why should a summary of the elephant study say “the elephants observed” rather than “all elephants”?",
+      "options": [
+        "The researchers never saw an elephant.",
+        "The evidence comes from a particular group under particular conditions.",
+        "An objective summary must avoid all nouns.",
+        "The article explains only how elephants eat."
+      ],
+      "answer": 1,
+      "rationale": "Limit a conclusion to the scope of the evidence.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "week-nov11-ela-evidence-c",
+      "prompt": "Which ending best fits an essay about touch and vocal behavior?",
+      "options": [
+        "Add a new argument about how robots swim.",
+        "Copy the original thesis exactly and stop.",
+        "Restate both responses in new words and explain why researchers study them.",
+        "List the title and omit the two findings."
+      ],
+      "answer": 2,
+      "rationale": "The conclusion revisits both points and leaves readers with their significance.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    }
+  ]
+}

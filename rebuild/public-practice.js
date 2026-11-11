@@ -1,6 +1,9 @@
 'use strict';
 
 const publicPractice = {
+  ELAWEEK: { title: 'ELA · Reading and explanatory writing', file: 'weekly-ela-nov11.json', subject: 'ELA', week: true },
+  MATHWEEK: { title: 'Math · Expressions and Computation 13', file: 'weekly-math-nov11.json', subject: 'MATH', week: true },
+  THEATERWEEK: { title: 'Theater · Music for Mimes', file: 'weekly-theater-nov11.json', subject: 'THEATER', week: true },
   EXPR: { title: 'Expressions Quiz Review', file: 'expressions-quiz-review-nov9.json', subject: 'MATH' },
   MATH: { title: 'Spiral 12 · Problem-solving practice', file: 'fresh_math_spiral12.json' },
   SSEGYPTRVW: { title: 'Ancient Egypt · Classroom review', file: 'egypt-schoology-review-2026-11-11.json', subject: 'SS', teaching: 'egypt-teaching.html#egypt-unit-review', teachingLabel: 'Read the November 13 Egypt review' },
@@ -29,7 +32,8 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     panel.replaceChildren();
     add(panel, 'p', subject === 'SS' ? 'Practice on the Egypt material reviewed from class.' : unit.scope);
     add(panel, 'p', 'First answers and progress save in this browser. Use the private Studio if you need its saved scores.');
-    link(panel, 'More teaching and public resources', '#bridge/' + (spec.subject ?? subject));
+    if (spec.week) link(panel, 'Read this week’s lesson', '#week/' + spec.subject);
+    else link(panel, 'More teaching and public resources', '#bridge/' + (spec.subject ?? subject));
     if (unit.sourceUrl) link(add(panel, 'p'), 'Open the teacher’s review in Schoology', unit.sourceUrl);
     const base = '#unit/' + subject;
     const forms = unit.practice ? {
@@ -50,7 +54,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
         [unit.model.prompt, unit.model.reasoning, unit.model.answer].forEach(paragraph => add(panel, 'p', paragraph));
       } else if (spec.teaching) {
         link(panel, spec.teachingLabel ?? 'Read the binder review lessons', curriculumPath + spec.teaching, 'button');
-      } else {
+      } else if (!spec.week) {
         link(panel, 'Read all 13 Egypt teaching chapters', curriculumPath + 'egypt-teaching.html', 'button');
       }
       const links = add(panel, 'div', undefined, 'grid');

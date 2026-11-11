@@ -1,0 +1,206 @@
+{
+  "id": "week-nov11-theater",
+  "scope": "Supplemental practice for Music for Mimes. Use the teacher’s directions for your assigned performance.",
+  "forms": {
+    "A": [
+      "week-nov11-theater-space-a",
+      "week-nov11-theater-weight-a",
+      "week-nov11-theater-music-a",
+      "week-nov11-theater-story-a"
+    ],
+    "B": [
+      "week-nov11-theater-space-b",
+      "week-nov11-theater-weight-b",
+      "week-nov11-theater-music-b",
+      "week-nov11-theater-story-b"
+    ],
+    "C": [
+      "week-nov11-theater-space-c",
+      "week-nov11-theater-weight-c",
+      "week-nov11-theater-music-c",
+      "week-nov11-theater-story-c"
+    ]
+  },
+  "pool": [
+    {
+      "id": "week-nov11-theater-space-a",
+      "prompt": "You close an invisible drawer. What helps the audience recognize it as the same drawer you opened?",
+      "options": [
+        "Close it at the same height and location.",
+        "Reach above your head when you close it.",
+        "Look somewhere else when you open it.",
+        "Use a different grip every time."
+      ],
+      "answer": 0,
+      "rationale": "Keeping the object in a consistent place makes it readable.",
+      "objectiveIds": [
+        "space"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-space-b",
+      "prompt": "What is the clearest way to show an invisible cup resting on a table?",
+      "options": [
+        "Lower it all the way to the floor.",
+        "Set it down at the same height where you picked it up.",
+        "Let it vanish as soon as you stop drinking.",
+        "Move it without shaping your hand around it."
+      ],
+      "answer": 1,
+      "rationale": "The height and grip help the audience picture the cup and table.",
+      "objectiveIds": [
+        "space"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-space-c",
+      "prompt": "What makes an invisible suitcase easiest to follow after you put it down?",
+      "options": [
+        "Reach in a new direction without moving it.",
+        "Describe it to the audience aloud.",
+        "Look and reach back to the same place when you pick it up again.",
+        "Change its size each time you touch it."
+      ],
+      "answer": 2,
+      "rationale": "Consistent position tells the audience the suitcase stayed where you left it.",
+      "objectiveIds": [
+        "space"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-weight-a",
+      "prompt": "Which movement best shows you just found out a box is heavy?",
+      "options": [
+        "Swing it up quickly with one finger.",
+        "Lift it easily while looking at the ceiling.",
+        "Keep your posture and speed exactly the same.",
+        "Brace your feet and lift slowly with visible effort."
+      ],
+      "answer": 3,
+      "rationale": "Visible effort, stance, and slower timing suggest resistance.",
+      "objectiveIds": [
+        "weight"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-weight-b",
+      "prompt": "Which movement most clearly shows a jammed zipper?",
+      "options": [
+        "Hold the fabric steady and make two short pulls that meet resistance.",
+        "Wave both hands above your head.",
+        "Slide your hand smoothly without pausing.",
+        "Turn around before touching the zipper."
+      ],
+      "answer": 0,
+      "rationale": "The repeated pull and resistance show a specific problem.",
+      "objectiveIds": [
+        "weight"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-weight-c",
+      "prompt": "What best communicates that an object became easier to carry?",
+      "options": [
+        "Change where the object is without showing a move.",
+        "Change from slow, braced steps to lighter steps while keeping the same grip.",
+        "Look away and stop interacting with it.",
+        "Walk at the same speed with the same effort."
+      ],
+      "answer": 1,
+      "rationale": "A deliberate change in effort and pace helps the audience see a difference in weight.",
+      "objectiveIds": [
+        "weight"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-music-a",
+      "prompt": "The music goes from quick to slow. Which choice makes the change clear?",
+      "options": [
+        "Keep the same pace for the whole piece.",
+        "Explain the change out loud.",
+        "Move from light, quick steps to slower, deliberate steps.",
+        "Change your costume without changing your movement."
+      ],
+      "answer": 2,
+      "rationale": "Changing the movement’s speed helps the audience see the musical contrast.",
+      "objectiveIds": [
+        "music"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-music-b",
+      "prompt": "Why might you pause right after the music changes?",
+      "options": [
+        "To make the invisible object change locations.",
+        "To add dialogue to the scene.",
+        "To make the ending happen before the problem.",
+        "To give the audience time to notice your reaction."
+      ],
+      "answer": 3,
+      "rationale": "A purposeful pause can draw attention to a moment or reaction.",
+      "objectiveIds": [
+        "music"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-music-c",
+      "prompt": "The music grows more energetic as your character spots a friend. What action best fits that moment?",
+      "options": [
+        "Use a quicker step and an open, eager gesture.",
+        "Keep a slow walk and hide your face.",
+        "Start moving a different imaginary object.",
+        "Turn your back without showing a reaction."
+      ],
+      "answer": 0,
+      "rationale": "A change in pace and gesture can show the character’s excitement.",
+      "objectiveIds": [
+        "music"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-story-a",
+      "prompt": "Which sequence has a clear beginning, middle, and end?",
+      "options": [
+        "Open a bag, then begin an unrelated action, then freeze.",
+        "Spot the bag, struggle with its zipper, then open it and react.",
+        "React to the zipper before showing the bag, then stop.",
+        "Stand holding a bag with no goal or change."
+      ],
+      "answer": 1,
+      "rationale": "The viewer sees the goal, the problem, and the outcome.",
+      "objectiveIds": [
+        "story"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-story-b",
+      "prompt": "A viewer saw the start and ending but missed the obstacle. What should you revise?",
+      "options": [
+        "Add a new object after the ending.",
+        "Repeat the same motions at the same speed.",
+        "Make the moment of resistance and your reaction clearer.",
+        "Explain the entire scene before performing it."
+      ],
+      "answer": 2,
+      "rationale": "Revise the moment that the audience could not read.",
+      "objectiveIds": [
+        "story"
+      ]
+    },
+    {
+      "id": "week-nov11-theater-story-c",
+      "prompt": "What is a good way to check if your silent scene communicated the story?",
+      "options": [
+        "Tell the viewer every detail first.",
+        "Ask only whether the music was loud enough.",
+        "Assume everyone understood because no one asked a question.",
+        "Ask the viewer what goal and problem they saw before explaining."
+      ],
+      "answer": 3,
+      "rationale": "An unprompted description shows which parts of the performance were clear.",
+      "objectiveIds": [
+        "story"
+      ]
+    }
+  ]
+}
