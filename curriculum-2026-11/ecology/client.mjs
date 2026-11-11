@@ -1,4 +1,4 @@
-import {ecologyReadings,ecologyReview} from './study-guide.mjs';
+import {ecologyReadings,ecologyReview} from './study-guide.mjs?v=20261111-rabbit-lab';
 import {act,freshState,summary,practiceFormsComplete,NAMESPACE} from './core.mjs?v=20261107-recovery';
 const main=document.querySelector('main'),status=document.querySelector('#save-status');
 const privateMode=!new URLSearchParams(location.search).has('preview')&&location.hostname!=='snacks-reading.github.io'&&!['localhost','127.0.0.1'].includes(location.hostname);

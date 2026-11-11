@@ -4,6 +4,8 @@ export const ecologyReadings = [
   ['Holt Chapter 2, Section 1', 'https://wcschools.schoology.com/course/8432932346/materials/gp/8601837443', 'Review the parts and levels of an ecosystem.'],
   ['Holt Chapter 2, Section 2', 'https://wcschools.schoology.com/course/8432932346/materials/gp/8601837445', 'Review feeding roles, chains, webs, and the energy-pyramid diagram.'],
   ['Holt Chapter 2, Section 3', 'https://wcschools.schoology.com/course/8432932346/materials/gp/8601837448', 'Review carrying capacity and competition on PDF page 2, predator and prey traits on pages 3–4, and symbiosis on pages 5–6.'],
+  ['PhET · Population Changes Rabbits Lab', 'https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html', 'Compare rabbit population graphs with and without wolves. Find the setup and worked example in This Week’s Science.'],
+  ['Rabbit lab in Schoology', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837416', 'Open the classroom resource listing.'],
   ['Teacher’s Symbiosis Notes', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837469', 'Classify each example by explaining what happens to both species.'],
   ['Amoeba Sisters · Ecological Relationships', 'https://www.youtube.com/watch?v=rNjPI84sApQ', 'Start at 1:41 for predation, 2:39 for competition, and 3:30 for symbiosis.'],
   ['Symbiotic Relationships', 'https://www.vtaide.com/png/symbiosis.htm', 'Compare mutualism, commensalism, and parasitism.'],
@@ -15,7 +17,7 @@ export const ecologyReview = [
   {
     title: 'Biotic, abiotic, and the six levels',
     guide: 'Study guide items 1, 2, and 14',
-    teaching: 'Biotic factors are living parts of an environment, such as plants and animals. Abiotic factors are nonliving conditions and materials, such as sunlight, water, and temperature. From smallest to largest, the levels are organism, population, community, ecosystem, biome, and biosphere. Ecosystem is the first level in this list that includes the living community and its nonliving environment.',
+    teaching: 'Biotic factors are living parts of an environment, such as plants and animals. Abiotic factors are nonliving conditions and materials, such as rocks, water, sunlight, and air. From smallest to largest: an organism is one living thing, a population is the same species in one area, a community is the living populations in that area, and an ecosystem includes that community and its nonliving environment. A biome is a large region with a similar climate and characteristic life. The biosphere includes all the parts of Earth where life exists. Star ecosystem as the first level in this list that includes both biotic and abiotic factors.',
     model: 'One frog is an organism. The same kind of frog in one pond makes a population. Frogs, insects, algae, and other living populations make a community. Add the pond’s light, water, and temperature and you are describing an ecosystem.',
     prompt: 'A scientist counts the organisms in a pond and measures water temperature. Which level best fits the study?',
     choices: ['Population', 'Community', 'Ecosystem', 'Organism'],
@@ -25,7 +27,7 @@ export const ecologyReview = [
   {
     title: 'Resources, competition, and carrying capacity',
     guide: 'Study guide items 3–5',
-    teaching: 'Carrying capacity is the number of individuals an environment can support over time under current conditions. A limiting factor can be biotic, such as available prey, or abiotic, such as water. When a population grows beyond what its habitat can support, some individuals may leave or die and reproduction may slow. A population can also stay near carrying capacity when births and arrivals balance deaths and departures.',
+    teaching: 'Carrying capacity is the number of individuals an environment can support over time under current conditions. A limiting factor can be biotic, such as available prey, or abiotic, such as water. When resources run short, two outcomes to remember are that some animals may move away or die. Births may also slow. A population can stay near carrying capacity when births and arrivals balance deaths and departures. Individuals of the same species or of different species can compete for the same limited resource.',
     model: 'During a dry season, two kinds of birds rely on the same shrinking water source. They compete for water. Less water can lower the number of birds the area can support.',
     prompt: 'After a drought, a meadow can support fewer rabbits. Which explanation fits?',
     choices: ['Less water and plant growth lowered carrying capacity.', 'The rabbits changed from consumers to producers.', 'A drought always increases available shelter.', 'The number of rabbits alone sets carrying capacity.'],
@@ -35,7 +37,7 @@ export const ecologyReview = [
   {
     title: 'Predators, prey, and adaptations',
     guide: 'Study guide items 6–7',
-    teaching: 'A predator hunts and eats prey. Speed can help a predator catch prey, talons can help it grip prey, and camouflage can help it approach unseen. Camouflage can also help prey avoid being detected. Describe what the trait helps the organism do.',
+    teaching: 'A predator hunts and eats other animals. Prey is the animal it hunts or eats. Speed can help a predator catch prey, talons can help it grip prey, and camouflage can help it approach unseen. Camouflage can also help prey avoid being detected. Describe what the trait helps the organism do.',
     model: 'An owl’s talons help it grip a mouse. The owl is the predator, and the mouse is the prey.',
     prompt: 'A hunting bird blends into nearby leaves. What advantage could this give it?',
     choices: ['It could turn sunlight directly into food.', 'It could use less space by becoming smaller.', 'It could produce more prey in the habitat.', 'It could get closer to prey before being detected.'],
@@ -45,7 +47,7 @@ export const ecologyReview = [
   {
     title: 'Photosynthesis, food chains, and food webs',
     guide: 'Study guide items 8–10',
-    teaching: 'Plants and many algae are producers. In photosynthesis, they use light energy to make sugars. A food chain shows one energy pathway. A food web connects multiple pathways. Every feeding arrow points from food toward the eater because the eater receives energy.',
+    teaching: 'Producers, also called autotrophs, make their own food. Plants and many algae are producers. In photosynthesis, they use light energy to make sugars. A food chain shows one energy pathway. A food web connects multiple pathways. Every feeding arrow points from food toward the eater because the eater receives energy.',
     model: 'If a frog eats an insect that ate grass, write grass → insect → frog. Adding a bird that also eats the insect creates a second route for energy.',
     prompt: 'A hawk eats a mouse that ate seeds. Which set of arrows shows energy transfer?',
     choices: ['Hawk → mouse → seeds', 'Seeds → mouse → hawk', 'Mouse → seeds → hawk', 'Seeds → hawk → mouse'],
@@ -75,7 +77,7 @@ export const ecologyReview = [
   {
     title: 'Read an energy pyramid',
     guide: 'Study guide item 13',
-    teaching: 'The teacher’s example uses the approximate 10% transfer rule. About one-tenth of the energy at one feeding level is available to the next. About nine-tenths is unavailable to the next level. Multiply by 0.1 each time you move up from producers to primary, secondary, and then tertiary consumers.',
+    teaching: 'Use the approximate 10% transfer rule. About one-tenth of the energy at one feeding level is available to the next. About nine-tenths is unavailable to the next level. Draw four tiers, with producers on the widest tier at the bottom, followed by primary consumers, secondary consumers, and tertiary consumers at the top. Label each upward step “about 10% transferred.”',
     model: 'If producers have 6,000 energy units, the model gives primary consumers 600, secondary consumers 60, and tertiary consumers 6.',
     prompt: 'If primary consumers have 400 energy units, about how many are available to secondary consumers?',
     choices: ['4 units', '360 units', '400 units', '40 units'],
