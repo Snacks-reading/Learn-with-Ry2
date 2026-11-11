@@ -3,6 +3,7 @@
 const publicPractice = {
   EXPR: { title: 'Expressions Quiz Review', file: 'expressions-quiz-review-nov9.json', subject: 'MATH' },
   MATH: { title: 'Spiral 12 · Problem-solving practice', file: 'fresh_math_spiral12.json' },
+  SSEGYPTRVW: { title: 'Ancient Egypt · Classroom review', file: 'egypt-schoology-review-2026-11-11.json', subject: 'SS', teaching: 'egypt-teaching.html#egypt-unit-review', teachingLabel: 'Read the November 13 Egypt review' },
   SSBINDER: { title: 'Social Studies Binder Review · Three practice forms', file: 'social-studies-binder-questions.json', subject: 'SS', teaching: 'social-studies-binder.html' },
   SS: { title: 'Ancient Egypt · Three practice forms', file: 'ss-unit-tests.json' },
 };
@@ -48,7 +49,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
         add(panel, 'h2', 'Worked example');
         [unit.model.prompt, unit.model.reasoning, unit.model.answer].forEach(paragraph => add(panel, 'p', paragraph));
       } else if (spec.teaching) {
-        link(panel, 'Read the binder review lessons', curriculumPath + spec.teaching, 'button');
+        link(panel, spec.teachingLabel ?? 'Read the binder review lessons', curriculumPath + spec.teaching, 'button');
       } else {
         link(panel, 'Read all 13 Egypt teaching chapters', curriculumPath + 'egypt-teaching.html', 'button');
       }

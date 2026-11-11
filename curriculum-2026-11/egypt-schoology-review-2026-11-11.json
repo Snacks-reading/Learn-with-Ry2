@@ -1,0 +1,398 @@
+{
+  "id": "egypt-schoology-2026-11-11",
+  "scope": "Three short reviews of the new classroom readings on rulers, religion, burial and writing. Use the whole-unit forms for the rest of the Egypt material.",
+  "forms": {
+    "A": [
+      "egypt-schoology-nov11-symbols-a",
+      "egypt-schoology-nov11-hatshepsut-a",
+      "egypt-schoology-nov11-ramses-a",
+      "egypt-schoology-nov11-tut-cleopatra-a",
+      "egypt-schoology-nov11-deities-a",
+      "egypt-schoology-nov11-burial-a",
+      "egypt-schoology-nov11-scripts-a",
+      "egypt-schoology-nov11-evidence-a"
+    ],
+    "B": [
+      "egypt-schoology-nov11-symbols-b",
+      "egypt-schoology-nov11-hatshepsut-b",
+      "egypt-schoology-nov11-ramses-b",
+      "egypt-schoology-nov11-tut-cleopatra-b",
+      "egypt-schoology-nov11-deities-b",
+      "egypt-schoology-nov11-burial-b",
+      "egypt-schoology-nov11-scripts-b",
+      "egypt-schoology-nov11-evidence-b"
+    ],
+    "C": [
+      "egypt-schoology-nov11-symbols-c",
+      "egypt-schoology-nov11-hatshepsut-c",
+      "egypt-schoology-nov11-ramses-c",
+      "egypt-schoology-nov11-tut-cleopatra-c",
+      "egypt-schoology-nov11-deities-c",
+      "egypt-schoology-nov11-burial-c",
+      "egypt-schoology-nov11-scripts-c",
+      "egypt-schoology-nov11-evidence-c"
+    ]
+  },
+  "pool": [
+    {
+      "id": "egypt-schoology-nov11-symbols-a",
+      "prompt": "What does a double crown on a pharaoh’s statue suggest?",
+      "options": [
+        "The ruler claimed authority over Upper and Lower Egypt",
+        "The ruler led only Lower Egypt",
+        "The figure worked as a scribe",
+        "The statue was carved from granite"
+      ],
+      "answer": 0,
+      "rationale": "The double crown combined the white crown of Upper Egypt and red crown of Lower Egypt.",
+      "objectiveIds": [
+        "symbols"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-symbols-b",
+      "prompt": "A museum label identifies a red crown. Which region should the label name?",
+      "options": [
+        "Upper Egypt",
+        "Lower Egypt",
+        "Both regions",
+        "The Valley of the Kings"
+      ],
+      "answer": 1,
+      "rationale": "The red crown represented Lower Egypt. The white crown represented Upper Egypt.",
+      "objectiveIds": [
+        "symbols"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-symbols-c",
+      "prompt": "An artist gives a pharaoh a crook and flail. What do these objects help communicate?",
+      "options": [
+        "The pharaoh’s writing skill",
+        "The route of the Nile",
+        "The pharaoh’s authority",
+        "The year the statue was made"
+      ],
+      "answer": 2,
+      "rationale": "The crook and flail are royal symbols of authority.",
+      "objectiveIds": [
+        "symbols"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-hatshepsut-a",
+      "prompt": "How did Hatshepsut connect her rule to religion in the obelisk reading?",
+      "options": [
+        "She credited a treaty with the Hittites",
+        "She claimed the obelisk was her tomb",
+        "She used the Greek version of a decree",
+        "She presented Amun as supporting her rule"
+      ],
+      "answer": 3,
+      "rationale": "The inscription links Hatshepsut’s authority to the god Amun.",
+      "objectiveIds": [
+        "hatshepsut"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-hatshepsut-b",
+      "prompt": "What is an obelisk?",
+      "options": [
+        "A tall four-sided monument that narrows toward the top",
+        "An oval border around a royal name",
+        "A curved royal staff",
+        "A rock-cut tomb"
+      ],
+      "answer": 0,
+      "rationale": "An obelisk is a tall, narrowing monument. Hatshepsut used one to record claims about her rule.",
+      "objectiveIds": [
+        "hatshepsut"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-hatshepsut-c",
+      "prompt": "What could a historian learn directly from the writing on Hatshepsut’s obelisk?",
+      "options": [
+        "How many possessions were buried with Tutankhamun",
+        "How she wanted people to understand her right to rule",
+        "What the Hittites agreed to with Ramses II",
+        "Why Roman leaders opposed Cleopatra"
+      ],
+      "answer": 1,
+      "rationale": "The inscription tells us how Hatshepsut presented her own authority.",
+      "objectiveIds": [
+        "hatshepsut"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-ramses-a",
+      "prompt": "Which achievement shows Ramses II using diplomacy?",
+      "options": [
+        "Building a stone monument",
+        "Wearing a royal crown",
+        "Making a peace agreement with the Hittites",
+        "Preparing a royal burial"
+      ],
+      "answer": 2,
+      "rationale": "Diplomacy includes negotiating an agreement. The treaty is evidence of diplomacy.",
+      "objectiveIds": [
+        "ramses"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-ramses-b",
+      "prompt": "Which ruler is associated with major building projects and a treaty with the Hittites?",
+      "options": [
+        "Tutankhamun",
+        "Cleopatra VII",
+        "Menes",
+        "Ramses II"
+      ],
+      "answer": 3,
+      "rationale": "Ramses II is remembered for major monuments and a peace treaty with the Hittites.",
+      "objectiveIds": [
+        "ramses"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-ramses-c",
+      "prompt": "A temple and a peace agreement show two sides of Ramses II’s rule. Which pair fits?",
+      "options": [
+        "Construction and diplomacy",
+        "Embalming and worship",
+        "Deciphering and recordkeeping",
+        "Farming and irrigation"
+      ],
+      "answer": 0,
+      "rationale": "A temple is a building project. A peace agreement reflects diplomacy.",
+      "objectiveIds": [
+        "ramses"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-tut-cleopatra-a",
+      "prompt": "Why is Tutankhamun especially well known today?",
+      "options": [
+        "He signed the Hittite peace treaty",
+        "His tomb was found with many objects still inside",
+        "He built Khufu’s pyramid",
+        "He negotiated with Julius Caesar"
+      ],
+      "answer": 1,
+      "rationale": "The objects found in his tomb in 1922 made him widely known.",
+      "objectiveIds": [
+        "tut-cleopatra"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-tut-cleopatra-b",
+      "prompt": "Which ruler made alliances with Roman leaders to help keep power in Egypt?",
+      "options": [
+        "Hatshepsut",
+        "Ramses II",
+        "Cleopatra VII",
+        "Tutankhamun"
+      ],
+      "answer": 2,
+      "rationale": "Cleopatra worked with Julius Caesar and later Mark Antony while Roman power was growing.",
+      "objectiveIds": [
+        "tut-cleopatra"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-tut-cleopatra-c",
+      "prompt": "Which pair correctly matches a ruler with evidence from the gallery?",
+      "options": [
+        "Cleopatra VII and the Hittite peace treaty",
+        "Ramses II and the unification double crown",
+        "Menes and the Rosetta Stone decree",
+        "Tutankhamun and his gold burial mask"
+      ],
+      "answer": 3,
+      "rationale": "The gold mask is one of the objects recovered from Tutankhamun’s tomb.",
+      "objectiveIds": [
+        "tut-cleopatra"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-deities-a",
+      "prompt": "Which god was associated with funerals and embalming?",
+      "options": [
+        "Anubis",
+        "Ra",
+        "Horus",
+        "Thoth"
+      ],
+      "answer": 0,
+      "rationale": "The class notes associate Anubis with preparing the dead and with funerals.",
+      "objectiveIds": [
+        "deities"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-deities-b",
+      "prompt": "Which two associations match the religion notes?",
+      "options": [
+        "Ra with chaos and Seth with the sun",
+        "Ma’at with order and Thoth with wisdom",
+        "Anubis with the sky and Horus with embalming",
+        "Osiris with cats and Bastet with the afterlife"
+      ],
+      "answer": 1,
+      "rationale": "Ma’at was associated with truth and order, and Thoth with wisdom.",
+      "objectiveIds": [
+        "deities"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-deities-c",
+      "prompt": "Which god was most closely associated with the underworld and afterlife in the notes?",
+      "options": [
+        "Ra",
+        "Thoth",
+        "Osiris",
+        "Horus"
+      ],
+      "answer": 2,
+      "rationale": "Osiris was associated with the underworld and the afterlife.",
+      "objectiveIds": [
+        "deities"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-burial-a",
+      "prompt": "Why did Egyptians place personal objects in some tombs?",
+      "options": [
+        "They were trying to make the mummy dry faster",
+        "They used tomb goods to measure the Nile flood",
+        "They wanted to identify the king’s crown colors",
+        "They believed the dead could use possessions in the afterlife"
+      ],
+      "answer": 3,
+      "rationale": "Burial objects reflect beliefs about what a person might need after death.",
+      "objectiveIds": [
+        "burial"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-burial-b",
+      "prompt": "Which step came before wrapping the body in linen in the classroom notes?",
+      "options": [
+        "Removing moisture from the body",
+        "Closing the coffin",
+        "Putting the coffin in the tomb",
+        "Covering the tomb entrance"
+      ],
+      "answer": 0,
+      "rationale": "Drying helped preserve the body before it was wrapped.",
+      "objectiveIds": [
+        "burial"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-burial-c",
+      "prompt": "Which statement connects mummification to a religious belief?",
+      "options": [
+        "Preparing the body helped scribes count crops",
+        "Preparing the body helped ready the dead for the afterlife",
+        "Wrapping the body marked Upper Egypt on a map",
+        "Putting objects in a tomb decoded hieroglyphs"
+      ],
+      "answer": 1,
+      "rationale": "The class notes explain preservation as preparation for the afterlife.",
+      "objectiveIds": [
+        "burial"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-scripts-a",
+      "prompt": "Why might a scribe use hieratic for everyday records?",
+      "options": [
+        "It required carving every word into stone",
+        "It was the Greek version of the Egyptian language",
+        "Its simpler strokes made writing quicker",
+        "It could only be used for a royal name"
+      ],
+      "answer": 2,
+      "rationale": "Hieratic simplified the signs into faster strokes, which suited recordkeeping.",
+      "objectiveIds": [
+        "scripts"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-scripts-b",
+      "prompt": "What does a cartouche mark in an Egyptian inscription?",
+      "options": [
+        "A river boundary",
+        "The beginning of a farming season",
+        "The end of a trade route",
+        "A royal name"
+      ],
+      "answer": 3,
+      "rationale": "The oval border encloses a royal name.",
+      "objectiveIds": [
+        "scripts"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-scripts-c",
+      "prompt": "Which three forms of writing are on the Rosetta Stone?",
+      "options": [
+        "Hieroglyphs, Demotic, and Greek",
+        "Hieroglyphs, hieratic, and Latin",
+        "Demotic, hieratic, and cuneiform",
+        "Greek, Latin, and cuneiform"
+      ],
+      "answer": 0,
+      "rationale": "The stone repeats the decree in hieroglyphic, Demotic, and Greek scripts.",
+      "objectiveIds": [
+        "scripts"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-evidence-a",
+      "prompt": "Why did the Greek version of the Rosetta Stone help scholars?",
+      "options": [
+        "It pictured the exact tools used to carve every sign",
+        "They could read it and compare it with the Egyptian versions",
+        "It gave each Egyptian ruler a separate map",
+        "It supplied a list of modern English letters"
+      ],
+      "answer": 1,
+      "rationale": "A known script gave scholars a way to compare parallel versions of the same message.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-evidence-b",
+      "prompt": "Which artifact would best support a claim that Egyptians used different scripts for different purposes?",
+      "options": [
+        "Two identical copies of a Greek map",
+        "A gold mask displayed next to a coffin",
+        "A quick hieratic supply record alongside a carved hieroglyphic inscription",
+        "Two pottery jars with no writing"
+      ],
+      "answer": 2,
+      "rationale": "The different texts show how the writing styles fit different tasks.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    },
+    {
+      "id": "egypt-schoology-nov11-evidence-c",
+      "prompt": "What does a cartouche on a monument give a historian a clue to?",
+      "options": [
+        "The date the Nile first flooded that year",
+        "The number of workers who quarried the stone",
+        "The exact route used to move the stone",
+        "The royal name recorded on that monument"
+      ],
+      "answer": 3,
+      "rationale": "The cartouche identifies a royal name. Its presence alone does not supply the construction details.",
+      "objectiveIds": [
+        "evidence"
+      ]
+    }
+  ]
+}
