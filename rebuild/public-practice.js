@@ -31,7 +31,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     if (location.hash !== routeKey || !panel.isConnected) return;
     panel.replaceChildren();
     add(panel, 'p', subject === 'SS' ? 'Practice on the Egypt material reviewed from class.' : unit.scope);
-    add(panel, 'p', 'First answers and progress save in this browser. Use the private Studio if you need its saved scores.');
+    add(panel, 'p', 'First answers and progress save only in this browser. Earlier private records are not imported into this public reset.');
     if (spec.week) link(panel, 'Read this week’s lesson', '#week/' + spec.subject);
     else link(panel, 'More teaching and public resources', '#bridge/' + (spec.subject ?? subject));
     if (unit.sourceUrl) link(add(panel, 'p'), 'Open the teacher’s review in Schoology', unit.sourceUrl);
