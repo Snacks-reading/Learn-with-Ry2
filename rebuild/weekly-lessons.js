@@ -7,12 +7,15 @@ const weeklyLessons = {
       ['Hachiko · Open the assigned story', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8636648052', 'Use paragraphs 1–10 for the first meeting, 12–18 for what changes, and 23–31 for Kentaro’s questions and the ending.'],
       ['Hachiko · Open the anticipation guide lesson', '#lesson/ela_hachiko_prereading_20261106', 'Use the pre-reading prompts before you start the story.'],
       ['SoFi · Open the Fish Article skills review', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8640082372', 'Read all three pages. Follow the introduction, the sections about design and challenges, and the closing comments from other scientists.'],
-      ['Elephants · Open the ELA classroom materials', 'https://wcschools.schoology.com/course/8432932249/materials', 'Find Surprise: Elephants comfort upset friends. Read pages 1–3 before you work on the elephant prompts in the explanatory writing packet. Use packet pages 6–10 to plan and revise.'],
+      ['Elephants · Open the assigned article', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8644888245', 'Read pages 1–3 before you work on the elephant prompts.'],
+      ['Open the explanatory writing notes packet', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8642863904', 'Use page 4 for thesis notes and pages 6–10 to plan and revise the elephant essay.'],
+      ['Open the thesis statement exit ticket in Schoology', 'https://wcschools.schoology.com/course/8432932249/materials/link/view/8644128437', 'Review where the thesis goes, how long it should be, what it answers, and what it does.'],
+      ['Open the November 9–13 Spiral Review', 'https://wcschools.schoology.com/assignment/8633178744', 'Due Friday, November 13 at 8:00 a.m. Central.'],
     ],
     lessons: [
       ['Hachiko · Track the narrator’s perspective', 'Kentaro tells the story in first person. The reader can follow his feelings and see his actions, but must infer what Hachiko feels from what he does. A character can suggest an explanation without proving it.', 'In paragraphs 17–18, Hachiko returns and Kentaro brings him food and water. Kentaro’s repeated actions support the inference that his care has grown. The dog’s return gives evidence of a habit or attachment, while his exact thoughts remain uncertain.'],
       ['SoFi · Explain how the article is built', 'A central idea tells what the whole text explains. An objective summary includes the main idea and key evidence without personal opinion. Ask what each section adds and how the author introduces, develops, or qualifies an idea.', 'The design section describes how SoFi moves and records video. The closing comments explain what researchers still need to test. Together, these sections develop the idea that the robot offers a promising way to observe ocean life and still has limits.'],
-      ['Elephants · Turn a prompt into a thesis', 'Mark the task verb, the subject, and what evidence the prompt asks you to use. Build an introduction with a hook, a bridge, and a thesis. Use the thesis to state two specific points the body paragraphs can explain.', 'A thesis for the elephant article could explain two forms of reassurance: gentle physical contact and changes in vocal behavior. Those points give each body paragraph a job.'],
+      ['Elephants · Turn a prompt into a thesis', 'Mark the task verb, the subject, and what evidence the prompt asks you to use. Build an introduction with a hook, a bridge, and a thesis. For this class, put the thesis in one sentence at the end of the introduction. Answer the prompt directly and give two specific points the body paragraphs can explain.', 'A thesis for the elephant article could explain two forms of reassurance: gentle physical contact and changes in vocal behavior. Those points give each body paragraph a job.'],
       ['Write the body and conclusion', 'Each body paragraph needs a topic sentence, a concrete detail, commentary explaining the detail, and a closing sentence that connects back to the thesis. In the conclusion, restate both thesis points in new words and explain why they matter.', 'One concrete detail is that an observing elephant sometimes touched an upset elephant with its trunk. Commentary explains how that action supports the idea of reassurance. The study describes observed behavior in captive elephants, so keep the claim within what the researchers observed.'],
     ],
     links: [
@@ -25,7 +28,10 @@ const weeklyLessons = {
     title: 'Translate expressions and check your computation',
     readings: [
       ['Open the Expressions Quiz Review', '#unit/EXPR', 'Use the two-page classroom review in Schoology alongside the three practice forms here.'],
-      ['Find Computation 13 and the expressions mystery', 'https://wcschools.schoology.com/course/8432932288/materials', 'In the Week 13 materials, find Computation 13 and Who’s after Mr. X. Pression? Complete the assigned originals in Schoology.'],
+      ['Open Computation 13', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8642069274', 'Practice the fraction, decimal, percent, and ratio problems in the assigned original.'],
+      ['Open Who’s after Mr. X. Pression?', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8642069348', 'Translate each verbal phrase into an expression before eliminating suspects.'],
+      ['Open Lesson 5-3 Practice', 'https://wcschools.schoology.com/external_tool/3586106644/launch', 'Due Friday, November 13 at 11:59 p.m. Central.'],
+      ['Open the Desmos card sort in Schoology', 'https://wcschools.schoology.com/course/8432932288/materials/link/view/8644905703', 'Open the activity from the class link.'],
     ],
     lessons: [
       ['Translate the phrase before calculating', 'Identify the operation and which quantity comes first. A difference starts with the quantity you subtract from. A product uses multiplication. If a phrase groups two operations, use parentheses to show the group.', 'Six less than twice n becomes 2n − 6. Twice the difference between n and six becomes 2(n − 6). Check both with n = 10 to see that they have different values.'],
@@ -43,6 +49,7 @@ const weeklyLessons = {
     title: 'Finish ecology review and preview biome graphs',
     readings: [
       ['Open the 15-item Ecology Study Guide', 'curriculum-2026-11/ecology/index.html#classroom-review', 'Start with the sections you need most. The guide links the teacher’s vocabulary, the three Holt readings, and the symbiosis notes.'],
+      ['Open the Schoology Ecology Test listing', 'https://wcschools.schoology.com/course/8432932346/assessments/8601837165', 'The assessment page does not show a test date. Confirm the date with the teacher before relying on the class agenda.'],
       ['Open the teacher’s Biomes resources folder', 'https://wcschools.schoology.com/course/8432932346/materials?f=1046599680', 'Use the classroom slides when assigned. The graph example below is supplemental practice.'],
       ['NASA · The Great Graph Match', 'https://science.nasa.gov/kids/earth/mission-biomes/graphindex/', 'Compare temperature and precipitation to match a location to a biome.'],
     ],
@@ -58,6 +65,7 @@ const weeklyLessons = {
     title: 'Ancient Egypt · Connect the evidence before the unit test',
     readings: [
       ['Open the assigned Ancient Egypt OER', 'https://wcschools.schoology.com/course/8432932378/materials/gp/8618438022', 'Use the PDF counter. Geography begins on page 3, agriculture on 9, social structure on 15, religion on 20, rulers on 28, achievements on 40, and Egypt and Nubia on 46.'],
+      ['Open the Ancient Egypt Unit Test calendar event', 'https://wcschools.schoology.com/event/8639500846/profile', 'The unit test and notebook check are Friday, November 13.'],
       ['Open the November 13 review and classroom readings', 'curriculum-2026-11/egypt-teaching.html#egypt-unit-review', 'Find the Gallery of Egyptian Rulers, Religion Slides Doodle Notes, and Hieroglyphics Reading.'],
     ],
     lessons: [
