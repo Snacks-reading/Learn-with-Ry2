@@ -4270,6 +4270,14 @@
   ],
   "weeklyPriorities": [
     {
+      "subject": "SCI",
+      "date": "2026-11-13",
+      "title": "Ecology Test",
+      "detail": "Review the 15-item guide and take an Ecology practice test.",
+      "status": "family-confirmed date",
+      "href": "#week/SCI"
+    },
+    {
       "subject": "MATH",
       "date": "2026-11-09",
       "title": "Expressions Vocabulary Review",
@@ -4282,8 +4290,8 @@
       "subject": "SCI",
       "date": "2026-11-10",
       "title": "Ecology vocabulary quiz",
-      "detail": "Review all 33 displayed StudyMate terms. November 10 is from the November 6 newsletter. The Week 13 folder contains older labels and a conflicting notice for the separate Ecology Test.",
-      "status": "newsletter-date; Ecology Test date unconfirmed",
+      "detail": "Review all 33 displayed StudyMate terms. November 10 is from the November 6 newsletter.",
+      "status": "newsletter-date",
       "href": "curriculum-2026-11/ecology/index.html"
     },
     {

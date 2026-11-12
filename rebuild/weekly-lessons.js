@@ -48,13 +48,13 @@ const weeklyLessons = {
     ],
   },
   SCI: {
-    title: 'Finish ecology review and preview biome graphs',
+    title: 'Prepare for the Friday Ecology Test',
     readings: [
-      ['Open the 15-item Ecology Study Guide', 'curriculum-2026-11/ecology/index.html#classroom-review', 'Start with the sections you need most. The guide links the teacher’s vocabulary, the three Holt readings, and the symbiosis notes.'],
-      ['Open the Schoology Ecology Test listing', 'https://wcschools.schoology.com/course/8432932346/assessments/8601837165', 'The assessment page does not show a test date. Confirm the date with the teacher before relying on the class agenda.'],
+      ['Open the 15-item Ecology Study Guide', 'curriculum-2026-11/ecology/index.html#classroom-review', 'For Friday, November 13, answer the 15 review items without notes, then check the topics you missed. The guide links StudyMate for vocabulary.'],
+      ['Open the Schoology Ecology Test listing', 'https://wcschools.schoology.com/course/8432932346/assessments/8601837165', 'Open the classroom assessment listing.'],
       ['PhET · Population Changes Rabbits Lab', 'https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html', 'Open the simulation, then use the rabbit population example below.'],
       ['Open the rabbit lab in Schoology', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837416', 'Use the classroom link to locate the assigned resource.'],
-      ['Open the teacher’s Biomes resources folder', 'https://wcschools.schoology.com/course/8432932346/materials?f=1046599680', 'Use the classroom slides when assigned. The graph example below is supplemental practice.'],
+      ['Open the teacher’s Biomes resources folder', 'https://wcschools.schoology.com/course/8432932346/materials?f=1046599680', 'Use the classroom slides for the biomes unit after Ecology review.'],
       ['NASA · The Great Graph Match', 'https://science.nasa.gov/kids/earth/mission-biomes/graphindex/', 'Compare temperature and precipitation to match a location to a biome.'],
     ],
     lessons: [
@@ -63,6 +63,7 @@ const weeklyLessons = {
       ['Read a biome climate graph', 'Check the title, units, and axes. Compare temperature across the months, then look for the amount and timing of precipitation. Use both patterns before proposing a biome. Look for evidence from the organisms as a second check.', 'A place that stays warm all year and receives substantial rain in most months is consistent with a tropical rainforest. A warm place with very low rainfall has a different climate pattern, even when the temperature looks similar.'],
     ],
     links: [
+      ['Review the 15 Ecology study guide items', 'curriculum-2026-11/ecology/index.html#classroom-review'],
       ['Practice with the three full Ecology tests', 'curriculum-2026-11/ecology/index.html#practice'],
     ],
   },
