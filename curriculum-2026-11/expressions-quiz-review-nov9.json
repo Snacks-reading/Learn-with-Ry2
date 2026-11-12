@@ -4,6 +4,8 @@
   "sourceUrl": "https://wcschools.schoology.com/course/8432932288/materials/gp/8642069407",
   "teach": [
     "An expression is a mathematical phrase. A variable stands for a number. A factor is multiplied, and the coefficient is the numerical factor multiplying a variable. In 6x + 4, 6 is the coefficient, x is the variable, and 6x and 4 are the two terms.",
+    "Friday vocabulary check. In 6n² + 2n + 5 − 4n, which two terms are like terms, and which term is the constant? Say your answers before moving on.",
+    "Check: 2n and −4n are like terms because both have n to the first power. They combine to −2n. The constant is 5. The term 6n² has a different power.",
     "Count terms separated by addition or subtraction at the outermost level. A multiplication, division or power within a term does not split it. In 20 − 2² × 3 + 5, the three terms are 20, −2² × 3, and 5.",
     "In a power, the base is the repeated factor and the exponent tells how often to use it. In (2/3)³, the whole fraction is the base. Multiply the numerator three times and the denominator three times to get 8/27. Likewise 0.2³ = 0.008.",
     "Substitute the given value wherever its variable appears. For an equilateral triangle, perimeter is three times one side. A triangle’s area is half the product of its base and height. Label perimeter with length units and area with square units.",
@@ -369,7 +371,7 @@
     },
     {
       "skill": "review-7",
-      "prompt": "Evaluate 27 ÷ (3² ÷ 2/3) + 2.5.",
+      "prompt": "Evaluate 27 ÷ (3² ÷ (2/3)) + 2.5.",
       "options": [
         "4.5",
         "6.5",
@@ -381,7 +383,7 @@
       "id": "expressions-nov9-A-review-7",
       "repair": {
         "skill": "review-7",
-        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "prompt": "Evaluate 108 ÷ (6² ÷ (2/3)) + 3.5.",
         "options": [
           "5.5",
           "7.5",
@@ -938,7 +940,7 @@
     },
     {
       "skill": "review-7",
-      "prompt": "Evaluate 48 ÷ (4² ÷ 2/3) + 1.75.",
+      "prompt": "Evaluate 48 ÷ (4² ÷ (2/3)) + 1.75.",
       "options": [
         "3.75",
         "5.75",
@@ -950,7 +952,7 @@
       "id": "expressions-nov9-B-review-7",
       "repair": {
         "skill": "review-7",
-        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "prompt": "Evaluate 108 ÷ (6² ÷ (2/3)) + 3.5.",
         "options": [
           "5.5",
           "7.5",
@@ -1507,7 +1509,7 @@
     },
     {
       "skill": "review-7",
-      "prompt": "Evaluate 75 ÷ (5² ÷ 2/3) + 4.25.",
+      "prompt": "Evaluate 75 ÷ (5² ÷ (2/3)) + 4.25.",
       "options": [
         "6.25",
         "8.25",
@@ -1519,7 +1521,7 @@
       "id": "expressions-nov9-C-review-7",
       "repair": {
         "skill": "review-7",
-        "prompt": "Evaluate 108 ÷ (6² ÷ 2/3) + 3.5.",
+        "prompt": "Evaluate 108 ÷ (6² ÷ (2/3)) + 3.5.",
         "options": [
           "5.5",
           "7.5",

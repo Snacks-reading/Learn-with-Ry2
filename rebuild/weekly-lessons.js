@@ -10,7 +10,8 @@ const weeklyLessons = {
       ['Elephants · Open the assigned article', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8644888245', 'Read pages 1–3 before you work on the elephant prompts.'],
       ['Open the explanatory writing notes packet', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8642863904', 'Use page 4 for thesis notes and pages 6–10 to plan and revise the elephant essay.'],
       ['Open the thesis statement exit ticket in Schoology', 'https://wcschools.schoology.com/course/8432932249/materials/link/view/8644128437', 'Review where the thesis goes, how long it should be, what it answers, and what it does.'],
-      ['Open the November 9–13 Spiral Review', 'https://wcschools.schoology.com/assignment/8633178744', 'Due Friday, November 13 at 8:00 a.m. Central.'],
+      ['Open the November 9–13 Spiral Review', 'https://wcschools.schoology.com/assignment/8633178744', 'Due Friday, November 13 at 8:00 a.m. Central. Complete the written response and check My Submissions for a completed attempt. The teacher’s newsletter allows two attempts and keeps the best score.'],
+      ['Find IXL P.2 in the ELA course', 'https://wcschools.schoology.com/course/8432932249/materials', 'Thesis statements are due Friday, November 13. Your teacher’s newsletter lists SmartScore 80 as the target.'],
     ],
     lessons: [
       ['Hachiko · Track the narrator’s perspective', 'Kentaro tells the story in first person. The reader can follow his feelings and see his actions, but must infer what Hachiko feels from what he does. A character can suggest an explanation without proving it.', 'In paragraphs 17–18, Hachiko returns and Kentaro brings him food and water. Kentaro’s repeated actions support the inference that his care has grown. The dog’s return gives evidence of a habit or attachment, while his exact thoughts remain uncertain.'],
@@ -25,9 +26,9 @@ const weeklyLessons = {
     ],
   },
   MATH: {
-    title: 'Translate expressions and check your computation',
+    title: 'Prepare for the Friday Expressions Quiz',
     readings: [
-      ['Open the Expressions Quiz Review', '#unit/EXPR', 'Use the two-page classroom review in Schoology alongside the three practice forms here.'],
+      ['Open the teacher’s two-page Expressions Quiz Review', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8642069407', 'Use this review for the Friday, November 13 quiz. Then try one of the three practice forms below.'],
       ['Open Computation 13', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8642069274', 'Practice the fraction, decimal, percent, and ratio problems in the assigned original.'],
       ['Open Who’s after Mr. X. Pression?', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8642069348', 'Translate each verbal phrase into an expression before eliminating suspects.'],
       ['Open Lesson 5-3 Practice', 'https://wcschools.schoology.com/external_tool/3586106644/launch', 'Due Friday, November 13 at 11:59 p.m. Central.'],
@@ -36,13 +37,14 @@ const weeklyLessons = {
     lessons: [
       ['Translate the phrase before calculating', 'Identify the operation and which quantity comes first. A difference starts with the quantity you subtract from. A product uses multiplication. If a phrase groups two operations, use parentheses to show the group.', 'Six less than twice n becomes 2n − 6. Twice the difference between n and six becomes 2(n − 6). Check both with n = 10 to see that they have different values.'],
       ['Use the structure of an expression', 'Terms are the parts joined by addition or subtraction at the outer level. A coefficient multiplies a variable. In a power, the base is the repeated factor and the exponent tells how many times to use it.', 'In 4x² − 3x + 5, there are three terms. The coefficient of x² is 4, and the coefficient of x is −3. In x², the base is x and the exponent is 2.'],
+      ['Spot like terms and constants', 'Like terms have the same variable part with the same powers. Their coefficients can be different. A constant is a number on its own. Combine like terms by adding their coefficients and keeping the variable part.', 'In 4x² + 3x − x + 7, 3x and −x are like terms. They combine to 2x. The term 4x² stays separate because it has a different power. The constant is 7.'],
       ['Substitute and evaluate', 'Replace each variable with its value. Use grouping first, then powers, then multiplication and division from left to right, then addition and subtraction from left to right. Check the units in a measurement problem.', 'For a triangle with base 12 and height 0.5, its area is ½ × 12 × 0.5 = 3 square units. An equilateral triangle with side length 1.4 has perimeter 3 × 1.4 = 4.2 units.'],
       ['Choose LCM or GCF', 'Use the least common multiple when repeating events next happen together. Use the greatest common factor when making as many identical groups as possible with no leftovers.', 'Events every 6 and 8 minutes next coincide after 24 minutes. If 30 red and 45 blue beads must go into identical kits, 15 kits each get two red and three blue beads.'],
       ['Compute with fractions, decimals, and percents', 'Use common denominators to add or subtract fractions. Multiply by the reciprocal when dividing by a fraction. To divide by a decimal, shift both decimal points equally. Convert a percent by dividing it by 100. For equivalent ratios, multiply or divide both parts by the same factor.', 'For 0.72 ÷ 0.06, multiply both numbers by 100 to get 72 ÷ 6 = 12. For 12.5% of 32, use 12.5% = ⅛ and compute 32 ÷ 8 = 4.'],
     ],
     links: [
-      ['Practice translation and Computation 13 skills', '#unit/MATHWEEK'],
       ['Open the three Expressions Quiz Review forms', '#unit/EXPR'],
+      ['Practice translation and Computation 13 skills', '#unit/MATHWEEK'],
     ],
   },
   SCI: {
@@ -77,8 +79,8 @@ const weeklyLessons = {
       ['Explain what trade connected', 'Read OER pages 46–49 for Egypt and Nubia. Neighboring societies could depend on one another for goods while also competing for power. Look at what moved in each direction.', 'In the assigned reading, Nubia’s gold and Egypt’s grain illustrate interdependence. Each had something the other wanted, so exchange benefited both.'],
     ],
     links: [
-      ['Practice the recent Egypt readings', '#unit/SSEGYPTRVW'],
       ['Open all three whole-unit Egypt tests', '#unit/SS'],
+      ['Practice rulers, religion, mummification, and writing', '#unit/SSEGYPTRVW'],
       ['Recall Mesopotamia and Ancient Israel', '#unit/SSBINDER'],
     ],
   },
