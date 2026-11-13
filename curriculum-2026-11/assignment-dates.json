@@ -1,15 +1,15 @@
 {
   "checked": "2026-11-09",
   "timezone": "America/Chicago",
-  "note": "Week 13 changes from Schoology. Math vocabulary has conflicting dates; the earlier assignment listing is shown. Science quiz retains its newsletter date; the family confirmed the separate Ecology Test for November 13.",
+  "note": "Week 13 changes from Schoology. Math vocabulary has conflicting dates; the earlier assignment listing is shown. Science quiz retains its newsletter date; the November 13 teacher newsletter schedules the separate Ecology Test for November 18.",
   "assignments": [
     {
-      "id": "science-ecology-test-nov13",
+      "id": "science-ecology-test-nov18",
       "subject": "SCI",
       "title": "Ecology Test",
-      "date": "2026-11-13",
+      "date": "2026-11-18",
       "time": null,
-      "source": "Family confirmation on November 12",
+      "source": "November 13 sixth-grade newsletter",
       "sourceUrl": "https://wcschools.schoology.com/course/8432932346/assessments/8601837165"
     },
     {

@@ -48,9 +48,9 @@ const weeklyLessons = {
     ],
   },
   SCI: {
-    title: 'Prepare for the Friday Ecology Test',
+    title: 'Prepare for the Wednesday Ecology Test',
     readings: [
-      ['Open the 15-item Ecology Study Guide', 'curriculum-2026-11/ecology/index.html#classroom-review', 'For Friday, November 13, answer the 15 review items without notes, then check the topics you missed. The guide links StudyMate for vocabulary.'],
+      ['Open the 15-item Ecology Study Guide', 'curriculum-2026-11/ecology/index.html#classroom-review', 'For Wednesday, November 18, answer the 15 review items without notes, then check the topics you missed. The guide links StudyMate for vocabulary.'],
       ['Open the Schoology Ecology Test listing', 'https://wcschools.schoology.com/course/8432932346/assessments/8601837165', 'Open the classroom assessment listing.'],
       ['PhET · Population Changes Rabbits Lab', 'https://phet.colorado.edu/sims/html/natural-selection/latest/natural-selection_all.html', 'Open the simulation, then use the rabbit population example below.'],
       ['Open the rabbit lab in Schoology', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837416', 'Use the classroom link to locate the assigned resource.'],
