@@ -12,13 +12,13 @@ const NOVEMBER_WEEK = {
   },
   datesToKnow: [
     ['Mon, Nov. 16', 'Late start · homeroom at 8:35 a.m. Central'],
-    ['Tue, Nov. 17', 'Math · Lesson 5-5 practice due at 11:59 p.m. Central', 'https://wcschools.schoology.com/external_tool/3587160971/launch'],
+    ['Tue, Nov. 17', 'Math · Lesson 5-5 practice due at 11:59 p.m. Central'],
     ['Wed, Nov. 18', 'Science · Ecology test', '#study/SCI/ecology'],
     ['Thu, Nov. 19', 'Science · Biomes begin', '#study/SCI/biomes'],
-    ['Fri, Nov. 20', 'ELA · Spiral closes at 8:00 a.m. Central', 'https://wcschools.schoology.com/assignment/8633178807'],
+    ['Fri, Nov. 20', 'ELA · Spiral closes at 8:00 a.m. Central'],
     ['Fri, Nov. 20', 'ELA · Explanatory essay parts quiz', '#study/ELA/essay'],
     ['Nov. 30 and Dec. 4', 'Grade 6 Math · Expressions practice test Nov. 30, unit test tentatively Dec. 4', '#study/MATH/expressions'],
-    ['Wed, Dec. 2', 'Social Studies · Ancient Egypt project due', 'https://wcschools.schoology.com/event/8628494582/profile']
+    ['Wed, Dec. 2', 'Social Studies · Ancient Egypt project due']
   ]
 };
 
@@ -30,11 +30,9 @@ const WEEK_TOPICS = {
     title: 'Build an explanatory essay',
     sourceScope: 'Explanatory writing notes packet, pp. 1–10, the elephant article, and the two posted exit tickets.',
     readings: [
-      ['Explanatory writing notes packet', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8642863904', 'Pages 1–5 cover purpose, the prompt and thesis. Pages 6–8 cover the elephant prompt and introduction. Pages 8–10 cover the body and conclusion.'],
-      ['Elephants Comfort Upset Friends', 'https://wcschools.schoology.com/course/8432932249/materials/gp/8644888245', 'Read pp. 1–3. Annotate the physical contact and vocal sounds described under “Intimate Gestures” on p. 2. The reading check is on p. 4.'],
-      ['Thesis statement exit ticket', 'https://wcschools.schoology.com/course/8432932249/materials/link/view/8644128437', 'Review what a thesis does, what it answers, where it goes and how long it should be.'],
-      ['Introduction paragraph exit ticket', 'https://wcschools.schoology.com/course/8432932249/materials/link/view/8648703714', 'Review the purpose of the hook, background information and thesis.'],
-      ['Nov. 16–20 spiral in Schoology', 'https://wcschools.schoology.com/assignment/8633178807', 'Closes Friday, Nov. 20 at 8:00 a.m. Central. The posted quiz screen currently allows one attempt.']
+      ["Explanatory writing notes",null,"An explanatory essay answers a question by making a clear claim about how something works or why it happens. Read the task for the topic, the action word and the evidence it asks for. Write a hook, introduce the source and put a one-sentence thesis at the end of the introduction. Give each thesis point its own body paragraph. Start with a topic sentence, introduce a concrete detail from the source and explain how the detail supports your point. Close by restating the thesis in fresh words and explaining why it matters."],
+      ["Elephant study · reading in our own words",null,"Researchers watching captive Asian elephants observed how members of a group responded when another elephant showed distress. A bystander sometimes approached the distressed elephant and made gentle contact with its trunk, including near the mouth. Other responses included calls such as chirps or rumbles. The researchers could observe the gestures and sounds and relate them to what had just happened. Those observations help explain how the group responded to distress. When you write about this study, keep your claim specific to the elephants the researchers observed."],
+      ["Thesis and introduction · quick check","#check/essay/G","Decide which sentence draws a reader in, which introduces the source, and which directly answers the prompt. Then write your own thesis about the two elephant behaviors."]
     ],
     sections: [
       ['purpose', 'Read the prompt and make a plan',
@@ -67,9 +65,9 @@ const WEEK_TOPICS = {
     title: 'Combine like terms and recognize equivalent expressions',
     sourceScope: 'Regular Grade 6 Math newsletter and completed Expressions Unit Notes, especially pp. 9–14.',
     readings: [
-      ['Completed Expressions Unit Notes', 'https://wcschools.schoology.com/course/8432932288/materials/gp/8641102504', 'Use pp. 1–8 to refresh powers, order of operations, translation and substitution. Work through pp. 9–14 for distributing, factoring, the properties and like terms.'],
-      ['Lesson 5-5 Practice', 'https://wcschools.schoology.com/external_tool/3587160971/launch', 'Schoology lists it as due Tuesday, Nov. 17 at 11:59 p.m. Central.'],
-      ['Expressions Personal Tutors', 'https://wcschools.schoology.com/external_tool/3579152579/launch', 'Look for the class’s Reveal Math videos on the four properties and equivalent expressions.']
+      ["Expressions notes · skills recap",null,"An exponent tells how often to multiply a base by itself. For example, 3³ means 3 × 3 × 3, or 27. When you substitute, write the value in parentheses and follow the order of operations. To simplify an expression, distribute across every term in parentheses and combine terms only when their variable parts match. To factor, divide each term by the greatest common factor and place that factor outside parentheses. Compare simplified expressions to decide if a pair is equivalent."],
+      ["Equivalent expressions · worked practice",null,"Start with 3(2x + 4) − x. Multiply both terms in the group by 3 to get 6x + 12 − x. Combine the x terms to get 5x + 12. Check with x = 2. The original expression gives 3(8) − 2 = 22, and the simplified one gives 10 + 12 = 22. The rewriting shows equivalence for all values. The substitution checks the arithmetic at one value."],
+      ["Equivalent expressions · guided problems","#check/expressions/G","Identify the property or operation before entering your answer."]
     ],
     sections: [
       ['parts', 'Read the parts of an expression',
@@ -100,11 +98,10 @@ const WEEK_TOPICS = {
     title: 'Prepare for the Wednesday Ecology test',
     sourceScope: 'Nov. 13 newsletter, the 15-item Ecology guide, Ecology StudyMate, the classroom review games, and the Week 14 assignments.',
     readings: [
-      ['15-item Ecology study guide', CURRENT_ECOLOGY + '#classroom-review', 'Try every item from memory, then use the worked examples to check your reasoning.'],
-      ['Ecology StudyMate', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837150', 'Use the glossary and then try matching or flash cards. Explain each word in an example.'],
-      ['Ecology study materials in Schoology', 'https://wcschools.schoology.com/course/8432932346/materials?f=1046599683', 'Open the three chapter PDFs, notes and review games together.'],
-      ['Population Changes rabbit lab', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837416', 'Use the simulation to compare rabbit populations with and without predators. Keep the other settings the same.'],
-      ['Ecology review games', 'curriculum-2026-11/classroom-practice.html#ecology', 'Try an original in-app quiz board and vocabulary cards after the guide.']
+      ["15-item Ecology study guide","curriculum-2026-11/ecology/index.html?week=2026-11-16#classroom-review","Recall the answer to each item, then check your explanation against a worked example."],
+      ["Ecology lessons, glossary and guided checks","curriculum-2026-11/ecology/index.html?week=2026-11-16#learn","Review levels of organization, population changes, energy flow and relationships."],
+      ["Population changes · rabbit lab practice",null,"Imagine two trials begin with 20 rabbits and the same amount of food and water. At generation three, the trial with predators has 28 rabbits and the trial without predators has 44. These are example counts. Which trial had more growth? Both populations grew, but the predator trial gained 8 and the other gained 24. Keeping the starting conditions the same helps you test whether predation may explain the difference. Repeat the trials to check whether the pattern holds."],
+      ["Ecology quiz board and vocabulary cards","curriculum-2026-11/classroom-practice.html#ecology","Explain each word in a new example as you review."]
     ],
     sections: [
       ['levels', 'Use the levels of organization',
@@ -112,7 +109,7 @@ const WEEK_TOPICS = {
         'A single frog is an organism. All frogs of its species in a pond make a population. Add fish, plants and insects to describe a community. Include the pond water and available light to describe the ecosystem.'],
       ['limits', 'Explain a change in population',
         'Carrying capacity is the population size an area can support over time. Limiting factors include biotic things such as food or predators and abiotic things such as water or temperature. At or above a limit, birth rates can fall, death rates can rise, or some organisms may leave. Competition happens when organisms need the same limited resource.',
-        'If a drought lowers the amount of drinking water, water becomes a stronger limiting factor. When two species depend on that same water, they may compete. In the rabbit lab, compare population counts at the same generation and use the difference as evidence.'],
+        'If a drought lowers the amount of drinking water, water becomes a stronger limiting factor. When two species depend on that same water, they may compete. In the rabbit practice, compare population counts at the same generation and use the difference as evidence.'],
       ['energy', 'Follow energy and matter',
         'A food chain traces one path and a food web follows several paths. The arrows point from the food to the organism getting its energy. Producers such as green plants use photosynthesis. Primary consumers eat producers, and secondary and tertiary consumers are higher feeding levels. Decomposers break down remains and help recycle matter. About 10 percent of energy passes to the next level in a classroom energy pyramid. The other energy is used in life processes, released as heat, or remains in waste and material that is not eaten.',
         'Start with 5,000 energy units in producers. About 500 reach primary consumers, 50 reach secondary consumers, and 5 reach tertiary consumers. In a leaf to caterpillar to bird chain, arrows point from leaf to caterpillar, then from caterpillar to bird.'],
@@ -129,11 +126,9 @@ const WEEK_TOPICS = {
     title: 'Start the Biomes unit',
     sourceScope: 'Land Biomes slides and the Week 14 class agenda. Marine, freshwater and vocabulary are also available for later review.',
     readings: [
-      ['Teacher’s Land Biomes slides', 'https://wcschools.schoology.com/course/8432932346/materials/link/view/8601837310', 'Use slide 3 to compare locations. Use the later slides to compare forests, grasslands, deserts and tundra.'],
-      ['Biome Digital Notebook', 'https://wcschools.schoology.com/assignment/8601837307', 'The class agenda says to start slides 1–9 and use pp. 94–97 in the green textbook.'],
-      ['Land and aquatic teaching, 22 vocabulary cards and quiz board', 'curriculum-2026-11/classroom-practice.html#biomes', 'Keep this open for the next unit. Use closed-card recall after you read.'],
-      ['Teacher’s biome vocabulary StudyMate', 'https://studymate.com/?id=DjwvjcMd', 'Try a climate clue and an organism clue for each land biome.'],
-      ['NASA Great Graph Match', 'https://science.nasa.gov/kids/earth/mission-biomes/graphindex/', 'Compare precipitation and temperature before making a biome prediction.']
+      ["Biomes · reading and notebook practice",null,"A biome groups places with similar climate and typical life. Make three notebook columns for climate, plants and animals. Compare a tropical rainforest, a temperate deciduous forest and taiga. Start with temperature and precipitation. Then explain how a plant’s features fit those conditions. Broad leaves can collect light in a warm, wet forest. In a seasonal forest, many trees drop their leaves before winter. Needle-shaped leaves help many taiga trees conserve water when liquid water is harder to get."],
+      ["Land and aquatic lessons, vocabulary cards and quiz board","curriculum-2026-11/classroom-practice.html#biomes","Compare forests, grasslands, deserts, tundra, saltwater and freshwater. Try recalling the definitions before you turn each card."],
+      ["Read a climate pattern",null,"Place A stays warm year-round and gets heavy rain in most months. Place B has cold winters and warmer summers. It receives rain in summer and snow in winter. Which clue best separates A from B? Both get precipitation. The temperature pattern tells you that A is warm all year while B has strong seasons. Use temperature and precipitation together when choosing a biome."]
     ],
     sections: [
       ['climate', 'Read climate clues on a map or climograph',
@@ -155,16 +150,17 @@ const WEEK_TOPICS = {
     title: 'How geography shaped Ancient India',
     sourceScope: 'The Nov. 13 newsletter introduces India. This lesson uses the WCS OER geography and early settlement sections, pp. 162–169.',
     readings: [
-      ['WCS Ancient History OER', 'https://wcschools.schoology.com/course/8432932378/materials/gp/8593922445', 'PDF pp. 162–164 cover geography, climate and vocabulary. Figure 1 on p. 162 is the region map. On p. 163 compare the map and monsoon figure, then use the notebook organizer. Pages 166–169 introduce the Harappan cities.'],
-      ['Ancient Egypt project directions', 'https://wcschools.schoology.com/course/8432932378/materials/gp/8628424742', 'Use the class slides for project requirements. Schoology lists the project due Wednesday, Dec. 2.']
+      ["Ancient India · geography reading",null,"Picture north at the top. The Himalayas sit above the northern plains. The Indus lies toward the northwest and flows toward the Arabian Sea. Farther east, the Ganges crosses the northern plains and its river system reaches the Bay of Bengal. The Indian Ocean lies south of the subcontinent. Rivers bring water for crops and floods can leave fertile silt. Summer monsoon winds bring moist air from the ocean and rain to many farming regions. Too much rain can flood fields and too little can reduce harvests."],
+      ["Early cities · read the archaeological evidence",null,"Harappa and Mohenjo-Daro were major Indus civilization cities. Archaeologists found planned streets, wells, drains and baked bricks of regular sizes. These finds suggest people coordinated construction. Standard weights helped people measure goods. Seals and goods found far from the Indus give clues about contact with other regions. The writing on the seals remains undeciphered, so archaeologists use objects and buildings to build explanations they can check."],
+      ["Ancient Egypt project deadline",null,"The class project is due Wednesday, Dec. 2. Use the teacher’s project directions for the required format and submission."]
     ],
     sections: [
       ['map', 'Locate the main land and water features',
-        'A subcontinent is a large part of a continent separated in part by physical features. On the classroom map, start with the Himalayas along the northern edge and the Indian Ocean to the south. Find the Indus River in the northwest of the subcontinent and the Ganges farther east across the northern plains. Follow the Indus toward the Arabian Sea and the Ganges system toward the Bay of Bengal.',
+        'A subcontinent is a large part of a continent separated in part by physical features. When you sketch the region, start with the Himalayas along the northern edge and the Indian Ocean to the south. Find the Indus River in the northwest of the subcontinent and the Ganges farther east across the northern plains. Follow the Indus toward the Arabian Sea and the Ganges system toward the Bay of Bengal.',
         'To check a map clue such as “a river system east of the Indus,” begin at the Himalayas, look across the northern plain to the east, then trace the Ganges toward the Bay of Bengal. India and Pakistan are modern countries and ancient cities can fall on either side of present-day borders.'],
       ['rivers', 'Connect a physical feature to farming and settlement',
         'A plain is a broad area of mostly flat land. A river system includes its main river and streams that flow into it. Snow and ice melt help feed major South Asian rivers. Floods can spread fine sediment called silt, helping make soil fertile. Extra food, or surplus, can support growing settlements, trade and specialized jobs.',
-        'Early people farmed along the Indus and established large cities there. The Ganges watered another broad region of fertile farmland farther east. On p. 163, use the organizer to pair each geographical fact with evidence for its effect on people.'],
+        'Early people farmed along the Indus and established large cities there. The Ganges watered another broad region of fertile farmland farther east. Pair one geographical feature with evidence for its effect on where people settled.'],
       ['monsoon', 'Explain the importance of seasonal winds',
         'A monsoon is a seasonal change in winds. Moist summer winds blowing from over the ocean bring much of the rain that farmers need. The winter pattern is typically drier. Rain can help crops grow, while too little rain can cause drought and unusually heavy rain can flood fields and settlements.',
         'A farmer can plan planting around the wetter season. A late monsoon may leave soil too dry to plant on time. Connect the wind direction to rainfall and then to farming to explain the entire chain.'],
@@ -178,8 +174,8 @@ const WEEK_TOPICS = {
     title: 'Tell a story with movement and music',
     sourceScope: 'Music for Mimes classroom playlist and an original pantomime rehearsal.',
     readings: [
-      ['Music for Mimes · classroom playlist', 'https://wcschools.schoology.com/course/8432933229/materials/link/view/8628567219', 'Choose from the teacher’s 18-slide collection. Beethoven’s Fifth is on slide 2, Waltz of the Flowers on slide 3, and the instrumental Toy Story track on slide 13.'],
-      ['University of Hawaiʻi · Pantomime', 'https://coe.hawaii.edu/creative-arts-strategies/modules/pantomime/', 'Use this supplemental activity to practice gesture, movement and facial expression.']
+      ["Music for Mimes · rehearsal you can do here",null,"Tap four slow, even beats, then give two quick claps and pause. Repeat the pattern while a partner mimes lifting a heavy box. On the slow beats, they reach, grip and lift. The quick claps cue the box slipping. The pause gives them time to freeze and show surprise. Switch roles and change the cue. Ask your partner to tell you what happened before you explain the scene."],
+      ["Movement, sound and expression",null,"Tempo is the speed of the beat. Dynamics describe how loud or soft a sound is. A cue is a signal to change what you do. Try the same scene with a softer clap and a faster beat. Keep the imaginary box the same size and show how the character reacts through posture, face and movement."]
     ],
     sections: [
       ['gesture', 'Give your invisible object a place and a size',

@@ -85,14 +85,20 @@ function renderWeekLesson(main, subjectId, topicId) {
     };
   }
   const learn = add(main, 'section', undefined, 'readings-panel panel');
-  const heading = add(learn, 'h2', 'Readings and classroom materials');
+  const heading = add(learn, 'h2', 'Readings and activities');
   heading.id = 'lesson-readings';
   heading.tabIndex = -1;
   const readings = add(learn, 'ul', undefined, 'reading-list');
   for (const [label, url, instruction] of topic.readings) {
     const item = add(readings, 'li');
-    link(item, label, url);
+    if (url) link(item, label, url);
+    else add(item, 'h3', label);
     add(item, 'p', instruction);
+    if (!url) {
+      const listen = add(item, 'button', 'Read aloud', 'secondary');
+      listen.type = 'button';
+      listen.onclick = () => speak(label + '. ' + instruction);
+    }
   }
   const examples = add(main, 'section');
   const examplesTitle = add(examples, 'h2', 'Learn with worked examples');
