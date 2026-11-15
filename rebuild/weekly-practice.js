@@ -232,9 +232,13 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
       };
     } else {
       const feedback = add(wrap, 'section', undefined, 'feedback');
-      const message = (value === question.answer ? 'Correct. ' : 'Review this idea. ') + question.rationale;
+      const correct = value === question.answer;
+      const waitingForRepair = !repair && !correct;
+      const message = waitingForRepair
+        ? 'Not yet. Try the fresh second question below before opening the explanation.'
+        : (correct ? 'Correct. ' : 'The second try is complete. ') + question.rationale;
       add(feedback, 'p', message);
-      const read = add(feedback, 'button', 'Read feedback', 'secondary');
+      const read = add(feedback, 'button', waitingForRepair ? 'Read next step' : 'Read feedback', 'secondary');
       read.onclick = () => speak(message);
     }
   }
@@ -244,20 +248,25 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
   let toRead = item;
   let toReadOrder = order;
   if (selected !== undefined) {
+    let secondTryComplete = true;
     if (selected !== item.answer) {
-      link(add(wrap, 'p'), 'Review the worked example', studyLink + '/' + item.skill.section);
-      if (form !== 'G' && !form.startsWith('R')) {
-        const repair = toWeeklyItem(item.skill, item.id + '-repair', item.skill.variants[3]);
-        const repairOrder = attempt.orders[repair.id] ??= RyChoiceLayout.orders([repair])[repair.id];
-        persistWeekRecords(records);
-        add(wrap, 'h3', 'Try a fresh question');
-        showQuestion(repair, repairOrder, attempt.repairs[repair.id], true);
-        toRead = repair;
-        toReadOrder = repairOrder;
+      const repair = toWeeklyItem(item.skill, item.id + '-repair', item.skill.variants[3]);
+      const repairOrder = attempt.orders[repair.id] ??= RyChoiceLayout.orders([repair])[repair.id];
+      const repairValue = attempt.repairs[repair.id];
+      secondTryComplete = repairValue !== undefined;
+      persistWeekRecords(records);
+      add(wrap, 'h3', 'Try a fresh second question');
+      showQuestion(repair, repairOrder, repairValue, true);
+      toRead = repair;
+      toReadOrder = repairOrder;
+      if (secondTryComplete) {
+        link(add(wrap, 'p'), 'Review the worked example', studyLink + '/' + item.skill.section);
       }
     }
-    const next = nextIndex === -1 || index + 1 >= items.length ? base : base + '/' + (index + 1);
-    link(wrap, nextIndex === -1 ? 'See results' : 'Next question', next, 'button');
+    if (secondTryComplete) {
+      const next = nextIndex === -1 || index + 1 >= items.length ? base : base + '/' + (index + 1);
+      link(wrap, nextIndex === -1 ? 'See results' : 'Next question', next, 'button');
+    }
   }
   link(wrap, 'Save and leave practice', home, 'button secondary');
   document.getElementById('read').textContent = 'Read question and choices';
