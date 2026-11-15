@@ -33,3 +33,15 @@ This entry describes the current focused releases. The earlier interface-only st
 | Theater | Recovered Music for Mimes has 18 slides with text and media descriptions. No scored question bank exists. | Full track playback and an assessment prompt or rubric. |
 
 Newly arranged single-answer sets spread keys across the available positions and reject three identical letters in a row and repeated short sequences. Grouping is by number of choices. New Science runs and new GitHub lesson stages save their order. Saved responses retain their original choice mapping. The private grader accepts the order version displayed by the browser, including the earlier order from tabs open during deployment. Egypt paired retries include the both-wrong alternative to remove a structural clue. Automated checks exercise current forms, correct-text remapping, first-answer preservation and private scoring with synthetic accounts. These checks do not certify unseen classroom sources, phone audio or a signed-in learner session.
+
+
+## November 15 source and current-week reconciliation
+
+- Verified the complete text of the Land Biomes (18 slides), Marine Ecosystems (5 slides), and Freshwater Ecosystems (8 slides) decks and all 22 entries in the classroom Biomes StudyMate.
+- Opened all 20 identified Science, ELA, and Social Studies Kahoots and reviewed all 411 question positions. The audit found 27 wrong as written, 14 ambiguous, 62 needing precision revisions, 14 copyedits, 17 passing with context, and 277 passing without a recorded issue. Current parallel practice avoids the documented key and wording defects; the classroom games themselves were not changed.
+- Published the November 16–20 lessons as in-app teaching for ELA explanatory writing, Math expressions, Science ecology and biomes, Social Studies Ancient India, and Theatre mime. Restricted originals remain source references rather than redistributed files.
+- Added fresh device-local weekly scoring under `learn-with-ry:2026-11-16`; earlier records remain in prior-week storage.
+- Corrected missed-question feedback so a wrong first answer does not expose the rationale. Every missed current-week item now requires a fresh second question. The explanation and worked-example link appear only after that second response; the immutable first answer remains the scored evidence.
+- JavaScript syntax validation passed for the revised practice file. The GitHub Pages build must pass before the change is called deployed.
+
+Open limits: the Biomes STEMscopedia provider reported that the site was no longer available; exact publisher-only Math questions and Personal Tutors remain unread; Flocabulary content is not fully recovered; Theatre embedded-track playback and a teacher rubric remain unverified; gradebook, missing/zero status, and the complete all-folder census are not certified by this release.
