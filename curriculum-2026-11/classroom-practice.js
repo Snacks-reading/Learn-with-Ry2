@@ -53,7 +53,7 @@ const practiceSets = {
     }
   },
   biomes: {
-    // Classroom Land Biomes slides 2–18, including the supplied captures of slides 10–18.
+    // Land Biomes (18 slides), Marine Ecosystems (5), Freshwater Ecosystems (8) and Unit 6 Biome Vocab.
     title: 'Land biomes and climate clues',
     lesson: [
       'A biome is a large region recognized by its climate and typical living things. One biome can contain many ecosystems. For example, a rainforest canopy and its forest floor receive different amounts of light.',
@@ -62,9 +62,44 @@ const practiceSets = {
       'Grasslands are dominated by grasses and have relatively few trees. Prairie, steppe and pampas are names used for grasslands in different regions. In temperate grasslands, drought, fire and grazing can limit the spread of trees and shrubs. The classroom example receives about 25–75 centimeters of rain a year. Savannas are grasslands with scattered trees and distinct wet and dry seasons. Deep roots help some savanna grasses reach water during the dry season.',
       'Deserts receive very little precipitation. Many hot deserts have hot days and cooler nights, so some animals are active after dark. A jackrabbit’s large ears can release body heat. Kangaroo rats obtain water from food and metabolism and conserve it. Some desert plants have shallow, widely spread roots that collect brief rainfall and a waxy coating that slows water loss.',
       'Tundra is cold and treeless. Polar tundra occurs at high latitudes. In many polar tundra areas, the surface layer can thaw during summer above permafrost, ground that remains frozen for at least two consecutive years. Shallow roots help plants grow in that thin layer. Alpine tundra is found on high mountains above the tree line, the elevation beyond which upright trees cannot grow. High elevation can produce tundra conditions far from the poles.',
+      'Use the world biome map to connect location and climate. Tropical rainforests cluster near the equator, and polar tundra appears at high latitudes. In a climograph, compare temperatures month by month and look at both the amount and the season of precipitation.',
+      'Marine ecosystems are shaped by water temperature, depth and sunlight. Surface water is generally warmer near the equator, and deeper water often receives less light. Photosynthetic plankton support many marine food webs. An estuary mixes river water with seawater, so its organisms must tolerate changing salinity. Many reef-building corals thrive in warm, shallow water. Their hard skeletons build up over time.',
+      'In streams and rivers, water speed is an abiotic factor. Moss and algae can attach to rocks, and some insects shelter underneath. Freshwater wetlands can hold floodwater. Marshes are usually dominated by grasses and other soft-stemmed plants, while swamps are dominated by woody plants. Over time sediment can fill shallow water, allowing wetland plants to spread. As the habitat changes, the organisms that can live there may change too.',
       'Try this comparison. A region with grasses, scattered trees and a wet season followed by a long dry season fits a savanna. A treeless mountaintop above the tree line fits alpine tundra. Notice how vegetation helps in both cases, and how seasonal rainfall or elevation gives you the deciding clue.'
     ],
+    vocabulary: [
+      ['Aquatic biome', 'A water-based biome. Examples include freshwater rivers and marine oceans.'],
+      ['Biodiversity', 'The variety of living things in an area.'],
+      ['Biome', 'A large region with a similar climate and typical plants and animals.'],
+      ['Climate', 'The long-term weather patterns of a place.'],
+      ['Climograph', 'A graph that usually shows a place’s monthly temperature and precipitation.'],
+      ['Coniferous forest', 'A forest dominated by cone-bearing trees. A cold northern type is called taiga.'],
+      ['Desert', 'A region with very low precipitation. Deserts can be hot or cold.'],
+      ['Disperse', 'To spread or scatter from one place to others.'],
+      ['Emigrate', 'To move out of an area to live elsewhere.'],
+      ['Estuary', 'A coastal area where river water mixes with seawater.'],
+      ['Grassland', 'A region dominated by grasses, with relatively few trees.'],
+      ['Immigrate', 'To move into an area to live there.'],
+      ['Keystone species', 'A species with a large effect on its ecosystem compared with how common it is.'],
+      ['Marsh', 'A wetland dominated by grasses and other soft-stemmed plants.'],
+      ['Plankton', 'Organisms that drift in freshwater or seawater. Many are microscopic.'],
+      ['Rain forest', 'A forest with high rainfall. Rain forests can occur in tropical or temperate climates.'],
+      ['Savanna', 'A grassland with scattered trees and distinct wet and dry seasons.'],
+      ['Swamp', 'A wetland dominated by trees or shrubs.'],
+      ['Temperate deciduous forest', 'A forest with distinct seasons and many trees that shed leaves seasonally.'],
+      ['Terrestrial biome', 'A land-based biome with characteristic climate, plants and animals.'],
+      ['Tundra (alpine)', 'A cold, treeless biome found on high mountains above the tree line.'],
+      ['Tundra (polar)', 'A cold, treeless biome at high latitudes where permafrost is common.']
+    ],
     categories: {
+      'Aquatic ecosystems': [
+        ['A river meets the ocean and salinity changes with the tide. Which ecosystem is this?', 'Estuary', 'Alpine tundra', 'Temperate grassland', 'Estuaries form where freshwater mixes with seawater.'],
+        ['What helps some organisms stay in place in a swift stream?', 'Attaching to rocks', 'Floating freely near the surface', 'Growing far above the water', 'Attachment helps resist the force of moving water.'],
+        ['Which clue distinguishes a swamp from a marsh?', 'Trees and shrubs dominate a swamp', 'A swamp always has salt water', 'A marsh always has deeper water', 'A swamp is a woody wetland, while a marsh is usually dominated by soft-stemmed plants.'],
+        ['Why are many coral reefs found in shallow water?', 'Shallow water allows more sunlight to reach the reef', 'Shallow water stays frozen most of the year', 'Shallow water has no plant or animal life', 'Sunlight helps the algae that live with many reef-building corals.'],
+        ['What do photosynthetic plankton contribute to marine food webs?', 'They produce food that supports consumers', 'They eliminate the need for sunlight', 'They make the ocean fresh', 'Photosynthetic plankton capture light energy near the surface.'],
+        ['How can a wetland help during heavy rain?', 'Store some floodwater and slow its movement', 'Stop rain from falling on the watershed', 'Prevent all water from entering the soil', 'Wetlands can hold water and release it gradually.']
+      ],
       'Climate clues': [
         ['Which measurements should you compare first to identify a biome?', 'Temperature and precipitation', 'Longitude and elevation alone', 'Wind direction and moon phase', 'Temperature and precipitation describe the climate patterns that help distinguish biomes.'],
         ['A forest is very wet, cool, and has a short, drier summer. Which biome fits best?', 'Temperate rainforest', 'Tropical rainforest', 'Tropical desert', 'Cool temperatures plus heavy precipitation support a temperate rainforest.']
@@ -210,6 +245,15 @@ add(main, 'h1', set.title);
 const lesson = add(main, 'section', '');
 add(lesson, 'h2', 'Read the lesson');
 set.lesson.forEach(paragraph => add(lesson, 'p', paragraph));
+if (set.vocabulary) {
+  const glossary = add(lesson, 'details', '');
+  add(glossary, 'summary', 'Biome glossary · ' + set.vocabulary.length + ' terms');
+  const terms = add(glossary, 'dl', '');
+  for (const [word, definition] of set.vocabulary) {
+    add(terms, 'dt', word);
+    add(terms, 'dd', definition);
+  }
+}
 const cards = add(main, 'section', '');
 add(cards, 'h2', 'Flash cards');
 const questions = Object.values(set.categories).flat();
