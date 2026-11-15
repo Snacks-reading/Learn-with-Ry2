@@ -8,11 +8,10 @@ window.renderVerifiedLesson = function(main, id) {
   const work=state.lessonWork[key];
   const names=['Teach','Guided practice','Independent application','Assessment','Retention'];
   const stageKey=['teach','guided','independent','assessment','retention'][work.stage];
-  const redraw=()=>{stopAudio();main.replaceChildren();window.renderVerifiedLesson(main,id);save();};
+  const redraw=()=>{stopAudio();main.replaceChildren();window.renderVerifiedLesson(main,id);syncNarration();save();};
   intro(main,lesson.subject+' · Classroom-aligned lesson',lesson.title);
   add(main,'p',lesson.scopeStatus,'muted');
   const stages=add(main,'ol',undefined,'path');names.forEach((s,i)=>add(stages,'li',(i===work.stage?'Current · ':'')+s));
-  setRecordedLesson(work.stage===0?lesson.id:undefined);
   if(work.stage===0){
     document.getElementById('read').textContent='Read this lesson';
     lesson.teach.forEach(t=>add(main,'p',t));

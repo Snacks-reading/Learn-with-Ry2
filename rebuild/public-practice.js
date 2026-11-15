@@ -32,7 +32,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     panel.replaceChildren();
     add(panel, 'p', subject === 'SS' ? 'Practice on the Egypt material reviewed from class.' : unit.scope);
     add(panel, 'p', 'First answers and progress save only in this browser. Earlier private records are not imported into this public reset.');
-    if (spec.week) link(panel, 'Read this week’s lesson', '#week/' + spec.subject);
+    if (spec.week) link(panel, 'Read this week’s lesson', '#week/2026-11-09/' + spec.subject);
     else link(panel, 'More teaching and public resources', '#bridge/' + (spec.subject ?? subject));
     if (unit.sourceUrl) link(add(panel, 'p'), 'Open the teacher’s review in Schoology', unit.sourceUrl);
     const base = '#unit/' + subject;
@@ -59,7 +59,7 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
       }
       const links = add(panel, 'div', undefined, 'grid');
       Object.entries(forms).forEach(([name, items]) => link(links, 'Practice ' + name + ' · ' + items.length + ' questions', base + '/' + name, 'button'));
-      readingText = main.innerText;
+      readingText = main.innerText; syncNarration();
       return;
     }
     const original = forms[form];
@@ -90,12 +90,12 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
       const correct = items.filter(item => attempt.answers[item.id] === item.answer).length;
       add(panel, 'p', correct + ' of ' + items.length + ' first answers correct.');
       items.forEach((item, index) => link(add(panel, 'p'), (attempt.answers[item.id] === item.answer ? 'Correct' : 'Review') + ' · ' + item.prompt, base + '/' + form + '/' + index));
-      readingText = main.innerText;
+      readingText = main.innerText; syncNarration();
       return;
     }
     if (!Number.isInteger(slot) || slot < 0 || slot >= items.length || (first !== -1 && slot > first)) {
       link(panel, 'Resume at the next unanswered question', base + '/' + form, 'button');
-      readingText = main.innerText;
+      readingText = main.innerText; syncNarration();
       return;
     }
     const item = items[slot];
@@ -143,6 +143,8 @@ function renderPublicPractice(main, subject, form, requestedIndex, routeKey) {
     const readItem = Object.hasOwn(attempt.answers, item.id) && attempt.answers[item.id] !== item.answer && item.repair?.options ? item.repair : item;
     readingText = readItem.prompt + '. ' + attempt.orders[readItem.id].map((i, position) =>
       String.fromCharCode(65 + position) + '. ' + readItem.options[i]).join('. ');
+    document.getElementById('read').textContent = 'Read question and choices';
+    syncNarration();
   }).catch(() => {
     if (!panel.isConnected) return;
     panel.replaceChildren();

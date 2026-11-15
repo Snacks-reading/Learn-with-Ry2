@@ -111,18 +111,21 @@ const weeklyLessons = {
 
 function renderWeeklyLessons(main, subject) {
   if (!Object.hasOwn(weeklyLessons, subject)) {
-    intro(main, 'November 11', 'This week’s lessons', 'Choose a subject to find the readings, worked examples and practice.');
+    intro(main, 'November 9–13', 'Previous week’s lessons', 'Choose a subject to find the readings, worked examples and practice.');
+    weekTabs(main, 'previous');
     const grid = add(main, 'div', undefined, 'grid');
     for (const [id, lesson] of Object.entries(weeklyLessons)) {
       const card = add(grid, 'section', undefined, 'card');
       add(card, 'h2', SUBJECTS[id].name);
-      link(card, lesson.title, '#week/' + id, 'button');
+      link(card, lesson.title, '#week/2026-11-09/' + id, 'button');
     }
     return;
   }
   const lesson = weeklyLessons[subject];
+  readingText = [lesson.title, ...lesson.lessons.flat()].join('. ');
+  document.getElementById('read').textContent = 'Read this lesson';
   intro(main, SUBJECTS[subject].name, lesson.title);
-  link(main, 'All five subjects', '#week');
+  link(main, 'All five subjects', '#week/2026-11-09');
   const readingPanel = add(main, 'section', undefined, 'panel');
   add(readingPanel, 'h2', 'Find the readings and materials');
   const readings = add(readingPanel, 'ul');
