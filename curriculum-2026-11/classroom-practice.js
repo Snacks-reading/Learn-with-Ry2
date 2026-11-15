@@ -53,11 +53,16 @@ const practiceSets = {
     }
   },
   biomes: {
+    // Classroom Land Biomes slides 2–18, including the supplied captures of slides 10–18.
     title: 'Land biomes and climate clues',
     lesson: [
       'A biome is a large region recognized by its climate and typical living things. One biome can contain many ecosystems. For example, a rainforest canopy and its forest floor receive different amounts of light.',
       'Compare both temperature and precipitation before naming a biome. Temperate deciduous trees drop their leaves seasonally. Many conifers have waxy needles and bear cones. Tropical rainforests stay warm and wet. Temperate rainforests can also be very wet, with cooler temperatures.',
-      'High biodiversity means many kinds of organisms. In a tropical rainforest, many species live in the canopy. Plants can grow densely even where soil is poor because nutrients cycle rapidly through living and decaying material.'
+      'High biodiversity means many kinds of organisms. In a tropical rainforest, many species live in the canopy. Plants can grow densely even where soil is poor because nutrients cycle rapidly through living and decaying material. Temperate rainforests can support conifers, maples and ferns. Black bears and salamanders are two examples from the classroom slides.',
+      'Grasslands are dominated by grasses and have relatively few trees. Prairie, steppe and pampas are names used for grasslands in different regions. In temperate grasslands, drought, fire and grazing can limit the spread of trees and shrubs. The classroom example receives about 25–75 centimeters of rain a year. Savannas are grasslands with scattered trees and distinct wet and dry seasons. Deep roots help some savanna grasses reach water during the dry season.',
+      'Deserts receive very little precipitation. Many hot deserts have hot days and cooler nights, so some animals are active after dark. A jackrabbit’s large ears can release body heat. Kangaroo rats obtain water from food and metabolism and conserve it. Some desert plants have shallow, widely spread roots that collect brief rainfall and a waxy coating that slows water loss.',
+      'Tundra is cold and treeless. Polar tundra occurs at high latitudes. In many polar tundra areas, the surface layer can thaw during summer above permafrost, ground that remains frozen for at least two consecutive years. Shallow roots help plants grow in that thin layer. Alpine tundra is found on high mountains above the tree line, the elevation beyond which upright trees cannot grow. High elevation can produce tundra conditions far from the poles.',
+      'Try this comparison. A region with grasses, scattered trees and a wet season followed by a long dry season fits a savanna. A treeless mountaintop above the tree line fits alpine tundra. Notice how vegetation helps in both cases, and how seasonal rainfall or elevation gives you the deciding clue.'
     ],
     categories: {
       'Climate clues': [
@@ -67,7 +72,26 @@ const practiceSets = {
       'Plants and habitats': [
         ['Which forest has many trees that drop their broad leaves each fall?', 'Temperate deciduous forest', 'Tropical rainforest', 'Coniferous forest', 'Deciduous trees lose their leaves seasonally.'],
         ['Which leaf feature helps many conifers limit water loss?', 'A waxy coating on needles', 'Broad, thin leaves', 'Flowers that stay open all winter', 'Waxy needles help reduce water loss.'],
-        ['What is the treetop layer of a rainforest called?', 'Canopy', 'Forest floor', 'Root zone', 'The canopy is the leafy upper layer formed by the crowns of trees.']
+        ['What is the treetop layer of a rainforest called?', 'Canopy', 'Forest floor', 'Root zone', 'The canopy is the leafy upper layer formed by the crowns of trees.'],
+        ['Which group of plants was shown for temperate rainforests?', 'Conifers, maples and ferns', 'Cacti, agaves and yuccas', 'Prairie grasses with almost no trees', 'Temperate rainforests can support conifers, broadleaf trees and ferns.']
+      ],
+      'Grasslands and savannas': [
+        ['Which clue fits both a prairie and a savanna?', 'Grasses dominate the landscape', 'A closed tree canopy covers the ground', 'The soil stays frozen beneath the surface', 'Both are grasslands. Savannas often also have scattered trees.'],
+        ['What can keep trees from taking over a temperate grassland?', 'Drought, fire and grazing', 'Constant rainfall and deep shade', 'Ground that stays frozen year-round', 'Drought, fire and grazing can limit woody growth and favor grasses.'],
+        ['A warm grassland has scattered trees and a long dry season. Which biome fits?', 'Savanna', 'Temperate rainforest', 'Polar tundra', 'Scattered trees and distinct wet and dry seasons are savanna clues.'],
+        ['Why can deep roots help a savanna grass in the dry season?', 'They can reach water deeper underground', 'They block the wet season from arriving', 'They make the air cooler every night', 'Water can remain deeper in the soil after the surface dries.']
+      ],
+      'Desert adaptations': [
+        ['What climate clue best identifies a desert?', 'Very little precipitation', 'Hot days throughout every season', 'Cooler nights than days', 'Deserts are defined by dryness. Temperature alone does not identify one.'],
+        ['Why might a desert animal leave its burrow at night?', 'To be active when it is cooler', 'To find sunlight for photosynthesis', 'To avoid the colder ground all day', 'Night activity can reduce exposure to daytime heat.'],
+        ['Which adaptation helps a jackrabbit release heat?', 'Large ears', 'A waxy leaf surface', 'Deep roots', 'Blood near the surface of the ears can lose heat to the air.'],
+        ['How do shallow, widespread roots help some desert plants?', 'They collect water from brief rain near the surface', 'They produce rain by cooling the air', 'They keep sunlight from reaching nearby plants', 'A broad, shallow root system can capture rain before it evaporates or drains away.']
+      ],
+      'Polar and alpine tundra': [
+        ['The surface thaws in summer, but the ground underneath stays frozen for years. What is that deeper ground called?', 'Permafrost', 'A canopy', 'A grassland', 'Permafrost remains frozen for at least two consecutive years.'],
+        ['Which root system best fits a thin layer of soil that thaws in summer?', 'Shallow roots that spread in the thawed layer', 'Roots that require deep soil to thaw all year', 'Roots that need permanent warm water', 'Shallow roots use the thin layer above the frozen ground.'],
+        ['Which clue distinguishes alpine tundra from polar tundra?', 'It occurs high on mountains above the tree line', 'It must occur near a pole', 'It has a continuous canopy of trees', 'Alpine tundra is caused by high elevation. Polar tundra is found at high latitudes.'],
+        ['What does the tree line mark on a mountain?', 'The elevation beyond which upright trees cannot grow', 'The lowest point reached by all streams', 'The edge of the summer rain season', 'Conditions above the tree line are too harsh for upright trees.']
       ]
     }
   },
