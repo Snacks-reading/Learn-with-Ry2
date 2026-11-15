@@ -22,6 +22,7 @@ const weeklyLessons = {
     links: [
       ['Open the Hachiko lesson and checks', '#lesson/ela_hachiko_story_20261106'],
       ['Open explanatory writing and saved practice', '#lesson/ela_explanatory_writing_20261106'],
+      ['Practice explanatory essays with flash cards and a quiz board', 'curriculum-2026-11/classroom-practice.html#writing'],
       ['Practice reading and writing skills', '#unit/ELAWEEK'],
     ],
   },
@@ -44,6 +45,7 @@ const weeklyLessons = {
     ],
     links: [
       ['Open the three Expressions Quiz Review forms', '#unit/EXPR'],
+      ['Practice Expressions vocabulary and properties in Learn With Ry', 'curriculum-2026-11/classroom-practice.html#expressions'],
       ['Practice translation and Computation 13 skills', '#unit/MATHWEEK'],
     ],
   },
@@ -64,6 +66,7 @@ const weeklyLessons = {
     ],
     links: [
       ['Review the 15 Ecology study guide items', 'curriculum-2026-11/ecology/index.html#classroom-review'],
+      ['Learn land biomes and practice with flash cards', 'curriculum-2026-11/classroom-practice.html#biomes'],
       ['Practice with the three full Ecology tests', 'curriculum-2026-11/ecology/index.html#practice'],
     ],
   },
@@ -80,6 +83,8 @@ const weeklyLessons = {
       ['Explain what trade connected', 'Read OER pages 46–49 for Egypt and Nubia. Neighboring societies could depend on one another for goods while also competing for power. Look at what moved in each direction.', 'In the assigned reading, Nubia’s gold and Egypt’s grain illustrate interdependence. Each had something the other wanted, so exchange benefited both.'],
     ],
     links: [
+      ['Learn how geography shaped Ancient India', 'curriculum-2026-11/classroom-practice.html#india'],
+      ['Play the Ancient Egypt quiz board and review flash cards', 'curriculum-2026-11/classroom-practice.html#egypt'],
       ['Open all three whole-unit Egypt tests', '#unit/SS'],
       ['Practice rulers, religion, mummification, and writing', '#unit/SSEGYPTRVW'],
       ['Recall Mesopotamia and Ancient Israel', '#unit/SSBINDER'],
