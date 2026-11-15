@@ -23,6 +23,7 @@ const weeklyLessons = {
       ['Open the Hachiko lesson and checks', '#lesson/ela_hachiko_story_20261106'],
       ['Open explanatory writing and saved practice', '#lesson/ela_explanatory_writing_20261106'],
       ['Practice explanatory essays with flash cards and a quiz board', 'curriculum-2026-11/classroom-practice.html#writing'],
+      ['Review compound and complex sentences', 'curriculum-2026-11/classroom-practice.html#sentences'],
       ['Practice reading and writing skills', '#unit/ELAWEEK'],
     ],
   },
@@ -67,6 +68,7 @@ const weeklyLessons = {
     links: [
       ['Review the 15 Ecology study guide items', 'curriculum-2026-11/ecology/index.html#classroom-review'],
       ['Learn land biomes and practice with flash cards', 'curriculum-2026-11/classroom-practice.html#biomes'],
+      ['Play Ecology Jeopardy and review vocabulary cards', 'curriculum-2026-11/classroom-practice.html#ecology'],
       ['Practice with the three full Ecology tests', 'curriculum-2026-11/ecology/index.html#practice'],
     ],
   },

@@ -71,6 +71,69 @@ const practiceSets = {
       ]
     }
   },
+  ecology: {
+    title: 'Ecology Test Review',
+    lesson: [
+      'A population is one species in an area. A community includes multiple populations, and an ecosystem includes those organisms plus nonliving factors such as water and temperature. Carrying capacity is the number an environment can support under current conditions.',
+      'Producers convert light energy into chemical energy stored in food. Food-web arrows point toward the organism receiving energy. Decomposers release nutrients back into the environment. Only part of the energy at each level transfers to the next.',
+      'In mutualism both organisms benefit. In commensalism one benefits and the other is unaffected. In parasitism the parasite benefits and the host is harmed. An invasive species is a nonnative species that causes harm.'
+    ],
+    categories: {
+      'Ecosystems 1': [
+        ['Every cricket of the same species in one field forms what?', 'A population', 'A community', 'An ecosystem', 'One species in one area is a population.'],
+        ['Which meadow feature is abiotic?', 'Soil temperature', 'Milkweed', 'Earthworms', 'Temperature is a nonliving condition.'],
+        ['What makes a pond an ecosystem?', 'Its organisms and their physical environment', 'Only its fish and frogs', 'Only its water and rocks', 'Ecosystems include interacting living and nonliving parts.']
+      ],
+      'Ecosystems 2': [
+        ['Which organisms form the base of most energy pyramids?', 'Producers', 'Top predators', 'Scavengers', 'Producers capture energy and make food that supports consumers.'],
+        ['A food web shows grass → cricket → lizard. Where does the cricket get energy directly?', 'Grass', 'Lizard', 'Sunlight', 'Energy passes from grass to the insect that eats it.'],
+        ['What do mushrooms breaking down a dead log return to the environment?', 'Nutrients', 'Sunlight', 'Extra energy for every trophic level', 'Decomposition returns nutrients that organisms can reuse.']
+      ],
+      'Ecosystems 3': [
+        ['Bees collect nectar and carry pollen between flowers. Which relationship fits?', 'Mutualism', 'Parasitism', 'Commensalism', 'The bees obtain food and the plants gain help reproducing.'],
+        ['A small plant grows on a tree branch for light and has no measurable effect on the tree. What is this?', 'Commensalism', 'Mutualism', 'Predation', 'One organism benefits and the other is unaffected.'],
+        ['A tick feeds on a deer. Which term describes the deer?', 'Host', 'Parasite', 'Producer', 'The host supplies resources to the parasite and may be harmed.']
+      ],
+      'Ecosystems 4': [
+        ['Drought cuts the grass supply for rabbits. What may decrease?', 'The meadow’s carrying capacity for rabbits', 'The strength of sunlight at every habitat', 'The number of species that are producers everywhere', 'Less food can lower the number the meadow can support.'],
+        ['Two bird species depend on the same scarce nesting spaces. Which interaction is this?', 'Competition', 'Mutualism', 'Decomposition', 'Both populations need the same limited resource.'],
+        ['Which is evidence that an introduced plant is invasive?', 'It spreads and crowds out native plants', 'It stays in one garden and causes no observed harm', 'It has grown in the region naturally for generations', 'Spread combined with harm is evidence of invasion.']
+      ],
+      'Ecosystems 5': [
+        ['A fox catches a mouse. Which animal is the prey?', 'The mouse', 'The fox', 'Both', 'The prey is the organism being hunted.'],
+        ['A crow eats berries and insects. What type of consumer is it?', 'Omnivore', 'Herbivore', 'Producer', 'An omnivore eats both plant and animal material.'],
+        ['Which example is scavenging?', 'A vulture feeding on an animal already dead', 'An owl catching a live mouse', 'Algae producing sugar', 'Scavengers eat dead animals or other dead material.']
+      ],
+      'Ecosystems 6': [
+        ['How can mottled fur help a prey animal?', 'It can make the animal harder to see', 'It lets the animal make food using light', 'It removes all competition for shelter', 'Camouflage is an adaptation that can reduce detection.'],
+        ['Why can a warning call help an animal group in thick vegetation?', 'Others may hear danger even when they cannot see it', 'Sounds make predators disappear', 'Only nearby plants can respond to it', 'Auditory signals can carry information out of sight.'],
+        ['If an insect population falls sharply, what else could change?', 'Birds that eat the insects may have less food', 'Every population must immediately disappear', 'Energy arrows must reverse direction', 'Feeding relationships connect populations, so one change can affect another.']
+      ]
+    }
+  },
+  sentences: {
+    title: 'Compound and complex sentence review',
+    lesson: [
+      'An independent clause has a subject and a verb and expresses a complete thought. A dependent clause also has a subject and a verb, but it needs another clause to complete the thought. A phrase such as after rehearsal has no subject–verb pair.',
+      'A compound sentence joins at least two independent clauses. A comma plus a coordinating conjunction such as and, but, or so can join them. A complex sentence has an independent clause and at least one dependent clause. Use a comma after an introductory dependent clause.'
+    ],
+    categories: {
+      'Simple or complex?': [
+        ['After rehearsal, Maya packed her bag.', 'Simple', 'Compound', 'Complex', 'After rehearsal is a phrase. Maya packed her bag is the only clause.'],
+        ['After rehearsal ended, Maya packed her bag.', 'Complex', 'Simple', 'Compound', 'After rehearsal ended has a subject and verb and depends on the main clause.'],
+        ['I will save a seat if you arrive early.', 'Complex', 'Simple', 'Compound', 'If you arrive early is a dependent clause after the independent clause.']
+      ],
+      'Compound or complex?': [
+        ['The lights dimmed, and the audience grew quiet.', 'Compound', 'Complex', 'Simple', 'Each side of and can stand alone as a sentence.'],
+        ['Although I had a pencil, I borrowed a pen.', 'Complex', 'Compound', 'Simple', 'Although I had a pencil cannot stand alone in this sentence.'],
+        ['Which conjunction joins the independent clauses in “I called, but nobody answered”?', 'but', 'I', 'nobody', 'But is a coordinating conjunction, one of the FANBOYS.']
+      ],
+      'Fix the punctuation': [
+        ['Which sentence correctly punctuates an introductory dependent clause?', 'When the bus arrived, we lined up.', 'When, the bus arrived we lined up.', 'When the bus, arrived we lined up.', 'Place the comma after the complete introductory clause.'],
+        ['Which correctly joins these two independent clauses?', 'I packed the cards, so we could start quickly.', 'I packed the cards so, we could start quickly.', 'I packed, the cards so we could start quickly.', 'When so connects two independent clauses, the comma goes immediately before so.']
+      ]
+    }
+  },
   expressions: {
     title: 'Expressions vocabulary and properties',
     lesson: [
