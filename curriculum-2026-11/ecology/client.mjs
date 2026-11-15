@@ -5,6 +5,13 @@ const params = new URLSearchParams(location.search);
 const weekEdition = params.get('week') === '2026-11-16';
 const privateMode = !weekEdition && !params.has('preview') && location.hostname !== 'snacks-reading.github.io' && !['localhost','127.0.0.1'].includes(location.hostname);
 const storageKey = weekEdition ? 'learn-with-ry:2026-11-16:ecology' : NAMESPACE;
+const secondTryKey = storageKey + ':second-tries';
+let secondTries = {};
+try { secondTries = JSON.parse(localStorage.getItem(secondTryKey) || '{}') || {}; } catch {}
+function saveSecondTry(key, value) {
+  secondTries[key] = value;
+  try { localStorage.setItem(secondTryKey, JSON.stringify(secondTries)); } catch {}
+}
 const narrator = window.createNarration(document.querySelector('.audio'));
 if (weekEdition) {
   const nav = document.querySelector('nav[aria-label="Science workspace"]');
@@ -75,11 +82,42 @@ function practice(){top('Assessments & Practice','All Science tests in one place
 }
 function round(r){
  if(!r){navigate('practice');return;}
- const last=r.answers.at(-1),show=feedbackId&&last?.itemId===feedbackId;
+ const last=r.answers.at(-1);
+ const retryKey=last?r.id+':'+last.itemId:'';
+ const secondValue=retryKey?secondTries[retryKey]:undefined;
+ const pendingSecond=!!last&&!last.correct&&secondValue===undefined;
+ const show=(feedbackId&&last?.itemId===feedbackId)||pendingSecond;
  const position=show?r.answers.length:r.answers.length+1;
  const title=show||!r.finishedAt?`Question ${position} of ${r.items.length}`:'Round complete';
  top(r.kind==='test'?(r.form==='D'?'Independent transfer check D':'Practice test '+r.form):r.kind==='repair'?'Fresh missed-skill round':'Day '+r.day+' recall',title,r.independent?'Independent work · read-aloud is allowed.':'Supported practice · saved separately from independent mastery.');
- if(show){const q=data.questions.find(q=>q.id===last.itemId);const box=add(main,'section',undefined,'feedback');add(box,'h2',last.correct?'Correct':'Let’s repair this idea');add(box,'p',q.prompt);add(box,'p','Your answer: '+q.options[last.selected]);add(box,'p','Correct answer: '+q.options[q.answer]);add(box,'p',q.rationale);button(box,'Read feedback',()=>speak('Correct answer: '+q.options[q.answer]+'. '+q.rationale),true);button(main,r.finishedAt?'See round results':'Next question',()=>{feedbackId=null;render();});link(main,'Review the teaching','#lesson/'+q.chapterId,'button secondary');reading=q.rationale;return;}
+ if(show){
+  const q=data.questions.find(q=>q.id===last.itemId);
+  if(!last.correct&&secondValue===undefined){
+   const box=add(main,'section',undefined,'feedback');
+   add(box,'h2','Try once more before the explanation');
+   add(box,'p','Your first answer is saved for scoring. Choose again; the answer and explanation stay hidden until this second response.');
+   add(box,'p',q.prompt,'prompt');
+   const field=add(box,'fieldset');add(field,'legend','Choose your second answer');
+   r.orders[q.id].forEach((i,j)=>{const lab=add(field,'label'),radio=add(lab,'input');radio.type='radio';radio.name='second-answer';radio.value=i;add(lab,'span',String.fromCharCode(65+j)+'. '+q.options[i]);});
+   const submit=button(box,'Submit second answer',()=>{const radio=field.querySelector('input:checked');if(!radio){status.textContent='Choose a second answer before submitting.';return;}saveSecondTry(retryKey,Number(radio.value));feedbackId=q.id;render();});
+   link(main,'Save and pause','#practice','button secondary');
+   reading=q.prompt+'. '+r.orders[q.id].map((i,j)=>String.fromCharCode(65+j)+'. '+q.options[i]).join('. ');
+   document.querySelector('#read').textContent='Read question and choices';
+   return;
+  }
+  const box=add(main,'section',undefined,'feedback');
+  add(box,'h2',last.correct?'Correct':'Second try complete');
+  add(box,'p',q.prompt);
+  add(box,'p','First answer: '+q.options[last.selected]);
+  if(!last.correct)add(box,'p','Second answer: '+q.options[secondValue]);
+  add(box,'p','Correct answer: '+q.options[q.answer]);
+  add(box,'p',q.rationale);
+  button(box,'Read feedback',()=>speak('Correct answer: '+q.options[q.answer]+'. '+q.rationale),true);
+  button(main,r.finishedAt?'See round results':'Next question',()=>{feedbackId=null;render();});
+  link(main,'Review the teaching','#lesson/'+q.chapterId,'button secondary');
+  reading=q.rationale;
+  return;
+ }
  if(r.finishedAt){add(main,'p',`${r.answers.filter(a=>a.correct).length}/${r.items.length} correct · ${Math.round(100*r.answers.filter(a=>a.correct).length/r.items.length)}%`);add(main,'p','This is the saved first-answer score. Mastery also needs evidence for every skill and later recall.');r.answers.forEach(a=>{const q=data.questions.find(q=>q.id===a.itemId);const d=add(main,'details');add(d,'summary',(a.correct?'Correct · ':'Missed · ')+q.prompt);add(d,'p','Selected: '+q.options[a.selected]);add(d,'p','Correct: '+q.options[q.answer]);add(d,'p',q.rationale);link(d,'Learn this idea','#lesson/'+q.chapterId,'');});link(main,'All practice tests','#practice');link(main,'Scores & progress','#progress','button secondary');return;}
  const q=data.questions.find(q=>q.id===r.items[r.answers.length]),order=r.orders[q.id];add(main,'p',q.prompt,'prompt');const field=add(main,'fieldset');add(field,'legend','Choose one answer');order.forEach((i,j)=>{const lab=add(field,'label'),radio=add(lab,'input');radio.type='radio';radio.name='answer';radio.value=i;add(lab,'span',String.fromCharCode(65+j)+'. '+q.options[i]);});
  const submit=button(main,'Submit answer',async()=>{const radio=field.querySelector('input:checked');if(!radio){status.textContent='Choose an answer before submitting.';return;}submit.disabled=true;const ok=await send({type:'answer',runId:r.id,itemId:q.id,selected:Number(radio.value)});if(ok)feedbackId=q.id;render();});link(main,'Save and pause','#practice','button secondary');reading=q.prompt+'. '+order.map((i,j)=>String.fromCharCode(65+j)+'. '+q.options[i]).join('. ');document.querySelector('#read').textContent='Read question and choices';
