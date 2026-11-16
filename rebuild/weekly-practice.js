@@ -79,6 +79,12 @@ function practiceRecord(attempt, items) {
   };
 }
 
+function needsWeeklyRetry(attempt, item) {
+  return Object.hasOwn(attempt.answers, item.id)
+    && attempt.answers[item.id] !== item.answer
+    && !Object.hasOwn(attempt.repairs ?? {}, item.id + '-repair');
+}
+
 function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
   if (!QUIZ_TOPICS.includes(topicId)) {
     add(main, 'h1', 'Choose a practice topic');
@@ -167,11 +173,13 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
   const items = attempt.ids.map(id => map.get(id)).filter(Boolean);
   const data = practiceRecord(attempt, items);
   const nextIndex = items.findIndex(item => !Object.hasOwn(attempt.answers, item.id));
-  const index = requestedIndex === undefined ? nextIndex : Number(requestedIndex);
+  const pendingRetry = items.findIndex(item => needsWeeklyRetry(attempt, item));
+  const nextRequiredIndex = pendingRetry === -1 ? nextIndex : pendingRetry;
+  const index = requestedIndex === undefined ? nextRequiredIndex : Number(requestedIndex);
   add(wrap, 'p', data.answered + ' of ' + items.length + ' answered · ' + (attempt.independent ? 'Independent' : 'Guided or supported'), 'muted');
   if (!weekStorageOK) updateStatus('');
 
-  if (nextIndex === -1 && requestedIndex === undefined) {
+  if (nextRequiredIndex === -1 && requestedIndex === undefined) {
     add(wrap, 'h3', data.correct + ' of ' + items.length + ' correct on the first try');
     const details = add(wrap, 'ol', undefined, 'practice-list');
     for (const [position, item] of items.entries()) {
@@ -183,7 +191,7 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
     return;
   }
 
-  if (!Number.isInteger(index) || !items[index] || (nextIndex >= 0 && index > nextIndex)) {
+  if (!Number.isInteger(index) || !items[index] || (nextRequiredIndex >= 0 && index > nextRequiredIndex)) {
     link(wrap, 'Resume at your next question', base, 'button');
     return;
   }
@@ -194,10 +202,11 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
   function lockResponse(response, chosen, repair = false) {
     const latest = readWeekRecords();
     const run = latest.attempts[key];
-    const stored = repair ? run.repairs : run.answers;
+    const stored = repair ? (run.repairs ??= {}) : run.answers;
     if (Object.hasOwn(stored, response.id)) return;
     stored[response.id] = chosen;
-    if (!run.finishedAt && run.ids.every(id => Object.hasOwn(run.answers, id))) {
+    if (!run.finishedAt && items.every(item =>
+      Object.hasOwn(run.answers, item.id) && !needsWeeklyRetry(run, item))) {
       run.finishedAt = new Date().toISOString();
     }
     persistWeekRecords(latest);
@@ -252,7 +261,7 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
     if (selected !== item.answer) {
       const repair = toWeeklyItem(item.skill, item.id + '-repair', item.skill.variants[3]);
       const repairOrder = attempt.orders[repair.id] ??= RyChoiceLayout.orders([repair])[repair.id];
-      const repairValue = attempt.repairs[repair.id];
+      const repairValue = attempt.repairs?.[repair.id];
       secondTryComplete = repairValue !== undefined;
       persistWeekRecords(records);
       add(wrap, 'h3', 'Try a fresh second question');
@@ -260,12 +269,12 @@ function renderWeekPractice(main, topicId, form, requestedIndex, routeKey) {
       toRead = repair;
       toReadOrder = repairOrder;
       if (secondTryComplete) {
+        add(wrap, 'p', 'Original answer · ' + item.options[item.answer] + '. ' + item.rationale);
         link(add(wrap, 'p'), 'Review the worked example', studyLink + '/' + item.skill.section);
       }
     }
     if (secondTryComplete) {
-      const next = nextIndex === -1 || index + 1 >= items.length ? base : base + '/' + (index + 1);
-      link(wrap, nextIndex === -1 ? 'See results' : 'Next question', next, 'button');
+      link(wrap, nextRequiredIndex === -1 ? 'See results' : 'Next question', base, 'button');
     }
   }
   link(wrap, 'Save and leave practice', home, 'button secondary');
@@ -329,7 +338,12 @@ function renderWeekProgress(main) {
         for (const item of misses) {
           add(review, 'h3', item.skill.label);
           add(review, 'p', item.prompt);
-          add(review, 'p', 'Answer · ' + item.options[item.answer] + '. ' + item.rationale);
+          if (needsWeeklyRetry(run, item)) {
+            const position = run.ids.indexOf(item.id);
+            link(add(review, 'p'), 'Complete your second try', '#check/' + id + '/' + form + '/' + position);
+          } else {
+            add(review, 'p', 'Answer · ' + item.options[item.answer] + '. ' + item.rationale);
+          }
         }
       }
     }
